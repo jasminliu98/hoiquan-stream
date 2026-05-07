@@ -58,8 +58,8 @@ def calc_is_live(api_live: bool, time_str: str) -> bool:
 
 
 def has_live_stream(streams: list) -> bool:
-    """Kiểm tra còn stream CDN 100ycdn thực sự không."""
-    return any("100ycdn.com" in s for s in streams)
+    """Kiểm tra có stream FHD thực sự không."""
+    return len(streams) > 0
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -360,20 +360,14 @@ def get_matches():
         res_finished = requests.get(f"{API_BASE}/finished", headers=HEADERS, timeout=15)
         res_finished.raise_for_status()
         data_finished = res_finished.json()
-        for item in data_finished if isinstance(data_finished, list) else []:
+        for item in data_finished.get("data", []) if isinstance(data_finished, dict) else []:
             if isinstance(item, dict) and item.get("id"):
                 finished_ids.add(str(item["id"]))
     except Exception:
         pass
 
-    # Xử lý trích xuất list (hỗ trợ nhiều cấu trúc lồng nhau)
-    fixtures = []
-    if isinstance(data_unfinished, list):
-        fixtures = data_unfinished
-    elif isinstance(data_unfinished, dict):
-        fixtures = data_unfinished.get("data", data_unfinished.get("fixtures", data_unfinished.get("items", [])))
-        if isinstance(fixtures, dict):
-            fixtures = fixtures.get("items", fixtures.get("data", []))
+    # Trích xuất list chính xác theo JSON thật: data -> []
+    fixtures = data_unfinished.get("data", []) if isinstance(data_unfinished, dict) else []
 
     matches = []
     for fix in fixtures:
@@ -401,7 +395,7 @@ def get_matches():
         if sport_slug == "bong-da" and is_america_league(league_name):
             continue
 
-        # UTC ISO → chuẩn "HH:MM DD/MM"
+        # UTC ISO -> "HH:MM DD/MM"
         start_time = fix.get("startTime", "")
         match_time = utc_to_vn_str(start_time)
 
@@ -411,33 +405,27 @@ def get_matches():
         api_live = fix.get("isLive", False)
         is_live_flag = calc_is_live(api_live, match_time)
 
-        # Lấy BLV & Link (chỉ lấy FHD, ưu tiên 100ycdn.com)
-        commentators_raw = fix.get("fixtureCommentators", []) or []
+        # Lấy BLV & Link FHD chuẩn theo cấu trúc JSON thật
+        commentators_raw = fix.get("fixtureCommentators", [])
         blv_list = []
         for comm in commentators_raw:
             if not isinstance(comm, dict):
                 continue
-            comm_name = comm.get("commentator", "") or comm.get("name", "")
-            streams_obj = comm.get("streams", {}) or {}
+            # commentator là 1 object chứa name và streams
+            comm_obj = comm.get("commentator", {}) or {}
+            comm_name = comm_obj.get("name", "")
             
-            comm_urls = []
-            for quality, stream_data in streams_obj.items():
-                if not isinstance(stream_data, dict): continue
-                url = stream_data.get("sourceUrl", "") or stream_data.get("url", "")
-                if not url: continue
-                
-                # Bỏ qua HD/SD (đặc điểm có chứa 'tracks-v')
-                if "tracks-v" in url:
-                    continue
-                    
-                # Ưu tiên 100ycdn.com lên đầu, fallback hqlive.zlylive.com
-                if "100ycdn.com" in url:
-                    comm_urls.insert(0, url)
-                elif "hqlive.zlylive.com" in url:
-                    comm_urls.append(url)
+            # streams là 1 list các object
+            streams_list = comm_obj.get("streams", []) or []
+            fhd_url = ""
+            if isinstance(streams_list, list):
+                for stream in streams_list:
+                    if isinstance(stream, dict) and stream.get("name") == "FHD":
+                        fhd_url = stream.get("sourceUrl", "")
+                        break
             
-            if comm_name and comm_urls:
-                blv_list.append({"name": comm_name, "urls": comm_urls})
+            if comm_name and fhd_url:
+                blv_list.append({"name": comm_name, "fhd_url": fhd_url})
 
         if not blv_list:
             continue
@@ -462,7 +450,6 @@ def get_matches():
             "blv_list":       blv_list,
         })
 
-    # LIVE lên đầu → sort theo sport_priority → giờ tăng dần
     matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["sport_priority"], m["time_sort"]))
     return matches
 
@@ -471,17 +458,14 @@ def get_matches():
 # SCRAPE STREAMS
 # ─────────────────────────────────────────────────────────────────────────────
 
-def get_streams(match_id, blv_list):
-    """
-    Lấy stream từ tất cả BLV (đã có sẵn từ API).
-    Ưu tiên: Link 1 sẽ là CDN 100ycdn, Link 2 sẽ là Direct.
-    """
+def get_streams(match, blv_list):
+    """Lấy stream FHD trực tiếp từ list đã parse sẵn (đúng chuẩn API)."""
     streams = []
     for blv in blv_list:
-        for url in blv.get("urls", []):
-            if url not in streams:
-                streams.append(url)
-                print(f"    BLV [{blv['name']}] -> {'100ycdn' if '100ycdn.com' in url else 'Direct'}")
+        url = blv.get("fhd_url", "")
+        if url and url not in streams:
+            streams.append(url)
+            print(f"    BLV [{blv['name']}] -> FHD")
     return streams
 
 
@@ -498,31 +482,11 @@ def build_channel(match, streams, thumb_url=""):
     blv_list = match.get("blv_list", [])
 
     stream_links = []
-    blv_idx = 0
-
     for i, s_url in enumerate(streams):
-        blv_name = ""
-        is_cdn = "100ycdn.com" in s_url
-
-        # Map URL ngược lại tìm tên BLV tương ứng
-        for b_idx in range(blv_idx, len(blv_list)):
-            if s_url in blv_list[b_idx].get("urls", []):
-                blv_name = blv_list[b_idx]["name"]
-                # Nếu là link cuối của BLV này -> nhảy sang BLV tiếp theo cho vòng lặp sau
-                if s_url == blv_list[b_idx]["urls"][-1]:
-                    blv_idx = b_idx + 1
-                break
-
-        # Đặt tên chuẩn logic Cakhia (Link CDN lấy tên BLV, Link Direct đánh số 2)
-        name = ""
-        if is_cdn:
-            name = blv_name if blv_name else "Link 1"
-        elif "hqlive.zlylive.com" in s_url:
-            name = "Link 2"
-
-        if not name:
-            continue
-
+        # Map tên BLV theo index (vì mỗi BLV chỉ tương ứng 1 link FHD)
+        blv_name = blv_list[i]["name"] if i < len(blv_list) else ""
+        name = blv_name if blv_name else "Link FHD"
+        
         lnk_id = make_id(s_url + str(i), "lnk")
         stream_links.append({
             "id":      lnk_id,
@@ -609,11 +573,10 @@ def main():
 
         streams = []
         if match["is_live"]:
-            streams = get_streams(match["match_id"], match["blv_list"])
+            streams = get_streams(match, match["blv_list"])
 
-            # Nếu không có 100ycdn stream → trận lỗi, bỏ qua
             if not has_live_stream(streams):
-                print(f"  Khong co CDN 100ycdn -> bo qua")
+                print(f"  Khong co stream FHD -> bo qua")
                 continue
             print(f"  stream: {len(streams)} link")
 
@@ -631,14 +594,12 @@ def main():
 
         time.sleep(0.2)
 
-    # Khởi tạo sẵn tất cả môn để cố định thứ tự group y hệt Cakhia
     cate_channels = {slug: [] for slug in CATE_MAP}
     for slug, channels in sport_channels.items():
         if slug not in cate_channels:
             cate_channels[slug] = []
         cate_channels[slug].extend(channels)
 
-    # Build groups theo priority của sport
     slug_priority = {}
     for m in matches:
         slug = m["sport_slug"]
