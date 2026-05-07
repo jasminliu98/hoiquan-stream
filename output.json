@@ -2,7 +2,7 @@
   "id": "hoiquan",
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
-  "updated_at": "02:10 08/05/2026",
+  "updated_at": "02:15 08/05/2026",
   "color": "#1cb57a",
   "grid_number": 3,
   "image": {
@@ -1236,59 +1236,6 @@
           }
         },
         {
-          "id": "hqlive-d04cb95ba2",
-          "name": "Cleveland Cavaliers  vs Detroit Pistons | 02:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d04cb95ba2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d04cb95ba2",
-                  "name": "Cleveland Cavaliers  vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-d04cb95ba2",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Cleveland Cavaliers ",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
-            "time": "02:00 09/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d04cb95ba2_00ed3713_20260508.png?v=00ed3713",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-5248e5118c",
           "name": "Philadelphia 76ers vs New York Knicks | 06:00 09/05",
           "type": "single",
@@ -1448,59 +1395,6 @@
           }
         },
         {
-          "id": "hqlive-8346db44a7",
-          "name": " KCC Egis vs Goyang Sono | 14:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8346db44a7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8346db44a7",
-                  "name": " KCC Egis vs Goyang Sono",
-                  "streams": [
-                    {
-                      "id": "st-8346db44a7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KBL",
-            "team_a": " KCC Egis",
-            "team_b": "Goyang Sono",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEFZhuqXE1ckKN_nKQg-3kz1LTeCN3GV-8kA&s",
-            "logo_b": "https://i.pinimg.com/474x/a2/15/26/a215265c058c137f372492e73f02beaf.jpg",
-            "time": "14:30 09/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8346db44a7_9feb088a_20260508.png?v=9feb088a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-f77ad541b6",
           "name": "Guangdong vs Beijing | 18:30 09/05",
           "type": "single",
@@ -1607,8 +1501,114 @@
           }
         },
         {
+          "id": "hqlive-d04cb95ba2",
+          "name": "Cleveland Cavaliers  vs Detroit Pistons | 02:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d04cb95ba2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d04cb95ba2",
+                  "name": "Cleveland Cavaliers  vs Detroit Pistons",
+                  "streams": [
+                    {
+                      "id": "st-d04cb95ba2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Cleveland Cavaliers ",
+            "team_b": "Detroit Pistons",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
+            "time": "02:00 10/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d04cb95ba2_00ed3713_20260508.png?v=00ed3713",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8346db44a7",
+          "name": " KCC Egis vs Goyang Sono | 14:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8346db44a7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8346db44a7",
+                  "name": " KCC Egis vs Goyang Sono",
+                  "streams": [
+                    {
+                      "id": "st-8346db44a7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KBL",
+            "team_a": " KCC Egis",
+            "team_b": "Goyang Sono",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEFZhuqXE1ckKN_nKQg-3kz1LTeCN3GV-8kA&s",
+            "logo_b": "https://i.pinimg.com/474x/a2/15/26/a215265c058c137f372492e73f02beaf.jpg",
+            "time": "14:30 10/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8346db44a7_9feb088a_20260508.png?v=9feb088a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-9773d3352e",
-          "name": " Shanxi Zhongyu vs Zhejiang Guangsha | 18:30 09/05",
+          "name": " Shanxi Zhongyu vs Zhejiang Guangsha | 18:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1645,7 +1645,7 @@
             "team_b": "Zhejiang Guangsha",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/55/Shanxi_Brave_Dragons_logo.jpg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
-            "time": "18:30 09/05",
+            "time": "18:30 10/05",
             "blv": "BLV PHAN HÀ LINH",
             "is_live": false,
             "sport_slug": "bong-ro"
@@ -1661,7 +1661,7 @@
         },
         {
           "id": "hqlive-feeef9bd04",
-          "name": "Zhejiang Chouzhou vs Shenzhen  | 18:30 09/05",
+          "name": "Zhejiang Chouzhou vs Shenzhen  | 18:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1698,7 +1698,7 @@
             "team_b": "Shenzhen ",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e8/Zhejiang_Professional_F.C.svg",
             "logo_b": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
-            "time": "18:30 09/05",
+            "time": "18:30 10/05",
             "blv": "BLV PHAN MÃO",
             "is_live": false,
             "sport_slug": "bong-ro"
