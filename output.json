@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,6 +100,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f862d13454_9c4bec51_20260508.png?v=9c4bec51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bd48f59a9f",
+          "name": "Crystal Palace vs Shakhtar Donetsk | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd48f59a9f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bd48f59a9f",
+                  "name": "Crystal Palace vs Shakhtar Donetsk",
+                  "streams": [
+                    {
+                      "id": "st-bd48f59a9f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d53c00e49f",
+                          "name": "Full HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9bbd2f4f8b",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://alive.zlylive.com/hqtv_blv_phanhalinh/tracks-v2a1/mono.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "Crystal Palace",
+            "team_b": "Shakhtar Donetsk",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/550.png",
+            "time": "02:00 08/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bd48f59a9f_5207e757_20260508.png?v=5207e757",
             "width": 1600,
             "height": 1200
           }
@@ -206,59 +294,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-75da5036f6_c934a8d5_20260508.png?v=c934a8d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-bd48f59a9f",
-          "name": "Crystal Palace vs Shakhtar Donetsk | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd48f59a9f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bd48f59a9f",
-                  "name": "Crystal Palace vs Shakhtar Donetsk",
-                  "streams": [
-                    {
-                      "id": "st-bd48f59a9f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "Crystal Palace",
-            "team_b": "Shakhtar Donetsk",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/550.png",
-            "time": "02:00 08/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bd48f59a9f_5207e757_20260508.png?v=5207e757",
             "width": 1600,
             "height": 1200
           }
@@ -524,6 +559,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b522259710_5505c1dc_20260508.png?v=5505c1dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3c5be6328b",
+          "name": "Borussia Dortmund  vs Eintracht Frankfurt | 01:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c5be6328b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3c5be6328b",
+                  "name": "Borussia Dortmund  vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-3c5be6328b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Borussia Dortmund ",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/FZnTSH2rbHFos4BnlWAItw_96x96.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/7e/Eintracht_Frankfurt_crest.svg",
+            "time": "01:30 09/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3c5be6328b_39b98abc_20260508.png?v=39b98abc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d8ea5f53c1",
+          "name": "Borussia Dortmund  vs Eintracht Frankfurt | 01:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8ea5f53c1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d8ea5f53c1",
+                  "name": "Borussia Dortmund  vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-d8ea5f53c1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Borussia Dortmund ",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/FZnTSH2rbHFos4BnlWAItw_96x96.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/7e/Eintracht_Frankfurt_crest.svg",
+            "time": "01:30 09/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d8ea5f53c1_39b98abc_20260508.png?v=39b98abc",
             "width": 1600,
             "height": 1200
           }
