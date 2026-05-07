@@ -77,21 +77,18 @@ REPO_RAW    = os.environ.get("REPO_RAW", "")
 
 CATE_MAP = {
     "bong-da":     "⚽ Bóng Đá",
-    "bong-ro":     "🏀 Bóng Rổ",
-    "billiards":   "🎱 Billiards",
     "tennis":      "🎾 Tennis",
     "bong-ban":    "🏓 Bóng Bàn",
+    "billiards":   "🎱 Billiards",
+    "esports":     "🎮 Esports",
     "bong-chuyen": "🏐 Bóng Chuyền",
     "cau-long":    "🏸 Cầu Lông",
-    "vo-thuat":    "🥊 Võ Thuật",
+    "bong-ro":     "🏀 Bóng Rổ",
+    "dua-xe":      "🏎️ Đua Xe",
+    "boxing":      "🥊 Boxing",
 }
 
 EXCLUDE_LEAGUES_AMERICA = [
-    "mls", "major league soccer",
-    "liga mx", "liga de expansion",
-    "brasileirao", "brasileirão", "serie a brasil", "campeonato brasileiro", "brazilian",
-    "copa do brasil",
-    "argentine", "argentina", "liga profesional", "copa de la liga",
     "colombian", "colombia", "liga betplay", "categoria primera", "primera a",
     "chile", "primera division chile",
     "ecuador", "liga pro ecuador",
@@ -100,12 +97,6 @@ EXCLUDE_LEAGUES_AMERICA = [
     "paraguay", "apertura paraguay",
     "uruguay", "primera division uruguay",
     "bolivia", "division profesional",
-    "inter miami", "new england", "la galaxy", "nycfc",
-    "concacaf", "conmebol",
-    "copa america", "copa sudamericana", "copa libertadores",
-    "jupiler", "pro league", "first division a", "belgian",
-    "efbet league", "parva liga", "bulgarian",
-    "super lig", "tff", "turkish", "süper lig",
 ]
 
 THUMB_VERSION = "v6"
