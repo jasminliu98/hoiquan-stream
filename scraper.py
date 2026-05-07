@@ -99,7 +99,7 @@ EXCLUDE_LEAGUES_AMERICA = [
     "bolivia", "division profesional",
 ]
 
-THUMB_VERSION = "v6"
+THUMB_VERSION = "v1"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
