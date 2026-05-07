@@ -263,28 +263,32 @@ def make_thumbnail(match, channel_id):
     team_a_name = match.get("team_a", "")
     team_b_name = match.get("team_b", "")
 
-    # 1. TẢI ẢNH VÀO BỘ NHỚ TRƯỚC ĐỂ KIỂM TRA
+    # 1. TẢI ẢNH (Đã có sẵn cơ chế fallback vào api_sports_data.json trong hàm fetch_image)
     img_a = fetch_image(match.get("logo_a"), team_a_name)
     img_b = fetch_image(match.get("logo_b"), team_b_name)
     
     has_a = img_a is not None
     has_b = img_b is not None
 
-    # 2. TÍNH TOÁN VỊ TRÍ DÁN ẢNH (LOGIC MỚI)
-    if has_a and has_b:
-        x_a = W // 4 - logo_size // 2
-        x_b = W * 3 // 4 - logo_size // 2
-    elif has_a: # Chỉ có đội A
-        x_a = W // 2 - logo_size // 2
-        x_b = -9999
-    elif has_b: # Chỉ có đội B
-        x_a = -9999
-        x_b = W // 2 - logo_size // 2
-    else:
-        x_a = -9999
-        x_b = -9999
+    # 2. KIỂM TRA THỰC TẾ CÓ BAO NHIÊU ĐỘI (Dựa vào tên)
+    has_two_teams = bool(team_a_name.strip() and team_b_name.strip())
 
-    # 3. DÁN ẢNH VÀO BACKGROUND
+    x_a = -9999
+    x_b = -9999
+    show_vs = False
+
+    # 3. TÍNH TOÁN VỊ TRÍ
+    if has_two_teams:
+        # Có 2 đội: Logo giữ nguyên 2 bên, BẮT BUỘC hiện VS
+        if has_a: x_a = W // 4 - logo_size // 2
+        if has_b: x_b = W * 3 // 4 - logo_size // 2
+        show_vs = True
+    else:
+        # Chỉ có 1 đội (Ví dụ chờ đối thủ): Đẩy logo ra giữa, ẨN VS
+        if has_a: x_a = W // 2 - logo_size // 2
+        if has_b: x_b = W // 2 - logo_size // 2
+
+    # 4. DÁN ẢNH
     if has_a:
         try:
             img_a = img_a.resize((logo_size, logo_size), Image.LANCZOS)
@@ -299,8 +303,8 @@ def make_thumbnail(match, channel_id):
             else: bg.paste(img_b, (x_b, logo_y))
         except Exception as e: print(f"  [Lỗi dán logo B]: {e}")
 
-    # 4. CHỈ VẼ CHỮ "VS" NẾU CẢ 2 ĐỘI ĐỀU CÓ LOGO
-    if has_a and has_b:
+    # 5. VẼ CHỮ VS
+    if show_vs:
         draw.text((W // 2, logo_y + logo_size // 2), "VS", fill=ACCENT, font=font_vs, anchor="mm")
 
     def draw_team_name(text, cx):
