@@ -6,16 +6,87 @@
   "grid_number": 3,
   "image": {
     "type": "cover",
-    "url": "https://kaytee1012.github.io/hoiquan_logo.png"
+    "url": "https://sv2.hoiquan3.live/logo.png"
   },
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-f862d13454",
+          "name": "Al Shabab vs Al-Nassr | 01:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f862d13454",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f862d13454",
+                  "name": "Al Shabab vs Al-Nassr",
+                  "streams": [
+                    {
+                      "id": "st-f862d13454",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e83c39114",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al Shabab",
+            "team_b": "Al-Nassr",
+            "logo_a": "https://media.api-sports.io/football/teams/2940.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2939.png",
+            "time": "01:00 08/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f862d13454_9c4bec51_20260508.png?v=9c4bec51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-ae3d525daf",
           "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
@@ -171,6 +242,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bd48f59a9f_5207e757_20260508.png?v=5207e757",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-032a01d833",
+          "name": "Carabobo FC vs River Plate | 07:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-032a01d833",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-032a01d833",
+                  "name": "Carabobo FC vs River Plate",
+                  "streams": [
+                    {
+                      "id": "st-032a01d833",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Sudamericana",
+            "team_a": "Carabobo FC",
+            "team_b": "River Plate",
+            "logo_a": "https://media.api-sports.io/football/teams/2810.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/4/41/River_Plate_logo.png",
+            "time": "07:30 08/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-032a01d833_222c2e03_20260508.png?v=222c2e03",
             "width": 1600,
             "height": 1200
           }
@@ -1223,6 +1347,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-439fca360b_5b3bdc2c_20260508.png?v=5b3bdc2c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-dcacff2565",
+          "name": "Caty McNally  vs Iga Swiatek | 16:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dcacff2565",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dcacff2565",
+                  "name": "Caty McNally  vs Iga Swiatek",
+                  "streams": [
+                    {
+                      "id": "st-dcacff2565",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Caty McNally ",
+            "team_b": "Iga Swiatek",
+            "logo_a": "https://preview.redd.it/wta-1000-madrid-r3-caty-mcnally-def-katerina-siniakova-6-3-v0-edv9aefkxixg1.jpeg?auto=webp&s=b41cc2c7b715f1683ed76baeadceed9a232bd3c1",
+            "logo_b": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "time": "16:00 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-dcacff2565_384fe29d_20260508.png?v=384fe29d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3332880692",
+          "name": "Daniel Altmaier vs Alexandet Zverev | 18:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3332880692",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3332880692",
+                  "name": "Daniel Altmaier vs Alexandet Zverev",
+                  "streams": [
+                    {
+                      "id": "st-3332880692",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Daniel Altmaier",
+            "team_b": "Alexandet Zverev",
+            "logo_a": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "time": "18:00 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3332880692_0a25e423_20260508.png?v=0a25e423",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f75dddd1e7",
+          "name": "Dino Prizmic  vs Novak Djokovic | 19:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f75dddd1e7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f75dddd1e7",
+                  "name": "Dino Prizmic  vs Novak Djokovic",
+                  "streams": [
+                    {
+                      "id": "st-f75dddd1e7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Dino Prizmic ",
+            "team_b": "Novak Djokovic",
+            "logo_a": "https://media.gettyimages.com/id/2236397410/photo/chengdu-china-dino-prizmic-of-croatia-celebrates-during-the-mens-singles-round-of-16-match.jpg?s=612x612&w=gi&k=20&c=h72DfGN8FZnUYGV_2-yQ9o2j2A0csp7e1G4SrmFn4Iw=",
+            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
+            "time": "19:30 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f75dddd1e7_56058519_20260508.png?v=56058519",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b05b57f6ad",
+          "name": "Maria Sakkari vs Elena Rybakina | 21:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b05b57f6ad",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b05b57f6ad",
+                  "name": "Maria Sakkari vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-b05b57f6ad",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Maria Sakkari",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaAgF1hQpQKVvan9PdltbW5xHgDapkebUiA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
+            "time": "21:30 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b05b57f6ad_6e380abb_20260508.png?v=6e380abb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-701d804549",
+          "name": "Lorenzo Musett vs Giovanni Mpetshi Perricard | 01:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-701d804549",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-701d804549",
+                  "name": "Lorenzo Musett vs Giovanni Mpetshi Perricard",
+                  "streams": [
+                    {
+                      "id": "st-701d804549",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Lorenzo Musett",
+            "team_b": "Giovanni Mpetshi Perricard",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/64/Musetti_MCM23_%2811%29_%2852883593753%29.jpg",
+            "logo_b": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
+            "time": "01:30 09/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-701d804549_645622c7_20260508.png?v=645622c7",
             "width": 1600,
             "height": 1200
           }
