@@ -8,5 +8,1412 @@
     "type": "cover",
     "url": "https://kaytee1012.github.io/hoiquan_logo.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "sport_bong-da",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-ae3d525daf",
+          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae3d525daf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ae3d525daf",
+                  "name": "Aston Villa vs Nottingham Forest",
+                  "streams": [
+                    {
+                      "id": "st-ae3d525daf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Aston Villa",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/Zr6FbE-8pDH7UBpWCO8U9A_96x96.png",
+            "time": "02:00 08/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-ae3d525daf_f522a1f4_20260508.png?v=f522a1f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-75da5036f6",
+          "name": "Strasbourg vs Rayo Vallecano | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75da5036f6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-75da5036f6",
+                  "name": "Strasbourg vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-75da5036f6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "Strasbourg",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/80/Racing_Club_de_Strasbourg_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
+            "time": "02:00 08/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-75da5036f6_c934a8d5_20260508.png?v=c934a8d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bd48f59a9f",
+          "name": "Crystal Palace vs Shakhtar Donetsk | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd48f59a9f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bd48f59a9f",
+                  "name": "Crystal Palace vs Shakhtar Donetsk",
+                  "streams": [
+                    {
+                      "id": "st-bd48f59a9f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "Crystal Palace",
+            "team_b": "Shakhtar Donetsk",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/550.png",
+            "time": "02:00 08/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bd48f59a9f_5207e757_20260508.png?v=5207e757",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-acd9bdac88",
+          "name": "Semen Padang vs Persik Kediri | 15:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-acd9bdac88",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-acd9bdac88",
+                  "name": "Semen Padang vs Persik Kediri",
+                  "streams": [
+                    {
+                      "id": "st-acd9bdac88",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Semen Padang",
+            "team_b": "Persik Kediri",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/min/1/1e/Semen_Padang_FC.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/4/4c/Persik_Kediri_logo.svg",
+            "time": "15:30 08/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-acd9bdac88_d7a5a446_20260508.png?v=d7a5a446",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2d45cbe914",
+          "name": "Da Nang vs Binh Duong | 18:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d45cbe914",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2d45cbe914",
+                  "name": "Da Nang vs Binh Duong",
+                  "streams": [
+                    {
+                      "id": "st-2d45cbe914",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Da Nang",
+            "team_b": "Binh Duong",
+            "logo_a": "https://media.api-sports.io/football/teams/3669.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/LOGO_BFC.png/960px-LOGO_BFC.png",
+            "time": "18:00 08/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-2d45cbe914_d89381e0_20260508.png?v=d89381e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f0b76267fb",
+          "name": "Ilves vs AC Oulu | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0b76267fb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f0b76267fb",
+                  "name": "Ilves vs AC Oulu",
+                  "streams": [
+                    {
+                      "id": "st-f0b76267fb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Ilves",
+            "team_b": "AC Oulu",
+            "logo_a": "https://media.api-sports.io/football/teams/1163.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2077.png",
+            "time": "22:00 08/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f0b76267fb_884167b9_20260508.png?v=884167b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b522259710",
+          "name": "SC Paderborn 07 vs Karlsruher SC | 23:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b522259710",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b522259710",
+                  "name": "SC Paderborn 07 vs Karlsruher SC",
+                  "streams": [
+                    {
+                      "id": "st-b522259710",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "SC Paderborn 07",
+            "team_b": "Karlsruher SC",
+            "logo_a": "https://dothethao.net.vn/wp-content/uploads/2020/06/sc-paderborn-logo-900px.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Karlsruher_SC_Logo_2.svg/1280px-Karlsruher_SC_Logo_2.svg.png",
+            "time": "23:30 08/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b522259710_5505c1dc_20260508.png?v=5505c1dc",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-89c86ad4bb",
+          "name": "Tay cơ 1 vs Tay cơ 2 | 12:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89c86ad4bb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-89c86ad4bb",
+                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "streams": [
+                    {
+                      "id": "st-89c86ad4bb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 ALLIN C2 ROAD TO WORLD",
+            "team_a": "Tay cơ 1",
+            "team_b": "Tay cơ 2",
+            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "time": "12:00 08/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-89c86ad4bb_09722ea2_20260508.png?v=09722ea2",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ro",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-201d546992",
+          "name": "Detroit Pistons vs Cleveland Cavaliers  | 06:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-201d546992",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-201d546992",
+                  "name": "Detroit Pistons vs Cleveland Cavaliers ",
+                  "streams": [
+                    {
+                      "id": "st-201d546992",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Detroit Pistons",
+            "team_b": "Cleveland Cavaliers ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "time": "06:00 08/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-201d546992_9234a8cf_20260508.png?v=9234a8cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5248e5118c",
+          "name": "Philadelphia 76ers vs New York Knicks | 06:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5248e5118c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5248e5118c",
+                  "name": "Philadelphia 76ers vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-5248e5118c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Philadelphia 76ers",
+            "team_b": "New York Knicks",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/0e/Philadelphia_76ers_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
+            "time": "06:00 08/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-5248e5118c_09b6c83f_20260508.png?v=09b6c83f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7900770abf",
+          "name": "Oklahoma City Thunder vs Los Angeles Lakers | 08:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7900770abf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7900770abf",
+                  "name": "Oklahoma City Thunder vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-7900770abf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "logo_b": "https://www.freepnglogos.com/uploads/lakers-logo-png/los-angeles-lakers-wordmark-logo-png-4.png",
+            "time": "08:30 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-7900770abf_b9eace99_20260508.png?v=b9eace99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-fbefa505c8",
+          "name": "Minnesota Timberwolves vs San Antonio Spurs | 08:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbefa505c8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fbefa505c8",
+                  "name": "Minnesota Timberwolves vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-fbefa505c8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Minnesota Timberwolves",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "time": "08:30 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-fbefa505c8_47fdbe0f_20260508.png?v=47fdbe0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9f8785c7f9",
+          "name": " KCC Egis vs Goyang Sono | 12:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f8785c7f9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9f8785c7f9",
+                  "name": " KCC Egis vs Goyang Sono",
+                  "streams": [
+                    {
+                      "id": "st-9f8785c7f9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KBL",
+            "team_a": " KCC Egis",
+            "team_b": "Goyang Sono",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEFZhuqXE1ckKN_nKQg-3kz1LTeCN3GV-8kA&s",
+            "logo_b": "https://i.pinimg.com/474x/a2/15/26/a215265c058c137f372492e73f02beaf.jpg",
+            "time": "12:30 08/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9f8785c7f9_df33df12_20260508.png?v=df33df12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f77ad541b6",
+          "name": "Guangdong vs Beijing | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f77ad541b6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f77ad541b6",
+                  "name": "Guangdong vs Beijing",
+                  "streams": [
+                    {
+                      "id": "st-f77ad541b6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Guangdong",
+            "team_b": "Beijing",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/15/Guangdong_Southern_Tigers.png",
+            "logo_b": "https://static.bongda24h.vn/Medias/thumnail/2022/1/25/beijing-guoan.png",
+            "time": "18:30 08/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f77ad541b6_b328a65d_20260508.png?v=b328a65d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-358c850b38",
+          "name": "Shandong  vs Shanghai | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-358c850b38",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-358c850b38",
+                  "name": "Shandong  vs Shanghai",
+                  "streams": [
+                    {
+                      "id": "st-358c850b38",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Shandong ",
+            "team_b": "Shanghai",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/88/Shandong_Taishan_Football_Club.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/3/38/Shanghai_Sharks_logo.png",
+            "time": "18:30 08/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-358c850b38_bf7eab0c_20260508.png?v=bf7eab0c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d04cb95ba2",
+          "name": "Cleveland Cavaliers  vs Detroit Pistons | 02:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d04cb95ba2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d04cb95ba2",
+                  "name": "Cleveland Cavaliers  vs Detroit Pistons",
+                  "streams": [
+                    {
+                      "id": "st-d04cb95ba2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Cleveland Cavaliers ",
+            "team_b": "Detroit Pistons",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
+            "time": "02:00 09/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d04cb95ba2_ee062ae7_20260508.png?v=ee062ae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c705112d1e",
+          "name": "Los Angeles Lakers vs Oklahoma City Thunder | 07:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c705112d1e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c705112d1e",
+                  "name": "Los Angeles Lakers vs Oklahoma City Thunder",
+                  "streams": [
+                    {
+                      "id": "st-c705112d1e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Los Angeles Lakers",
+            "team_b": "Oklahoma City Thunder",
+            "logo_a": "https://www.freepnglogos.com/uploads/lakers-logo-png/los-angeles-lakers-wordmark-logo-png-4.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "time": "07:30 09/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c705112d1e_27bdb4da_20260508.png?v=27bdb4da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8346db44a7",
+          "name": " KCC Egis vs Goyang Sono | 14:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8346db44a7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8346db44a7",
+                  "name": " KCC Egis vs Goyang Sono",
+                  "streams": [
+                    {
+                      "id": "st-8346db44a7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KBL",
+            "team_a": " KCC Egis",
+            "team_b": "Goyang Sono",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEFZhuqXE1ckKN_nKQg-3kz1LTeCN3GV-8kA&s",
+            "logo_b": "https://i.pinimg.com/474x/a2/15/26/a215265c058c137f372492e73f02beaf.jpg",
+            "time": "14:30 09/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8346db44a7_df33df12_20260508.png?v=df33df12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9773d3352e",
+          "name": " Shanxi Zhongyu vs Zhejiang Guangsha | 18:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9773d3352e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9773d3352e",
+                  "name": " Shanxi Zhongyu vs Zhejiang Guangsha",
+                  "streams": [
+                    {
+                      "id": "st-9773d3352e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": " Shanxi Zhongyu",
+            "team_b": "Zhejiang Guangsha",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/55/Shanxi_Brave_Dragons_logo.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
+            "time": "18:30 09/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9773d3352e_07b1aaaa_20260508.png?v=07b1aaaa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-feeef9bd04",
+          "name": "Zhejiang Chouzhou vs Shenzhen  | 18:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-feeef9bd04",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-feeef9bd04",
+                  "name": "Zhejiang Chouzhou vs Shenzhen ",
+                  "streams": [
+                    {
+                      "id": "st-feeef9bd04",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Zhejiang Chouzhou",
+            "team_b": "Shenzhen ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e8/Zhejiang_Professional_F.C.svg",
+            "logo_b": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
+            "time": "18:30 09/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-feeef9bd04_e76c5460_20260508.png?v=e76c5460",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-07d5938693",
+          "name": "Lorenzo Sonego vs  Ignacio Buse | 00:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07d5938693",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-07d5938693",
+                  "name": "Lorenzo Sonego vs  Ignacio Buse",
+                  "streams": [
+                    {
+                      "id": "st-07d5938693",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66e3e80302",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Lorenzo Sonego",
+            "team_b": " Ignacio Buse",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Xp6R6nfpFwhEpBeHln9klK2IKYhtFAyZ9w&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaDdZBQVJErHrBYSO4n_ujV9a7SR3B_jPfw&s",
+            "time": "00:00 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-07d5938693_f2521eda_20260508.png?v=f2521eda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-439fca360b",
+          "name": "Aryna Sabalenka vs Barbora Krejčíková | 01:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-439fca360b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-439fca360b",
+                  "name": "Aryna Sabalenka vs Barbora Krejčíková",
+                  "streams": [
+                    {
+                      "id": "st-439fca360b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Aryna Sabalenka",
+            "team_b": "Barbora Krejčíková",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Krejcikova_US16_%2810%29_%2829780173921%29.jpg/960px-Krejcikova_US16_%2810%29_%2829780173921%29.jpg",
+            "time": "01:30 08/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-439fca360b_5b3bdc2c_20260508.png?v=5b3bdc2c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ban",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-9c415bdd4d",
+          "name": "Đức vs Hồng Kông | 23:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c415bdd4d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9c415bdd4d",
+                  "name": "Đức vs Hồng Kông",
+                  "streams": [
+                    {
+                      "id": "st-9c415bdd4d",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8fc5eb222",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Đức",
+            "team_b": "Hồng Kông",
+            "logo_a": "https://eurotravel.com.vn/wp-content/uploads/2023/05/quoc-ky-duc-thoi-chien-tranh-napoleon.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
+            "time": "23:00 07/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": true,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9c415bdd4d_c029428d_20260508.png?v=c029428d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-35d8f387d4",
+          "name": "Nhật Bản vs  Ukraine | 16:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d8f387d4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-35d8f387d4",
+                  "name": "Nhật Bản vs  Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-35d8f387d4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Nhật Bản",
+            "team_b": " Ukraine",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/3840px-Flag_of_Japan.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png",
+            "time": "16:00 08/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-35d8f387d4_74310a20_20260508.png?v=74310a20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7f489f642a",
+          "name": "Trung Quốc vs Hàn Quốc | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f489f642a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7f489f642a",
+                  "name": "Trung Quốc vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-7f489f642a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Trung Quốc",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+            "time": "18:30 08/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-7f489f642a_ebc0b0f5_20260508.png?v=ebc0b0f5",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
