@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 
 # ─────────────────────────────────────────────────────────────────────────────
-# TIMEZONE
+# TIMEZONE & IS_LIVE — fix theo giờ VN thực
 # ─────────────────────────────────────────────────────────────────────────────
 
 VN_TZ       = timezone(timedelta(hours=7))
@@ -20,48 +20,46 @@ def now_vn() -> datetime:
     return datetime.now(tz=VN_TZ)
 
 
-def utc_to_vn(utc_str: str) -> datetime | None:
-    """Parse ISO UTC string → datetime aware (VN tz)."""
-    if not utc_str:
+def parse_kickoff(time_str: str):
+    """Parse chuỗi giờ site → datetime aware (VN tz). Trả None nếu không parse được."""
+    if not time_str or not time_str.strip():
         return None
-    for fmt in (
-        "%Y-%m-%dT%H:%M:%S.%fZ",
-        "%Y-%m-%dT%H:%M:%SZ",
-        "%Y-%m-%dT%H:%M:%S",
-        "%Y-%m-%dT%H:%M:%S.%f",
-    ):
-        try:
-            dt = datetime.strptime(utc_str.rstrip("Z"), fmt.rstrip("Z"))
-            return dt.replace(tzinfo=timezone.utc).astimezone(VN_TZ)
-        except ValueError:
-            pass
+    s     = time_str.strip()
+    today = now_vn()
+    year  = today.year
+
+    patterns = [
+        (r"(\d{1,2}):(\d{2})\s+(\d{1,2})/(\d{1,2})/(\d{4})",
+         lambda m: datetime(int(m[4]), int(m[3]), int(m[2]), int(m[0]), int(m[1]), tzinfo=VN_TZ)),
+        (r"(\d{1,2}):(\d{2})\s+(\d{1,2})/(\d{1,2})$",
+         lambda m: datetime(year,    int(m[3]), int(m[2]), int(m[0]), int(m[1]), tzinfo=VN_TZ)),
+        (r"^(\d{1,2}):(\d{2})$",
+         lambda m: datetime(today.year, today.month, today.day, int(m[0]), int(m[1]), tzinfo=VN_TZ)),
+    ]
+    for pattern, builder in patterns:
+        match = re.search(pattern, s)
+        if match:
+            try:
+                return builder(match.groups())
+            except ValueError:
+                pass
     return None
 
 
-def format_vn_time(dt: datetime | None) -> str:
-    if dt is None:
-        return ""
-    return dt.strftime("%H:%M %d/%m/%Y")
-
-
-def calc_is_live(api_live_flag: bool, start_dt: datetime | None) -> bool:
-    if api_live_flag:
+def calc_is_live(api_live: bool, time_str: str) -> bool:
+    """True nếu API flag live, HOẶC còn trong 15p trước KO trở đi."""
+    if api_live:
         return True
-    if start_dt is None:
+    kickoff = parse_kickoff(time_str)
+    if kickoff is None:
         return False
-    return now_vn() >= (start_dt - LIVE_BEFORE)
+    now = now_vn()
+    return now >= (kickoff - LIVE_BEFORE)
 
 
-def is_within_24h(start_dt: datetime | None, sport_slug: str) -> bool:
-    """Bóng đá: chỉ hiển thị trận trong 24h tới và tối đa 6h đã qua. Môn khác: True luôn."""
-    if sport_slug != "bong-da":
-        return True
-    if start_dt is None:
-        return True
-    now   = now_vn()
-    lower = now - timedelta(hours=6)
-    upper = now + timedelta(hours=24)
-    return lower <= start_dt <= upper
+def has_live_stream(streams: list) -> bool:
+    """Kiểm tra còn stream CDN 100ycdn thực sự không."""
+    return any("100ycdn.com" in s for s in streams)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -70,26 +68,22 @@ def is_within_24h(start_dt: datetime | None, sport_slug: str) -> bool:
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Referer":    "https://sv2.hoiquan3.live/",
 }
 
-API_BASE      = "https://sv.hoiquantv.xyz/api/v1/external/fixtures"
-API_UNFINISHED = f"{API_BASE}/unfinished"
-API_FINISHED   = f"{API_BASE}/finished"
-
+API_BASE    = "https://sv.hoiquantv.xyz/api/v1/external/fixtures"
 THUMBS_DIR  = "thumbs"
 REPO_RAW    = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v1"
 
-# sport.slug → emoji + tên hiển thị
-SPORT_MAP = {
-    "bong-da":    ("⚽", "Bóng Đá"),
-    "bong-ro":    ("🏀", "Bóng Rổ"),
-    "billiards":  ("🎱", "Billiards"),
-    "cau-long":   ("🏸", "Cầu Lông"),
-    "tennis":     ("🎾", "Tennis"),
-    "bong-chuyen":("🏐", "Bóng Chuyền"),
-    "bong-ban":   ("🏓", "Bóng Bàn"),
-    "vo-thuat":   ("🥊", "Võ Thuật"),
+CATE_MAP = {
+    "bong-da":     "⚽ Bóng Đá",
+    "bong-ro":     "🏀 Bóng Rổ",
+    "billiards":   "🎱 Billiards",
+    "tennis":      "🎾 Tennis",
+    "bong-ban":    "🏓 Bóng Bàn",
+    "bong-chuyen": "🏐 Bóng Chuyền",
+    "cau-long":    "🏸 Cầu Lông",
+    "vo-thuat":    "🥊 Võ Thuật",
 }
 
 EXCLUDE_LEAGUES_AMERICA = [
@@ -114,187 +108,67 @@ EXCLUDE_LEAGUES_AMERICA = [
     "super lig", "tff", "turkish", "süper lig",
 ]
 
+THUMB_VERSION = "v6"
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# HELPERS
+# ─────────────────────────────────────────────────────────────────────────────
 
 def is_america_league(league_name: str) -> bool:
     lower = league_name.lower()
     return any(kw in lower for kw in EXCLUDE_LEAGUES_AMERICA)
 
 
-def make_id(text: str, prefix: str) -> str:
+def make_id(text, prefix):
     h = hashlib.md5(text.encode()).hexdigest()[:10]
     return f"{prefix}-{h}"
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# FETCH API
-# ─────────────────────────────────────────────────────────────────────────────
-
-def fetch_fixtures(url: str) -> list:
+def fetch_image(url):
     try:
-        res = requests.get(url, headers=HEADERS, timeout=15)
-        res.raise_for_status()
-        data = res.json()
-        # API có thể trả về list hoặc {"data": [...]}
-        if isinstance(data, list):
-            return data
-        if isinstance(data, dict):
-            return data.get("data", data.get("fixtures", data.get("items", [])))
-        return []
-    except Exception as e:
-        print(f"  Lỗi fetch {url}: {e}")
-        return []
+        res = requests.get(url, headers=HEADERS, timeout=8)
+        return Image.open(BytesIO(res.content)).convert("RGBA")
+    except:
+        return None
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# PARSE MATCHES
-# ─────────────────────────────────────────────────────────────────────────────
+def parse_time_sort(match_time: str) -> int:
+    """Dùng parse_kickoff để sort đúng theo thời gian thực."""
+    kickoff = parse_kickoff(match_time)
+    if kickoff:
+        return kickoff.month * 10_000_000 + kickoff.day * 10_000 + kickoff.hour * 100 + kickoff.minute
+    return 999_999_999
 
-def get_matches() -> list:
-    print("Lấy danh sách trận chưa kết thúc...")
-    raw = fetch_fixtures(API_UNFINISHED)
 
-    # Lấy set ID trận đã xong để loại bỏ (nếu cần)
-    # finished = {str(f.get("id")) for f in fetch_fixtures(API_FINISHED)}
+def is_within_24h(match_time: str, sport_slug: str = "bong-da") -> bool:
+    """Bóng đá: chỉ hiển thị trận trong 24h tới và tối đa 6h đã qua. Môn khác: True luôn."""
+    if sport_slug != "bong-da":
+        return True
+    kickoff = parse_kickoff(match_time)
+    if kickoff is None:
+        return True
+    now   = now_vn()
+    lower = now - timedelta(hours=6)
+    upper = now + timedelta(hours=24)
+    return lower <= kickoff <= upper
 
-    matches = []
-    seen    = set()
 
-    for f in raw:
-        match_id = str(f.get("id", ""))
-        if not match_id or match_id in seen:
-            continue
-        seen.add(match_id)
-
-        # ── Sport ─────────────────────────────────────────────────────────────
-        sport     = f.get("sport", {}) or {}
-        sport_slug = sport.get("slug", "")
-        sport_priority = sport.get("priority", 99)
-
-        # ── Thời gian ─────────────────────────────────────────────────────────
-        start_dt  = utc_to_vn(f.get("startTime", ""))
-        time_str  = format_vn_time(start_dt)
-        time_sort = (
-            start_dt.month * 10_000_000 + start_dt.day * 10_000
-            + start_dt.hour * 100 + start_dt.minute
-            if start_dt else 999_999_999
-        )
-
-        # ── Lọc 24h (bóng đá) ─────────────────────────────────────────────────
-        if not is_within_24h(start_dt, sport_slug):
-            continue
-
-        # ── League ────────────────────────────────────────────────────────────
-        league_obj  = f.get("league", {}) or {}
-        league_name = league_obj.get("name", "")
-        league_logo = league_obj.get("logoUrl", "")
-
-        # Bỏ giải châu Mỹ (chỉ bóng đá)
-        if sport_slug == "bong-da" and is_america_league(league_name):
-            continue
-
-        # ── Đội ───────────────────────────────────────────────────────────────
-        home = f.get("homeTeam", {}) or {}
-        away = f.get("awayTeam", {}) or {}
-        team_a  = home.get("name", "")
-        logo_a  = home.get("logoUrl", "")
-        team_b  = away.get("name", "")
-        logo_b  = away.get("logoUrl", "")
-
-        name = f"{team_a} vs {team_b}" if team_a and team_b else f"Trận #{match_id}"
-
-        # ── Commentators & Streams ────────────────────────────────────────────
-        commentators = f.get("fixtureCommentators", []) or []
-        blv_list = []
-        for c in commentators:
-            cmt    = c.get("commentator", {}) or {}
-            blv_nm = cmt.get("name", "").strip()
-            streams_obj = c.get("streams", {}) or {}
-            # Chỉ lấy FHD
-            fhd_url = (
-                streams_obj.get("FHD", {}) or {}
-            ).get("sourceUrl", "") or (
-                streams_obj.get("fhd", {}) or {}
-            ).get("sourceUrl", "")
-            if blv_nm and fhd_url:
-                blv_list.append({"name": blv_nm, "fhd": fhd_url})
-
-        # Bỏ trận không có BLV / stream
-        if not blv_list:
-            continue
-
-        blv_names = ", ".join(b["name"] for b in blv_list)
-
-        # ── is_live ────────────────────────────────────────────────────────────
-        is_live = calc_is_live(bool(f.get("isLive", False)), start_dt)
-
-        matches.append({
-            "match_id":       match_id,
-            "name":           name,
-            "time":           time_str,
-            "time_sort":      time_sort,
-            "team_a":         team_a,
-            "team_b":         team_b,
-            "logo_a":         logo_a,
-            "logo_b":         logo_b,
-            "league":         league_name,
-            "league_logo":    league_logo,
-            "blv":            blv_names,
-            "blv_list":       blv_list,   # [{"name": str, "fhd": str}]
-            "is_live":        is_live,
-            "sport_slug":     sport_slug,
-            "sport_priority": sport_priority,
-        })
-
-    # LIVE lên đầu → sort theo giờ tăng dần
-    matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
-    return matches
+def utc_to_vn_str(utc_str: str) -> str:
+    """Convert UTC ISO → chuẩn 'HH:MM DD/MM' để parse_kickoff hoạt động."""
+    try:
+        dt = datetime.fromisoformat(utc_str.replace("Z", "+00:00"))
+        vn = dt.astimezone(VN_TZ)
+        return vn.strftime("%H:%M %d/%m")
+    except Exception:
+        return ""
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
-def fetch_image(url: str):
-    try:
-        res = requests.get(url, headers=HEADERS, timeout=8)
-        return Image.open(BytesIO(res.content)).convert("RGBA")
-    except Exception:
-        return None
-
-
-def cleanup_old_thumbs(days: int = 3):
-    if not os.path.exists(THUMBS_DIR):
-        return
-    cutoff  = now_vn() - timedelta(days=days)
-    removed = 0
-    for fname in os.listdir(THUMBS_DIR):
-        if not fname.endswith(".png"):
-            continue
-        m = re.search(r'_(\d{8})\.png$', fname)
-        if not m:
-            fpath = os.path.join(THUMBS_DIR, fname)
-            try:
-                os.remove(fpath)
-                removed += 1
-            except Exception as e:
-                print(f"  Lỗi xoá thumb {fname}: {e}")
-            continue
-        try:
-            file_date = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ)
-        except ValueError:
-            continue
-        if file_date < cutoff:
-            fpath = os.path.join(THUMBS_DIR, fname)
-            try:
-                os.remove(fpath)
-                removed += 1
-            except Exception as e:
-                print(f"  Lỗi xoá thumb {fname}: {e}")
-    if removed:
-        print(f"Đã xoá {removed} thumbnail cũ (>{days} ngày)")
-
-
-def make_thumbnail(match: dict, channel_id: str) -> str:
+def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
     logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
@@ -304,7 +178,7 @@ def make_thumbnail(match: dict, channel_id: str) -> str:
     if os.path.exists(out_path):
         return out_path
 
-    W, H     = 1600, 1200
+    W, H = 1600, 1200
     HEADER_H = 180
     FOOTER_H = 160
 
@@ -320,20 +194,17 @@ def make_thumbnail(match: dict, channel_id: str) -> str:
     draw.rectangle([(0, H - FOOTER_H), (W, H)],         fill=(13, 20, 40))
 
     ACCENT = (220, 30, 40)
-    draw.rectangle([(0, HEADER_H),         (W, HEADER_H + 5)],   fill=ACCENT)
-    draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)],   fill=ACCENT)
+    draw.rectangle([(0, HEADER_H),         (W, HEADER_H + 5)],    fill=ACCENT)
+    draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)],    fill=ACCENT)
 
     FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-
-    def load_font(size):
-        try:
-            return ImageFont.truetype(FONT_BOLD, size)
-        except Exception:
-            return ImageFont.load_default()
-
-    font_vs   = load_font(160)
-    font_time = load_font(100)
-    font_team = load_font(58)
+    try:
+        font_vs   = ImageFont.truetype(FONT_BOLD, 160)
+        font_time = ImageFont.truetype(FONT_BOLD, 100)
+        font_team = ImageFont.truetype(FONT_BOLD, 58)
+        font_blv  = ImageFont.truetype(FONT_BOLD, 58)
+    except:
+        font_vs = font_time = font_team = font_blv = ImageFont.load_default()
 
     content_top = HEADER_H + 5
     content_bot = H - FOOTER_H - 5
@@ -353,31 +224,39 @@ def make_thumbnail(match: dict, channel_id: str) -> str:
     name_center  = name_block_y + name_h // 2
     time_y       = name_block_y + name_h + gap_name_time + time_h // 2
 
-    # Logo trái
     if match.get("logo_a"):
         img = fetch_image(match["logo_a"])
         if img:
             img = img.resize((logo_size, logo_size), Image.LANCZOS)
-            bg.paste(img, (W // 4 - logo_size // 2, logo_y), img)
+            x   = W // 4 - logo_size // 2
+            bg.paste(img, (x, logo_y), img)
 
-    # Logo phải
     if match.get("logo_b"):
         img = fetch_image(match["logo_b"])
         if img:
             img = img.resize((logo_size, logo_size), Image.LANCZOS)
-            bg.paste(img, (W * 3 // 4 - logo_size // 2, logo_y), img)
+            x   = W * 3 // 4 - logo_size // 2
+            bg.paste(img, (x, logo_y), img)
 
-    draw.text((W // 2, logo_y + logo_size // 2), "VS",
-              fill=ACCENT, font=font_vs, anchor="mm")
+    draw.text(
+        (W // 2, logo_y + logo_size // 2),
+        "VS",
+        fill=ACCENT,
+        font=font_vs,
+        anchor="mm",
+    )
 
     def draw_team_name(text, cx):
-        max_w     = W // 2 - 60
+        max_width = W // 2 - 60
         font_size = 58
         f         = font_team
         while font_size >= 28:
-            f    = load_font(font_size)
+            try:
+                f = ImageFont.truetype(FONT_BOLD, font_size)
+            except:
+                f = ImageFont.load_default()
             bbox = draw.textbbox((0, 0), text, font=f)
-            if (bbox[2] - bbox[0]) <= max_w:
+            if (bbox[2] - bbox[0]) <= max_width:
                 break
             font_size -= 3
         draw.text((cx, name_center), text, fill=(20, 20, 20), font=f, anchor="mm")
@@ -393,13 +272,15 @@ def make_thumbnail(match: dict, channel_id: str) -> str:
         draw.text((W // 2, time_y), match["time"],
                   fill=(15, 15, 15), font=font_time, anchor="mm")
 
-    # Tên giải — header
     if match.get("league"):
         league_text = match["league"].upper()
         font_size   = 62
         f           = None
         while font_size >= 28:
-            f    = load_font(font_size)
+            try:
+                f = ImageFont.truetype(FONT_BOLD, font_size)
+            except:
+                f = ImageFont.load_default()
             bbox = draw.textbbox((0, 0), league_text, font=f)
             if (bbox[2] - bbox[0]) <= W - 60:
                 break
@@ -407,13 +288,15 @@ def make_thumbnail(match: dict, channel_id: str) -> str:
         draw.text((W // 2, HEADER_H // 2), league_text,
                   fill=(255, 255, 255), font=f, anchor="mm")
 
-    # BLV — footer
     if match.get("blv"):
         blv_text  = f"BLV: {match['blv']}"
         font_size = 58
         f         = None
         while font_size >= 28:
-            f    = load_font(font_size)
+            try:
+                f = ImageFont.truetype(FONT_BOLD, font_size)
+            except:
+                f = ImageFont.load_default()
             bbox = draw.textbbox((0, 0), blv_text, font=f)
             if (bbox[2] - bbox[0]) <= W - 60:
                 break
@@ -422,35 +305,233 @@ def make_thumbnail(match: dict, channel_id: str) -> str:
                   fill=(255, 255, 255), font=f, anchor="mm")
 
     draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
+
     bg.save(out_path, "PNG", optimize=True)
     return out_path
+
+def cleanup_old_thumbs(days: int = 3):
+    if not os.path.exists(THUMBS_DIR):
+        return
+    cutoff = now_vn() - timedelta(days=days)
+    removed = 0
+    for fname in os.listdir(THUMBS_DIR):
+        if not fname.endswith(".png"):
+            continue
+        m = re.search(r'_(\d{8})\.png$', fname)
+        if not m:
+            fpath = os.path.join(THUMBS_DIR, fname)
+            try:
+                os.remove(fpath)
+                removed += 1
+            except Exception as e:
+                print(f"  Loi xoa thumb {fname}: {e}")
+            continue
+        try:
+            file_date = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ)
+        except ValueError:
+            continue
+        if file_date < cutoff:
+            fpath = os.path.join(THUMBS_DIR, fname)
+            try:
+                os.remove(fpath)
+                removed += 1
+            except Exception as e:
+                print(f"  Loi xoa thumb {fname}: {e}")
+    if removed:
+        print(f"Da xoa {removed} thumbnail cu (>{days} ngay)")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SCRAPE MATCHES
+# ─────────────────────────────────────────────────────────────────────────────
+
+def get_matches():
+    """Lấy danh sách trận từ API, lọc bỏ trận đã kết thúc."""
+    try:
+        res_unfinished = requests.get(f"{API_BASE}/unfinished", headers=HEADERS, timeout=15)
+        res_unfinished.raise_for_status()
+        data_unfinished = res_unfinished.json()
+    except Exception as e:
+        print(f"Loi API unfinished: {e}")
+        data_unfinished = []
+
+    finished_ids = set()
+    try:
+        res_finished = requests.get(f"{API_BASE}/finished", headers=HEADERS, timeout=15)
+        res_finished.raise_for_status()
+        data_finished = res_finished.json()
+        for item in data_finished if isinstance(data_finished, list) else []:
+            if isinstance(item, dict) and item.get("id"):
+                finished_ids.add(str(item["id"]))
+    except Exception:
+        pass
+
+    # Xử lý trích xuất list (hỗ trợ nhiều cấu trúc lồng nhau)
+    fixtures = []
+    if isinstance(data_unfinished, list):
+        fixtures = data_unfinished
+    elif isinstance(data_unfinished, dict):
+        fixtures = data_unfinished.get("data", data_unfinished.get("fixtures", data_unfinished.get("items", [])))
+        if isinstance(fixtures, dict):
+            fixtures = fixtures.get("items", fixtures.get("data", []))
+
+    matches = []
+    for fix in fixtures:
+        if not isinstance(fix, dict):
+            continue
+
+        match_id = str(fix.get("id", ""))
+        if not match_id or match_id in finished_ids:
+            continue
+
+        sport = fix.get("sport", {}) or {}
+        sport_slug = sport.get("slug", "bong-da")
+        sport_priority = sport.get("priority", 999)
+
+        league = fix.get("league", {}) or {}
+        league_name = league.get("name", "")
+
+        home = fix.get("homeTeam", {}) or {}
+        away = fix.get("awayTeam", {}) or {}
+        team_a = home.get("name", "")
+        team_b = away.get("name", "")
+        logo_a = home.get("logoUrl", "")
+        logo_b = away.get("logoUrl", "")
+
+        if sport_slug == "bong-da" and is_america_league(league_name):
+            continue
+
+        # UTC ISO → chuẩn "HH:MM DD/MM"
+        start_time = fix.get("startTime", "")
+        match_time = utc_to_vn_str(start_time)
+
+        if not is_within_24h(match_time, sport_slug):
+            continue
+
+        api_live = fix.get("isLive", False)
+        is_live_flag = calc_is_live(api_live, match_time)
+
+        # Lấy BLV & Link (chỉ lấy FHD, ưu tiên 100ycdn.com)
+        commentators_raw = fix.get("fixtureCommentators", []) or []
+        blv_list = []
+        for comm in commentators_raw:
+            if not isinstance(comm, dict):
+                continue
+            comm_name = comm.get("commentator", "") or comm.get("name", "")
+            streams_obj = comm.get("streams", {}) or {}
+            
+            comm_urls = []
+            for quality, stream_data in streams_obj.items():
+                if not isinstance(stream_data, dict): continue
+                url = stream_data.get("sourceUrl", "") or stream_data.get("url", "")
+                if not url: continue
+                
+                # Bỏ qua HD/SD (đặc điểm có chứa 'tracks-v')
+                if "tracks-v" in url:
+                    continue
+                    
+                # Ưu tiên 100ycdn.com lên đầu, fallback hqlive.zlylive.com
+                if "100ycdn.com" in url:
+                    comm_urls.insert(0, url)
+                elif "hqlive.zlylive.com" in url:
+                    comm_urls.append(url)
+            
+            if comm_name and comm_urls:
+                blv_list.append({"name": comm_name, "urls": comm_urls})
+
+        if not blv_list:
+            continue
+
+        blv_names = ", ".join(b["name"] for b in blv_list)
+        name = f"{team_a} vs {team_b}" if team_a and team_b else match_id
+
+        matches.append({
+            "sport_slug":     sport_slug,
+            "sport_priority": sport_priority,
+            "match_id":       match_id,
+            "name":           name,
+            "time":           match_time,
+            "time_sort":      parse_time_sort(match_time),
+            "team_a":         team_a,
+            "team_b":         team_b,
+            "logo_a":         logo_a,
+            "logo_b":         logo_b,
+            "league":         league_name,
+            "blv":            blv_names,
+            "is_live":        is_live_flag,
+            "blv_list":       blv_list,
+        })
+
+    # LIVE lên đầu → sort theo sport_priority → giờ tăng dần
+    matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["sport_priority"], m["time_sort"]))
+    return matches
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SCRAPE STREAMS
+# ─────────────────────────────────────────────────────────────────────────────
+
+def get_streams(match_id, blv_list):
+    """
+    Lấy stream từ tất cả BLV (đã có sẵn từ API).
+    Ưu tiên: Link 1 sẽ là CDN 100ycdn, Link 2 sẽ là Direct.
+    """
+    streams = []
+    for blv in blv_list:
+        for url in blv.get("urls", []):
+            if url not in streams:
+                streams.append(url)
+                print(f"    BLV [{blv['name']}] -> {'100ycdn' if '100ycdn.com' in url else 'Direct'}")
+    return streams
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # BUILD CHANNEL JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
-def build_channel(match: dict, thumb_url: str = "") -> dict:
-    uid    = make_id(match["match_id"], "hqtv")
+def build_channel(match, streams, thumb_url=""):
+    uid    = make_id(match["match_id"], "hqlive")
     src_id = make_id(match["match_id"], "src")
     ct_id  = make_id(match["match_id"], "ct")
     st_id  = make_id(match["match_id"], "st")
 
+    blv_list = match.get("blv_list", [])
+
     stream_links = []
-    for blv in match["blv_list"]:
-        fhd_url  = blv.get("fhd", "")
-        blv_name = blv.get("name", "")
-        if not fhd_url:
+    blv_idx = 0
+
+    for i, s_url in enumerate(streams):
+        blv_name = ""
+        is_cdn = "100ycdn.com" in s_url
+
+        # Map URL ngược lại tìm tên BLV tương ứng
+        for b_idx in range(blv_idx, len(blv_list)):
+            if s_url in blv_list[b_idx].get("urls", []):
+                blv_name = blv_list[b_idx]["name"]
+                # Nếu là link cuối của BLV này -> nhảy sang BLV tiếp theo cho vòng lặp sau
+                if s_url == blv_list[b_idx]["urls"][-1]:
+                    blv_idx = b_idx + 1
+                break
+
+        # Đặt tên chuẩn logic Cakhia (Link CDN lấy tên BLV, Link Direct đánh số 2)
+        name = ""
+        if is_cdn:
+            name = blv_name if blv_name else "Link 1"
+        elif "hqlive.zlylive.com" in s_url:
+            name = "Link 2"
+
+        if not name:
             continue
-        lnk_id = make_id(fhd_url + blv_name, "lnk")
+
+        lnk_id = make_id(s_url + str(i), "lnk")
         stream_links.append({
             "id":      lnk_id,
-            "name":    blv_name if blv_name else "Link FHD",
+            "name":    name,
             "type":    "hls",
             "default": len(stream_links) == 0,
-            "url":     fhd_url,
+            "url":     s_url,
             "request_headers": [
-                {"key": "Referer",    "value": "https://hoiquantv.xyz/"},
+                {"key": "Referer",    "value": "https://sv2.hoiquan3.live/"},
                 {"key": "User-Agent", "value": "Mozilla/5.0"},
             ],
         })
@@ -476,19 +557,19 @@ def build_channel(match: dict, thumb_url: str = "") -> dict:
             "contents": [{
                 "id":   ct_id,
                 "name": match["name"],
-                "streams": [{"id": st_id, "name": "KT", "stream_links": stream_links}],
+                "streams": [{"id": st_id, "name": "HQ", "stream_links": stream_links}],
             }],
         }],
         "org_metadata": {
-            "league":    match.get("league",         ""),
-            "team_a":    match.get("team_a",         ""),
-            "team_b":    match.get("team_b",         ""),
-            "logo_a":    match.get("logo_a",         ""),
-            "logo_b":    match.get("logo_b",         ""),
-            "time":      match.get("time",           ""),
-            "blv":       match.get("blv",            ""),
-            "is_live":   match["is_live"],
-            "sport_slug": match.get("sport_slug",   ""),
+            "league":     match.get("league",      ""),
+            "team_a":     match.get("team_a",      ""),
+            "team_b":     match.get("team_b",      ""),
+            "logo_a":     match.get("logo_a",      ""),
+            "logo_b":     match.get("logo_b",      ""),
+            "time":       match.get("time",        ""),
+            "blv":        match.get("blv",         ""),
+            "is_live":    match["is_live"],
+            "sport_slug": match.get("sport_slug",  ""),
         },
     }
 
@@ -512,52 +593,72 @@ def build_channel(match: dict, thumb_url: str = "") -> dict:
 def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
-    print(f"Giờ VN hiện tại: {now_vn().strftime('%H:%M %d/%m/%Y')}")
-
+    print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
+    print("Lay danh sach tran tu hoiquan3.live...")
     matches = get_matches()
 
     live_count = sum(1 for m in matches if m["is_live"])
-    print(f"Tổng: {len(matches)} | LIVE: {live_count} | Sắp: {len(matches) - live_count}\n")
+    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches)-live_count}\n")
 
-    # Nhóm theo sport_slug, giữ thứ tự ưu tiên
-    sport_channels: dict[str, list] = {}
+    sport_channels = {}
 
     for i, match in enumerate(matches):
         sport_slug = match["sport_slug"]
-        status     = "LIVE" if match["is_live"] else "SẮP"
+        status  = "LIVE" if match["is_live"] else "SAP"
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['blv']}")
 
-        # Build thumbnail
-        uid        = make_id(match["match_id"], "hqtv")
+        streams = []
+        if match["is_live"]:
+            streams = get_streams(match["match_id"], match["blv_list"])
+
+            # Nếu không có 100ycdn stream → trận lỗi, bỏ qua
+            if not has_live_stream(streams):
+                print(f"  Khong co CDN 100ycdn -> bo qua")
+                continue
+            print(f"  stream: {len(streams)} link")
+
+        uid        = make_id(match["match_id"], "hqlive")
         thumb_path = make_thumbnail(match, uid)
         cache_key  = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
         logo_hash  = hashlib.md5(cache_key.encode()).hexdigest()[:8]
         thumb_url  = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
-        channel = build_channel(match, thumb_url)
+        channel = build_channel(match, streams, thumb_url)
 
         if sport_slug not in sport_channels:
             sport_channels[sport_slug] = []
         sport_channels[sport_slug].append(channel)
 
-        time.sleep(0.05)
+        time.sleep(0.2)
 
-    # Build groups
-    # Lấy priority từ match đầu tiên của mỗi sport (đã được sort từ API)
-    sport_priority: dict[str, int] = {}
+    # Khởi tạo sẵn tất cả môn để cố định thứ tự group y hệt Cakhia
+    cate_channels = {slug: [] for slug in CATE_MAP}
+    for slug, channels in sport_channels.items():
+        if slug not in cate_channels:
+            cate_channels[slug] = []
+        cate_channels[slug].extend(channels)
+
+    # Build groups theo priority của sport
+    slug_priority = {}
     for m in matches:
-        sl = m["sport_slug"]
-        if sl not in sport_priority:
-            sport_priority[sl] = m.get("sport_priority", 99)
+        slug = m["sport_slug"]
+        if slug not in slug_priority:
+            slug_priority[slug] = m["sport_priority"]
+
+    ordered_slugs = sorted(
+        cate_channels.keys(),
+        key=lambda s: (0 if s == "bong-da" else 1, slug_priority.get(s, 999))
+    )
 
     groups = []
-    for sport_slug, channels in sport_channels.items():
+    for sport_slug in ordered_slugs:
+        channels = cate_channels[sport_slug]
         if not channels:
             continue
-        emoji, display_name = SPORT_MAP.get(sport_slug, ("🏅", sport_slug.replace("-", " ").title()))
+        cate_info = CATE_MAP.get(sport_slug, f"🏅 {sport_slug}")
 
-        live_cnt  = sum(1 for ch in channels if ch.get("org_metadata", {}).get("is_live", False))
-        cate_name = f"{emoji} {display_name} ({live_cnt} LIVE)" if live_cnt > 0 else f"{emoji} {display_name}"
+        live_count = sum(1 for ch in channels if ch.get("org_metadata", {}).get("is_live", False))
+        cate_name  = f"{cate_info} ({live_count} LIVE)" if live_count > 0 else cate_info
 
         groups.append({
             "id":            f"sport_{sport_slug}",
@@ -565,22 +666,16 @@ def main():
             "display":       "vertical",
             "grid_number":   2,
             "enable_detail": False,
-            "_priority":     sport_priority.get(sport_slug, 99),
             "channels":      channels,
         })
 
-    # Bóng đá lên đầu, còn lại theo priority
-    groups.sort(key=lambda g: (0 if g["id"] == "sport_bong-da" else 1, g["_priority"], g["name"]))
-    for g in groups:
-        g.pop("_priority", None)
-
     output = {
-        "id":          "hoiquantv",
-        "url":         "https://hoiquantv.xyz",
+        "id":          "hoiquan",
+        "url":         "https://sv2.hoiquan3.live",
         "name":        "HoiQuanTV",
         "color":       "#1cb57a",
         "grid_number": 3,
-        "image":       {"type": "cover", "url": "https://hoiquantv.xyz/favicon.ico"},
+        "image":       {"type": "cover", "url": "https://kaytee1012.github.io/hoiquan_logo.png"},
         "groups":      groups,
     }
 
@@ -604,10 +699,10 @@ def main():
 
     if old_norm != new_norm:
         os.replace(staging, "output.json")
-        print(f"\nXong! {total} kênh, {len(groups)} môn thể thao → output.json (ĐÃ CẬP NHẬT)")
+        print(f"\nXong! {total} kenh, {len(groups)} mon the thao -> output.json (DA CAP NHAT)")
     else:
         os.remove(staging)
-        print(f"\nXong! {total} kênh, {len(groups)} môn thể thao → Không có thay đổi, giữ nguyên output.json")
+        print(f"\nXong! {total} kenh, {len(groups)} mon the thao -> Khong co thay doi, giu nguyen output.json")
 
 
 if __name__ == "__main__":
