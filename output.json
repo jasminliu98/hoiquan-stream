@@ -2,7 +2,7 @@
   "id": "hoiquan",
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
-  "updated_at": "01:59 08/05/2026",
+  "updated_at": "02:00 08/05/2026",
   "color": "#1cb57a",
   "grid_number": 3,
   "image": {
@@ -948,6 +948,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-44d47238d7_bcc5ab92_20260508.png?v=bcc5ab92",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cf2ee7de99",
+          "name": "Levante vs Osasuna | 02:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf2ee7de99",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cf2ee7de99",
+                  "name": "Levante vs Osasuna",
+                  "streams": [
+                    {
+                      "id": "st-cf2ee7de99",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Osasuna",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg/1280px-Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Ca_osasuna.png",
+            "time": "02:00 09/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-cf2ee7de99_8a4e3291_20260508.png?v=8a4e3291",
             "width": 1600,
             "height": 1200
           }
