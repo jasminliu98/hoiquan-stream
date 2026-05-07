@@ -2,8 +2,8 @@
   "id": "hoiquan",
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
-  "updated_at": "02:20 08/05/2026",
   "color": "#1cb57a",
+  "updated_at": "02:26 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -45,28 +45,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-27d4545e5d",
-                          "name": "Full HD",
+                          "id": "lnk-4e83c39114",
+                          "name": "BLV PHAN MÃ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a1086e624e",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://alive.zlylive.com/hqtv_blv_phanma/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -100,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f862d13454_fa033d21_20260508.png?v=fa033d21",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f862d13454_5ac90b40_20260508.png?v=5ac90b40",
             "width": 1600,
             "height": 1200
           }
@@ -133,28 +116,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-66dc511c56",
-                          "name": "Full HD",
+                          "id": "lnk-a8fc5eb222",
+                          "name": "BLV PHAN CHỚP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-dfb179b18d",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://alive.zlylive.com/hqtv_blv_phanchop/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -188,7 +154,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-ae3d525daf_dc2f6cdd_20260508.png?v=dc2f6cdd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-ae3d525daf_7c95a2da_20260508.png?v=7c95a2da",
             "width": 1600,
             "height": 1200
           }
@@ -221,28 +187,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-f5c35785a3",
-                          "name": "Full HD",
+                          "id": "lnk-067ec10e27",
+                          "name": "BLV PHAN MÃO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanchanh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-225af6e7ab",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://alive.zlylive.com/hqtv_blv_phanchanh/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -276,7 +225,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-75da5036f6_bd6ffb79_20260508.png?v=bd6ffb79",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-75da5036f6_cd2fb996_20260508.png?v=cd2fb996",
             "width": 1600,
             "height": 1200
           }
@@ -309,28 +258,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-d53c00e49f",
-                          "name": "Full HD",
+                          "id": "lnk-520c5136c4",
+                          "name": "BLV PHAN HÀ LINH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9bbd2f4f8b",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://alive.zlylive.com/hqtv_blv_phanhalinh/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -364,7 +296,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bd48f59a9f_2c1207b5_20260508.png?v=2c1207b5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bd48f59a9f_c80dd4a3_20260508.png?v=c80dd4a3",
             "width": 1600,
             "height": 1200
           }
@@ -417,7 +349,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-032a01d833_317d5bd5_20260508.png?v=317d5bd5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-032a01d833_382145ce_20260508.png?v=382145ce",
             "width": 1600,
             "height": 1200
           }
@@ -470,7 +402,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-acd9bdac88_89a39de4_20260508.png?v=89a39de4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-acd9bdac88_30e5b65d_20260508.png?v=30e5b65d",
             "width": 1600,
             "height": 1200
           }
@@ -523,7 +455,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-2d45cbe914_ca258f55_20260508.png?v=ca258f55",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-2d45cbe914_84d16dbf_20260508.png?v=84d16dbf",
             "width": 1600,
             "height": 1200
           }
@@ -576,7 +508,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f0b76267fb_45d8d4cc_20260508.png?v=45d8d4cc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f0b76267fb_22272592_20260508.png?v=22272592",
             "width": 1600,
             "height": 1200
           }
@@ -629,7 +561,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b522259710_f9d92445_20260508.png?v=f9d92445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b522259710_64f78db2_20260508.png?v=64f78db2",
             "width": 1600,
             "height": 1200
           }
@@ -682,7 +614,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3c5be6328b_9bca8c11_20260508.png?v=9bca8c11",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3c5be6328b_ac44a6d1_20260508.png?v=ac44a6d1",
             "width": 1600,
             "height": 1200
           }
@@ -735,7 +667,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d8ea5f53c1_9bca8c11_20260508.png?v=9bca8c11",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d8ea5f53c1_ac44a6d1_20260508.png?v=ac44a6d1",
             "width": 1600,
             "height": 1200
           }
@@ -788,7 +720,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f629ed9325_0a386706_20260508.png?v=0a386706",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f629ed9325_8ba203c7_20260508.png?v=8ba203c7",
             "width": 1600,
             "height": 1200
           }
@@ -841,7 +773,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-5ea363a74c_7b2f78a4_20260508.png?v=7b2f78a4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-5ea363a74c_f86ead8d_20260508.png?v=f86ead8d",
             "width": 1600,
             "height": 1200
           }
@@ -894,7 +826,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-012a91467f_0a386706_20260508.png?v=0a386706",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-012a91467f_8ba203c7_20260508.png?v=8ba203c7",
             "width": 1600,
             "height": 1200
           }
@@ -947,7 +879,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-44d47238d7_7b2f78a4_20260508.png?v=7b2f78a4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-44d47238d7_f86ead8d_20260508.png?v=f86ead8d",
             "width": 1600,
             "height": 1200
           }
@@ -1000,7 +932,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-cf2ee7de99_a648ab78_20260508.png?v=a648ab78",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-cf2ee7de99_d2c8c179_20260508.png?v=d2c8c179",
             "width": 1600,
             "height": 1200
           }
@@ -1062,7 +994,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-89c86ad4bb_73d752e0_20260508.png?v=73d752e0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-89c86ad4bb_c86671d2_20260508.png?v=c86671d2",
             "width": 1600,
             "height": 1200
           }
@@ -1124,7 +1056,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-201d546992_28daa485_20260508.png?v=28daa485",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-201d546992_ea93396b_20260508.png?v=ea93396b",
             "width": 1600,
             "height": 1200
           }
@@ -1177,7 +1109,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-7900770abf_f76cc5e7_20260508.png?v=f76cc5e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-7900770abf_414e9dbf_20260508.png?v=414e9dbf",
             "width": 1600,
             "height": 1200
           }
@@ -1230,7 +1162,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-fbefa505c8_31c8ef21_20260508.png?v=31c8ef21",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-fbefa505c8_d36ce78e_20260508.png?v=d36ce78e",
             "width": 1600,
             "height": 1200
           }
@@ -1283,7 +1215,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-5248e5118c_fe8ebb87_20260508.png?v=fe8ebb87",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-5248e5118c_c3b9cb43_20260508.png?v=c3b9cb43",
             "width": 1600,
             "height": 1200
           }
@@ -1336,7 +1268,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c705112d1e_7ea3f065_20260508.png?v=7ea3f065",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c705112d1e_0c18f44a_20260508.png?v=0c18f44a",
             "width": 1600,
             "height": 1200
           }
@@ -1389,7 +1321,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9f8785c7f9_9feb088a_20260508.png?v=9feb088a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9f8785c7f9_2c21d46a_20260508.png?v=2c21d46a",
             "width": 1600,
             "height": 1200
           }
@@ -1442,7 +1374,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f77ad541b6_17eaacb3_20260508.png?v=17eaacb3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f77ad541b6_7ee9edf4_20260508.png?v=7ee9edf4",
             "width": 1600,
             "height": 1200
           }
@@ -1495,7 +1427,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-358c850b38_bf64690b_20260508.png?v=bf64690b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-358c850b38_3f73249b_20260508.png?v=3f73249b",
             "width": 1600,
             "height": 1200
           }
@@ -1548,7 +1480,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d04cb95ba2_00ed3713_20260508.png?v=00ed3713",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d04cb95ba2_0e020869_20260508.png?v=0e020869",
             "width": 1600,
             "height": 1200
           }
@@ -1601,7 +1533,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8346db44a7_9feb088a_20260508.png?v=9feb088a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8346db44a7_2c21d46a_20260508.png?v=2c21d46a",
             "width": 1600,
             "height": 1200
           }
@@ -1654,7 +1586,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9773d3352e_1642c01e_20260508.png?v=1642c01e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9773d3352e_47aac1d9_20260508.png?v=47aac1d9",
             "width": 1600,
             "height": 1200
           }
@@ -1707,7 +1639,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-feeef9bd04_874b8e08_20260508.png?v=874b8e08",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-feeef9bd04_51b2d51f_20260508.png?v=51b2d51f",
             "width": 1600,
             "height": 1200
           }
@@ -1749,28 +1681,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-76a2304a8a",
-                          "name": "Full HD",
+                          "id": "lnk-66e3e80302",
+                          "name": "BLV PHAN TỪ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-25561bbc5d",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://alive.zlylive.com/hqtv_blv_phantu/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1804,7 +1719,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-439fca360b_6284b6ee_20260508.png?v=6284b6ee",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-439fca360b_7deb5d97_20260508.png?v=7deb5d97",
             "width": 1600,
             "height": 1200
           }
@@ -1857,7 +1772,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-dcacff2565_9d8d4da1_20260508.png?v=9d8d4da1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-dcacff2565_2984fad0_20260508.png?v=2984fad0",
             "width": 1600,
             "height": 1200
           }
@@ -1910,7 +1825,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3332880692_f6e5399a_20260508.png?v=f6e5399a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3332880692_35e5809f_20260508.png?v=35e5809f",
             "width": 1600,
             "height": 1200
           }
@@ -1963,7 +1878,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f75dddd1e7_6e9d94f4_20260508.png?v=6e9d94f4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f75dddd1e7_3d795b5d_20260508.png?v=3d795b5d",
             "width": 1600,
             "height": 1200
           }
@@ -2016,7 +1931,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b05b57f6ad_58464b7a_20260508.png?v=58464b7a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b05b57f6ad_491e5f0a_20260508.png?v=491e5f0a",
             "width": 1600,
             "height": 1200
           }
@@ -2069,7 +1984,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-701d804549_809f6cdc_20260508.png?v=809f6cdc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-701d804549_d8e642eb_20260508.png?v=d8e642eb",
             "width": 1600,
             "height": 1200
           }
@@ -2131,7 +2046,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-35d8f387d4_7f515960_20260508.png?v=7f515960",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-35d8f387d4_61baba27_20260508.png?v=61baba27",
             "width": 1600,
             "height": 1200
           }
@@ -2184,7 +2099,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-7f489f642a_f375a963_20260508.png?v=f375a963",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-7f489f642a_416fcf7a_20260508.png?v=416fcf7a",
             "width": 1600,
             "height": 1200
           }
