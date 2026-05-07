@@ -86,7 +86,7 @@ EXCLUDE_LEAGUES_AMERICA = [
     "bolivia", "division profesional",
 ]
 
-THUMB_VERSION = "v8" # Tăng version để tạo lại toàn bộ thumb theo logic mới
+THUMB_VERSION = "v9" # Tăng version để tạo lại toàn bộ thumb theo logic mới
 API_SPORTS_FILE = "api_sports_data.json"
 
 # ─────────────────────────────────────────────────────────────────────────────
