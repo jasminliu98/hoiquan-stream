@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:26 08/05/2026",
+  "updated_at": "03:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f862d13454",
-          "name": "Al Shabab vs Al-Nassr | 01:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f862d13454",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f862d13454",
-                  "name": "Al Shabab vs Al-Nassr",
-                  "streams": [
-                    {
-                      "id": "st-f862d13454",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e83c39114",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Pro League",
-            "team_a": "Al Shabab",
-            "team_b": "Al-Nassr",
-            "logo_a": "https://media.api-sports.io/football/teams/2940.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2939.png",
-            "time": "01:00 08/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f862d13454_5ac90b40_20260508.png?v=5ac90b40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ae3d525daf",
           "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
