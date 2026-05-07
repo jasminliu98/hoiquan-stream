@@ -1,12 +1,12 @@
 {
-  "id": "hoiquan",
-  "url": "https://sv2.hoiquan3.live",
+  "id": "hoiquantv",
+  "url": "https://hoiquantv.xyz",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
   "grid_number": 3,
   "image": {
     "type": "cover",
-    "url": "https://sv2.hoiquan3.live/favicon.ico"
+    "url": "https://hoiquantv.xyz/favicon.ico"
   },
   "groups": []
 }
