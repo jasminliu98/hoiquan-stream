@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:55 08/05/2026",
+  "updated_at": "04:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ae3d525daf",
-          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae3d525daf",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ae3d525daf",
-                  "name": "Aston Villa vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-ae3d525daf",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8fc5eb222",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Aston Villa",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/Zr6FbE-8pDH7UBpWCO8U9A_96x96.png",
-            "time": "02:00 08/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-ae3d525daf_7c95a2da_20260508.png?v=7c95a2da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-75da5036f6",
-          "name": "Strasbourg vs Rayo Vallecano | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75da5036f6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-75da5036f6",
-                  "name": "Strasbourg vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-75da5036f6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-067ec10e27",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanchanh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "Strasbourg",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/80/Racing_Club_de_Strasbourg_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
-            "time": "02:00 08/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-75da5036f6_cd2fb996_20260508.png?v=cd2fb996",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-032a01d833",
           "name": "Carabobo FC vs River Plate | 07:30 08/05",
