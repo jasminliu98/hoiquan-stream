@@ -44,11 +44,28 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-4e83c39114",
-                          "name": "BLV PHAN MÃ",
+                          "id": "lnk-27d4545e5d",
+                          "name": "Full HD",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a1086e624e",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://alive.zlylive.com/hqtv_blv_phanma/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1222,7 +1239,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1255,11 +1272,28 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-66e3e80302",
-                          "name": "BLV PHAN TỪ",
+                          "id": "lnk-76a2304a8a",
+                          "name": "Full HD",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-25561bbc5d",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://alive.zlylive.com/hqtv_blv_phantu/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1306,10 +1340,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1324,7 +1358,42 @@
                     {
                       "id": "st-439fca360b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-76a2304a8a",
+                          "name": "Full HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-25561bbc5d",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://alive.zlylive.com/hqtv_blv_phantu/tracks-v2a1/mono.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1339,7 +1408,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Krejcikova_US16_%2810%29_%2829780173921%29.jpg/960px-Krejcikova_US16_%2810%29_%2829780173921%29.jpg",
             "time": "01:30 08/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -1653,11 +1722,28 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-a8fc5eb222",
-                          "name": "BLV PHAN CHỚP",
+                          "id": "lnk-66dc511c56",
+                          "name": "Full HD",
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-dfb179b18d",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://alive.zlylive.com/hqtv_blv_phanchop/tracks-v2a1/mono.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
