@@ -1,3 +1,6 @@
+# VERSION: v1.0
+# Update: Lay link Full HD (FHD) va HD, bo SD. Fix loi thumbnail logo.
+
 import requests
 import json
 import hashlib
@@ -58,7 +61,7 @@ def calc_is_live(api_live: bool, time_str: str) -> bool:
 
 
 def has_live_stream(streams: list) -> bool:
-    """Kiểm tra có stream FHD thực sự không."""
+    """Kiểm tra có stream thực sự không."""
     return len(streams) > 0
 
 
@@ -116,11 +119,34 @@ def make_id(text, prefix):
     return f"{prefix}-{h}"
 
 
+def normalize_url(url):
+    """Đảm bảo URL logo luôn là đường dẫn đầy đủ."""
+    if not url:
+        return ""
+    if url.startswith("http"):
+        return url
+    if url.startswith("//"):
+        return f"https:{url}"
+    return f"https://sv2.hoiquan3.live{url}"
+
+
 def fetch_image(url):
+    """Tải ảnh, bắt lỗi và loại bỏ định dạng SVG."""
+    if not url:
+        return None
     try:
-        res = requests.get(url, headers=HEADERS, timeout=8)
-        return Image.open(BytesIO(res.content)).convert("RGBA")
-    except:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        res.raise_for_status()
+        
+        content_type = res.headers.get('Content-Type', '')
+        if 'svg' in content_type.lower() or url.lower().endswith('.svg'):
+            print(f"  [Bỏ qua] Logo là SVG: {url}")
+            return None
+
+        img = Image.open(BytesIO(res.content))
+        return img.convert("RGBA")
+    except Exception as e:
+        print(f"  [Lỗi tải logo] {url[:60]}... | Lý do: {e}")
         return None
 
 
@@ -218,16 +244,28 @@ def make_thumbnail(match, channel_id):
     if match.get("logo_a"):
         img = fetch_image(match["logo_a"])
         if img:
-            img = img.resize((logo_size, logo_size), Image.LANCZOS)
-            x   = W // 4 - logo_size // 2
-            bg.paste(img, (x, logo_y), img)
+            try:
+                img = img.resize((logo_size, logo_size), Image.LANCZOS)
+                x   = W // 4 - logo_size // 2
+                if img.mode == 'RGBA':
+                    bg.paste(img, (x, logo_y), img.split()[3])
+                else:
+                    bg.paste(img, (x, logo_y))
+            except Exception as e:
+                print(f"  [Lỗi dán logo A]: {e}")
 
     if match.get("logo_b"):
         img = fetch_image(match["logo_b"])
         if img:
-            img = img.resize((logo_size, logo_size), Image.LANCZOS)
-            x   = W * 3 // 4 - logo_size // 2
-            bg.paste(img, (x, logo_y), img)
+            try:
+                img = img.resize((logo_size, logo_size), Image.LANCZOS)
+                x   = W * 3 // 4 - logo_size // 2
+                if img.mode == 'RGBA':
+                    bg.paste(img, (x, logo_y), img.split()[3])
+                else:
+                    bg.paste(img, (x, logo_y))
+            except Exception as e:
+                print(f"  [Lỗi dán logo B]: {e}")
 
     draw.text(
         (W // 2, logo_y + logo_size // 2),
@@ -357,7 +395,6 @@ def get_matches():
     except Exception:
         pass
 
-    # Trích xuất list chính xác theo JSON thật: data -> []
     fixtures = data_unfinished.get("data", []) if isinstance(data_unfinished, dict) else []
 
     matches = []
@@ -380,13 +417,12 @@ def get_matches():
         away = fix.get("awayTeam", {}) or {}
         team_a = home.get("name", "")
         team_b = away.get("name", "")
-        logo_a = home.get("logoUrl", "")
-        logo_b = away.get("logoUrl", "")
+        logo_a = normalize_url(home.get("logoUrl", ""))
+        logo_b = normalize_url(away.get("logoUrl", ""))
 
         if sport_slug == "bong-da" and is_america_league(league_name):
             continue
 
-        # UTC ISO -> "HH:MM DD/MM"
         start_time = fix.get("startTime", "")
         match_time = utc_to_vn_str(start_time)
 
@@ -396,27 +432,44 @@ def get_matches():
         api_live = fix.get("isLive", False)
         is_live_flag = calc_is_live(api_live, match_time)
 
-        # Lấy BLV & Link FHD chuẩn theo cấu trúc JSON thật
+        # Lấy BLV & Link Full HD / HD chuẩn theo cấu trúc JSON (Bỏ qua SD)
         commentators_raw = fix.get("fixtureCommentators", [])
         blv_list = []
         for comm in commentators_raw:
             if not isinstance(comm, dict):
                 continue
-            # commentator là 1 object chứa name và streams
             comm_obj = comm.get("commentator", {}) or {}
             comm_name = comm_obj.get("name", "")
             
-            # streams là 1 list các object
             streams_list = comm_obj.get("streams", []) or []
-            fhd_url = ""
+            valid_streams = []
+            
             if isinstance(streams_list, list):
                 for stream in streams_list:
-                    if isinstance(stream, dict) and stream.get("name") == "FHD":
-                        fhd_url = stream.get("sourceUrl", "")
-                        break
+                    if not isinstance(stream, dict):
+                        continue
+                    stream_name_raw = stream.get("name", "").strip().upper()
+                    stream_url = stream.get("sourceUrl", "")
+                    
+                    # Bỏ qua link SD
+                    if "SD" in stream_name_raw:
+                        continue
+                    
+                    # Phân loại FHD và HD
+                    display_name = ""
+                    if "FHD" in stream_name_raw or "FULL HD" in stream_name_raw:
+                        display_name = "Full HD"
+                    elif "HD" in stream_name_raw:
+                        display_name = "HD"
+                        
+                    if stream_url and display_name:
+                        valid_streams.append({"name": display_name, "url": stream_url})
             
-            if comm_name and fhd_url:
-                blv_list.append({"name": comm_name, "fhd_url": fhd_url})
+            # Sắp xếp ưu tiên: Full HD lên trước, HD theo sau
+            valid_streams.sort(key=lambda x: (0 if x["name"] == "Full HD" else 1))
+            
+            if comm_name and valid_streams:
+                blv_list.append({"name": comm_name, "streams": valid_streams})
 
         if not blv_list:
             continue
@@ -450,13 +503,15 @@ def get_matches():
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_streams(match, blv_list):
-    """Lấy stream FHD trực tiếp từ list đã parse sẵn (đúng chuẩn API)."""
+    """Lấy stream Full HD / HD trực tiếp từ list đã parse sẵn."""
     streams = []
     for blv in blv_list:
-        url = blv.get("fhd_url", "")
-        if url and url not in streams:
-            streams.append(url)
-            print(f"    BLV [{blv['name']}] -> FHD")
+        for s in blv.get("streams", []):
+            url = s.get("url", "")
+            # Đảm bảo không trùng link
+            if url and url not in [st.get("url") for st in streams]:
+                streams.append({"name": s["name"], "url": url})
+                print(f"    BLV [{blv['name']}] -> {s['name']}")
     return streams
 
 
@@ -470,21 +525,18 @@ def build_channel(match, streams, thumb_url=""):
     ct_id  = make_id(match["match_id"], "ct")
     st_id  = make_id(match["match_id"], "st")
 
-    blv_list = match.get("blv_list", [])
-
     stream_links = []
-    for i, s_url in enumerate(streams):
-        # Map tên BLV theo index (vì mỗi BLV chỉ tương ứng 1 link FHD)
-        blv_name = blv_list[i]["name"] if i < len(blv_list) else ""
-        name = blv_name if blv_name else "Link FHD"
+    for i, s in enumerate(streams):
+        name = s.get("name", "Link") # "Full HD" hoặc "HD"
+        url  = s.get("url", "")
         
-        lnk_id = make_id(s_url + str(i), "lnk")
+        lnk_id = make_id(url + name, "lnk")
         stream_links.append({
             "id":      lnk_id,
             "name":    name,
             "type":    "hls",
-            "default": len(stream_links) == 0,
-            "url":     s_url,
+            "default": len(stream_links) == 0, # Link đầu tiên (thường là Full HD) làm default
+            "url":     url,
             "request_headers": [
                 {"key": "Referer",    "value": "https://sv2.hoiquan3.live/"},
                 {"key": "User-Agent", "value": "Mozilla/5.0"},
@@ -567,7 +619,7 @@ def main():
             streams = get_streams(match, match["blv_list"])
 
             if not has_live_stream(streams):
-                print(f"  Khong co stream FHD -> bo qua")
+                print(f"  Khong co stream Full HD/HD -> bo qua")
                 continue
             print(f"  stream: {len(streams)} link")
 
