@@ -577,7 +577,10 @@ def main():
         if slug not in cate_channels: cate_channels[slug] = []
         cate_channels[slug].extend(channels)
 
-    slug_priority = {m["sport_slug"]: m["sport_priority"] for m in matches if m["sport_slug"] not in slug_priority}
+    slug_priority = {}
+    for m in matches:
+        if m["sport_slug"] not in slug_priority:
+            slug_priority[m["sport_slug"]] = m["sport_priority"]
     ordered_slugs = sorted(cate_channels.keys(), key=lambda s: (0 if s == "bong-da" else 1, slug_priority.get(s, 999)))
 
     groups = []
