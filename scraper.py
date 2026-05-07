@@ -58,8 +58,8 @@ def calc_is_live(api_live: bool, time_str: str) -> bool:
 
 
 def has_live_stream(streams: list) -> bool:
-    """Kiểm tra còn stream FHD thực sự."""
-    return any("hqlive.zlylive.com" in s for s in streams)
+    """Kiểm tra có stream FHD nào không."""
+    return len(streams) > 0
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -142,16 +142,15 @@ def parse_time_sort(match_time: str) -> int:
 
 
 def is_within_24h(match_time: str, sport_slug: str = "bong-da") -> bool:
-    """Bóng đá: chỉ hiển thị trận trong 24h tới và tối đa 6h đã qua. Môn khác: True luôn."""
+    """Bóng đá: chỉ hiển thị trận trong 24h tới. Môn khác: True luôn."""
     if sport_slug != "bong-da":
         return True
     kickoff = parse_kickoff(match_time)
     if kickoff is None:
         return True
     now   = now_vn()
-    lower = now - timedelta(hours=6)
     upper = now + timedelta(hours=24)
-    return lower <= kickoff <= upper
+    return kickoff <= upper
 
 
 def utc_to_vn_str(utc_str: str) -> str:
@@ -366,11 +365,14 @@ def get_matches():
     except Exception:
         pass
 
+    # Xử lý lấy list fixtures (hỗ trợ nhiều cấu trúc JSON lồng nhau)
     fixtures = []
     if isinstance(data_unfinished, list):
         fixtures = data_unfinished
     elif isinstance(data_unfinished, dict):
-        fixtures = data_unfinished.get("data", data_unfinished.get("fixtures", []))
+        fixtures = data_unfinished.get("data", data_unfinished.get("fixtures", data_unfinished.get("items", [])))
+        if isinstance(fixtures, dict):
+            fixtures = fixtures.get("items", fixtures.get("data", []))
 
     matches = []
     for fix in fixtures:
@@ -408,20 +410,25 @@ def get_matches():
         api_live = fix.get("isLive", False)
         is_live_flag = calc_is_live(api_live, match_time)
 
-        # Chỉ lấy FHD
-        commentators_raw = fix.get("fixtureCommentators", [])
+        # Chỉ lấy FHD (check case-insensitive key 'FHD')
+        commentators_raw = fix.get("fixtureCommentators", []) or fix.get("commentators", [])
         blv_list = []
         for comm in commentators_raw:
             if not isinstance(comm, dict):
                 continue
-            comm_name = comm.get("commentator", "")
-            streams = comm.get("streams", {}) or {}
-            fhd = streams.get("FHD", {}) or {}
-            fhd_url = fhd.get("sourceUrl", "")
+            comm_name = comm.get("commentator", "") or comm.get("name", "")
+            streams_obj = comm.get("streams", {}) or {}
+            fhd_url = ""
+            for key in streams_obj:
+                if key.upper() == "FHD":
+                    fhd = streams_obj.get(key, {}) or {}
+                    fhd_url = fhd.get("sourceUrl", "") or fhd.get("url", "")
+                    break
             if comm_name and fhd_url:
                 blv_list.append({"name": comm_name, "fhd_url": fhd_url})
 
         if not blv_list:
+            print(f"  [SKIP] Bo qua {match_id}: khong tim thay BLV FHD")
             continue
 
         blv_names = ", ".join(b["name"] for b in blv_list)
