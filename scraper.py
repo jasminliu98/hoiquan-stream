@@ -636,7 +636,7 @@ def main():
         "name":        "HoiQuanTV",
         "color":       "#1cb57a",
         "grid_number": 3,
-        "image":       {"type": "cover", "url": "https://kaytee1012.github.io/hoiquan_logo.png"},
+        "image":       {"type": "cover", "url": "https://sv2.hoiquan3.live/logo.png"},
         "groups":      groups,
     }
 
