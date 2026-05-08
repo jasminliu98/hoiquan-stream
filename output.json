@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 08/05/2026",
+  "updated_at": "22:05 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1300,7 +1300,7 @@
       "channels": [
         {
           "id": "hqlive-8e50baf642",
-          "name": " Minnesota Timberwolves vs San Antonio Spurs | 08:00 09/05",
+          "name": " Minnesota Timberwolves vs San Antonio Spurs | 08:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1337,7 +1337,7 @@
             "team_b": "San Antonio Spurs",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "time": "08:00 09/05",
+            "time": "08:30 09/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "bong-ro"
@@ -1514,7 +1514,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1669,10 +1669,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1687,7 +1687,25 @@
                     {
                       "id": "st-b05b57f6ad",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1702,7 +1720,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
             "time": "22:30 08/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
