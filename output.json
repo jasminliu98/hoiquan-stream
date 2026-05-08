@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:40 08/05/2026",
+  "updated_at": "18:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -773,6 +773,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bb921944c8_a21869b4_20260508.png?v=a21869b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f3067d687e",
+          "name": "Thanh Hóa vs Ha Noi | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3067d687e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f3067d687e",
+                  "name": "Thanh Hóa vs Ha Noi",
+                  "streams": [
+                    {
+                      "id": "st-f3067d687e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Thanh Hóa",
+            "team_b": "Ha Noi",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3670.png",
+            "time": "18:00 09/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f3067d687e_23035795_20260508.png?v=23035795",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-58ae23d878",
+          "name": "Phu Dong vs Hai Phong | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58ae23d878",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-58ae23d878",
+                  "name": "Phu Dong vs Hai Phong",
+                  "streams": [
+                    {
+                      "id": "st-58ae23d878",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Phu Dong",
+            "team_b": "Hai Phong",
+            "logo_a": "https://media.api-sports.io/football/teams/9167.png",
+            "logo_b": "https://vpf.vn/wp-content/uploads/2018/10/haiphongfc.jpg",
+            "time": "18:00 09/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-58ae23d878_79f2c11a_20260508.png?v=79f2c11a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-742141ceda",
+          "name": "Thanh Hóa vs Ha Noi | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-742141ceda",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-742141ceda",
+                  "name": "Thanh Hóa vs Ha Noi",
+                  "streams": [
+                    {
+                      "id": "st-742141ceda",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Thanh Hóa",
+            "team_b": "Ha Noi",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3670.png",
+            "time": "18:00 09/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-742141ceda_23035795_20260508.png?v=23035795",
             "width": 1600,
             "height": 1200
           }
