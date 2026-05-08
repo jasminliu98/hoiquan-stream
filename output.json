@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:15 09/05/2026",
+  "updated_at": "01:20 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -226,77 +226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f629ed9325_8ba203c7_20260509.png?v=8ba203c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5ea363a74c",
-          "name": "Torino vs Sassuolo | 01:45 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5ea363a74c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5ea363a74c",
-                  "name": "Torino vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-5ea363a74c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-703a0ed668",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phankhuong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Torino",
-            "team_b": "Sassuolo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjMFcsnbi0W9T38__QcAu2PZRYvouexKckTg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/sco/1/1c/US_Sassuolo_Calcio_logo.svg",
-            "time": "01:45 09/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-5ea363a74c_f86ead8d_20260509.png?v=f86ead8d",
             "width": 1600,
             "height": 1200
           }
@@ -991,59 +920,6 @@
           }
         },
         {
-          "id": "hqlive-d768f8ec11",
-          "name": "Fulham vs Bournemouth | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d768f8ec11",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d768f8ec11",
-                  "name": "Fulham vs Bournemouth",
-                  "streams": [
-                    {
-                      "id": "st-d768f8ec11",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Fulham",
-            "team_b": "Bournemouth",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/8/8d/Fulham_FC.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/hif/5/53/AFC_Bournemouth_%282013%29.png",
-            "time": "21:00 09/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d768f8ec11_97f4c078_20260509.png?v=97f4c078",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-4640741799",
           "name": "Sunderland vs Manchester United | 21:00 09/05",
           "type": "single",
@@ -1198,59 +1074,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-ac450d10e1_4c81d261_20260509.png?v=4c81d261",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d240cb4a3e",
-          "name": "Lazio vs Inter | 23:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d240cb4a3e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d240cb4a3e",
-                  "name": "Lazio vs Inter",
-                  "streams": [
-                    {
-                      "id": "st-d240cb4a3e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Lazio",
-            "team_b": "Inter",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ed/SS_Lazio.png",
-            "logo_b": "https://media.api-sports.io/football/teams/505.png",
-            "time": "23:00 09/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d240cb4a3e_d13e2945_20260509.png?v=d13e2945",
             "width": 1600,
             "height": 1200
           }
@@ -1639,82 +1462,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f75dddd1e7",
-          "name": "Dino Prizmic  vs Novak Djokovic | 21:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f75dddd1e7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f75dddd1e7",
-                  "name": "Dino Prizmic  vs Novak Djokovic",
-                  "streams": [
-                    {
-                      "id": "st-f75dddd1e7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Dino Prizmic ",
-            "team_b": "Novak Djokovic",
-            "logo_a": "https://media.gettyimages.com/id/2236397410/photo/chengdu-china-dino-prizmic-of-croatia-celebrates-during-the-mens-singles-round-of-16-match.jpg?s=612x612&w=gi&k=20&c=h72DfGN8FZnUYGV_2-yQ9o2j2A0csp7e1G4SrmFn4Iw=",
-            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
-            "time": "21:00 08/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f75dddd1e7_3d795b5d_20260509.png?v=3d795b5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b05b57f6ad",
           "name": "Maria Sakkari vs Elena Rybakina | 00:30 09/05",
