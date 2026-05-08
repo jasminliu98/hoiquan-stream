@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:25 09/05/2026",
+  "updated_at": "03:47 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,155 +12,13 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-f629ed9325",
-          "name": "Lens vs Nantes | 01:45 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f629ed9325",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f629ed9325",
-                  "name": "Lens vs Nantes",
-                  "streams": [
-                    {
-                      "id": "st-f629ed9325",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08c0b07307",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Lens",
-            "team_b": "Nantes",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ6LsST7Td6rAqdSTMI4TlH_4DWNs7BOqgZQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/FC-Nantes-blason-rvb.png/500px-FC-Nantes-blason-rvb.png",
-            "time": "01:45 09/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f629ed9325_8ba203c7_20260509.png?v=8ba203c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5ea363a74c",
-          "name": "Torino vs Sassuolo | 01:45 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5ea363a74c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5ea363a74c",
-                  "name": "Torino vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-5ea363a74c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5b9a304ad",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Torino",
-            "team_b": "Sassuolo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjMFcsnbi0W9T38__QcAu2PZRYvouexKckTg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/sco/1/1c/US_Sassuolo_Calcio_logo.svg",
-            "time": "01:45 09/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-5ea363a74c_f86ead8d_20260509.png?v=f86ead8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cf2ee7de99",
+          "id": "hqlive-9870eec51f",
           "name": "Levante vs Osasuna | 02:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -175,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-cf2ee7de99",
+              "id": "src-9870eec51f",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-cf2ee7de99",
+                  "id": "ct-9870eec51f",
                   "name": "Levante vs Osasuna",
                   "streams": [
                     {
-                      "id": "st-cf2ee7de99",
+                      "id": "st-9870eec51f",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -225,13 +83,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-cf2ee7de99_d2c8c179_20260509.png?v=d2c8c179",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Levante_Osasuna_02-00 09-05_d035247e_20260509.png?v=d035247e",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-52fc2aee80",
+          "id": "hqlive-f474e8f44d",
           "name": "Mito Hollyhock vs Urawa | 12:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -246,15 +104,15 @@
           ],
           "sources": [
             {
-              "id": "src-52fc2aee80",
+              "id": "src-f474e8f44d",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-52fc2aee80",
+                  "id": "ct-f474e8f44d",
                   "name": "Mito Hollyhock vs Urawa",
                   "streams": [
                     {
-                      "id": "st-52fc2aee80",
+                      "id": "st-f474e8f44d",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -278,13 +136,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-52fc2aee80_a7a3902a_20260509.png?v=a7a3902a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mito Hollyhock_Urawa_12-00 09-05_6be5e38d_20260509.png?v=6be5e38d",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-d2a1e34d86",
+          "id": "hqlive-e84597a205",
           "name": "Auckland vs Adelaide United | 13:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -299,15 +157,15 @@
           ],
           "sources": [
             {
-              "id": "src-d2a1e34d86",
+              "id": "src-e84597a205",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-d2a1e34d86",
+                  "id": "ct-e84597a205",
                   "name": "Auckland vs Adelaide United",
                   "streams": [
                     {
-                      "id": "st-d2a1e34d86",
+                      "id": "st-e84597a205",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -331,13 +189,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d2a1e34d86_51124dd6_20260509.png?v=51124dd6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Auckland_Adelaide United_13-00 09-05_1b960274_20260509.png?v=1b960274",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-9d702ffd99",
+          "id": "hqlive-fcb91d77c3",
           "name": "Cerezo Osaka vs V-varen Nagasaki | 14:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -352,15 +210,15 @@
           ],
           "sources": [
             {
-              "id": "src-9d702ffd99",
+              "id": "src-fcb91d77c3",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-9d702ffd99",
+                  "id": "ct-fcb91d77c3",
                   "name": "Cerezo Osaka vs V-varen Nagasaki",
                   "streams": [
                     {
-                      "id": "st-9d702ffd99",
+                      "id": "st-fcb91d77c3",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -384,13 +242,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9d702ffd99_8b8504d2_20260509.png?v=8b8504d2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cerezo Osaka_V-varen Nagasaki_14-00 09-05_9c987612_20260509.png?v=9c987612",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-1301962d8b",
+          "id": "hqlive-7cd0311ba5",
           "name": "Gwangju FC vs Gangwon FC | 14:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -405,15 +263,15 @@
           ],
           "sources": [
             {
-              "id": "src-1301962d8b",
+              "id": "src-7cd0311ba5",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-1301962d8b",
+                  "id": "ct-7cd0311ba5",
                   "name": "Gwangju FC vs Gangwon FC",
                   "streams": [
                     {
-                      "id": "st-1301962d8b",
+                      "id": "st-7cd0311ba5",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -437,13 +295,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-1301962d8b_26d23d67_20260509.png?v=26d23d67",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gwangju FC_Gangwon FC_14-30 09-05_e2ac64d0_20260509.png?v=e2ac64d0",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-bb921944c8",
+          "id": "hqlive-1196971a84",
           "name": "Sydney vs Newcastle Jets | 16:40 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -458,15 +316,15 @@
           ],
           "sources": [
             {
-              "id": "src-bb921944c8",
+              "id": "src-1196971a84",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-bb921944c8",
+                  "id": "ct-1196971a84",
                   "name": "Sydney vs Newcastle Jets",
                   "streams": [
                     {
-                      "id": "st-bb921944c8",
+                      "id": "st-1196971a84",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -490,13 +348,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-bb921944c8_a21869b4_20260509.png?v=a21869b4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sydney_Newcastle Jets_16-40 09-05_c6f1e502_20260509.png?v=c6f1e502",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-f3067d687e",
+          "id": "hqlive-b35c8e9f19",
           "name": "Thanh Hóa vs Ha Noi | 18:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -511,15 +369,15 @@
           ],
           "sources": [
             {
-              "id": "src-f3067d687e",
+              "id": "src-b35c8e9f19",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f3067d687e",
+                  "id": "ct-b35c8e9f19",
                   "name": "Thanh Hóa vs Ha Noi",
                   "streams": [
                     {
-                      "id": "st-f3067d687e",
+                      "id": "st-b35c8e9f19",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -543,13 +401,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f3067d687e_23035795_20260509.png?v=23035795",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thanh Hóa_Ha Noi_18-00 09-05_5d0b81e0_20260509.png?v=5d0b81e0",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-58ae23d878",
+          "id": "hqlive-c2c60a8380",
           "name": "Phu Dong vs Hai Phong | 18:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -564,15 +422,15 @@
           ],
           "sources": [
             {
-              "id": "src-58ae23d878",
+              "id": "src-c2c60a8380",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-58ae23d878",
+                  "id": "ct-c2c60a8380",
                   "name": "Phu Dong vs Hai Phong",
                   "streams": [
                     {
-                      "id": "st-58ae23d878",
+                      "id": "st-c2c60a8380",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -596,66 +454,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-58ae23d878_79f2c11a_20260509.png?v=79f2c11a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phu Dong_Hai Phong_18-00 09-05_9140467d_20260509.png?v=9140467d",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-742141ceda",
-          "name": "Thanh Hóa vs Ha Noi | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-742141ceda",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-742141ceda",
-                  "name": "Thanh Hóa vs Ha Noi",
-                  "streams": [
-                    {
-                      "id": "st-742141ceda",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Thanh Hóa",
-            "team_b": "Ha Noi",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3670.png",
-            "time": "18:00 09/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-742141ceda_23035795_20260509.png?v=23035795",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0d9756dc52",
+          "id": "hqlive-a1793f778f",
           "name": "Liverpool vs Chelsea | 18:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -670,15 +475,15 @@
           ],
           "sources": [
             {
-              "id": "src-0d9756dc52",
+              "id": "src-a1793f778f",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-0d9756dc52",
+                  "id": "ct-a1793f778f",
                   "name": "Liverpool vs Chelsea",
                   "streams": [
                     {
-                      "id": "st-0d9756dc52",
+                      "id": "st-a1793f778f",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -694,7 +499,7 @@
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
             "time": "18:30 09/05",
-            "blv": "BLV PHAN MÃ",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV THIÊN LÔI",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -702,14 +507,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-0d9756dc52_f210ac67_20260509.png?v=f210ac67",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Liverpool_Chelsea_18-30 09-05_6bc1a3f0_20260509.png?v=6bc1a3f0",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-f0d7053396",
-          "name": "Liverpool vs Chelsea | 18:30 09/05",
+          "id": "hqlive-feff220080",
+          "name": "Brighton vs Wolves | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -723,121 +528,15 @@
           ],
           "sources": [
             {
-              "id": "src-f0d7053396",
+              "id": "src-feff220080",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f0d7053396",
-                  "name": "Liverpool vs Chelsea",
+                  "id": "ct-feff220080",
+                  "name": "Brighton vs Wolves",
                   "streams": [
                     {
-                      "id": "st-f0d7053396",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Liverpool",
-            "team_b": "Chelsea",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
-            "time": "18:30 09/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f0d7053396_f210ac67_20260509.png?v=f210ac67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f82798ec89",
-          "name": "Liverpool vs Chelsea | 18:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f82798ec89",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f82798ec89",
-                  "name": "Liverpool vs Chelsea",
-                  "streams": [
-                    {
-                      "id": "st-f82798ec89",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Liverpool",
-            "team_b": "Chelsea",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
-            "time": "18:30 09/05",
-            "blv": "BLV THIÊN LÔI ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f82798ec89_f210ac67_20260509.png?v=f210ac67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a09b68ada5",
-          "name": "Brighton vs Wolves  | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a09b68ada5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a09b68ada5",
-                  "name": "Brighton vs Wolves ",
-                  "streams": [
-                    {
-                      "id": "st-a09b68ada5",
+                      "id": "st-feff220080",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -849,7 +548,7 @@
           "org_metadata": {
             "league": "Premier League",
             "team_a": "Brighton",
-            "team_b": "Wolves ",
+            "team_b": "Wolves",
             "logo_a": "https://media.api-sports.io/football/teams/51.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/6c/Wolverhampton_Wanderers.png",
             "time": "21:00 09/05",
@@ -861,13 +560,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-a09b68ada5_c5bbdaa3_20260509.png?v=c5bbdaa3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brighton_Wolves_21-00 09-05_baae9a66_20260509.png?v=baae9a66",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-d768f8ec11",
+          "id": "hqlive-6b7648e1d3",
           "name": "Fulham vs Bournemouth | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -882,15 +581,15 @@
           ],
           "sources": [
             {
-              "id": "src-d768f8ec11",
+              "id": "src-6b7648e1d3",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-d768f8ec11",
+                  "id": "ct-6b7648e1d3",
                   "name": "Fulham vs Bournemouth",
                   "streams": [
                     {
-                      "id": "st-d768f8ec11",
+                      "id": "st-6b7648e1d3",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -914,13 +613,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d768f8ec11_97f4c078_20260509.png?v=97f4c078",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fulham_Bournemouth_21-00 09-05_51afa1d7_20260509.png?v=51afa1d7",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-4640741799",
+          "id": "hqlive-d7e7c54e00",
           "name": "Sunderland vs Manchester United | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -935,15 +634,15 @@
           ],
           "sources": [
             {
-              "id": "src-4640741799",
+              "id": "src-d7e7c54e00",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4640741799",
+                  "id": "ct-d7e7c54e00",
                   "name": "Sunderland vs Manchester United",
                   "streams": [
                     {
-                      "id": "st-4640741799",
+                      "id": "st-d7e7c54e00",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -959,7 +658,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
             "logo_b": "https://media.api-sports.io/football/teams/33.png",
             "time": "21:00 09/05",
-            "blv": "BLV PHAN MÃ",
+            "blv": "BLV PHAN MÃ, BLV PHAN HÀ LINH, BLV THIÊN LÔI",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -967,119 +666,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-4640741799_4c81d261_20260509.png?v=4c81d261",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sunderland_Manchester United_21-00 09-05_4d399d18_20260509.png?v=4d399d18",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-8ca070cc47",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ca070cc47",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8ca070cc47",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-8ca070cc47",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/33.png",
-            "time": "21:00 09/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8ca070cc47_4c81d261_20260509.png?v=4c81d261",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ac450d10e1",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac450d10e1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ac450d10e1",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-ac450d10e1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/33.png",
-            "time": "21:00 09/05",
-            "blv": "BLV THIÊN LÔI ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-ac450d10e1_4c81d261_20260509.png?v=4c81d261",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d240cb4a3e",
+          "id": "hqlive-029b275385",
           "name": "Lazio vs Inter | 23:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1094,15 +687,15 @@
           ],
           "sources": [
             {
-              "id": "src-d240cb4a3e",
+              "id": "src-029b275385",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-d240cb4a3e",
+                  "id": "ct-029b275385",
                   "name": "Lazio vs Inter",
                   "streams": [
                     {
-                      "id": "st-d240cb4a3e",
+                      "id": "st-029b275385",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1126,14 +719,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d240cb4a3e_d13e2945_20260509.png?v=d13e2945",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lazio_Inter_23-00 09-05_cf449bdf_20260509.png?v=cf449bdf",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-cf5ff72ca3",
-          "name": "Manchester City vs Brentford  | 23:30 09/05",
+          "id": "hqlive-fb315d5fe3",
+          "name": "Manchester City vs Brentford | 23:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1147,15 +740,15 @@
           ],
           "sources": [
             {
-              "id": "src-cf5ff72ca3",
+              "id": "src-fb315d5fe3",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-cf5ff72ca3",
-                  "name": "Manchester City vs Brentford ",
+                  "id": "ct-fb315d5fe3",
+                  "name": "Manchester City vs Brentford",
                   "streams": [
                     {
-                      "id": "st-cf5ff72ca3",
+                      "id": "st-fb315d5fe3",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1167,11 +760,11 @@
           "org_metadata": {
             "league": "Premier League",
             "team_a": "Manchester City",
-            "team_b": "Brentford ",
+            "team_b": "Brentford",
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
             "time": "23:30 09/05",
-            "blv": "BLV PHAN MÃ",
+            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1179,66 +772,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-cf5ff72ca3_f14f0699_20260509.png?v=f14f0699",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Manchester City_Brentford_23-30 09-05_7f9ca20a_20260509.png?v=7f9ca20a",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-1f41833157",
-          "name": "Manchester City vs Brentford  | 23:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f41833157",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1f41833157",
-                  "name": "Manchester City vs Brentford ",
-                  "streams": [
-                    {
-                      "id": "st-1f41833157",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Manchester City",
-            "team_b": "Brentford ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
-            "time": "23:30 09/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-1f41833157_f14f0699_20260509.png?v=f14f0699",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-df5511886d",
+          "id": "hqlive-3071c35ec7",
           "name": "Atletico Madrid vs Celta Vigo | 23:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1253,15 +793,15 @@
           ],
           "sources": [
             {
-              "id": "src-df5511886d",
+              "id": "src-3071c35ec7",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-df5511886d",
+                  "id": "ct-3071c35ec7",
                   "name": "Atletico Madrid vs Celta Vigo",
                   "streams": [
                     {
-                      "id": "st-df5511886d",
+                      "id": "st-3071c35ec7",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1285,13 +825,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-df5511886d_6632028b_20260509.png?v=6632028b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atletico Madrid_Celta Vigo_23-30 09-05_e6470ec5_20260509.png?v=e6470ec5",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-c96e651946",
+          "id": "hqlive-c01b9ad992",
           "name": "Toronto FC vs Inter Miami | 00:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1306,15 +846,15 @@
           ],
           "sources": [
             {
-              "id": "src-c96e651946",
+              "id": "src-c01b9ad992",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c96e651946",
+                  "id": "ct-c01b9ad992",
                   "name": "Toronto FC vs Inter Miami",
                   "streams": [
                     {
-                      "id": "st-c96e651946",
+                      "id": "st-c01b9ad992",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1338,14 +878,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c96e651946_50e1452c_20260509.png?v=50e1452c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Toronto FC_Inter Miami_00-00 10-05_73650145_20260509.png?v=73650145",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-986648642d",
-          "name": "Lecce vs  Juventus | 01:45 10/05",
+          "id": "hqlive-b3481fc647",
+          "name": "Lecce vs Juventus | 01:45 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1359,15 +899,15 @@
           ],
           "sources": [
             {
-              "id": "src-986648642d",
+              "id": "src-b3481fc647",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-986648642d",
-                  "name": "Lecce vs  Juventus",
+                  "id": "ct-b3481fc647",
+                  "name": "Lecce vs Juventus",
                   "streams": [
                     {
-                      "id": "st-986648642d",
+                      "id": "st-b3481fc647",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1379,7 +919,7 @@
           "org_metadata": {
             "league": "Serie A",
             "team_a": "Lecce",
-            "team_b": " Juventus",
+            "team_b": "Juventus",
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/0/05/Us_lecce.png/250px-Us_lecce.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/6lal-0xwWtos5HI99HRvuQ_96x96.png",
             "time": "01:45 10/05",
@@ -1391,13 +931,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-986648642d_b9037bb5_20260509.png?v=b9037bb5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lecce_Juventus_01-45 10-05_cb5fb741_20260509.png?v=cb5fb741",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-c4c42505a0",
+          "id": "hqlive-d5d54de92a",
           "name": "Real Sociedad vs Real Betis | 02:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1412,15 +952,15 @@
           ],
           "sources": [
             {
-              "id": "src-c4c42505a0",
+              "id": "src-d5d54de92a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c4c42505a0",
+                  "id": "ct-d5d54de92a",
                   "name": "Real Sociedad vs Real Betis",
                   "streams": [
                     {
-                      "id": "st-c4c42505a0",
+                      "id": "st-d5d54de92a",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1444,7 +984,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c4c42505a0_6ae7dad1_20260509.png?v=6ae7dad1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Sociedad_Real Betis_02-00 10-05_dfe04ade_20260509.png?v=dfe04ade",
             "width": 1600,
             "height": 1200
           }
@@ -1459,8 +999,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-8e50baf642",
-          "name": " Minnesota Timberwolves vs San Antonio Spurs | 08:30 09/05",
+          "id": "hqlive-34999ae284",
+          "name": "Minnesota Timberwolves vs San Antonio Spurs | 08:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1474,15 +1014,15 @@
           ],
           "sources": [
             {
-              "id": "src-8e50baf642",
+              "id": "src-34999ae284",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-8e50baf642",
-                  "name": " Minnesota Timberwolves vs San Antonio Spurs",
+                  "id": "ct-34999ae284",
+                  "name": "Minnesota Timberwolves vs San Antonio Spurs",
                   "streams": [
                     {
-                      "id": "st-8e50baf642",
+                      "id": "st-34999ae284",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1493,7 +1033,7 @@
           ],
           "org_metadata": {
             "league": "NBA",
-            "team_a": " Minnesota Timberwolves",
+            "team_a": "Minnesota Timberwolves",
             "team_b": "San Antonio Spurs",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
@@ -1506,13 +1046,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8e50baf642_d36ce78e_20260509.png?v=d36ce78e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Minnesota Timberwolves_San Antonio Spurs_08-30 09-05_4c517d64_20260509.png?v=4c517d64",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-c705112d1e",
+          "id": "hqlive-7eca51c206",
           "name": "Los Angeles Lakers vs Oklahoma City Thunder | 07:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1527,15 +1067,15 @@
           ],
           "sources": [
             {
-              "id": "src-c705112d1e",
+              "id": "src-7eca51c206",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c705112d1e",
+                  "id": "ct-7eca51c206",
                   "name": "Los Angeles Lakers vs Oklahoma City Thunder",
                   "streams": [
                     {
-                      "id": "st-c705112d1e",
+                      "id": "st-7eca51c206",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1559,14 +1099,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c705112d1e_0c18f44a_20260509.png?v=0c18f44a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles Lakers_Oklahoma City Thunder_07-30 10-05_5457a446_20260509.png?v=5457a446",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-9773d3352e",
-          "name": " Shanxi Zhongyu vs Zhejiang Guangsha | 18:30 10/05",
+          "id": "hqlive-a1f5ab5657",
+          "name": "Shanxi Zhongyu vs Zhejiang Guangsha | 18:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1580,15 +1120,15 @@
           ],
           "sources": [
             {
-              "id": "src-9773d3352e",
+              "id": "src-a1f5ab5657",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-9773d3352e",
-                  "name": " Shanxi Zhongyu vs Zhejiang Guangsha",
+                  "id": "ct-a1f5ab5657",
+                  "name": "Shanxi Zhongyu vs Zhejiang Guangsha",
                   "streams": [
                     {
-                      "id": "st-9773d3352e",
+                      "id": "st-a1f5ab5657",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1599,7 +1139,7 @@
           ],
           "org_metadata": {
             "league": "CBA",
-            "team_a": " Shanxi Zhongyu",
+            "team_a": "Shanxi Zhongyu",
             "team_b": "Zhejiang Guangsha",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/55/Shanxi_Brave_Dragons_logo.jpg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
@@ -1612,7 +1152,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9773d3352e_47aac1d9_20260509.png?v=47aac1d9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanxi Zhongyu_Zhejiang Guangsha_18-30 10-05_8fd02778_20260509.png?v=8fd02778",
             "width": 1600,
             "height": 1200
           }
@@ -1627,7 +1167,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-701d804549",
+          "id": "hqlive-53df07bb6d",
           "name": "Lorenzo Musett vs Giovanni Mpetshi Perricard | 03:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1642,15 +1182,15 @@
           ],
           "sources": [
             {
-              "id": "src-701d804549",
+              "id": "src-53df07bb6d",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-701d804549",
+                  "id": "ct-53df07bb6d",
                   "name": "Lorenzo Musett vs Giovanni Mpetshi Perricard",
                   "streams": [
                     {
-                      "id": "st-701d804549",
+                      "id": "st-53df07bb6d",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1692,14 +1232,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-701d804549_d8e642eb_20260509.png?v=d8e642eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lorenzo Musett_Giovanni Mpetshi Perricard_03-00 09-05_8e45dba2_20260509.png?v=8e45dba2",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-6a83c73166",
-          "name": "Tomas Machac vs Daniil Medvedev  | 16:00 09/05",
+          "id": "hqlive-88b0d8dc67",
+          "name": "Tomas Machac vs Daniil Medvedev | 16:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1713,15 +1253,15 @@
           ],
           "sources": [
             {
-              "id": "src-6a83c73166",
+              "id": "src-88b0d8dc67",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-6a83c73166",
-                  "name": "Tomas Machac vs Daniil Medvedev ",
+                  "id": "ct-88b0d8dc67",
+                  "name": "Tomas Machac vs Daniil Medvedev",
                   "streams": [
                     {
-                      "id": "st-6a83c73166",
+                      "id": "st-88b0d8dc67",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1733,7 +1273,7 @@
           "org_metadata": {
             "league": "WTA 1000 Rome",
             "team_a": "Tomas Machac",
-            "team_b": "Daniil Medvedev ",
+            "team_b": "Daniil Medvedev",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXdwaH9QMh6ZenXsa--g2VXiVPn7BuJjjbQ&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
             "time": "16:00 09/05",
@@ -1745,13 +1285,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-6a83c73166_b90623c4_20260509.png?v=b90623c4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Machac_Daniil Medvedev_16-00 09-05_df059098_20260509.png?v=df059098",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-e5a90182cc",
+          "id": "hqlive-de2b80753b",
           "name": "Nikoloz Basilashvili vs Ben Shelton | 19:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1766,15 +1306,15 @@
           ],
           "sources": [
             {
-              "id": "src-e5a90182cc",
+              "id": "src-de2b80753b",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e5a90182cc",
+                  "id": "ct-de2b80753b",
                   "name": "Nikoloz Basilashvili vs Ben Shelton",
                   "streams": [
                     {
-                      "id": "st-e5a90182cc",
+                      "id": "st-de2b80753b",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1798,13 +1338,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-e5a90182cc_b7e1f679_20260509.png?v=b7e1f679",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nikoloz Basilashvili_Ben Shelton_19-00 09-05_9ca7220b_20260509.png?v=9ca7220b",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-c7b0378292",
+          "id": "hqlive-8303acccc4",
           "name": "Jannik Sinner vs Sebastian Ofner | 00:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1819,15 +1359,15 @@
           ],
           "sources": [
             {
-              "id": "src-c7b0378292",
+              "id": "src-8303acccc4",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c7b0378292",
+                  "id": "ct-8303acccc4",
                   "name": "Jannik Sinner vs Sebastian Ofner",
                   "streams": [
                     {
-                      "id": "st-c7b0378292",
+                      "id": "st-8303acccc4",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1851,7 +1391,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c7b0378292_92421d45_20260509.png?v=92421d45",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Sebastian Ofner_00-00 10-05_02d08901_20260509.png?v=02d08901",
             "width": 1600,
             "height": 1200
           }
@@ -1866,7 +1406,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-fc2022c89b",
+          "id": "hqlive-623fb87b6f",
           "name": "Đức vs Nhật Bản | 16:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1881,15 +1421,15 @@
           ],
           "sources": [
             {
-              "id": "src-fc2022c89b",
+              "id": "src-623fb87b6f",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-fc2022c89b",
+                  "id": "ct-623fb87b6f",
                   "name": "Đức vs Nhật Bản",
                   "streams": [
                     {
-                      "id": "st-fc2022c89b",
+                      "id": "st-623fb87b6f",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1913,13 +1453,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-fc2022c89b_76471d02_20260509.png?v=76471d02",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Nhật Bản_16-00 09-05_04e37d3a_20260509.png?v=04e37d3a",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-3a0f19df72",
+          "id": "hqlive-04092841c7",
           "name": "Trung Quốc vs Pháp | 18:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1934,15 +1474,15 @@
           ],
           "sources": [
             {
-              "id": "src-3a0f19df72",
+              "id": "src-04092841c7",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-3a0f19df72",
+                  "id": "ct-04092841c7",
                   "name": "Trung Quốc vs Pháp",
                   "streams": [
                     {
-                      "id": "st-3a0f19df72",
+                      "id": "st-04092841c7",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1966,13 +1506,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3a0f19df72_72108aab_20260509.png?v=72108aab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Pháp_18-30 09-05_67bd2044_20260509.png?v=67bd2044",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-251dbb5e52",
+          "id": "hqlive-d62e7de2ea",
           "name": "Đài Loan vs Nhật Bản | 23:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -1987,15 +1527,15 @@
           ],
           "sources": [
             {
-              "id": "src-251dbb5e52",
+              "id": "src-d62e7de2ea",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-251dbb5e52",
+                  "id": "ct-d62e7de2ea",
                   "name": "Đài Loan vs Nhật Bản",
                   "streams": [
                     {
-                      "id": "st-251dbb5e52",
+                      "id": "st-d62e7de2ea",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -2019,13 +1559,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-251dbb5e52_dfaeebd5_20260509.png?v=dfaeebd5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Nhật Bản_23-00 09-05_2a017886_20260509.png?v=2a017886",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-f2c5b1f06b",
+          "id": "hqlive-c1e8181560",
           "name": "Trung Quốc vs Pháp | 01:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
@@ -2040,15 +1580,15 @@
           ],
           "sources": [
             {
-              "id": "src-f2c5b1f06b",
+              "id": "src-c1e8181560",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f2c5b1f06b",
+                  "id": "ct-c1e8181560",
                   "name": "Trung Quốc vs Pháp",
                   "streams": [
                     {
-                      "id": "st-f2c5b1f06b",
+                      "id": "st-c1e8181560",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -2072,7 +1612,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f2c5b1f06b_72108aab_20260509.png?v=72108aab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Pháp_01-30 10-05_67bd2044_20260509.png?v=67bd2044",
             "width": 1600,
             "height": 1200
           }
