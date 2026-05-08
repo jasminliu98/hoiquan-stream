@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:00 08/05/2026",
+  "updated_at": "13:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -649,6 +649,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-52fc2aee80_a7a3902a_20260508.png?v=a7a3902a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d2a1e34d86",
+          "name": "Auckland vs Adelaide United | 13:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2a1e34d86",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d2a1e34d86",
+                  "name": "Auckland vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-d2a1e34d86",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League",
+            "team_a": "Auckland",
+            "team_b": "Adelaide United",
+            "logo_a": "https://media.api-sports.io/football/teams/24608.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3zrZ0HFvG9-HWKYsCOLXgZJ1y7d2zLCzmQ&s",
+            "time": "13:00 09/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d2a1e34d86_51124dd6_20260508.png?v=51124dd6",
             "width": 1600,
             "height": 1200
           }
