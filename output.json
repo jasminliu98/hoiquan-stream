@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:47 09/05/2026",
+  "updated_at": "04:05 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9870eec51f",
-          "name": "Levante vs Osasuna | 02:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9870eec51f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9870eec51f",
-                  "name": "Levante vs Osasuna",
-                  "streams": [
-                    {
-                      "id": "st-9870eec51f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c4db806a9",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Levante",
-            "team_b": "Osasuna",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg/1280px-Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Ca_osasuna.png",
-            "time": "02:00 09/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Levante_Osasuna_02-00 09-05_d035247e_20260509.png?v=d035247e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f474e8f44d",
           "name": "Mito Hollyhock vs Urawa | 12:00 09/05",
