@@ -156,7 +156,9 @@ def make_thumbnail(match, blv_names_list, match_key):
     date_str  = now_vn().strftime("%Y%m%d")
     
     # Dùng match_key thay vì channel_id để đảm bảo cùng 1 trận = 1 file ảnh
-    out_path  = f"{THUMBS_DIR}/{match_key}_{logo_hash}_{date_str}.png"
+    # Thay thế dấu ":" để tránh lỗi tạo file trên Linux
+    safe_key  = match_key.replace(":", "-")
+    out_path  = f"{THUMBS_DIR}/{safe_key}_{logo_hash}_{date_str}.png"
 
     if os.path.exists(out_path):
         return out_path
