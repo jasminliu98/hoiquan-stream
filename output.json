@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:35 09/05/2026",
+  "updated_at": "01:45 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1410,6 +1410,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c96e651946_50e1452c_20260509.png?v=50e1452c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-986648642d",
+          "name": "Lecce vs  Juventus | 01:45 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-986648642d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-986648642d",
+                  "name": "Lecce vs  Juventus",
+                  "streams": [
+                    {
+                      "id": "st-986648642d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Lecce",
+            "team_b": " Juventus",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/0/05/Us_lecce.png/250px-Us_lecce.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/6lal-0xwWtos5HI99HRvuQ_96x96.png",
+            "time": "01:45 10/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-986648642d_b9037bb5_20260509.png?v=b9037bb5",
             "width": 1600,
             "height": 1200
           }
