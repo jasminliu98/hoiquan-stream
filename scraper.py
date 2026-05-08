@@ -262,22 +262,6 @@ def make_thumbnail(match, blv_names_list, match_key):
             font_size -= 3
         draw.text((W // 2, HEADER_H // 2), league_text, fill=(255, 255, 255), font=f, anchor="mm")
 
-    # Vẽ BLV từ danh sách đã lọc trùng
-    if blv_names_list:
-        blv_text  = "BLV: " + ", ".join(blv_names_list)
-        font_size = 58
-        f         = None
-        while font_size >= 28:
-            try:
-                f = ImageFont.truetype(FONT_BOLD, font_size)
-            except:
-                f = ImageFont.load_default()
-            bbox = draw.textbbox((0, 0), blv_text, font=f)
-            if (bbox[2] - bbox[0]) <= W - 60:
-                break
-            font_size -= 3
-        draw.text((W // 2, H - FOOTER_H // 2), blv_text, fill=(255, 255, 255), font=f, anchor="mm")
-
     draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
     bg.save(out_path, "PNG", optimize=True)
     return out_path
