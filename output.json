@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:00 08/05/2026",
+  "updated_at": "23:30 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1356,6 +1356,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d240cb4a3e_d13e2945_20260508.png?v=d13e2945",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cf5ff72ca3",
+          "name": "Manchester City vs Brentford  | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf5ff72ca3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cf5ff72ca3",
+                  "name": "Manchester City vs Brentford ",
+                  "streams": [
+                    {
+                      "id": "st-cf5ff72ca3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Brentford ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
+            "time": "23:30 09/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-cf5ff72ca3_f14f0699_20260508.png?v=f14f0699",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1f41833157",
+          "name": "Manchester City vs Brentford  | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f41833157",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1f41833157",
+                  "name": "Manchester City vs Brentford ",
+                  "streams": [
+                    {
+                      "id": "st-1f41833157",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Brentford ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
+            "time": "23:30 09/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-1f41833157_f14f0699_20260508.png?v=f14f0699",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-df5511886d",
+          "name": "Atletico Madrid vs Celta Vigo | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df5511886d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-df5511886d",
+                  "name": "Atletico Madrid vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-df5511886d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atletico Madrid",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/f/f9/Atletico_Madrid_Logo_2024.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/538.png",
+            "time": "23:30 09/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-df5511886d_6632028b_20260508.png?v=6632028b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8ce6fc7040",
+          "name": "VfL Wolfsburg  vs Bayern München | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ce6fc7040",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8ce6fc7040",
+                  "name": "VfL Wolfsburg  vs Bayern München",
+                  "streams": [
+                    {
+                      "id": "st-8ce6fc7040",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "VfL Wolfsburg ",
+            "team_b": "Bayern München",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/VfL_Wolfsburg_Logo.svg/1280px-VfL_Wolfsburg_Logo.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/157.png",
+            "time": "23:30 09/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8ce6fc7040_ddc64f62_20260508.png?v=ddc64f62",
             "width": 1600,
             "height": 1200
           }
