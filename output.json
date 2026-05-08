@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:30 08/05/2026",
+  "updated_at": "12:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -596,6 +596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-cf2ee7de99_d2c8c179_20260508.png?v=d2c8c179",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-52fc2aee80",
+          "name": "Mito Hollyhock vs Urawa | 12:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52fc2aee80",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-52fc2aee80",
+                  "name": "Mito Hollyhock vs Urawa",
+                  "streams": [
+                    {
+                      "id": "st-52fc2aee80",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Mito Hollyhock",
+            "team_b": "Urawa",
+            "logo_a": "https://media.api-sports.io/football/teams/305.png",
+            "logo_b": "https://media.api-sports.io/football/teams/287.png",
+            "time": "12:00 09/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-52fc2aee80_a7a3902a_20260508.png?v=a7a3902a",
             "width": 1600,
             "height": 1200
           }
