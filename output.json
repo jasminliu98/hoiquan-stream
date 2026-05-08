@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:00 08/05/2026",
+  "updated_at": "14:30 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -755,6 +755,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9d702ffd99_8b8504d2_20260508.png?v=8b8504d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1301962d8b",
+          "name": "Gwangju FC vs Gangwon FC | 14:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1301962d8b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1301962d8b",
+                  "name": "Gwangju FC vs Gangwon FC",
+                  "streams": [
+                    {
+                      "id": "st-1301962d8b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Gwangju FC",
+            "team_b": "Gangwon FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/65/Gwangju_FC.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gangwon_FC.svg",
+            "time": "14:30 09/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-1301962d8b_26d23d67_20260508.png?v=26d23d67",
             "width": 1600,
             "height": 1200
           }
