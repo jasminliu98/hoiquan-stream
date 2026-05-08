@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 08/05/2026",
+  "updated_at": "22:40 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1514,82 +1514,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3332880692",
-          "name": "Daniel Altmaier vs Alexandet Zverev | 19:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3332880692",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3332880692",
-                  "name": "Daniel Altmaier vs Alexandet Zverev",
-                  "streams": [
-                    {
-                      "id": "st-3332880692",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Daniel Altmaier",
-            "team_b": "Alexandet Zverev",
-            "logo_a": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "time": "19:00 08/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3332880692_35e5809f_20260508.png?v=35e5809f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f75dddd1e7",
           "name": "Dino Prizmic  vs Novak Djokovic | 21:00 08/05",
@@ -1663,7 +1592,7 @@
         },
         {
           "id": "hqlive-b05b57f6ad",
-          "name": "Maria Sakkari vs Elena Rybakina | 22:30 08/05",
+          "name": "Maria Sakkari vs Elena Rybakina | 23:30 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1718,7 +1647,7 @@
             "team_b": "Elena Rybakina",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaAgF1hQpQKVvan9PdltbW5xHgDapkebUiA&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
-            "time": "22:30 08/05",
+            "time": "23:30 08/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
