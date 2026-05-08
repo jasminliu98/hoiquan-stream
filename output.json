@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:30 08/05/2026",
+  "updated_at": "21:55 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1299,8 +1299,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-c705112d1e",
-          "name": "Los Angeles Lakers vs Oklahoma City Thunder | 07:30 09/05",
+          "id": "hqlive-8e50baf642",
+          "name": " Minnesota Timberwolves vs San Antonio Spurs | 08:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1314,15 +1314,15 @@
           ],
           "sources": [
             {
-              "id": "src-c705112d1e",
+              "id": "src-8e50baf642",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c705112d1e",
-                  "name": "Los Angeles Lakers vs Oklahoma City Thunder",
+                  "id": "ct-8e50baf642",
+                  "name": " Minnesota Timberwolves vs San Antonio Spurs",
                   "streams": [
                     {
-                      "id": "st-c705112d1e",
+                      "id": "st-8e50baf642",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1333,11 +1333,11 @@
           ],
           "org_metadata": {
             "league": "NBA",
-            "team_a": "Los Angeles Lakers",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://www.freepnglogos.com/uploads/lakers-logo-png/los-angeles-lakers-wordmark-logo-png-4.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
-            "time": "07:30 09/05",
+            "team_a": " Minnesota Timberwolves",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/1200px-Minnesota_Timberwolves_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "time": "08:00 09/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "bong-ro"
@@ -1346,7 +1346,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c705112d1e_0c18f44a_20260508.png?v=0c18f44a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8e50baf642_352ef024_20260508.png?v=352ef024",
             "width": 1600,
             "height": 1200
           }
@@ -1400,6 +1400,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f77ad541b6_7ee9edf4_20260508.png?v=7ee9edf4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c705112d1e",
+          "name": "Los Angeles Lakers vs Oklahoma City Thunder | 07:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c705112d1e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c705112d1e",
+                  "name": "Los Angeles Lakers vs Oklahoma City Thunder",
+                  "streams": [
+                    {
+                      "id": "st-c705112d1e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Los Angeles Lakers",
+            "team_b": "Oklahoma City Thunder",
+            "logo_a": "https://www.freepnglogos.com/uploads/lakers-logo-png/los-angeles-lakers-wordmark-logo-png-4.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "time": "07:30 10/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c705112d1e_0c18f44a_20260508.png?v=0c18f44a",
             "width": 1600,
             "height": 1200
           }
