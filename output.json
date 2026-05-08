@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:30 08/05/2026",
+  "updated_at": "14:45 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -808,86 +808,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-1301962d8b_26d23d67_20260508.png?v=26d23d67",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-89c86ad4bb",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 12:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89c86ad4bb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-89c86ad4bb",
-                  "name": "Tay cơ 1 vs Tay cơ 2",
-                  "streams": [
-                    {
-                      "id": "st-89c86ad4bb",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d193d3b2c2",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 ALLIN C2 ROAD TO WORLD",
-            "team_a": "Tay cơ 1",
-            "team_b": "Tay cơ 2",
-            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "time": "12:00 08/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-89c86ad4bb_c86671d2_20260508.png?v=c86671d2",
             "width": 1600,
             "height": 1200
           }
