@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:25 08/05/2026",
+  "updated_at": "16:35 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -66,59 +66,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-2d45cbe914_84d16dbf_20260508.png?v=84d16dbf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b522259710",
-          "name": "SC Paderborn 07 vs Karlsruher SC | 23:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b522259710",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b522259710",
-                  "name": "SC Paderborn 07 vs Karlsruher SC",
-                  "streams": [
-                    {
-                      "id": "st-b522259710",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "SC Paderborn 07",
-            "team_b": "Karlsruher SC",
-            "logo_a": "https://dothethao.net.vn/wp-content/uploads/2020/06/sc-paderborn-logo-900px.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Karlsruher_SC_Logo_2.svg/1280px-Karlsruher_SC_Logo_2.svg.png",
-            "time": "23:30 08/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-b522259710_64f78db2_20260508.png?v=64f78db2",
             "width": 1600,
             "height": 1200
           }
