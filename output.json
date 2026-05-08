@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:00 08/05/2026",
+  "updated_at": "21:30 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -919,6 +919,59 @@
           }
         },
         {
+          "id": "hqlive-f82798ec89",
+          "name": "Liverpool vs Chelsea | 18:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f82798ec89",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f82798ec89",
+                  "name": "Liverpool vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-f82798ec89",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Chelsea",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
+            "time": "18:30 09/05",
+            "blv": "BLV THIÊN LÔI ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f82798ec89_f210ac67_20260508.png?v=f210ac67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-040d45ccc1",
           "name": "VfB Stuttgart  vs Bayer Leverkusen | 20:30 09/05",
           "type": "single",
@@ -1179,6 +1232,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8ca070cc47_4c81d261_20260508.png?v=4c81d261",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ac450d10e1",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac450d10e1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ac450d10e1",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-ac450d10e1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/33.png",
+            "time": "21:00 09/05",
+            "blv": "BLV THIÊN LÔI ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-ac450d10e1_4c81d261_20260508.png?v=4c81d261",
             "width": 1600,
             "height": 1200
           }
