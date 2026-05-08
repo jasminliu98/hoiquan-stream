@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:55 08/05/2026",
+  "updated_at": "21:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -970,6 +970,218 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-a09b68ada5",
+          "name": "Brighton vs Wolves  | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a09b68ada5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a09b68ada5",
+                  "name": "Brighton vs Wolves ",
+                  "streams": [
+                    {
+                      "id": "st-a09b68ada5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Brighton",
+            "team_b": "Wolves ",
+            "logo_a": "https://media.api-sports.io/football/teams/51.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/6c/Wolverhampton_Wanderers.png",
+            "time": "21:00 09/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-a09b68ada5_c5bbdaa3_20260508.png?v=c5bbdaa3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d768f8ec11",
+          "name": "Fulham vs Bournemouth | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d768f8ec11",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d768f8ec11",
+                  "name": "Fulham vs Bournemouth",
+                  "streams": [
+                    {
+                      "id": "st-d768f8ec11",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Fulham",
+            "team_b": "Bournemouth",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/8/8d/Fulham_FC.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/hif/5/53/AFC_Bournemouth_%282013%29.png",
+            "time": "21:00 09/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d768f8ec11_97f4c078_20260508.png?v=97f4c078",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4640741799",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4640741799",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4640741799",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-4640741799",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/33.png",
+            "time": "21:00 09/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-4640741799_4c81d261_20260508.png?v=4c81d261",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8ca070cc47",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ca070cc47",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8ca070cc47",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-8ca070cc47",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/33.png",
+            "time": "21:00 09/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8ca070cc47_4c81d261_20260508.png?v=4c81d261",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1292,7 +1504,7 @@
         },
         {
           "id": "hqlive-b05b57f6ad",
-          "name": "Maria Sakkari vs Elena Rybakina | 21:30 08/05",
+          "name": "Maria Sakkari vs Elena Rybakina | 22:30 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1329,7 +1541,7 @@
             "team_b": "Elena Rybakina",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaAgF1hQpQKVvan9PdltbW5xHgDapkebUiA&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
-            "time": "21:30 08/05",
+            "time": "22:30 08/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "tennis"
