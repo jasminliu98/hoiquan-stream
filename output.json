@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:00 09/05/2026",
+  "updated_at": "03:15 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2056,6 +2056,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-fc2022c89b_76471d02_20260509.png?v=76471d02",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3a0f19df72",
+          "name": "Trung Quốc vs Pháp | 18:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a0f19df72",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a0f19df72",
+                  "name": "Trung Quốc vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-3a0f19df72",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Trung Quốc",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "18:30 09/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-3a0f19df72_72108aab_20260509.png?v=72108aab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-251dbb5e52",
+          "name": "Đài Loan vs Nhật Bản | 23:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-251dbb5e52",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-251dbb5e52",
+                  "name": "Đài Loan vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-251dbb5e52",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Đài Loan",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://eigroup.io/wp-content/uploads/2024/10/co-dai-loan-1-e1502467700261.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/3840px-Flag_of_Japan.svg.png",
+            "time": "23:00 09/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-251dbb5e52_dfaeebd5_20260509.png?v=dfaeebd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f2c5b1f06b",
+          "name": "Trung Quốc vs Pháp | 01:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2c5b1f06b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f2c5b1f06b",
+                  "name": "Trung Quốc vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-f2c5b1f06b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Trung Quốc",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "01:30 10/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f2c5b1f06b_72108aab_20260509.png?v=72108aab",
             "width": 1600,
             "height": 1200
           }
