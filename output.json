@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:00 08/05/2026",
+  "updated_at": "14:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -702,6 +702,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-d2a1e34d86_51124dd6_20260508.png?v=51124dd6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9d702ffd99",
+          "name": "Cerezo Osaka vs V-varen Nagasaki | 14:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d702ffd99",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9d702ffd99",
+                  "name": "Cerezo Osaka vs V-varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-9d702ffd99",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Cerezo Osaka",
+            "team_b": "V-varen Nagasaki",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Cerezo_Osaka_logo.svg/250px-Cerezo_Osaka_logo.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/285.png",
+            "time": "14:00 09/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-9d702ffd99_8b8504d2_20260508.png?v=8b8504d2",
             "width": 1600,
             "height": 1200
           }
