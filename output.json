@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:50 08/05/2026",
+  "updated_at": "20:55 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1221,7 +1221,7 @@
         },
         {
           "id": "hqlive-f75dddd1e7",
-          "name": "Dino Prizmic  vs Novak Djokovic | 19:30 08/05",
+          "name": "Dino Prizmic  vs Novak Djokovic | 21:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1276,7 +1276,7 @@
             "team_b": "Novak Djokovic",
             "logo_a": "https://media.gettyimages.com/id/2236397410/photo/chengdu-china-dino-prizmic-of-croatia-celebrates-during-the-mens-singles-round-of-16-match.jpg?s=612x612&w=gi&k=20&c=h72DfGN8FZnUYGV_2-yQ9o2j2A0csp7e1G4SrmFn4Iw=",
             "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
-            "time": "19:30 08/05",
+            "time": "21:00 08/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
