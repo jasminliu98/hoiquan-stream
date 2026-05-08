@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 08/05/2026",
+  "updated_at": "22:00 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1335,7 +1335,7 @@
             "league": "NBA",
             "team_a": " Minnesota Timberwolves",
             "team_b": "San Antonio Spurs",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/1200px-Minnesota_Timberwolves_logo.svg.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
             "time": "08:00 09/05",
             "blv": "BLV PHAN TỪ",
@@ -1346,7 +1346,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8e50baf642_352ef024_20260508.png?v=352ef024",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-8e50baf642_d36ce78e_20260508.png?v=d36ce78e",
             "width": 1600,
             "height": 1200
           }
