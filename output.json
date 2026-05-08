@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:45 09/05/2026",
+  "updated_at": "02:00 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1463,6 +1463,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-986648642d_b9037bb5_20260509.png?v=b9037bb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c4c42505a0",
+          "name": "Real Sociedad vs Real Betis | 02:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4c42505a0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c4c42505a0",
+                  "name": "Real Sociedad vs Real Betis",
+                  "streams": [
+                    {
+                      "id": "st-c4c42505a0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Sociedad",
+            "team_b": "Real Betis",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqksyaudrnPerqAK70Wf34Xo-WN_BSmSsQg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg",
+            "time": "02:00 10/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-c4c42505a0_6ae7dad1_20260509.png?v=6ae7dad1",
             "width": 1600,
             "height": 1200
           }
