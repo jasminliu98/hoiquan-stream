@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:10 08/05/2026",
+  "updated_at": "20:30 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -914,6 +914,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-f0d7053396_f210ac67_20260508.png?v=f210ac67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-040d45ccc1",
+          "name": "VfB Stuttgart  vs Bayer Leverkusen | 20:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-040d45ccc1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-040d45ccc1",
+                  "name": "VfB Stuttgart  vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-040d45ccc1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "VfB Stuttgart ",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/0/0e/Bayer_04_Leverkusen_logo.png",
+            "time": "20:30 09/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-040d45ccc1_3f9faf38_20260508.png?v=3f9faf38",
             "width": 1600,
             "height": 1200
           }
