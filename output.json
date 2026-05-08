@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:05 08/05/2026",
+  "updated_at": "15:35 08/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-acd9bdac88",
-          "name": "Semen Padang vs Persik Kediri | 15:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-acd9bdac88",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-acd9bdac88",
-                  "name": "Semen Padang vs Persik Kediri",
-                  "streams": [
-                    {
-                      "id": "st-acd9bdac88",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-067ec10e27",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanchanh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Semen Padang",
-            "team_b": "Persik Kediri",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/min/1/1e/Semen_Padang_FC.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/4/4c/Persik_Kediri_logo.svg",
-            "time": "15:30 08/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/hqlive-acd9bdac88_30e5b65d_20260508.png?v=30e5b65d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-2d45cbe914",
           "name": "Da Nang vs Binh Duong | 18:00 08/05",
@@ -1320,7 +1249,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1333,10 +1262,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1351,7 +1280,25 @@
                     {
                       "id": "st-dcacff2565",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-66e3e80302",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1366,7 +1313,7 @@
             "logo_b": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
             "time": "16:00 08/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
@@ -1594,7 +1541,7 @@
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1607,10 +1554,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1625,7 +1572,25 @@
                     {
                       "id": "st-35d8f387d4",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e83c39114",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1640,7 +1605,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png",
             "time": "16:00 08/05",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ban"
           },
           "image": {
