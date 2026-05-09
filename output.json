@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:10 09/05/2026",
+  "updated_at": "18:15 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1399,14 +1399,14 @@
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn (2 LIVE)",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-623fb87b6f",
-          "name": "Đức vs Nhật Bản | 16:00 09/05",
+          "id": "hqlive-34adce2264",
+          "name": "Trung Quốc vs Romania | 18:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1420,86 +1420,15 @@
           ],
           "sources": [
             {
-              "id": "src-623fb87b6f",
+              "id": "src-34adce2264",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-623fb87b6f",
-                  "name": "Đức vs Nhật Bản",
+                  "id": "ct-34adce2264",
+                  "name": "Trung Quốc vs Romania",
                   "streams": [
                     {
-                      "id": "st-623fb87b6f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96622ac3ba",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Championships Finals London 2026",
-            "team_a": "Đức",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://eurotravel.com.vn/wp-content/uploads/2023/05/quoc-ky-duc-thoi-chien-tranh-napoleon.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/3840px-Flag_of_Japan.svg.png",
-            "time": "16:00 09/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "bong-ban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Nhật Bản_16-00 09-05_0374bc10_20260509.png?v=0374bc10",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-04092841c7",
-          "name": "Trung Quốc vs Pháp | 18:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-04092841c7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-04092841c7",
-                  "name": "Trung Quốc vs Pháp",
-                  "streams": [
-                    {
-                      "id": "st-04092841c7",
+                      "id": "st-34adce2264",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1529,9 +1458,9 @@
           "org_metadata": {
             "league": "ITTF World Team Championships Finals London 2026",
             "team_a": "Trung Quốc",
-            "team_b": "Pháp",
+            "team_b": "Romania",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/330px-Flag_of_Romania.svg.png",
             "time": "18:30 09/05",
             "blv": "BLV PHAN BÁCH",
             "is_live": true,
@@ -1541,7 +1470,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Pháp_18-30 09-05_30d7b8fc_20260509.png?v=30d7b8fc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Romania_18-30 09-05_fbc3935a_20260509.png?v=fbc3935a",
             "width": 1600,
             "height": 1200
           }
