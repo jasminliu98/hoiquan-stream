@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:15 09/05/2026",
+  "updated_at": "20:30 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,14 +12,14 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-a1793f778f",
-          "name": "Liverpool vs Chelsea | 18:30 09/05",
+          "id": "hqlive-feff220080",
+          "name": "Brighton vs Wolves | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,56 +33,22 @@
           ],
           "sources": [
             {
-              "id": "src-a1793f778f",
+              "id": "src-feff220080",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-a1793f778f",
-                  "name": "Liverpool vs Chelsea",
+                  "id": "ct-feff220080",
+                  "name": "Brighton vs Wolves",
                   "streams": [
                     {
-                      "id": "st-a1793f778f",
+                      "id": "st-feff220080",
                       "name": "HQ",
                       "stream_links": [
-                        {
-                          "id": "lnk-bbc915f95e",
-                          "name": "BLV THIÊN LÔI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_thienloi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a5b9a304ad",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-6c4db806a9",
                           "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
@@ -103,59 +69,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League ( Đầu Cầu Trung Lập )",
-            "team_a": "Liverpool",
-            "team_b": "Chelsea",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
-            "time": "18:30 09/05",
-            "blv": "BLV THIÊN LÔI, BLV PHAN TÔ, BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Liverpool_Chelsea_18-30 09-05_2c11361b_20260509.png?v=2c11361b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-feff220080",
-          "name": "Brighton vs Wolves | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-feff220080",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-feff220080",
-                  "name": "Brighton vs Wolves",
-                  "streams": [
-                    {
-                      "id": "st-feff220080",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Premier League",
             "team_a": "Brighton",
             "team_b": "Wolves",
@@ -163,7 +76,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/6c/Wolverhampton_Wanderers.png",
             "time": "21:00 09/05",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -183,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -201,7 +114,25 @@
                     {
                       "id": "st-6b7648e1d3",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5b9a304ad",
+                          "name": "BLV PHAN TÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -216,7 +147,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/hif/5/53/AFC_Bournemouth_%282013%29.png",
             "time": "21:00 09/05",
             "blv": "BLV PHAN TÔ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -236,10 +167,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -254,7 +185,59 @@
                     {
                       "id": "st-d7e7c54e00",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bbc915f95e",
+                          "name": "BLV THIÊN LÔI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_thienloi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a005bbc4a7",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-08c0b07307",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -269,7 +252,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/33.png",
             "time": "21:00 09/05",
             "blv": "BLV THIÊN LÔI, BLV PHAN MÃ, BLV PHAN HÀ LINH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
