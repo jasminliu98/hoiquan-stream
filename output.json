@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:05 09/05/2026",
+  "updated_at": "17:10 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -157,7 +157,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League ( Trung Lập )",
+            "league": "Premier League ( Đầu Cầu Trung Lập )",
             "team_a": "Liverpool",
             "team_b": "Chelsea",
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
