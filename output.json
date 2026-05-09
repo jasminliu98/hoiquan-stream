@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:30 10/05/2026",
+  "updated_at": "04:40 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1462,86 +1462,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elisabetta Cocciaretto_Iga Swiatek_00-00 11-05_e46e8f5b_20260510.png?v=e46e8f5b",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-e3d7fc38f1",
-          "name": "Trung Quốc vs Pháp | 04:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e3d7fc38f1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e3d7fc38f1",
-                  "name": "Trung Quốc vs Pháp",
-                  "streams": [
-                    {
-                      "id": "st-e3d7fc38f1",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a005bbc4a7",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Championships Finals London 2026",
-            "team_a": "Trung Quốc",
-            "team_b": "Pháp",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
-            "time": "04:00 10/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-ban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Pháp_04-00 10-05_30d7b8fc_20260510.png?v=30d7b8fc",
             "width": 1600,
             "height": 1200
           }
