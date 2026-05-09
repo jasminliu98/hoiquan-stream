@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:45 10/05/2026",
+  "updated_at": "02:00 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Toronto FC_Inter Miami_00-00 10-05_e6853ad6_20260510.png?v=e6853ad6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-3de94625f9",
-          "name": "Bốc Thăm vs Bốc Thăm | 00:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3de94625f9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3de94625f9",
-                  "name": "Bốc Thăm vs Bốc Thăm",
-                  "streams": [
-                    {
-                      "id": "st-3de94625f9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43df1c023d",
-                          "name": "BLV NHÀ ĐÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_nhadai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": " Bốc Thăm VCK Asian Cup 2027",
-            "team_a": "Bốc Thăm",
-            "team_b": "Bốc Thăm",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0s--SmcBQ9-eHwOHh96TA7KIuKDc02P5XAA&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0s--SmcBQ9-eHwOHh96TA7KIuKDc02P5XAA&s",
-            "time": "00:00 10/05",
-            "blv": "BLV NHÀ ĐÀI",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bốc Thăm_Bốc Thăm_00-00 10-05_292af664_20260510.png?v=292af664",
             "width": 1600,
             "height": 1200
           }
@@ -1198,6 +1127,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AC Milan_Atalanta_01-45 11-05_b7854146_20260510.png?v=b7854146",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b86dbc89b4",
+          "name": "Barcelona vs Real Madrid | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b86dbc89b4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b86dbc89b4",
+                  "name": "Barcelona vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-b86dbc89b4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Barcelona",
+            "team_b": "Real Madrid",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png",
+            "time": "02:00 11/05",
+            "blv": "BLV THIÊN LÔI, BLV PHAN MÃ, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona_Real Madrid_02-00 11-05_1d8300b9_20260510.png?v=1d8300b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c25634d81a",
+          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c25634d81a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c25634d81a",
+                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-c25634d81a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Stade Brestois 29",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/mcpMspef1hwHwi9qrfp4YQ_96x96.png",
+            "logo_b": "https://media.api-sports.io/football/teams/106.png",
+            "time": "02:00 11/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Paris Saint Germain_Stade Brestois 29_02-00 11-05_885fcca7_20260510.png?v=885fcca7",
             "width": 1600,
             "height": 1200
           }
