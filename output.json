@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:55 09/05/2026",
+  "updated_at": "18:00 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1055,6 +1055,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hellas Verona_Como_17-30 10-05_59adb766_20260509.png?v=59adb766",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4748af2a9f",
+          "name": "Ho Chi Minh vs Song Lam Nghe An | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4748af2a9f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4748af2a9f",
+                  "name": "Ho Chi Minh vs Song Lam Nghe An",
+                  "streams": [
+                    {
+                      "id": "st-4748af2a9f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Ho Chi Minh",
+            "team_b": "Song Lam Nghe An",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/4/47/Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg/250px-Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3678.png",
+            "time": "18:00 10/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ho Chi Minh_Song Lam Nghe An_18-00 10-05_d6c736ec_20260509.png?v=d6c736ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-85b4603cd9",
+          "name": "Hồng Lĩnh Hà Tĩnh vs Viettel | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85b4603cd9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-85b4603cd9",
+                  "name": "Hồng Lĩnh Hà Tĩnh vs Viettel",
+                  "streams": [
+                    {
+                      "id": "st-85b4603cd9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hồng Lĩnh Hà Tĩnh",
+            "team_b": "Viettel",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d1/Viettel_FC_2021.svg",
+            "time": "18:00 10/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_Viettel_18-00 10-05_91c47fe6_20260509.png?v=91c47fe6",
             "width": 1600,
             "height": 1200
           }
