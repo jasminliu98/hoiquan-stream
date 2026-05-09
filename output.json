@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 09/05/2026",
+  "updated_at": "20:50 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1390,56 +1390,38 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-de2b80753b",
-          "name": "Nikoloz Basilashvili vs Ben Shelton | 19:00 09/05",
+          "id": "hqlive-c9a8456d98",
+          "name": "Nikoloz Basilashvili vs Ben Shelton | 21:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-de2b80753b",
+              "id": "src-c9a8456d98",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-de2b80753b",
+                  "id": "ct-c9a8456d98",
                   "name": "Nikoloz Basilashvili vs Ben Shelton",
                   "streams": [
                     {
-                      "id": "st-de2b80753b",
+                      "id": "st-c9a8456d98",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1452,16 +1434,16 @@
             "team_b": "Ben Shelton",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkcuNH3S6WP2t9EXY7LwWC5eaHIpSsIw4jBA&s",
             "logo_b": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "time": "19:00 09/05",
+            "time": "21:30 09/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nikoloz Basilashvili_Ben Shelton_19-00 09-05_13b3a347_20260509.png?v=13b3a347",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nikoloz Basilashvili_Ben Shelton_21-30 09-05_13b3a347_20260509.png?v=13b3a347",
             "width": 1600,
             "height": 1200
           }
