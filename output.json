@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:50 10/05/2026",
+  "updated_at": "00:55 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -243,6 +243,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Toronto FC_Inter Miami_00-00 10-05_e6853ad6_20260510.png?v=e6853ad6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2f8d3b2c1a",
+          "name": "Bốc Thăm vs Bốc Thăm | 01:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f8d3b2c1a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2f8d3b2c1a",
+                  "name": "Bốc Thăm vs Bốc Thăm",
+                  "streams": [
+                    {
+                      "id": "st-2f8d3b2c1a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5b9a304ad",
+                          "name": "BLV PHAN TÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": " Bốc Thăm VCK Asian Cup 2027",
+            "team_a": "Bốc Thăm",
+            "team_b": "Bốc Thăm",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0s--SmcBQ9-eHwOHh96TA7KIuKDc02P5XAA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0s--SmcBQ9-eHwOHh96TA7KIuKDc02P5XAA&s",
+            "time": "01:00 10/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bốc Thăm_Bốc Thăm_01-00 10-05_292af664_20260510.png?v=292af664",
             "width": 1600,
             "height": 1200
           }
@@ -1320,82 +1391,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-4abc426cd9",
-          "name": "Nikoloz Basilashvili vs Ben Shelton | 22:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4abc426cd9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4abc426cd9",
-                  "name": "Nikoloz Basilashvili vs Ben Shelton",
-                  "streams": [
-                    {
-                      "id": "st-4abc426cd9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Nikoloz Basilashvili",
-            "team_b": "Ben Shelton",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkcuNH3S6WP2t9EXY7LwWC5eaHIpSsIw4jBA&s",
-            "logo_b": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "time": "22:30 09/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nikoloz Basilashvili_Ben Shelton_22-30 09-05_13b3a347_20260510.png?v=13b3a347",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8303acccc4",
           "name": "Jannik Sinner vs Sebastian Ofner | 00:00 10/05",
