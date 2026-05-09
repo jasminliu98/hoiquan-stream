@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:16 09/05/2026",
+  "updated_at": "19:25 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -631,6 +631,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Toronto FC_Inter Miami_00-00 10-05_e6853ad6_20260509.png?v=e6853ad6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2f8d3b2c1a",
+          "name": "Bốc Thăm vs Bốc Thăm | 01:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f8d3b2c1a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2f8d3b2c1a",
+                  "name": "Bốc Thăm vs Bốc Thăm",
+                  "streams": [
+                    {
+                      "id": "st-2f8d3b2c1a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": " Bốc Thăm VCK Asian Cup 2027",
+            "team_a": "Bốc Thăm",
+            "team_b": "Bốc Thăm",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0s--SmcBQ9-eHwOHh96TA7KIuKDc02P5XAA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0s--SmcBQ9-eHwOHh96TA7KIuKDc02P5XAA&s",
+            "time": "01:00 10/05",
+            "blv": "BLV NHÀ ĐÀI",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bốc Thăm_Bốc Thăm_01-00 10-05_292af664_20260509.png?v=292af664",
             "width": 1600,
             "height": 1200
           }
