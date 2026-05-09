@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 09/05/2026",
+  "updated_at": "16:15 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1061,8 +1061,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-88b0d8dc67",
-          "name": "Tomas Machac vs Daniil Medvedev | 16:00 09/05",
+          "id": "hqlive-2b27c00e4a",
+          "name": "Andrey Rublev vs Miomir Kecmanovic | 16:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1076,15 +1076,15 @@
           ],
           "sources": [
             {
-              "id": "src-88b0d8dc67",
+              "id": "src-2b27c00e4a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-88b0d8dc67",
-                  "name": "Tomas Machac vs Daniil Medvedev",
+                  "id": "ct-2b27c00e4a",
+                  "name": "Andrey Rublev vs Miomir Kecmanovic",
                   "streams": [
                     {
-                      "id": "st-88b0d8dc67",
+                      "id": "st-2b27c00e4a",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1113,10 +1113,10 @@
           ],
           "org_metadata": {
             "league": "WTA 1000 Rome",
-            "team_a": "Tomas Machac",
-            "team_b": "Daniil Medvedev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXdwaH9QMh6ZenXsa--g2VXiVPn7BuJjjbQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "team_a": "Andrey Rublev",
+            "team_b": "Miomir Kecmanovic",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICoKyMjMEYC1Ikp7FfSwjbtt5h2PxTixlrA&s",
             "time": "16:00 09/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
@@ -1126,7 +1126,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Machac_Daniil Medvedev_16-00 09-05_616b6ac9_20260509.png?v=616b6ac9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Andrey Rublev_Miomir Kecmanovic_16-00 09-05_a94ee213_20260509.png?v=a94ee213",
             "width": 1600,
             "height": 1200
           }
