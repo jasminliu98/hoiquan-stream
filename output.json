@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 09/05/2026",
+  "updated_at": "19:16 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1161,6 +1161,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_Viettel_18-00 10-05_91c47fe6_20260509.png?v=91c47fe6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6970aab18f",
+          "name": "Công An Nhân Dân vs Nam Dinh | 19:15 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6970aab18f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6970aab18f",
+                  "name": "Công An Nhân Dân vs Nam Dinh",
+                  "streams": [
+                    {
+                      "id": "st-6970aab18f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Công An Nhân Dân",
+            "team_b": "Nam Dinh",
+            "logo_a": "https://media.api-sports.io/football/teams/16400.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3674.png",
+            "time": "19:15 10/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Công An Nhân Dân_Nam Dinh_19-15 10-05_39568c9e_20260509.png?v=39568c9e",
             "width": 1600,
             "height": 1200
           }
