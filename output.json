@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:15 09/05/2026",
+  "updated_at": "17:00 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -234,7 +234,7 @@
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
             "time": "18:30 09/05",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV THIÊN LÔI",
+            "blv": "BLV LƯƠNG BỔNG, BLV THIÊN LÔI",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -932,6 +932,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/JEF United Chiba_Machida Zelvia_15-00 10-05_fb90778c_20260509.png?v=fb90778c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5dd4a55b00",
+          "name": "Hoang Anh Gia Lai vs Pho Hien | 17:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5dd4a55b00",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5dd4a55b00",
+                  "name": "Hoang Anh Gia Lai vs Pho Hien",
+                  "streams": [
+                    {
+                      "id": "st-5dd4a55b00",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hoang Anh Gia Lai",
+            "team_b": "Pho Hien",
+            "logo_a": "https://media.api-sports.io/football/teams/3673.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9166.png",
+            "time": "17:00 10/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hoang Anh Gia Lai_Pho Hien_17-00 10-05_4915083e_20260509.png?v=4915083e",
             "width": 1600,
             "height": 1200
           }
