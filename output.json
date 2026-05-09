@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:55 09/05/2026",
+  "updated_at": "11:35 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -25,10 +25,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -43,7 +43,25 @@
                     {
                       "id": "st-f474e8f44d",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8be718b2f",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -58,7 +76,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/287.png",
             "time": "12:00 09/05",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -110,7 +128,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/24608.png",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3zrZ0HFvG9-HWKYsCOLXgZJ1y7d2zLCzmQ&s",
             "time": "13:00 09/05",
-            "blv": "BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -922,82 +940,11 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-34999ae284",
-          "name": "Minnesota Timberwolves vs San Antonio Spurs | 08:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-34999ae284",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-34999ae284",
-                  "name": "Minnesota Timberwolves vs San Antonio Spurs",
-                  "streams": [
-                    {
-                      "id": "st-34999ae284",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Minnesota Timberwolves",
-            "team_b": "San Antonio Spurs",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "time": "08:30 09/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Minnesota Timberwolves_San Antonio Spurs_08-30 09-05_d416d446_20260509.png?v=d416d446",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7eca51c206",
           "name": "Los Angeles Lakers vs Oklahoma City Thunder | 07:30 10/05",
