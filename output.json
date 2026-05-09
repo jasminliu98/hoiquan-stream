@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:00 10/05/2026",
+  "updated_at": "04:30 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1020,6 +1020,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Paris Saint Germain_Stade Brestois 29_02-00 11-05_885fcca7_20260510.png?v=885fcca7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-359c029c7e",
+          "name": "Santos vs RB Bragantino | 04:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-359c029c7e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-359c029c7e",
+                  "name": "Santos vs RB Bragantino",
+                  "streams": [
+                    {
+                      "id": "st-359c029c7e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Santos",
+            "team_b": "RB Bragantino",
+            "logo_a": "https://media.api-sports.io/football/teams/128.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBM3ANzptp98U981AatsEmABTumuAOp0xzFw&s",
+            "time": "04:30 11/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_RB Bragantino_04-30 11-05_cd8daee6_20260510.png?v=cd8daee6",
             "width": 1600,
             "height": 1200
           }
