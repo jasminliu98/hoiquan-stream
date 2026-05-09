@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:05 09/05/2026",
+  "updated_at": "08:15 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -914,6 +914,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Sociedad_Real Betis_02-00 10-05_56947ad0_20260509.png?v=56947ad0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1127b2229c",
+          "name": "Nashville SC vs DC United | 08:15 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1127b2229c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1127b2229c",
+                  "name": "Nashville SC vs DC United",
+                  "streams": [
+                    {
+                      "id": "st-1127b2229c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "Nashville SC",
+            "team_b": "DC United",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nashville_SC_logo%2C_2020.svg/250px-Nashville_SC_logo%2C_2020.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1615.png",
+            "time": "08:15 10/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nashville SC_DC United_08-15 10-05_11019632_20260509.png?v=11019632",
             "width": 1600,
             "height": 1200
           }
