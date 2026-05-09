@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:36 10/05/2026",
+  "updated_at": "00:45 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -346,11 +346,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-43df1c023d",
+                          "id": "lnk-a2d23d69dd",
                           "name": "BLV NHÀ ĐÀI",
                           "type": "hls",
                           "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_nhadai/playlist.m3u8",
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanbap/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
