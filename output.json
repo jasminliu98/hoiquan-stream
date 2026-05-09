@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:15 09/05/2026",
+  "updated_at": "22:30 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1267,6 +1267,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nottingham Forest_Newcastle_20-00 10-05_ad1e7d68_20260509.png?v=ad1e7d68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8c8e40b219",
+          "name": "West Ham vs Arsenal | 22:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c8e40b219",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8c8e40b219",
+                  "name": "West Ham vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-8c8e40b219",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "West Ham",
+            "team_b": "Arsenal",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1280px-West_Ham_United_FC_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
+            "time": "22:30 10/05",
+            "blv": "BLV THIÊN LÔI, BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Ham_Arsenal_22-30 10-05_942e40d1_20260509.png?v=942e40d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ad62d74f1c",
+          "name": "1. FC Köln vs 1. FC Heidenheim | 22:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad62d74f1c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ad62d74f1c",
+                  "name": "1. FC Köln vs 1. FC Heidenheim",
+                  "streams": [
+                    {
+                      "id": "st-ad62d74f1c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "1. FC Köln",
+            "team_b": "1. FC Heidenheim",
+            "logo_a": "https://media.api-sports.io/football/teams/192.png",
+            "logo_b": "https://media.api-sports.io/football/teams/180.png",
+            "time": "22:30 10/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/1. FC Köln_1. FC Heidenheim_22-30 10-05_f282a22d_20260509.png?v=f282a22d",
             "width": 1600,
             "height": 1200
           }
