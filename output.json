@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:35 09/05/2026",
+  "updated_at": "14:00 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1021,6 +1021,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yokohama F. Marinos_Kashima_12-00 10-05_48ba3230_20260509.png?v=48ba3230",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-408ae373a3",
+          "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-408ae373a3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-408ae373a3",
+                  "name": "Kashiwa Reysol vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-408ae373a3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e6/KashiwaReysol.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/74/KawasakiFrontale.png",
+            "time": "14:00 10/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kashiwa Reysol_Kawasaki Frontale_14-00 10-05_8894e85a_20260509.png?v=8894e85a",
             "width": 1600,
             "height": 1200
           }
