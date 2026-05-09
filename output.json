@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:35 09/05/2026",
+  "updated_at": "16:10 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-fcb91d77c3",
-          "name": "Cerezo Osaka vs V-varen Nagasaki | 14:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcb91d77c3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-fcb91d77c3",
-                  "name": "Cerezo Osaka vs V-varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-fcb91d77c3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf43005696",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": " https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Cerezo Osaka",
-            "team_b": "V-varen Nagasaki",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Cerezo_Osaka_logo.svg/250px-Cerezo_Osaka_logo.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/285.png",
-            "time": "14:00 09/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cerezo Osaka_V-varen Nagasaki_14-00 09-05_8a703f5a_20260509.png?v=8a703f5a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7cd0311ba5",
           "name": "Gwangju FC vs Gangwon FC | 14:30 09/05",
