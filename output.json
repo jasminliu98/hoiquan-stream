@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:10 09/05/2026",
+  "updated_at": "17:30 09/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -917,6 +917,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-6c3ea91cc7",
+          "name": "Hellas Verona vs Como | 17:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c3ea91cc7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6c3ea91cc7",
+                  "name": "Hellas Verona vs Como",
+                  "streams": [
+                    {
+                      "id": "st-6c3ea91cc7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Hellas Verona",
+            "team_b": "Como",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/it/9/92/Hellas_Verona_FC_logo_%282020%29.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_Como_1907_2019.png/250px-Logo_Como_1907_2019.png",
+            "time": "17:30 10/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hellas Verona_Como_17-30 10-05_59adb766_20260509.png?v=59adb766",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1037,82 +1090,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-2b27c00e4a",
-          "name": "Andrey Rublev vs Miomir Kecmanovic | 16:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b27c00e4a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2b27c00e4a",
-                  "name": "Andrey Rublev vs Miomir Kecmanovic",
-                  "streams": [
-                    {
-                      "id": "st-2b27c00e4a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Andrey Rublev",
-            "team_b": "Miomir Kecmanovic",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICoKyMjMEYC1Ikp7FfSwjbtt5h2PxTixlrA&s",
-            "time": "16:00 09/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Andrey Rublev_Miomir Kecmanovic_16-00 09-05_a94ee213_20260509.png?v=a94ee213",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-de2b80753b",
           "name": "Nikoloz Basilashvili vs Ben Shelton | 19:00 09/05",
