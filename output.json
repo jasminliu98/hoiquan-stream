@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 10/05/2026",
+  "updated_at": "01:05 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1471,7 +1471,7 @@
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1555,10 +1555,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1573,7 +1573,25 @@
                     {
                       "id": "st-c1e8181560",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-96622ac3ba",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1588,7 +1606,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
             "time": "01:30 10/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ban"
           },
           "image": {
