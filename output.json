@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:45 11/05/2026",
+  "updated_at": "00:55 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -464,7 +464,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/86/Los_Angeles_Football_Club.svg",
             "logo_b": "https://media.api-sports.io/football/teams/1600.png",
             "time": "08:00 11/05",
-            "blv": "BLV PHAN CHỚP",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
