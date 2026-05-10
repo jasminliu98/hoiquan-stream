@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:30 11/05/2026",
+  "updated_at": "00:40 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -323,7 +323,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png",
             "time": "02:00 11/05",
-            "blv": "BLV THIÊN LÔI + PHAN MÃ, BLV LƯƠNG BỔNG",
+            "blv": "BLV THIÊN LÔI + PHAN MÃ, BLV LƯƠNG BỔNG, BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
