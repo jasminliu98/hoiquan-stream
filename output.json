@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:40 10/05/2026",
+  "updated_at": "17:00 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ee4a475064",
-          "name": "JEF United Chiba vs Machida Zelvia | 15:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee4a475064",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ee4a475064",
-                  "name": "JEF United Chiba vs Machida Zelvia",
-                  "streams": [
-                    {
-                      "id": "st-ee4a475064",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c4db806a9",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "JEF United Chiba",
-            "team_b": "Machida Zelvia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/13/JEFUnitedIchiharaChiba.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/FC_Machida_Zelvia_logo.svg/250px-FC_Machida_Zelvia_logo.svg.png",
-            "time": "15:00 10/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/JEF United Chiba_Machida Zelvia_15-00 10-05_fb90778c_20260510.png?v=fb90778c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5dd4a55b00",
           "name": "Hoang Anh Gia Lai vs Pho Hien | 17:00 10/05",
@@ -160,6 +89,77 @@
           }
         },
         {
+          "id": "hqlive-85b4603cd9",
+          "name": "Hồng Lĩnh Hà Tĩnh vs Viettel | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85b4603cd9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-85b4603cd9",
+                  "name": "Hồng Lĩnh Hà Tĩnh vs Viettel",
+                  "streams": [
+                    {
+                      "id": "st-85b4603cd9",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c4db806a9",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hồng Lĩnh Hà Tĩnh",
+            "team_b": "Viettel",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d1/Viettel_FC_2021.svg",
+            "time": "18:00 10/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_Viettel_18-00 10-05_91c47fe6_20260510.png?v=91c47fe6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-4748af2a9f",
           "name": "Ho Chi Minh vs Song Lam Nghe An | 18:00 10/05",
           "type": "single",
@@ -208,59 +208,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ho Chi Minh_Song Lam Nghe An_18-00 10-05_d6c736ec_20260510.png?v=d6c736ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-85b4603cd9",
-          "name": "Hồng Lĩnh Hà Tĩnh vs Viettel | 18:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85b4603cd9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-85b4603cd9",
-                  "name": "Hồng Lĩnh Hà Tĩnh vs Viettel",
-                  "streams": [
-                    {
-                      "id": "st-85b4603cd9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hồng Lĩnh Hà Tĩnh",
-            "team_b": "Viettel",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d1/Viettel_FC_2021.svg",
-            "time": "18:00 10/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_Viettel_18-00 10-05_91c47fe6_20260510.png?v=91c47fe6",
             "width": 1600,
             "height": 1200
           }
