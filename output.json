@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:30 10/05/2026",
+  "updated_at": "23:50 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -650,6 +650,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bali United_Pusamania Borneo_19-00 11-05_c26b3295_20260510.png?v=c26b3295",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-65ee1a778d",
+          "name": "NEOM vs Al Shabab | 23:50 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65ee1a778d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-65ee1a778d",
+                  "name": "NEOM vs Al Shabab",
+                  "streams": [
+                    {
+                      "id": "st-65ee1a778d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "NEOM",
+            "team_b": "Al Shabab",
+            "logo_a": "https://media.api-sports.io/football/teams/10513.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2940.png",
+            "time": "23:50 11/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/NEOM_Al Shabab_23-50 11-05_beba3198_20260510.png?v=beba3198",
             "width": 1600,
             "height": 1200
           }
