@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:25 10/05/2026",
+  "updated_at": "22:35 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -844,82 +844,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-743a4ea982",
-          "name": "Lorenzo Musett vs Francisco Cerundolo | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-743a4ea982",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-743a4ea982",
-                  "name": "Lorenzo Musett vs Francisco Cerundolo",
-                  "streams": [
-                    {
-                      "id": "st-743a4ea982",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Lorenzo Musett",
-            "team_b": "Francisco Cerundolo",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/64/Musetti_MCM23_%2811%29_%2852883593753%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
-            "time": "20:00 10/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lorenzo Musett_Francisco Cerundolo_20-00 10-05_8206f61b_20260510.png?v=8206f61b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-02a3c7bb56",
           "name": "Elisabetta Cocciaretto vs Iga Swiatek | 00:00 11/05",
