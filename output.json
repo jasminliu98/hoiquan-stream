@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 10/05/2026",
+  "updated_at": "18:40 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,32 +231,50 @@
           }
         },
         {
-          "id": "hqlive-6970aab18f",
-          "name": "Công An Nhân Dân vs Nam Dinh | 19:15 10/05",
+          "id": "hqlive-c05d42f97e",
+          "name": "CAHN vs Nam Dinh | 19:15 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-6970aab18f",
+              "id": "src-c05d42f97e",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-6970aab18f",
-                  "name": "Công An Nhân Dân vs Nam Dinh",
+                  "id": "ct-c05d42f97e",
+                  "name": "CAHN vs Nam Dinh",
                   "streams": [
                     {
-                      "id": "st-6970aab18f",
+                      "id": "st-c05d42f97e",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-08c0b07307",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -265,20 +283,20 @@
           ],
           "org_metadata": {
             "league": "V.League 1",
-            "team_a": "Công An Nhân Dân",
+            "team_a": "CAHN",
             "team_b": "Nam Dinh",
-            "logo_a": "https://media.api-sports.io/football/teams/16400.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/3/38/Logo_CAHN_FC.svg/500px-Logo_CAHN_FC.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/3674.png",
             "time": "19:15 10/05",
             "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Công An Nhân Dân_Nam Dinh_19-15 10-05_39568c9e_20260510.png?v=39568c9e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CAHN_Nam Dinh_19-15 10-05_f360c8fc_20260510.png?v=f360c8fc",
             "width": 1600,
             "height": 1200
           }
