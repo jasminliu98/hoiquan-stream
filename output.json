@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 10/05/2026",
+  "updated_at": "22:00 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,14 +12,14 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-d743f8c058",
-          "name": "Burnley vs Aston Villa | 20:00 10/05",
+          "id": "hqlive-8c8e40b219",
+          "name": "West Ham vs Arsenal | 22:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,157 @@
           ],
           "sources": [
             {
-              "id": "src-d743f8c058",
+              "id": "src-8c8e40b219",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-d743f8c058",
-                  "name": "Burnley vs Aston Villa",
+                  "id": "ct-8c8e40b219",
+                  "name": "West Ham vs Arsenal",
                   "streams": [
                     {
-                      "id": "st-d743f8c058",
+                      "id": "st-8c8e40b219",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bbc915f95e",
+                          "name": "BLV THIÊN LÔI + PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_thienloi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "West Ham",
+            "team_b": "Arsenal",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1280px-West_Ham_United_FC_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
+            "time": "22:30 10/05",
+            "blv": "BLV THIÊN LÔI + PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Ham_Arsenal_22-30 10-05_942e40d1_20260510.png?v=942e40d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ad62d74f1c",
+          "name": "1. FC Köln vs 1. FC Heidenheim | 22:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad62d74f1c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ad62d74f1c",
+                  "name": "1. FC Köln vs 1. FC Heidenheim",
+                  "streams": [
+                    {
+                      "id": "st-ad62d74f1c",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6e86d8c60",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "1. FC Köln",
+            "team_b": "1. FC Heidenheim",
+            "logo_a": "https://media.api-sports.io/football/teams/192.png",
+            "logo_b": "https://media.api-sports.io/football/teams/180.png",
+            "time": "22:30 10/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/1. FC Köln_1. FC Heidenheim_22-30 10-05_f282a22d_20260510.png?v=f282a22d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c70e79830a",
+          "name": "Vietnam U17 vs Korea Republic U17 | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c70e79830a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c70e79830a",
+                  "name": "Vietnam U17 vs Korea Republic U17",
+                  "streams": [
+                    {
+                      "id": "st-c70e79830a",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -69,12 +211,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Burnley",
-            "team_b": "Aston Villa",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1a/Burnley_FC.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
-            "time": "20:00 10/05",
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Vietnam U17",
+            "team_b": "Korea Republic U17",
+            "logo_a": "https://media.api-sports.io/football/teams/21447.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12512.png",
+            "time": "23:00 10/05",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "bong-da"
@@ -83,184 +225,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Burnley_Aston Villa_20-00 10-05_bbdca3ef_20260510.png?v=bbdca3ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-85a904062c",
-          "name": "Nottingham Forest vs Newcastle | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85a904062c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-85a904062c",
-                  "name": "Nottingham Forest vs Newcastle",
-                  "streams": [
-                    {
-                      "id": "st-85a904062c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbc915f95e",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_thienloi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Nottingham Forest",
-            "team_b": "Newcastle",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/Zr6FbE-8pDH7UBpWCO8U9A_96x96.png",
-            "logo_b": "https://media.api-sports.io/football/teams/34.png",
-            "time": "20:00 10/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nottingham Forest_Newcastle_20-00 10-05_ad1e7d68_20260510.png?v=ad1e7d68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8c8e40b219",
-          "name": "West Ham vs Arsenal | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c8e40b219",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8c8e40b219",
-                  "name": "West Ham vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-8c8e40b219",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "West Ham",
-            "team_b": "Arsenal",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1280px-West_Ham_United_FC_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
-            "time": "22:30 10/05",
-            "blv": "BLV THIÊN LÔI + PHAN MÃ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Ham_Arsenal_22-30 10-05_942e40d1_20260510.png?v=942e40d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ad62d74f1c",
-          "name": "1. FC Köln vs 1. FC Heidenheim | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad62d74f1c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ad62d74f1c",
-                  "name": "1. FC Köln vs 1. FC Heidenheim",
-                  "streams": [
-                    {
-                      "id": "st-ad62d74f1c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "1. FC Köln",
-            "team_b": "1. FC Heidenheim",
-            "logo_a": "https://media.api-sports.io/football/teams/192.png",
-            "logo_b": "https://media.api-sports.io/football/teams/180.png",
-            "time": "22:30 10/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/1. FC Köln_1. FC Heidenheim_22-30 10-05_f282a22d_20260510.png?v=f282a22d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_Korea Republic U17_23-00 10-05_02d478ad_20260510.png?v=02d478ad",
             "width": 1600,
             "height": 1200
           }
@@ -314,59 +279,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Parma_AS Roma_23-00 10-05_3f3a1cd4_20260510.png?v=3f3a1cd4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-c70e79830a",
-          "name": "Vietnam U17 vs Korea Republic U17 | 23:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c70e79830a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c70e79830a",
-                  "name": "Vietnam U17 vs Korea Republic U17",
-                  "streams": [
-                    {
-                      "id": "st-c70e79830a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Vietnam U17",
-            "team_b": "Korea Republic U17",
-            "logo_a": "https://media.api-sports.io/football/teams/21447.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12512.png",
-            "time": "23:00 10/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_Korea Republic U17_23-00 10-05_02d478ad_20260510.png?v=02d478ad",
             "width": 1600,
             "height": 1200
           }
