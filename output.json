@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:05 11/05/2026",
+  "updated_at": "06:35 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-359c029c7e",
-          "name": "Santos vs RB Bragantino | 04:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-359c029c7e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-359c029c7e",
-                  "name": "Santos vs RB Bragantino",
-                  "streams": [
-                    {
-                      "id": "st-359c029c7e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5b9a304ad",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Santos",
-            "team_b": "RB Bragantino",
-            "logo_a": "https://media.api-sports.io/football/teams/128.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBM3ANzptp98U981AatsEmABTumuAOp0xzFw&s",
-            "time": "04:30 11/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_RB Bragantino_04-30 11-05_cd8daee6_20260511.png?v=cd8daee6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-6811d234f0",
           "name": "Vasco da Gama vs Atletico Paranaense | 06:30 11/05",
