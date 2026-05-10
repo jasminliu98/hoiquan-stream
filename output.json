@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 10/05/2026",
+  "updated_at": "16:40 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -117,7 +117,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-bbc915f95e",
-                          "name": "BLV THIÊN LÔI",
+                          "name": "BLV PHAN MÃ",
                           "type": "hls",
                           "default": true,
                           "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_thienloi/playlist.m3u8",
@@ -146,7 +146,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/3673.png",
             "logo_b": "https://media.api-sports.io/football/teams/9166.png",
             "time": "17:00 10/05",
-            "blv": "BLV THIÊN LÔI",
+            "blv": "BLV PHAN MÃ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -464,7 +464,7 @@
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/Zr6FbE-8pDH7UBpWCO8U9A_96x96.png",
             "logo_b": "https://media.api-sports.io/football/teams/34.png",
             "time": "20:00 10/05",
-            "blv": "BLV THIÊN LÔI",
+            "blv": "BLV PHAN MÃ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
