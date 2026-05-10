@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:35 10/05/2026",
+  "updated_at": "15:55 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1427,6 +1427,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elisabetta Cocciaretto_Iga Swiatek_00-00 11-05_e46e8f5b_20260510.png?v=e46e8f5b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-4ea99ffdfc",
+          "name": "Trung Quốc vs Nhật Bản | 17:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ea99ffdfc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4ea99ffdfc",
+                  "name": "Trung Quốc vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-4ea99ffdfc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Trung Quốc",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/3840px-Flag_of_Japan.svg.png",
+            "time": "17:00 10/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Nhật Bản_17-00 10-05_c6bafe5a_20260510.png?v=c6bafe5a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1317f19e66",
+          "name": "Trung Quốc vs Nhật Bản | 22:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1317f19e66",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1317f19e66",
+                  "name": "Trung Quốc vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-1317f19e66",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Championships Finals London 2026",
+            "team_a": "Trung Quốc",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/3840px-Flag_of_Japan.svg.png",
+            "time": "22:00 10/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Nhật Bản_22-00 10-05_c6bafe5a_20260510.png?v=c6bafe5a",
             "width": 1600,
             "height": 1200
           }
