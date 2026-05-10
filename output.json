@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:10 10/05/2026",
+  "updated_at": "20:25 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -941,82 +941,11 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a1f5ab5657",
-          "name": "Shanxi Zhongyu vs Zhejiang Guangsha | 18:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1f5ab5657",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a1f5ab5657",
-                  "name": "Shanxi Zhongyu vs Zhejiang Guangsha",
-                  "streams": [
-                    {
-                      "id": "st-a1f5ab5657",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08c0b07307",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA",
-            "team_a": "Shanxi Zhongyu",
-            "team_b": "Zhejiang Guangsha",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/55/Shanxi_Brave_Dragons_logo.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
-            "time": "18:30 10/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanxi Zhongyu_Zhejiang Guangsha_18-30 10-05_e73eca88_20260510.png?v=e73eca88",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b74406d6a0",
           "name": "Minnesota Timberwolves vs San Antonio Spurs | 06:30 11/05",
