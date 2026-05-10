@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:40 11/05/2026",
+  "updated_at": "00:45 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-8c8e40b219",
-          "name": "West Ham vs Arsenal | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c8e40b219",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8c8e40b219",
-                  "name": "West Ham vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-8c8e40b219",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbc915f95e",
-                          "name": "BLV THIÊN LÔI + PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_thienloi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "West Ham",
-            "team_b": "Arsenal",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1280px-West_Ham_United_FC_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
-            "time": "22:30 10/05",
-            "blv": "BLV THIÊN LÔI + PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Ham_Arsenal_22-30 10-05_942e40d1_20260511.png?v=942e40d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-971c8ed17b",
           "name": "Parma vs AS Roma | 23:00 10/05",
