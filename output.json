@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 10/05/2026",
+  "updated_at": "22:25 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -160,6 +160,77 @@
           }
         },
         {
+          "id": "hqlive-971c8ed17b",
+          "name": "Parma vs AS Roma | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-971c8ed17b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-971c8ed17b",
+                  "name": "Parma vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-971c8ed17b",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08c0b07307",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Parma",
+            "team_b": "AS Roma",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f7/AS_Roma_logo_%282017%29.svg/250px-AS_Roma_logo_%282017%29.svg.png",
+            "time": "23:00 10/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Parma_AS Roma_23-00 10-05_3f3a1cd4_20260510.png?v=3f3a1cd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-c70e79830a",
           "name": "Vietnam U17 vs Korea Republic U17 | 23:00 10/05",
           "type": "single",
@@ -226,59 +297,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_Korea Republic U17_23-00 10-05_02d478ad_20260510.png?v=02d478ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-971c8ed17b",
-          "name": "Parma vs AS Roma | 23:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-971c8ed17b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-971c8ed17b",
-                  "name": "Parma vs AS Roma",
-                  "streams": [
-                    {
-                      "id": "st-971c8ed17b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Parma",
-            "team_b": "AS Roma",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f7/AS_Roma_logo_%282017%29.svg/250px-AS_Roma_logo_%282017%29.svg.png",
-            "time": "23:00 10/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Parma_AS Roma_23-00 10-05_3f3a1cd4_20260510.png?v=3f3a1cd4",
             "width": 1600,
             "height": 1200
           }
