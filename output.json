@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:05 11/05/2026",
+  "updated_at": "01:20 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -570,86 +570,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles Lakers_Oklahoma City Thunder_09-30 12-05_92590674_20260511.png?v=92590674",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-02a3c7bb56",
-          "name": "Elisabetta Cocciaretto vs Iga Swiatek | 00:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-02a3c7bb56",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-02a3c7bb56",
-                  "name": "Elisabetta Cocciaretto vs Iga Swiatek",
-                  "streams": [
-                    {
-                      "id": "st-02a3c7bb56",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Elisabetta Cocciaretto",
-            "team_b": "Iga Swiatek",
-            "logo_a": "https://thethaovanhoa.mediacdn.vn/372676912336973824/2025/7/1/cocciaretto0107-17513808309872039795942.jpg",
-            "logo_b": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
-            "time": "00:00 11/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elisabetta Cocciaretto_Iga Swiatek_00-00 11-05_e46e8f5b_20260511.png?v=e46e8f5b",
             "width": 1600,
             "height": 1200
           }
