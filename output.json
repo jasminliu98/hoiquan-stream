@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 10/05/2026",
+  "updated_at": "19:40 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -302,6 +302,77 @@
           }
         },
         {
+          "id": "hqlive-2d06a8e1f8",
+          "name": "Crystal Palace vs Everton | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d06a8e1f8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2d06a8e1f8",
+                  "name": "Crystal Palace vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-2d06a8e1f8",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5b9a304ad",
+                          "name": "BLV PHAN TÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Crystal Palace",
+            "team_b": "Everton",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
+            "time": "20:00 10/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Everton_20-00 10-05_54eca1fc_20260510.png?v=54eca1fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-85a904062c",
           "name": "Nottingham Forest vs Newcastle | 20:00 10/05",
           "type": "single",
@@ -368,59 +439,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nottingham Forest_Newcastle_20-00 10-05_ad1e7d68_20260510.png?v=ad1e7d68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2d06a8e1f8",
-          "name": "Crystal Palace vs Everton | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d06a8e1f8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2d06a8e1f8",
-                  "name": "Crystal Palace vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-2d06a8e1f8",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Crystal Palace",
-            "team_b": "Everton",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
-            "time": "20:00 10/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Everton_20-00 10-05_54eca1fc_20260510.png?v=54eca1fc",
             "width": 1600,
             "height": 1200
           }
@@ -1257,8 +1275,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-60591378e1",
-          "name": "Alexander Blockx vs Alexandet Zverev | 18:00 10/05",
+          "id": "hqlive-743a4ea982",
+          "name": "Lorenzo Musett vs Francisco Cerundolo | 20:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1272,15 +1290,15 @@
           ],
           "sources": [
             {
-              "id": "src-60591378e1",
+              "id": "src-743a4ea982",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-60591378e1",
-                  "name": "Alexander Blockx vs Alexandet Zverev",
+                  "id": "ct-743a4ea982",
+                  "name": "Lorenzo Musett vs Francisco Cerundolo",
                   "streams": [
                     {
-                      "id": "st-60591378e1",
+                      "id": "st-743a4ea982",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1309,66 +1327,13 @@
           ],
           "org_metadata": {
             "league": "WTA 1000 Rome",
-            "team_a": "Alexander Blockx",
-            "team_b": "Alexandet Zverev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkA1xoW-KyV_0L8lRJKZ80bR72dYwhY-cILw&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "time": "18:00 10/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Blockx_Alexandet Zverev_18-00 10-05_960ae1e7_20260510.png?v=960ae1e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-743a4ea982",
-          "name": "Lorenzo Musett vs Francisco Cerundolo | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-743a4ea982",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-743a4ea982",
-                  "name": "Lorenzo Musett vs Francisco Cerundolo",
-                  "streams": [
-                    {
-                      "id": "st-743a4ea982",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
             "team_a": "Lorenzo Musett",
             "team_b": "Francisco Cerundolo",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/64/Musetti_MCM23_%2811%29_%2852883593753%29.jpg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
             "time": "20:00 10/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
