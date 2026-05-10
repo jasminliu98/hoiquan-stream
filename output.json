@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:50 10/05/2026",
+  "updated_at": "08:00 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1144,6 +1144,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vasco da Gama_Atletico Paranaense_06-30 11-05_07ce8e95_20260510.png?v=07ce8e95",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a8f2bd1132",
+          "name": "Los Angeles FC vs Houston Dynamo | 08:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8f2bd1132",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a8f2bd1132",
+                  "name": "Los Angeles FC vs Houston Dynamo",
+                  "streams": [
+                    {
+                      "id": "st-a8f2bd1132",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "Los Angeles FC",
+            "team_b": "Houston Dynamo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/86/Los_Angeles_Football_Club.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/1600.png",
+            "time": "08:00 11/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles FC_Houston Dynamo_08-00 11-05_5a79bafc_20260510.png?v=5a79bafc",
             "width": 1600,
             "height": 1200
           }
