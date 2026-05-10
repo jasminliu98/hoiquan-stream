@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:40 10/05/2026",
+  "updated_at": "19:00 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5dd4a55b00",
-          "name": "Hoang Anh Gia Lai vs Pho Hien | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5dd4a55b00",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5dd4a55b00",
-                  "name": "Hoang Anh Gia Lai vs Pho Hien",
-                  "streams": [
-                    {
-                      "id": "st-5dd4a55b00",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbc915f95e",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_thienloi/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hoang Anh Gia Lai",
-            "team_b": "Pho Hien",
-            "logo_a": "https://media.api-sports.io/football/teams/3673.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9166.png",
-            "time": "17:00 10/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hoang Anh Gia Lai_Pho Hien_17-00 10-05_4915083e_20260510.png?v=4915083e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4748af2a9f",
           "name": "Ho Chi Minh vs Song Lam Nghe An | 18:00 10/05",
@@ -1039,6 +968,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17 W_Australia U17 W_14-00 11-05_b23a215c_20260510.png?v=b23a215c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b0ac683c96",
+          "name": "Bali United vs Pusamania Borneo | 19:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0ac683c96",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b0ac683c96",
+                  "name": "Bali United vs Pusamania Borneo",
+                  "streams": [
+                    {
+                      "id": "st-b0ac683c96",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Bali United",
+            "team_b": "Pusamania Borneo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5e/Bali_United_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/2442.png",
+            "time": "19:00 11/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bali United_Pusamania Borneo_19-00 11-05_c26b3295_20260510.png?v=c26b3295",
             "width": 1600,
             "height": 1200
           }
