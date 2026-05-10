@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:00 10/05/2026",
+  "updated_at": "17:40 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,77 @@
           }
         },
         {
+          "id": "hqlive-4748af2a9f",
+          "name": "Ho Chi Minh vs Song Lam Nghe An | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4748af2a9f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4748af2a9f",
+                  "name": "Ho Chi Minh vs Song Lam Nghe An",
+                  "streams": [
+                    {
+                      "id": "st-4748af2a9f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5b9a304ad",
+                          "name": "BLV PHAN TÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Ho Chi Minh",
+            "team_b": "Song Lam Nghe An",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/4/47/Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg/250px-Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3678.png",
+            "time": "18:00 10/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ho Chi Minh_Song Lam Nghe An_18-00 10-05_d6c736ec_20260510.png?v=d6c736ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-85b4603cd9",
           "name": "Hồng Lĩnh Hà Tĩnh vs Viettel | 18:00 10/05",
           "type": "single",
@@ -155,59 +226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_Viettel_18-00 10-05_91c47fe6_20260510.png?v=91c47fe6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4748af2a9f",
-          "name": "Ho Chi Minh vs Song Lam Nghe An | 18:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4748af2a9f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4748af2a9f",
-                  "name": "Ho Chi Minh vs Song Lam Nghe An",
-                  "streams": [
-                    {
-                      "id": "st-4748af2a9f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Ho Chi Minh",
-            "team_b": "Song Lam Nghe An",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/4/47/Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg/250px-Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3678.png",
-            "time": "18:00 10/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ho Chi Minh_Song Lam Nghe An_18-00 10-05_d6c736ec_20260510.png?v=d6c736ec",
             "width": 1600,
             "height": 1200
           }
@@ -1179,7 +1197,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1192,10 +1210,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1210,7 +1228,25 @@
                     {
                       "id": "st-60591378e1",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1225,7 +1261,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
             "time": "18:00 10/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
