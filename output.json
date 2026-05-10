@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:25 10/05/2026",
+  "updated_at": "21:20 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c05d42f97e",
-          "name": "CAHN vs Nam Dinh | 19:15 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c05d42f97e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c05d42f97e",
-                  "name": "CAHN vs Nam Dinh",
-                  "streams": [
-                    {
-                      "id": "st-c05d42f97e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08c0b07307",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "CAHN",
-            "team_b": "Nam Dinh",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/3/38/Logo_CAHN_FC.svg/500px-Logo_CAHN_FC.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3674.png",
-            "time": "19:15 10/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CAHN_Nam Dinh_19-15 10-05_f360c8fc_20260510.png?v=f360c8fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d743f8c058",
           "name": "Burnley vs Aston Villa | 20:00 10/05",
@@ -1189,82 +1118,11 @@
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-4ea99ffdfc",
-          "name": "Trung Quốc vs Nhật Bản | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ea99ffdfc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4ea99ffdfc",
-                  "name": "Trung Quốc vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-4ea99ffdfc",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6e86d8c60",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Championships Finals London 2026",
-            "team_a": "Trung Quốc",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/3840px-Flag_of_Japan.svg.png",
-            "time": "17:00 10/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-ban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Nhật Bản_17-00 10-05_c6bafe5a_20260510.png?v=c6bafe5a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1317f19e66",
           "name": "Trung Quốc vs Nhật Bản | 22:00 10/05",
