@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:50 10/05/2026",
+  "updated_at": "14:00 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1020,6 +1020,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles FC_Houston Dynamo_08-00 11-05_5a79bafc_20260510.png?v=5a79bafc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-731628e6c6",
+          "name": "Vietnam U17 W vs Australia U17 W | 14:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-731628e6c6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-731628e6c6",
+                  "name": "Vietnam U17 W vs Australia U17 W",
+                  "streams": [
+                    {
+                      "id": "st-731628e6c6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup - Women",
+            "team_a": "Vietnam U17 W",
+            "team_b": "Australia U17 W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23618.png",
+            "time": "14:00 11/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17 W_Australia U17 W_14-00 11-05_b23a215c_20260510.png?v=b23a215c",
             "width": 1600,
             "height": 1200
           }
