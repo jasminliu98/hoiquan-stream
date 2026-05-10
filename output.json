@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:35 10/05/2026",
+  "updated_at": "13:50 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-408ae373a3",
-          "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-408ae373a3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-408ae373a3",
-                  "name": "Kashiwa Reysol vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-408ae373a3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a005bbc4a7",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e6/KashiwaReysol.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/74/KawasakiFrontale.png",
-            "time": "14:00 10/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kashiwa Reysol_Kawasaki Frontale_14-00 10-05_8894e85a_20260510.png?v=8894e85a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ee4a475064",
           "name": "JEF United Chiba vs Machida Zelvia | 15:00 10/05",
