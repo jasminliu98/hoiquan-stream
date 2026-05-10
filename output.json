@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:30 10/05/2026",
+  "updated_at": "19:35 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,77 @@
           }
         },
         {
+          "id": "hqlive-d743f8c058",
+          "name": "Burnley vs Aston Villa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d743f8c058",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d743f8c058",
+                  "name": "Burnley vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-d743f8c058",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c4db806a9",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Burnley",
+            "team_b": "Aston Villa",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1a/Burnley_FC.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
+            "time": "20:00 10/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Burnley_Aston Villa_20-00 10-05_bbdca3ef_20260510.png?v=bbdca3ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-85a904062c",
           "name": "Nottingham Forest vs Newcastle | 20:00 10/05",
           "type": "single",
@@ -297,59 +368,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nottingham Forest_Newcastle_20-00 10-05_ad1e7d68_20260510.png?v=ad1e7d68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d743f8c058",
-          "name": "Burnley vs Aston Villa | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d743f8c058",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d743f8c058",
-                  "name": "Burnley vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-d743f8c058",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Burnley",
-            "team_b": "Aston Villa",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1a/Burnley_FC.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
-            "time": "20:00 10/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Burnley_Aston Villa_20-00 10-05_bbdca3ef_20260510.png?v=bbdca3ef",
             "width": 1600,
             "height": 1200
           }
