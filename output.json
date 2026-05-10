@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 10/05/2026",
+  "updated_at": "23:20 10/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Ham_Arsenal_22-30 10-05_942e40d1_20260510.png?v=942e40d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ad62d74f1c",
-          "name": "1. FC Köln vs 1. FC Heidenheim | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad62d74f1c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ad62d74f1c",
-                  "name": "1. FC Köln vs 1. FC Heidenheim",
-                  "streams": [
-                    {
-                      "id": "st-ad62d74f1c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6e86d8c60",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "1. FC Köln",
-            "team_b": "1. FC Heidenheim",
-            "logo_a": "https://media.api-sports.io/football/teams/192.png",
-            "logo_b": "https://media.api-sports.io/football/teams/180.png",
-            "time": "22:30 10/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/1. FC Köln_1. FC Heidenheim_22-30 10-05_f282a22d_20260510.png?v=f282a22d",
             "width": 1600,
             "height": 1200
           }
@@ -734,59 +663,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b74406d6a0",
-          "name": "Minnesota Timberwolves vs San Antonio Spurs | 06:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b74406d6a0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b74406d6a0",
-                  "name": "Minnesota Timberwolves vs San Antonio Spurs",
-                  "streams": [
-                    {
-                      "id": "st-b74406d6a0",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Minnesota Timberwolves",
-            "team_b": "San Antonio Spurs",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "time": "06:30 11/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Minnesota Timberwolves_San Antonio Spurs_06-30 11-05_d416d446_20260510.png?v=d416d446",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-0f0322a972",
           "name": "Los Angeles Lakers vs Oklahoma City Thunder | 09:30 12/05",
