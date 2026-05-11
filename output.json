@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 11/05/2026",
+  "updated_at": "23:00 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -596,6 +596,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cherno More Varna_Lokomotiv Plovdiv_21-45 12-05_24d07cb0_20260511.png?v=24d07cb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8f0c73e835",
+          "name": "Japan U17 vs Indonesia U17 | 23:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f0c73e835",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8f0c73e835",
+                  "name": "Japan U17 vs Indonesia U17",
+                  "streams": [
+                    {
+                      "id": "st-8f0c73e835",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Japan U17",
+            "team_b": "Indonesia U17",
+            "logo_a": "https://media.api-sports.io/football/teams/12511.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flag_of_Indonesia.png",
+            "time": "23:00 12/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Indonesia U17_23-00 12-05_aa6265c4_20260511.png?v=aa6265c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6ccaba08b9",
+          "name": "China PR U17 vs Qatar U17 | 23:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ccaba08b9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6ccaba08b9",
+                  "name": "China PR U17 vs Qatar U17",
+                  "streams": [
+                    {
+                      "id": "st-6ccaba08b9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "China PR U17",
+            "team_b": "Qatar U17",
+            "logo_a": "https://media.api-sports.io/football/teams/21449.png",
+            "logo_b": "https://img-cache.coccoc.com/image2?i=1&l=79/126547847",
+            "time": "23:00 12/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Qatar U17_23-00 12-05_27a823f9_20260511.png?v=27a823f9",
             "width": 1600,
             "height": 1200
           }
