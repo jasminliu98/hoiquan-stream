@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:00 12/05/2026",
+  "updated_at": "02:30 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -986,6 +986,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Southampton_Middlesbrough_02-00 13-05_ba2ad48e_20260512.png?v=ba2ad48e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-87a7699927",
+          "name": "Osasuna vs Atletico Madrid | 02:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87a7699927",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-87a7699927",
+                  "name": "Osasuna vs Atletico Madrid",
+                  "streams": [
+                    {
+                      "id": "st-87a7699927",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Osasuna",
+            "team_b": "Atletico Madrid",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/5/53/Ca_osasuna.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/f/f9/Atletico_Madrid_Logo_2024.svg",
+            "time": "02:30 13/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Osasuna_Atletico Madrid_02-30 13-05_e3f35483_20260512.png?v=e3f35483",
             "width": 1600,
             "height": 1200
           }
