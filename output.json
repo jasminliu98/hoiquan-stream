@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:05 11/05/2026",
+  "updated_at": "17:30 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -331,6 +331,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Boys_Universitario_08-30 12-05_d7e4db37_20260511.png?v=d7e4db37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c3d4bb27eb",
+          "name": "Gangwon FC vs Daejeon Citizen | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3d4bb27eb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c3d4bb27eb",
+                  "name": "Gangwon FC vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-c3d4bb27eb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Gangwon FC",
+            "team_b": "Daejeon Citizen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gangwon_FC.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYS2zEFbeFBg_XqzrgQPETiHdzD2yAXqh8wQ&s",
+            "time": "17:30 12/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gangwon FC_Daejeon Citizen_17-30 12-05_a65b7feb_20260511.png?v=a65b7feb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e1a7165fca",
+          "name": "Gwangju FC vs FC Seoul | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1a7165fca",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e1a7165fca",
+                  "name": "Gwangju FC vs FC Seoul",
+                  "streams": [
+                    {
+                      "id": "st-e1a7165fca",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Gwangju FC",
+            "team_b": "FC Seoul",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/65/Gwangju_FC.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/2766.png",
+            "time": "17:30 12/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gwangju FC_FC Seoul_17-30 12-05_5fedbb85_20260511.png?v=5fedbb85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a7d264b995",
+          "name": "Incheon United vs Pohang Steelers | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7d264b995",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a7d264b995",
+                  "name": "Incheon United vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-a7d264b995",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Incheon United",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Emblem_of_Incheon_United.svg/960px-Emblem_of_Incheon_United.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/lt/c/cf/Pohang_Steelers_logo.png",
+            "time": "17:30 12/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Incheon United_Pohang Steelers_17-30 12-05_b2c710cc_20260511.png?v=b2c710cc",
             "width": 1600,
             "height": 1200
           }
