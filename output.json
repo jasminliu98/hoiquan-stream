@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:35 12/05/2026",
+  "updated_at": "02:40 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -800,7 +800,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/2939.png",
             "logo_b": "https://media.api-sports.io/football/teams/2932.png",
             "time": "01:00 13/05",
-            "blv": "BLV PHAN MÃ",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -867,59 +867,6 @@
           }
         },
         {
-          "id": "hqlive-2b1cecd9f7",
-          "name": "Southampton vs Middlesbrough | 02:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b1cecd9f7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2b1cecd9f7",
-                  "name": "Southampton vs Middlesbrough",
-                  "streams": [
-                    {
-                      "id": "st-2b1cecd9f7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Championship",
-            "team_a": "Southampton",
-            "team_b": "Middlesbrough",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/4/4b/356px-FC_Southampton.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/2c/Middlesbrough_FC_crest.svg",
-            "time": "02:00 13/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Southampton_Middlesbrough_02-00 13-05_ba2ad48e_20260512.png?v=ba2ad48e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-87a7699927",
           "name": "Osasuna vs Atletico Madrid | 02:30 13/05",
           "type": "single",
@@ -968,6 +915,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Osasuna_Atletico Madrid_02-30 13-05_e3f35483_20260512.png?v=e3f35483",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_cau-long",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-78fe22066b",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 10:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78fe22066b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-78fe22066b",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-78fe22066b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "10:00 12/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_10-00 12-05_cacf1340_20260512.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1a5ebd3efa",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a5ebd3efa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1a5ebd3efa",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-1a5ebd3efa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "15:00 12/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 12-05_cacf1340_20260512.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
