@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 11/05/2026",
+  "updated_at": "19:40 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -142,59 +142,6 @@
           }
         },
         {
-          "id": "hqlive-e8e7c0f3f5",
-          "name": "Napoli vs Bologna | 01:45 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8e7c0f3f5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e8e7c0f3f5",
-                  "name": "Napoli vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-e8e7c0f3f5",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Napoli",
-            "team_b": "Bologna",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bologna_F.C._1909_logo.svg",
-            "time": "01:45 12/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Napoli_Bologna_01-45 12-05_8255d30c_20260511.png?v=8255d30c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-2ca691ce55",
           "name": "Tottenham vs Leeds | 02:00 12/05",
           "type": "single",
@@ -296,6 +243,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rayo Vallecano_Girona_02-00 12-05_a05e8d76_20260511.png?v=a05e8d76",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-37c372323d",
+          "name": "Benfica vs SC Braga | 02:15 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37c372323d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-37c372323d",
+                  "name": "Benfica vs SC Braga",
+                  "streams": [
+                    {
+                      "id": "st-37c372323d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Benfica",
+            "team_b": "SC Braga",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/ad/SL_Benfica_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/79/S.C._Braga_logo.svg",
+            "time": "02:15 12/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benfica_SC Braga_02-15 12-05_7ef1f11a_20260511.png?v=7ef1f11a",
             "width": 1600,
             "height": 1200
           }
