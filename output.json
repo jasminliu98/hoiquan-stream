@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 11/05/2026",
+  "updated_at": "20:45 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -631,82 +631,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-8e47ab7ccc",
-          "name": "Coco Gauff vs Iva Jovic | 17:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e47ab7ccc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8e47ab7ccc",
-                  "name": "Coco Gauff vs Iva Jovic",
-                  "streams": [
-                    {
-                      "id": "st-8e47ab7ccc",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Coco Gauff",
-            "team_b": "Iva Jovic",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYJqzm8m32ChkgCcVtjAlPl9Ejmoqmejw-Q&s",
-            "time": "17:30 11/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Iva Jovic_17-30 11-05_e540b4e1_20260511.png?v=e540b4e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-9e6721b38e",
           "name": "Jannik Sinner vs Alexei Popyrin | 20:00 11/05",
