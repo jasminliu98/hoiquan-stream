@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:40 12/05/2026",
+  "updated_at": "01:00 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -773,6 +773,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Celta Vigo_Levante_00-00 13-05_c405141a_20260512.png?v=c405141a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bd1f8f14ae",
+          "name": "Al-Nassr vs Al-Hilal Saudi FC | 01:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd1f8f14ae",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bd1f8f14ae",
+                  "name": "Al-Nassr vs Al-Hilal Saudi FC",
+                  "streams": [
+                    {
+                      "id": "st-bd1f8f14ae",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al-Nassr",
+            "team_b": "Al-Hilal Saudi FC",
+            "logo_a": "https://media.api-sports.io/football/teams/2939.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2932.png",
+            "time": "01:00 13/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Nassr_Al-Hilal Saudi FC_01-00 13-05_1f575e35_20260512.png?v=1f575e35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7ace2662c3",
+          "name": "Real Betis vs Elche | 01:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ace2662c3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7ace2662c3",
+                  "name": "Real Betis vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-7ace2662c3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Elche",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a7/Elche_CF_logo.svg",
+            "time": "01:00 13/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Betis_Elche_01-00 13-05_d4faacb0_20260512.png?v=d4faacb0",
             "width": 1600,
             "height": 1200
           }
