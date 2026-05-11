@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:50 11/05/2026",
+  "updated_at": "10:15 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a8f2bd1132",
-          "name": "Los Angeles FC vs Houston Dynamo | 08:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8f2bd1132",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a8f2bd1132",
-                  "name": "Los Angeles FC vs Houston Dynamo",
-                  "streams": [
-                    {
-                      "id": "st-a8f2bd1132",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c4db806a9",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Major League Soccer",
-            "team_a": "Los Angeles FC",
-            "team_b": "Houston Dynamo",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/86/Los_Angeles_Football_Club.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/1600.png",
-            "time": "08:00 11/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles FC_Houston Dynamo_08-00 11-05_5a79bafc_20260511.png?v=5a79bafc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-731628e6c6",
           "name": "Vietnam U17 W vs Australia U17 W | 14:00 11/05",
