@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:45 11/05/2026",
+  "updated_at": "21:50 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -163,7 +163,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
             "logo_b": "https://www.pngmart.com/files/22/Girona-FC-PNG-HD.png",
             "time": "02:00 12/05",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN TÔ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
