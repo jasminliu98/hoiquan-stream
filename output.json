@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:00 11/05/2026",
+  "updated_at": "14:10 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -464,6 +464,386 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles Lakers_Oklahoma City Thunder_09-30 12-05_92590674_20260511.png?v=92590674",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-85fd3be776",
+          "name": "Andrey Rublev vs Alejandro Davidovich Fokina | 16:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85fd3be776",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-85fd3be776",
+                  "name": "Andrey Rublev vs Alejandro Davidovich Fokina",
+                  "streams": [
+                    {
+                      "id": "st-85fd3be776",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Andrey Rublev",
+            "team_b": "Alejandro Davidovich Fokina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
+            "time": "16:00 11/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Andrey Rublev_Alejandro Davidovich Fokina_16-00 11-05_5b035faa_20260511.png?v=5b035faa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8e47ab7ccc",
+          "name": "Coco Gauff vs Iva Jovic | 17:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e47ab7ccc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8e47ab7ccc",
+                  "name": "Coco Gauff vs Iva Jovic",
+                  "streams": [
+                    {
+                      "id": "st-8e47ab7ccc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Coco Gauff",
+            "team_b": "Iva Jovic",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYJqzm8m32ChkgCcVtjAlPl9Ejmoqmejw-Q&s",
+            "time": "17:30 11/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Iva Jovic_17-30 11-05_e540b4e1_20260511.png?v=e540b4e1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9e6721b38e",
+          "name": "Jannik Sinner vs Alexei Popyrin | 20:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e6721b38e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9e6721b38e",
+                  "name": "Jannik Sinner vs Alexei Popyrin",
+                  "streams": [
+                    {
+                      "id": "st-9e6721b38e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Jannik Sinner",
+            "team_b": "Alexei Popyrin",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9rAnTZYoVrPrRYk6v42jOGyuryeGBsKbyFA&s",
+            "time": "20:00 11/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Alexei Popyrin_20-00 11-05_3f0edffd_20260511.png?v=3f0edffd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-450e2de83d",
+          "name": "Pablo Llamas Ruiz vs Daniil Medvedev | 21:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-450e2de83d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-450e2de83d",
+                  "name": "Pablo Llamas Ruiz vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-450e2de83d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Pablo Llamas Ruiz",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Llamas_Ruiz_WMQ23_%2853062192338%29.jpg/960px-Llamas_Ruiz_WMQ23_%2853062192338%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "time": "21:30 11/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pablo Llamas Ruiz_Daniil Medvedev_21-30 11-05_e792ef5e_20260511.png?v=e792ef5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e72e3e2ae2",
+          "name": "Naomi Osaka vs Iga Swiatek | 23:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e72e3e2ae2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e72e3e2ae2",
+                  "name": "Naomi Osaka vs Iga Swiatek",
+                  "streams": [
+                    {
+                      "id": "st-e72e3e2ae2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Naomi Osaka",
+            "team_b": "Iga Swiatek",
+            "logo_a": "https://image.plo.vn/w1000/Uploaded/2026/vrwqzdjwp/2025_08_06/vo-dich-my-mo-rong-naomi-osaka-3829-689.jpg.webp",
+            "logo_b": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "time": "23:00 11/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Naomi Osaka_Iga Swiatek_23-00 11-05_77f040aa_20260511.png?v=77f040aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7b511c59a4",
+          "name": "Flavio Coboli vs Thiago Agustin Tirante | 00:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b511c59a4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7b511c59a4",
+                  "name": "Flavio Coboli vs Thiago Agustin Tirante",
+                  "streams": [
+                    {
+                      "id": "st-7b511c59a4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Flavio Coboli",
+            "team_b": "Thiago Agustin Tirante",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfnF-6AxdWi9r7RXTgmf5Hc_ffzGBupG0Y2A&s",
+            "time": "00:00 12/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flavio Coboli_Thiago Agustin Tirante_00-00 12-05_af36ddaa_20260511.png?v=af36ddaa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c0067247b8",
+          "name": "Elena Rybakina vs Karolína Plíšková | 01:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0067247b8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c0067247b8",
+                  "name": "Elena Rybakina vs Karolína Plíšková",
+                  "streams": [
+                    {
+                      "id": "st-c0067247b8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Elena Rybakina",
+            "team_b": "Karolína Plíšková",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pliskova_US16_%2829%29_%2829236393233%29.jpg",
+            "time": "01:30 12/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elena Rybakina_Karolína Plíšková_01-30 12-05_2910a92d_20260511.png?v=2910a92d",
             "width": 1600,
             "height": 1200
           }
