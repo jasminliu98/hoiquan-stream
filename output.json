@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:55 11/05/2026",
+  "updated_at": "15:00 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -477,59 +477,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-85fd3be776",
-          "name": "Andrey Rublev vs Alejandro Davidovich Fokina | 16:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85fd3be776",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-85fd3be776",
-                  "name": "Andrey Rublev vs Alejandro Davidovich Fokina",
-                  "streams": [
-                    {
-                      "id": "st-85fd3be776",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Andrey Rublev",
-            "team_b": "Alejandro Davidovich Fokina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
-            "time": "16:00 11/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Andrey Rublev_Alejandro Davidovich Fokina_16-00 11-05_5b035faa_20260511.png?v=5b035faa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8e47ab7ccc",
           "name": "Coco Gauff vs Iva Jovic | 17:30 11/05",
