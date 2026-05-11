@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:35 11/05/2026",
+  "updated_at": "08:50 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-6811d234f0",
-          "name": "Vasco da Gama vs Atletico Paranaense | 06:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6811d234f0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6811d234f0",
-                  "name": "Vasco da Gama vs Atletico Paranaense",
-                  "streams": [
-                    {
-                      "id": "st-6811d234f0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8be718b2f",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil ",
-            "team_a": "Vasco da Gama",
-            "team_b": "Atletico Paranaense",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a5/Club_de_Regatas_Vasco_da_Gama_logo_%282021%29.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/134.png",
-            "time": "06:30 11/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vasco da Gama_Atletico Paranaense_06-30 11-05_07ce8e95_20260511.png?v=07ce8e95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a8f2bd1132",
           "name": "Los Angeles FC vs Houston Dynamo | 08:00 11/05",
