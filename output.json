@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:00 11/05/2026",
+  "updated_at": "15:55 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-731628e6c6",
-          "name": "Vietnam U17 W vs Australia U17 W | 14:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-731628e6c6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-731628e6c6",
-                  "name": "Vietnam U17 W vs Australia U17 W",
-                  "streams": [
-                    {
-                      "id": "st-731628e6c6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c4db806a9",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup - Women",
-            "team_a": "Vietnam U17 W",
-            "team_b": "Australia U17 W",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/23618.png",
-            "time": "14:00 11/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17 W_Australia U17 W_14-00 11-05_b23a215c_20260511.png?v=b23a215c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b0ac683c96",
           "name": "Bali United vs Pusamania Borneo | 19:00 11/05",
