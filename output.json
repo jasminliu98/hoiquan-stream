@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:35 11/05/2026",
+  "updated_at": "14:00 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -190,6 +190,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/NEOM_Al Shabab_23-50 11-05_beba3198_20260511.png?v=beba3198",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e8e7c0f3f5",
+          "name": "Napoli vs Bologna | 01:45 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8e7c0f3f5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e8e7c0f3f5",
+                  "name": "Napoli vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-e8e7c0f3f5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Napoli",
+            "team_b": "Bologna",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bologna_F.C._1909_logo.svg",
+            "time": "01:45 12/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Napoli_Bologna_01-45 12-05_8255d30c_20260511.png?v=8255d30c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2ca691ce55",
+          "name": "Tottenham vs Leeds | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ca691ce55",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2ca691ce55",
+                  "name": "Tottenham vs Leeds",
+                  "streams": [
+                    {
+                      "id": "st-2ca691ce55",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Tottenham",
+            "team_b": "Leeds",
+            "logo_a": "https://media.api-sports.io/football/teams/47.png",
+            "logo_b": "https://media.api-sports.io/football/teams/63.png",
+            "time": "02:00 12/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tottenham_Leeds_02-00 12-05_aba03bbc_20260511.png?v=aba03bbc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1af241eca2",
+          "name": "Rayo Vallecano vs Girona | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1af241eca2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1af241eca2",
+                  "name": "Rayo Vallecano vs Girona",
+                  "streams": [
+                    {
+                      "id": "st-1af241eca2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Girona",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
+            "logo_b": "https://www.pngmart.com/files/22/Girona-FC-PNG-HD.png",
+            "time": "02:00 12/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rayo Vallecano_Girona_02-00 12-05_a05e8d76_20260511.png?v=a05e8d76",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-824a2e17e4",
+          "name": "Sport Boys vs Universitario | 08:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-824a2e17e4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-824a2e17e4",
+                  "name": "Sport Boys vs Universitario",
+                  "streams": [
+                    {
+                      "id": "st-824a2e17e4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera División",
+            "team_a": "Sport Boys",
+            "team_b": "Universitario",
+            "logo_a": "https://media.api-sports.io/football/teams/2544.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2540.png",
+            "time": "08:30 12/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Boys_Universitario_08-30 12-05_d7e4db37_20260511.png?v=d7e4db37",
             "width": 1600,
             "height": 1200
           }
