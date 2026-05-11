@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:10 12/05/2026",
+  "updated_at": "04:20 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-37c372323d",
-          "name": "Benfica vs SC Braga | 02:15 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37c372323d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-37c372323d",
-                  "name": "Benfica vs SC Braga",
-                  "streams": [
-                    {
-                      "id": "st-37c372323d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Benfica",
-            "team_b": "SC Braga",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/ad/SL_Benfica_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/79/S.C._Braga_logo.svg",
-            "time": "02:15 12/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benfica_SC Braga_02-15 12-05_7ef1f11a_20260512.png?v=7ef1f11a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-824a2e17e4",
           "name": "Sport Boys vs Universitario | 08:30 12/05",
