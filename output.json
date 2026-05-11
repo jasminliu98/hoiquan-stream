@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 11/05/2026",
+  "updated_at": "21:12 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b0ac683c96",
-          "name": "Bali United vs Pusamania Borneo | 19:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b0ac683c96",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b0ac683c96",
-                  "name": "Bali United vs Pusamania Borneo",
-                  "streams": [
-                    {
-                      "id": "st-b0ac683c96",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2098245f1a",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Bali United",
-            "team_b": "Pusamania Borneo",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5e/Bali_United_logo.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/2442.png",
-            "time": "19:00 11/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bali United_Pusamania Borneo_19-00 11-05_c26b3295_20260511.png?v=c26b3295",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-65ee1a778d",
           "name": "NEOM vs Al Shabab | 23:50 11/05",
