@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:10 11/05/2026",
+  "updated_at": "14:55 11/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -128,7 +128,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5e/Bali_United_logo.svg",
             "logo_b": "https://media.api-sports.io/football/teams/2442.png",
             "time": "19:00 11/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV CỦ HÀNH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
