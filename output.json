@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 12/05/2026",
+  "updated_at": "16:40 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -743,11 +743,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-a005bbc4a7",
+                          "id": "lnk-cf43005696",
                           "name": "BLV PHAN MÃ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
+                          "url": " https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
