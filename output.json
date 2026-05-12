@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:10 12/05/2026",
+  "updated_at": "15:50 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -263,7 +263,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "VĐQG Ai Cập",
             "team_a": "Pharco",
             "team_b": "Future FC",
             "logo_a": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5916md7o/image/small",
