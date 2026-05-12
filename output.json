@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:20 12/05/2026",
+  "updated_at": "19:30 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c3d4bb27eb",
-          "name": "Gangwon FC vs Daejeon Citizen | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c3d4bb27eb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c3d4bb27eb",
-                  "name": "Gangwon FC vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-c3d4bb27eb",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2098245f1a",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Gangwon FC",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gangwon_FC.svg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYS2zEFbeFBg_XqzrgQPETiHdzD2yAXqh8wQ&s",
-            "time": "17:30 12/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gangwon FC_Daejeon Citizen_17-30 12-05_a65b7feb_20260512.png?v=a65b7feb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a7d264b995",
-          "name": "Incheon United vs Pohang Steelers | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7d264b995",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a7d264b995",
-                  "name": "Incheon United vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-a7d264b995",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6e86d8c60",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Incheon United",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Emblem_of_Incheon_United.svg/960px-Emblem_of_Incheon_United.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/lt/c/cf/Pohang_Steelers_logo.png",
-            "time": "17:30 12/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Incheon United_Pohang Steelers_17-30 12-05_b2c710cc_20260512.png?v=b2c710cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f67c5b61b6",
           "name": "Pharco vs Future FC | 21:00 12/05",
