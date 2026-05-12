@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:30 12/05/2026",
+  "updated_at": "17:35 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -226,59 +226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Incheon United_Pohang Steelers_17-30 12-05_b2c710cc_20260512.png?v=b2c710cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-327450ab00",
-          "name": "Epitsentr Dunayivtsi vs Polessya | 19:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-327450ab00",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-327450ab00",
-                  "name": "Epitsentr Dunayivtsi vs Polessya",
-                  "streams": [
-                    {
-                      "id": "st-327450ab00",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Epitsentr Dunayivtsi",
-            "team_b": "Polessya",
-            "logo_a": "https://media.api-sports.io/football/teams/14434.png",
-            "logo_b": "https://media.api-sports.io/football/teams/6496.png",
-            "time": "19:30 12/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Epitsentr Dunayivtsi_Polessya_19-30 12-05_46f08e50_20260512.png?v=46f08e50",
             "width": 1600,
             "height": 1200
           }
@@ -1241,14 +1188,14 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-5fedab8171",
-          "name": "Lorenzo Musett vs Casper Ruud | 16:00 12/05",
+          "id": "hqlive-474e9347c3",
+          "name": "Rafeal Jodar vs Learner Tien | 17:30 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1262,86 +1209,15 @@
           ],
           "sources": [
             {
-              "id": "src-5fedab8171",
+              "id": "src-474e9347c3",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5fedab8171",
-                  "name": "Lorenzo Musett vs Casper Ruud",
-                  "streams": [
-                    {
-                      "id": "st-5fedab8171",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Lorenzo Musett",
-            "team_b": "Casper Ruud",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/64/Musetti_MCM23_%2811%29_%2852883593753%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
-            "time": "16:00 12/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lorenzo Musett_Casper Ruud_16-00 12-05_395b4206_20260512.png?v=395b4206",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-276d937181",
-          "name": "Rafeal Jodar vs Learner Tien | 18:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-276d937181",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-276d937181",
+                  "id": "ct-474e9347c3",
                   "name": "Rafeal Jodar vs Learner Tien",
                   "streams": [
                     {
-                      "id": "st-276d937181",
+                      "id": "st-474e9347c3",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1374,7 +1250,7 @@
             "team_b": "Learner Tien",
             "logo_a": "https://image.sggp.org.vn/1200x630/Uploaded/2026/ldfnyrykxq/2026_04_05/jodar-vo-dich-marrakech-01-4168-961.jpg.webp",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
-            "time": "18:00 12/05",
+            "time": "17:30 12/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1383,7 +1259,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafeal Jodar_Learner Tien_18-00 12-05_b664fc30_20260512.png?v=b664fc30",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafeal Jodar_Learner Tien_17-30 12-05_b664fc30_20260512.png?v=b664fc30",
             "width": 1600,
             "height": 1200
           }
