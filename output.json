@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:45 12/05/2026",
+  "updated_at": "17:00 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -702,6 +702,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruzeiro_Goias_07-30 13-05_f1a5b58a_20260512.png?v=f1a5b58a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7b135d3cab",
+          "name": "Vissel Kobe vs Kyoto Sanga | 17:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b135d3cab",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7b135d3cab",
+                  "name": "Vissel Kobe vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-7b135d3cab",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vissel_Kobe_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/302.png",
+            "time": "17:00 13/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vissel Kobe_Kyoto Sanga_17-00 13-05_08ea4e5b_20260512.png?v=08ea4e5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0975c919bc",
+          "name": "Machida Zelvia vs Tokyo Verdy | 17:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0975c919bc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0975c919bc",
+                  "name": "Machida Zelvia vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-0975c919bc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Machida Zelvia",
+            "team_b": "Tokyo Verdy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/FC_Machida_Zelvia_logo.svg/250px-FC_Machida_Zelvia_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/id/a/a0/Tokyo_Verdy_2020_logo.webp",
+            "time": "17:00 13/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Machida Zelvia_Tokyo Verdy_17-00 13-05_2ac0c994_20260512.png?v=2ac0c994",
             "width": 1600,
             "height": 1200
           }
