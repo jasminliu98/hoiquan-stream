@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:20 12/05/2026",
+  "updated_at": "17:30 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -582,7 +582,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Pro League",
+            "league": "Saudi Pro League ( Đầu Cầu Fan CR7 )",
             "team_a": "Al-Nassr",
             "team_b": "Al-Hilal Saudi FC",
             "logo_a": "https://media.api-sports.io/football/teams/2939.png",
@@ -865,6 +865,165 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-0bd0579749",
+          "name": "Nam Dinh vs Selangor | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bd0579749",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0bd0579749",
+                  "name": "Nam Dinh vs Selangor",
+                  "streams": [
+                    {
+                      "id": "st-0bd0579749",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Nam Dinh",
+            "team_b": "Selangor",
+            "logo_a": "https://media.api-sports.io/football/teams/3674.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/d/d7/Selangor_FC_logo.svg",
+            "time": "17:30 13/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nam Dinh_Selangor_17-30 13-05_3c8dcdf9_20260512.png?v=3c8dcdf9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-54add5b020",
+          "name": "Bucheon FC 1995 vs Jeonbuk Motors | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54add5b020",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-54add5b020",
+                  "name": "Bucheon FC 1995 vs Jeonbuk Motors",
+                  "streams": [
+                    {
+                      "id": "st-54add5b020",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Bucheon FC 1995",
+            "team_b": "Jeonbuk Motors",
+            "logo_a": "https://media.api-sports.io/football/teams/2745.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2762.png",
+            "time": "17:30 13/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bucheon FC 1995_Jeonbuk Motors_17-30 13-05_c866ffe4_20260512.png?v=c866ffe4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cd7e4fd92e",
+          "name": "Ulsan Hyundai FC vs Jeju United FC | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd7e4fd92e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cd7e4fd92e",
+                  "name": "Ulsan Hyundai FC vs Jeju United FC",
+                  "streams": [
+                    {
+                      "id": "st-cd7e4fd92e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Ulsan Hyundai FC",
+            "team_b": "Jeju United FC",
+            "logo_a": "https://media.api-sports.io/football/teams/2767.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2761.png",
+            "time": "17:30 13/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulsan Hyundai FC_Jeju United FC_17-30 13-05_191b565e_20260512.png?v=191b565e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1082,7 +1241,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1159,8 +1318,8 @@
           }
         },
         {
-          "id": "hqlive-474e9347c3",
-          "name": "Rafeal Jodar vs Learner Tien | 17:30 12/05",
+          "id": "hqlive-276d937181",
+          "name": "Rafeal Jodar vs Learner Tien | 18:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1174,15 +1333,15 @@
           ],
           "sources": [
             {
-              "id": "src-474e9347c3",
+              "id": "src-276d937181",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-474e9347c3",
+                  "id": "ct-276d937181",
                   "name": "Rafeal Jodar vs Learner Tien",
                   "streams": [
                     {
-                      "id": "st-474e9347c3",
+                      "id": "st-276d937181",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1215,7 +1374,7 @@
             "team_b": "Learner Tien",
             "logo_a": "https://image.sggp.org.vn/1200x630/Uploaded/2026/ldfnyrykxq/2026_04_05/jodar-vo-dich-marrakech-01-4168-961.jpg.webp",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
-            "time": "17:30 12/05",
+            "time": "18:00 12/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1224,85 +1383,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafeal Jodar_Learner Tien_17-30 12-05_b664fc30_20260512.png?v=b664fc30",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafeal Jodar_Learner Tien_18-00 12-05_b664fc30_20260512.png?v=b664fc30",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-1015b447a6",
-          "name": "Coco Gauff vs Mirra Andreeva | 00:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1015b447a6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1015b447a6",
-                  "name": "Coco Gauff vs Mirra Andreeva",
-                  "streams": [
-                    {
-                      "id": "st-1015b447a6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96622ac3ba",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Coco Gauff",
-            "team_b": "Mirra Andreeva",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIsx7s7F33GJieSnSe9Nsoau1fbFqRr20Jg&s",
-            "time": "00:00 13/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Mirra Andreeva_00-00 13-05_ddc047e6_20260512.png?v=ddc047e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5d19921556",
-          "name": "Luca Van Assche vs Alexandet Zverev | 19:00 12/05",
+          "id": "hqlive-bc0b96ca60",
+          "name": "Luca Van Assche vs Alexandet Zverev | 20:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1316,15 +1404,15 @@
           ],
           "sources": [
             {
-              "id": "src-5d19921556",
+              "id": "src-bc0b96ca60",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5d19921556",
+                  "id": "ct-bc0b96ca60",
                   "name": "Luca Van Assche vs Alexandet Zverev",
                   "streams": [
                     {
-                      "id": "st-5d19921556",
+                      "id": "st-bc0b96ca60",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1339,7 +1427,7 @@
             "team_b": "Alexandet Zverev",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkVtpKDeR-ZUmx25ElatcLWHV9L9sgBKaOg&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "time": "19:00 12/05",
+            "time": "20:00 12/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "tennis"
@@ -1348,7 +1436,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Luca Van Assche_Alexandet Zverev_19-00 12-05_a9b3cd16_20260512.png?v=a9b3cd16",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Luca Van Assche_Alexandet Zverev_20-00 12-05_a9b3cd16_20260512.png?v=a9b3cd16",
             "width": 1600,
             "height": 1200
           }
@@ -1402,6 +1490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Roman Andres Burruchaga_20-00 12-05_7b712942_20260512.png?v=7b712942",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1015b447a6",
+          "name": "Coco Gauff vs Mirra Andreeva | 00:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1015b447a6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1015b447a6",
+                  "name": "Coco Gauff vs Mirra Andreeva",
+                  "streams": [
+                    {
+                      "id": "st-1015b447a6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Coco Gauff",
+            "team_b": "Mirra Andreeva",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIsx7s7F33GJieSnSe9Nsoau1fbFqRr20Jg&s",
+            "time": "00:00 13/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Mirra Andreeva_00-00 13-05_ddc047e6_20260512.png?v=ddc047e6",
             "width": 1600,
             "height": 1200
           }
