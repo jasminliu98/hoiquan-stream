@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:40 12/05/2026",
+  "updated_at": "16:45 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -758,23 +758,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-a5b9a304ad",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanto/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -790,7 +773,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "17:00 12/05",
-            "blv": "BLV PHAN MÃ, BLV PHAN TÔ",
+            "blv": "BLV PHAN MÃ",
             "is_live": true,
             "sport_slug": "cau-long"
           },
