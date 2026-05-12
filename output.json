@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 12/05/2026",
+  "updated_at": "19:05 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1230,8 +1230,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-474e9347c3",
-          "name": "Rafeal Jodar vs Learner Tien | 17:30 12/05",
+          "id": "hqlive-5d19921556",
+          "name": "Luca Van Assche vs Alexandet Zverev | 19:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1245,15 +1245,15 @@
           ],
           "sources": [
             {
-              "id": "src-474e9347c3",
+              "id": "src-5d19921556",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-474e9347c3",
-                  "name": "Rafeal Jodar vs Learner Tien",
+                  "id": "ct-5d19921556",
+                  "name": "Luca Van Assche vs Alexandet Zverev",
                   "streams": [
                     {
-                      "id": "st-474e9347c3",
+                      "id": "st-5d19921556",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1282,11 +1282,11 @@
           ],
           "org_metadata": {
             "league": "WTA 1000 Rome",
-            "team_a": "Rafeal Jodar",
-            "team_b": "Learner Tien",
-            "logo_a": "https://image.sggp.org.vn/1200x630/Uploaded/2026/ldfnyrykxq/2026_04_05/jodar-vo-dich-marrakech-01-4168-961.jpg.webp",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
-            "time": "17:30 12/05",
+            "team_a": "Luca Van Assche",
+            "team_b": "Alexandet Zverev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkVtpKDeR-ZUmx25ElatcLWHV9L9sgBKaOg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "time": "19:00 12/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1295,60 +1295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafeal Jodar_Learner Tien_17-30 12-05_b664fc30_20260512.png?v=b664fc30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-bc0b96ca60",
-          "name": "Luca Van Assche vs Alexandet Zverev | 20:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc0b96ca60",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bc0b96ca60",
-                  "name": "Luca Van Assche vs Alexandet Zverev",
-                  "streams": [
-                    {
-                      "id": "st-bc0b96ca60",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Luca Van Assche",
-            "team_b": "Alexandet Zverev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkVtpKDeR-ZUmx25ElatcLWHV9L9sgBKaOg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "time": "20:00 12/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Luca Van Assche_Alexandet Zverev_20-00 12-05_a9b3cd16_20260512.png?v=a9b3cd16",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Luca Van Assche_Alexandet Zverev_19-00 12-05_a9b3cd16_20260512.png?v=a9b3cd16",
             "width": 1600,
             "height": 1200
           }
