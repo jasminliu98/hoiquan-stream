@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:40 12/05/2026",
+  "updated_at": "00:00 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-e6c594f3eb",
-          "name": "Cherno More Varna vs Lokomotiv Plovdiv | 21:45 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6c594f3eb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e6c594f3eb",
-                  "name": "Cherno More Varna vs Lokomotiv Plovdiv",
-                  "streams": [
-                    {
-                      "id": "st-e6c594f3eb",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf43005696",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": " https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Cherno More Varna",
-            "team_b": "Lokomotiv Plovdiv",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvhkFanfzFiv4OgQlS0FP8zITYq6a_Y7Zg7A&s",
-            "logo_b": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0023/6261/brand.gif?itok=ulzziNqw",
-            "time": "21:45 12/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cherno More Varna_Lokomotiv Plovdiv_21-45 12-05_24d07cb0_20260512.png?v=24d07cb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8f0c73e835",
           "name": "Japan U17 vs Indonesia U17 | 23:00 12/05",
@@ -154,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Indonesia U17_23-00 12-05_aa6265c4_20260512.png?v=aa6265c4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Indonesia U17_23-00 12-05_aa6265c4_20260513.png?v=aa6265c4",
             "width": 1600,
             "height": 1200
           }
@@ -225,7 +154,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Qatar U17_23-00 12-05_4d6fe29f_20260512.png?v=4d6fe29f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Qatar U17_23-00 12-05_4d6fe29f_20260513.png?v=4d6fe29f",
             "width": 1600,
             "height": 1200
           }
@@ -296,7 +225,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Celta Vigo_Levante_00-00 13-05_c405141a_20260512.png?v=c405141a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Celta Vigo_Levante_00-00 13-05_c405141a_20260513.png?v=c405141a",
             "width": 1600,
             "height": 1200
           }
@@ -349,7 +278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Nassr_Al-Hilal Saudi FC_01-00 13-05_1f575e35_20260512.png?v=1f575e35",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Nassr_Al-Hilal Saudi FC_01-00 13-05_1f575e35_20260513.png?v=1f575e35",
             "width": 1600,
             "height": 1200
           }
@@ -402,7 +331,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Betis_Elche_01-00 13-05_d4faacb0_20260512.png?v=d4faacb0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Betis_Elche_01-00 13-05_d4faacb0_20260513.png?v=d4faacb0",
             "width": 1600,
             "height": 1200
           }
@@ -455,7 +384,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Osasuna_Atletico Madrid_02-30 13-05_e3f35483_20260512.png?v=e3f35483",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Osasuna_Atletico Madrid_02-30 13-05_e3f35483_20260513.png?v=e3f35483",
             "width": 1600,
             "height": 1200
           }
@@ -508,7 +437,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Internacional_Athletic ClubB_05-30 13-05_ccdddd59_20260512.png?v=ccdddd59",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Internacional_Athletic ClubB_05-30 13-05_ccdddd59_20260513.png?v=ccdddd59",
             "width": 1600,
             "height": 1200
           }
@@ -561,7 +490,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vissel Kobe_Kyoto Sanga_17-00 13-05_08ea4e5b_20260512.png?v=08ea4e5b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vissel Kobe_Kyoto Sanga_17-00 13-05_08ea4e5b_20260513.png?v=08ea4e5b",
             "width": 1600,
             "height": 1200
           }
@@ -614,7 +543,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Machida Zelvia_Tokyo Verdy_17-00 13-05_2ac0c994_20260512.png?v=2ac0c994",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Machida Zelvia_Tokyo Verdy_17-00 13-05_2ac0c994_20260513.png?v=2ac0c994",
             "width": 1600,
             "height": 1200
           }
@@ -667,7 +596,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nam Dinh_Selangor_17-30 13-05_3c8dcdf9_20260512.png?v=3c8dcdf9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nam Dinh_Selangor_17-30 13-05_3c8dcdf9_20260513.png?v=3c8dcdf9",
             "width": 1600,
             "height": 1200
           }
@@ -720,7 +649,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bucheon FC 1995_Jeonbuk Motors_17-30 13-05_c866ffe4_20260512.png?v=c866ffe4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bucheon FC 1995_Jeonbuk Motors_17-30 13-05_c866ffe4_20260513.png?v=c866ffe4",
             "width": 1600,
             "height": 1200
           }
@@ -773,7 +702,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulsan Hyundai FC_Jeju United FC_17-30 13-05_191b565e_20260512.png?v=191b565e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulsan Hyundai FC_Jeju United FC_17-30 13-05_191b565e_20260513.png?v=191b565e",
             "width": 1600,
             "height": 1200
           }
@@ -826,7 +755,166 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Johor Darul Takzim FC_19-00 13-05_bf842785_20260512.png?v=bf842785",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Johor Darul Takzim FC_19-00 13-05_bf842785_20260513.png?v=bf842785",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-738f05c2f4",
+          "name": "Vietnam U17 vs United Arab Emirates U17 | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-738f05c2f4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-738f05c2f4",
+                  "name": "Vietnam U17 vs United Arab Emirates U17",
+                  "streams": [
+                    {
+                      "id": "st-738f05c2f4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Vietnam U17",
+            "team_b": "United Arab Emirates U17",
+            "logo_a": "https://media.api-sports.io/football/teams/21447.png",
+            "logo_b": "https://media.api-sports.io/football/teams/26875.png",
+            "time": "00:00 14/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_United Arab Emirates U17_00-00 14-05_1433df63_20260513.png?v=1433df63",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-134887abd3",
+          "name": "Stade Brestois 29 vs Strasbourg | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-134887abd3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-134887abd3",
+                  "name": "Stade Brestois 29 vs Strasbourg",
+                  "streams": [
+                    {
+                      "id": "st-134887abd3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Stade Brestois 29",
+            "team_b": "Strasbourg",
+            "logo_a": "https://media.api-sports.io/football/teams/106.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/80/Racing_Club_de_Strasbourg_logo.svg",
+            "time": "00:00 14/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stade Brestois 29_Strasbourg_00-00 14-05_42993706_20260513.png?v=42993706",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e53cccc427",
+          "name": "Villarreal vs Sevilla | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e53cccc427",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e53cccc427",
+                  "name": "Villarreal vs Sevilla",
+                  "streams": [
+                    {
+                      "id": "st-e53cccc427",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Villarreal",
+            "team_b": "Sevilla",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/70/Villarreal_CF_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ae/Sevilla_FC_logo.png",
+            "time": "00:00 14/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Villarreal_Sevilla_00-00 14-05_06410893_20260513.png?v=06410893",
             "width": 1600,
             "height": 1200
           }
@@ -888,7 +976,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Minnesota Timberwolves_07-00 13-05_257b1e3b_20260512.png?v=257b1e3b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Minnesota Timberwolves_07-00 13-05_257b1e3b_20260513.png?v=257b1e3b",
             "width": 1600,
             "height": 1200
           }
@@ -941,7 +1029,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhejiang Guangsha_Shanxi Zhongyu_18-35 13-05_8e0b893b_20260512.png?v=8e0b893b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhejiang Guangsha_Shanxi Zhongyu_18-35 13-05_8e0b893b_20260513.png?v=8e0b893b",
             "width": 1600,
             "height": 1200
           }
@@ -1021,7 +1109,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Mirra Andreeva_00-00 13-05_ddc047e6_20260512.png?v=ddc047e6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Mirra Andreeva_00-00 13-05_ddc047e6_20260513.png?v=ddc047e6",
             "width": 1600,
             "height": 1200
           }
