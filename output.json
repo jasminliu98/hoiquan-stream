@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:30 13/05/2026",
+  "updated_at": "06:30 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -879,6 +879,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coritiba_Santos FC_05-30 14-05_b61c73a7_20260513.png?v=b61c73a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8571f10600",
+          "name": "FC Cincinnati vs Inter Miami | 06:30 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8571f10600",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8571f10600",
+                  "name": "FC Cincinnati vs Inter Miami",
+                  "streams": [
+                    {
+                      "id": "st-8571f10600",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "FC Cincinnati",
+            "team_b": "Inter Miami",
+            "logo_a": "https://media.api-sports.io/football/teams/2242.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9568.png",
+            "time": "06:30 14/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Cincinnati_Inter Miami_06-30 14-05_9e7b5b44_20260513.png?v=9e7b5b44",
             "width": 1600,
             "height": 1200
           }
