@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:35 13/05/2026",
+  "updated_at": "01:00 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-8f0c73e835",
-          "name": "Japan U17 vs Indonesia U17 | 23:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f0c73e835",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8f0c73e835",
-                  "name": "Japan U17 vs Indonesia U17",
-                  "streams": [
-                    {
-                      "id": "st-8f0c73e835",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08c0b07307",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Japan U17",
-            "team_b": "Indonesia U17",
-            "logo_a": "https://media.api-sports.io/football/teams/12511.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flag_of_Indonesia.png",
-            "time": "23:00 12/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Indonesia U17_23-00 12-05_aa6265c4_20260513.png?v=aa6265c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6ccaba08b9",
-          "name": "China PR U17 vs Qatar U17 | 23:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ccaba08b9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6ccaba08b9",
-                  "name": "China PR U17 vs Qatar U17",
-                  "streams": [
-                    {
-                      "id": "st-6ccaba08b9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2098245f1a",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.zlylive.com/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "China PR U17",
-            "team_b": "Qatar U17",
-            "logo_a": "https://media.api-sports.io/football/teams/21449.png",
-            "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
-            "time": "23:00 12/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Qatar U17_23-00 12-05_4d6fe29f_20260513.png?v=4d6fe29f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-9b760c89bf",
           "name": "Celta Vigo vs Levante | 00:00 13/05",
