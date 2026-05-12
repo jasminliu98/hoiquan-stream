@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:30 12/05/2026",
+  "updated_at": "14:20 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -267,7 +267,7 @@
             "team_a": "Pharco",
             "team_b": "Future FC",
             "logo_a": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5916md7o/image/small",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/ff/Logo_du_Future_FC.png/700px-Logo_du_Future_FC.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOmCevoqoaJjBJIgJi1fg6aFhXE7fELzLSbA&s",
             "time": "21:00 12/05",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
@@ -277,7 +277,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pharco_Future FC_21-00 12-05_fdac3f89_20260512.png?v=fdac3f89",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pharco_Future FC_21-00 12-05_87779309_20260512.png?v=87779309",
             "width": 1600,
             "height": 1200
           }
@@ -426,7 +426,7 @@
             "team_a": "China PR U17",
             "team_b": "Qatar U17",
             "logo_a": "https://media.api-sports.io/football/teams/21449.png",
-            "logo_b": "https://img-cache.coccoc.com/image2?i=1&l=79/126547847",
+            "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
             "time": "23:00 12/05",
             "blv": "BLV CỦ HÀNH",
             "is_live": false,
@@ -436,7 +436,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Qatar U17_23-00 12-05_27a823f9_20260512.png?v=27a823f9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Qatar U17_23-00 12-05_4d6fe29f_20260512.png?v=4d6fe29f",
             "width": 1600,
             "height": 1200
           }
