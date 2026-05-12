@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:00 12/05/2026",
+  "updated_at": "15:10 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -755,7 +755,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "17:00 12/05",
-            "blv": "BLV PHAN MÃ",
+            "blv": "BLV PHAN MÃ, BLV PHAN TÔ",
             "is_live": false,
             "sport_slug": "cau-long"
           },
