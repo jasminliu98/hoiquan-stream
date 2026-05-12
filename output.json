@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 12/05/2026",
+  "updated_at": "16:15 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -893,77 +893,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-ffd7aba1bb",
-          "name": "Coco Gauff vs Mirra Andreeva | 00:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffd7aba1bb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ffd7aba1bb",
-                  "name": "Coco Gauff vs Mirra Andreeva",
-                  "streams": [
-                    {
-                      "id": "st-ffd7aba1bb",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96622ac3ba",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Coco Gauff",
-            "team_b": "Mirra Andreeva",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIsx7s7F33GJieSnSe9Nsoau1fbFqRr20Jg&s",
-            "time": "00:00 12/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Mirra Andreeva_00-00 12-05_ddc047e6_20260512.png?v=ddc047e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-5fedab8171",
           "name": "Lorenzo Musett vs Casper Ruud | 16:00 12/05",
           "type": "single",
@@ -1030,6 +959,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lorenzo Musett_Casper Ruud_16-00 12-05_395b4206_20260512.png?v=395b4206",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1015b447a6",
+          "name": "Coco Gauff vs Mirra Andreeva | 00:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1015b447a6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1015b447a6",
+                  "name": "Coco Gauff vs Mirra Andreeva",
+                  "streams": [
+                    {
+                      "id": "st-1015b447a6",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96622ac3ba",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Coco Gauff",
+            "team_b": "Mirra Andreeva",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIsx7s7F33GJieSnSe9Nsoau1fbFqRr20Jg&s",
+            "time": "00:00 13/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Mirra Andreeva_00-00 13-05_ddc047e6_20260512.png?v=ddc047e6",
             "width": 1600,
             "height": 1200
           }
