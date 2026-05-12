@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:20 12/05/2026",
+  "updated_at": "07:30 12/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -702,6 +702,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Osasuna_Atletico Madrid_02-30 13-05_e3f35483_20260512.png?v=e3f35483",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-be8451732c",
+          "name": "Cruzeiro vs Goias | 07:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be8451732c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-be8451732c",
+                  "name": "Cruzeiro vs Goias",
+                  "streams": [
+                    {
+                      "id": "st-be8451732c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa do Brasil",
+            "team_a": "Cruzeiro",
+            "team_b": "Goias",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdA4dVwq19DxdhyjbUAo3wM3GSIMHaPl3tLg&s",
+            "time": "07:30 13/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruzeiro_Goias_07-30 13-05_f1a5b58a_20260512.png?v=f1a5b58a",
             "width": 1600,
             "height": 1200
           }
