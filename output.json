@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:00 13/05/2026",
+  "updated_at": "02:30 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -932,6 +932,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lens_Paris Saint Germain_02-00 14-05_ce0d707c_20260513.png?v=ce0d707c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9fcb5435e3",
+          "name": "Alaves vs Barcelona | 02:30 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9fcb5435e3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9fcb5435e3",
+                  "name": "Alaves vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-9fcb5435e3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Barcelona",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Deportivo_Alaves_logo_%282020%29.svg/1280px-Deportivo_Alaves_logo_%282020%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
+            "time": "02:30 14/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alaves_Barcelona_02-30 14-05_2988e78c_20260513.png?v=2988e78c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bcb98a2766",
+          "name": "Getafe vs Mallorca | 02:30 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcb98a2766",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bcb98a2766",
+                  "name": "Getafe vs Mallorca",
+                  "streams": [
+                    {
+                      "id": "st-bcb98a2766",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Getafe",
+            "team_b": "Mallorca",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7f/Getafe_logo.png",
+            "logo_b": "https://vectorseek.com/wp-content/uploads/2023/08/Rcd-Mallorca-Logo-Vector.svg-.png",
+            "time": "02:30 14/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Getafe_Mallorca_02-30 14-05_35e0fa58_20260513.png?v=35e0fa58",
             "width": 1600,
             "height": 1200
           }
