@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:45 13/05/2026",
+  "updated_at": "16:30 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -861,86 +861,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Seattle Sounders_San Jose Earthquakes_08-30 14-05_5c960871_20260513.png?v=5c960871",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-45492cc3d7",
-          "name": "Dương Quốc Hoàng vs Hồ Sở Phát | 15:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45492cc3d7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-45492cc3d7",
-                  "name": "Dương Quốc Hoàng vs Hồ Sở Phát",
-                  "streams": [
-                    {
-                      "id": "st-45492cc3d7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c4db806a9",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Hồ Sở Phát",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1zSZgIqlfQ0EMfLiH0L0ymiNgdE2egbSLw&s",
-            "time": "15:00 13/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Hồ Sở Phát_15-00 13-05_33902481_20260513.png?v=33902481",
             "width": 1600,
             "height": 1200
           }
