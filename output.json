@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 13/05/2026",
+  "updated_at": "19:40 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-54add5b020",
-          "name": "Bucheon FC 1995 vs Jeonbuk Motors | 17:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54add5b020",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-54add5b020",
-                  "name": "Bucheon FC 1995 vs Jeonbuk Motors",
-                  "streams": [
-                    {
-                      "id": "st-54add5b020",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Bucheon FC 1995",
-            "team_b": "Jeonbuk Motors",
-            "logo_a": "https://media.api-sports.io/football/teams/2745.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2762.png",
-            "time": "17:30 13/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bucheon FC 1995_Jeonbuk Motors_17-30 13-05_c866ffe4_20260513.png?v=c866ffe4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-67422c3ee5",
           "name": "Buriram United vs Johor Darul Takzim FC | 19:00 13/05",
@@ -155,6 +84,183 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Johor Darul Takzim FC_19-00 13-05_bf842785_20260513.png?v=bf842785",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0706027d3a",
+          "name": "Dynamo Kyiv vs Kolos Kovalivka | 19:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0706027d3a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0706027d3a",
+                  "name": "Dynamo Kyiv vs Kolos Kovalivka",
+                  "streams": [
+                    {
+                      "id": "st-0706027d3a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1498791d5",
+                          "name": "BLV CỦ HÀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Dynamo Kyiv",
+            "team_b": "Kolos Kovalivka",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/df/FC_Dynamo_Kyiv_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/3627.png",
+            "time": "19:30 13/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dynamo Kyiv_Kolos Kovalivka_19-30 13-05_04a7d286_20260513.png?v=04a7d286",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cce69b1c76",
+          "name": "Shakhtar Donetsk vs Obolon'-Brovar | 22:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cce69b1c76",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cce69b1c76",
+                  "name": "Shakhtar Donetsk vs Obolon'-Brovar",
+                  "streams": [
+                    {
+                      "id": "st-cce69b1c76",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Shakhtar Donetsk",
+            "team_b": "Obolon'-Brovar",
+            "logo_a": "https://media.api-sports.io/football/teams/550.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3630.png",
+            "time": "22:00 13/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shakhtar Donetsk_Obolon'-Brovar_22-00 13-05_3741326d_20260513.png?v=3741326d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-fc274756d1",
+          "name": "Al Kuwait vs Svay Rieng | 23:45 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc274756d1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fc274756d1",
+                  "name": "Al Kuwait vs Svay Rieng",
+                  "streams": [
+                    {
+                      "id": "st-fc274756d1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Challenge League",
+            "team_a": "Al Kuwait",
+            "team_b": "Svay Rieng",
+            "logo_a": "https://media.api-sports.io/football/teams/3535.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Svay_Rieng_FC_logo.png/250px-Svay_Rieng_FC_logo.png",
+            "time": "23:45 13/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Kuwait_Svay Rieng_23-45 13-05_57f4a121_20260513.png?v=57f4a121",
             "width": 1600,
             "height": 1200
           }
