@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:10 13/05/2026",
+  "updated_at": "15:25 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -66,59 +66,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vissel Kobe_Kyoto Sanga_17-00 13-05_08ea4e5b_20260513.png?v=08ea4e5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0975c919bc",
-          "name": "Machida Zelvia vs Tokyo Verdy | 17:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0975c919bc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0975c919bc",
-                  "name": "Machida Zelvia vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-0975c919bc",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Machida Zelvia",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/FC_Machida_Zelvia_logo.svg/250px-FC_Machida_Zelvia_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/id/a/a0/Tokyo_Verdy_2020_logo.webp",
-            "time": "17:00 13/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Machida Zelvia_Tokyo Verdy_17-00 13-05_2ac0c994_20260513.png?v=2ac0c994",
             "width": 1600,
             "height": 1200
           }
