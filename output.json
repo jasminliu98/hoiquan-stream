@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:25 14/05/2026",
+  "updated_at": "04:35 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "hqlive-0aae71198b",
-          "name": "Coritiba vs Santos FC | 05:30 14/05",
+          "id": "hqlive-8571f10600",
+          "name": "FC Cincinnati vs Inter Miami | 06:30 14/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-0aae71198b",
+              "id": "src-8571f10600",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-0aae71198b",
-                  "name": "Coritiba vs Santos FC",
+                  "id": "ct-8571f10600",
+                  "name": "FC Cincinnati vs Inter Miami",
                   "streams": [
                     {
-                      "id": "st-0aae71198b",
+                      "id": "st-8571f10600",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-e44b9d8369",
-                          "name": "BLV PHAN TÔ",
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanto/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,59 +140,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Copa do Brasil",
-            "team_a": "Coritiba",
-            "team_b": "Santos FC",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/500px-Coritiba_Foot_Ball_Club_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/500px-Santos_Logo.png",
-            "time": "05:30 14/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coritiba_Santos FC_05-30 14-05_b61c73a7_20260514.png?v=b61c73a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8571f10600",
-          "name": "FC Cincinnati vs Inter Miami | 06:30 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8571f10600",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8571f10600",
-                  "name": "FC Cincinnati vs Inter Miami",
-                  "streams": [
-                    {
-                      "id": "st-8571f10600",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Major League Soccer",
             "team_a": "FC Cincinnati",
             "team_b": "Inter Miami",
@@ -200,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/9568.png",
             "time": "06:30 14/05",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
