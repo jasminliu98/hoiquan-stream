@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:25 13/05/2026",
+  "updated_at": "15:35 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -875,8 +875,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-e30facd2e5",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 14:00 13/05",
+          "id": "hqlive-45492cc3d7",
+          "name": "Dương Quốc Hoàng vs Hồ Sở Phát | 15:00 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -890,15 +890,15 @@
           ],
           "sources": [
             {
-              "id": "src-e30facd2e5",
+              "id": "src-45492cc3d7",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e30facd2e5",
-                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "id": "ct-45492cc3d7",
+                  "name": "Dương Quốc Hoàng vs Hồ Sở Phát",
                   "streams": [
                     {
-                      "id": "st-e30facd2e5",
+                      "id": "st-45492cc3d7",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -927,11 +927,11 @@
           ],
           "org_metadata": {
             "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Tay cơ 1",
-            "team_b": "Tay cơ 2",
-            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "time": "14:00 13/05",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Hồ Sở Phát",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1zSZgIqlfQ0EMfLiH0L0ymiNgdE2egbSLw&s",
+            "time": "15:00 13/05",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "billiards"
@@ -940,7 +940,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_14-00 13-05_97f1b445_20260513.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Hồ Sở Phát_15-00 13-05_33902481_20260513.png?v=33902481",
             "width": 1600,
             "height": 1200
           }
