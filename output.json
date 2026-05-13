@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:10 14/05/2026",
+  "updated_at": "04:15 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -747,6 +747,174 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Hoàng Minh Tài_16-00 14-05_48e2d111_20260514.png?v=48e2d111",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_cau-long",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-c81d69f013",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 09:10 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c81d69f013",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c81d69f013",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-c81d69f013",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "09:10 14/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_09-10 14-05_cacf1340_20260514.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e54887461a",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:10 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e54887461a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e54887461a",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-e54887461a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "13:10 14/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_13-10 14-05_cacf1340_20260514.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1df331e8b6",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 16:10 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1df331e8b6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1df331e8b6",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-1df331e8b6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "16:10 14/05",
+            "blv": "BLV PHAN TÔ, BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_16-10 14-05_cacf1340_20260514.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
