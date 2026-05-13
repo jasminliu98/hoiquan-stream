@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 14/05/2026",
+  "updated_at": "00:30 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1286,82 +1286,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-791b93e1dd",
-          "name": "Casper Ruud vs Karen Khachanov | 20:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-791b93e1dd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-791b93e1dd",
-                  "name": "Casper Ruud vs Karen Khachanov",
-                  "streams": [
-                    {
-                      "id": "st-791b93e1dd",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Casper Ruud",
-            "team_b": "Karen Khachanov",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkr-YKyKe98QG2NB0uOeSzwtaaYCqqj-TfNw&s",
-            "time": "20:00 13/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Casper Ruud_Karen Khachanov_20-00 13-05_137848e5_20260514.png?v=137848e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5c08d6f019",
           "name": "Elina Svitolina vs Elena Rybakina | 00:00 14/05",
