@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:35 13/05/2026",
+  "updated_at": "23:40 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -329,11 +329,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
+                          "id": "lnk-96622ac3ba",
+                          "name": "BLV PHAN BÁCH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -359,7 +359,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/70/Villarreal_CF_logo.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ae/Sevilla_FC_logo.png",
             "time": "00:00 14/05",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN BÁCH",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -792,59 +792,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sporting Kansas City_Los Angeles Galaxy_07-30 14-05_3f365908_20260513.png?v=3f365908",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b342fffc24",
-          "name": "Seattle Sounders vs San Jose Earthquakes | 08:30 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b342fffc24",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b342fffc24",
-                  "name": "Seattle Sounders vs San Jose Earthquakes",
-                  "streams": [
-                    {
-                      "id": "st-b342fffc24",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Major League Soccer",
-            "team_a": "Seattle Sounders",
-            "team_b": "San Jose Earthquakes",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/84/Seattle_Sounders_logo.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/1596.png",
-            "time": "08:30 14/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Seattle Sounders_San Jose Earthquakes_08-30 14-05_5c960871_20260513.png?v=5c960871",
             "width": 1600,
             "height": 1200
           }
@@ -1390,11 +1337,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-96622ac3ba",
-                          "name": "BLV PHAN BÁCH",
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1420,7 +1367,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
             "time": "00:00 14/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
           },
