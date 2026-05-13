@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:10 13/05/2026",
+  "updated_at": "19:25 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1354,8 +1354,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-6d6bebb5ef",
-          "name": "Jessica Pegula vs Iga Swiatek | 18:00 13/05",
+          "id": "hqlive-791b93e1dd",
+          "name": "Casper Ruud vs Karen Khachanov | 20:00 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1369,15 +1369,15 @@
           ],
           "sources": [
             {
-              "id": "src-6d6bebb5ef",
+              "id": "src-791b93e1dd",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-6d6bebb5ef",
-                  "name": "Jessica Pegula vs Iga Swiatek",
+                  "id": "ct-791b93e1dd",
+                  "name": "Casper Ruud vs Karen Khachanov",
                   "streams": [
                     {
-                      "id": "st-6d6bebb5ef",
+                      "id": "st-791b93e1dd",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1406,66 +1406,13 @@
           ],
           "org_metadata": {
             "league": "WTA 1000 Rome",
-            "team_a": "Jessica Pegula",
-            "team_b": "Iga Swiatek",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3ZMcLTxrcrE5sPJnk8sQRl4N_EJ5KLlBfg&s",
-            "logo_b": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
-            "time": "18:00 13/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jessica Pegula_Iga Swiatek_18-00 13-05_74e4c885_20260513.png?v=74e4c885",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-791b93e1dd",
-          "name": "Casper Ruud vs Karen Khachanov | 20:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-791b93e1dd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-791b93e1dd",
-                  "name": "Casper Ruud vs Karen Khachanov",
-                  "streams": [
-                    {
-                      "id": "st-791b93e1dd",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
             "team_a": "Casper Ruud",
             "team_b": "Karen Khachanov",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkr-YKyKe98QG2NB0uOeSzwtaaYCqqj-TfNw&s",
             "time": "20:00 13/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
