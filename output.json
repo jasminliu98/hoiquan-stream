@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 14/05/2026",
+  "updated_at": "01:00 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1004,6 +1004,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valencia_Rayo Vallecano_00-00 15-05_2af1a8d2_20260514.png?v=2af1a8d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3ec0da4a12",
+          "name": "Girona vs Real Sociedad | 01:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ec0da4a12",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3ec0da4a12",
+                  "name": "Girona vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-3ec0da4a12",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Girona",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://www.pngmart.com/files/22/Girona-FC-PNG-HD.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqksyaudrnPerqAK70Wf34Xo-WN_BSmSsQg&s",
+            "time": "01:00 15/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Girona_Real Sociedad_01-00 15-05_1f1507ac_20260514.png?v=1f1507ac",
             "width": 1600,
             "height": 1200
           }
