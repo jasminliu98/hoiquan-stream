@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:25 13/05/2026",
+  "updated_at": "22:55 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -861,6 +861,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brighton U21_Manchester United U21_22-00 14-05_090ab3ac_20260513.png?v=090ab3ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f426a3baaf",
+          "name": "Al-Fateh vs Al Najma | 22:55 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f426a3baaf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f426a3baaf",
+                  "name": "Al-Fateh vs Al Najma",
+                  "streams": [
+                    {
+                      "id": "st-f426a3baaf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al-Fateh",
+            "team_b": "Al Najma",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/ar/0/03/Al-Fateh_FC_logo.jpg?20210201090010",
+            "logo_b": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072018/untitled-1_137.png?E2WtqgYxrR8w9oLMbBZqwD84gHD890as&itok=iKU0Yn2w",
+            "time": "22:55 14/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Fateh_Al Najma_22-55 14-05_0036f967_20260513.png?v=0036f967",
             "width": 1600,
             "height": 1200
           }
