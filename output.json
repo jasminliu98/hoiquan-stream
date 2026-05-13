@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:30 13/05/2026",
+  "updated_at": "14:00 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -928,8 +928,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-719f37b4f2",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 10:00 13/05",
+          "id": "hqlive-e30facd2e5",
+          "name": "Tay cơ 1 vs Tay cơ 2 | 14:00 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -943,23 +943,23 @@
           ],
           "sources": [
             {
-              "id": "src-719f37b4f2",
+              "id": "src-e30facd2e5",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-719f37b4f2",
+                  "id": "ct-e30facd2e5",
                   "name": "Tay cơ 1 vs Tay cơ 2",
                   "streams": [
                     {
-                      "id": "st-719f37b4f2",
+                      "id": "st-e30facd2e5",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b8be718b2f",
-                          "name": "BLV PHAN ANH",
+                          "id": "lnk-6c4db806a9",
+                          "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -984,8 +984,8 @@
             "team_b": "Tay cơ 2",
             "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
             "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "time": "10:00 13/05",
-            "blv": "BLV PHAN ANH",
+            "time": "14:00 13/05",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "billiards"
           },
@@ -993,7 +993,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_10-00 13-05_97f1b445_20260513.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_14-00 13-05_97f1b445_20260513.png?v=97f1b445",
             "width": 1600,
             "height": 1200
           }
@@ -1002,7 +1002,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1074,6 +1074,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_09-50 13-05_cacf1340_20260513.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e8d20a33d0",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8d20a33d0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e8d20a33d0",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-e8d20a33d0",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf43005696",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": " https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "13:30 13/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": true,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_13-30 13-05_cacf1340_20260513.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
