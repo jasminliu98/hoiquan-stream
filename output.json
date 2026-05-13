@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:25 13/05/2026",
+  "updated_at": "19:35 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-0bd0579749",
-          "name": "Nam Dinh vs Selangor | 17:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bd0579749",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0bd0579749",
-                  "name": "Nam Dinh vs Selangor",
-                  "streams": [
-                    {
-                      "id": "st-0bd0579749",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Nam Dinh",
-            "team_b": "Selangor",
-            "logo_a": "https://media.api-sports.io/football/teams/3674.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/d/d7/Selangor_FC_logo.svg",
-            "time": "17:30 13/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nam Dinh_Selangor_17-30 13-05_3c8dcdf9_20260513.png?v=3c8dcdf9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-54add5b020",
           "name": "Bucheon FC 1995 vs Jeonbuk Motors | 17:30 13/05",
