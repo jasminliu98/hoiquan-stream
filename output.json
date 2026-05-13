@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:50 13/05/2026",
+  "updated_at": "21:30 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Johor Darul Takzim FC_19-00 13-05_bf842785_20260513.png?v=bf842785",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0706027d3a",
-          "name": "Dynamo Kyiv vs Kolos Kovalivka | 19:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0706027d3a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0706027d3a",
-                  "name": "Dynamo Kyiv vs Kolos Kovalivka",
-                  "streams": [
-                    {
-                      "id": "st-0706027d3a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Dynamo Kyiv",
-            "team_b": "Kolos Kovalivka",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/df/FC_Dynamo_Kyiv_logo.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/3627.png",
-            "time": "19:30 13/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dynamo Kyiv_Kolos Kovalivka_19-30 13-05_04a7d286_20260513.png?v=04a7d286",
             "width": 1600,
             "height": 1200
           }
@@ -950,86 +879,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Seattle Sounders_San Jose Earthquakes_08-30 14-05_5c960871_20260513.png?v=5c960871",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-b4d6dc63ac",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 14:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4d6dc63ac",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b4d6dc63ac",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-b4d6dc63ac",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e44b9d8369",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanto/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "14:30 13/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_14-30 13-05_cacf1340_20260513.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
