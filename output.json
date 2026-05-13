@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 13/05/2026",
+  "updated_at": "16:40 13/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -45,11 +45,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-e6e86d8c60",
+                          "id": "lnk-b3ac35be40",
                           "name": "BLV PHAN CHỚP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -195,6 +195,59 @@
           }
         },
         {
+          "id": "hqlive-67422c3ee5",
+          "name": "Buriram United vs Johor Darul Takzim FC | 19:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-67422c3ee5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-67422c3ee5",
+                  "name": "Buriram United vs Johor Darul Takzim FC",
+                  "streams": [
+                    {
+                      "id": "st-67422c3ee5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Buriram United",
+            "team_b": "Johor Darul Takzim FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Buriram_United_logo.svg/250px-Buriram_United_logo.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2523.png",
+            "time": "19:00 13/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Johor Darul Takzim FC_19-00 13-05_bf842785_20260513.png?v=bf842785",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-738f05c2f4",
           "name": "Vietnam U17 vs United Arab Emirates U17 | 00:00 14/05",
           "type": "single",
@@ -296,6 +349,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stade Brestois 29_Strasbourg_00-00 14-05_42993706_20260513.png?v=42993706",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2aff25624f",
+          "name": "Espanyol vs Athletic Club | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aff25624f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2aff25624f",
+                  "name": "Espanyol vs Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-2aff25624f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Espanyol",
+            "team_b": "Athletic Club",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/fd/Rcd_espanyol_de_barcelona.gif",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+            "time": "00:00 14/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Espanyol_Athletic Club_00-00 14-05_bc3c55e9_20260513.png?v=bc3c55e9",
             "width": 1600,
             "height": 1200
           }
@@ -985,11 +1091,82 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-1a45e21b3a",
+          "name": "Goyang Sono vs KCC Egis | 17:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a45e21b3a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1a45e21b3a",
+                  "name": "Goyang Sono vs KCC Egis",
+                  "streams": [
+                    {
+                      "id": "st-1a45e21b3a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KBL",
+            "team_a": "Goyang Sono",
+            "team_b": "KCC Egis",
+            "logo_a": "https://i.pinimg.com/474x/a2/15/26/a215265c058c137f372492e73f02beaf.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEFZhuqXE1ckKN_nKQg-3kz1LTeCN3GV-8kA&s",
+            "time": "17:00 13/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": true,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Goyang Sono_KCC Egis_17-00 13-05_01a13f27_20260513.png?v=01a13f27",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-dcd14c94b1",
           "name": "Zhejiang Guangsha vs Shanxi Zhongyu | 18:35 13/05",
