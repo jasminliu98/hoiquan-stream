@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:55 14/05/2026",
+  "updated_at": "02:00 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,219 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_United Arab Emirates U17_00-00 14-05_1433df63_20260514.png?v=1433df63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-134887abd3",
-          "name": "Stade Brestois 29 vs Strasbourg | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-134887abd3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-134887abd3",
-                  "name": "Stade Brestois 29 vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "st-134887abd3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Stade Brestois 29",
-            "team_b": "Strasbourg",
-            "logo_a": "https://media.api-sports.io/football/teams/106.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/80/Racing_Club_de_Strasbourg_logo.svg",
-            "time": "00:00 14/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stade Brestois 29_Strasbourg_00-00 14-05_42993706_20260514.png?v=42993706",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2aff25624f",
-          "name": "Espanyol vs Athletic Club | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2aff25624f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2aff25624f",
-                  "name": "Espanyol vs Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-2aff25624f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f1d53f75",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Espanyol",
-            "team_b": "Athletic Club",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/fd/Rcd_espanyol_de_barcelona.gif",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
-            "time": "00:00 14/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Espanyol_Athletic Club_00-00 14-05_bc3c55e9_20260514.png?v=bc3c55e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e53cccc427",
-          "name": "Villarreal vs Sevilla | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e53cccc427",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e53cccc427",
-                  "name": "Villarreal vs Sevilla",
-                  "streams": [
-                    {
-                      "id": "st-e53cccc427",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96622ac3ba",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Villarreal",
-            "team_b": "Sevilla",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/70/Villarreal_CF_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ae/Sevilla_FC_logo.png",
-            "time": "00:00 14/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Villarreal_Sevilla_00-00 14-05_06410893_20260514.png?v=06410893",
             "width": 1600,
             "height": 1200
           }
@@ -522,10 +309,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -540,7 +327,25 @@
                     {
                       "id": "st-9fcb5435e3",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -555,7 +360,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
             "time": "02:30 14/05",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
