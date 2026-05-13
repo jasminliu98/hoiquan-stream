@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:10 14/05/2026",
+  "updated_at": "01:25 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -624,7 +624,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7f/Getafe_logo.png",
             "logo_b": "https://vectorseek.com/wp-content/uploads/2023/08/Rcd-Mallorca-Logo-Vector.svg-.png",
             "time": "02:30 14/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN MÃO",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1185,59 +1185,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-871cbc5332",
-          "name": "Valencia vs Panathinaikos | 02:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-871cbc5332",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-871cbc5332",
-                  "name": "Valencia vs Panathinaikos",
-                  "streams": [
-                    {
-                      "id": "st-871cbc5332",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EUROLEAGUE",
-            "team_a": "Valencia",
-            "team_b": "Panathinaikos",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFmsOtyB-0xo9H7fm.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/18/Panathinaikos_BC_logo.svg",
-            "time": "02:00 14/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valencia_Panathinaikos_02-00 14-05_ac938d7b_20260514.png?v=ac938d7b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-56e1181dd5",
           "name": "Detroit Pistons vs Cleveland Cavaliers | 07:00 14/05",
