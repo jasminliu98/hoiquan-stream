@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:30 15/05/2026",
+  "updated_at": "03:35 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -896,6 +896,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aston Villa_Liverpool_02-00 16-05_6bd17db0_20260515.png?v=6bd17db0",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-0e7ed4aaaa",
+          "name": "Dương Quốc Hoàng vs Đặng Thành Kiên | 10:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e7ed4aaaa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0e7ed4aaaa",
+                  "name": "Dương Quốc Hoàng vs Đặng Thành Kiên",
+                  "streams": [
+                    {
+                      "id": "st-0e7ed4aaaa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Đặng Thành Kiên",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://images2.thanhnien.vn/thumb_w/686/528068263637045248/2023/10/6/dang-thanh-kien-16965586555031790105222-0-316-1556-1483-crop-169655877159198258650.jpg",
+            "time": "10:00 15/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Đặng Thành Kiên_10-00 15-05_829af5cb_20260515.png?v=829af5cb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c52daedf8e",
+          "name": "Dương Quốc Hoàng vs An Nhiệt | 16:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c52daedf8e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c52daedf8e",
+                  "name": "Dương Quốc Hoàng vs An Nhiệt",
+                  "streams": [
+                    {
+                      "id": "st-c52daedf8e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "An Nhiệt",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiEGlLvfuGVQzXYjGmEvaIDMPw32ghlZmlvg&s",
+            "time": "16:00 15/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_An Nhiệt_16-00 15-05_9b56b913_20260515.png?v=9b56b913",
             "width": 1600,
             "height": 1200
           }
