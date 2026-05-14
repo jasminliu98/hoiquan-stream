@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:40 14/05/2026",
+  "updated_at": "21:50 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Copenhagen_FC Midtjylland_22-00 14-05_8770ab3c_20260514.png?v=8770ab3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e6ada08725",
-          "name": "Brighton U21 vs Manchester United U21 | 22:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6ada08725",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e6ada08725",
-                  "name": "Brighton U21 vs Manchester United U21",
-                  "streams": [
-                    {
-                      "id": "st-e6ada08725",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League 2 Division One",
-            "team_a": "Brighton U21",
-            "team_b": "Manchester United U21",
-            "logo_a": "https://media.api-sports.io/football/teams/7191.png",
-            "logo_b": "https://media.api-sports.io/football/teams/7198.png",
-            "time": "22:00 14/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brighton U21_Manchester United U21_22-00 14-05_090ab3ac_20260514.png?v=090ab3ac",
             "width": 1600,
             "height": 1200
           }
