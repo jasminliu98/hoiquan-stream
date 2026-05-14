@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:05 15/05/2026",
+  "updated_at": "02:00 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -897,6 +897,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Saudi Arabia U17_China PR U17_00-00 16-05_eafe8b49_20260515.png?v=eafe8b49",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4c7253d89f",
+          "name": "Aston Villa vs Liverpool | 02:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c7253d89f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4c7253d89f",
+                  "name": "Aston Villa vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-4c7253d89f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Liverpool",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
+            "time": "02:00 16/05",
+            "blv": "BLV PHAN MÃ, BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aston Villa_Liverpool_02-00 16-05_6bd17db0_20260515.png?v=6bd17db0",
             "width": 1600,
             "height": 1200
           }
