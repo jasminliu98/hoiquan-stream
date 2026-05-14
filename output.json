@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:15 14/05/2026",
+  "updated_at": "11:10 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-700e794af6",
-          "name": "Sporting Kansas City vs Los Angeles Galaxy | 07:30 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-700e794af6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-700e794af6",
-                  "name": "Sporting Kansas City vs Los Angeles Galaxy",
-                  "streams": [
-                    {
-                      "id": "st-700e794af6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8be718b2f",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Major League Soccer",
-            "team_a": "Sporting Kansas City",
-            "team_b": "Los Angeles Galaxy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sporting_Kansas_City_logo.svg/250px-Sporting_Kansas_City_logo.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1605.png",
-            "time": "07:30 14/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sporting Kansas City_Los Angeles Galaxy_07-30 14-05_3f365908_20260514.png?v=3f365908",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1468577a20",
           "name": "FC Copenhagen vs FC Midtjylland | 22:00 14/05",
