@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 14/05/2026",
+  "updated_at": "21:40 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1047,82 +1047,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-2a4c7b9583",
-          "name": "Sorana Cirstea vs Coco Gauff | 20:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a4c7b9583",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2a4c7b9583",
-                  "name": "Sorana Cirstea vs Coco Gauff",
-                  "streams": [
-                    {
-                      "id": "st-2a4c7b9583",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96622ac3ba",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
-            "team_a": "Sorana Cirstea",
-            "team_b": "Coco Gauff",
-            "logo_a": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/9/1/57540687cf794faab2743ccaa88e058f",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
-            "time": "20:00 14/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sorana Cirstea_Coco Gauff_20-00 14-05_82bb0701_20260514.png?v=82bb0701",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-140454b9d0",
           "name": "Martin Landaluce vs Daniil Medvedev | 00:00 15/05",
