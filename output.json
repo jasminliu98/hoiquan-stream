@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:40 14/05/2026",
+  "updated_at": "07:00 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -526,6 +526,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Madrid_Oviedo_02-30 15-05_5584e1d3_20260514.png?v=5584e1d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-af940ba897",
+          "name": "vitoria vs Flamengo | 07:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af940ba897",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-af940ba897",
+                  "name": "vitoria vs Flamengo",
+                  "streams": [
+                    {
+                      "id": "st-af940ba897",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa do Brasil",
+            "team_a": "vitoria",
+            "team_b": "Flamengo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Vit%C3%B3ria_Guimar%C3%A3es.svg/250px-Vit%C3%B3ria_Guimar%C3%A3es.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
+            "time": "07:00 15/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/vitoria_Flamengo_07-00 15-05_08c58884_20260514.png?v=08c58884",
             "width": 1600,
             "height": 1200
           }
