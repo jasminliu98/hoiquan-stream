@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:15 14/05/2026",
+  "updated_at": "15:30 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -437,6 +437,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CF Pachuca_U.N.A.M. - Pumas_08-00 15-05_846d9ba1_20260514.png?v=846d9ba1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5f77f1ea40",
+          "name": "Semen Padang vs Persebaya Surabaya | 15:30 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f77f1ea40",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5f77f1ea40",
+                  "name": "Semen Padang vs Persebaya Surabaya",
+                  "streams": [
+                    {
+                      "id": "st-5f77f1ea40",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Semen Padang",
+            "team_b": "Persebaya Surabaya",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/min/1/1e/Semen_Padang_FC.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuTyY0tUDghwoKecafyCjgfqvW_fzYBPga7A&s",
+            "time": "15:30 15/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Semen Padang_Persebaya Surabaya_15-30 15-05_68f0e13e_20260514.png?v=68f0e13e",
             "width": 1600,
             "height": 1200
           }
