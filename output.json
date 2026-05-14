@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:05 14/05/2026",
+  "updated_at": "17:10 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -610,8 +610,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-ab0c5030a7",
-          "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Minh Tài | 17:30 14/05",
+          "id": "hqlive-21a6820cb5",
+          "name": "Tay cơ 1 vs Tay cơ 2 | 17:30 14/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -625,15 +625,15 @@
           ],
           "sources": [
             {
-              "id": "src-ab0c5030a7",
+              "id": "src-21a6820cb5",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-ab0c5030a7",
-                  "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Minh Tài",
+                  "id": "ct-21a6820cb5",
+                  "name": "Tay cơ 1 vs Tay cơ 2",
                   "streams": [
                     {
-                      "id": "st-ab0c5030a7",
+                      "id": "st-21a6820cb5",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -662,10 +662,10 @@
           ],
           "org_metadata": {
             "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Nguyễn Hoàng Minh Tài",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjWtvB3bJrZbNpsv_SKDjyL0uy4ScDeuqyw&s",
+            "team_a": "Tay cơ 1",
+            "team_b": "Tay cơ 2",
+            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
             "time": "17:30 14/05",
             "blv": "BLV PHAN ANH",
             "is_live": true,
@@ -675,7 +675,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Hoàng Minh Tài_17-30 14-05_48e2d111_20260514.png?v=48e2d111",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_17-30 14-05_97f1b445_20260514.png?v=97f1b445",
             "width": 1600,
             "height": 1200
           }
