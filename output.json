@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:00 14/05/2026",
+  "updated_at": "18:35 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -649,6 +649,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ho Chi Minh_Da Nang_18-00 15-05_0f50605b_20260514.png?v=0f50605b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c79f07e265",
+          "name": "SHANGHAI SIPG vs Hangzhou Greentown | 18:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c79f07e265",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c79f07e265",
+                  "name": "SHANGHAI SIPG vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-c79f07e265",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "SHANGHAI SIPG",
+            "team_b": "Hangzhou Greentown",
+            "logo_a": "https://media.api-sports.io/football/teams/836.png",
+            "logo_b": "https://media.api-sports.io/football/teams/848.png",
+            "time": "18:35 15/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SHANGHAI SIPG_Hangzhou Greentown_18-35 15-05_f74b6d0e_20260514.png?v=f74b6d0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4d0d483010",
+          "name": "Tianjin Teda vs Chengdu Better City | 18:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d0d483010",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4d0d483010",
+                  "name": "Tianjin Teda vs Chengdu Better City",
+                  "streams": [
+                    {
+                      "id": "st-4d0d483010",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Tianjin Teda",
+            "team_b": "Chengdu Better City",
+            "logo_a": "https://media.api-sports.io/football/teams/837.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5648.png",
+            "time": "18:35 15/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Chengdu Better City_18-35 15-05_37d5bb73_20260514.png?v=37d5bb73",
             "width": 1600,
             "height": 1200
           }
