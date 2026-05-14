@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:50 14/05/2026",
+  "updated_at": "22:00 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1021,7 +1021,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWoU78UyOZ3nheNtsR3T3_ysPhFCrIIgmNqg&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
             "time": "00:00 15/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "tennis"
           },
