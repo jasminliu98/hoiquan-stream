@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:30 14/05/2026",
+  "updated_at": "16:35 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Penang_DPMM FC Brunei_16-00 15-05_164ff615_20260514.png?v=164ff615",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1678e5fb30",
+          "name": "Adelaide United vs Auckland | 16:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1678e5fb30",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1678e5fb30",
+                  "name": "Adelaide United vs Auckland",
+                  "streams": [
+                    {
+                      "id": "st-1678e5fb30",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League",
+            "team_a": "Adelaide United",
+            "team_b": "Auckland",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3zrZ0HFvG9-HWKYsCOLXgZJ1y7d2zLCzmQ&s",
+            "logo_b": "https://media.api-sports.io/football/teams/24608.png",
+            "time": "16:35 15/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Adelaide United_Auckland_16-35 15-05_45dd9ad3_20260514.png?v=45dd9ad3",
             "width": 1600,
             "height": 1200
           }
