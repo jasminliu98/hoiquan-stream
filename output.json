@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:45 14/05/2026",
+  "updated_at": "16:00 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -493,61 +493,34 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "hqlive-7e26f077ad",
-          "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Phong | 10:00 14/05",
+          "id": "hqlive-da8f05b20a",
+          "name": "Penang vs DPMM FC Brunei | 16:00 15/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-7e26f077ad",
+              "id": "src-da8f05b20a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-7e26f077ad",
-                  "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Phong",
+                  "id": "ct-da8f05b20a",
+                  "name": "Penang vs DPMM FC Brunei",
                   "streams": [
                     {
-                      "id": "st-7e26f077ad",
+                      "id": "st-da8f05b20a",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -555,70 +528,61 @@
             }
           ],
           "org_metadata": {
-            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Nguyễn Hoàng Phong",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRueNBJyri4RqUm04Jk0mMXudaW3vPOeag6vg&s",
-            "time": "10:00 14/05",
+            "league": "Super League",
+            "team_a": "Penang",
+            "team_b": "DPMM FC Brunei",
+            "logo_a": "https://media.api-sports.io/football/teams/2504.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4202.png",
+            "time": "16:00 15/05",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "billiards"
+            "is_live": false,
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Hoàng Phong_10-00 14-05_b1b914b4_20260514.png?v=b1b914b4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Penang_DPMM FC Brunei_16-00 15-05_164ff615_20260514.png?v=164ff615",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "sport_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
-          "id": "hqlive-56e84bc5b6",
-          "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Minh Tài | 16:00 14/05",
+          "id": "hqlive-454c5a2ba1",
+          "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Minh Tài | 17:00 14/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-56e84bc5b6",
+              "id": "src-454c5a2ba1",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-56e84bc5b6",
+                  "id": "ct-454c5a2ba1",
                   "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Minh Tài",
                   "streams": [
                     {
-                      "id": "st-56e84bc5b6",
+                      "id": "st-454c5a2ba1",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8be718b2f",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -631,16 +595,16 @@
             "team_b": "Nguyễn Hoàng Minh Tài",
             "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjWtvB3bJrZbNpsv_SKDjyL0uy4ScDeuqyw&s",
-            "time": "16:00 14/05",
+            "time": "17:00 14/05",
             "blv": "BLV PHAN ANH",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Hoàng Minh Tài_16-00 14-05_48e2d111_20260514.png?v=48e2d111",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Hoàng Minh Tài_17-00 14-05_48e2d111_20260514.png?v=48e2d111",
             "width": 1600,
             "height": 1200
           }
