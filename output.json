@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:35 14/05/2026",
+  "updated_at": "10:15 14/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -835,82 +835,11 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-56e1181dd5",
-          "name": "Detroit Pistons vs Cleveland Cavaliers | 07:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56e1181dd5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-56e1181dd5",
-                  "name": "Detroit Pistons vs Cleveland Cavaliers",
-                  "streams": [
-                    {
-                      "id": "st-56e1181dd5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4d653008a",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Detroit Pistons",
-            "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
-            "time": "07:00 14/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Detroit Pistons_Cleveland Cavaliers_07-00 14-05_def91400_20260514.png?v=def91400",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-508396ef40",
           "name": "Shanghai vs Beijing | 18:35 15/05",
