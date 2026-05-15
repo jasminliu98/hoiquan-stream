@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:25 16/05/2026",
+  "updated_at": "02:30 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1214,6 +1214,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Nassr_Gamba Osaka_00-45 17-05_c4ba15f2_20260516.png?v=c4ba15f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b325d3e746",
+          "name": "Estoril vs Benfica | 02:30 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b325d3e746",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b325d3e746",
+                  "name": "Estoril vs Benfica",
+                  "streams": [
+                    {
+                      "id": "st-b325d3e746",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Estoril",
+            "team_b": "Benfica",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/de/thumb/1/14/GD_Estoril_Praia.svg/500px-GD_Estoril_Praia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ad/SL_Benfica_logo.png",
+            "time": "02:30 17/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estoril_Benfica_02-30 17-05_1d2c0c52_20260516.png?v=1d2c0c52",
             "width": 1600,
             "height": 1200
           }
