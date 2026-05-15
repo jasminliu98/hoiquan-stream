@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 16/05/2026",
+  "updated_at": "00:45 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1339,6 +1339,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U17_Australia U17_00-00 17-05_83c97708_20260516.png?v=83c97708",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7128d060bf",
+          "name": "Al-Nassr vs Gamba Osaka | 00:45 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7128d060bf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7128d060bf",
+                  "name": "Al-Nassr vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-7128d060bf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Al-Nassr",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://media.api-sports.io/football/teams/2939.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gamba_Osaka_logo_2021.png",
+            "time": "00:45 17/05",
+            "blv": "BLV PHAN CHỚP, BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Nassr_Gamba Osaka_00-45 17-05_c4ba15f2_20260516.png?v=c4ba15f2",
             "width": 1600,
             "height": 1200
           }
