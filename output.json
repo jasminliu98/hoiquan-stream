@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:05 15/05/2026",
+  "updated_at": "15:10 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1312,7 +1312,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1460,32 +1460,50 @@
           }
         },
         {
-          "id": "hqlive-b32dd3b17c",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 16:00 15/05",
+          "id": "hqlive-f3d9083ee0",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:30 15/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-b32dd3b17c",
+              "id": "src-f3d9083ee0",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b32dd3b17c",
+                  "id": "ct-f3d9083ee0",
                   "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
                   "streams": [
                     {
-                      "id": "st-b32dd3b17c",
+                      "id": "st-f3d9083ee0",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1498,16 +1516,16 @@
             "team_b": "Tay Vợt Số 2",
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "16:00 15/05",
+            "time": "15:30 15/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_16-00 15-05_cacf1340_20260515.png?v=cacf1340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-30 15-05_cacf1340_20260515.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
