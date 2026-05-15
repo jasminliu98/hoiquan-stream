@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:10 15/05/2026",
+  "updated_at": "15:25 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -84,59 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Semen Padang_Persebaya Surabaya_15-30 15-05_68f0e13e_20260515.png?v=68f0e13e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-da8f05b20a",
-          "name": "Penang vs DPMM FC Brunei | 16:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da8f05b20a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-da8f05b20a",
-                  "name": "Penang vs DPMM FC Brunei",
-                  "streams": [
-                    {
-                      "id": "st-da8f05b20a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Penang",
-            "team_b": "DPMM FC Brunei",
-            "logo_a": "https://media.api-sports.io/football/teams/2504.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4202.png",
-            "time": "16:00 15/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Penang_DPMM FC Brunei_16-00 15-05_164ff615_20260515.png?v=164ff615",
             "width": 1600,
             "height": 1200
           }
@@ -1312,82 +1259,11 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (3 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-e1dae28569",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 12:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1dae28569",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e1dae28569",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-e1dae28569",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "12:00 15/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_12-00 15-05_cacf1340_20260515.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-0799076891",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:00 15/05",
@@ -1800,7 +1676,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDGQXe_IjGY4p-iXL4uyR39lZTZEydPDO6A&s",
             "time": "20:00 16/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "tennis"
           },
