@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:50 15/05/2026",
+  "updated_at": "16:00 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -402,59 +402,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Tajikistan U17_23-00 15-05_d99989fc_20260515.png?v=d99989fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-3a9a1cd4d9",
-          "name": "Damac vs Al-Fayha | 23:15 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a9a1cd4d9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3a9a1cd4d9",
-                  "name": "Damac vs Al-Fayha",
-                  "streams": [
-                    {
-                      "id": "st-3a9a1cd4d9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Pro League",
-            "team_a": "Damac",
-            "team_b": "Al-Fayha",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7a/Damac_F.C._logo.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2944.png",
-            "time": "23:15 15/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Damac_Al-Fayha_23-15 15-05_3d2096a3_20260515.png?v=3d2096a3",
             "width": 1600,
             "height": 1200
           }
