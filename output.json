@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:55 15/05/2026",
+  "updated_at": "21:00 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1020,6 +1020,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC St. Pauli_VfL Wolfsburg_20-30 16-05_e45af923_20260515.png?v=e45af923",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-405f70d68e",
+          "name": "Chelsea vs Manchester City | 21:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-405f70d68e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-405f70d68e",
+                  "name": "Chelsea vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-405f70d68e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Chelsea",
+            "team_b": "Manchester City",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
+            "time": "21:00 16/05",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV THIÊN LÔI",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chelsea_Manchester City_21-00 16-05_577b227c_20260515.png?v=577b227c",
             "width": 1600,
             "height": 1200
           }
