@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:10 15/05/2026",
+  "updated_at": "14:00 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -755,6 +755,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mito Hollyhock_Tokyo Verdy_12-00 16-05_4cff99b8_20260515.png?v=4cff99b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5f45c66f8a",
+          "name": "Urawa vs FC Tokyo | 14:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f45c66f8a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5f45c66f8a",
+                  "name": "Urawa vs FC Tokyo",
+                  "streams": [
+                    {
+                      "id": "st-5f45c66f8a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Urawa",
+            "team_b": "FC Tokyo",
+            "logo_a": "https://media.api-sports.io/football/teams/287.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/15/FC_Tokyo_Logo.svg",
+            "time": "14:00 16/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Urawa_FC Tokyo_14-00 16-05_2ee83546_20260515.png?v=2ee83546",
             "width": 1600,
             "height": 1200
           }
