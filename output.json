@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:00 15/05/2026",
+  "updated_at": "17:30 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5f77f1ea40",
-          "name": "Semen Padang vs Persebaya Surabaya | 15:30 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f77f1ea40",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5f77f1ea40",
-                  "name": "Semen Padang vs Persebaya Surabaya",
-                  "streams": [
-                    {
-                      "id": "st-5f77f1ea40",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Semen Padang",
-            "team_b": "Persebaya Surabaya",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/min/1/1e/Semen_Padang_FC.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuTyY0tUDghwoKecafyCjgfqvW_fzYBPga7A&s",
-            "time": "15:30 15/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Semen Padang_Persebaya Surabaya_15-30 15-05_68f0e13e_20260515.png?v=68f0e13e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1678e5fb30",
           "name": "Adelaide United vs Auckland | 16:35 15/05",
@@ -155,6 +84,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Adelaide United_Auckland_16-35 15-05_45dd9ad3_20260515.png?v=45dd9ad3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4d0d483010",
+          "name": "Tianjin Teda vs Chengdu Better City | 18:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d0d483010",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4d0d483010",
+                  "name": "Tianjin Teda vs Chengdu Better City",
+                  "streams": [
+                    {
+                      "id": "st-4d0d483010",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1498791d5",
+                          "name": "BLV CỦ HÀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Tianjin Teda",
+            "team_b": "Chengdu Better City",
+            "logo_a": "https://media.api-sports.io/football/teams/837.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5648.png",
+            "time": "18:35 15/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Chengdu Better City_18-35 15-05_37d5bb73_20260515.png?v=37d5bb73",
             "width": 1600,
             "height": 1200
           }
@@ -261,59 +261,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SHANGHAI SIPG_Hangzhou Greentown_18-35 15-05_f74b6d0e_20260515.png?v=f74b6d0e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4d0d483010",
-          "name": "Tianjin Teda vs Chengdu Better City | 18:35 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d0d483010",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4d0d483010",
-                  "name": "Tianjin Teda vs Chengdu Better City",
-                  "streams": [
-                    {
-                      "id": "st-4d0d483010",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Tianjin Teda",
-            "team_b": "Chengdu Better City",
-            "logo_a": "https://media.api-sports.io/football/teams/837.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5648.png",
-            "time": "18:35 15/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Chengdu Better City_18-35 15-05_37d5bb73_20260515.png?v=37d5bb73",
             "width": 1600,
             "height": 1200
           }
