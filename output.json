@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:00 15/05/2026",
+  "updated_at": "20:20 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -279,59 +279,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Tajikistan U17_23-00 15-05_d99989fc_20260515.png?v=d99989fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-276e17f1f3",
-          "name": "FC Minsk vs Belshina | 23:45 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-276e17f1f3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-276e17f1f3",
-                  "name": "FC Minsk vs Belshina",
-                  "streams": [
-                    {
-                      "id": "st-276e17f1f3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "FC Minsk",
-            "team_b": "Belshina",
-            "logo_a": "https://media.api-sports.io/football/teams/380.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3384.png",
-            "time": "23:45 15/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Minsk_Belshina_23-45 15-05_7776dd84_20260515.png?v=7776dd84",
             "width": 1600,
             "height": 1200
           }
