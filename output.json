@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 15/05/2026",
+  "updated_at": "16:40 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -844,6 +844,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yokohama F. Marinos_Kashiwa Reysol_15-00 16-05_469a857f_20260515.png?v=469a857f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1e66bbbe2b",
+          "name": "Newcastle Jets vs Sydney | 16:40 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e66bbbe2b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1e66bbbe2b",
+                  "name": "Newcastle Jets vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-1e66bbbe2b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League",
+            "team_a": "Newcastle Jets",
+            "team_b": "Sydney",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Newcastle_United_Jets_Logo.svg/960px-Newcastle_United_Jets_Logo.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/943.png",
+            "time": "16:40 16/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Newcastle Jets_Sydney_16-40 16-05_e96aa969_20260515.png?v=e96aa969",
             "width": 1600,
             "height": 1200
           }
