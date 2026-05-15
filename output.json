@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:45 15/05/2026",
+  "updated_at": "17:00 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -897,6 +897,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Newcastle Jets_Sydney_16-40 16-05_e96aa969_20260515.png?v=e96aa969",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d0e4886db0",
+          "name": "Incheon United vs Gwangju FC | 17:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0e4886db0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d0e4886db0",
+                  "name": "Incheon United vs Gwangju FC",
+                  "streams": [
+                    {
+                      "id": "st-d0e4886db0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Incheon United",
+            "team_b": "Gwangju FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Emblem_of_Incheon_United.svg/960px-Emblem_of_Incheon_United.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/65/Gwangju_FC.svg",
+            "time": "17:00 16/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Incheon United_Gwangju FC_17-00 16-05_3189fb14_20260515.png?v=3189fb14",
             "width": 1600,
             "height": 1200
           }
