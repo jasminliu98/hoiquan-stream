@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:20 15/05/2026",
+  "updated_at": "20:30 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -915,6 +915,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wuhan Three Towns_Shenyang Urban_18-00 16-05_b0ed64e0_20260515.png?v=b0ed64e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cbb9a9aa0a",
+          "name": "Bayer Leverkusen vs Hamburger SV | 20:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbb9a9aa0a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cbb9a9aa0a",
+                  "name": "Bayer Leverkusen vs Hamburger SV",
+                  "streams": [
+                    {
+                      "id": "st-cbb9a9aa0a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Bayer Leverkusen",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/0e/Bayer_04_Leverkusen_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hamburger_SV_logo.svg/1280px-Hamburger_SV_logo.svg.png",
+            "time": "20:30 16/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bayer Leverkusen_Hamburger SV_20-30 16-05_6c93b52e_20260515.png?v=6c93b52e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0e1d3ac594",
+          "name": "Bayern München vs 1. FC Köln | 20:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e1d3ac594",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0e1d3ac594",
+                  "name": "Bayern München vs 1. FC Köln",
+                  "streams": [
+                    {
+                      "id": "st-0e1d3ac594",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Bayern München",
+            "team_b": "1. FC Köln",
+            "logo_a": "https://media.api-sports.io/football/teams/157.png",
+            "logo_b": "https://media.api-sports.io/football/teams/192.png",
+            "time": "20:30 16/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bayern München_1. FC Köln_20-30 16-05_3f052151_20260515.png?v=3f052151",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-fa7966aa26",
+          "name": "Eintracht Frankfurt vs VfB Stuttgart | 20:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa7966aa26",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fa7966aa26",
+                  "name": "Eintracht Frankfurt vs VfB Stuttgart",
+                  "streams": [
+                    {
+                      "id": "st-fa7966aa26",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Eintracht Frankfurt",
+            "team_b": "VfB Stuttgart",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/7e/Eintracht_Frankfurt_crest.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
+            "time": "20:30 16/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Eintracht Frankfurt_VfB Stuttgart_20-30 16-05_7b0f1361_20260515.png?v=7b0f1361",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e5f959a75d",
+          "name": "SC Freiburg vs RB Leipzig | 20:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5f959a75d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e5f959a75d",
+                  "name": "SC Freiburg vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-e5f959a75d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SC Freiburg",
+            "team_b": "RB Leipzig",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/3/3c/SC_Freiburg.jpg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d6/VEREINFACHTES_LOGO_-_RB_Leipzig.svg",
+            "time": "20:30 16/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SC Freiburg_RB Leipzig_20-30 16-05_d79c9f8c_20260515.png?v=d79c9f8c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7caffc07ec",
+          "name": "Werder Bremen vs Borussia Dortmund | 20:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7caffc07ec",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7caffc07ec",
+                  "name": "Werder Bremen vs Borussia Dortmund",
+                  "streams": [
+                    {
+                      "id": "st-7caffc07ec",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Werder Bremen",
+            "team_b": "Borussia Dortmund",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/960px-SV-Werder-Bremen-Logo.svg.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/FZnTSH2rbHFos4BnlWAItw_96x96.png",
+            "time": "20:30 16/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Werder Bremen_Borussia Dortmund_20-30 16-05_f679afee_20260515.png?v=f679afee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e58a9febff",
+          "name": "FC St. Pauli vs VfL Wolfsburg | 20:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e58a9febff",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e58a9febff",
+                  "name": "FC St. Pauli vs VfL Wolfsburg",
+                  "streams": [
+                    {
+                      "id": "st-e58a9febff",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC St. Pauli",
+            "team_b": "VfL Wolfsburg",
+            "logo_a": "https://media.api-sports.io/football/teams/186.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/VfL_Wolfsburg_Logo.svg/1280px-VfL_Wolfsburg_Logo.svg.png",
+            "time": "20:30 16/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC St. Pauli_VfL Wolfsburg_20-30 16-05_e45af923_20260515.png?v=e45af923",
             "width": 1600,
             "height": 1200
           }
