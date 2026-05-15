@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:40 16/05/2026",
+  "updated_at": "01:45 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1471,121 +1471,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phạm Phương Nam_Đỗ Thế Kiên_16-00 16-05_6cfe8ea1_20260516.png?v=6cfe8ea1",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_esports",
-      "name": "🎮 Esports",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-bbd11f689a",
-          "name": "BRO vs T1 | 15:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbd11f689a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bbd11f689a",
-                  "name": "BRO vs T1",
-                  "streams": [
-                    {
-                      "id": "st-bbd11f689a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK ",
-            "team_a": "BRO",
-            "team_b": "T1",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5XHQq2Yj8g5myZk0CoWLjBNVsfHEWwaboQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/1280px-T1_esports_logo.svg.png",
-            "time": "15:00 16/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/BRO_T1_15-00 16-05_f43dc111_20260516.png?v=f43dc111",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d3ab986f7c",
-          "name": "BFX⁠ vs NS | 17:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3ab986f7c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d3ab986f7c",
-                  "name": "BFX⁠ vs NS",
-                  "streams": [
-                    {
-                      "id": "st-d3ab986f7c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK ",
-            "team_a": "BFX⁠",
-            "team_b": "NS",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU_x67aZBBScS0mB46Lt62THU6TmAGeBhx8w&s",
-            "logo_b": "https://pbs.twimg.com/media/Epa94XrU0AIoHdE?format=jpg&name=large",
-            "time": "17:00 16/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/BFX⁠_NS_17-00 16-05_ed861e2a_20260516.png?v=ed861e2a",
             "width": 1600,
             "height": 1200
           }
