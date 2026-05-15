@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:40 15/05/2026",
+  "updated_at": "18:00 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -915,6 +915,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Incheon United_Gwangju FC_17-00 16-05_3189fb14_20260515.png?v=3189fb14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4af04f5d24",
+          "name": "Hai Phong vs Binh Duong | 18:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4af04f5d24",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4af04f5d24",
+                  "name": "Hai Phong vs Binh Duong",
+                  "streams": [
+                    {
+                      "id": "st-4af04f5d24",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hai Phong",
+            "team_b": "Binh Duong",
+            "logo_a": "https://vpf.vn/wp-content/uploads/2018/10/haiphongfc.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/LOGO_BFC.png/960px-LOGO_BFC.png",
+            "time": "18:00 16/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hai Phong_Binh Duong_18-00 16-05_0f105765_20260515.png?v=0f105765",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-46a4a52a1b",
+          "name": "Song Lam Nghe An vs Phu Dong | 18:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46a4a52a1b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-46a4a52a1b",
+                  "name": "Song Lam Nghe An vs Phu Dong",
+                  "streams": [
+                    {
+                      "id": "st-46a4a52a1b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Song Lam Nghe An",
+            "team_b": "Phu Dong",
+            "logo_a": "https://media.api-sports.io/football/teams/3678.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9167.png",
+            "time": "18:00 16/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Song Lam Nghe An_Phu Dong_18-00 16-05_9d74d5fc_20260515.png?v=9d74d5fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-61a6d6868e",
+          "name": "Wuhan Three Towns vs Shenyang Urban | 18:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61a6d6868e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-61a6d6868e",
+                  "name": "Wuhan Three Towns vs Shenyang Urban",
+                  "streams": [
+                    {
+                      "id": "st-61a6d6868e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Wuhan Three Towns",
+            "team_b": "Shenyang Urban",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5684.png",
+            "time": "18:00 16/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wuhan Three Towns_Shenyang Urban_18-00 16-05_b0ed64e0_20260515.png?v=b0ed64e0",
             "width": 1600,
             "height": 1200
           }
