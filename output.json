@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:00 15/05/2026",
+  "updated_at": "18:10 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -160,6 +160,77 @@
           }
         },
         {
+          "id": "hqlive-c79f07e265",
+          "name": "SHANGHAI SIPG vs Hangzhou Greentown | 18:35 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c79f07e265",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c79f07e265",
+                  "name": "SHANGHAI SIPG vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-c79f07e265",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "SHANGHAI SIPG",
+            "team_b": "Hangzhou Greentown",
+            "logo_a": "https://media.api-sports.io/football/teams/836.png",
+            "logo_b": "https://media.api-sports.io/football/teams/848.png",
+            "time": "18:35 15/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SHANGHAI SIPG_Hangzhou Greentown_18-35 15-05_f74b6d0e_20260515.png?v=f74b6d0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-4d0d483010",
           "name": "Tianjin Teda vs Chengdu Better City | 18:35 15/05",
           "type": "single",
@@ -226,59 +297,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Chengdu Better City_18-35 15-05_37d5bb73_20260515.png?v=37d5bb73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-c79f07e265",
-          "name": "SHANGHAI SIPG vs Hangzhou Greentown | 18:35 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c79f07e265",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c79f07e265",
-                  "name": "SHANGHAI SIPG vs Hangzhou Greentown",
-                  "streams": [
-                    {
-                      "id": "st-c79f07e265",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "SHANGHAI SIPG",
-            "team_b": "Hangzhou Greentown",
-            "logo_a": "https://media.api-sports.io/football/teams/836.png",
-            "logo_b": "https://media.api-sports.io/football/teams/848.png",
-            "time": "18:35 15/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SHANGHAI SIPG_Hangzhou Greentown_18-35 15-05_f74b6d0e_20260515.png?v=f74b6d0e",
             "width": 1600,
             "height": 1200
           }
@@ -1348,7 +1366,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1503,10 +1521,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1521,7 +1539,25 @@
                     {
                       "id": "st-c79d94dc8b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1536,7 +1572,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "18:30 15/05",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
@@ -1552,7 +1588,7 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1565,10 +1601,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1583,7 +1619,25 @@
                     {
                       "id": "st-508396ef40",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1598,7 +1652,7 @@
             "logo_b": "https://static.bongda24h.vn/Medias/thumnail/2022/1/25/beijing-guoan.png",
             "time": "18:35 15/05",
             "blv": "BLV PHAN MÃO",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ro"
           },
           "image": {
