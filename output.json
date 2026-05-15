@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:35 15/05/2026",
+  "updated_at": "11:50 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1114,11 +1114,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-974617766c",
+                          "id": "lnk-f6231c6549",
                           "name": "BLV PHAN CA",
                           "type": "hls",
                           "default": false,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
