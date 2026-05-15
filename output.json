@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:45 16/05/2026",
+  "updated_at": "01:00 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-18056ca3c0",
-          "name": "Japan U17 vs Tajikistan U17 | 23:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18056ca3c0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-18056ca3c0",
-                  "name": "Japan U17 vs Tajikistan U17",
-                  "streams": [
-                    {
-                      "id": "st-18056ca3c0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4d653008a",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Japan U17",
-            "team_b": "Tajikistan U17",
-            "logo_a": "https://media.api-sports.io/football/teams/12511.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12521.png",
-            "time": "23:00 15/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Tajikistan U17_23-00 15-05_d99989fc_20260516.png?v=d99989fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f1dd779fc9",
           "name": "Rizespor vs Beşiktaş | 00:00 16/05",
