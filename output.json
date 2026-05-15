@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:35 15/05/2026",
+  "updated_at": "08:05 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/vitoria_Flamengo_07-00 15-05_08c58884_20260515.png?v=08c58884",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-58b233f2fe",
-          "name": "CF Pachuca vs U.N.A.M. - Pumas | 08:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58b233f2fe",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-58b233f2fe",
-                  "name": "CF Pachuca vs U.N.A.M. - Pumas",
-                  "streams": [
-                    {
-                      "id": "st-58b233f2fe",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga MX",
-            "team_a": "CF Pachuca",
-            "team_b": "U.N.A.M. - Pumas",
-            "logo_a": "https://media.api-sports.io/football/teams/2292.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2286.png",
-            "time": "08:00 15/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CF Pachuca_U.N.A.M. - Pumas_08-00 15-05_846d9ba1_20260515.png?v=846d9ba1",
             "width": 1600,
             "height": 1200
           }
@@ -1516,6 +1445,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Elina Svitolina_01-30 16-05_0c7235d9_20260515.png?v=0c7235d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-15a02cf878",
+          "name": "Casper Ruud vs Luciano Darderi | 20:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15a02cf878",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-15a02cf878",
+                  "name": "Casper Ruud vs Luciano Darderi",
+                  "streams": [
+                    {
+                      "id": "st-15a02cf878",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Casper Ruud",
+            "team_b": "Luciano Darderi",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDGQXe_IjGY4p-iXL4uyR39lZTZEydPDO6A&s",
+            "time": "20:00 16/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Casper Ruud_Luciano Darderi_20-00 16-05_3e6b5552_20260515.png?v=3e6b5552",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2aa26c7eb3",
+          "name": "Jannik Sinner vs Daniil Medvedev | 00:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aa26c7eb3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2aa26c7eb3",
+                  "name": "Jannik Sinner vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-2aa26c7eb3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 1000 Rome",
+            "team_a": "Jannik Sinner",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "time": "00:00 17/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Daniil Medvedev_00-00 17-05_ac696414_20260515.png?v=ac696414",
             "width": 1600,
             "height": 1200
           }
