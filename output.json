@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:00 15/05/2026",
+  "updated_at": "21:30 15/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1073,6 +1073,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chelsea_Manchester City_21-00 16-05_577b227c_20260515.png?v=577b227c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-207a2202a5",
+          "name": "FC Porto vs Santa Clara | 21:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-207a2202a5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-207a2202a5",
+                  "name": "FC Porto vs Santa Clara",
+                  "streams": [
+                    {
+                      "id": "st-207a2202a5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "FC Porto",
+            "team_b": "Santa Clara",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/9/93/Fcporto.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/b/bc/Logo_Santa_Clara.png",
+            "time": "21:30 16/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Porto_Santa Clara_21-30 16-05_7e1e77d3_20260515.png?v=7e1e77d3",
             "width": 1600,
             "height": 1200
           }
