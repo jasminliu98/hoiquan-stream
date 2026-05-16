@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:50 16/05/2026",
+  "updated_at": "11:20 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1648,86 +1648,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_16-10 16-05_cacf1340_20260516.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-3a05c826dd",
-          "name": "San Antonio Spurs vs Minnesota Timberwolves | 08:30 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a05c826dd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3a05c826dd",
-                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
-                  "streams": [
-                    {
-                      "id": "st-3a05c826dd",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "San Antonio Spurs",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg",
-            "time": "08:30 16/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Minnesota Timberwolves_08-30 16-05_257b1e3b_20260516.png?v=257b1e3b",
             "width": 1600,
             "height": 1200
           }
