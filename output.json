@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:40 16/05/2026",
+  "updated_at": "17:00 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c03f52afac",
-          "name": "Yokohama F. Marinos vs Kashiwa Reysol | 15:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c03f52afac",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c03f52afac",
-                  "name": "Yokohama F. Marinos vs Kashiwa Reysol",
-                  "streams": [
-                    {
-                      "id": "st-c03f52afac",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Yokohama F. Marinos",
-            "team_b": "Kashiwa Reysol",
-            "logo_a": "https://media.api-sports.io/football/teams/296.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e6/KashiwaReysol.png",
-            "time": "15:00 16/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yokohama F. Marinos_Kashiwa Reysol_15-00 16-05_469a857f_20260516.png?v=469a857f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1e66bbbe2b",
           "name": "Newcastle Jets vs Sydney | 16:40 16/05",
@@ -231,6 +160,77 @@
           }
         },
         {
+          "id": "hqlive-61a6d6868e",
+          "name": "Wuhan Three Towns vs Shenyang Urban | 18:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61a6d6868e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-61a6d6868e",
+                  "name": "Wuhan Three Towns vs Shenyang Urban",
+                  "streams": [
+                    {
+                      "id": "st-61a6d6868e",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1498791d5",
+                          "name": "BLV CỦ HÀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Wuhan Three Towns",
+            "team_b": "Shenyang Urban",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5684.png",
+            "time": "18:00 16/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wuhan Three Towns_Shenyang Urban_18-00 16-05_b0ed64e0_20260516.png?v=b0ed64e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-4af04f5d24",
           "name": "Hai Phong vs Binh Duong | 18:00 16/05",
           "type": "single",
@@ -332,59 +332,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Song Lam Nghe An_Phu Dong_18-00 16-05_9d74d5fc_20260516.png?v=9d74d5fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-61a6d6868e",
-          "name": "Wuhan Three Towns vs Shenyang Urban | 18:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61a6d6868e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-61a6d6868e",
-                  "name": "Wuhan Three Towns vs Shenyang Urban",
-                  "streams": [
-                    {
-                      "id": "st-61a6d6868e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Wuhan Three Towns",
-            "team_b": "Shenyang Urban",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5684.png",
-            "time": "18:00 16/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wuhan Three Towns_Shenyang Urban_18-00 16-05_b0ed64e0_20260516.png?v=b0ed64e0",
             "width": 1600,
             "height": 1200
           }
@@ -1392,6 +1339,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeonbuk Motors_Gimcheon Sangmu FC_14-40 17-05_7b8cd3fa_20260516.png?v=7b8cd3fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1051b3f5a7",
+          "name": "Hoang Anh Gia Lai vs Hồng Lĩnh Hà Tĩnh | 17:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1051b3f5a7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1051b3f5a7",
+                  "name": "Hoang Anh Gia Lai vs Hồng Lĩnh Hà Tĩnh",
+                  "streams": [
+                    {
+                      "id": "st-1051b3f5a7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hoang Anh Gia Lai",
+            "team_b": "Hồng Lĩnh Hà Tĩnh",
+            "logo_a": "https://media.api-sports.io/football/teams/3673.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
+            "time": "17:00 17/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hoang Anh Gia Lai_Hồng Lĩnh Hà Tĩnh_17-00 17-05_9195c59f_20260516.png?v=9195c59f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6c2a2b7744",
+          "name": "Como vs Parma | 17:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c2a2b7744",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6c2a2b7744",
+                  "name": "Como vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-6c2a2b7744",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Como",
+            "team_b": "Parma",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_Como_1907_2019.png/250px-Logo_Como_1907_2019.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png",
+            "time": "17:00 17/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Como_Parma_17-00 17-05_70069874_20260516.png?v=70069874",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-184739e627",
+          "name": "Pisa vs Napoli | 17:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-184739e627",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-184739e627",
+                  "name": "Pisa vs Napoli",
+                  "streams": [
+                    {
+                      "id": "st-184739e627",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Pisa",
+            "team_b": "Napoli",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Pisa_SC_crest.svg/250px-Pisa_SC_crest.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg",
+            "time": "17:00 17/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pisa_Napoli_17-00 17-05_fdfe7035_20260516.png?v=fdfe7035",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-27b5d6d258",
+          "name": "Genoa vs AC Milan | 17:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27b5d6d258",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-27b5d6d258",
+                  "name": "Genoa vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-27b5d6d258",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Genoa",
+            "team_b": "AC Milan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/4/4e/Genoa_cfc.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/0E1JciuKLW0EbG48I5cFRQ_96x96.png",
+            "time": "17:00 17/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Genoa_AC Milan_17-00 17-05_bf5d47f8_20260516.png?v=bf5d47f8",
             "width": 1600,
             "height": 1200
           }
