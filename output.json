@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:15 16/05/2026",
+  "updated_at": "23:30 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1462,6 +1462,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atalanta_Bologna_23-00 17-05_b6666fae_20260516.png?v=b6666fae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6e1c3c2d71",
+          "name": "Newcastle vs West Ham | 23:30 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e1c3c2d71",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6e1c3c2d71",
+                  "name": "Newcastle vs West Ham",
+                  "streams": [
+                    {
+                      "id": "st-6e1c3c2d71",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Newcastle",
+            "team_b": "West Ham",
+            "logo_a": "https://media.api-sports.io/football/teams/34.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1280px-West_Ham_United_FC_logo.svg.png",
+            "time": "23:30 17/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Newcastle_West Ham_23-30 17-05_6d290480_20260516.png?v=6d290480",
             "width": 1600,
             "height": 1200
           }
