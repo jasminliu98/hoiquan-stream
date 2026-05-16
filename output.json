@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 17/05/2026",
+  "updated_at": "01:05 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9e16dcf275",
-          "name": "Al-Hilal Saudi FC vs NEOM | 23:05 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e16dcf275",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9e16dcf275",
-                  "name": "Al-Hilal Saudi FC vs NEOM",
-                  "streams": [
-                    {
-                      "id": "st-9e16dcf275",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4d653008a",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Pro League",
-            "team_a": "Al-Hilal Saudi FC",
-            "team_b": "NEOM",
-            "logo_a": "https://media.api-sports.io/football/teams/2932.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10513.png",
-            "time": "23:05 16/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Hilal Saudi FC_NEOM_23-05 16-05_4c6ea03f_20260517.png?v=4c6ea03f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-26353e792e",
           "name": "Vietnam U17 vs Australia U17 | 00:00 17/05",
