@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:05 17/05/2026",
+  "updated_at": "02:15 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1886,6 +1886,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lyon_Lens_02-00 18-05_2497b29b_20260517.png?v=2497b29b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a0fc8a3a52",
+          "name": "Barcelona vs Real Betis | 02:15 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0fc8a3a52",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a0fc8a3a52",
+                  "name": "Barcelona vs Real Betis",
+                  "streams": [
+                    {
+                      "id": "st-a0fc8a3a52",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Barcelona",
+            "team_b": "Real Betis",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg",
+            "time": "02:15 18/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona_Real Betis_02-15 18-05_86d6bf0b_20260517.png?v=86d6bf0b",
             "width": 1600,
             "height": 1200
           }
