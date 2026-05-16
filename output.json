@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:40 17/05/2026",
+  "updated_at": "01:45 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1729,6 +1729,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-6b5e27ea2d",
+          "name": "Udinese vs Cremonese | 01:45 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b5e27ea2d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6b5e27ea2d",
+                  "name": "Udinese vs Cremonese",
+                  "streams": [
+                    {
+                      "id": "st-6b5e27ea2d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Udinese",
+            "team_b": "Cremonese",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeHUNqkPcsEZ49zQsdnGULnXmI89g8SxAEmw&s",
+            "logo_b": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png",
+            "time": "01:45 18/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Udinese_Cremonese_01-45 18-05_c5a6c841_20260517.png?v=c5a6c841",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2021,7 +2074,7 @@
             }
           ],
           "org_metadata": {
-            "league": "WTA 1000 Rome",
+            "league": "WTA 1000 Rome ( Đầu Cầu Sinner )",
             "team_a": "Coco Gauff",
             "team_b": "Elina Svitolina",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
@@ -2180,7 +2233,7 @@
             }
           ],
           "org_metadata": {
-            "league": "WTA 1000 Rome",
+            "league": "WTA 1000 Rome ( Đầu Cầu Ruud )",
             "team_a": "Jannik Sinner",
             "team_b": "Casper Ruud",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
