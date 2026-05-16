@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:30 16/05/2026",
+  "updated_at": "18:50 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1746,86 +1746,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Manchester United_Nottingham Forest_18-30 17-05_a0f5bec2_20260516.png?v=a0f5bec2",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-022da1d366",
-          "name": "Phạm Phương Nam vs Đỗ Thế Kiên | 16:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-022da1d366",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-022da1d366",
-                  "name": "Phạm Phương Nam vs Đỗ Thế Kiên",
-                  "streams": [
-                    {
-                      "id": "st-022da1d366",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Đỗ Thế Kiên",
-            "logo_a": "https://matchroompool.com/wp-content/uploads/Pham-Phuong-Nam.png",
-            "logo_b": "https://cand.com.vn/Files/Image/chienthang/2019/12/20/fcec411d-54b2-430f-bfbd-9a8988a2ec7d.jpg",
-            "time": "16:00 16/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phạm Phương Nam_Đỗ Thế Kiên_16-00 16-05_6cfe8ea1_20260516.png?v=6cfe8ea1",
             "width": 1600,
             "height": 1200
           }
