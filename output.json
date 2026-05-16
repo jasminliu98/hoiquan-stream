@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:00 16/05/2026",
+  "updated_at": "16:05 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5f45c66f8a",
-          "name": "Urawa vs FC Tokyo | 14:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f45c66f8a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5f45c66f8a",
-                  "name": "Urawa vs FC Tokyo",
-                  "streams": [
-                    {
-                      "id": "st-5f45c66f8a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Urawa",
-            "team_b": "FC Tokyo",
-            "logo_a": "https://media.api-sports.io/football/teams/287.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/15/FC_Tokyo_Logo.svg",
-            "time": "14:00 16/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Urawa_FC Tokyo_14-00 16-05_2ee83546_20260516.png?v=2ee83546",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-c7bfda8b11",
           "name": "Daejeon Citizen vs FC Seoul | 14:30 16/05",
