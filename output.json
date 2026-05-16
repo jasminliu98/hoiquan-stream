@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:50 16/05/2026",
+  "updated_at": "15:55 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -641,7 +641,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/7e/Eintracht_Frankfurt_crest.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
             "time": "20:30 16/05",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
