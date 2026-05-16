@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:35 16/05/2026",
+  "updated_at": "12:30 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1205,82 +1205,11 @@
     },
     {
       "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-45d11c78a9",
-          "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Minh Tài | 12:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45d11c78a9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-45d11c78a9",
-                  "name": "Dương Quốc Hoàng vs Nguyễn Hoàng Minh Tài",
-                  "streams": [
-                    {
-                      "id": "st-45d11c78a9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Nguyễn Hoàng Minh Tài",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjWtvB3bJrZbNpsv_SKDjyL0uy4ScDeuqyw&s",
-            "time": "12:00 16/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Hoàng Minh Tài_12-00 16-05_48e2d111_20260516.png?v=48e2d111",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-022da1d366",
           "name": "Phạm Phương Nam vs Đỗ Thế Kiên | 16:00 16/05",
@@ -1453,7 +1382,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1537,10 +1466,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1555,7 +1484,25 @@
                     {
                       "id": "st-0be038b88f",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e44b9d8369",
+                          "name": "BLV PHAN TÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanto/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1570,7 +1517,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "13:00 16/05",
             "blv": "BLV PHAN TÔ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
