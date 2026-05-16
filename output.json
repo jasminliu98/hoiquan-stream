@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:10 16/05/2026",
+  "updated_at": "21:25 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1954,8 +1954,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-657a28afc1",
-          "name": "Jannik Sinner vs Daniil Medvedev | 20:00 16/05",
+          "id": "hqlive-8244abac73",
+          "name": "Coco Gauff vs Elina Svitolina | 22:00 16/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1969,15 +1969,15 @@
           ],
           "sources": [
             {
-              "id": "src-657a28afc1",
+              "id": "src-8244abac73",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-657a28afc1",
-                  "name": "Jannik Sinner vs Daniil Medvedev",
+                  "id": "ct-8244abac73",
+                  "name": "Coco Gauff vs Elina Svitolina",
                   "streams": [
                     {
-                      "id": "st-657a28afc1",
+                      "id": "st-8244abac73",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -2006,66 +2006,13 @@
           ],
           "org_metadata": {
             "league": "WTA 1000 Rome",
-            "team_a": "Jannik Sinner",
-            "team_b": "Daniil Medvedev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
-            "time": "20:00 16/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Daniil Medvedev_20-00 16-05_ac696414_20260516.png?v=ac696414",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8244abac73",
-          "name": "Coco Gauff vs Elina Svitolina | 22:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8244abac73",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8244abac73",
-                  "name": "Coco Gauff vs Elina Svitolina",
-                  "streams": [
-                    {
-                      "id": "st-8244abac73",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA 1000 Rome",
             "team_a": "Coco Gauff",
             "team_b": "Elina Svitolina",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
             "time": "22:00 16/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
