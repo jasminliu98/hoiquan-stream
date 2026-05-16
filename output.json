@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:55 17/05/2026",
+  "updated_at": "02:00 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1709,6 +1709,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Udinese_Cremonese_01-45 18-05_c5a6c841_20260517.png?v=c5a6c841",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e2ef8c5e15",
+          "name": "Paris FC vs Paris Saint Germain | 02:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2ef8c5e15",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e2ef8c5e15",
+                  "name": "Paris FC vs Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id": "st-e2ef8c5e15",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://media.api-sports.io/football/teams/114.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/mcpMspef1hwHwi9qrfp4YQ_96x96.png",
+            "time": "02:00 18/05",
+            "blv": "BLV PHAN TÔ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Paris FC_Paris Saint Germain_02-00 18-05_5c168db2_20260517.png?v=5c168db2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-507df57509",
+          "name": "Marseille vs Rennes | 02:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-507df57509",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-507df57509",
+                  "name": "Marseille vs Rennes",
+                  "streams": [
+                    {
+                      "id": "st-507df57509",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Marseille",
+            "team_b": "Rennes",
+            "logo_a": "https://media.api-sports.io/football/teams/81.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ad/Stade_Rennais_FC.png",
+            "time": "02:00 18/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marseille_Rennes_02-00 18-05_26a41ffd_20260517.png?v=26a41ffd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-126e2103da",
+          "name": "Lyon vs Lens | 02:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-126e2103da",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-126e2103da",
+                  "name": "Lyon vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-126e2103da",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Lens",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/9/93/Olympique_Lyonnais.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ6LsST7Td6rAqdSTMI4TlH_4DWNs7BOqgZQ&s",
+            "time": "02:00 18/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lyon_Lens_02-00 18-05_2497b29b_20260517.png?v=2497b29b",
             "width": 1600,
             "height": 1200
           }
