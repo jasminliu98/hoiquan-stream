@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:40 16/05/2026",
+  "updated_at": "17:45 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1675,82 +1675,11 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (2 LIVE)",
+      "name": "🎮 Esports (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5ea87179ee",
-          "name": "Gen vs T1 | 15:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5ea87179ee",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5ea87179ee",
-                  "name": "Gen vs T1",
-                  "streams": [
-                    {
-                      "id": "st-5ea87179ee",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK ",
-            "team_a": "Gen",
-            "team_b": "T1",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/1280px-T1_esports_logo.svg.png",
-            "time": "15:00 16/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_T1_15-00 16-05_dd10b335_20260516.png?v=dd10b335",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d3ab986f7c",
           "name": "BFX⁠ vs NS | 17:00 16/05",
