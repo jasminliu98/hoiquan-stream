@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:25 17/05/2026",
+  "updated_at": "04:30 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b325d3e746",
-          "name": "Estoril vs Benfica | 02:30 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b325d3e746",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b325d3e746",
-                  "name": "Estoril vs Benfica",
-                  "streams": [
-                    {
-                      "id": "st-b325d3e746",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e44b9d8369",
-                          "name": "BLV PHAN TÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanto/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Estoril",
-            "team_b": "Benfica",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/de/thumb/1/14/GD_Estoril_Praia.svg/500px-GD_Estoril_Praia.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ad/SL_Benfica_logo.png",
-            "time": "02:30 17/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estoril_Benfica_02-30 17-05_1d2c0c52_20260517.png?v=1d2c0c52",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4bf4b65271",
-          "name": "Sporting CP vs GIL Vicente | 02:30 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4bf4b65271",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4bf4b65271",
-                  "name": "Sporting CP vs GIL Vicente",
-                  "streams": [
-                    {
-                      "id": "st-4bf4b65271",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4d653008a",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Sporting CP",
-            "team_b": "GIL Vicente",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/3/3e/Sporting_Clube_de_Portugal.png",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghp83dr6od/image/small",
-            "time": "02:30 17/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sporting CP_GIL Vicente_02-30 17-05_6b79631f_20260517.png?v=6b79631f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e9945cb46d",
           "name": "New York Red Bulls vs New York City FC | 06:30 17/05",
