@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:15 17/05/2026",
+  "updated_at": "00:50 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -313,6 +313,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estoril_Benfica_02-30 17-05_1d2c0c52_20260517.png?v=1d2c0c52",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-75a445d07b",
+          "name": "Sporting CP vs Gil Vicente | 02:30 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75a445d07b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-75a445d07b",
+                  "name": "Sporting CP vs Gil Vicente",
+                  "streams": [
+                    {
+                      "id": "st-75a445d07b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Bồ Đào Nha",
+            "team_a": "Sporting CP",
+            "team_b": "Gil Vicente",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/3/3e/Sporting_Clube_de_Portugal.png",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghp83dr6od/image/small",
+            "time": "02:30 17/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sporting CP_Gil Vicente_02-30 17-05_6b79631f_20260517.png?v=6b79631f",
             "width": 1600,
             "height": 1200
           }
@@ -1205,7 +1258,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
             "time": "21:00 17/05",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV CỦ HÀNH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
