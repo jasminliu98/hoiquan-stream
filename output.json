@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:00 16/05/2026",
+  "updated_at": "21:10 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -556,10 +556,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -574,7 +574,25 @@
                     {
                       "id": "st-207a2202a5",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -589,7 +607,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/pt/b/bc/Logo_Santa_Clara.png",
             "time": "21:30 16/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
