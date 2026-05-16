@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:30 17/05/2026",
+  "updated_at": "05:00 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1709,6 +1709,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona_Real Betis_02-15 18-05_86d6bf0b_20260517.png?v=86d6bf0b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-00ae8584cd",
+          "name": "Inter Miami vs Portland Timbers | 05:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-00ae8584cd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-00ae8584cd",
+                  "name": "Inter Miami vs Portland Timbers",
+                  "streams": [
+                    {
+                      "id": "st-00ae8584cd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "Inter Miami",
+            "team_b": "Portland Timbers",
+            "logo_a": "https://media.api-sports.io/football/teams/9568.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Portland_Timbers_logo.svg/250px-Portland_Timbers_logo.svg.png",
+            "time": "05:00 18/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Miami_Portland Timbers_05-00 18-05_33312963_20260517.png?v=33312963",
             "width": 1600,
             "height": 1200
           }
