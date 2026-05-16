@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:00 17/05/2026",
+  "updated_at": "05:30 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1762,6 +1762,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Miami_Portland Timbers_05-00 18-05_33312963_20260517.png?v=33312963",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cbf016ce10",
+          "name": "Atletico Paranaense vs Flamengo | 05:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbf016ce10",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cbf016ce10",
+                  "name": "Atletico Paranaense vs Flamengo",
+                  "streams": [
+                    {
+                      "id": "st-cbf016ce10",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Atletico Paranaense",
+            "team_b": "Flamengo",
+            "logo_a": "https://media.api-sports.io/football/teams/134.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
+            "time": "05:30 18/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atletico Paranaense_Flamengo_05-30 18-05_ff1bfca1_20260517.png?v=ff1bfca1",
             "width": 1600,
             "height": 1200
           }
