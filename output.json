@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:45 16/05/2026",
+  "updated_at": "17:55 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1151,7 +1151,7 @@
             "league": "Liga MX",
             "team_a": "Guadalajara Chivas",
             "team_b": "Cruz Azul",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Guadalajara_CD.svg/185px-Guadalajara_CD.svg.png",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVXDXKkU5_WOoYInyTacuN9ebJQv9akgCjOA&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4xNkHyv3vyiYqX7HSZ5whQjvMJVYJlF3MQ&s",
             "time": "08:07 17/05",
             "blv": "BLV PHAN CA",
@@ -1162,7 +1162,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guadalajara Chivas_Cruz Azul_08-07 17-05_84652cd8_20260516.png?v=84652cd8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guadalajara Chivas_Cruz Azul_08-07 17-05_c7e0167b_20260516.png?v=c7e0167b",
             "width": 1600,
             "height": 1200
           }
