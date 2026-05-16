@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 16/05/2026",
+  "updated_at": "21:00 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1657,6 +1657,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter_Hellas Verona_20-00 17-05_8f9738b4_20260516.png?v=8f9738b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-740eef74da",
+          "name": "Brentford vs Crystal Palace | 21:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-740eef74da",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-740eef74da",
+                  "name": "Brentford vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-740eef74da",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Brentford",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
+            "time": "21:00 17/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brentford_Crystal Palace_21-00 17-05_9005329d_20260516.png?v=9005329d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1d6b649caa",
+          "name": "Everton vs Sunderland | 21:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d6b649caa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1d6b649caa",
+                  "name": "Everton vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "st-1d6b649caa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Everton",
+            "team_b": "Sunderland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
+            "time": "21:00 17/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Everton_Sunderland_21-00 17-05_52a96b79_20260516.png?v=52a96b79",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5a738165bd",
+          "name": "Leeds vs Brighton | 21:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a738165bd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5a738165bd",
+                  "name": "Leeds vs Brighton",
+                  "streams": [
+                    {
+                      "id": "st-5a738165bd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Leeds",
+            "team_b": "Brighton",
+            "logo_a": "https://media.api-sports.io/football/teams/63.png",
+            "logo_b": "https://media.api-sports.io/football/teams/51.png",
+            "time": "21:00 17/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Leeds_Brighton_21-00 17-05_2d3aae22_20260516.png?v=2d3aae22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d5ffb3dc18",
+          "name": "Wolves vs Fulham | 21:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5ffb3dc18",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d5ffb3dc18",
+                  "name": "Wolves vs Fulham",
+                  "streams": [
+                    {
+                      "id": "st-d5ffb3dc18",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Wolves",
+            "team_b": "Fulham",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/6/6c/Wolverhampton_Wanderers.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/8/8d/Fulham_FC.png",
+            "time": "21:00 17/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wolves_Fulham_21-00 17-05_18c81ef7_20260516.png?v=18c81ef7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-40abf719a6",
+          "name": "Santos vs Coritiba | 21:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40abf719a6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-40abf719a6",
+                  "name": "Santos vs Coritiba",
+                  "streams": [
+                    {
+                      "id": "st-40abf719a6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Santos",
+            "team_b": "Coritiba",
+            "logo_a": "https://media.api-sports.io/football/teams/128.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/500px-Coritiba_Foot_Ball_Club_logo.svg.png",
+            "time": "21:00 17/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_Coritiba_21-00 17-05_fd17c6ec_20260516.png?v=fd17c6ec",
             "width": 1600,
             "height": 1200
           }
