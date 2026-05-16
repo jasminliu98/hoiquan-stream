@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 16/05/2026",
+  "updated_at": "16:15 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,11 +12,82 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-c7bfda8b11",
+          "name": "Daejeon Citizen vs FC Seoul | 14:30 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7bfda8b11",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c7bfda8b11",
+                  "name": "Daejeon Citizen vs FC Seoul",
+                  "streams": [
+                    {
+                      "id": "st-c7bfda8b11",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Daejeon Citizen",
+            "team_b": "FC Seoul",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYS2zEFbeFBg_XqzrgQPETiHdzD2yAXqh8wQ&s",
+            "logo_b": "https://media.api-sports.io/football/teams/2766.png",
+            "time": "14:30 16/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daejeon Citizen_FC Seoul_14-30 16-05_d64ef835_20260516.png?v=d64ef835",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-c03f52afac",
           "name": "Yokohama F. Marinos vs Kashiwa Reysol | 15:00 16/05",
@@ -96,10 +167,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -114,7 +185,25 @@
                     {
                       "id": "st-1e66bbbe2b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -129,7 +218,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/943.png",
             "time": "16:40 16/05",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1043,6 +1132,59 @@
           }
         },
         {
+          "id": "hqlive-e9945cb46d",
+          "name": "New York Red Bulls vs New York City FC | 06:30 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9945cb46d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e9945cb46d",
+                  "name": "New York Red Bulls vs New York City FC",
+                  "streams": [
+                    {
+                      "id": "st-e9945cb46d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "New York Red Bulls",
+            "team_b": "New York City FC",
+            "logo_a": "https://media.api-sports.io/football/teams/1602.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Logo_New_York_City_FC_2025.svg/1280px-Logo_New_York_City_FC_2025.svg.png",
+            "time": "06:30 17/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New York Red Bulls_New York City FC_06-30 17-05_cf42d392_20260516.png?v=cf42d392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-e40f398e48",
           "name": "Guadalajara Chivas vs Cruz Azul | 08:07 17/05",
           "type": "single",
@@ -1149,6 +1291,59 @@
           }
         },
         {
+          "id": "hqlive-690ee4a43e",
+          "name": "V-varen Nagasaki vs Vissel Kobe | 11:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-690ee4a43e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-690ee4a43e",
+                  "name": "V-varen Nagasaki vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-690ee4a43e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "V-varen Nagasaki",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://media.api-sports.io/football/teams/285.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vissel_Kobe_logo.svg",
+            "time": "11:00 17/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/V-varen Nagasaki_Vissel Kobe_11-00 17-05_d02f7605_20260516.png?v=d02f7605",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-0736197180",
           "name": "Kyoto Sanga vs Sanfrecce Hiroshima | 13:00 17/05",
           "type": "single",
@@ -1250,6 +1445,86 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeonbuk Motors_Gimcheon Sangmu FC_14-40 17-05_7b8cd3fa_20260516.png?v=7b8cd3fa",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_billiards",
+      "name": "🎱 Billiards (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-022da1d366",
+          "name": "Phạm Phương Nam vs Đỗ Thế Kiên | 16:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-022da1d366",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-022da1d366",
+                  "name": "Phạm Phương Nam vs Đỗ Thế Kiên",
+                  "streams": [
+                    {
+                      "id": "st-022da1d366",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
+            "team_a": "Phạm Phương Nam",
+            "team_b": "Đỗ Thế Kiên",
+            "logo_a": "https://matchroompool.com/wp-content/uploads/Pham-Phuong-Nam.png",
+            "logo_b": "https://cand.com.vn/Files/Image/chienthang/2019/12/20/fcec411d-54b2-430f-bfbd-9a8988a2ec7d.jpg",
+            "time": "16:00 16/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phạm Phương Nam_Đỗ Thế Kiên_16-00 16-05_6cfe8ea1_20260516.png?v=6cfe8ea1",
             "width": 1600,
             "height": 1200
           }
