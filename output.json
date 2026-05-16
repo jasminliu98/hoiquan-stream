@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:45 17/05/2026",
+  "updated_at": "02:50 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7128d060bf",
-          "name": "Al-Nassr vs Gamba Osaka | 00:45 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7128d060bf",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7128d060bf",
-                  "name": "Al-Nassr vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-7128d060bf",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Al-Nassr",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://media.api-sports.io/football/teams/2939.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gamba_Osaka_logo_2021.png",
-            "time": "00:45 17/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Nassr_Gamba Osaka_00-45 17-05_c4ba15f2_20260517.png?v=c4ba15f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b325d3e746",
           "name": "Estoril vs Benfica | 02:30 17/05",
@@ -2152,6 +2081,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 17-05_cacf1340_20260517.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ro",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-8adcf12636",
+          "name": "Detroit Pistons vs Cleveland Cavaliers | 07:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8adcf12636",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8adcf12636",
+                  "name": "Detroit Pistons vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-8adcf12636",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Detroit Pistons",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png/250px-Logo_of_the_Detroit_Pistons_%282017%E2%80%93present%29.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "time": "07:00 17/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Detroit Pistons_Cleveland Cavaliers_07-00 17-05_def91400_20260517.png?v=def91400",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5c46fdc0fe",
+          "name": "Zhejiang Guangsha vs Shenzhen | 18:35 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c46fdc0fe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5c46fdc0fe",
+                  "name": "Zhejiang Guangsha vs Shenzhen",
+                  "streams": [
+                    {
+                      "id": "st-5c46fdc0fe",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Zhejiang Guangsha",
+            "team_b": "Shenzhen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
+            "time": "18:35 17/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhejiang Guangsha_Shenzhen_18-35 17-05_a04f3217_20260517.png?v=a04f3217",
             "width": 1600,
             "height": 1200
           }
