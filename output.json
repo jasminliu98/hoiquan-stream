@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:50 17/05/2026",
+  "updated_at": "00:55 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1152,7 +1152,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/505.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/it/9/92/Hellas_Verona_FC_logo_%282020%29.svg",
             "time": "20:00 17/05",
-            "blv": "BLV CỦ HÀNH",
+            "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
