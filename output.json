@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:50 17/05/2026",
+  "updated_at": "03:25 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "hqlive-75a445d07b",
-          "name": "Sporting CP vs Gil Vicente | 02:30 17/05",
+          "id": "hqlive-4bf4b65271",
+          "name": "Sporting CP vs GIL Vicente | 02:30 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,15 +104,15 @@
           ],
           "sources": [
             {
-              "id": "src-75a445d07b",
+              "id": "src-4bf4b65271",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-75a445d07b",
-                  "name": "Sporting CP vs Gil Vicente",
+                  "id": "ct-4bf4b65271",
+                  "name": "Sporting CP vs GIL Vicente",
                   "streams": [
                     {
-                      "id": "st-75a445d07b",
+                      "id": "st-4bf4b65271",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -140,9 +140,9 @@
             }
           ],
           "org_metadata": {
-            "league": "VĐQG Bồ Đào Nha",
+            "league": "Primeira Liga",
             "team_a": "Sporting CP",
-            "team_b": "Gil Vicente",
+            "team_b": "GIL Vicente",
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/3/3e/Sporting_Clube_de_Portugal.png",
             "logo_b": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghp83dr6od/image/small",
             "time": "02:30 17/05",
@@ -154,7 +154,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sporting CP_Gil Vicente_02-30 17-05_6b79631f_20260517.png?v=6b79631f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sporting CP_GIL Vicente_02-30 17-05_6b79631f_20260517.png?v=6b79631f",
             "width": 1600,
             "height": 1200
           }
