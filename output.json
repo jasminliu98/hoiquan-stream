@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:55 16/05/2026",
+  "updated_at": "16:00 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1180,6 +1180,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estoril_Benfica_02-30 17-05_1d2c0c52_20260516.png?v=1d2c0c52",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e9945cb46d",
+          "name": "New York Red Bulls vs New York City FC | 06:30 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9945cb46d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e9945cb46d",
+                  "name": "New York Red Bulls vs New York City FC",
+                  "streams": [
+                    {
+                      "id": "st-e9945cb46d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "New York Red Bulls",
+            "team_b": "New York City FC",
+            "logo_a": "https://media.api-sports.io/football/teams/1602.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Logo_New_York_City_FC_2025.svg/1280px-Logo_New_York_City_FC_2025.svg.png",
+            "time": "06:30 17/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New York Red Bulls_New York City FC_06-30 17-05_cf42d392_20260516.png?v=cf42d392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e40f398e48",
+          "name": "Guadalajara Chivas vs Cruz Azul | 08:07 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e40f398e48",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e40f398e48",
+                  "name": "Guadalajara Chivas vs Cruz Azul",
+                  "streams": [
+                    {
+                      "id": "st-e40f398e48",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Guadalajara Chivas",
+            "team_b": "Cruz Azul",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Guadalajara_CD.svg/185px-Guadalajara_CD.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4xNkHyv3vyiYqX7HSZ5whQjvMJVYJlF3MQ&s",
+            "time": "08:07 17/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guadalajara Chivas_Cruz Azul_08-07 17-05_84652cd8_20260516.png?v=84652cd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d3b39e1ece",
+          "name": "San Jose Earthquakes vs FC Dallas | 09:30 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3b39e1ece",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d3b39e1ece",
+                  "name": "San Jose Earthquakes vs FC Dallas",
+                  "streams": [
+                    {
+                      "id": "st-d3b39e1ece",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "San Jose Earthquakes",
+            "team_b": "FC Dallas",
+            "logo_a": "https://media.api-sports.io/football/teams/1596.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Dallas_logo.svg/250px-FC_Dallas_logo.svg.png",
+            "time": "09:30 17/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Jose Earthquakes_FC Dallas_09-30 17-05_d71eb1e2_20260516.png?v=d71eb1e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-690ee4a43e",
+          "name": "V-varen Nagasaki vs Vissel Kobe | 11:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-690ee4a43e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-690ee4a43e",
+                  "name": "V-varen Nagasaki vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-690ee4a43e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "V-varen Nagasaki",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://media.api-sports.io/football/teams/285.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vissel_Kobe_logo.svg",
+            "time": "11:00 17/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/V-varen Nagasaki_Vissel Kobe_11-00 17-05_d02f7605_20260516.png?v=d02f7605",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0736197180",
+          "name": "Kyoto Sanga vs Sanfrecce Hiroshima | 13:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0736197180",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0736197180",
+                  "name": "Kyoto Sanga vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-0736197180",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kyoto Sanga",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://media.api-sports.io/football/teams/302.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ad/SanfrecceHiroshima.png",
+            "time": "13:00 17/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kyoto Sanga_Sanfrecce Hiroshima_13-00 17-05_a57a9d12_20260516.png?v=a57a9d12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5990e4cc49",
+          "name": "Jeonbuk Motors vs Gimcheon Sangmu FC | 14:40 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5990e4cc49",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5990e4cc49",
+                  "name": "Jeonbuk Motors vs Gimcheon Sangmu FC",
+                  "streams": [
+                    {
+                      "id": "st-5990e4cc49",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Jeonbuk Motors",
+            "team_b": "Gimcheon Sangmu FC",
+            "logo_a": "https://media.api-sports.io/football/teams/2762.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2768.png",
+            "time": "14:40 17/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeonbuk Motors_Gimcheon Sangmu FC_14-40 17-05_7b8cd3fa_20260516.png?v=7b8cd3fa",
             "width": 1600,
             "height": 1200
           }
