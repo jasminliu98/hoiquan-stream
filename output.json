@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:10 16/05/2026",
+  "updated_at": "14:25 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-1e88c539cc",
-          "name": "Mito Hollyhock vs Tokyo Verdy | 12:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e88c539cc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1e88c539cc",
-                  "name": "Mito Hollyhock vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-1e88c539cc",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://media.api-sports.io/football/teams/305.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/id/a/a0/Tokyo_Verdy_2020_logo.webp",
-            "time": "12:00 16/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mito Hollyhock_Tokyo Verdy_12-00 16-05_4cff99b8_20260516.png?v=4cff99b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5f45c66f8a",
           "name": "Urawa vs FC Tokyo | 14:00 16/05",
@@ -1418,82 +1347,11 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (3 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7515aed992",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 12:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7515aed992",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7515aed992",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-7515aed992",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "12:00 16/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_12-00 16-05_cacf1340_20260516.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-0be038b88f",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:00 16/05",
