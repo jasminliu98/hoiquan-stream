@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:00 16/05/2026",
+  "updated_at": "20:10 16/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,14 +12,14 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-4af04f5d24",
-          "name": "Hai Phong vs Binh Duong | 18:00 16/05",
+          "id": "hqlive-cbb9a9aa0a",
+          "name": "Bayer Leverkusen vs Hamburger SV | 20:30 16/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,23 +33,23 @@
           ],
           "sources": [
             {
-              "id": "src-4af04f5d24",
+              "id": "src-cbb9a9aa0a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4af04f5d24",
-                  "name": "Hai Phong vs Binh Duong",
+                  "id": "ct-cbb9a9aa0a",
+                  "name": "Bayer Leverkusen vs Hamburger SV",
                   "streams": [
                     {
-                      "id": "st-4af04f5d24",
+                      "id": "st-cbb9a9aa0a",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
+                          "id": "lnk-e44b9d8369",
+                          "name": "BLV PHAN TÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanto/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +69,13 @@
             }
           ],
           "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hai Phong",
-            "team_b": "Binh Duong",
-            "logo_a": "https://vpf.vn/wp-content/uploads/2018/10/haiphongfc.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/LOGO_BFC.png/960px-LOGO_BFC.png",
-            "time": "18:00 16/05",
-            "blv": "BLV PHAN CHỚP",
+            "league": "Bundesliga",
+            "team_a": "Bayer Leverkusen",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/0e/Bayer_04_Leverkusen_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hamburger_SV_logo.svg/1280px-Hamburger_SV_logo.svg.png",
+            "time": "20:30 16/05",
+            "blv": "BLV PHAN TÔ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -83,14 +83,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hai Phong_Binh Duong_18-00 16-05_0f105765_20260516.png?v=0f105765",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bayer Leverkusen_Hamburger SV_20-30 16-05_6c93b52e_20260516.png?v=6c93b52e",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-46a4a52a1b",
-          "name": "Song Lam Nghe An vs Phu Dong | 18:00 16/05",
+          "id": "hqlive-0e1d3ac594",
+          "name": "Bayern München vs 1. FC Köln | 20:30 16/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,86 +104,15 @@
           ],
           "sources": [
             {
-              "id": "src-46a4a52a1b",
+              "id": "src-0e1d3ac594",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-46a4a52a1b",
-                  "name": "Song Lam Nghe An vs Phu Dong",
+                  "id": "ct-0e1d3ac594",
+                  "name": "Bayern München vs 1. FC Köln",
                   "streams": [
                     {
-                      "id": "st-46a4a52a1b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Song Lam Nghe An",
-            "team_b": "Phu Dong",
-            "logo_a": "https://media.api-sports.io/football/teams/3678.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9167.png",
-            "time": "18:00 16/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Song Lam Nghe An_Phu Dong_18-00 16-05_9d74d5fc_20260516.png?v=9d74d5fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-61a6d6868e",
-          "name": "Wuhan Three Towns vs Shenyang Urban | 18:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61a6d6868e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-61a6d6868e",
-                  "name": "Wuhan Three Towns vs Shenyang Urban",
-                  "streams": [
-                    {
-                      "id": "st-61a6d6868e",
+                      "id": "st-0e1d3ac594",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -211,112 +140,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Super League",
-            "team_a": "Wuhan Three Towns",
-            "team_b": "Shenyang Urban",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5684.png",
-            "time": "18:00 16/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wuhan Three Towns_Shenyang Urban_18-00 16-05_b0ed64e0_20260516.png?v=b0ed64e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cbb9a9aa0a",
-          "name": "Bayer Leverkusen vs Hamburger SV | 20:30 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cbb9a9aa0a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cbb9a9aa0a",
-                  "name": "Bayer Leverkusen vs Hamburger SV",
-                  "streams": [
-                    {
-                      "id": "st-cbb9a9aa0a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayer Leverkusen",
-            "team_b": "Hamburger SV",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/0e/Bayer_04_Leverkusen_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hamburger_SV_logo.svg/1280px-Hamburger_SV_logo.svg.png",
-            "time": "20:30 16/05",
-            "blv": "BLV PHAN TÔ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bayer Leverkusen_Hamburger SV_20-30 16-05_6c93b52e_20260516.png?v=6c93b52e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0e1d3ac594",
-          "name": "Bayern München vs 1. FC Köln | 20:30 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e1d3ac594",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0e1d3ac594",
-                  "name": "Bayern München vs 1. FC Köln",
-                  "streams": [
-                    {
-                      "id": "st-0e1d3ac594",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Bundesliga",
             "team_a": "Bayern München",
             "team_b": "1. FC Köln",
@@ -324,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/192.png",
             "time": "20:30 16/05",
             "blv": "BLV CỦ HÀNH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -344,10 +167,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -362,7 +185,25 @@
                     {
                       "id": "st-fa7966aa26",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -377,7 +218,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
             "time": "20:30 16/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -397,10 +238,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -415,7 +256,25 @@
                     {
                       "id": "st-e5f959a75d",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -430,7 +289,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d6/VEREINFACHTES_LOGO_-_RB_Leipzig.svg",
             "time": "20:30 16/05",
             "blv": "BLV PHAN MÃO",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -450,10 +309,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -468,7 +327,25 @@
                     {
                       "id": "st-7caffc07ec",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -483,7 +360,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/FZnTSH2rbHFos4BnlWAItw_96x96.png",
             "time": "20:30 16/05",
             "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -503,10 +380,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -521,7 +398,25 @@
                     {
                       "id": "st-e58a9febff",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -536,7 +431,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/VfL_Wolfsburg_Logo.svg/1280px-VfL_Wolfsburg_Logo.svg.png",
             "time": "20:30 16/05",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -556,10 +451,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -574,7 +469,59 @@
                     {
                       "id": "st-405f70d68e",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d77f78486",
+                          "name": "BLV THIÊN LÔI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_thienloi/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -589,7 +536,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
             "time": "21:00 16/05",
             "blv": "BLV THIÊN LÔI, BLV PHAN MÃ, BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
