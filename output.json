@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:50 17/05/2026",
+  "updated_at": "13:55 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,6 +17,59 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-842f0192ef",
+          "name": "Jeju United FC vs FC Anyang | 14:30 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-842f0192ef",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-842f0192ef",
+                  "name": "Jeju United FC vs FC Anyang",
+                  "streams": [
+                    {
+                      "id": "st-842f0192ef",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Jeju United FC",
+            "team_b": "FC Anyang",
+            "logo_a": "https://media.api-sports.io/football/teams/2761.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/lt/c/c9/FC_Anyang_logo.png?20190911143321",
+            "time": "14:30 17/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeju United FC_FC Anyang_14-30 17-05_88364ab1_20260517.png?v=88364ab1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-5990e4cc49",
           "name": "Jeonbuk Motors vs Gimcheon Sangmu FC | 14:40 17/05",
