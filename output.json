@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:25 17/05/2026",
+  "updated_at": "15:30 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -372,59 +372,6 @@
           }
         },
         {
-          "id": "hqlive-4210c5e5b3",
-          "name": "Pho Hien vs Ha Noi | 18:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4210c5e5b3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4210c5e5b3",
-                  "name": "Pho Hien vs Ha Noi",
-                  "streams": [
-                    {
-                      "id": "st-4210c5e5b3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Pho Hien",
-            "team_b": "Ha Noi",
-            "logo_a": "https://media.api-sports.io/football/teams/9166.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3670.png",
-            "time": "18:00 17/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pho Hien_Ha Noi_18-00 17-05_e89ed7ca_20260517.png?v=e89ed7ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-8a1f2bd9ef",
           "name": "Nam Dinh vs Viettel | 18:00 17/05",
           "type": "single",
@@ -464,7 +411,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/3674.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d1/Viettel_FC_2021.svg",
             "time": "18:00 17/05",
-            "blv": "BLV PHAN ANH",
+            "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
