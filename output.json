@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:30 18/05/2026",
+  "updated_at": "00:55 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-122d006cbb",
-          "name": "Atalanta vs Bologna | 23:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-122d006cbb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-122d006cbb",
-                  "name": "Atalanta vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-122d006cbb",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Atalanta",
-            "team_b": "Bologna",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/5/59/AtalantaBC.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bologna_F.C._1909_logo.svg",
-            "time": "23:00 17/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atalanta_Bologna_23-00 17-05_b6666fae_20260518.png?v=b6666fae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-6e1c3c2d71",
           "name": "Newcastle vs West Ham | 23:30 17/05",
