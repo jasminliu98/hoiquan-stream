@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:40 17/05/2026",
+  "updated_at": "15:25 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1830,8 +1830,8 @@
           }
         },
         {
-          "id": "hqlive-b39d113ac4",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 16:00 17/05",
+          "id": "hqlive-6d53f5e8a6",
+          "name": "Tay cơ 1 vs Tay cơ 2 | 18:00 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1845,15 +1845,15 @@
           ],
           "sources": [
             {
-              "id": "src-b39d113ac4",
+              "id": "src-6d53f5e8a6",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b39d113ac4",
+                  "id": "ct-6d53f5e8a6",
                   "name": "Tay cơ 1 vs Tay cơ 2",
                   "streams": [
                     {
-                      "id": "st-b39d113ac4",
+                      "id": "st-6d53f5e8a6",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1868,7 +1868,7 @@
             "team_b": "Tay cơ 2",
             "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
             "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "time": "16:00 17/05",
+            "time": "18:00 17/05",
             "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "billiards"
@@ -1877,7 +1877,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_16-00 17-05_97f1b445_20260517.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_18-00 17-05_97f1b445_20260517.png?v=97f1b445",
             "width": 1600,
             "height": 1200
           }
