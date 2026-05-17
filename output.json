@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:10 17/05/2026",
+  "updated_at": "08:45 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-e9945cb46d",
-          "name": "New York Red Bulls vs New York City FC | 06:30 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9945cb46d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e9945cb46d",
-                  "name": "New York Red Bulls vs New York City FC",
-                  "streams": [
-                    {
-                      "id": "st-e9945cb46d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Major League Soccer",
-            "team_a": "New York Red Bulls",
-            "team_b": "New York City FC",
-            "logo_a": "https://media.api-sports.io/football/teams/1602.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Logo_New_York_City_FC_2025.svg/1280px-Logo_New_York_City_FC_2025.svg.png",
-            "time": "06:30 17/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New York Red Bulls_New York City FC_06-30 17-05_cf42d392_20260517.png?v=cf42d392",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d3b39e1ece",
           "name": "San Jose Earthquakes vs FC Dallas | 09:30 17/05",
