@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:45 17/05/2026",
+  "updated_at": "12:15 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1794,8 +1794,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-cf5b6fec47",
-          "name": "Dương Quốc Hoàng vs Tạ Văn Linh | 10:00 17/05",
+          "id": "hqlive-afcd2bc23b",
+          "name": "Bùi Trường An vs Phạm Phương Nam | 13:00 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1809,15 +1809,15 @@
           ],
           "sources": [
             {
-              "id": "src-cf5b6fec47",
+              "id": "src-afcd2bc23b",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-cf5b6fec47",
-                  "name": "Dương Quốc Hoàng vs Tạ Văn Linh",
+                  "id": "ct-afcd2bc23b",
+                  "name": "Bùi Trường An vs Phạm Phương Nam",
                   "streams": [
                     {
-                      "id": "st-cf5b6fec47",
+                      "id": "st-afcd2bc23b",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1846,11 +1846,11 @@
           ],
           "org_metadata": {
             "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Tạ Văn Linh",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtltyYvpGjtcwEWdBnWqY0a1-X__z3ima7LQ&s",
-            "time": "10:00 17/05",
+            "team_a": "Bùi Trường An",
+            "team_b": "Phạm Phương Nam",
+            "logo_a": "https://thethaovanhoa.mediacdn.vn/372676912336973824/2025/2/18/bil-buitruongan-1-1808-1739848262592954223044.jpg",
+            "logo_b": "https://matchroompool.com/wp-content/uploads/Pham-Phuong-Nam.png",
+            "time": "13:00 17/05",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "billiards"
@@ -1859,7 +1859,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Tạ Văn Linh_10-00 17-05_f5b9135e_20260517.png?v=f5b9135e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bùi Trường An_Phạm Phương Nam_13-00 17-05_5887b124_20260517.png?v=5887b124",
             "width": 1600,
             "height": 1200
           }
