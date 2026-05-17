@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 17/05/2026",
+  "updated_at": "16:40 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5990e4cc49",
-          "name": "Jeonbuk Motors vs Gimcheon Sangmu FC | 14:40 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5990e4cc49",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5990e4cc49",
-                  "name": "Jeonbuk Motors vs Gimcheon Sangmu FC",
-                  "streams": [
-                    {
-                      "id": "st-5990e4cc49",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Jeonbuk Motors",
-            "team_b": "Gimcheon Sangmu FC",
-            "logo_a": "https://media.api-sports.io/football/teams/2762.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2768.png",
-            "time": "14:40 17/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeonbuk Motors_Gimcheon Sangmu FC_14-40 17-05_7b8cd3fa_20260517.png?v=7b8cd3fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1051b3f5a7",
           "name": "Hoang Anh Gia Lai vs Hồng Lĩnh Hà Tĩnh | 17:00 17/05",
@@ -408,8 +337,8 @@
           }
         },
         {
-          "id": "hqlive-a1ae972564",
-          "name": "Công An Nhân Dân vs Thanh Hóa | 19:15 17/05",
+          "id": "hqlive-c67703db3c",
+          "name": "CAHN vs Thanh Hóa | 19:15 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -423,15 +352,15 @@
           ],
           "sources": [
             {
-              "id": "src-a1ae972564",
+              "id": "src-c67703db3c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-a1ae972564",
-                  "name": "Công An Nhân Dân vs Thanh Hóa",
+                  "id": "ct-c67703db3c",
+                  "name": "CAHN vs Thanh Hóa",
                   "streams": [
                     {
-                      "id": "st-a1ae972564",
+                      "id": "st-c67703db3c",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -442,9 +371,9 @@
           ],
           "org_metadata": {
             "league": "V.League 1",
-            "team_a": "Công An Nhân Dân",
+            "team_a": "CAHN",
             "team_b": "Thanh Hóa",
-            "logo_a": "https://media.api-sports.io/football/teams/16400.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/3/38/Logo_CAHN_FC.svg/500px-Logo_CAHN_FC.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
             "time": "19:15 17/05",
             "blv": "BLV PHAN TÔ",
@@ -455,7 +384,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Công An Nhân Dân_Thanh Hóa_19-15 17-05_ee766067_20260517.png?v=ee766067",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CAHN_Thanh Hóa_19-15 17-05_ed5ef1b3_20260517.png?v=ed5ef1b3",
             "width": 1600,
             "height": 1200
           }
