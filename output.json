@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:20 17/05/2026",
+  "updated_at": "23:30 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -302,6 +302,77 @@
           }
         },
         {
+          "id": "hqlive-421781f213",
+          "name": "Real Sociedad vs Valencia | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-421781f213",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-421781f213",
+                  "name": "Real Sociedad vs Valencia",
+                  "streams": [
+                    {
+                      "id": "st-421781f213",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Sociedad",
+            "team_b": "Valencia",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqksyaudrnPerqAK70Wf34Xo-WN_BSmSsQg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/f/fe/Valenciacf.png",
+            "time": "00:00 18/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Sociedad_Valencia_00-00 18-05_d5f38b94_20260517.png?v=d5f38b94",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-8db2d9b36a",
           "name": "Athletic Club vs Celta Vigo | 00:00 18/05",
           "type": "single",
@@ -350,59 +421,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Athletic Club_Celta Vigo_00-00 18-05_c0cb518c_20260517.png?v=c0cb518c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-421781f213",
-          "name": "Real Sociedad vs Valencia | 00:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-421781f213",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-421781f213",
-                  "name": "Real Sociedad vs Valencia",
-                  "streams": [
-                    {
-                      "id": "st-421781f213",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Valencia",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqksyaudrnPerqAK70Wf34Xo-WN_BSmSsQg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/f/fe/Valenciacf.png",
-            "time": "00:00 18/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Sociedad_Valencia_00-00 18-05_d5f38b94_20260517.png?v=d5f38b94",
             "width": 1600,
             "height": 1200
           }
