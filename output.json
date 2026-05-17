@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:35 17/05/2026",
+  "updated_at": "13:05 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -517,7 +517,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/3674.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d1/Viettel_FC_2021.svg",
             "time": "18:00 17/05",
-            "blv": "BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
