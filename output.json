@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:30 17/05/2026",
+  "updated_at": "15:35 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1700,85 +1700,14 @@
     },
     {
       "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-afcd2bc23b",
-          "name": "Bùi Trường An vs Phạm Phương Nam | 13:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afcd2bc23b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-afcd2bc23b",
-                  "name": "Bùi Trường An vs Phạm Phương Nam",
-                  "streams": [
-                    {
-                      "id": "st-afcd2bc23b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Bùi Trường An",
-            "team_b": "Phạm Phương Nam",
-            "logo_a": "https://thethaovanhoa.mediacdn.vn/372676912336973824/2025/2/18/bil-buitruongan-1-1808-1739848262592954223044.jpg",
-            "logo_b": "https://matchroompool.com/wp-content/uploads/Pham-Phuong-Nam.png",
-            "time": "13:00 17/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bùi Trường An_Phạm Phương Nam_13-00 17-05_5887b124_20260517.png?v=5887b124",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6d53f5e8a6",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 18:00 17/05",
+          "id": "hqlive-8c22126472",
+          "name": "Dương Quốc Hoàng vs Bùi Trường An | 18:00 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1792,15 +1721,15 @@
           ],
           "sources": [
             {
-              "id": "src-6d53f5e8a6",
+              "id": "src-8c22126472",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-6d53f5e8a6",
-                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "id": "ct-8c22126472",
+                  "name": "Dương Quốc Hoàng vs Bùi Trường An",
                   "streams": [
                     {
-                      "id": "st-6d53f5e8a6",
+                      "id": "st-8c22126472",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1811,10 +1740,10 @@
           ],
           "org_metadata": {
             "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL.",
-            "team_a": "Tay cơ 1",
-            "team_b": "Tay cơ 2",
-            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Bùi Trường An",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://thethaovanhoa.mediacdn.vn/372676912336973824/2025/2/18/bil-buitruongan-1-1808-1739848262592954223044.jpg",
             "time": "18:00 17/05",
             "blv": "BLV PHAN ANH",
             "is_live": false,
@@ -1824,7 +1753,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_18-00 17-05_97f1b445_20260517.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Bùi Trường An_18-00 17-05_c34b4302_20260517.png?v=c34b4302",
             "width": 1600,
             "height": 1200
           }
