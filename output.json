@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:40 17/05/2026",
+  "updated_at": "17:00 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1551,6 +1551,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U.N.A.M. - Pumas_CF Pachuca_08-00 18-05_c74e7e07_20260517.png?v=c74e7e07",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0f52f0024c",
+          "name": "Zorya Luhansk vs Polessya | 17:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f52f0024c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0f52f0024c",
+                  "name": "Zorya Luhansk vs Polessya",
+                  "streams": [
+                    {
+                      "id": "st-0f52f0024c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Zorya Luhansk",
+            "team_b": "Polessya",
+            "logo_a": "https://media.api-sports.io/football/teams/599.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6496.png",
+            "time": "17:00 18/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zorya Luhansk_Polessya_17-00 18-05_599caf25_20260517.png?v=599caf25",
             "width": 1600,
             "height": 1200
           }
