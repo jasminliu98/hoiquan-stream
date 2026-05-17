@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:05 17/05/2026",
+  "updated_at": "19:35 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1542,86 +1542,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Bùi Trường An_18-00 17-05_c34b4302_20260517.png?v=c34b4302",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-5c46fdc0fe",
-          "name": "Zhejiang Guangsha vs Shenzhen | 18:35 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5c46fdc0fe",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5c46fdc0fe",
-                  "name": "Zhejiang Guangsha vs Shenzhen",
-                  "streams": [
-                    {
-                      "id": "st-5c46fdc0fe",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f1d53f75",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA",
-            "team_a": "Zhejiang Guangsha",
-            "team_b": "Shenzhen",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
-            "time": "18:35 17/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhejiang Guangsha_Shenzhen_18-35 17-05_a04f3217_20260517.png?v=a04f3217",
             "width": 1600,
             "height": 1200
           }
