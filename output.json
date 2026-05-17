@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:35 17/05/2026",
+  "updated_at": "07:00 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1833,6 +1833,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atletico Paranaense_Flamengo_05-30 18-05_ff1bfca1_20260517.png?v=ff1bfca1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4876fad6fe",
+          "name": "Nashville SC vs Los Angeles FC | 07:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4876fad6fe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4876fad6fe",
+                  "name": "Nashville SC vs Los Angeles FC",
+                  "streams": [
+                    {
+                      "id": "st-4876fad6fe",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "Nashville SC",
+            "team_b": "Los Angeles FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nashville_SC_logo%2C_2020.svg/250px-Nashville_SC_logo%2C_2020.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/86/Los_Angeles_Football_Club.svg",
+            "time": "07:00 18/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nashville SC_Los Angeles FC_07-00 18-05_4d12a8b4_20260517.png?v=4d12a8b4",
             "width": 1600,
             "height": 1200
           }
