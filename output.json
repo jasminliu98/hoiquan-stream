@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:30 17/05/2026",
+  "updated_at": "23:35 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,77 @@
           }
         },
         {
+          "id": "hqlive-8db2d9b36a",
+          "name": "Athletic Club vs Celta Vigo | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8db2d9b36a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8db2d9b36a",
+                  "name": "Athletic Club vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-8db2d9b36a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Athletic Club",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/538.png",
+            "time": "00:00 18/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Athletic Club_Celta Vigo_00-00 18-05_c0cb518c_20260517.png?v=c0cb518c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-79bff49886",
           "name": "Rayo Vallecano vs Villarreal | 00:00 18/05",
           "type": "single",
@@ -373,59 +444,6 @@
           }
         },
         {
-          "id": "hqlive-8db2d9b36a",
-          "name": "Athletic Club vs Celta Vigo | 00:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8db2d9b36a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8db2d9b36a",
-                  "name": "Athletic Club vs Celta Vigo",
-                  "streams": [
-                    {
-                      "id": "st-8db2d9b36a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Athletic Club",
-            "team_b": "Celta Vigo",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/538.png",
-            "time": "00:00 18/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Athletic Club_Celta Vigo_00-00 18-05_c0cb518c_20260517.png?v=c0cb518c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-1bf89ce718",
           "name": "Sevilla vs Real Madrid | 00:00 18/05",
           "type": "single",
@@ -433,10 +451,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -451,7 +469,25 @@
                     {
                       "id": "st-1bf89ce718",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -466,7 +502,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png",
             "time": "00:00 18/05",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
