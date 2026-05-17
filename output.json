@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:20 18/05/2026",
+  "updated_at": "01:30 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1146,6 +1146,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AFC Hermannstadt_FCSB_00-30 19-05_a4744043_20260518.png?v=a4744043",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-155f529cb2",
+          "name": "Leganes vs Huesca | 01:30 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-155f529cb2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-155f529cb2",
+                  "name": "Leganes vs Huesca",
+                  "streams": [
+                    {
+                      "id": "st-155f529cb2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Leganes",
+            "team_b": "Huesca",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvyGdww4kYwjfOM2mGp372JjjT0bOqLABkKg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Logo_of_SD_Huesca.svg/1280px-Logo_of_SD_Huesca.svg.png",
+            "time": "01:30 19/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Leganes_Huesca_01-30 19-05_81665955_20260518.png?v=81665955",
             "width": 1600,
             "height": 1200
           }
