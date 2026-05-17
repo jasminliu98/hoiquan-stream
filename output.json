@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 17/05/2026",
+  "updated_at": "20:35 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -160,6 +160,148 @@
           }
         },
         {
+          "id": "hqlive-740eef74da",
+          "name": "Brentford vs Crystal Palace | 21:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-740eef74da",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-740eef74da",
+                  "name": "Brentford vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-740eef74da",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Brentford",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
+            "time": "21:00 17/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brentford_Crystal Palace_21-00 17-05_9005329d_20260517.png?v=9005329d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1d6b649caa",
+          "name": "Everton vs Sunderland | 21:00 17/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d6b649caa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1d6b649caa",
+                  "name": "Everton vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "st-1d6b649caa",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1498791d5",
+                          "name": "BLV CỦ HÀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Everton",
+            "team_b": "Sunderland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
+            "time": "21:00 17/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Everton_Sunderland_21-00 17-05_52a96b79_20260517.png?v=52a96b79",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-5a738165bd",
           "name": "Leeds vs Brighton | 21:00 17/05",
           "type": "single",
@@ -302,112 +444,6 @@
           }
         },
         {
-          "id": "hqlive-740eef74da",
-          "name": "Brentford vs Crystal Palace | 21:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-740eef74da",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-740eef74da",
-                  "name": "Brentford vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-740eef74da",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Brentford",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
-            "time": "21:00 17/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brentford_Crystal Palace_21-00 17-05_9005329d_20260517.png?v=9005329d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1d6b649caa",
-          "name": "Everton vs Sunderland | 21:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d6b649caa",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1d6b649caa",
-                  "name": "Everton vs Sunderland",
-                  "streams": [
-                    {
-                      "id": "st-1d6b649caa",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Everton",
-            "team_b": "Sunderland",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
-            "time": "21:00 17/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Everton_Sunderland_21-00 17-05_52a96b79_20260517.png?v=52a96b79",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-40abf719a6",
           "name": "Santos vs Coritiba | 21:00 17/05",
           "type": "single",
@@ -415,10 +451,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -433,7 +469,25 @@
                     {
                       "id": "st-40abf719a6",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -448,7 +502,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/500px-Coritiba_Foot_Ball_Club_logo.svg.png",
             "time": "21:00 17/05",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
