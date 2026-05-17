@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:05 17/05/2026",
+  "updated_at": "23:20 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,77 @@
           }
         },
         {
+          "id": "hqlive-79bff49886",
+          "name": "Rayo Vallecano vs Villarreal | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79bff49886",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-79bff49886",
+                  "name": "Rayo Vallecano vs Villarreal",
+                  "streams": [
+                    {
+                      "id": "st-79bff49886",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4d653008a",
+                          "name": "BLV PHAN HÀ LINH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Villarreal",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/70/Villarreal_CF_logo.svg",
+            "time": "00:00 18/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rayo Vallecano_Villarreal_00-00 18-05_b49df1f6_20260517.png?v=b49df1f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-8db2d9b36a",
           "name": "Athletic Club vs Celta Vigo | 00:00 18/05",
           "type": "single",
@@ -279,59 +350,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Athletic Club_Celta Vigo_00-00 18-05_c0cb518c_20260517.png?v=c0cb518c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-79bff49886",
-          "name": "Rayo Vallecano vs Villarreal | 00:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79bff49886",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-79bff49886",
-                  "name": "Rayo Vallecano vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "st-79bff49886",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Rayo Vallecano",
-            "team_b": "Villarreal",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/70/Villarreal_CF_logo.svg",
-            "time": "00:00 18/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rayo Vallecano_Villarreal_00-00 18-05_b49df1f6_20260517.png?v=b49df1f6",
             "width": 1600,
             "height": 1200
           }
