@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:00 18/05/2026",
+  "updated_at": "04:15 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-a0fc8a3a52",
-          "name": "Barcelona vs Real Betis | 02:15 18/05",
+          "id": "hqlive-00ae8584cd",
+          "name": "Inter Miami vs Portland Timbers | 05:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-a0fc8a3a52",
+              "id": "src-00ae8584cd",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-a0fc8a3a52",
-                  "name": "Barcelona vs Real Betis",
+                  "id": "ct-00ae8584cd",
+                  "name": "Inter Miami vs Portland Timbers",
                   "streams": [
                     {
-                      "id": "st-a0fc8a3a52",
+                      "id": "st-00ae8584cd",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -69,59 +69,6 @@
             }
           ],
           "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Barcelona",
-            "team_b": "Real Betis",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg",
-            "time": "02:15 18/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona_Real Betis_02-15 18-05_86d6bf0b_20260518.png?v=86d6bf0b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-00ae8584cd",
-          "name": "Inter Miami vs Portland Timbers | 05:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-00ae8584cd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-00ae8584cd",
-                  "name": "Inter Miami vs Portland Timbers",
-                  "streams": [
-                    {
-                      "id": "st-00ae8584cd",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Major League Soccer",
             "team_a": "Inter Miami",
             "team_b": "Portland Timbers",
@@ -129,7 +76,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Portland_Timbers_logo.svg/250px-Portland_Timbers_logo.svg.png",
             "time": "05:00 18/05",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
