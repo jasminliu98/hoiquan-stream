@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:10 18/05/2026",
+  "updated_at": "01:15 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1469,8 +1469,8 @@
           }
         },
         {
-          "id": "hqlive-1936d853ef",
-          "name": "Ben Shelton vs Marta Kostuyk | 20:00 18/05",
+          "id": "hqlive-dee2a64340",
+          "name": "Ben Shelton vs Marcos Giron | 20:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1484,15 +1484,15 @@
           ],
           "sources": [
             {
-              "id": "src-1936d853ef",
+              "id": "src-dee2a64340",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-1936d853ef",
-                  "name": "Ben Shelton vs Marta Kostuyk",
+                  "id": "ct-dee2a64340",
+                  "name": "Ben Shelton vs Marcos Giron",
                   "streams": [
                     {
-                      "id": "st-1936d853ef",
+                      "id": "st-dee2a64340",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1504,9 +1504,9 @@
           "org_metadata": {
             "league": "ATP500 Hamburg",
             "team_a": "Ben Shelton",
-            "team_b": "Marta Kostuyk",
+            "team_b": "Marcos Giron",
             "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "logo_b": "https://www.tennisnerd.net/wp-content/uploads/2025/05/Marta-Kostyuk-1024x546.webp",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
             "time": "20:00 18/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -1516,7 +1516,113 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marta Kostuyk_20-00 18-05_26cd5b37_20260518.png?v=26cd5b37",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marcos Giron_20-00 18-05_82a02c83_20260518.png?v=82a02c83",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-19a38e99fa",
+          "name": "Jakub Mensik vs Jan-Lennard Struff | 23:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19a38e99fa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-19a38e99fa",
+                  "name": "Jakub Mensik vs Jan-Lennard Struff",
+                  "streams": [
+                    {
+                      "id": "st-19a38e99fa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Jakub Mensik",
+            "team_b": "Jan-Lennard Struff",
+            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_04_01/mensik-1931-8728.jpg.webp",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Struff_MCM23_%2837%29_%2852883307264%29.jpg",
+            "time": "23:00 18/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jakub Mensik_Jan-Lennard Struff_23-00 18-05_9aa52361_20260518.png?v=9aa52361",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4a0c74144f",
+          "name": "Raul Brancaccio vs Stan Wawrinka | 23:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a0c74144f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4a0c74144f",
+                  "name": "Raul Brancaccio vs Stan Wawrinka",
+                  "streams": [
+                    {
+                      "id": "st-4a0c74144f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Raul Brancaccio",
+            "team_b": "Stan Wawrinka",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0sLvUiteObknwuNumTvHfqkY7kiS22npOxA&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Wawrinka_RG19_%2816%29_%2848199015787%29.jpg/960px-Wawrinka_RG19_%2816%29_%2848199015787%29.jpg",
+            "time": "23:00 18/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Raul Brancaccio_Stan Wawrinka_23-00 18-05_1200969c_20260518.png?v=1200969c",
             "width": 1600,
             "height": 1200
           }
