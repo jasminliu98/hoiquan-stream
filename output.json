@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 18/05/2026",
+  "updated_at": "01:10 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1243,6 +1243,280 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhejiang Guangsha_Shenzhen_18-35 18-05_a04f3217_20260518.png?v=a04f3217",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-3c1d34e8f5",
+          "name": "Sebastian Baez vs Alex Michelsen | 15:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c1d34e8f5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3c1d34e8f5",
+                  "name": "Sebastian Baez vs Alex Michelsen",
+                  "streams": [
+                    {
+                      "id": "st-3c1d34e8f5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Sebastian Baez",
+            "team_b": "Alex Michelsen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Baez_RG22_%28cropped%29.jpg/960px-Baez_RG22_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvneYn5hB7L6f1h2sACsiTINILVfLie-TW2A&s",
+            "time": "15:30 18/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sebastian Baez_Alex Michelsen_15-30 18-05_e0b60968_20260518.png?v=e0b60968",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f684ada48c",
+          "name": "Arthur Rinderknech vs Thiago Agustin Tirante | 17:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f684ada48c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f684ada48c",
+                  "name": "Arthur Rinderknech vs Thiago Agustin Tirante",
+                  "streams": [
+                    {
+                      "id": "st-f684ada48c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Arthur Rinderknech",
+            "team_b": "Thiago Agustin Tirante",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cS73cD5Bq_Zse5RpXo_speC3fE8OJly8zw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfnF-6AxdWi9r7RXTgmf5Hc_ffzGBupG0Y2A&s",
+            "time": "17:00 18/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arthur Rinderknech_Thiago Agustin Tirante_17-00 18-05_a1b1167a_20260518.png?v=a1b1167a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b9c93a7588",
+          "name": "Francisco Cerundolo vs Alex de Minaur | 17:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9c93a7588",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b9c93a7588",
+                  "name": "Francisco Cerundolo vs Alex de Minaur",
+                  "streams": [
+                    {
+                      "id": "st-b9c93a7588",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Francisco Cerundolo",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
+            "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
+            "time": "17:00 18/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Francisco Cerundolo_Alex de Minaur_17-00 18-05_a9f9b4ed_20260518.png?v=a9f9b4ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-518b1b1ce1",
+          "name": "Stefanos Tsitsipas vs Giovanni Mpetshi Perricard | 18:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-518b1b1ce1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-518b1b1ce1",
+                  "name": "Stefanos Tsitsipas vs Giovanni Mpetshi Perricard",
+                  "streams": [
+                    {
+                      "id": "st-518b1b1ce1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Stefanos Tsitsipas",
+            "team_b": "Giovanni Mpetshi Perricard",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWm8CBcQz1IvkNxRxcrUjG2os8GIeQt4j7Ww&s",
+            "logo_b": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
+            "time": "18:30 18/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stefanos Tsitsipas_Giovanni Mpetshi Perricard_18-30 18-05_6962ad44_20260518.png?v=6962ad44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1936d853ef",
+          "name": "Ben Shelton vs Marta Kostuyk | 20:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1936d853ef",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1936d853ef",
+                  "name": "Ben Shelton vs Marta Kostuyk",
+                  "streams": [
+                    {
+                      "id": "st-1936d853ef",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Ben Shelton",
+            "team_b": "Marta Kostuyk",
+            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "logo_b": "https://www.tennisnerd.net/wp-content/uploads/2025/05/Marta-Kostyuk-1024x546.webp",
+            "time": "20:00 18/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marta Kostuyk_20-00 18-05_26cd5b37_20260518.png?v=26cd5b37",
             "width": 1600,
             "height": 1200
           }
