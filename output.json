@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:30 17/05/2026",
+  "updated_at": "22:00 17/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1393,6 +1393,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kerala Blasters_Goa_21-00 18-05_d94469ee_20260517.png?v=d94469ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c58f8acdf6",
+          "name": "Lahti vs VPS | 22:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c58f8acdf6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c58f8acdf6",
+                  "name": "Lahti vs VPS",
+                  "streams": [
+                    {
+                      "id": "st-c58f8acdf6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Lahti",
+            "team_b": "VPS",
+            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
+            "logo_b": "https://media.api-sports.io/football/teams/650.png",
+            "time": "22:00 18/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lahti_VPS_22-00 18-05_453390a3_20260517.png?v=453390a3",
             "width": 1600,
             "height": 1200
           }
