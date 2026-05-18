@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 18/05/2026",
+  "updated_at": "19:25 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -631,82 +631,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b9c93a7588",
-          "name": "Francisco Cerundolo vs Alex de Minaur | 17:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9c93a7588",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b9c93a7588",
-                  "name": "Francisco Cerundolo vs Alex de Minaur",
-                  "streams": [
-                    {
-                      "id": "st-b9c93a7588",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Hamburg",
-            "team_a": "Francisco Cerundolo",
-            "team_b": "Alex de Minaur",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
-            "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
-            "time": "17:00 18/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Francisco Cerundolo_Alex de Minaur_17-00 18-05_a9f9b4ed_20260518.png?v=a9f9b4ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-518b1b1ce1",
           "name": "Stefanos Tsitsipas vs Giovanni Mpetshi Perricard | 18:30 18/05",
