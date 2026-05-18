@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:15 19/05/2026",
+  "updated_at": "02:25 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -693,82 +693,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-19a38e99fa",
-          "name": "Jakub Mensik vs Jan-Lennard Struff | 23:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19a38e99fa",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-19a38e99fa",
-                  "name": "Jakub Mensik vs Jan-Lennard Struff",
-                  "streams": [
-                    {
-                      "id": "st-19a38e99fa",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27b23108c0",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Hamburg",
-            "team_a": "Jakub Mensik",
-            "team_b": "Jan-Lennard Struff",
-            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_04_01/mensik-1931-8728.jpg.webp",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Struff_MCM23_%2837%29_%2852883307264%29.jpg",
-            "time": "23:00 18/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jakub Mensik_Jan-Lennard Struff_23-00 18-05_9aa52361_20260519.png?v=9aa52361",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4a0c74144f",
           "name": "Raul Brancaccio vs Stan Wawrinka | 23:00 18/05",
