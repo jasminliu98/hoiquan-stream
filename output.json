@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 18/05/2026",
+  "updated_at": "23:00 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-dccbaf0fbe",
-          "name": "Kerala Blasters vs Goa | 21:00 18/05",
+          "id": "hqlive-fff6cafb9c",
+          "name": "AFC Hermannstadt vs FCSB | 00:30 19/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-dccbaf0fbe",
+              "id": "src-fff6cafb9c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-dccbaf0fbe",
-                  "name": "Kerala Blasters vs Goa",
+                  "id": "ct-fff6cafb9c",
+                  "name": "AFC Hermannstadt vs FCSB",
                   "streams": [
                     {
-                      "id": "st-dccbaf0fbe",
+                      "id": "st-fff6cafb9c",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -69,59 +69,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Indian Super League",
-            "team_a": "Kerala Blasters",
-            "team_b": "Goa",
-            "logo_a": "https://media.api-sports.io/football/teams/3477.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/7/72/FC_Goa.png",
-            "time": "21:00 18/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kerala Blasters_Goa_21-00 18-05_d94469ee_20260518.png?v=d94469ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-fff6cafb9c",
-          "name": "AFC Hermannstadt vs FCSB | 00:30 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fff6cafb9c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-fff6cafb9c",
-                  "name": "AFC Hermannstadt vs FCSB",
-                  "streams": [
-                    {
-                      "id": "st-fff6cafb9c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Liga I",
             "team_a": "AFC Hermannstadt",
             "team_b": "FCSB",
@@ -129,7 +76,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/78/Fcsb-logo.svg",
             "time": "00:30 19/05",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
