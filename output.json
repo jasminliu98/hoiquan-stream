@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:05 19/05/2026",
+  "updated_at": "01:30 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -508,6 +508,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan U17_Uzbekistan U17_22-00 19-05_f9a002f4_20260519.png?v=f9a002f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a987165984",
+          "name": "Bournemouth vs Manchester City | 01:30 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a987165984",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a987165984",
+                  "name": "Bournemouth vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-a987165984",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Bournemouth",
+            "team_b": "Manchester City",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/hif/5/53/AFC_Bournemouth_%282013%29.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
+            "time": "01:30 20/05",
+            "blv": "BLV PHAN CHỚP, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bournemouth_Manchester City_01-30 20-05_5c5c44eb_20260519.png?v=5c5c44eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ca1fa218b4",
+          "name": "China PR U17 vs Australia U17 | 01:30 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca1fa218b4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ca1fa218b4",
+                  "name": "China PR U17 vs Australia U17",
+                  "streams": [
+                    {
+                      "id": "st-ca1fa218b4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "China PR U17",
+            "team_b": "Australia U17",
+            "logo_a": "https://media.api-sports.io/football/teams/21449.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19076.png",
+            "time": "01:30 20/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Australia U17_01-30 20-05_457b9ab6_20260519.png?v=457b9ab6",
             "width": 1600,
             "height": 1200
           }
