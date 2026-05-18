@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:25 19/05/2026",
+  "updated_at": "04:00 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-e41a10261b",
-          "name": "Arsenal vs Burnley | 02:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e41a10261b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e41a10261b",
-                  "name": "Arsenal vs Burnley",
-                  "streams": [
-                    {
-                      "id": "st-e41a10261b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Arsenal",
-            "team_b": "Burnley",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/1a/Burnley_FC.png",
-            "time": "02:00 19/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arsenal_Burnley_02-00 19-05_d07ee0c9_20260519.png?v=d07ee0c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8a650db0a1",
           "name": "Guayaquil City FC vs Orense SC | 07:00 19/05",
