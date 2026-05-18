@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:40 18/05/2026",
+  "updated_at": "19:00 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-0f52f0024c",
-          "name": "Zorya Luhansk vs Polessya | 17:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f52f0024c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0f52f0024c",
-                  "name": "Zorya Luhansk vs Polessya",
-                  "streams": [
-                    {
-                      "id": "st-0f52f0024c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ukraine",
-            "team_a": "Zorya Luhansk",
-            "team_b": "Polessya",
-            "logo_a": "https://media.api-sports.io/football/teams/599.png",
-            "logo_b": "https://media.api-sports.io/football/teams/6496.png",
-            "time": "17:00 18/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zorya Luhansk_Polessya_17-00 18-05_599caf25_20260518.png?v=599caf25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-dccbaf0fbe",
           "name": "Kerala Blasters vs Goa | 21:00 18/05",
@@ -508,6 +437,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Henan Jianye_18-35 19-05_39ed5037_20260518.png?v=39ed5037",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2b6f7b1032",
+          "name": "Chengdu Better City vs SHANGHAI SIPG | 19:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b6f7b1032",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2b6f7b1032",
+                  "name": "Chengdu Better City vs SHANGHAI SIPG",
+                  "streams": [
+                    {
+                      "id": "st-2b6f7b1032",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Chengdu Better City",
+            "team_b": "SHANGHAI SIPG",
+            "logo_a": "https://media.api-sports.io/football/teams/5648.png",
+            "logo_b": "https://media.api-sports.io/football/teams/836.png",
+            "time": "19:00 19/05",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chengdu Better City_SHANGHAI SIPG_19-00 19-05_ab09b7df_20260518.png?v=ab09b7df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a9db7e56ae",
+          "name": "Qingdao Youth Island vs Beijing Guoan | 19:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9db7e56ae",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a9db7e56ae",
+                  "name": "Qingdao Youth Island vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-a9db7e56ae",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Qingdao Youth Island",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://media.api-sports.io/football/teams/17265.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "time": "19:00 19/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Beijing Guoan_19-00 19-05_32abdb32_20260518.png?v=32abdb32",
             "width": 1600,
             "height": 1200
           }
