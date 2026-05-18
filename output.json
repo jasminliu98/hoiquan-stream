@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:10 18/05/2026",
+  "updated_at": "18:35 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -402,6 +402,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guayaquil City FC_Orense SC_07-00 19-05_4d5f3eb1_20260518.png?v=4d5f3eb1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3b4335e3bc",
+          "name": "Sichuan Jiuniu vs Dalian Zhixing | 18:35 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b4335e3bc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3b4335e3bc",
+                  "name": "Sichuan Jiuniu vs Dalian Zhixing",
+                  "streams": [
+                    {
+                      "id": "st-3b4335e3bc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Sichuan Jiuniu",
+            "team_b": "Dalian Zhixing",
+            "logo_a": "https://media.api-sports.io/football/teams/5686.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21263.png",
+            "time": "18:35 19/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sichuan Jiuniu_Dalian Zhixing_18-35 19-05_93ca7c9e_20260518.png?v=93ca7c9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-35915342cf",
+          "name": "Tianjin Teda vs Henan Jianye | 18:35 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35915342cf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-35915342cf",
+                  "name": "Tianjin Teda vs Henan Jianye",
+                  "streams": [
+                    {
+                      "id": "st-35915342cf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Tianjin Teda",
+            "team_b": "Henan Jianye",
+            "logo_a": "https://media.api-sports.io/football/teams/837.png",
+            "logo_b": "https://media.api-sports.io/football/teams/840.png",
+            "time": "18:35 19/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tianjin Teda_Henan Jianye_18-35 19-05_39ed5037_20260518.png?v=39ed5037",
             "width": 1600,
             "height": 1200
           }
