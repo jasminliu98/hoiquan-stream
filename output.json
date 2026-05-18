@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:05 18/05/2026",
+  "updated_at": "15:40 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -487,11 +487,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
+                          "id": "lnk-27b23108c0",
+                          "name": "BLV PHAN TỪ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "url": "https://yvm80526.edgemaxcdn.org/live/hqtv_blv_phantu/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -517,7 +517,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Baez_RG22_%28cropped%29.jpg/960px-Baez_RG22_%28cropped%29.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvneYn5hB7L6f1h2sACsiTINILVfLie-TW2A&s",
             "time": "15:30 18/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
           },
@@ -729,7 +729,7 @@
             "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
             "time": "20:00 18/05",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "tennis"
           },
