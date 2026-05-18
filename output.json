@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:40 19/05/2026",
+  "updated_at": "02:50 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -906,6 +906,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 19-05_cacf1340_20260519.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ro",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-4d7f5b45b8",
+          "name": "Oklahoma City Thunder vs San Antonio Spurs | 07:30 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d7f5b45b8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4d7f5b45b8",
+                  "name": "Oklahoma City Thunder vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-4d7f5b45b8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "time": "07:30 19/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-30 19-05_280346f3_20260519.png?v=280346f3",
             "width": 1600,
             "height": 1200
           }
