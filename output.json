@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:50 18/05/2026",
+  "updated_at": "17:00 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -340,7 +340,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/1a/Burnley_FC.png",
             "time": "02:00 19/05",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN MÃ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
