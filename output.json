@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:55 18/05/2026",
+  "updated_at": "10:10 18/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a464bad599",
-          "name": "U.N.A.M. - Pumas vs CF Pachuca | 08:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a464bad599",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a464bad599",
-                  "name": "U.N.A.M. - Pumas vs CF Pachuca",
-                  "streams": [
-                    {
-                      "id": "st-a464bad599",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga MX",
-            "team_a": "U.N.A.M. - Pumas",
-            "team_b": "CF Pachuca",
-            "logo_a": "https://media.api-sports.io/football/teams/2286.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2292.png",
-            "time": "08:00 18/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U.N.A.M. - Pumas_CF Pachuca_08-00 18-05_c74e7e07_20260518.png?v=c74e7e07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-0f52f0024c",
           "name": "Zorya Luhansk vs Polessya | 17:00 18/05",
