@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:20 20/05/2026",
+  "updated_at": "00:50 20/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1277,6 +1277,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Altmaier_Ben Shelton_23-00 19-05_da8a331d_20260520.png?v=da8a331d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5857c27e1a",
+          "name": "Stefanos Tsitsipas vs Learner Tien | 15:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5857c27e1a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5857c27e1a",
+                  "name": "Stefanos Tsitsipas vs Learner Tien",
+                  "streams": [
+                    {
+                      "id": "st-5857c27e1a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Stefanos Tsitsipas",
+            "team_b": "Learner Tien",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWm8CBcQz1IvkNxRxcrUjG2os8GIeQt4j7Ww&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
+            "time": "15:00 20/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stefanos Tsitsipas_Learner Tien_15-00 20-05_28e8dad9_20260520.png?v=28e8dad9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8465468772",
+          "name": "Felix Auger-Aliassime vs Alexei Popyrin | 17:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8465468772",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8465468772",
+                  "name": "Felix Auger-Aliassime vs Alexei Popyrin",
+                  "streams": [
+                    {
+                      "id": "st-8465468772",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Felix Auger-Aliassime",
+            "team_b": "Alexei Popyrin",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9rAnTZYoVrPrRYk6v42jOGyuryeGBsKbyFA&s",
+            "time": "17:00 20/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Alexei Popyrin_17-00 20-05_79035642_20260520.png?v=79035642",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cbfd979f98",
+          "name": "Alejandro Davidovich Fokina vs Alex de Minaur | 20:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbfd979f98",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cbfd979f98",
+                  "name": "Alejandro Davidovich Fokina vs Alex de Minaur",
+                  "streams": [
+                    {
+                      "id": "st-cbfd979f98",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Alejandro Davidovich Fokina",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
+            "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
+            "time": "20:00 20/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alejandro Davidovich Fokina_Alex de Minaur_20-00 20-05_a55eb707_20260520.png?v=a55eb707",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a40820febf",
+          "name": "Stan Wawrinka vs Alex Michelsen | 23:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a40820febf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a40820febf",
+                  "name": "Stan Wawrinka vs Alex Michelsen",
+                  "streams": [
+                    {
+                      "id": "st-a40820febf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Stan Wawrinka",
+            "team_b": "Alex Michelsen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Wawrinka_RG19_%2816%29_%2848199015787%29.jpg/960px-Wawrinka_RG19_%2816%29_%2848199015787%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvneYn5hB7L6f1h2sACsiTINILVfLie-TW2A&s",
+            "time": "23:00 20/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stan Wawrinka_Alex Michelsen_23-00 20-05_a125ee61_20260520.png?v=a125ee61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-755ed8e9e8",
+          "name": "Marin Cillic vs Alexander Bublik | 01:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-755ed8e9e8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-755ed8e9e8",
+                  "name": "Marin Cillic vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-755ed8e9e8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Marin Cillic",
+            "team_b": "Alexander Bublik",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwI_X3UCZTlK7-rF2yQb_zvNTKC3PrjkEWQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg/250px-Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg",
+            "time": "01:00 21/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marin Cillic_Alexander Bublik_01-00 21-05_e36ffd04_20260520.png?v=e36ffd04",
             "width": 1600,
             "height": 1200
           }
