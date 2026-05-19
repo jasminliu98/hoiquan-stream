@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:00 19/05/2026",
+  "updated_at": "16:10 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -230,59 +230,6 @@
           }
         },
         {
-          "id": "hqlive-f38cde0a89",
-          "name": "FC Noah vs Ararat | 22:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f38cde0a89",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f38cde0a89",
-                  "name": "FC Noah vs Ararat",
-                  "streams": [
-                    {
-                      "id": "st-f38cde0a89",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "FC Noah",
-            "team_b": "Ararat",
-            "logo_a": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072024/noa_erevan_armeniya.jpg?uY.4iyP71.IUrYKW4zofa.9TrGE4PAdC&itok=2IIKrnfc",
-            "logo_b": "https://media.api-sports.io/football/teams/3682.png",
-            "time": "22:00 19/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Noah_Ararat_22-00 19-05_767d7aba_20260519.png?v=767d7aba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-4a6c043433",
           "name": "Japan U17 vs Uzbekistan U17 | 22:00 19/05",
           "type": "single",
@@ -322,7 +269,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/12511.png",
             "logo_b": "https://media.api-sports.io/football/teams/21446.png",
             "time": "22:00 19/05",
-            "blv": "BLV PHAN CHỚP",
+            "blv": "BLV CỦ HÀNH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
