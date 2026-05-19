@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:15 20/05/2026",
+  "updated_at": "05:00 20/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SC Freiburg_Aston Villa_02-00 21-05_ec320bf2_20260520.png?v=ec320bf2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-714295aeca",
+          "name": "Santos vs San Lorenzo | 05:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-714295aeca",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-714295aeca",
+                  "name": "Santos vs San Lorenzo",
+                  "streams": [
+                    {
+                      "id": "st-714295aeca",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Sudamericana",
+            "team_a": "Santos",
+            "team_b": "San Lorenzo",
+            "logo_a": "https://media.api-sports.io/football/teams/128.png",
+            "logo_b": "https://media.api-sports.io/football/teams/460.png",
+            "time": "05:00 21/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_San Lorenzo_05-00 21-05_f9e06cb9_20260520.png?v=f9e06cb9",
             "width": 1600,
             "height": 1200
           }
