@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:10 19/05/2026",
+  "updated_at": "21:15 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-2b6f7b1032",
-          "name": "Chengdu Better City vs SHANGHAI SIPG | 19:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b6f7b1032",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2b6f7b1032",
-                  "name": "Chengdu Better City vs SHANGHAI SIPG",
-                  "streams": [
-                    {
-                      "id": "st-2b6f7b1032",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4d653008a",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Chengdu Better City",
-            "team_b": "SHANGHAI SIPG",
-            "logo_a": "https://media.api-sports.io/football/teams/5648.png",
-            "logo_b": "https://media.api-sports.io/football/teams/836.png",
-            "time": "19:00 19/05",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chengdu Better City_SHANGHAI SIPG_19-00 19-05_ab09b7df_20260519.png?v=ab09b7df",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4a6c043433",
           "name": "Japan U17 vs Uzbekistan U17 | 22:00 19/05",
@@ -593,6 +522,59 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "hqlive-402142c050",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 09:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-402142c050",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-402142c050",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-402142c050",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PERODUA Malaysia Masters 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "09:00 20/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_09-00 20-05_cacf1340_20260519.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-a9644fe844",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 10:00 20/05",
           "type": "single",
@@ -632,7 +614,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "10:00 20/05",
-            "blv": "BLV PHAN BÁCH, BLV PHAN CA",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "cau-long"
           },
@@ -699,8 +681,8 @@
           }
         },
         {
-          "id": "hqlive-08029292ef",
-          "name": "Nguyễn Thùy Linh vs Nguyễn Thùy Linh | 19:00 20/05",
+          "id": "hqlive-c5853e3062",
+          "name": "Nguyễn Thùy Linh vs WONG Ling Ching | 18:00 20/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -714,15 +696,15 @@
           ],
           "sources": [
             {
-              "id": "src-08029292ef",
+              "id": "src-c5853e3062",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-08029292ef",
-                  "name": "Nguyễn Thùy Linh vs Nguyễn Thùy Linh",
+                  "id": "ct-c5853e3062",
+                  "name": "Nguyễn Thùy Linh vs WONG Ling Ching",
                   "streams": [
                     {
-                      "id": "st-08029292ef",
+                      "id": "st-c5853e3062",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -734,10 +716,10 @@
           "org_metadata": {
             "league": "PERODUA Malaysia Masters 2026",
             "team_a": "Nguyễn Thùy Linh",
-            "team_b": "Nguyễn Thùy Linh",
+            "team_b": "WONG Ling Ching",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShZ8ZxCLsoaIyb_Ezu6YskGKkBQ9oAEPUGvw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShZ8ZxCLsoaIyb_Ezu6YskGKkBQ9oAEPUGvw&s",
-            "time": "19:00 20/05",
+            "logo_b": "https://img.bwfbadminton.com/image/upload/t_96_player_profile_portrait/v1753838863/assets/players/thumbnail/77296.png",
+            "time": "18:00 20/05",
             "blv": "BLV PHAN MÃ",
             "is_live": false,
             "sport_slug": "cau-long"
@@ -746,7 +728,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nguyễn Thùy Linh_Nguyễn Thùy Linh_19-00 20-05_a5e82296_20260519.png?v=a5e82296",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nguyễn Thùy Linh_WONG Ling Ching_18-00 20-05_d4b1e0d4_20260519.png?v=d4b1e0d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-52b2fbacfa",
+          "name": "Koki WATANABE vs Christo POPOV | 19:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52b2fbacfa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-52b2fbacfa",
+                  "name": "Koki WATANABE vs Christo POPOV",
+                  "streams": [
+                    {
+                      "id": "st-52b2fbacfa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PERODUA Malaysia Masters 2026",
+            "team_a": "Koki WATANABE",
+            "team_b": "Christo POPOV",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS58oYNM0xvraqcKZSjTj0oX_AjfSR6SFDxMg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwHo2QgRHGPG6Wa1mWiJJG-DsjDRfNnD-TBw&s",
+            "time": "19:00 20/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Koki WATANABE_Christo POPOV_19-00 20-05_41b3ca6a_20260519.png?v=41b3ca6a",
             "width": 1600,
             "height": 1200
           }
