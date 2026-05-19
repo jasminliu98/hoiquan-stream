@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:35 19/05/2026",
+  "updated_at": "15:55 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -570,6 +570,386 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 19-05_cacf1340_20260519.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ro",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-fbb561a5c4",
+          "name": "New York Knicks vs Cleveland Cavaliers | 07:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbb561a5c4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fbb561a5c4",
+                  "name": "New York Knicks vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-fbb561a5c4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "New York Knicks",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "time": "07:00 20/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New York Knicks_Cleveland Cavaliers_07-00 20-05_c2244b8d_20260519.png?v=c2244b8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-62914b16d3",
+          "name": "Beijing vs Shanghai | 18:35 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62914b16d3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-62914b16d3",
+                  "name": "Beijing vs Shanghai",
+                  "streams": [
+                    {
+                      "id": "st-62914b16d3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Beijing",
+            "team_b": "Shanghai",
+            "logo_a": "https://static.bongda24h.vn/Medias/thumnail/2022/1/25/beijing-guoan.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/3/38/Shanghai_Sharks_logo.png",
+            "time": "18:35 20/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Beijing_Shanghai_18-35 20-05_40b33aaa_20260519.png?v=40b33aaa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-dfdc23731f",
+          "name": "Oklahoma City Thunder vs San Antonio Spurs | 07:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfdc23731f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dfdc23731f",
+                  "name": "Oklahoma City Thunder vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-dfdc23731f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "time": "07:00 21/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-00 21-05_280346f3_20260519.png?v=280346f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2479fd8cbf",
+          "name": "Shenzhen vs Zhejiang Guangsha | 18:35 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2479fd8cbf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2479fd8cbf",
+                  "name": "Shenzhen vs Zhejiang Guangsha",
+                  "streams": [
+                    {
+                      "id": "st-2479fd8cbf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Shenzhen",
+            "team_b": "Zhejiang Guangsha",
+            "logo_a": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
+            "time": "18:35 21/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen_Zhejiang Guangsha_18-35 21-05_e9e7f013_20260519.png?v=e9e7f013",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b5adac41fa",
+          "name": "New York Knicks vs Cleveland Cavaliers | 07:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5adac41fa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b5adac41fa",
+                  "name": "New York Knicks vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-b5adac41fa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "New York Knicks",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "time": "07:00 22/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New York Knicks_Cleveland Cavaliers_07-00 22-05_c2244b8d_20260519.png?v=c2244b8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bd05c77f64",
+          "name": "Beijing vs Shanghai | 18:35 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd05c77f64",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bd05c77f64",
+                  "name": "Beijing vs Shanghai",
+                  "streams": [
+                    {
+                      "id": "st-bd05c77f64",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA",
+            "team_a": "Beijing",
+            "team_b": "Shanghai",
+            "logo_a": "https://static.bongda24h.vn/Medias/thumnail/2022/1/25/beijing-guoan.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/3/38/Shanghai_Sharks_logo.png",
+            "time": "18:35 22/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Beijing_Shanghai_18-35 22-05_40b33aaa_20260519.png?v=40b33aaa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-161d9b9060",
+          "name": "Olympiacos vs Fenerbahce | 22:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-161d9b9060",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-161d9b9060",
+                  "name": "Olympiacos vs Fenerbahce",
+                  "streams": [
+                    {
+                      "id": "st-161d9b9060",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EUROLEAGUE",
+            "team_a": "Olympiacos",
+            "team_b": "Fenerbahce",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e8/Olympiacos_FC_logo.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfeJPS4iwTAFGWhnmgrIZMG5zMOYrU6IZk4A&s",
+            "time": "22:00 22/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Olympiacos_Fenerbahce_22-00 22-05_340dfd07_20260519.png?v=340dfd07",
             "width": 1600,
             "height": 1200
           }
