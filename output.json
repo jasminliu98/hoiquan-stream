@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:55 19/05/2026",
+  "updated_at": "16:00 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -375,7 +375,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/hif/5/53/AFC_Bournemouth_%282013%29.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
             "time": "01:30 20/05",
-            "blv": "BLV PHAN CHỚP, BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -481,7 +481,7 @@
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
             "logo_b": "https://media.api-sports.io/football/teams/47.png",
             "time": "02:15 20/05",
-            "blv": "BLV PHAN MÃ",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -490,6 +490,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chelsea_Tottenham_02-15 20-05_c1142bf6_20260519.png?v=c1142bf6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-29d3889dd1",
+          "name": "Boca Juniors vs Cruzeiro | 07:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-29d3889dd1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-29d3889dd1",
+                  "name": "Boca Juniors vs Cruzeiro",
+                  "streams": [
+                    {
+                      "id": "st-29d3889dd1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Conmebol Copa Libertado",
+            "team_a": "Boca Juniors",
+            "team_b": "Cruzeiro",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg",
+            "time": "07:00 20/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Boca Juniors_Cruzeiro_07-00 20-05_82af4813_20260519.png?v=82af4813",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8786668ebb",
+          "name": "Independiente Del Valle vs Libertad | 09:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8786668ebb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8786668ebb",
+                  "name": "Independiente Del Valle vs Libertad",
+                  "streams": [
+                    {
+                      "id": "st-8786668ebb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Conmebol Copa Libertado",
+            "team_a": "Independiente Del Valle",
+            "team_b": "Libertad",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Independiente_del_Valle_2022_Logo_Campe%C3%B3n_Sudamericana.png/250px-Independiente_del_Valle_2022_Logo_Campe%C3%B3n_Sudamericana.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18762.png",
+            "time": "09:00 20/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Independiente Del Valle_Libertad_09-00 20-05_6bbc07ca_20260519.png?v=6bbc07ca",
             "width": 1600,
             "height": 1200
           }
