@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 19/05/2026",
+  "updated_at": "23:00 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -508,6 +508,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Selangor_Buriram United_20-00 20-05_b592f7b6_20260519.png?v=b592f7b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-712f5024e3",
+          "name": "Start vs Bodo/Glimt | 23:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-712f5024e3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-712f5024e3",
+                  "name": "Start vs Bodo/Glimt",
+                  "streams": [
+                    {
+                      "id": "st-712f5024e3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eliteserien",
+            "team_a": "Start",
+            "team_b": "Bodo/Glimt",
+            "logo_a": "https://media.api-sports.io/football/teams/334.png",
+            "logo_b": "https://media.api-sports.io/football/teams/327.png",
+            "time": "23:00 20/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Start_Bodo-Glimt_23-00 20-05_f1d084a1_20260519.png?v=f1d084a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-19572dde49",
+          "name": "KuPS vs FF Jaro | 23:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19572dde49",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-19572dde49",
+                  "name": "KuPS vs FF Jaro",
+                  "streams": [
+                    {
+                      "id": "st-19572dde49",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "KuPS",
+            "team_b": "FF Jaro",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/1/13/FF_Jaro_logo.png",
+            "time": "23:00 20/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_FF Jaro_23-00 20-05_1b29879a_20260519.png?v=1b29879a",
             "width": 1600,
             "height": 1200
           }
