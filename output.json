@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 20/05/2026",
+  "updated_at": "01:00 20/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_FF Jaro_23-00 20-05_1b29879a_20260520.png?v=1b29879a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0ef4a4089e",
+          "name": "Al Khaleej Saihat vs Al-Ahli Jeddah | 01:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ef4a4089e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0ef4a4089e",
+                  "name": "Al Khaleej Saihat vs Al-Ahli Jeddah",
+                  "streams": [
+                    {
+                      "id": "st-0ef4a4089e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al Khaleej Saihat",
+            "team_b": "Al-Ahli Jeddah",
+            "logo_a": "https://media.api-sports.io/football/teams/2928.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2929.png",
+            "time": "01:00 21/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Khaleej Saihat_Al-Ahli Jeddah_01-00 21-05_abadb59e_20260520.png?v=abadb59e",
             "width": 1600,
             "height": 1200
           }
