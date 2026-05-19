@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:00 20/05/2026",
+  "updated_at": "01:05 20/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -25,10 +25,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -43,7 +43,25 @@
                     {
                       "id": "st-a987165984",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -58,7 +76,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
             "time": "01:30 20/05",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -78,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -96,7 +114,25 @@
                     {
                       "id": "st-ca1fa218b4",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -111,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/19076.png",
             "time": "01:30 20/05",
             "blv": "BLV PHAN MÃO",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -177,8 +213,8 @@
           }
         },
         {
-          "id": "hqlive-29d3889dd1",
-          "name": "Boca Juniors vs Cruzeiro | 07:00 20/05",
+          "id": "hqlive-213dc52a57",
+          "name": "Boca Juniors vs Cruzeiro | 07:30 20/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -192,15 +228,15 @@
           ],
           "sources": [
             {
-              "id": "src-29d3889dd1",
+              "id": "src-213dc52a57",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-29d3889dd1",
+                  "id": "ct-213dc52a57",
                   "name": "Boca Juniors vs Cruzeiro",
                   "streams": [
                     {
-                      "id": "st-29d3889dd1",
+                      "id": "st-213dc52a57",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -210,12 +246,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Conmebol Copa Libertado",
+            "league": "CONMEBOL Libertadores",
             "team_a": "Boca Juniors",
             "team_b": "Cruzeiro",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg",
-            "time": "07:00 20/05",
+            "time": "07:30 20/05",
             "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-da"
@@ -224,14 +260,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Boca Juniors_Cruzeiro_07-00 20-05_82af4813_20260520.png?v=82af4813",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Boca Juniors_Cruzeiro_07-30 20-05_82af4813_20260520.png?v=82af4813",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-8786668ebb",
-          "name": "Independiente Del Valle vs Libertad | 09:00 20/05",
+          "id": "hqlive-d12e567aa1",
+          "name": "Independiente Del Valle vs Libertad Asuncion | 09:00 20/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -245,15 +281,15 @@
           ],
           "sources": [
             {
-              "id": "src-8786668ebb",
+              "id": "src-d12e567aa1",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-8786668ebb",
-                  "name": "Independiente Del Valle vs Libertad",
+                  "id": "ct-d12e567aa1",
+                  "name": "Independiente Del Valle vs Libertad Asuncion",
                   "streams": [
                     {
-                      "id": "st-8786668ebb",
+                      "id": "st-d12e567aa1",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -265,9 +301,9 @@
           "org_metadata": {
             "league": "Conmebol Copa Libertado",
             "team_a": "Independiente Del Valle",
-            "team_b": "Libertad",
+            "team_b": "Libertad Asuncion",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Independiente_del_Valle_2022_Logo_Campe%C3%B3n_Sudamericana.png/250px-Independiente_del_Valle_2022_Logo_Campe%C3%B3n_Sudamericana.png",
-            "logo_b": "https://media.api-sports.io/football/teams/18762.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1179.png",
             "time": "09:00 20/05",
             "blv": "BLV PHAN ANH",
             "is_live": false,
@@ -277,7 +313,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Independiente Del Valle_Libertad_09-00 20-05_6bbc07ca_20260520.png?v=6bbc07ca",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Independiente Del Valle_Libertad Asuncion_09-00 20-05_a8a7ac57_20260520.png?v=a8a7ac57",
             "width": 1600,
             "height": 1200
           }
