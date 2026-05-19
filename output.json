@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 19/05/2026",
+  "updated_at": "08:10 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -862,6 +862,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-30 19-05_280346f3_20260519.png?v=280346f3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-b1137e62db",
+          "name": "Flavio Cobolli vs Ignacio Buse | 17:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1137e62db",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b1137e62db",
+                  "name": "Flavio Cobolli vs Ignacio Buse",
+                  "streams": [
+                    {
+                      "id": "st-b1137e62db",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Flavio Cobolli",
+            "team_b": "Ignacio Buse",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5HCWkFJv5UCjPj7-UaPNthpNPBvpKpCSD2g&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaDdZBQVJErHrBYSO4n_ujV9a7SR3B_jPfw&s",
+            "time": "17:00 19/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flavio Cobolli_Ignacio Buse_17-00 19-05_1e672ac3_20260519.png?v=1e672ac3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1cb32d262b",
+          "name": "Daniel Altmaier vs Ben Shelton | 23:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cb32d262b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1cb32d262b",
+                  "name": "Daniel Altmaier vs Ben Shelton",
+                  "streams": [
+                    {
+                      "id": "st-1cb32d262b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Daniel Altmaier",
+            "team_b": "Ben Shelton",
+            "logo_a": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
+            "logo_b": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "time": "23:00 19/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Altmaier_Ben Shelton_23-00 19-05_da8a331d_20260519.png?v=da8a331d",
             "width": 1600,
             "height": 1200
           }
