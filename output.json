@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 19/05/2026",
+  "updated_at": "20:00 19/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -650,6 +650,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hangzhou Greentown_Shandong Luneng_19-00 20-05_9f534231_20260519.png?v=9f534231",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-32a5c6aa65",
+          "name": "Selangor vs Buriram United | 20:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32a5c6aa65",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-32a5c6aa65",
+                  "name": "Selangor vs Buriram United",
+                  "streams": [
+                    {
+                      "id": "st-32a5c6aa65",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Selangor",
+            "team_b": "Buriram United",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/d/d7/Selangor_FC_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Buriram_United_logo.svg/250px-Buriram_United_logo.svg.png",
+            "time": "20:00 20/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Selangor_Buriram United_20-00 20-05_b592f7b6_20260519.png?v=b592f7b6",
             "width": 1600,
             "height": 1200
           }
