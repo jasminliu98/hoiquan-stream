@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:25 20/05/2026",
+  "updated_at": "21:45 20/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -546,7 +546,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "VĐQG Ukraine",
             "team_a": "Shakhtar Donetsk",
             "team_b": "Kolos Kovalivka",
             "logo_a": "https://media.api-sports.io/football/teams/550.png",
