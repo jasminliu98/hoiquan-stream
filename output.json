@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:35 21/05/2026",
+  "updated_at": "03:00 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-0ef4a4089e",
-          "name": "Al Khaleej Saihat vs Al-Ahli Jeddah | 01:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ef4a4089e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0ef4a4089e",
-                  "name": "Al Khaleej Saihat vs Al-Ahli Jeddah",
-                  "streams": [
-                    {
-                      "id": "st-0ef4a4089e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f1d53f75",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Pro League",
-            "team_a": "Al Khaleej Saihat",
-            "team_b": "Al-Ahli Jeddah",
-            "logo_a": "https://media.api-sports.io/football/teams/2928.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2929.png",
-            "time": "01:00 21/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Khaleej Saihat_Al-Ahli Jeddah_01-00 21-05_abadb59e_20260521.png?v=abadb59e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-38d37a7ad4",
           "name": "SC Freiburg vs Aston Villa | 02:00 21/05",
