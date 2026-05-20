@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:40 20/05/2026",
+  "updated_at": "09:00 20/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -632,6 +632,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Palmeiras_Deportes Tolima_07-30 21-05_41f12438_20260520.png?v=41f12438",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5f4e72e01d",
+          "name": "Junior vs Sporting Cristal | 09:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f4e72e01d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5f4e72e01d",
+                  "name": "Junior vs Sporting Cristal",
+                  "streams": [
+                    {
+                      "id": "st-5f4e72e01d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Junior",
+            "team_b": "Sporting Cristal",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaNCIKzpPJH83I5J2Exi7EAkD4McMVH54pA&s",
+            "logo_b": "https://media.api-sports.io/football/teams/2546.png",
+            "time": "09:00 21/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Junior_Sporting Cristal_09-00 21-05_bbd0a4bc_20260520.png?v=bbd0a4bc",
             "width": 1600,
             "height": 1200
           }
