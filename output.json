@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 20/05/2026",
+  "updated_at": "17:40 20/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -551,7 +551,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -635,10 +635,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -653,7 +653,25 @@
                     {
                       "id": "st-c5853e3062",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -668,7 +686,7 @@
             "logo_b": "https://img.bwfbadminton.com/image/upload/t_96_player_profile_portrait/v1753838863/assets/players/thumbnail/77296.png",
             "time": "18:00 20/05",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
