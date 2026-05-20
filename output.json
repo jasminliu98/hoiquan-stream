@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 21/05/2026",
+  "updated_at": "01:00 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-712f5024e3",
-          "name": "Start vs Bodo/Glimt | 23:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-712f5024e3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-712f5024e3",
-                  "name": "Start vs Bodo/Glimt",
-                  "streams": [
-                    {
-                      "id": "st-712f5024e3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Na Uy ",
-            "team_a": "Start",
-            "team_b": "Bodo/Glimt",
-            "logo_a": "https://media.api-sports.io/football/teams/334.png",
-            "logo_b": "https://media.api-sports.io/football/teams/327.png",
-            "time": "23:00 20/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Start_Bodo-Glimt_23-00 20-05_f1d084a1_20260521.png?v=f1d084a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-19572dde49",
-          "name": "KuPS vs FF Jaro | 23:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19572dde49",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-19572dde49",
-                  "name": "KuPS vs FF Jaro",
-                  "streams": [
-                    {
-                      "id": "st-19572dde49",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "KuPS",
-            "team_b": "FF Jaro",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/1/13/FF_Jaro_logo.png",
-            "time": "23:00 20/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_FF Jaro_23-00 20-05_1b29879a_20260521.png?v=1b29879a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-0ef4a4089e",
           "name": "Al Khaleej Saihat vs Al-Ahli Jeddah | 01:00 21/05",
@@ -597,6 +455,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ajax_Groningen_23-45 21-05_24688fa6_20260521.png?v=24688fa6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-56c4b7107d",
+          "name": "Al-Nassr vs Damac | 01:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56c4b7107d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-56c4b7107d",
+                  "name": "Al-Nassr vs Damac",
+                  "streams": [
+                    {
+                      "id": "st-56c4b7107d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League ( Đầu Cầu Fan CR7 )",
+            "team_a": "Al-Nassr",
+            "team_b": "Damac",
+            "logo_a": "https://media.api-sports.io/football/teams/2939.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7a/Damac_F.C._logo.png",
+            "time": "01:00 22/05",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Nassr_Damac_01-00 22-05_573246d0_20260521.png?v=573246d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9e6fe7b945",
+          "name": "Al-Fayha vs Al-Hilal Saudi FC | 01:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e6fe7b945",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9e6fe7b945",
+                  "name": "Al-Fayha vs Al-Hilal Saudi FC",
+                  "streams": [
+                    {
+                      "id": "st-9e6fe7b945",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al-Fayha",
+            "team_b": "Al-Hilal Saudi FC",
+            "logo_a": "https://media.api-sports.io/football/teams/2944.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2932.png",
+            "time": "01:00 22/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Fayha_Al-Hilal Saudi FC_01-00 22-05_0e191a4c_20260521.png?v=0e191a4c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8a148c0507",
+          "name": "Al-Ittihad FC vs Al-Qadisiyah FC | 01:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a148c0507",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8a148c0507",
+                  "name": "Al-Ittihad FC vs Al-Qadisiyah FC",
+                  "streams": [
+                    {
+                      "id": "st-8a148c0507",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al-Ittihad FC",
+            "team_b": "Al-Qadisiyah FC",
+            "logo_a": "https://media.api-sports.io/football/teams/2938.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2933.png",
+            "time": "01:00 22/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Ittihad FC_Al-Qadisiyah FC_01-00 22-05_54fcf69d_20260521.png?v=54fcf69d",
             "width": 1600,
             "height": 1200
           }
