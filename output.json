@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:35 21/05/2026",
+  "updated_at": "20:40 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -693,82 +693,11 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-2479fd8cbf",
-          "name": "Shenzhen vs Zhejiang Guangsha | 18:35 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2479fd8cbf",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2479fd8cbf",
-                  "name": "Shenzhen vs Zhejiang Guangsha",
-                  "streams": [
-                    {
-                      "id": "st-2479fd8cbf",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f1d53f75",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA",
-            "team_a": "Shenzhen",
-            "team_b": "Zhejiang Guangsha",
-            "logo_a": "https://static.flashscore.com/res/image/data/KbyBL1Xg-8hRiTVXM.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
-            "time": "18:35 21/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen_Zhejiang Guangsha_18-35 21-05_e9e7f013_20260521.png?v=e9e7f013",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b5adac41fa",
           "name": "New York Knicks vs Cleveland Cavaliers | 07:00 22/05",
