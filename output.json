@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 21/05/2026",
+  "updated_at": "19:00 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -546,6 +546,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-f013e39515",
+          "name": "Dewa United vs Bali United | 19:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f013e39515",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f013e39515",
+                  "name": "Dewa United vs Bali United",
+                  "streams": [
+                    {
+                      "id": "st-f013e39515",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Dewa United",
+            "team_b": "Bali United",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/52/Dewa_United_F.C._logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/5e/Bali_United_logo.svg",
+            "time": "19:00 22/05",
+            "blv": "BLV CỦ HÀNH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dewa United_Bali United_19-00 22-05_ef503969_20260521.png?v=ef503969",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -790,7 +843,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -803,10 +856,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -821,7 +874,25 @@
                     {
                       "id": "st-15fb60e294",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -836,7 +907,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
             "time": "19:30 21/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
