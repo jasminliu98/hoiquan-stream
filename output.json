@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:00 21/05/2026",
+  "updated_at": "09:35 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-bc7064f4ae",
-          "name": "Palmeiras vs Deportes Tolima | 07:30 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc7064f4ae",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bc7064f4ae",
-                  "name": "Palmeiras vs Deportes Tolima",
-                  "streams": [
-                    {
-                      "id": "st-bc7064f4ae",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Conmebol Copa Libertado",
-            "team_a": "Palmeiras",
-            "team_b": "Deportes Tolima",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/500px-Palmeiras_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Tolima_Campe%C3%B3n_2018.png",
-            "time": "07:30 21/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Palmeiras_Deportes Tolima_07-30 21-05_41f12438_20260521.png?v=41f12438",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5f4e72e01d",
           "name": "Junior vs Sporting Cristal | 09:00 21/05",
