@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:00 21/05/2026",
+  "updated_at": "23:20 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-83b197885d",
-          "name": "Minerva Punjab vs Mumbai City | 21:00 21/05",
+          "id": "hqlive-5dd215a374",
+          "name": "Ajax vs Groningen | 23:45 21/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-83b197885d",
+              "id": "src-5dd215a374",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-83b197885d",
-                  "name": "Minerva Punjab vs Mumbai City",
+                  "id": "ct-5dd215a374",
+                  "name": "Ajax vs Groningen",
                   "streams": [
                     {
-                      "id": "st-83b197885d",
+                      "id": "st-5dd215a374",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -69,67 +69,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Indian Super League",
-            "team_a": "Minerva Punjab",
-            "team_b": "Mumbai City",
-            "logo_a": "https://media.api-sports.io/football/teams/3466.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3478.png",
-            "time": "21:00 21/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Minerva Punjab_Mumbai City_21-00 21-05_75c4a488_20260521.png?v=75c4a488",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5dd215a374",
-          "name": "Ajax vs Groningen | 23:45 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5dd215a374",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5dd215a374",
-                  "name": "Ajax vs Groningen",
-                  "streams": [
-                    {
-                      "id": "st-5dd215a374",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Eredivisie",
             "team_a": "Ajax",
             "team_b": "Groningen",
             "logo_a": "https://media.api-sports.io/football/teams/194.png",
             "logo_b": "https://media.api-sports.io/football/teams/202.png",
             "time": "23:45 21/05",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": false,
+            "blv": "BLV CỦ HÀNH",
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
