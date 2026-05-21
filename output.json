@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 21/05/2026",
+  "updated_at": "22:15 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -243,59 +243,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Fayha_Al-Hilal Saudi FC_01-00 22-05_0e191a4c_20260521.png?v=0e191a4c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8a148c0507",
-          "name": "Al-Ittihad FC vs Al-Qadisiyah FC | 01:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a148c0507",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8a148c0507",
-                  "name": "Al-Ittihad FC vs Al-Qadisiyah FC",
-                  "streams": [
-                    {
-                      "id": "st-8a148c0507",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Pro League",
-            "team_a": "Al-Ittihad FC",
-            "team_b": "Al-Qadisiyah FC",
-            "logo_a": "https://media.api-sports.io/football/teams/2938.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2933.png",
-            "time": "01:00 22/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Ittihad FC_Al-Qadisiyah FC_01-00 22-05_54fcf69d_20260521.png?v=54fcf69d",
             "width": 1600,
             "height": 1200
           }
