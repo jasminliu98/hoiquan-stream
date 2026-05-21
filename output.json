@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:45 21/05/2026",
+  "updated_at": "09:00 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -526,6 +526,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Penarol_Corinthians_07-30 22-05_006d767b_20260521.png?v=006d767b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-559fad245e",
+          "name": "Cruz Azul vs U.N.A.M. - Pumas | 09:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-559fad245e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-559fad245e",
+                  "name": "Cruz Azul vs U.N.A.M. - Pumas",
+                  "streams": [
+                    {
+                      "id": "st-559fad245e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Cruz Azul",
+            "team_b": "U.N.A.M. - Pumas",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4xNkHyv3vyiYqX7HSZ5whQjvMJVYJlF3MQ&s",
+            "logo_b": "https://media.api-sports.io/football/teams/2286.png",
+            "time": "09:00 22/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruz Azul_U.N.A.M. - Pumas_09-00 22-05_a5cd3487_20260521.png?v=a5cd3487",
             "width": 1600,
             "height": 1200
           }
