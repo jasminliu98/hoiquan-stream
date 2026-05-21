@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:00 22/05/2026",
+  "updated_at": "03:10 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -60,23 +60,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -92,7 +75,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/2939.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7a/Damac_F.C._logo.png",
             "time": "01:00 22/05",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN MÃ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
