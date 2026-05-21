@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:40 21/05/2026",
+  "updated_at": "08:45 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1101,6 +1101,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Luciano Darderi_Alex de Minaur_23-00 21-05_ad54ccf8_20260521.png?v=ad54ccf8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-992dd844e8",
+          "name": "Arthur Rinderknech vs Alexander Bublik | 00:30 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-992dd844e8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-992dd844e8",
+                  "name": "Arthur Rinderknech vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-992dd844e8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Arthur Rinderknech",
+            "team_b": "Alexander Bublik",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cS73cD5Bq_Zse5RpXo_speC3fE8OJly8zw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg/250px-Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg",
+            "time": "00:30 22/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arthur Rinderknech_Alexander Bublik_00-30 22-05_5895b6c8_20260521.png?v=5895b6c8",
             "width": 1600,
             "height": 1200
           }
