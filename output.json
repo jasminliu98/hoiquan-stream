@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 21/05/2026",
+  "updated_at": "23:00 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -614,6 +614,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sumqayıt_Qarabag_22-30 22-05_c53977dd_20260521.png?v=c53977dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b17fa9b24a",
+          "name": "VPS vs HJK Helsinki | 23:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b17fa9b24a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b17fa9b24a",
+                  "name": "VPS vs HJK Helsinki",
+                  "streams": [
+                    {
+                      "id": "st-b17fa9b24a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "HJK Helsinki",
+            "logo_a": "https://media.api-sports.io/football/teams/650.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png",
+            "time": "23:00 22/05",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_HJK Helsinki_23-00 22-05_34723945_20260521.png?v=34723945",
             "width": 1600,
             "height": 1200
           }
