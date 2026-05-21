@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:10 22/05/2026",
+  "updated_at": "01:45 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5dd215a374",
-          "name": "Ajax vs Groningen | 23:45 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5dd215a374",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5dd215a374",
-                  "name": "Ajax vs Groningen",
-                  "streams": [
-                    {
-                      "id": "st-5dd215a374",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1498791d5",
-                          "name": "BLV CỦ HÀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phando/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eredivisie",
-            "team_a": "Ajax",
-            "team_b": "Groningen",
-            "logo_a": "https://media.api-sports.io/football/teams/194.png",
-            "logo_b": "https://media.api-sports.io/football/teams/202.png",
-            "time": "23:45 21/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ajax_Groningen_23-45 21-05_24688fa6_20260522.png?v=24688fa6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-56c4b7107d",
           "name": "Al-Nassr vs Damac | 01:00 22/05",
@@ -667,6 +596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_HJK Helsinki_23-00 22-05_34723945_20260522.png?v=34723945",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0a6acc06a1",
+          "name": "Fiorentina vs Atalanta | 01:45 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a6acc06a1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0a6acc06a1",
+                  "name": "Fiorentina vs Atalanta",
+                  "streams": [
+                    {
+                      "id": "st-0a6acc06a1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Fiorentina",
+            "team_b": "Atalanta",
+            "logo_a": "https://media.api-sports.io/football/teams/502.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/59/AtalantaBC.png",
+            "time": "01:45 23/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fiorentina_Atalanta_01-45 23-05_b16b6473_20260522.png?v=b16b6473",
             "width": 1600,
             "height": 1200
           }
