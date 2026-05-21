@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:05 21/05/2026",
+  "updated_at": "15:30 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -437,6 +437,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruz Azul_U.N.A.M. - Pumas_09-00 22-05_a5cd3487_20260521.png?v=a5cd3487",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-218df113d5",
+          "name": "Arema FC vs PSIM Yogyakarta | 15:30 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-218df113d5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-218df113d5",
+                  "name": "Arema FC vs PSIM Yogyakarta",
+                  "streams": [
+                    {
+                      "id": "st-218df113d5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Arema FC",
+            "team_b": "PSIM Yogyakarta",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/1280px-Arema_FC_2017_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/id/9/9c/Logo_PSIM_Yogyakarta.png",
+            "time": "15:30 22/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arema FC_PSIM Yogyakarta_15-30 22-05_64c365f0_20260521.png?v=64c365f0",
             "width": 1600,
             "height": 1200
           }
