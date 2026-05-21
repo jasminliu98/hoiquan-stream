@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:15 21/05/2026",
+  "updated_at": "20:25 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -287,7 +287,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/2944.png",
             "logo_b": "https://media.api-sports.io/football/teams/2932.png",
             "time": "01:00 22/05",
-            "blv": "BLV CỦ HÀNH",
+            "blv": "BLV PHAN MÃO",
             "is_live": false,
             "sport_slug": "bong-da"
           },
