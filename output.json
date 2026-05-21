@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 21/05/2026",
+  "updated_at": "07:30 21/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -455,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al-Ittihad FC_Al-Qadisiyah FC_01-00 22-05_54fcf69d_20260521.png?v=54fcf69d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1d151183e8",
+          "name": "Penarol vs Corinthians | 07:30 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d151183e8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1d151183e8",
+                  "name": "Penarol vs Corinthians",
+                  "streams": [
+                    {
+                      "id": "st-1d151183e8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Penarol",
+            "team_b": "Corinthians",
+            "logo_a": "https://media.api-sports.io/football/teams/2348.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBVCiLE7M3qhIyBp3vaGd3oGJvNzP6A77Y7Q&s",
+            "time": "07:30 22/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Penarol_Corinthians_07-30 22-05_006d767b_20260521.png?v=006d767b",
             "width": 1600,
             "height": 1200
           }
