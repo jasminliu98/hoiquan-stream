@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:50 22/05/2026",
+  "updated_at": "17:00 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -614,6 +614,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kashiwa Reysol_JEF United Chiba_16-00 23-05_8457f024_20260522.png?v=8457f024",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-aa575da1b6",
+          "name": "Kyoto Sanga vs V-varen Nagasaki | 17:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa575da1b6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-aa575da1b6",
+                  "name": "Kyoto Sanga vs V-varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-aa575da1b6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kyoto Sanga",
+            "team_b": "V-varen Nagasaki",
+            "logo_a": "https://media.api-sports.io/football/teams/302.png",
+            "logo_b": "https://media.api-sports.io/football/teams/285.png",
+            "time": "17:00 23/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kyoto Sanga_V-varen Nagasaki_17-00 23-05_e0ad5b9c_20260522.png?v=e0ad5b9c",
             "width": 1600,
             "height": 1200
           }
