@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:55 22/05/2026",
+  "updated_at": "23:00 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -720,6 +720,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hull City_Southampton_22-30 23-05_63024ee4_20260522.png?v=63024ee4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e628c47606",
+          "name": "Bologna vs Inter | 23:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e628c47606",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e628c47606",
+                  "name": "Bologna vs Inter",
+                  "streams": [
+                    {
+                      "id": "st-e628c47606",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Bologna",
+            "team_b": "Inter",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bologna_F.C._1909_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/505.png",
+            "time": "23:00 23/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bologna_Inter_23-00 23-05_226a8c82_20260522.png?v=226a8c82",
             "width": 1600,
             "height": 1200
           }
