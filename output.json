@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:35 23/05/2026",
+  "updated_at": "01:00 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -949,82 +949,11 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-be5932fdb8",
-          "name": "Valencia vs Real Madrid | 01:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be5932fdb8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-be5932fdb8",
-                  "name": "Valencia vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-be5932fdb8",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f1d53f75",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EUROLEAGUE",
-            "team_a": "Valencia",
-            "team_b": "Real Madrid",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFmsOtyB-0xo9H7fm.png",
-            "logo_b": "https://pngdownload.io/wp-content/uploads/2023/12/Real-Madrid-Logo-Iconic-Football-Club-Emblem-PNG-Transparent-Symbol-of-Excellence-jpg.webp",
-            "time": "01:00 23/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valencia_Real Madrid_01-00 23-05_d5bcf071_20260523.png?v=d5bcf071",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ccf91af4d8",
           "name": "San Antonio Spurs vs Oklahoma City Thunder | 07:30 23/05",
@@ -1127,86 +1056,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen_Zhejiang Guangsha_18-30 23-05_e9e7f013_20260523.png?v=e9e7f013",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-bb572f555d",
-          "name": "Alex de Minaur vs Tommy Paul | 22:30 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb572f555d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bb572f555d",
-                  "name": "Alex de Minaur vs Tommy Paul",
-                  "streams": [
-                    {
-                      "id": "st-bb572f555d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Hamburg",
-            "team_a": "Alex de Minaur",
-            "team_b": "Tommy Paul",
-            "logo_a": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
-            "logo_b": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
-            "time": "22:30 22/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alex de Minaur_Tommy Paul_22-30 22-05_fa66f1ed_20260523.png?v=fa66f1ed",
             "width": 1600,
             "height": 1200
           }
