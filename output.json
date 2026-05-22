@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:00 22/05/2026",
+  "updated_at": "17:45 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -84,59 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Machida Zelvia_Urawa_17-30 22-05_063def40_20260522.png?v=063def40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f013e39515",
-          "name": "Dewa United vs Bali United | 19:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f013e39515",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f013e39515",
-                  "name": "Dewa United vs Bali United",
-                  "streams": [
-                    {
-                      "id": "st-f013e39515",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Dewa United",
-            "team_b": "Bali United",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/52/Dewa_United_F.C._logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/5e/Bali_United_logo.svg",
-            "time": "19:00 22/05",
-            "blv": "BLV CỦ HÀNH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dewa United_Bali United_19-00 22-05_ef503969_20260522.png?v=ef503969",
             "width": 1600,
             "height": 1200
           }
