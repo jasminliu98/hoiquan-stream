@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 22/05/2026",
+  "updated_at": "21:50 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1141,8 +1141,8 @@
           }
         },
         {
-          "id": "hqlive-c0e9b293f2",
-          "name": "Aleksandar Kovacevic vs Ignacio Buse | 20:30 22/05",
+          "id": "hqlive-bb572f555d",
+          "name": "Alex de Minaur vs Tommy Paul | 22:30 22/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1156,15 +1156,15 @@
           ],
           "sources": [
             {
-              "id": "src-c0e9b293f2",
+              "id": "src-bb572f555d",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c0e9b293f2",
-                  "name": "Aleksandar Kovacevic vs Ignacio Buse",
+                  "id": "ct-bb572f555d",
+                  "name": "Alex de Minaur vs Tommy Paul",
                   "streams": [
                     {
-                      "id": "st-c0e9b293f2",
+                      "id": "st-bb572f555d",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1193,66 +1193,13 @@
           ],
           "org_metadata": {
             "league": "ATP500 Hamburg",
-            "team_a": "Aleksandar Kovacevic",
-            "team_b": "Ignacio Buse",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCUQKoyiCHUAGZJMKHPXrVVQxNsmCFttZvA&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaDdZBQVJErHrBYSO4n_ujV9a7SR3B_jPfw&s",
-            "time": "20:30 22/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aleksandar Kovacevic_Ignacio Buse_20-30 22-05_158f102a_20260522.png?v=158f102a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-bb572f555d",
-          "name": "Alex de Minaur vs Tommy Paul | 22:30 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb572f555d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bb572f555d",
-                  "name": "Alex de Minaur vs Tommy Paul",
-                  "streams": [
-                    {
-                      "id": "st-bb572f555d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Hamburg",
             "team_a": "Alex de Minaur",
             "team_b": "Tommy Paul",
             "logo_a": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
             "logo_b": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
             "time": "22:30 22/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
