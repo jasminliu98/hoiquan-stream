@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:35 22/05/2026",
+  "updated_at": "21:25 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ee7c83bcbe",
-          "name": "Viettel vs Pho Hien | 19:15 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee7c83bcbe",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ee7c83bcbe",
-                  "name": "Viettel vs Pho Hien",
-                  "streams": [
-                    {
-                      "id": "st-ee7c83bcbe",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Viettel",
-            "team_b": "Pho Hien",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d1/Viettel_FC_2021.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/9166.png",
-            "time": "19:15 22/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Viettel_Pho Hien_19-15 22-05_2194ff6f_20260522.png?v=2194ff6f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e241fcc7c8",
           "name": "Sumqayıt vs Qarabag | 22:30 22/05",
@@ -1117,82 +1046,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-71e790017c",
-          "name": "Casper Ruud vs Mariano Navone | 19:30 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71e790017c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-71e790017c",
-                  "name": "Casper Ruud vs Mariano Navone",
-                  "streams": [
-                    {
-                      "id": "st-71e790017c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Geneva",
-            "team_a": "Casper Ruud",
-            "team_b": "Mariano Navone",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Road_2_Australia_-_Navone_V_Burruchaga_Final_-_BugWarp_206_%28cropped%29.jpg/960px-Road_2_Australia_-_Navone_V_Burruchaga_Final_-_BugWarp_206_%28cropped%29.jpg",
-            "time": "19:30 22/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Casper Ruud_Mariano Navone_19-30 22-05_be9dc50f_20260522.png?v=be9dc50f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ac8e0bcd55",
           "name": "Learner Tien vs Alexander Bublik | 20:30 22/05",
