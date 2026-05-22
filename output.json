@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 22/05/2026",
+  "updated_at": "22:30 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thanh Hóa_Hoang Anh Gia Lai_18-00 23-05_909d5ce7_20260522.png?v=909d5ce7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d39958eccb",
+          "name": "Hull City vs Southampton | 22:30 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d39958eccb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d39958eccb",
+                  "name": "Hull City vs Southampton",
+                  "streams": [
+                    {
+                      "id": "st-d39958eccb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Championship",
+            "team_a": "Hull City",
+            "team_b": "Southampton",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/3/36/Hull_City_AFC.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/4/4b/356px-FC_Southampton.svg.png",
+            "time": "22:30 23/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hull City_Southampton_22-30 23-05_63024ee4_20260522.png?v=63024ee4",
             "width": 1600,
             "height": 1200
           }
