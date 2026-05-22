@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:10 23/05/2026",
+  "updated_at": "05:00 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -808,6 +808,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valencia_Barcelona_02-00 24-05_dda4f221_20260523.png?v=dda4f221",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1e72d058ac",
+          "name": "Gremio vs Santos | 05:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e72d058ac",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1e72d058ac",
+                  "name": "Gremio vs Santos",
+                  "streams": [
+                    {
+                      "id": "st-1e72d058ac",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Gremio",
+            "team_b": "Santos",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/1280px-Gremio_logo.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/128.png",
+            "time": "05:00 24/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gremio_Santos_05-00 24-05_d0f10cb3_20260523.png?v=d0f10cb3",
             "width": 1600,
             "height": 1200
           }
