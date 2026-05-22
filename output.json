@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:45 23/05/2026",
+  "updated_at": "01:55 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-52800479f2",
-          "name": "China PR U17 vs Japan U17 | 00:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52800479f2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-52800479f2",
-                  "name": "China PR U17 vs Japan U17",
-                  "streams": [
-                    {
-                      "id": "st-52800479f2",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "China PR U17",
-            "team_b": "Japan U17",
-            "logo_a": "https://media.api-sports.io/football/teams/21449.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12511.png",
-            "time": "00:00 23/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China PR U17_Japan U17_00-00 23-05_eb00e0e2_20260523.png?v=eb00e0e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-0a6acc06a1",
           "name": "Fiorentina vs Atalanta | 01:45 23/05",
