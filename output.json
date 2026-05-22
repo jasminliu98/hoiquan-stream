@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:40 23/05/2026",
+  "updated_at": "01:45 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -809,6 +809,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bologna_Inter_23-00 23-05_226a8c82_20260523.png?v=226a8c82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7a141d7f8f",
+          "name": "Lazio vs Pisa | 01:45 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a141d7f8f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7a141d7f8f",
+                  "name": "Lazio vs Pisa",
+                  "streams": [
+                    {
+                      "id": "st-7a141d7f8f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Lazio",
+            "team_b": "Pisa",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ed/SS_Lazio.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Pisa_SC_crest.svg/250px-Pisa_SC_crest.svg.png",
+            "time": "01:45 24/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lazio_Pisa_01-45 24-05_60fa8e28_20260523.png?v=60fa8e28",
             "width": 1600,
             "height": 1200
           }
