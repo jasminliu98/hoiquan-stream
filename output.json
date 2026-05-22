@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:40 22/05/2026",
+  "updated_at": "16:45 22/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -331,6 +331,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lens_Nice_02-00 23-05_e0789641_20260522.png?v=e0789641",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5855283e20",
+          "name": "Union Santa Fe vs Independiente | 06:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5855283e20",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5855283e20",
+                  "name": "Union Santa Fe vs Independiente",
+                  "streams": [
+                    {
+                      "id": "st-5855283e20",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa Argentina",
+            "team_a": "Union Santa Fe",
+            "team_b": "Independiente",
+            "logo_a": "https://media.api-sports.io/football/teams/441.png",
+            "logo_b": "https://media.api-sports.io/football/teams/453.png",
+            "time": "06:00 23/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Union Santa Fe_Independiente_06-00 23-05_c539fd1f_20260522.png?v=c539fd1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-112d5dd0da",
+          "name": "Mexico vs Ghana | 09:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-112d5dd0da",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-112d5dd0da",
+                  "name": "Mexico vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-112d5dd0da",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Mexico",
+            "team_b": "Ghana",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
+            "time": "09:00 23/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_Ghana_09-00 23-05_cb78d1d4_20260522.png?v=cb78d1d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-abb2991a2d",
+          "name": "Avispa Fukuoka vs Vissel Kobe | 12:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abb2991a2d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-abb2991a2d",
+                  "name": "Avispa Fukuoka vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-abb2991a2d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a7/Avispa_Fukuoka_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vissel_Kobe_logo.svg",
+            "time": "12:00 23/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Avispa Fukuoka_Vissel Kobe_12-00 23-05_da91f2a6_20260522.png?v=da91f2a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9800e6bc93",
+          "name": "Auckland vs Sydney | 15:10 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9800e6bc93",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9800e6bc93",
+                  "name": "Auckland vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-9800e6bc93",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League",
+            "team_a": "Auckland",
+            "team_b": "Sydney",
+            "logo_a": "https://media.api-sports.io/football/teams/24608.png",
+            "logo_b": "https://media.api-sports.io/football/teams/943.png",
+            "time": "15:10 23/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Auckland_Sydney_15-10 23-05_23b40b81_20260522.png?v=23b40b81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6f724d0a5a",
+          "name": "Kashiwa Reysol vs JEF United Chiba | 16:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f724d0a5a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6f724d0a5a",
+                  "name": "Kashiwa Reysol vs JEF United Chiba",
+                  "streams": [
+                    {
+                      "id": "st-6f724d0a5a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "JEF United Chiba",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e6/KashiwaReysol.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/13/JEFUnitedIchiharaChiba.png",
+            "time": "16:00 23/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kashiwa Reysol_JEF United Chiba_16-00 23-05_8457f024_20260522.png?v=8457f024",
             "width": 1600,
             "height": 1200
           }
