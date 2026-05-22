@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:55 23/05/2026",
+  "updated_at": "02:00 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -791,6 +791,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lazio_Pisa_01-45 24-05_60fa8e28_20260523.png?v=60fa8e28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d5473cccd3",
+          "name": "Real Betis vs Levante | 02:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5473cccd3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d5473cccd3",
+                  "name": "Real Betis vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-d5473cccd3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Levante",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg/1280px-Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg.png",
+            "time": "02:00 24/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Betis_Levante_02-00 24-05_58cd5e76_20260523.png?v=58cd5e76",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9d2f953d2b",
+          "name": "Real Madrid vs Athletic Club | 02:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d2f953d2b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9d2f953d2b",
+                  "name": "Real Madrid vs Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-9d2f953d2b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Madrid",
+            "team_b": "Athletic Club",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+            "time": "02:00 24/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Madrid_Athletic Club_02-00 24-05_e2da8ce0_20260523.png?v=e2da8ce0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-74dec58523",
+          "name": "Valencia vs Barcelona | 02:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74dec58523",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-74dec58523",
+                  "name": "Valencia vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-74dec58523",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Valencia",
+            "team_b": "Barcelona",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/fe/Valenciacf.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
+            "time": "02:00 24/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valencia_Barcelona_02-00 24-05_dda4f221_20260523.png?v=dda4f221",
             "width": 1600,
             "height": 1200
           }
