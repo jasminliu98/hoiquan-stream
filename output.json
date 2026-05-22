@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:00 23/05/2026",
+  "updated_at": "01:05 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1056,6 +1056,174 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen_Zhejiang Guangsha_18-30 23-05_e9e7f013_20260523.png?v=e9e7f013",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-5cad017b82",
+          "name": "Emma Navarro vs Minnesota Timberwolves | 19:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5cad017b82",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5cad017b82",
+                  "name": "Emma Navarro vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-5cad017b82",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 Strasbourg",
+            "team_a": "Emma Navarro",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVyCYHGf_LF2Bhk7wzGKI7iWLPnlVpqHQ1w&s",
+            "logo_b": "https://tse1.mm.bing.net/th/id/OIF.OYKBEIw9jOvO0lSlaEwiYw?pid=Api&P=0&h=220",
+            "time": "19:00 23/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Emma Navarro_Minnesota Timberwolves_19-00 23-05_9d568dcd_20260523.png?v=9d568dcd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-04828bfc31",
+          "name": "Ignacio Buse vs Tommy Paul | 19:30 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04828bfc31",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-04828bfc31",
+                  "name": "Ignacio Buse vs Tommy Paul",
+                  "streams": [
+                    {
+                      "id": "st-04828bfc31",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Hamburg",
+            "team_a": "Ignacio Buse",
+            "team_b": "Tommy Paul",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaDdZBQVJErHrBYSO4n_ujV9a7SR3B_jPfw&s",
+            "logo_b": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
+            "time": "19:30 23/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ignacio Buse_Tommy Paul_19-30 23-05_d695296d_20260523.png?v=d695296d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cd0d1e28c7",
+          "name": "Mariano Navone vs Learner Tien | 20:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd0d1e28c7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cd0d1e28c7",
+                  "name": "Mariano Navone vs Learner Tien",
+                  "streams": [
+                    {
+                      "id": "st-cd0d1e28c7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Geneva",
+            "team_a": "Mariano Navone",
+            "team_b": "Learner Tien",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Road_2_Australia_-_Navone_V_Burruchaga_Final_-_BugWarp_206_%28cropped%29.jpg/960px-Road_2_Australia_-_Navone_V_Burruchaga_Final_-_BugWarp_206_%28cropped%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
+            "time": "20:00 23/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mariano Navone_Learner Tien_20-00 23-05_36f90e2a_20260523.png?v=36f90e2a",
             "width": 1600,
             "height": 1200
           }
