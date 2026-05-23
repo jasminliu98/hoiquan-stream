@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:35 24/05/2026",
+  "updated_at": "06:00 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1091,6 +1091,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Torino_Juventus_01-45 25-05_ac60e465_20260524.png?v=ac60e465",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5b123e7cda",
+          "name": "Inter Miami vs Philadelphia Union | 06:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b123e7cda",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5b123e7cda",
+                  "name": "Inter Miami vs Philadelphia Union",
+                  "streams": [
+                    {
+                      "id": "st-5b123e7cda",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "Inter Miami",
+            "team_b": "Philadelphia Union",
+            "logo_a": "https://media.api-sports.io/football/teams/9568.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/4/46/Philadelphia_Union_2018_logo.svg",
+            "time": "06:00 25/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Miami_Philadelphia Union_06-00 25-05_51e4b331_20260524.png?v=51e4b331",
             "width": 1600,
             "height": 1200
           }
