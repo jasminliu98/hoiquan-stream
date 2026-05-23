@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:05 23/05/2026",
+  "updated_at": "19:15 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -703,6 +703,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_CAHN_18-00 24-05_bc616c74_20260523.png?v=bc616c74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f6646d8b7d",
+          "name": "Ha Noi vs Nam Dinh | 19:15 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f6646d8b7d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f6646d8b7d",
+                  "name": "Ha Noi vs Nam Dinh",
+                  "streams": [
+                    {
+                      "id": "st-f6646d8b7d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Ha Noi",
+            "team_b": "Nam Dinh",
+            "logo_a": "https://media.api-sports.io/football/teams/3670.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3674.png",
+            "time": "19:15 24/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ha Noi_Nam Dinh_19-15 24-05_49c3ebed_20260523.png?v=49c3ebed",
             "width": 1600,
             "height": 1200
           }
