@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:00 23/05/2026",
+  "updated_at": "18:05 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-6f724d0a5a",
-          "name": "Kashiwa Reysol vs JEF United Chiba | 16:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f724d0a5a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6f724d0a5a",
-                  "name": "Kashiwa Reysol vs JEF United Chiba",
-                  "streams": [
-                    {
-                      "id": "st-6f724d0a5a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "JEF United Chiba",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e6/KashiwaReysol.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/1/13/JEFUnitedIchiharaChiba.png",
-            "time": "16:00 23/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kashiwa Reysol_JEF United Chiba_16-00 23-05_8457f024_20260523.png?v=8457f024",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4aca500ea1",
           "name": "Da Nang vs Hai Phong | 18:00 23/05",
@@ -782,7 +711,7 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -795,10 +724,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -813,7 +742,25 @@
                     {
                       "id": "st-3a2b18ff4c",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f1d53f75",
+                          "name": "BLV PHAN MÃO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -828,7 +775,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/10/Zhejiang_Lions.png",
             "time": "18:30 23/05",
             "blv": "BLV PHAN MÃO",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ro"
           },
           "image": {
