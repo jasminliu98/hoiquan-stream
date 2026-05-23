@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:35 23/05/2026",
+  "updated_at": "20:40 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -119,6 +119,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bologna_Inter_23-00 23-05_226a8c82_20260523.png?v=226a8c82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a11b2fdd99",
+          "name": "Bayern München vs VfB Stuttgart | 01:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a11b2fdd99",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a11b2fdd99",
+                  "name": "Bayern München vs VfB Stuttgart",
+                  "streams": [
+                    {
+                      "id": "st-a11b2fdd99",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "DFB Pokal",
+            "team_a": "Bayern München",
+            "team_b": "VfB Stuttgart",
+            "logo_a": "https://media.api-sports.io/football/teams/157.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
+            "time": "01:00 24/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bayern München_VfB Stuttgart_01-00 24-05_389b71ba_20260523.png?v=389b71ba",
             "width": 1600,
             "height": 1200
           }
