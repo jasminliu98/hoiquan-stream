@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:45 23/05/2026",
+  "updated_at": "22:55 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -473,6 +473,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gremio_Santos_05-00 24-05_d0f10cb3_20260523.png?v=d0f10cb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-16c0aefede",
+          "name": "Flamengo vs Palmeiras | 07:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16c0aefede",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-16c0aefede",
+                  "name": "Flamengo vs Palmeiras",
+                  "streams": [
+                    {
+                      "id": "st-16c0aefede",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Flamengo",
+            "team_b": "Palmeiras",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/500px-Palmeiras_logo.svg.png",
+            "time": "07:00 24/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flamengo_Palmeiras_07-00 24-05_737cb6b9_20260523.png?v=737cb6b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-af70267ec5",
+          "name": "Fagiano Okayama vs Cerezo Osaka | 10:55 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af70267ec5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-af70267ec5",
+                  "name": "Fagiano Okayama vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-af70267ec5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Fagiano Okayama",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://media.api-sports.io/football/teams/310.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Cerezo_Osaka_logo.svg/250px-Cerezo_Osaka_logo.svg.png",
+            "time": "10:55 24/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fagiano Okayama_Cerezo Osaka_10-55 24-05_d127ebb5_20260523.png?v=d127ebb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2fea36563c",
+          "name": "Tokyo Verdy vs Yokohama F. Marinos | 12:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2fea36563c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2fea36563c",
+                  "name": "Tokyo Verdy vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-2fea36563c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Tokyo Verdy",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/id/a/a0/Tokyo_Verdy_2020_logo.webp",
+            "logo_b": "https://media.api-sports.io/football/teams/296.png",
+            "time": "12:00 24/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tokyo Verdy_Yokohama F. Marinos_12-00 24-05_d483b44a_20260523.png?v=d483b44a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-10f7b740ce",
+          "name": "Shimizu S-pulse vs Gamba Osaka | 15:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10f7b740ce",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-10f7b740ce",
+                  "name": "Shimizu S-pulse vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-10f7b740ce",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Shimizu S-pulse",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://media.api-sports.io/football/teams/283.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gamba_Osaka_logo_2021.png",
+            "time": "15:00 24/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shimizu S-pulse_Gamba Osaka_15-00 24-05_c4df32c0_20260523.png?v=c4df32c0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a768bf1492",
+          "name": "Ajax vs Utrecht | 17:15 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a768bf1492",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a768bf1492",
+                  "name": "Ajax vs Utrecht",
+                  "streams": [
+                    {
+                      "id": "st-a768bf1492",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "Ajax",
+            "team_b": "Utrecht",
+            "logo_a": "https://media.api-sports.io/football/teams/194.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Logo_FC_Utrecht.svg/1920px-Logo_FC_Utrecht.svg.png",
+            "time": "17:15 24/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ajax_Utrecht_17-15 24-05_9bdd3ca0_20260523.png?v=9bdd3ca0",
             "width": 1600,
             "height": 1200
           }
