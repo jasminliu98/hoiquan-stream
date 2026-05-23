@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:05 23/05/2026",
+  "updated_at": "10:30 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1002,82 +1002,11 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ccf91af4d8",
-          "name": "San Antonio Spurs vs Oklahoma City Thunder | 07:30 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccf91af4d8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ccf91af4d8",
-                  "name": "San Antonio Spurs vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-ccf91af4d8",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "San Antonio Spurs",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
-            "time": "07:30 23/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Oklahoma City Thunder_07-30 23-05_247af912_20260523.png?v=247af912",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-3a2b18ff4c",
           "name": "Shenzhen vs Zhejiang Guangsha | 18:30 23/05",
