@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:35 24/05/2026",
+  "updated_at": "00:55 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -208,59 +208,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lazio_Pisa_01-45 24-05_60fa8e28_20260524.png?v=60fa8e28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d5473cccd3",
-          "name": "Real Betis vs Levante | 02:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5473cccd3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d5473cccd3",
-                  "name": "Real Betis vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-d5473cccd3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Levante",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg/1280px-Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg.png",
-            "time": "02:00 24/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Betis_Levante_02-00 24-05_58cd5e76_20260524.png?v=58cd5e76",
             "width": 1600,
             "height": 1200
           }
