@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:45 23/05/2026",
+  "updated_at": "19:55 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -155,77 +155,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ninh Bình_Ho Chi Minh_18-00 23-05_ff8839bb_20260523.png?v=ff8839bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-05da271e38",
-          "name": "Thanh Hóa vs Hoang Anh Gia Lai | 18:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05da271e38",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-05da271e38",
-                  "name": "Thanh Hóa vs Hoang Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-05da271e38",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Thanh Hóa",
-            "team_b": "Hoang Anh Gia Lai",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3673.png",
-            "time": "18:00 23/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thanh Hóa_Hoang Anh Gia Lai_18-00 23-05_909d5ce7_20260523.png?v=909d5ce7",
             "width": 1600,
             "height": 1200
           }
