@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 23/05/2026",
+  "updated_at": "19:45 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -231,8 +231,8 @@
           }
         },
         {
-          "id": "hqlive-d39958eccb",
-          "name": "Hull City vs Southampton | 22:30 23/05",
+          "id": "hqlive-857163c72d",
+          "name": "Hull City vs Middlesbrough | 21:30 23/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -246,15 +246,15 @@
           ],
           "sources": [
             {
-              "id": "src-d39958eccb",
+              "id": "src-857163c72d",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-d39958eccb",
-                  "name": "Hull City vs Southampton",
+                  "id": "ct-857163c72d",
+                  "name": "Hull City vs Middlesbrough",
                   "streams": [
                     {
-                      "id": "st-d39958eccb",
+                      "id": "st-857163c72d",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -266,10 +266,10 @@
           "org_metadata": {
             "league": "Championship",
             "team_a": "Hull City",
-            "team_b": "Southampton",
+            "team_b": "Middlesbrough",
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/3/36/Hull_City_AFC.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/4/4b/356px-FC_Southampton.svg.png",
-            "time": "22:30 23/05",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/2c/Middlesbrough_FC_crest.svg",
+            "time": "21:30 23/05",
             "blv": "BLV PHAN MÃ",
             "is_live": false,
             "sport_slug": "bong-da"
@@ -278,7 +278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hull City_Southampton_22-30 23-05_63024ee4_20260523.png?v=63024ee4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hull City_Middlesbrough_21-30 23-05_2b549bb0_20260523.png?v=2b549bb0",
             "width": 1600,
             "height": 1200
           }
