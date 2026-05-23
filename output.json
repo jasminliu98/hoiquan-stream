@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:40 23/05/2026",
+  "updated_at": "22:00 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,377 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Parma_Sassuolo_20-00 24-05_9574029c_20260523.png?v=9574029c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-64b8fb6ef9",
+          "name": "Brighton vs Manchester United | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64b8fb6ef9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-64b8fb6ef9",
+                  "name": "Brighton vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-64b8fb6ef9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Brighton",
+            "team_b": "Manchester United",
+            "logo_a": "https://media.api-sports.io/football/teams/51.png",
+            "logo_b": "https://media.api-sports.io/football/teams/33.png",
+            "time": "22:00 24/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brighton_Manchester United_22-00 24-05_865b2553_20260523.png?v=865b2553",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9c9ba32af6",
+          "name": "Crystal Palace vs Arsenal | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c9ba32af6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9c9ba32af6",
+                  "name": "Crystal Palace vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-9c9ba32af6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Crystal Palace",
+            "team_b": "Arsenal",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
+            "time": "22:00 24/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Arsenal_22-00 24-05_63b748c6_20260523.png?v=63b748c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7c89b6a8d7",
+          "name": "Liverpool vs Brentford | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c89b6a8d7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7c89b6a8d7",
+                  "name": "Liverpool vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-7c89b6a8d7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Brentford",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/nGfV05dipbAc7zzojivKew_96x96.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/1280px-Brentford_FC_crest.svg.png",
+            "time": "22:00 24/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Liverpool_Brentford_22-00 24-05_d2129d4d_20260523.png?v=d2129d4d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-737f5deffe",
+          "name": "Manchester City vs Aston Villa | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-737f5deffe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-737f5deffe",
+                  "name": "Manchester City vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-737f5deffe",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Aston Villa",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
+            "time": "22:00 24/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Manchester City_Aston Villa_22-00 24-05_17591fcc_20260523.png?v=17591fcc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f122bf2f25",
+          "name": "Sunderland vs Chelsea | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f122bf2f25",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f122bf2f25",
+                  "name": "Sunderland vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-f122bf2f25",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Chelsea",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
+            "time": "22:00 24/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sunderland_Chelsea_22-00 24-05_932012f0_20260523.png?v=932012f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cc5b59f6bd",
+          "name": "Tottenham vs Everton | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc5b59f6bd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cc5b59f6bd",
+                  "name": "Tottenham vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-cc5b59f6bd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Tottenham",
+            "team_b": "Everton",
+            "logo_a": "https://media.api-sports.io/football/teams/47.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
+            "time": "22:00 24/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tottenham_Everton_22-00 24-05_360b8e12_20260523.png?v=360b8e12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6c58b27f60",
+          "name": "West Ham vs Leeds | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c58b27f60",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6c58b27f60",
+                  "name": "West Ham vs Leeds",
+                  "streams": [
+                    {
+                      "id": "st-6c58b27f60",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "West Ham",
+            "team_b": "Leeds",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1280px-West_Ham_United_FC_logo.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/63.png",
+            "time": "22:00 24/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Ham_Leeds_22-00 24-05_d52f7c49_20260523.png?v=d52f7c49",
             "width": 1600,
             "height": 1200
           }
