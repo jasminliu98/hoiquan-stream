@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:40 24/05/2026",
+  "updated_at": "01:45 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1198,6 +1198,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Ham_Leeds_22-00 24-05_d52f7c49_20260524.png?v=d52f7c49",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e6915f98ae",
+          "name": "AC Milan vs Cagliari | 01:45 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e6915f98ae",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e6915f98ae",
+                  "name": "AC Milan vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-e6915f98ae",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "AC Milan",
+            "team_b": "Cagliari",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/0E1JciuKLW0EbG48I5cFRQ_96x96.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/a8/Cagliari_Calcio_1920.png",
+            "time": "01:45 25/05",
+            "blv": "BLV PHAN MÃO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AC Milan_Cagliari_01-45 25-05_58100331_20260524.png?v=58100331",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-362272eac0",
+          "name": "Hellas Verona vs AS Roma | 01:45 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-362272eac0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-362272eac0",
+                  "name": "Hellas Verona vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-362272eac0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Hellas Verona",
+            "team_b": "AS Roma",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/it/9/92/Hellas_Verona_FC_logo_%282020%29.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f7/AS_Roma_logo_%282017%29.svg/250px-AS_Roma_logo_%282017%29.svg.png",
+            "time": "01:45 25/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hellas Verona_AS Roma_01-45 25-05_943023ee_20260524.png?v=943023ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-613b8cbef9",
+          "name": "Torino vs Juventus | 01:45 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-613b8cbef9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-613b8cbef9",
+                  "name": "Torino vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-613b8cbef9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Torino",
+            "team_b": "Juventus",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjMFcsnbi0W9T38__QcAu2PZRYvouexKckTg&s",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/6lal-0xwWtos5HI99HRvuQ_96x96.png",
+            "time": "01:45 25/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Torino_Juventus_01-45 25-05_ac60e465_20260524.png?v=ac60e465",
             "width": 1600,
             "height": 1200
           }
