@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:35 24/05/2026",
+  "updated_at": "04:00 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9d2f953d2b",
-          "name": "Real Madrid vs Athletic Club | 02:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d2f953d2b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9d2f953d2b",
-                  "name": "Real Madrid vs Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-9d2f953d2b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Athletic Club",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
-            "time": "02:00 24/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Real Madrid_Athletic Club_02-00 24-05_e2da8ce0_20260524.png?v=e2da8ce0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-74dec58523",
-          "name": "Valencia vs Barcelona | 02:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74dec58523",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-74dec58523",
-                  "name": "Valencia vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-74dec58523",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Valencia",
-            "team_b": "Barcelona",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/f/fe/Valenciacf.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg",
-            "time": "02:00 24/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valencia_Barcelona_02-00 24-05_dda4f221_20260524.png?v=dda4f221",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1e72d058ac",
           "name": "Gremio vs Santos | 05:00 24/05",
