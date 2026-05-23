@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:15 23/05/2026",
+  "updated_at": "17:20 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kashiwa Reysol_JEF United Chiba_16-00 23-05_8457f024_20260523.png?v=8457f024",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-aa575da1b6",
-          "name": "Kyoto Sanga vs V-varen Nagasaki | 17:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa575da1b6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-aa575da1b6",
-                  "name": "Kyoto Sanga vs V-varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-aa575da1b6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f1d53f75",
-                          "name": "BLV PHAN MÃO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbap/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kyoto Sanga",
-            "team_b": "V-varen Nagasaki",
-            "logo_a": "https://media.api-sports.io/football/teams/302.png",
-            "logo_b": "https://media.api-sports.io/football/teams/285.png",
-            "time": "17:00 23/05",
-            "blv": "BLV PHAN MÃO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kyoto Sanga_V-varen Nagasaki_17-00 23-05_e0ad5b9c_20260523.png?v=e0ad5b9c",
             "width": 1600,
             "height": 1200
           }
