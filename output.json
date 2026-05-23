@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 23/05/2026",
+  "updated_at": "18:00 23/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -668,6 +668,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gremio_Santos_05-00 24-05_d0f10cb3_20260523.png?v=d0f10cb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-adda2e21e8",
+          "name": "Binh Duong vs Song Lam Nghe An | 18:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-adda2e21e8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-adda2e21e8",
+                  "name": "Binh Duong vs Song Lam Nghe An",
+                  "streams": [
+                    {
+                      "id": "st-adda2e21e8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Binh Duong",
+            "team_b": "Song Lam Nghe An",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/LOGO_BFC.png/960px-LOGO_BFC.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3678.png",
+            "time": "18:00 24/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Binh Duong_Song Lam Nghe An_18-00 24-05_64eedad8_20260523.png?v=64eedad8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-693f7d1524",
+          "name": "Hồng Lĩnh Hà Tĩnh vs CAHN | 18:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-693f7d1524",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-693f7d1524",
+                  "name": "Hồng Lĩnh Hà Tĩnh vs CAHN",
+                  "streams": [
+                    {
+                      "id": "st-693f7d1524",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hồng Lĩnh Hà Tĩnh",
+            "team_b": "CAHN",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/3/38/Logo_CAHN_FC.svg/500px-Logo_CAHN_FC.svg.png",
+            "time": "18:00 24/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_CAHN_18-00 24-05_bc616c74_20260523.png?v=bc616c74",
             "width": 1600,
             "height": 1200
           }
