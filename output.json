@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:05 25/05/2026",
+  "updated_at": "04:10 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -517,6 +517,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Oklahoma City Thunder_07-00 25-05_247af912_20260525.png?v=247af912",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0af4fba76b",
+          "name": "Oklahoma City Thunder vs San Antonio Spurs | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0af4fba76b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0af4fba76b",
+                  "name": "Oklahoma City Thunder vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-0af4fba76b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "time": "07:30 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-30 27-05_280346f3_20260525.png?v=280346f3",
             "width": 1600,
             "height": 1200
           }
