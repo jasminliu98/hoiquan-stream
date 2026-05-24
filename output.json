@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:55 24/05/2026",
+  "updated_at": "17:25 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-10f7b740ce",
-          "name": "Shimizu S-pulse vs Gamba Osaka | 15:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-10f7b740ce",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-10f7b740ce",
-                  "name": "Shimizu S-pulse vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-10f7b740ce",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Shimizu S-pulse",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://media.api-sports.io/football/teams/283.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gamba_Osaka_logo_2021.png",
-            "time": "15:00 24/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shimizu S-pulse_Gamba Osaka_15-00 24-05_c4df32c0_20260524.png?v=c4df32c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a768bf1492",
           "name": "Ajax vs Utrecht | 17:15 24/05",
@@ -411,7 +340,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/51.png",
             "logo_b": "https://media.api-sports.io/football/teams/33.png",
             "time": "22:00 24/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1109,86 +1038,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon Bluewings_Cheonan City_14-30 25-05_b836cc90_20260524.png?v=b836cc90",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-f8c30b438b",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:30 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8c30b438b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f8c30b438b",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-f8c30b438b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PERODUA Malaysia Masters 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "13:30 24/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_13-30 24-05_cacf1340_20260524.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
