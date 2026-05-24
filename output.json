@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:35 24/05/2026",
+  "updated_at": "13:00 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-af70267ec5",
-          "name": "Fagiano Okayama vs Cerezo Osaka | 10:55 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af70267ec5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-af70267ec5",
-                  "name": "Fagiano Okayama vs Cerezo Osaka",
-                  "streams": [
-                    {
-                      "id": "st-af70267ec5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Fagiano Okayama",
-            "team_b": "Cerezo Osaka",
-            "logo_a": "https://media.api-sports.io/football/teams/310.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Cerezo_Osaka_logo.svg/250px-Cerezo_Osaka_logo.svg.png",
-            "time": "10:55 24/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fagiano Okayama_Cerezo Osaka_10-55 24-05_d127ebb5_20260524.png?v=d127ebb5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-2fea36563c",
           "name": "Tokyo Verdy vs Yokohama F. Marinos | 12:00 24/05",
