@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:15 24/05/2026",
+  "updated_at": "18:30 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1074,6 +1074,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon Bluewings_Cheonan City_14-30 25-05_10621b7f_20260524.png?v=10621b7f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ef17f13b81",
+          "name": "Croatia U17 vs Belgium U17 | 18:30 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef17f13b81",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ef17f13b81",
+                  "name": "Croatia U17 vs Belgium U17",
+                  "streams": [
+                    {
+                      "id": "st-ef17f13b81",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship - Qualification",
+            "team_a": "Croatia U17",
+            "team_b": "Belgium U17",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/1.png",
+            "time": "18:30 25/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U17_Belgium U17_18-30 25-05_e9423143_20260524.png?v=e9423143",
             "width": 1600,
             "height": 1200
           }
