@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:20 24/05/2026",
+  "updated_at": "21:15 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f6646d8b7d",
-          "name": "Ha Noi vs Nam Dinh | 19:15 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6646d8b7d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f6646d8b7d",
-                  "name": "Ha Noi vs Nam Dinh",
-                  "streams": [
-                    {
-                      "id": "st-f6646d8b7d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Ha Noi",
-            "team_b": "Nam Dinh",
-            "logo_a": "https://media.api-sports.io/football/teams/3670.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3674.png",
-            "time": "19:15 24/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ha Noi_Nam Dinh_19-15 24-05_49c3ebed_20260524.png?v=49c3ebed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a4345ab917",
           "name": "Parma vs Sassuolo | 20:00 24/05",
@@ -155,6 +84,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Parma_Sassuolo_20-00 24-05_9574029c_20260524.png?v=9574029c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cc5b59f6bd",
+          "name": "Tottenham vs Everton | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc5b59f6bd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cc5b59f6bd",
+                  "name": "Tottenham vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-cc5b59f6bd",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Tottenham",
+            "team_b": "Everton",
+            "logo_a": "https://media.api-sports.io/football/teams/47.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
+            "time": "22:00 24/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tottenham_Everton_22-00 24-05_360b8e12_20260524.png?v=360b8e12",
             "width": 1600,
             "height": 1200
           }
@@ -420,59 +420,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sunderland_Chelsea_22-00 24-05_932012f0_20260524.png?v=932012f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cc5b59f6bd",
-          "name": "Tottenham vs Everton | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc5b59f6bd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cc5b59f6bd",
-                  "name": "Tottenham vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-cc5b59f6bd",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Tottenham",
-            "team_b": "Everton",
-            "logo_a": "https://media.api-sports.io/football/teams/47.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
-            "time": "22:00 24/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tottenham_Everton_22-00 24-05_360b8e12_20260524.png?v=360b8e12",
             "width": 1600,
             "height": 1200
           }
