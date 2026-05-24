@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:25 24/05/2026",
+  "updated_at": "00:00 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-64b8fb6ef9",
-          "name": "Brighton vs Manchester United | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-64b8fb6ef9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-64b8fb6ef9",
-                  "name": "Brighton vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-64b8fb6ef9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Brighton",
-            "team_b": "Manchester United",
-            "logo_a": "https://media.api-sports.io/football/teams/51.png",
-            "logo_b": "https://media.api-sports.io/football/teams/33.png",
-            "time": "22:00 24/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brighton_Manchester United_22-00 24-05_865b2553_20260524.png?v=865b2553",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-9c9ba32af6",
           "name": "Crystal Palace vs Arsenal | 22:00 24/05",
@@ -154,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Arsenal_22-00 24-05_63b748c6_20260524.png?v=63b748c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Arsenal_22-00 24-05_63b748c6_20260525.png?v=63b748c6",
             "width": 1600,
             "height": 1200
           }
@@ -225,7 +154,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Liverpool_Brentford_22-00 24-05_d2129d4d_20260524.png?v=d2129d4d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Liverpool_Brentford_22-00 24-05_d2129d4d_20260525.png?v=d2129d4d",
             "width": 1600,
             "height": 1200
           }
@@ -296,7 +225,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Manchester City_Aston Villa_22-00 24-05_17591fcc_20260524.png?v=17591fcc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Manchester City_Aston Villa_22-00 24-05_17591fcc_20260525.png?v=17591fcc",
             "width": 1600,
             "height": 1200
           }
@@ -367,7 +296,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sunderland_Chelsea_22-00 24-05_932012f0_20260524.png?v=932012f0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sunderland_Chelsea_22-00 24-05_932012f0_20260525.png?v=932012f0",
             "width": 1600,
             "height": 1200
           }
@@ -438,7 +367,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tottenham_Everton_22-00 24-05_360b8e12_20260524.png?v=360b8e12",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tottenham_Everton_22-00 24-05_360b8e12_20260525.png?v=360b8e12",
             "width": 1600,
             "height": 1200
           }
@@ -491,7 +420,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AC Milan_Cagliari_01-45 25-05_58100331_20260524.png?v=58100331",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AC Milan_Cagliari_01-45 25-05_58100331_20260525.png?v=58100331",
             "width": 1600,
             "height": 1200
           }
@@ -544,7 +473,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Torino_Juventus_01-45 25-05_ac60e465_20260524.png?v=ac60e465",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Torino_Juventus_01-45 25-05_ac60e465_20260525.png?v=ac60e465",
             "width": 1600,
             "height": 1200
           }
@@ -597,7 +526,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cremonese_Como_01-45 25-05_42847160_20260524.png?v=42847160",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cremonese_Como_01-45 25-05_42847160_20260525.png?v=42847160",
             "width": 1600,
             "height": 1200
           }
@@ -650,7 +579,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Miami_Philadelphia Union_06-00 25-05_51e4b331_20260524.png?v=51e4b331",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Miami_Philadelphia Union_06-00 25-05_51e4b331_20260525.png?v=51e4b331",
             "width": 1600,
             "height": 1200
           }
@@ -703,7 +632,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U.N.A.M. - Pumas_Cruz Azul_08-00 25-05_fda2261c_20260524.png?v=fda2261c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U.N.A.M. - Pumas_Cruz Azul_08-00 25-05_fda2261c_20260525.png?v=fda2261c",
             "width": 1600,
             "height": 1200
           }
@@ -756,7 +685,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles FC_Seattle Sounders_08-15 25-05_9c88d3dd_20260524.png?v=9c88d3dd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles FC_Seattle Sounders_08-15 25-05_9c88d3dd_20260525.png?v=9c88d3dd",
             "width": 1600,
             "height": 1200
           }
@@ -809,7 +738,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon Bluewings_Cheonan City_14-30 25-05_10621b7f_20260524.png?v=10621b7f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon Bluewings_Cheonan City_14-30 25-05_10621b7f_20260525.png?v=10621b7f",
             "width": 1600,
             "height": 1200
           }
@@ -862,7 +791,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U17_Belgium U17_18-30 25-05_e9423143_20260524.png?v=e9423143",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U17_Belgium U17_18-30 25-05_e9423143_20260525.png?v=e9423143",
             "width": 1600,
             "height": 1200
           }
@@ -915,7 +844,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sarpsborg 08 FF_Molde_22-00 25-05_6c396c56_20260524.png?v=6c396c56",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sarpsborg 08 FF_Molde_22-00 25-05_6c396c56_20260525.png?v=6c396c56",
             "width": 1600,
             "height": 1200
           }
@@ -977,7 +906,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Oklahoma City Thunder_07-00 25-05_247af912_20260524.png?v=247af912",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_Oklahoma City Thunder_07-00 25-05_247af912_20260525.png?v=247af912",
             "width": 1600,
             "height": 1200
           }
@@ -1039,7 +968,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Giovanni Mpetshi Perricard_Novak Djokovic_01-15 25-05_0ce26ebb_20260524.png?v=0ce26ebb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Giovanni Mpetshi Perricard_Novak Djokovic_01-15 25-05_0ce26ebb_20260525.png?v=0ce26ebb",
             "width": 1600,
             "height": 1200
           }
