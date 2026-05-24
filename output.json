@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:30 24/05/2026",
+  "updated_at": "18:15 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -535,7 +535,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/1d/Manchester_City_FC_logo.svg",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_96x96.png",
             "time": "22:00 24/05",
-            "blv": "BLV PHAN MÃO",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -588,7 +588,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/sco/7/77/Logo_Sunderland.svg",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png",
             "time": "22:00 24/05",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN MÃO",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1062,7 +1062,7 @@
             "league": "K League 2",
             "team_a": "Suwon Bluewings",
             "team_b": "Cheonan City",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Suwon_Samsung_Bluewings.svg/923px-Suwon_Samsung_Bluewings.svg.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/7b/Suwon_Samsung_Bluewings.svg",
             "logo_b": "https://media.api-sports.io/football/teams/7060.png",
             "time": "14:30 25/05",
             "blv": "BLV PHAN ANH",
@@ -1073,7 +1073,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon Bluewings_Cheonan City_14-30 25-05_b836cc90_20260524.png?v=b836cc90",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon Bluewings_Cheonan City_14-30 25-05_10621b7f_20260524.png?v=10621b7f",
             "width": 1600,
             "height": 1200
           }
