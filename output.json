@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:35 25/05/2026",
+  "updated_at": "06:00 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -402,6 +402,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SC Paderborn 07_VfL Wolfsburg_01-30 26-05_e735ca5d_20260525.png?v=e735ca5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4334889231",
+          "name": "Coritiba vs Bahia | 06:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4334889231",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4334889231",
+                  "name": "Coritiba vs Bahia",
+                  "streams": [
+                    {
+                      "id": "st-4334889231",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Coritiba",
+            "team_b": "Bahia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/500px-Coritiba_Foot_Ball_Club_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_of_Esporte_Clube_Bahia_%282004%29.svg/250px-Logo_of_Esporte_Clube_Bahia_%282004%29.svg.png",
+            "time": "06:00 26/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coritiba_Bahia_06-00 26-05_8cd37d33_20260525.png?v=8cd37d33",
             "width": 1600,
             "height": 1200
           }
