@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:10 24/05/2026",
+  "updated_at": "22:25 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -497,59 +497,6 @@
           }
         },
         {
-          "id": "hqlive-362272eac0",
-          "name": "Hellas Verona vs AS Roma | 01:45 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-362272eac0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-362272eac0",
-                  "name": "Hellas Verona vs AS Roma",
-                  "streams": [
-                    {
-                      "id": "st-362272eac0",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Hellas Verona",
-            "team_b": "AS Roma",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/it/9/92/Hellas_Verona_FC_logo_%282020%29.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f7/AS_Roma_logo_%282017%29.svg/250px-AS_Roma_logo_%282017%29.svg.png",
-            "time": "01:45 25/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hellas Verona_AS Roma_01-45 25-05_943023ee_20260524.png?v=943023ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-613b8cbef9",
           "name": "Torino vs Juventus | 01:45 25/05",
           "type": "single",
@@ -598,6 +545,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Torino_Juventus_01-45 25-05_ac60e465_20260524.png?v=ac60e465",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-12afa9a3c2",
+          "name": "Cremonese vs Como | 01:45 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12afa9a3c2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-12afa9a3c2",
+                  "name": "Cremonese vs Como",
+                  "streams": [
+                    {
+                      "id": "st-12afa9a3c2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Como",
+            "logo_a": "https://1.bp.blogspot.com/-jBb9nJTi22g/Xw1w0zq5ypI/AAAAAAAAaoI/y5xrZ4P7Kg0MDoclmpkw1QJvvFh0JJkBACLcBGAsYHQ/s1600/US-Cremonese_logo_tr_237-design.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_Como_1907_2019.png/250px-Logo_Como_1907_2019.png",
+            "time": "01:45 25/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cremonese_Como_01-45 25-05_42847160_20260524.png?v=42847160",
             "width": 1600,
             "height": 1200
           }
