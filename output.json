@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:00 25/05/2026",
+  "updated_at": "04:05 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -708,8 +708,8 @@
           }
         },
         {
-          "id": "hqlive-53a86427ac",
-          "name": "Elena Rybakina vs Alexander Zverev | 19:00 25/05",
+          "id": "hqlive-5ccbc0a711",
+          "name": "Elena Rybakina vs Veronika Erjavec | 19:00 25/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -723,15 +723,15 @@
           ],
           "sources": [
             {
-              "id": "src-53a86427ac",
+              "id": "src-5ccbc0a711",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-53a86427ac",
-                  "name": "Elena Rybakina vs Alexander Zverev",
+                  "id": "ct-5ccbc0a711",
+                  "name": "Elena Rybakina vs Veronika Erjavec",
                   "streams": [
                     {
-                      "id": "st-53a86427ac",
+                      "id": "st-5ccbc0a711",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -743,9 +743,9 @@
           "org_metadata": {
             "league": "Roland Garros",
             "team_a": "Elena Rybakina",
-            "team_b": "Alexander Zverev",
+            "team_b": "Veronika Erjavec",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Zverev_MCM23_%2820%29.jpg/960px-Zverev_MCM23_%2820%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCvHRnJcu2kiJwkkJq9_njhOJpU5-71KlKQ&s",
             "time": "19:00 25/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -755,7 +755,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elena Rybakina_Alexander Zverev_19-00 25-05_a7e3a11e_20260525.png?v=a7e3a11e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elena Rybakina_Veronika Erjavec_19-00 25-05_99d69557_20260525.png?v=99d69557",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f32e040195",
+          "name": "Daniel Merida vs Ben Shelton | 22:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f32e040195",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f32e040195",
+                  "name": "Daniel Merida vs Ben Shelton",
+                  "streams": [
+                    {
+                      "id": "st-f32e040195",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Daniel Merida",
+            "team_b": "Ben Shelton",
+            "logo_a": "https://cdn.prod.website-files.com/643e87bf05428401f6b2c705/6638b0089c2b8dc14e652d4f_IMG_BIO_Darina_Webflow.png",
+            "logo_b": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "time": "22:00 25/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Merida_Ben Shelton_22-00 25-05_48333568_20260525.png?v=48333568",
             "width": 1600,
             "height": 1200
           }
