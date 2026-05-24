@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:10 25/05/2026",
+  "updated_at": "04:30 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -578,82 +578,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-11ede63e6a",
-          "name": "Giovanni Mpetshi Perricard vs Novak Djokovic | 01:15 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11ede63e6a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-11ede63e6a",
-                  "name": "Giovanni Mpetshi Perricard vs Novak Djokovic",
-                  "streams": [
-                    {
-                      "id": "st-11ede63e6a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Giovanni Mpetshi Perricard",
-            "team_b": "Novak Djokovic",
-            "logo_a": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
-            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
-            "time": "01:15 25/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Giovanni Mpetshi Perricard_Novak Djokovic_01-15 25-05_0ce26ebb_20260525.png?v=0ce26ebb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1bfd4078c8",
           "name": "Iga Swiatek vs Emilio Nava | 17:00 25/05",
