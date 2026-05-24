@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:05 25/05/2026",
+  "updated_at": "00:15 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -155,77 +155,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Manchester City_Aston Villa_22-00 24-05_17591fcc_20260525.png?v=17591fcc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cc5b59f6bd",
-          "name": "Tottenham vs Everton | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc5b59f6bd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cc5b59f6bd",
-                  "name": "Tottenham vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-cc5b59f6bd",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Tottenham",
-            "team_b": "Everton",
-            "logo_a": "https://media.api-sports.io/football/teams/47.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Everton_FC_logo.svg",
-            "time": "22:00 24/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tottenham_Everton_22-00 24-05_360b8e12_20260525.png?v=360b8e12",
             "width": 1600,
             "height": 1200
           }
