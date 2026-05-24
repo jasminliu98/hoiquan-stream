@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:15 24/05/2026",
+  "updated_at": "21:20 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -967,82 +967,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-070aa304d4",
-          "name": "Benjamin Bonzi vs Alexander Zverev | 19:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-070aa304d4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-070aa304d4",
-                  "name": "Benjamin Bonzi vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-070aa304d4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Benjamin Bonzi",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Zverev_MCM23_%2820%29.jpg/960px-Zverev_MCM23_%2820%29.jpg",
-            "time": "19:00 24/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Alexander Zverev_19-00 24-05_4b99f451_20260524.png?v=4b99f451",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-11ede63e6a",
           "name": "Giovanni Mpetshi Perricard vs Novak Djokovic | 01:15 25/05",
