@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:00 24/05/2026",
+  "updated_at": "08:15 24/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1144,6 +1144,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U.N.A.M. - Pumas_Cruz Azul_08-00 25-05_fda2261c_20260524.png?v=fda2261c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cecdf8d41a",
+          "name": "Los Angeles FC vs Seattle Sounders | 08:15 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cecdf8d41a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cecdf8d41a",
+                  "name": "Los Angeles FC vs Seattle Sounders",
+                  "streams": [
+                    {
+                      "id": "st-cecdf8d41a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Major League Soccer",
+            "team_a": "Los Angeles FC",
+            "team_b": "Seattle Sounders",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/86/Los_Angeles_Football_Club.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/8/84/Seattle_Sounders_logo.svg",
+            "time": "08:15 25/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Los Angeles FC_Seattle Sounders_08-15 25-05_9c88d3dd_20260524.png?v=9c88d3dd",
             "width": 1600,
             "height": 1200
           }
