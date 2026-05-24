@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 25/05/2026",
+  "updated_at": "01:05 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9c9ba32af6",
-          "name": "Crystal Palace vs Arsenal | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c9ba32af6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9c9ba32af6",
-                  "name": "Crystal Palace vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-9c9ba32af6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Crystal Palace",
-            "team_b": "Arsenal",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
-            "time": "22:00 24/05",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Arsenal_22-00 24-05_63b748c6_20260525.png?v=63b748c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-737f5deffe",
           "name": "Manchester City vs Aston Villa | 22:00 24/05",
