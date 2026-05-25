@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:20 25/05/2026",
+  "updated_at": "17:30 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -157,7 +157,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
+            "league": "VĐQG Brazil ",
             "team_a": "Coritiba",
             "team_b": "Bahia",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/500px-Coritiba_Foot_Ball_Club_logo.svg.png",
