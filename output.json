@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 26/05/2026",
+  "updated_at": "00:05 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-47c804b7d3",
-          "name": "Sarpsborg 08 FF vs Molde | 22:00 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47c804b7d3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-47c804b7d3",
-                  "name": "Sarpsborg 08 FF vs Molde",
-                  "streams": [
-                    {
-                      "id": "st-47c804b7d3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eliteserien",
-            "team_a": "Sarpsborg 08 FF",
-            "team_b": "Molde",
-            "logo_a": "https://media.api-sports.io/football/teams/333.png",
-            "logo_b": "https://media.api-sports.io/football/teams/329.png",
-            "time": "22:00 25/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sarpsborg 08 FF_Molde_22-00 25-05_6c396c56_20260526.png?v=6c396c56",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-699c65b1f9",
           "name": "SC Paderborn 07 vs VfL Wolfsburg | 01:30 26/05",
