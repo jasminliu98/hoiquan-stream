@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:50 25/05/2026",
+  "updated_at": "09:00 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5b123e7cda",
-          "name": "Inter Miami vs Philadelphia Union | 06:00 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b123e7cda",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5b123e7cda",
-                  "name": "Inter Miami vs Philadelphia Union",
-                  "streams": [
-                    {
-                      "id": "st-5b123e7cda",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Major League Soccer",
-            "team_a": "Inter Miami",
-            "team_b": "Philadelphia Union",
-            "logo_a": "https://media.api-sports.io/football/teams/9568.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/4/46/Philadelphia_Union_2018_logo.svg",
-            "time": "06:00 25/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Miami_Philadelphia Union_06-00 25-05_51e4b331_20260525.png?v=51e4b331",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f240bed243",
           "name": "U.N.A.M. - Pumas vs Cruz Azul | 08:00 25/05",
