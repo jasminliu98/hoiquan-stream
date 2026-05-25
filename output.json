@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:40 25/05/2026",
+  "updated_at": "22:00 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -190,6 +190,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coritiba_Bahia_06-00 26-05_8cd37d33_20260525.png?v=8cd37d33",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-055588bb87",
+          "name": "Alashkert vs Shirak | 22:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-055588bb87",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-055588bb87",
+                  "name": "Alashkert vs Shirak",
+                  "streams": [
+                    {
+                      "id": "st-055588bb87",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Armenia",
+            "team_a": "Alashkert",
+            "team_b": "Shirak",
+            "logo_a": "https://media.api-sports.io/football/teams/582.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3686.png",
+            "time": "22:00 26/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alashkert_Shirak_22-00 26-05_c60db28e_20260525.png?v=c60db28e",
             "width": 1600,
             "height": 1200
           }
