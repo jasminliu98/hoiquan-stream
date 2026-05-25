@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:15 25/05/2026",
+  "updated_at": "11:20 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -110,7 +110,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
             "logo_b": "https://media.api-sports.io/football/teams/1.png",
             "time": "18:30 25/05",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
