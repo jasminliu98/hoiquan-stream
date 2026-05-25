@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 25/05/2026",
+  "updated_at": "19:40 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -203,6 +203,59 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-c4097c015c",
+          "name": "Cleveland Cavaliers vs New York Knicks | 07:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4097c015c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c4097c015c",
+                  "name": "Cleveland Cavaliers vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-c4097c015c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Cleveland Cavaliers",
+            "team_b": "New York Knicks",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON_xAXqlmVA6CaABNgxtXMaVaFZIg65IPrg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
+            "time": "07:00 26/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cleveland Cavaliers_New York Knicks_07-00 26-05_0d71be6e_20260525.png?v=0d71be6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-0af4fba76b",
           "name": "Oklahoma City Thunder vs San Antonio Spurs | 07:30 27/05",
@@ -456,6 +509,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Merida_Ben Shelton_22-00 25-05_48333568_20260525.png?v=48333568",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c6c87c040b",
+          "name": "Aryna Sabalenka vs Jessica Bouzas Maneiro | 17:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6c87c040b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c6c87c040b",
+                  "name": "Aryna Sabalenka vs Jessica Bouzas Maneiro",
+                  "streams": [
+                    {
+                      "id": "st-c6c87c040b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Aryna Sabalenka",
+            "team_b": "Jessica Bouzas Maneiro",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRABku-HEyppakDXMdArYXrPo8MNNgPAohcIA&s",
+            "time": "17:00 26/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Jessica Bouzas Maneiro_17-00 26-05_fa3f4334_20260525.png?v=fa3f4334",
             "width": 1600,
             "height": 1200
           }
