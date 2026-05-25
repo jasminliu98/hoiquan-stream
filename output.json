@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 25/05/2026",
+  "updated_at": "21:30 25/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -110,7 +110,7 @@
             "logo_a": "https://dothethao.net.vn/wp-content/uploads/2020/06/sc-paderborn-logo-900px.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/VfL_Wolfsburg_Logo.svg/1280px-VfL_Wolfsburg_Logo.svg.png",
             "time": "01:30 26/05",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
