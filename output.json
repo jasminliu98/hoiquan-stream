@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:55 26/05/2026",
+  "updated_at": "23:20 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -632,59 +632,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ararat-Armenia_Gandzasar_22-00 27-05_3ee9cf51_20260526.png?v=3ee9cf51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1323063d4a",
-          "name": "FC Urartu vs FC Noah | 22:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1323063d4a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1323063d4a",
-                  "name": "FC Urartu vs FC Noah",
-                  "streams": [
-                    {
-                      "id": "st-1323063d4a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Armenia",
-            "team_a": "FC Urartu",
-            "team_b": "FC Noah",
-            "logo_a": "https://media.api-sports.io/football/teams/2276.png",
-            "logo_b": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072024/noa_erevan_armeniya.jpg?uY.4iyP71.IUrYKW4zofa.9TrGE4PAdC&itok=2IIKrnfc",
-            "time": "22:00 27/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Urartu_FC Noah_22-00 27-05_5fae58ff_20260526.png?v=5fae58ff",
             "width": 1600,
             "height": 1200
           }
