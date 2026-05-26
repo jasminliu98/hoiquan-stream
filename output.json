@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:50 27/05/2026",
+  "updated_at": "04:20 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,86 +490,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Rayo Vallecano_02-00 28-05_af5ee8b9_20260527.png?v=af5ee8b9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-099f35af14",
-          "name": "Phạm Phương Nam vs Lukas Fracasso-Verner | 18:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-099f35af14",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-099f35af14",
-                  "name": "Phạm Phương Nam vs Lukas Fracasso-Verner",
-                  "streams": [
-                    {
-                      "id": "st-099f35af14",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UK OPEN",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Lukas Fracasso-Verner",
-            "logo_a": "https://matchroompool.com/wp-content/uploads/Pham-Phuong-Nam.png",
-            "logo_b": "https://assets.azbilliards.com/wp-content/uploads/2021/06/04203040/084A9805.jpg",
-            "time": "18:00 26/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phạm Phương Nam_Lukas Fracasso-Verner_18-00 26-05_6f6edb02_20260527.png?v=6f6edb02",
             "width": 1600,
             "height": 1200
           }
