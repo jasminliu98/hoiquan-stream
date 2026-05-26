@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 26/05/2026",
+  "updated_at": "21:10 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -610,8 +610,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-1e20bbb903",
-          "name": "Dương Quốc Hoàng vs Mohammed Baabad | 18:00 26/05",
+          "id": "hqlive-099f35af14",
+          "name": "Phạm Phương Nam vs Lukas Fracasso-Verner | 18:00 26/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -625,15 +625,15 @@
           ],
           "sources": [
             {
-              "id": "src-1e20bbb903",
+              "id": "src-099f35af14",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-1e20bbb903",
-                  "name": "Dương Quốc Hoàng vs Mohammed Baabad",
+                  "id": "ct-099f35af14",
+                  "name": "Phạm Phương Nam vs Lukas Fracasso-Verner",
                   "streams": [
                     {
-                      "id": "st-1e20bbb903",
+                      "id": "st-099f35af14",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -662,10 +662,10 @@
           ],
           "org_metadata": {
             "league": "UK OPEN",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Mohammed Baabad",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7wzU7Wnezbf8SPMVNgyIxpWHF5Wwu7UOZiQ&s",
+            "team_a": "Phạm Phương Nam",
+            "team_b": "Lukas Fracasso-Verner",
+            "logo_a": "https://matchroompool.com/wp-content/uploads/Pham-Phuong-Nam.png",
+            "logo_b": "https://assets.azbilliards.com/wp-content/uploads/2021/06/04203040/084A9805.jpg",
             "time": "18:00 26/05",
             "blv": "BLV PHAN ANH",
             "is_live": true,
@@ -675,7 +675,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Mohammed Baabad_18-00 26-05_168a0319_20260526.png?v=168a0319",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phạm Phương Nam_Lukas Fracasso-Verner_18-00 26-05_6f6edb02_20260526.png?v=6f6edb02",
             "width": 1600,
             "height": 1200
           }
