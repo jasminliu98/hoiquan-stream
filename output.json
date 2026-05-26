@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:40 26/05/2026",
+  "updated_at": "16:45 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -225,6 +225,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alashkert_Shirak_22-00 26-05_c60db28e_20260526.png?v=c60db28e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5bded3824f",
+          "name": "Montenegro U17 vs Denmark U17 | 23:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5bded3824f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5bded3824f",
+                  "name": "Montenegro U17 vs Denmark U17",
+                  "streams": [
+                    {
+                      "id": "st-5bded3824f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Montenegro U17",
+            "team_b": "Denmark U17",
+            "logo_a": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17948.png",
+            "time": "23:00 26/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Montenegro U17_Denmark U17_23-00 26-05_3f0ed919_20260526.png?v=3f0ed919",
             "width": 1600,
             "height": 1200
           }
@@ -588,6 +641,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Taylor Townsend_21-00 26-05_da1ad6cb_20260526.png?v=da1ad6cb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9c3da9e057",
+          "name": "Jannik Sinner vs Daniil Medvedev | 01:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c3da9e057",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9c3da9e057",
+                  "name": "Jannik Sinner vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-9c3da9e057",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Jannik Sinner",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "time": "01:30 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Daniil Medvedev_01-30 27-05_ac696414_20260526.png?v=ac696414",
             "width": 1600,
             "height": 1200
           }
