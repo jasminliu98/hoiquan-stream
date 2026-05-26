@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:25 27/05/2026",
+  "updated_at": "00:45 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -826,82 +826,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7c2fb4996d",
-          "name": "Alexander Bublik vs Jan-Lennard Struff | 22:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c2fb4996d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7c2fb4996d",
-                  "name": "Alexander Bublik vs Jan-Lennard Struff",
-                  "streams": [
-                    {
-                      "id": "st-7c2fb4996d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Alexander Bublik",
-            "team_b": "Jan-Lennard Struff",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg/250px-Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Struff_MCM23_%2837%29_%2852883307264%29.jpg",
-            "time": "22:00 26/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Bublik_Jan-Lennard Struff_22-00 26-05_df990189_20260527.png?v=df990189",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-9c3da9e057",
           "name": "Jannik Sinner vs Daniil Medvedev | 01:30 27/05",
