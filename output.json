@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 26/05/2026",
+  "updated_at": "22:00 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,11 +12,82 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-4159e45ef0",
+          "name": "Astana II vs Khan Tengri | 21:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4159e45ef0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4159e45ef0",
+                  "name": "Astana II vs Khan Tengri",
+                  "streams": [
+                    {
+                      "id": "st-4159e45ef0",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Astana II",
+            "team_b": "Khan Tengri",
+            "logo_a": "https://media.api-sports.io/football/teams/4548.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18805.png",
+            "time": "21:00 26/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Astana II_Khan Tengri_21-00 26-05_8334fddf_20260526.png?v=8334fddf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-055588bb87",
           "name": "Alashkert vs Shirak | 22:00 26/05",
@@ -354,6 +425,112 @@
           }
         },
         {
+          "id": "hqlive-049bee3860",
+          "name": "Flamengo vs Cusco | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-049bee3860",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-049bee3860",
+                  "name": "Flamengo vs Cusco",
+                  "streams": [
+                    {
+                      "id": "st-049bee3860",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Flamengo",
+            "team_b": "Cusco",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10013.png",
+            "time": "07:30 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flamengo_Cusco_07-30 27-05_dedd7ca8_20260526.png?v=dedd7ca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-966702f22b",
+          "name": "TNG Thái Nguyên vs Phong Phú Hà Nam | 16:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-966702f22b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-966702f22b",
+                  "name": "TNG Thái Nguyên vs Phong Phú Hà Nam",
+                  "streams": [
+                    {
+                      "id": "st-966702f22b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp quốc gia Việt Nam",
+            "team_a": "TNG Thái Nguyên",
+            "team_b": "Phong Phú Hà Nam",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQ0dfv8HJuFpVXUyKUUOB50eJlWmZ1kDHMw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Logo_C%C3%B4ng_ty_c%E1%BB%95_ph%E1%BA%A7n_Phong_Ph%C3%BA.png",
+            "time": "16:00 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/TNG Thái Nguyên_Phong Phú Hà Nam_16-00 27-05_6ebd9b70_20260526.png?v=6ebd9b70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-f36aedd162",
           "name": "Altay vs FC Astana | 18:00 27/05",
           "type": "single",
@@ -508,6 +685,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Selangor_19-00 27-05_c14a1d60_20260526.png?v=c14a1d60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bf934bcc54",
+          "name": "Ararat-Armenia vs Gandzasar | 22:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf934bcc54",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bf934bcc54",
+                  "name": "Ararat-Armenia vs Gandzasar",
+                  "streams": [
+                    {
+                      "id": "st-bf934bcc54",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Armenia",
+            "team_a": "Ararat-Armenia",
+            "team_b": "Gandzasar",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0kqWey0UfrC0EKfcwWbE__I45BpbqSL8o8Q&s",
+            "logo_b": "https://media.api-sports.io/football/teams/688.png",
+            "time": "22:00 27/05",
+            "blv": "BLV TÁO MÈO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ararat-Armenia_Gandzasar_22-00 27-05_3ee9cf51_20260526.png?v=3ee9cf51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1323063d4a",
+          "name": "FC Urartu vs FC Noah | 22:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1323063d4a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1323063d4a",
+                  "name": "FC Urartu vs FC Noah",
+                  "streams": [
+                    {
+                      "id": "st-1323063d4a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Armenia",
+            "team_a": "FC Urartu",
+            "team_b": "FC Noah",
+            "logo_a": "https://media.api-sports.io/football/teams/2276.png",
+            "logo_b": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072024/noa_erevan_armeniya.jpg?uY.4iyP71.IUrYKW4zofa.9TrGE4PAdC&itok=2IIKrnfc",
+            "time": "22:00 27/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Urartu_FC Noah_22-00 27-05_5fae58ff_20260526.png?v=5fae58ff",
             "width": 1600,
             "height": 1200
           }
@@ -720,82 +1003,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-4fbee22eb5",
-          "name": "Coco Gauff vs Taylor Townsend | 21:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fbee22eb5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4fbee22eb5",
-                  "name": "Coco Gauff vs Taylor Townsend",
-                  "streams": [
-                    {
-                      "id": "st-4fbee22eb5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Coco Gauff",
-            "team_b": "Taylor Townsend",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-D1f3Zw-_uFrFnI0TsxizeP86DrsSCNwlg&s",
-            "time": "21:00 26/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Taylor Townsend_21-00 26-05_da1ad6cb_20260526.png?v=da1ad6cb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7c2fb4996d",
           "name": "Alexander Bublik vs Jan-Lennard Struff | 22:00 26/05",
