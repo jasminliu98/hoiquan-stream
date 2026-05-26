@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:45 26/05/2026",
+  "updated_at": "16:50 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -278,6 +278,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Montenegro U17_Denmark U17_23-00 26-05_3f0ed919_20260526.png?v=3f0ed919",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9bdc51e371",
+          "name": "Nigeria vs Zimbabwe | 01:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bdc51e371",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9bdc51e371",
+                  "name": "Nigeria vs Zimbabwe",
+                  "streams": [
+                    {
+                      "id": "st-9bdc51e371",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Nigeria",
+            "team_b": "Zimbabwe",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1920px-Flag_of_Zimbabwe.svg.png",
+            "time": "01:30 27/05",
+            "blv": "BLV TÁO MÈO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nigeria_Zimbabwe_01-30 27-05_6cedb125_20260526.png?v=6cedb125",
             "width": 1600,
             "height": 1200
           }
