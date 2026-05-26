@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 27/05/2026",
+  "updated_at": "00:25 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-055588bb87",
-          "name": "Alashkert vs Shirak | 22:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-055588bb87",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-055588bb87",
-                  "name": "Alashkert vs Shirak",
-                  "streams": [
-                    {
-                      "id": "st-055588bb87",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2821a56f8c",
-                          "name": "BLV TÁO MÈO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taomeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Armenia",
-            "team_a": "Alashkert",
-            "team_b": "Shirak",
-            "logo_a": "https://media.api-sports.io/football/teams/582.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3686.png",
-            "time": "22:00 26/05",
-            "blv": "BLV TÁO MÈO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alashkert_Shirak_22-00 26-05_c60db28e_20260527.png?v=c60db28e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5bded3824f",
           "name": "Montenegro U17 vs Denmark U17 | 23:00 26/05",
