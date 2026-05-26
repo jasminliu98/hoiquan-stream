@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:55 26/05/2026",
+  "updated_at": "21:00 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-4159e45ef0",
-          "name": "Astana II vs Khan Tengri | 21:00 26/05",
+          "id": "hqlive-0f8635cb34",
+          "name": "Astana II vs Khan Tengri | 21:30 26/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-4159e45ef0",
+              "id": "src-0f8635cb34",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4159e45ef0",
+                  "id": "ct-0f8635cb34",
                   "name": "Astana II vs Khan Tengri",
                   "streams": [
                     {
-                      "id": "st-4159e45ef0",
+                      "id": "st-0f8635cb34",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -74,7 +74,7 @@
             "team_b": "Khan Tengri",
             "logo_a": "https://media.api-sports.io/football/teams/4548.png",
             "logo_b": "https://media.api-sports.io/football/teams/18805.png",
-            "time": "21:00 26/05",
+            "time": "21:30 26/05",
             "blv": "BLV TÁO GIÀ",
             "is_live": true,
             "sport_slug": "bong-da"
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Astana II_Khan Tengri_21-00 26-05_8334fddf_20260526.png?v=8334fddf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Astana II_Khan Tengri_21-30 26-05_8334fddf_20260526.png?v=8334fddf",
             "width": 1600,
             "height": 1200
           }
@@ -764,38 +764,56 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-362c78ebb0",
-          "name": "Coco Gauff vs Taylor Townsend | 21:30 26/05",
+          "id": "hqlive-4fbee22eb5",
+          "name": "Coco Gauff vs Taylor Townsend | 21:00 26/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-362c78ebb0",
+              "id": "src-4fbee22eb5",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-362c78ebb0",
+                  "id": "ct-4fbee22eb5",
                   "name": "Coco Gauff vs Taylor Townsend",
                   "streams": [
                     {
-                      "id": "st-362c78ebb0",
+                      "id": "st-4fbee22eb5",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -808,16 +826,16 @@
             "team_b": "Taylor Townsend",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-D1f3Zw-_uFrFnI0TsxizeP86DrsSCNwlg&s",
-            "time": "21:30 26/05",
+            "time": "21:00 26/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Taylor Townsend_21-30 26-05_da1ad6cb_20260526.png?v=da1ad6cb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Taylor Townsend_21-00 26-05_da1ad6cb_20260526.png?v=da1ad6cb",
             "width": 1600,
             "height": 1200
           }
