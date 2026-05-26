@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:50 26/05/2026",
+  "updated_at": "20:55 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -493,7 +493,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "Ngoại hạng Kazakhstan",
             "team_a": "Altay",
             "team_b": "FC Astana",
             "logo_a": "https://media.api-sports.io/football/teams/4544.png",
