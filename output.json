@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:40 26/05/2026",
+  "updated_at": "21:45 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -765,6 +765,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phạm Phương Nam_Lukas Fracasso-Verner_18-00 26-05_6f6edb02_20260526.png?v=6f6edb02",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_cau-long",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-432c38a656",
+          "name": "Chen Y. F vs Karupathevan LETSHANAA | 09:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-432c38a656",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-432c38a656",
+                  "name": "Chen Y. F vs Karupathevan LETSHANAA",
+                  "streams": [
+                    {
+                      "id": "st-432c38a656",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KFF Singapore Badminton Open 2026",
+            "team_a": "Chen Y. F",
+            "team_b": "Karupathevan LETSHANAA",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://images2.thanhnien.vn/528068263637045248/2025/1/23/202110101715thomasubercupfinals2020bpyn9301-173762638416540370629.jpg",
+            "time": "09:00 27/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chen Y. F_Karupathevan LETSHANAA_09-00 27-05_e616c0dd_20260526.png?v=e616c0dd",
             "width": 1600,
             "height": 1200
           }
