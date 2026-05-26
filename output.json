@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:10 26/05/2026",
+  "updated_at": "21:20 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -871,6 +871,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Daniil Medvedev_01-30 27-05_ac696414_20260526.png?v=ac696414",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a57f4abec8",
+          "name": "Iga Swiatek vs Ugo Humbert | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a57f4abec8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a57f4abec8",
+                  "name": "Iga Swiatek vs Ugo Humbert",
+                  "streams": [
+                    {
+                      "id": "st-a57f4abec8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Iga Swiatek",
+            "team_b": "Ugo Humbert",
+            "logo_a": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "logo_b": "https://tse2.mm.bing.net/th/id/OIP.D1Wm_duMfdDXKRp0UpKCmAHaFZ?pid=Api&P=0&h=220",
+            "time": "17:00 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Ugo Humbert_17-00 27-05_3dc4b508_20260526.png?v=3dc4b508",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1d2be60056",
+          "name": "Elina Svitolina vs Kaitlin Quevedo | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d2be60056",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1d2be60056",
+                  "name": "Elina Svitolina vs Kaitlin Quevedo",
+                  "streams": [
+                    {
+                      "id": "st-1d2be60056",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Elina Svitolina",
+            "team_b": "Kaitlin Quevedo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSODaL49Y5HQH6LlgmxI9-csYbnGl8grA_YAQ&s",
+            "time": "19:00 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Kaitlin Quevedo_19-00 27-05_40bf1034_20260526.png?v=40bf1034",
             "width": 1600,
             "height": 1200
           }
