@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:30 27/05/2026",
+  "updated_at": "03:35 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-dcdba7556b",
-          "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen | 01:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dcdba7556b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-dcdba7556b",
-                  "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen",
-                  "streams": [
-                    {
-                      "id": "st-dcdba7556b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2821a56f8c",
-                          "name": "BLV TÁO MÈO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taomeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "SpVgg Greuther Fürth",
-            "team_b": "Rot-Weiß Essen",
-            "logo_a": "https://media.api-sports.io/football/teams/178.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1621.png",
-            "time": "01:30 27/05",
-            "blv": "BLV TÁO MÈO",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SpVgg Greuther Fürth_Rot-Weiß Essen_01-30 27-05_5169e0d1_20260527.png?v=5169e0d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b54c56b7bc",
           "name": "Saint Etienne vs Nice | 01:45 27/05",
