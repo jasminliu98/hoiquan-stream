@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:30 26/05/2026",
+  "updated_at": "21:35 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -965,8 +965,8 @@
           }
         },
         {
-          "id": "hqlive-a57f4abec8",
-          "name": "Iga Swiatek vs Ugo Humbert | 17:00 27/05",
+          "id": "hqlive-1bc302d150",
+          "name": "Iga Swiatek vs Sára Bejlek | 17:00 27/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -980,15 +980,15 @@
           ],
           "sources": [
             {
-              "id": "src-a57f4abec8",
+              "id": "src-1bc302d150",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-a57f4abec8",
-                  "name": "Iga Swiatek vs Ugo Humbert",
+                  "id": "ct-1bc302d150",
+                  "name": "Iga Swiatek vs Sára Bejlek",
                   "streams": [
                     {
-                      "id": "st-a57f4abec8",
+                      "id": "st-1bc302d150",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1000,9 +1000,9 @@
           "org_metadata": {
             "league": "Roland Garros",
             "team_a": "Iga Swiatek",
-            "team_b": "Ugo Humbert",
+            "team_b": "Sára Bejlek",
             "logo_a": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
-            "logo_b": "https://tse2.mm.bing.net/th/id/OIP.D1Wm_duMfdDXKRp0UpKCmAHaFZ?pid=Api&P=0&h=220",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Bejlek_RGQ23.jpg",
             "time": "17:00 27/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -1012,7 +1012,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Ugo Humbert_17-00 27-05_3dc4b508_20260526.png?v=3dc4b508",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Sára Bejlek_17-00 27-05_a2d0ac6c_20260526.png?v=a2d0ac6c",
             "width": 1600,
             "height": 1200
           }
@@ -1066,6 +1066,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Kaitlin Quevedo_19-00 27-05_40bf1034_20260526.png?v=40bf1034",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a28c741e53",
+          "name": "Valentin Royer vs Novak Djokovic | 21:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a28c741e53",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a28c741e53",
+                  "name": "Valentin Royer vs Novak Djokovic",
+                  "streams": [
+                    {
+                      "id": "st-a28c741e53",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Valentin Royer",
+            "team_b": "Novak Djokovic",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVceA9jrHXNRuDxl74r2XUF6La-AxRYeuGJA&s",
+            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
+            "time": "21:00 27/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valentin Royer_Novak Djokovic_21-00 27-05_8a9fa08b_20260526.png?v=8a9fa08b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3817d0812d",
+          "name": "Tomas Machac vs Alexandet Zverev | 01:30 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3817d0812d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3817d0812d",
+                  "name": "Tomas Machac vs Alexandet Zverev",
+                  "streams": [
+                    {
+                      "id": "st-3817d0812d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Tomas Machac",
+            "team_b": "Alexandet Zverev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXdwaH9QMh6ZenXsa--g2VXiVPn7BuJjjbQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "time": "01:30 28/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Machac_Alexandet Zverev_01-30 28-05_8d2eccdf_20260526.png?v=8d2eccdf",
             "width": 1600,
             "height": 1200
           }
