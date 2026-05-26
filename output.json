@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:20 27/05/2026",
+  "updated_at": "01:30 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -597,6 +597,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona W_Real Sociedad W_00-00 28-05_eb859c7f_20260527.png?v=eb859c7f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c2cb4feb01",
+          "name": "Jamaica vs India | 01:30 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c2cb4feb01",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c2cb4feb01",
+                  "name": "Jamaica vs India",
+                  "streams": [
+                    {
+                      "id": "st-c2cb4feb01",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Jamaica",
+            "team_b": "India",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/250px-Flag_of_Jamaica.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1537.png",
+            "time": "01:30 28/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jamaica_India_01-30 28-05_9d755cbe_20260527.png?v=9d755cbe",
             "width": 1600,
             "height": 1200
           }
