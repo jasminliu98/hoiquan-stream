@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 26/05/2026",
+  "updated_at": "19:45 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -25,10 +25,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -43,7 +43,25 @@
                     {
                       "id": "st-7cb70f8a0a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -58,7 +76,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
             "time": "18:30 26/05",
             "blv": "BLV THẦN THÔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -78,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -96,7 +114,25 @@
                     {
                       "id": "st-1951c02a9a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2821a56f8c",
+                          "name": "BLV TÁO MÈO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taomeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -111,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1528.png",
             "time": "20:00 26/05",
             "blv": "BLV TÁO MÈO",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -322,7 +358,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1920px-Flag_of_Zimbabwe.svg.png",
             "time": "01:30 27/05",
-            "blv": "BLV TÁO MÈO",
+            "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -331,6 +367,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nigeria_Zimbabwe_01-30 27-05_6cedb125_20260526.png?v=6cedb125",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-dcdba7556b",
+          "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen | 01:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dcdba7556b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dcdba7556b",
+                  "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen",
+                  "streams": [
+                    {
+                      "id": "st-dcdba7556b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "SpVgg Greuther Fürth",
+            "team_b": "Rot-Weiß Essen",
+            "logo_a": "https://media.api-sports.io/football/teams/178.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1621.png",
+            "time": "01:30 27/05",
+            "blv": "BLV TÁO MÈO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SpVgg Greuther Fürth_Rot-Weiß Essen_01-30 27-05_5169e0d1_20260526.png?v=5169e0d1",
             "width": 1600,
             "height": 1200
           }
@@ -387,6 +476,271 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-049bee3860",
+          "name": "Flamengo vs Cusco | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-049bee3860",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-049bee3860",
+                  "name": "Flamengo vs Cusco",
+                  "streams": [
+                    {
+                      "id": "st-049bee3860",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Flamengo",
+            "team_b": "Cusco",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10013.png",
+            "time": "07:30 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flamengo_Cusco_07-30 27-05_dedd7ca8_20260526.png?v=dedd7ca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-966702f22b",
+          "name": "TNG Thái Nguyên vs Phong Phú Hà Nam | 16:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-966702f22b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-966702f22b",
+                  "name": "TNG Thái Nguyên vs Phong Phú Hà Nam",
+                  "streams": [
+                    {
+                      "id": "st-966702f22b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp quốc gia Việt Nam",
+            "team_a": "TNG Thái Nguyên",
+            "team_b": "Phong Phú Hà Nam",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQ0dfv8HJuFpVXUyKUUOB50eJlWmZ1kDHMw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Logo_C%C3%B4ng_ty_c%E1%BB%95_ph%E1%BA%A7n_Phong_Ph%C3%BA.png",
+            "time": "16:00 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/TNG Thái Nguyên_Phong Phú Hà Nam_16-00 27-05_6ebd9b70_20260526.png?v=6ebd9b70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f36aedd162",
+          "name": "Altay vs FC Astana | 18:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f36aedd162",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f36aedd162",
+                  "name": "Altay vs FC Astana",
+                  "streams": [
+                    {
+                      "id": "st-f36aedd162",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Altay",
+            "team_b": "FC Astana",
+            "logo_a": "https://media.api-sports.io/football/teams/4544.png",
+            "logo_b": "https://media.api-sports.io/football/teams/562.png",
+            "time": "18:00 27/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Altay_FC Astana_18-00 27-05_3cdea4ef_20260526.png?v=3cdea4ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-abaf602bc1",
+          "name": "Hà Nội Nữ vs Nữ Hồ Chí Minh | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abaf602bc1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-abaf602bc1",
+                  "name": "Hà Nội Nữ vs Nữ Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-abaf602bc1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp quốc gia Việt Nam",
+            "team_a": "Hà Nội Nữ",
+            "team_b": "Nữ Hồ Chí Minh",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrwbRVnSljHy8WGaU8UVE_bNbA_ouun6OHpw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/9/9a/Logo_HWFC.png/250px-Logo_HWFC.png",
+            "time": "19:00 27/05",
+            "blv": "BLV TÁO MÈO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Nội Nữ_Nữ Hồ Chí Minh_19-00 27-05_9d3d4587_20260526.png?v=9d3d4587",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-05d28f7580",
+          "name": "Buriram United vs Selangor | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05d28f7580",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-05d28f7580",
+                  "name": "Buriram United vs Selangor",
+                  "streams": [
+                    {
+                      "id": "st-05d28f7580",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Buriram United",
+            "team_b": "Selangor",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Buriram_United_logo.svg/250px-Buriram_United_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/d/d7/Selangor_FC_logo.svg",
+            "time": "19:00 27/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Selangor_19-00 27-05_c14a1d60_20260526.png?v=c14a1d60",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -398,8 +752,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-8f168a9e76",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 18:00 26/05",
+          "id": "hqlive-1e20bbb903",
+          "name": "Dương Quốc Hoàng vs Mohammed Baabad | 18:00 26/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -413,15 +767,15 @@
           ],
           "sources": [
             {
-              "id": "src-8f168a9e76",
+              "id": "src-1e20bbb903",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-8f168a9e76",
-                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "id": "ct-1e20bbb903",
+                  "name": "Dương Quốc Hoàng vs Mohammed Baabad",
                   "streams": [
                     {
-                      "id": "st-8f168a9e76",
+                      "id": "st-1e20bbb903",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -450,10 +804,10 @@
           ],
           "org_metadata": {
             "league": "UK OPEN",
-            "team_a": "Tay cơ 1",
-            "team_b": "Tay cơ 2",
-            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
-            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Mohammed Baabad",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7wzU7Wnezbf8SPMVNgyIxpWHF5Wwu7UOZiQ&s",
             "time": "18:00 26/05",
             "blv": "BLV PHAN ANH",
             "is_live": true,
@@ -463,7 +817,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_18-00 26-05_97f1b445_20260526.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Mohammed Baabad_18-00 26-05_168a0319_20260526.png?v=168a0319",
             "width": 1600,
             "height": 1200
           }
@@ -587,82 +941,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c6c87c040b",
-          "name": "Aryna Sabalenka vs Jessica Bouzas Maneiro | 17:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6c87c040b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c6c87c040b",
-                  "name": "Aryna Sabalenka vs Jessica Bouzas Maneiro",
-                  "streams": [
-                    {
-                      "id": "st-c6c87c040b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Aryna Sabalenka",
-            "team_b": "Jessica Bouzas Maneiro",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRABku-HEyppakDXMdArYXrPo8MNNgPAohcIA&s",
-            "time": "17:00 26/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Jessica Bouzas Maneiro_17-00 26-05_fa3f4334_20260526.png?v=fa3f4334",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4fbee22eb5",
           "name": "Coco Gauff vs Taylor Townsend | 21:00 26/05",
