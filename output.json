@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 26/05/2026",
+  "updated_at": "16:40 26/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,6 +17,165 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-7cb70f8a0a",
+          "name": "Italy U17 vs France U17 | 18:30 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cb70f8a0a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7cb70f8a0a",
+                  "name": "Italy U17 vs France U17",
+                  "streams": [
+                    {
+                      "id": "st-7cb70f8a0a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Italy U17",
+            "team_b": "France U17",
+            "logo_a": "https://tmssl.akamaized.net//images/wappen/big/23133.png?lm=1672672799",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
+            "time": "18:30 26/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Italy U17_France U17_18-30 26-05_2d7af0a0_20260526.png?v=2d7af0a0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1951c02a9a",
+          "name": "Morocco vs Burundi | 20:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1951c02a9a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1951c02a9a",
+                  "name": "Morocco vs Burundi",
+                  "streams": [
+                    {
+                      "id": "st-1951c02a9a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Morocco",
+            "team_b": "Burundi",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1528.png",
+            "time": "20:00 26/05",
+            "blv": "BLV TÁO MÈO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Morocco_Burundi_20-00 26-05_3712f716_20260526.png?v=3712f716",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4159e45ef0",
+          "name": "Astana II vs Khan Tengri | 21:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4159e45ef0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4159e45ef0",
+                  "name": "Astana II vs Khan Tengri",
+                  "streams": [
+                    {
+                      "id": "st-4159e45ef0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Astana II",
+            "team_b": "Khan Tengri",
+            "logo_a": "https://media.api-sports.io/football/teams/4548.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18805.png",
+            "time": "21:00 26/05",
+            "blv": "BLV TÁO TỈNH TÁO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Astana II_Khan Tengri_21-00 26-05_8334fddf_20260526.png?v=8334fddf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-055588bb87",
           "name": "Alashkert vs Shirak | 22:00 26/05",
