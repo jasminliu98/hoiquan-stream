@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:25 27/05/2026",
+  "updated_at": "14:25 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/River Plate_Blooming_07-30 28-05_46d85a14_20260527.png?v=46d85a14",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-881ce31a5b",
+          "name": "Tay cơ 1 vs Tay cơ 2 | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-881ce31a5b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-881ce31a5b",
+                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "streams": [
+                    {
+                      "id": "st-881ce31a5b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UK OPEN",
+            "team_a": "Tay cơ 1",
+            "team_b": "Tay cơ 2",
+            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "time": "19:00 27/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_19-00 27-05_97f1b445_20260527.png?v=97f1b445",
             "width": 1600,
             "height": 1200
           }
