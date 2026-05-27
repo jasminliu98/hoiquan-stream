@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:30 28/05/2026",
+  "updated_at": "05:00 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rep. Of Ireland_Qatar_01-45 29-05_4e84a91f_20260528.png?v=4e84a91f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ffe414cbba",
+          "name": "Palmeiras vs Junior | 05:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffe414cbba",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ffe414cbba",
+                  "name": "Palmeiras vs Junior",
+                  "streams": [
+                    {
+                      "id": "st-ffe414cbba",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Palmeiras",
+            "team_b": "Junior",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/500px-Palmeiras_logo.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaNCIKzpPJH83I5J2Exi7EAkD4McMVH54pA&s",
+            "time": "05:00 29/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Palmeiras_Junior_05-00 29-05_6a4b5487_20260528.png?v=6a4b5487",
             "width": 1600,
             "height": 1200
           }
