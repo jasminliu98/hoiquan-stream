@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:55 27/05/2026",
+  "updated_at": "09:35 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-0a38d4e28f",
-          "name": "Santos vs Deportivo Cuenca | 07:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a38d4e28f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0a38d4e28f",
-                  "name": "Santos vs Deportivo Cuenca",
-                  "streams": [
-                    {
-                      "id": "st-0a38d4e28f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Sudamericana",
-            "team_a": "Santos",
-            "team_b": "Deportivo Cuenca",
-            "logo_a": "https://media.api-sports.io/football/teams/128.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1154.png",
-            "time": "07:30 27/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_Deportivo Cuenca_07-30 27-05_b9cfa90f_20260527.png?v=b9cfa90f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-966702f22b",
           "name": "TNG Thái Nguyên vs Phong Phú Hà Nam | 16:00 27/05",
