@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:35 27/05/2026",
+  "updated_at": "00:00 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ararat-Armenia_Gandzasar_22-00 27-05_3ee9cf51_20260527.png?v=3ee9cf51",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ararat-Armenia_Gandzasar_22-00 27-05_3ee9cf51_20260528.png?v=3ee9cf51",
             "width": 1600,
             "height": 1200
           }
@@ -154,7 +154,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona W_Real Sociedad W_00-00 28-05_eb859c7f_20260527.png?v=eb859c7f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona W_Real Sociedad W_00-00 28-05_eb859c7f_20260528.png?v=eb859c7f",
             "width": 1600,
             "height": 1200
           }
@@ -207,7 +207,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Rayo Vallecano_02-00 28-05_af5ee8b9_20260527.png?v=af5ee8b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Rayo Vallecano_02-00 28-05_af5ee8b9_20260528.png?v=af5ee8b9",
             "width": 1600,
             "height": 1200
           }
@@ -260,7 +260,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fluminense_Deportivo La Guaira_07-30 28-05_72f84c67_20260527.png?v=72f84c67",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fluminense_Deportivo La Guaira_07-30 28-05_72f84c67_20260528.png?v=72f84c67",
             "width": 1600,
             "height": 1200
           }
@@ -313,7 +313,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/River Plate_Blooming_07-30 28-05_46d85a14_20260527.png?v=46d85a14",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/River Plate_Blooming_07-30 28-05_46d85a14_20260528.png?v=46d85a14",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Okzhetpes_Aktobe_17-00 28-05_23e41a8f_20260527.png?v=23e41a8f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Okzhetpes_Aktobe_17-00 28-05_23e41a8f_20260528.png?v=23e41a8f",
             "width": 1600,
             "height": 1200
           }
@@ -419,7 +419,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Spain U17_18-30 28-05_5c58ad3b_20260527.png?v=5c58ad3b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Spain U17_18-30 28-05_5c58ad3b_20260528.png?v=5c58ad3b",
             "width": 1600,
             "height": 1200
           }
@@ -472,7 +472,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Petrojet_El Gouna FC_21-00 28-05_0414afec_20260527.png?v=0414afec",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Petrojet_El Gouna FC_21-00 28-05_0414afec_20260528.png?v=0414afec",
             "width": 1600,
             "height": 1200
           }
@@ -525,7 +525,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ordabasy_Kairat Almaty_22-00 28-05_b881660e_20260527.png?v=b881660e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ordabasy_Kairat Almaty_22-00 28-05_b881660e_20260528.png?v=b881660e",
             "width": 1600,
             "height": 1200
           }
@@ -578,7 +578,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estonia U17_Croatia U17_23-00 28-05_77412fa3_20260527.png?v=77412fa3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estonia U17_Croatia U17_23-00 28-05_77412fa3_20260528.png?v=77412fa3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f548164b5b",
+          "name": "Ismaily SC vs Pharco | 00:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f548164b5b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f548164b5b",
+                  "name": "Ismaily SC vs Pharco",
+                  "streams": [
+                    {
+                      "id": "st-f548164b5b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ai Cập",
+            "team_a": "Ismaily SC",
+            "team_b": "Pharco",
+            "logo_a": "https://tse2.mm.bing.net/th/id/OIP.vkYmNafPVTwF9fZx7sn-zQHaHN?pid=Api&P=0&h=220",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5916md7o/image/small",
+            "time": "00:00 29/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ismaily SC_Pharco_00-00 29-05_0b172e71_20260528.png?v=0b172e71",
             "width": 1600,
             "height": 1200
           }
@@ -658,7 +711,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_21-00 27-05_97f1b445_20260527.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_21-00 27-05_97f1b445_20260528.png?v=97f1b445",
             "width": 1600,
             "height": 1200
           }
@@ -738,7 +791,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 27-05_cacf1340_20260527.png?v=cacf1340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 27-05_cacf1340_20260528.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
@@ -818,7 +871,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valentin Royer_Novak Djokovic_21-00 27-05_8a9fa08b_20260527.png?v=8a9fa08b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valentin Royer_Novak Djokovic_21-00 27-05_8a9fa08b_20260528.png?v=8a9fa08b",
             "width": 1600,
             "height": 1200
           }
@@ -871,7 +924,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Machac_Alexandet Zverev_01-30 28-05_8d2eccdf_20260527.png?v=8d2eccdf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Machac_Alexandet Zverev_01-30 28-05_8d2eccdf_20260528.png?v=8d2eccdf",
             "width": 1600,
             "height": 1200
           }
