@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 27/05/2026",
+  "updated_at": "23:00 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -508,6 +508,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ordabasy_Kairat Almaty_22-00 28-05_b881660e_20260527.png?v=b881660e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f5511bca77",
+          "name": "Estonia U17 vs Croatia U17 | 23:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5511bca77",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f5511bca77",
+                  "name": "Estonia U17 vs Croatia U17",
+                  "streams": [
+                    {
+                      "id": "st-f5511bca77",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Estonia U17",
+            "team_b": "Croatia U17",
+            "logo_a": "https://media.api-sports.io/football/teams/17950.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+            "time": "23:00 28/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estonia U17_Croatia U17_23-00 28-05_77412fa3_20260527.png?v=77412fa3",
             "width": 1600,
             "height": 1200
           }
