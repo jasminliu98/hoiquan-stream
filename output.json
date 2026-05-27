@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:50 27/05/2026",
+  "updated_at": "21:00 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Nội Nữ_Nữ Hồ Chí Minh_19-00 27-05_9d3d4587_20260527.png?v=9d3d4587",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-05d28f7580",
-          "name": "Buriram United vs Selangor | 19:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05d28f7580",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-05d28f7580",
-                  "name": "Buriram United vs Selangor",
-                  "streams": [
-                    {
-                      "id": "st-05d28f7580",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Buriram United",
-            "team_b": "Selangor",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Buriram_United_logo.svg/250px-Buriram_United_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/d/d7/Selangor_FC_logo.svg",
-            "time": "19:00 27/05",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Selangor_19-00 27-05_c14a1d60_20260527.png?v=c14a1d60",
             "width": 1600,
             "height": 1200
           }
@@ -526,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Spain U17_18-30 28-05_5c58ad3b_20260527.png?v=5c58ad3b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a0d6f8cd26",
+          "name": "Petrojet vs El Gouna FC | 21:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0d6f8cd26",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a0d6f8cd26",
+                  "name": "Petrojet vs El Gouna FC",
+                  "streams": [
+                    {
+                      "id": "st-a0d6f8cd26",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Petrojet",
+            "team_b": "El Gouna FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5d/Petrojet_SC_2017.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1574.png",
+            "time": "21:00 28/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Petrojet_El Gouna FC_21-00 28-05_0414afec_20260527.png?v=0414afec",
             "width": 1600,
             "height": 1200
           }
