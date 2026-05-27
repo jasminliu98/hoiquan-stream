@@ -3,11 +3,1003 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:51 27/05/2026",
+  "updated_at": "08:55 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
     "url": "https://sv2.hoiquan3.live/logo.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "sport_bong-da",
+      "name": "⚽ Bóng Đá (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-0a38d4e28f",
+          "name": "Santos vs Deportivo Cuenca | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a38d4e28f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0a38d4e28f",
+                  "name": "Santos vs Deportivo Cuenca",
+                  "streams": [
+                    {
+                      "id": "st-0a38d4e28f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Sudamericana",
+            "team_a": "Santos",
+            "team_b": "Deportivo Cuenca",
+            "logo_a": "https://media.api-sports.io/football/teams/128.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1154.png",
+            "time": "07:30 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_Deportivo Cuenca_07-30 27-05_b9cfa90f_20260527.png?v=b9cfa90f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-966702f22b",
+          "name": "TNG Thái Nguyên vs Phong Phú Hà Nam | 16:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-966702f22b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-966702f22b",
+                  "name": "TNG Thái Nguyên vs Phong Phú Hà Nam",
+                  "streams": [
+                    {
+                      "id": "st-966702f22b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp quốc gia Việt Nam",
+            "team_a": "TNG Thái Nguyên",
+            "team_b": "Phong Phú Hà Nam",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQ0dfv8HJuFpVXUyKUUOB50eJlWmZ1kDHMw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Logo_C%C3%B4ng_ty_c%E1%BB%95_ph%E1%BA%A7n_Phong_Ph%C3%BA.png",
+            "time": "16:00 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/TNG Thái Nguyên_Phong Phú Hà Nam_16-00 27-05_6ebd9b70_20260527.png?v=6ebd9b70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f36aedd162",
+          "name": "Altay vs FC Astana | 18:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f36aedd162",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f36aedd162",
+                  "name": "Altay vs FC Astana",
+                  "streams": [
+                    {
+                      "id": "st-f36aedd162",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Altay",
+            "team_b": "FC Astana",
+            "logo_a": "https://media.api-sports.io/football/teams/4544.png",
+            "logo_b": "https://media.api-sports.io/football/teams/562.png",
+            "time": "18:00 27/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Altay_FC Astana_18-00 27-05_3cdea4ef_20260527.png?v=3cdea4ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-abaf602bc1",
+          "name": "Hà Nội Nữ vs Nữ Hồ Chí Minh | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abaf602bc1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-abaf602bc1",
+                  "name": "Hà Nội Nữ vs Nữ Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-abaf602bc1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp quốc gia Việt Nam",
+            "team_a": "Hà Nội Nữ",
+            "team_b": "Nữ Hồ Chí Minh",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrwbRVnSljHy8WGaU8UVE_bNbA_ouun6OHpw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/9/9a/Logo_HWFC.png/250px-Logo_HWFC.png",
+            "time": "19:00 27/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Nội Nữ_Nữ Hồ Chí Minh_19-00 27-05_9d3d4587_20260527.png?v=9d3d4587",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-05d28f7580",
+          "name": "Buriram United vs Selangor | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05d28f7580",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-05d28f7580",
+                  "name": "Buriram United vs Selangor",
+                  "streams": [
+                    {
+                      "id": "st-05d28f7580",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Buriram United",
+            "team_b": "Selangor",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Buriram_United_logo.svg/250px-Buriram_United_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/d/d7/Selangor_FC_logo.svg",
+            "time": "19:00 27/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Buriram United_Selangor_19-00 27-05_c14a1d60_20260527.png?v=c14a1d60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bf934bcc54",
+          "name": "Ararat-Armenia vs Gandzasar | 22:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf934bcc54",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bf934bcc54",
+                  "name": "Ararat-Armenia vs Gandzasar",
+                  "streams": [
+                    {
+                      "id": "st-bf934bcc54",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Armenia",
+            "team_a": "Ararat-Armenia",
+            "team_b": "Gandzasar",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0kqWey0UfrC0EKfcwWbE__I45BpbqSL8o8Q&s",
+            "logo_b": "https://media.api-sports.io/football/teams/688.png",
+            "time": "22:00 27/05",
+            "blv": "BLV TÁO MÈO",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ararat-Armenia_Gandzasar_22-00 27-05_3ee9cf51_20260527.png?v=3ee9cf51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d8e137c2c8",
+          "name": "Barcelona W vs Real Sociedad W | 00:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8e137c2c8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d8e137c2c8",
+                  "name": "Barcelona W vs Real Sociedad W",
+                  "streams": [
+                    {
+                      "id": "st-d8e137c2c8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera División Femenina",
+            "team_a": "Barcelona W",
+            "team_b": "Real Sociedad W",
+            "logo_a": "https://media.api-sports.io/football/teams/1918.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1912.png",
+            "time": "00:00 28/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barcelona W_Real Sociedad W_00-00 28-05_eb859c7f_20260527.png?v=eb859c7f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c2cb4feb01",
+          "name": "Jamaica vs India | 01:30 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c2cb4feb01",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c2cb4feb01",
+                  "name": "Jamaica vs India",
+                  "streams": [
+                    {
+                      "id": "st-c2cb4feb01",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Jamaica",
+            "team_b": "India",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/250px-Flag_of_Jamaica.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1537.png",
+            "time": "01:30 28/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jamaica_India_01-30 28-05_9d755cbe_20260527.png?v=9d755cbe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d621646992",
+          "name": "Crystal Palace vs Rayo Vallecano | 02:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d621646992",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d621646992",
+                  "name": "Crystal Palace vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-d621646992",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "Crystal Palace",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/a2/Crystal_Palace_FC_logo_%282022%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/0/03/Yyjbb92.png",
+            "time": "02:00 28/05",
+            "blv": "BLV TÁO MÈO, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Crystal Palace_Rayo Vallecano_02-00 28-05_af5ee8b9_20260527.png?v=af5ee8b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d86238f4c4",
+          "name": "Fluminense vs Deportivo La Guaira | 07:30 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d86238f4c4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d86238f4c4",
+                  "name": "Fluminense vs Deportivo La Guaira",
+                  "streams": [
+                    {
+                      "id": "st-d86238f4c4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Fluminense",
+            "team_b": "Deportivo La Guaira",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/fCMxMMDF2AZPU7LzYKSlig_96x96.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2813.png",
+            "time": "07:30 28/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fluminense_Deportivo La Guaira_07-30 28-05_72f84c67_20260527.png?v=72f84c67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7ab556ad7d",
+          "name": "River Plate vs Blooming | 07:30 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ab556ad7d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7ab556ad7d",
+                  "name": "River Plate vs Blooming",
+                  "streams": [
+                    {
+                      "id": "st-7ab556ad7d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Sudamericana",
+            "team_a": "River Plate",
+            "team_b": "Blooming",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/4/41/River_Plate_logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3701.png",
+            "time": "07:30 28/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/River Plate_Blooming_07-30 28-05_46d85a14_20260527.png?v=46d85a14",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_cau-long",
+      "name": "🏸 Cầu Lông (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-432c38a656",
+          "name": "Chen Y. F vs Karupathevan LETSHANAA | 09:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-432c38a656",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-432c38a656",
+                  "name": "Chen Y. F vs Karupathevan LETSHANAA",
+                  "streams": [
+                    {
+                      "id": "st-432c38a656",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KFF Singapore Badminton Open 2026",
+            "team_a": "Chen Y. F",
+            "team_b": "Karupathevan LETSHANAA",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://images2.thanhnien.vn/528068263637045248/2025/1/23/202110101715thomasubercupfinals2020bpyn9301-173762638416540370629.jpg",
+            "time": "09:00 27/05",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": true,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chen Y. F_Karupathevan LETSHANAA_09-00 27-05_e616c0dd_20260527.png?v=e616c0dd",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ro",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-0af4fba76b",
+          "name": "Oklahoma City Thunder vs San Antonio Spurs | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0af4fba76b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0af4fba76b",
+                  "name": "Oklahoma City Thunder vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-0af4fba76b",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "time": "07:30 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": true,
+            "sport_slug": "bong-ro"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-30 27-05_280346f3_20260527.png?v=280346f3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-1bc302d150",
+          "name": "Iga Swiatek vs Sára Bejlek | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bc302d150",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1bc302d150",
+                  "name": "Iga Swiatek vs Sára Bejlek",
+                  "streams": [
+                    {
+                      "id": "st-1bc302d150",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Iga Swiatek",
+            "team_b": "Sára Bejlek",
+            "logo_a": "https://cdn.images.express.co.uk/img/dynamic/72/590x/secondary/4885381.jpg?r=1690841549720",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Bejlek_RGQ23.jpg",
+            "time": "17:00 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Sára Bejlek_17-00 27-05_a2d0ac6c_20260527.png?v=a2d0ac6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1d2be60056",
+          "name": "Elina Svitolina vs Kaitlin Quevedo | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d2be60056",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1d2be60056",
+                  "name": "Elina Svitolina vs Kaitlin Quevedo",
+                  "streams": [
+                    {
+                      "id": "st-1d2be60056",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Elina Svitolina",
+            "team_b": "Kaitlin Quevedo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSODaL49Y5HQH6LlgmxI9-csYbnGl8grA_YAQ&s",
+            "time": "19:00 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Kaitlin Quevedo_19-00 27-05_40bf1034_20260527.png?v=40bf1034",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a28c741e53",
+          "name": "Valentin Royer vs Novak Djokovic | 21:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a28c741e53",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a28c741e53",
+                  "name": "Valentin Royer vs Novak Djokovic",
+                  "streams": [
+                    {
+                      "id": "st-a28c741e53",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Valentin Royer",
+            "team_b": "Novak Djokovic",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVceA9jrHXNRuDxl74r2XUF6La-AxRYeuGJA&s",
+            "logo_b": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2163072777-copy.jpg?c=original",
+            "time": "21:00 27/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valentin Royer_Novak Djokovic_21-00 27-05_8a9fa08b_20260527.png?v=8a9fa08b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3817d0812d",
+          "name": "Tomas Machac vs Alexandet Zverev | 01:30 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3817d0812d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3817d0812d",
+                  "name": "Tomas Machac vs Alexandet Zverev",
+                  "streams": [
+                    {
+                      "id": "st-3817d0812d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Tomas Machac",
+            "team_b": "Alexandet Zverev",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXdwaH9QMh6ZenXsa--g2VXiVPn7BuJjjbQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "time": "01:30 28/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Machac_Alexandet Zverev_01-30 28-05_8d2eccdf_20260527.png?v=8d2eccdf",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
