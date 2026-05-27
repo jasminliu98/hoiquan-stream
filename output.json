@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:20 27/05/2026",
+  "updated_at": "20:00 27/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f36aedd162",
-          "name": "Altay vs FC Astana | 18:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f36aedd162",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f36aedd162",
-                  "name": "Altay vs FC Astana",
-                  "streams": [
-                    {
-                      "id": "st-f36aedd162",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Altay",
-            "team_b": "FC Astana",
-            "logo_a": "https://media.api-sports.io/football/teams/4544.png",
-            "logo_b": "https://media.api-sports.io/football/teams/562.png",
-            "time": "18:00 27/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Altay_FC Astana_18-00 27-05_3cdea4ef_20260527.png?v=3cdea4ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-abaf602bc1",
           "name": "Hà Nội Nữ vs Nữ Hồ Chí Minh | 19:00 27/05",
