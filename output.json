@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:30 28/05/2026",
+  "updated_at": "22:55 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -729,7 +729,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -806,50 +806,32 @@
           }
         },
         {
-          "id": "hqlive-0b1c612973",
-          "name": "Aryna Sabalenka vs Elsa Jacquemot | 22:30 28/05",
+          "id": "hqlive-bdd56b9171",
+          "name": "Aryna Sabalenka vs Elsa Jacquemot | 23:30 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-0b1c612973",
+              "id": "src-bdd56b9171",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-0b1c612973",
+                  "id": "ct-bdd56b9171",
                   "name": "Aryna Sabalenka vs Elsa Jacquemot",
                   "streams": [
                     {
-                      "id": "st-0b1c612973",
+                      "id": "st-bdd56b9171",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -862,16 +844,16 @@
             "team_b": "Elsa Jacquemot",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAP34FELKcVRfLnNP5teiNu2EsORc-UpkSw&s",
-            "time": "22:30 28/05",
+            "time": "23:30 28/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Elsa Jacquemot_22-30 28-05_3ee496eb_20260528.png?v=3ee496eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Elsa Jacquemot_23-30 28-05_3ee496eb_20260528.png?v=3ee496eb",
             "width": 1600,
             "height": 1200
           }
