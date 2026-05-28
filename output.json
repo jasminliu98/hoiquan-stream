@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:10 28/05/2026",
+  "updated_at": "22:25 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -602,8 +602,8 @@
           }
         },
         {
-          "id": "hqlive-b529a9d37f",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 14:30 29/05",
+          "id": "hqlive-e50821a253",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 12:00 29/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -617,15 +617,15 @@
           ],
           "sources": [
             {
-              "id": "src-b529a9d37f",
+              "id": "src-e50821a253",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b529a9d37f",
+                  "id": "ct-e50821a253",
                   "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
                   "streams": [
                     {
-                      "id": "st-b529a9d37f",
+                      "id": "st-e50821a253",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -640,7 +640,7 @@
             "team_b": "Tay Vợt Số 2",
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "14:30 29/05",
+            "time": "12:00 29/05",
             "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "cau-long"
@@ -649,7 +649,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_14-30 29-05_cacf1340_20260528.png?v=cacf1340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_12-00 29-05_cacf1340_20260528.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
@@ -907,59 +907,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iga Swiatek_Magda Linette_17-00 29-05_99e60e0e_20260528.png?v=99e60e0e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2596c5a9fb",
-          "name": "Alex Michelsen vs Rafeal Jodar | 18:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2596c5a9fb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2596c5a9fb",
-                  "name": "Alex Michelsen vs Rafeal Jodar",
-                  "streams": [
-                    {
-                      "id": "st-2596c5a9fb",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Alex Michelsen",
-            "team_b": "Rafeal Jodar",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvneYn5hB7L6f1h2sACsiTINILVfLie-TW2A&s",
-            "logo_b": "https://image.sggp.org.vn/1200x630/Uploaded/2026/ldfnyrykxq/2026_04_05/jodar-vo-dich-marrakech-01-4168-961.jpg.webp",
-            "time": "18:00 29/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alex Michelsen_Rafeal Jodar_18-00 29-05_f4317711_20260528.png?v=f4317711",
             "width": 1600,
             "height": 1200
           }
