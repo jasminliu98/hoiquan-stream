@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:20 28/05/2026",
+  "updated_at": "18:25 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -137,59 +137,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Petrojet_El Gouna FC_21-00 28-05_0414afec_20260528.png?v=0414afec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-3bf763d6e4",
-          "name": "Ordabasy vs Kairat Almaty | 22:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3bf763d6e4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3bf763d6e4",
-                  "name": "Ordabasy vs Kairat Almaty",
-                  "streams": [
-                    {
-                      "id": "st-3bf763d6e4",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Ordabasy",
-            "team_b": "Kairat Almaty",
-            "logo_a": "https://media.api-sports.io/football/teams/692.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FCKairat_logo.png/250px-FCKairat_logo.png",
-            "time": "22:00 28/05",
-            "blv": "BLV TÁO MÈO",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ordabasy_Kairat Almaty_22-00 28-05_b881660e_20260528.png?v=b881660e",
             "width": 1600,
             "height": 1200
           }
@@ -340,7 +287,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/776.png",
             "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
             "time": "01:45 29/05",
-            "blv": "BLV TÁO MÈO",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
