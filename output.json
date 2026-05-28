@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:30 28/05/2026",
+  "updated_at": "18:35 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -190,59 +190,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estonia U17_Croatia U17_23-00 28-05_77412fa3_20260528.png?v=77412fa3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f548164b5b",
-          "name": "Ismaily SC vs Pharco | 00:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f548164b5b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f548164b5b",
-                  "name": "Ismaily SC vs Pharco",
-                  "streams": [
-                    {
-                      "id": "st-f548164b5b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ai Cập",
-            "team_a": "Ismaily SC",
-            "team_b": "Pharco",
-            "logo_a": "https://tse2.mm.bing.net/th/id/OIP.vkYmNafPVTwF9fZx7sn-zQHaHN?pid=Api&P=0&h=220",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh5916md7o/image/small",
-            "time": "00:00 29/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ismaily SC_Pharco_00-00 29-05_0b172e71_20260528.png?v=0b172e71",
             "width": 1600,
             "height": 1200
           }
