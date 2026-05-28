@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 28/05/2026",
+  "updated_at": "18:20 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Okzhetpes_Aktobe_17-00 28-05_23e41a8f_20260528.png?v=23e41a8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ad9a930407",
-          "name": "Belgium U17 vs Spain U17 | 18:30 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad9a930407",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ad9a930407",
-                  "name": "Belgium U17 vs Spain U17",
-                  "streams": [
-                    {
-                      "id": "st-ad9a930407",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Belgium U17",
-            "team_b": "Spain U17",
-            "logo_a": "https://media.api-sports.io/football/teams/1.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1280px-Bandera_de_Espa%C3%B1a.svg.png",
-            "time": "18:30 28/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Spain U17_18-30 28-05_5c58ad3b_20260528.png?v=5c58ad3b",
             "width": 1600,
             "height": 1200
           }
