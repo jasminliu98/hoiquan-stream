@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:50 29/05/2026",
+  "updated_at": "00:55 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f5511bca77",
-          "name": "Estonia U17 vs Croatia U17 | 23:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5511bca77",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f5511bca77",
-                  "name": "Estonia U17 vs Croatia U17",
-                  "streams": [
-                    {
-                      "id": "st-f5511bca77",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Estonia U17",
-            "team_b": "Croatia U17",
-            "logo_a": "https://media.api-sports.io/football/teams/17950.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
-            "time": "23:00 28/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Estonia U17_Croatia U17_23-00 28-05_77412fa3_20260529.png?v=77412fa3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-687f89b40c",
           "name": "Rep. Of Ireland vs Qatar | 01:45 29/05",
@@ -181,7 +110,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/500px-Palmeiras_logo.svg.png",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaNCIKzpPJH83I5J2Exi7EAkD4McMVH54pA&s",
             "time": "05:00 29/05",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
