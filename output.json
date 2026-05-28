@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 28/05/2026",
+  "updated_at": "07:30 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -579,6 +579,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Palmeiras_Junior_05-00 29-05_6a4b5487_20260528.png?v=6a4b5487",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5596d8fd3f",
+          "name": "Boca Juniors vs U. Catolica | 07:30 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5596d8fd3f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5596d8fd3f",
+                  "name": "Boca Juniors vs U. Catolica",
+                  "streams": [
+                    {
+                      "id": "st-5596d8fd3f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Boca Juniors",
+            "team_b": "U. Catolica",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/2994.png",
+            "time": "07:30 29/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Boca Juniors_U. Catolica_07-30 29-05_cfaaf14d_20260528.png?v=cfaaf14d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-66e6bc31af",
+          "name": "Cruzeiro vs Barcelona SC | 07:30 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66e6bc31af",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-66e6bc31af",
+                  "name": "Cruzeiro vs Barcelona SC",
+                  "streams": [
+                    {
+                      "id": "st-66e6bc31af",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Cruzeiro",
+            "team_b": "Barcelona SC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6hNPeVCelmVhF22CQYOiEe215iOTJF3Lm7A&s",
+            "time": "07:30 29/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruzeiro_Barcelona SC_07-30 29-05_130f0633_20260528.png?v=130f0633",
             "width": 1600,
             "height": 1200
           }
