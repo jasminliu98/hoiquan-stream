@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:45 28/05/2026",
+  "updated_at": "18:50 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -646,8 +646,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-3f643469f8",
-          "name": "Tay cơ 1 vs Tay cơ 2 | 17:00 28/05",
+          "id": "hqlive-6234621e3a",
+          "name": "Dương Quốc Hoàng vs Billy Jay Garcia | 17:00 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -661,15 +661,15 @@
           ],
           "sources": [
             {
-              "id": "src-3f643469f8",
+              "id": "src-6234621e3a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-3f643469f8",
-                  "name": "Tay cơ 1 vs Tay cơ 2",
+                  "id": "ct-6234621e3a",
+                  "name": "Dương Quốc Hoàng vs Billy Jay Garcia",
                   "streams": [
                     {
-                      "id": "st-3f643469f8",
+                      "id": "st-6234621e3a",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -698,9 +698,9 @@
           ],
           "org_metadata": {
             "league": "UK OPEN",
-            "team_a": "Tay cơ 1",
-            "team_b": "Tay cơ 2",
-            "logo_a": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Billy Jay Garcia",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
             "logo_b": "https://img.freepik.com/vector-mien-phi/mau-thiet-ke-logo-billiard_23-2150883890.jpg",
             "time": "17:00 28/05",
             "blv": "BLV PHAN ANH",
@@ -711,7 +711,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay cơ 1_Tay cơ 2_17-00 28-05_97f1b445_20260528.png?v=97f1b445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Billy Jay Garcia_17-00 28-05_50329571_20260528.png?v=50329571",
             "width": 1600,
             "height": 1200
           }
