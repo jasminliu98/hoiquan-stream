@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:10 28/05/2026",
+  "updated_at": "19:15 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7d516852a6",
-          "name": "Okzhetpes vs Aktobe | 17:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d516852a6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7d516852a6",
-                  "name": "Okzhetpes vs Aktobe",
-                  "streams": [
-                    {
-                      "id": "st-7d516852a6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Okzhetpes",
-            "team_b": "Aktobe",
-            "logo_a": "https://media.api-sports.io/football/teams/4558.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4563.png",
-            "time": "17:00 28/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Okzhetpes_Aktobe_17-00 28-05_23e41a8f_20260528.png?v=23e41a8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ad9a930407",
           "name": "Belgium U17 vs Spain U17 | 18:30 28/05",
@@ -570,7 +499,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/5684.png",
             "logo_b": "https://media.api-sports.io/football/teams/836.png",
             "time": "18:35 29/05",
-            "blv": "BLV TÁO MÈO",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
