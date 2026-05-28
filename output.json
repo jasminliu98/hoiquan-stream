@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:25 28/05/2026",
+  "updated_at": "15:30 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -628,8 +628,8 @@
           }
         },
         {
-          "id": "hqlive-059d91bead",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:40 28/05",
+          "id": "hqlive-d974f73f27",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 16:30 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -643,23 +643,23 @@
           ],
           "sources": [
             {
-              "id": "src-059d91bead",
+              "id": "src-d974f73f27",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-059d91bead",
+                  "id": "ct-d974f73f27",
                   "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
                   "streams": [
                     {
-                      "id": "st-059d91bead",
+                      "id": "st-d974f73f27",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -684,62 +684,9 @@
             "team_b": "Tay Vợt Số 2",
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "15:40 28/05",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-40 28-05_cacf1340_20260528.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d974f73f27",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 16:30 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d974f73f27",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d974f73f27",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-d974f73f27",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KFF Singapore Badminton Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "16:30 28/05",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
