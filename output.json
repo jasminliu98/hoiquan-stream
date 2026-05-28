@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:40 28/05/2026",
+  "updated_at": "21:00 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -694,14 +694,14 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-b6854aece6",
-          "name": "Jannik Sinner vs Juan Manuel Cerundolo | 17:00 28/05",
+          "id": "hqlive-0b1c612973",
+          "name": "Aryna Sabalenka vs Elsa Jacquemot | 22:30 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -715,86 +715,15 @@
           ],
           "sources": [
             {
-              "id": "src-b6854aece6",
+              "id": "src-0b1c612973",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b6854aece6",
-                  "name": "Jannik Sinner vs Juan Manuel Cerundolo",
-                  "streams": [
-                    {
-                      "id": "st-b6854aece6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Jannik Sinner",
-            "team_b": "Juan Manuel Cerundolo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cerundolo_JM._RGQ22_%283%29_%2852128606242%29.jpg",
-            "time": "17:00 28/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jannik Sinner_Juan Manuel Cerundolo_17-00 28-05_240bdc5d_20260528.png?v=240bdc5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5cf11ed45b",
-          "name": "Aryna Sabalenka vs Elsa Jacquemot | 21:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5cf11ed45b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5cf11ed45b",
+                  "id": "ct-0b1c612973",
                   "name": "Aryna Sabalenka vs Elsa Jacquemot",
                   "streams": [
                     {
-                      "id": "st-5cf11ed45b",
+                      "id": "st-0b1c612973",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -827,7 +756,7 @@
             "team_b": "Elsa Jacquemot",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAP34FELKcVRfLnNP5teiNu2EsORc-UpkSw&s",
-            "time": "21:00 28/05",
+            "time": "22:30 28/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -836,7 +765,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Elsa Jacquemot_21-00 28-05_3ee496eb_20260528.png?v=3ee496eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Elsa Jacquemot_22-30 28-05_3ee496eb_20260528.png?v=3ee496eb",
             "width": 1600,
             "height": 1200
           }
