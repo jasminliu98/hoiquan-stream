@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:25 28/05/2026",
+  "updated_at": "18:30 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -455,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cruzeiro_Barcelona SC_07-30 29-05_130f0633_20260528.png?v=130f0633",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-936ad4f31c",
+          "name": "Montenegro U17 vs Italy U17 | 18:30 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-936ad4f31c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-936ad4f31c",
+                  "name": "Montenegro U17 vs Italy U17",
+                  "streams": [
+                    {
+                      "id": "st-936ad4f31c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Montenegro U17",
+            "team_b": "Italy U17",
+            "logo_a": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
+            "logo_b": "https://tmssl.akamaized.net//images/wappen/big/23133.png?lm=1672672799",
+            "time": "18:30 29/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Montenegro U17_Italy U17_18-30 29-05_a272cede_20260528.png?v=a272cede",
             "width": 1600,
             "height": 1200
           }
