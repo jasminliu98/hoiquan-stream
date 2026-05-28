@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:15 28/05/2026",
+  "updated_at": "20:25 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -845,59 +845,6 @@
             "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmO4BGwYQeBKrsZpFoaAF8gbXLwgKlP_q9oA&s",
             "time": "22:00 28/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Raphael Collignon_22-00 28-05_2a2977b6_20260528.png?v=2a2977b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-53e207b0bb",
-          "name": "Matteo Arnaldi vs Stefanos Tsitsipas | 22:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53e207b0bb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-53e207b0bb",
-                  "name": "Matteo Arnaldi vs Stefanos Tsitsipas",
-                  "streams": [
-                    {
-                      "id": "st-53e207b0bb",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Matteo Arnaldi",
-            "team_b": "Stefanos Tsitsipas",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVTMBm_ZQ3cK3w-vD5WzcH22bN_22bTc7iw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWm8CBcQz1IvkNxRxcrUjG2os8GIeQt4j7Ww&s",
-            "time": "22:00 28/05",
             "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "tennis"
@@ -906,7 +853,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Matteo Arnaldi_Stefanos Tsitsipas_22-00 28-05_cfb7d788_20260528.png?v=cfb7d788",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Raphael Collignon_22-00 28-05_2a2977b6_20260528.png?v=2a2977b6",
             "width": 1600,
             "height": 1200
           }
