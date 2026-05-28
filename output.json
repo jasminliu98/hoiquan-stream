@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:55 28/05/2026",
+  "updated_at": "23:00 28/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a0d6f8cd26",
-          "name": "Petrojet vs El Gouna FC | 21:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0d6f8cd26",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a0d6f8cd26",
-                  "name": "Petrojet vs El Gouna FC",
-                  "streams": [
-                    {
-                      "id": "st-a0d6f8cd26",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ai Cập",
-            "team_a": "Petrojet",
-            "team_b": "El Gouna FC",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5d/Petrojet_SC_2017.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1574.png",
-            "time": "21:00 28/05",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Petrojet_El Gouna FC_21-00 28-05_0414afec_20260528.png?v=0414afec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f5511bca77",
           "name": "Estonia U17 vs Croatia U17 | 23:00 28/05",
@@ -476,6 +405,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-67790a44ca",
+          "name": "Andorra vs Iraq | 23:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-67790a44ca",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-67790a44ca",
+                  "name": "Andorra vs Iraq",
+                  "streams": [
+                    {
+                      "id": "st-67790a44ca",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Andorra",
+            "team_b": "Iraq",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/250px-Flag_of_Andorra.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1567.png",
+            "time": "23:00 29/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Andorra_Iraq_23-00 29-05_3eeecbbb_20260528.png?v=3eeecbbb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-592921104e",
+          "name": "South Africa vs Nicaragua | 23:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-592921104e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-592921104e",
+                  "name": "South Africa vs Nicaragua",
+                  "streams": [
+                    {
+                      "id": "st-592921104e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "South Africa",
+            "team_b": "Nicaragua",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/250px-Flag_of_Nicaragua.svg.png",
+            "time": "23:00 29/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Africa_Nicaragua_23-00 29-05_47521ff4_20260528.png?v=47521ff4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -729,7 +764,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -806,32 +841,50 @@
           }
         },
         {
-          "id": "hqlive-bdd56b9171",
-          "name": "Aryna Sabalenka vs Elsa Jacquemot | 23:30 28/05",
+          "id": "hqlive-0d02e6ef5b",
+          "name": "Aryna Sabalenka vs Elsa Jacquemot | 23:00 28/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-bdd56b9171",
+              "id": "src-0d02e6ef5b",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-bdd56b9171",
+                  "id": "ct-0d02e6ef5b",
                   "name": "Aryna Sabalenka vs Elsa Jacquemot",
                   "streams": [
                     {
-                      "id": "st-bdd56b9171",
+                      "id": "st-0d02e6ef5b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -844,16 +897,16 @@
             "team_b": "Elsa Jacquemot",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAP34FELKcVRfLnNP5teiNu2EsORc-UpkSw&s",
-            "time": "23:30 28/05",
+            "time": "23:00 28/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Elsa Jacquemot_23-30 28-05_3ee496eb_20260528.png?v=3ee496eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Elsa Jacquemot_23-00 28-05_3ee496eb_20260528.png?v=3ee496eb",
             "width": 1600,
             "height": 1200
           }
