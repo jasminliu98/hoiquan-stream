@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:00 29/05/2026",
+  "updated_at": "12:35 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yokohama FC_Omiya Ardija_12-00 30-05_37cd5255_20260529.png?v=37cd5255",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-9615937108",
+          "name": "Dương Quốc Hoàng vs Maks Benko | 19:45 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9615937108",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9615937108",
+                  "name": "Dương Quốc Hoàng vs Maks Benko",
+                  "streams": [
+                    {
+                      "id": "st-9615937108",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UK OPEN",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Maks Benko",
+            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
+            "logo_b": "https://img.cuescore.com/image/0/3/07d943fb8ae656d892d029326b24999e.png?t=1778064455",
+            "time": "19:45 29/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Maks Benko_19-45 29-05_015200f2_20260529.png?v=015200f2",
             "width": 1600,
             "height": 1200
           }
