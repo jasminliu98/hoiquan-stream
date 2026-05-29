@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 29/05/2026",
+  "updated_at": "21:15 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -649,6 +649,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chojniczanka Chojnice_Rekord Bielsko-Biała_19-30 30-05_7fcd82ea_20260529.png?v=7fcd82ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6a5c6aa6ed",
+          "name": "AD Ceuta FC vs Albacete | 21:15 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a5c6aa6ed",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6a5c6aa6ed",
+                  "name": "AD Ceuta FC vs Albacete",
+                  "streams": [
+                    {
+                      "id": "st-6a5c6aa6ed",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "AD Ceuta FC",
+            "team_b": "Albacete",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/AD_Ceuta_FC_logo.svg/960px-AD_Ceuta_FC_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/3/37/Albacete_balompie.svg",
+            "time": "21:15 30/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AD Ceuta FC_Albacete_21-15 30-05_a05313e5_20260529.png?v=a05313e5",
             "width": 1600,
             "height": 1200
           }
