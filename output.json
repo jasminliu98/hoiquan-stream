@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:15 30/05/2026",
+  "updated_at": "03:20 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -720,86 +720,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jamaica_Nigeria_01-30 31-05_e80780bb_20260530.png?v=e80780bb",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-7695c91701",
-          "name": "Jayson Shaw vs Dương Quốc Hoàng | 00:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7695c91701",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7695c91701",
-                  "name": "Jayson Shaw vs Dương Quốc Hoàng",
-                  "streams": [
-                    {
-                      "id": "st-7695c91701",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UK OPEN",
-            "team_a": "Jayson Shaw",
-            "team_b": "Dương Quốc Hoàng",
-            "logo_a": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTG-cOeTbr79TJ7GXUd3iskfiq5Udiif450uyEkm9Hdbax03lFohEXmalDR4_MR_Dylhbce5kov5BWWYB7G7syAArAShSwAFl8ru6ZnxKE",
-            "logo_b": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "time": "00:00 30/05",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jayson Shaw_Dương Quốc Hoàng_00-00 30-05_9b4185ea_20260530.png?v=9b4185ea",
             "width": 1600,
             "height": 1200
           }
