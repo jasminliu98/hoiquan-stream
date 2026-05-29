@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:10 30/05/2026",
+  "updated_at": "00:20 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -226,6 +226,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rosenborg_Bodo-Glimt_00-00 30-05_ebc92da5_20260530.png?v=ebc92da5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a0f2b3ffed",
+          "name": "Nice vs Saint Etienne | 01:45 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0f2b3ffed",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a0f2b3ffed",
+                  "name": "Nice vs Saint Etienne",
+                  "streams": [
+                    {
+                      "id": "st-a0f2b3ffed",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Nice",
+            "team_b": "Saint Etienne",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/2/2e/OGC_Nice_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/1063.png",
+            "time": "01:45 30/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nice_Saint Etienne_01-45 30-05_235aa3d3_20260530.png?v=235aa3d3",
             "width": 1600,
             "height": 1200
           }
