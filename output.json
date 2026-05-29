@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:20 29/05/2026",
+  "updated_at": "19:25 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -266,59 +266,6 @@
           }
         },
         {
-          "id": "hqlive-16eb0899c7",
-          "name": "Ludogorets vs Lokomotiv Plovdiv | 23:30 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-16eb0899c7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-16eb0899c7",
-                  "name": "Ludogorets vs Lokomotiv Plovdiv",
-                  "streams": [
-                    {
-                      "id": "st-16eb0899c7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Ludogorets",
-            "team_b": "Lokomotiv Plovdiv",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ludogorets_FC.png",
-            "logo_b": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0023/6261/brand.gif?itok=ulzziNqw",
-            "time": "23:30 29/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ludogorets_Lokomotiv Plovdiv_23-30 29-05_37066b9c_20260529.png?v=37066b9c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-0002e74d35",
           "name": "Rosenborg vs Bodo/Glimt | 00:00 30/05",
           "type": "single",
@@ -358,7 +305,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/331.png",
             "logo_b": "https://media.api-sports.io/football/teams/327.png",
             "time": "00:00 30/05",
-            "blv": "BLV THẦN THÔNG",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
