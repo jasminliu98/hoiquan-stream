@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:10 30/05/2026",
+  "updated_at": "01:30 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -741,6 +741,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-457012bfb3",
+          "name": "Jamaica vs Nigeria | 01:30 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-457012bfb3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-457012bfb3",
+                  "name": "Jamaica vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-457012bfb3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Jamaica",
+            "team_b": "Nigeria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/250px-Flag_of_Jamaica.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
+            "time": "01:30 31/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jamaica_Nigeria_01-30 31-05_e80780bb_20260530.png?v=e80780bb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1056,82 +1109,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (4 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-50bba14211",
-          "name": "Alex de Minaur vs Jakub Mensik | 20:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50bba14211",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-50bba14211",
-                  "name": "Alex de Minaur vs Jakub Mensik",
-                  "streams": [
-                    {
-                      "id": "st-50bba14211",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Alex de Minaur",
-            "team_b": "Jakub Mensik",
-            "logo_a": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
-            "logo_b": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_04_01/mensik-1931-8728.jpg.webp",
-            "time": "20:00 29/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alex de Minaur_Jakub Mensik_20-00 29-05_11b9093d_20260530.png?v=11b9093d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4c4028c900",
           "name": "Joao Fonseca vs Novak Djokovic | 20:30 29/05",
@@ -1275,8 +1257,8 @@
           }
         },
         {
-          "id": "hqlive-e293675dd6",
-          "name": "Quentin Halys vs Alexandet Zverev | 01:30 30/05",
+          "id": "hqlive-b2676bd9fb",
+          "name": "Quentin Halys vs Alexandet Zverev | 02:00 30/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1290,15 +1272,15 @@
           ],
           "sources": [
             {
-              "id": "src-e293675dd6",
+              "id": "src-b2676bd9fb",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e293675dd6",
+                  "id": "ct-b2676bd9fb",
                   "name": "Quentin Halys vs Alexandet Zverev",
                   "streams": [
                     {
-                      "id": "st-e293675dd6",
+                      "id": "st-b2676bd9fb",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1331,7 +1313,7 @@
             "team_b": "Alexandet Zverev",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD2Mav3OdfdkmkxMFLN2wNrV2tAEone4ZQHg&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "time": "01:30 30/05",
+            "time": "02:00 30/05",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1340,7 +1322,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Quentin Halys_Alexandet Zverev_01-30 30-05_07f74a58_20260530.png?v=07f74a58",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Quentin Halys_Alexandet Zverev_02-00 30-05_07f74a58_20260530.png?v=07f74a58",
             "width": 1600,
             "height": 1200
           }
