@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:40 29/05/2026",
+  "updated_at": "20:45 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1296,6 +1296,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Quentin Halys_Alexandet Zverev_01-30 30-05_07f74a58_20260529.png?v=07f74a58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0b4d4ef8e0",
+          "name": "Iva Jovic vs Naomi Osaka | 17:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b4d4ef8e0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0b4d4ef8e0",
+                  "name": "Iva Jovic vs Naomi Osaka",
+                  "streams": [
+                    {
+                      "id": "st-0b4d4ef8e0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Iva Jovic",
+            "team_b": "Naomi Osaka",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYJqzm8m32ChkgCcVtjAlPl9Ejmoqmejw-Q&s",
+            "logo_b": "https://image.plo.vn/w1000/Uploaded/2026/vrwqzdjwp/2025_08_06/vo-dich-my-mo-rong-naomi-osaka-3829-689.jpg.webp",
+            "time": "17:00 30/05",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iva Jovic_Naomi Osaka_17-00 30-05_161c3bdc_20260529.png?v=161c3bdc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3a8dc4d807",
+          "name": "Aryna Sabalenka vs Daria Kasatkina | 19:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a8dc4d807",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a8dc4d807",
+                  "name": "Aryna Sabalenka vs Daria Kasatkina",
+                  "streams": [
+                    {
+                      "id": "st-3a8dc4d807",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Aryna Sabalenka",
+            "team_b": "Daria Kasatkina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQherWQxZXbsX_UDKRZUshtr4zquRU7ocryMQ&s",
+            "time": "19:00 30/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Daria Kasatkina_19-00 30-05_b797b60d_20260529.png?v=b797b60d",
             "width": 1600,
             "height": 1200
           }
