@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:50 29/05/2026",
+  "updated_at": "07:05 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,14 +12,14 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-ffe414cbba",
-          "name": "Palmeiras vs Junior | 05:00 29/05",
+          "id": "hqlive-5596d8fd3f",
+          "name": "Boca Juniors vs U. Catolica | 07:30 29/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-ffe414cbba",
+              "id": "src-5596d8fd3f",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-ffe414cbba",
-                  "name": "Palmeiras vs Junior",
+                  "id": "ct-5596d8fd3f",
+                  "name": "Boca Juniors vs U. Catolica",
                   "streams": [
                     {
-                      "id": "st-ffe414cbba",
+                      "id": "st-5596d8fd3f",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -70,66 +70,13 @@
           ],
           "org_metadata": {
             "league": "CONMEBOL Libertadores",
-            "team_a": "Palmeiras",
-            "team_b": "Junior",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/500px-Palmeiras_logo.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaNCIKzpPJH83I5J2Exi7EAkD4McMVH54pA&s",
-            "time": "05:00 29/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Palmeiras_Junior_05-00 29-05_6a4b5487_20260529.png?v=6a4b5487",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5596d8fd3f",
-          "name": "Boca Juniors vs U. Catolica | 07:30 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5596d8fd3f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5596d8fd3f",
-                  "name": "Boca Juniors vs U. Catolica",
-                  "streams": [
-                    {
-                      "id": "st-5596d8fd3f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Libertadores",
             "team_a": "Boca Juniors",
             "team_b": "U. Catolica",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg",
             "logo_b": "https://media.api-sports.io/football/teams/2994.png",
             "time": "07:30 29/05",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -149,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -167,7 +114,25 @@
                     {
                       "id": "st-66e6bc31af",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -182,7 +147,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6hNPeVCelmVhF22CQYOiEe215iOTJF3Lm7A&s",
             "time": "07:30 29/05",
             "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -684,7 +649,7 @@
     },
     {
       "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -697,10 +662,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -715,7 +680,25 @@
                     {
                       "id": "st-2f2e231656",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -730,7 +713,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
             "time": "07:30 29/05",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ro"
           },
           "image": {
