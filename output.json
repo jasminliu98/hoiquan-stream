@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 29/05/2026",
+  "updated_at": "17:00 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -649,6 +649,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trường Tươi Đồng Nai_Long An_16-00 30-05_2c72ee12_20260529.png?v=2c72ee12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c478f864f8",
+          "name": "Qingdao Youth Island vs Shanghai Shenhua | 17:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c478f864f8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c478f864f8",
+                  "name": "Qingdao Youth Island vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-c478f864f8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Qingdao Youth Island",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://media.api-sports.io/football/teams/17265.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "time": "17:00 30/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Shanghai Shenhua_17-00 30-05_ed153083_20260529.png?v=ed153083",
             "width": 1600,
             "height": 1200
           }
