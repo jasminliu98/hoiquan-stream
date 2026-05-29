@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:35 29/05/2026",
+  "updated_at": "14:30 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yokohama FC_Omiya Ardija_12-00 30-05_37cd5255_20260529.png?v=37cd5255",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-77d4293544",
+          "name": "Yongin City vs Daegu FC | 14:30 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77d4293544",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-77d4293544",
+                  "name": "Yongin City vs Daegu FC",
+                  "streams": [
+                    {
+                      "id": "st-77d4293544",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 2",
+            "team_a": "Yongin City",
+            "team_b": "Daegu FC",
+            "logo_a": "https://media.api-sports.io/football/teams/9171.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a4/Daegu_FC.svg",
+            "time": "14:30 30/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yongin City_Daegu FC_14-30 30-05_20cce065_20260529.png?v=20cce065",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1f8fcf3c2c",
+          "name": "Asan Mugunghwa vs Suwon Bluewings | 14:30 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f8fcf3c2c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1f8fcf3c2c",
+                  "name": "Asan Mugunghwa vs Suwon Bluewings",
+                  "streams": [
+                    {
+                      "id": "st-1f8fcf3c2c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 2",
+            "team_a": "Asan Mugunghwa",
+            "team_b": "Suwon Bluewings",
+            "logo_a": "https://media.api-sports.io/football/teams/2753.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/7b/Suwon_Samsung_Bluewings.svg",
+            "time": "14:30 30/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Asan Mugunghwa_Suwon Bluewings_14-30 30-05_1e098a49_20260529.png?v=1e098a49",
             "width": 1600,
             "height": 1200
           }
