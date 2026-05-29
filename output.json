@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:10 30/05/2026",
+  "updated_at": "06:30 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -702,6 +702,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Santos_Vitoria_06-00 31-05_01c73025_20260530.png?v=01c73025",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6afacd6dc0",
+          "name": "Ecuador vs Saudi Arabia | 06:30 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6afacd6dc0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6afacd6dc0",
+                  "name": "Ecuador vs Saudi Arabia",
+                  "streams": [
+                    {
+                      "id": "st-6afacd6dc0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Ecuador",
+            "team_b": "Saudi Arabia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/330px-Flag_of_Saudi_Arabia.svg.png",
+            "time": "06:30 31/05",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Saudi Arabia_06-30 31-05_8bcdd4cd_20260530.png?v=8bcdd4cd",
             "width": 1600,
             "height": 1200
           }
