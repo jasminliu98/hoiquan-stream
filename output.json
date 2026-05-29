@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:40 29/05/2026",
+  "updated_at": "19:00 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -738,6 +738,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Shanghai Shenhua_17-00 30-05_ed153083_20260529.png?v=ed153083",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9e02eeb421",
+          "name": "Chongqing Tongliang Long vs Beijing Guoan | 19:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e02eeb421",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9e02eeb421",
+                  "name": "Chongqing Tongliang Long vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-9e02eeb421",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Chongqing Tongliang Long",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://media.api-sports.io/football/teams/21262.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "time": "19:00 30/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chongqing Tongliang Long_Beijing Guoan_19-00 30-05_bc1b92b0_20260529.png?v=bc1b92b0",
             "width": 1600,
             "height": 1200
           }
