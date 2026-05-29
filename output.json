@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:35 29/05/2026",
+  "updated_at": "12:00 29/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -331,6 +331,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rosenborg_Bodo-Glimt_00-00 30-05_ebc92da5_20260529.png?v=ebc92da5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6b2a973ffe",
+          "name": "Albirex Niigata vs Kagoshima United | 12:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b2a973ffe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6b2a973ffe",
+                  "name": "Albirex Niigata vs Kagoshima United",
+                  "streams": [
+                    {
+                      "id": "st-6b2a973ffe",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J2/J3 League",
+            "team_a": "Albirex Niigata",
+            "team_b": "Kagoshima United",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/b/b3/AlbirexNiigata.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2236.png",
+            "time": "12:00 30/05",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Albirex Niigata_Kagoshima United_12-00 30-05_365494f7_20260529.png?v=365494f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-685a2aafc4",
+          "name": "Kochi United vs Renofa Yamaguchi | 12:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-685a2aafc4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-685a2aafc4",
+                  "name": "Kochi United vs Renofa Yamaguchi",
+                  "streams": [
+                    {
+                      "id": "st-685a2aafc4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J2/J3 League",
+            "team_a": "Kochi United",
+            "team_b": "Renofa Yamaguchi",
+            "logo_a": "https://cdn.soccerwiki.org/images/logos/clubs/6669.png",
+            "logo_b": "https://media.api-sports.io/football/teams/309.png",
+            "time": "12:00 30/05",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kochi United_Renofa Yamaguchi_12-00 30-05_5c958104_20260529.png?v=5c958104",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3f5575a5e1",
+          "name": "Yokohama FC vs Omiya Ardija | 12:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f5575a5e1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3f5575a5e1",
+                  "name": "Yokohama FC vs Omiya Ardija",
+                  "streams": [
+                    {
+                      "id": "st-3f5575a5e1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J2/J3 League",
+            "team_a": "Yokohama FC",
+            "team_b": "Omiya Ardija",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/18/YokohamaFC.png",
+            "logo_b": "https://media.api-sports.io/football/teams/313.png",
+            "time": "12:00 30/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yokohama FC_Omiya Ardija_12-00 30-05_37cd5255_20260529.png?v=37cd5255",
             "width": 1600,
             "height": 1200
           }
