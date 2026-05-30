@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:35 30/05/2026",
+  "updated_at": "12:00 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -915,6 +915,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_Australia_09-00 31-05_30c80ea6_20260530.png?v=30c80ea6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d6b2d5059f",
+          "name": "Blaublitz Akita vs Consadole Sapporo | 12:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d6b2d5059f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d6b2d5059f",
+                  "name": "Blaublitz Akita vs Consadole Sapporo",
+                  "streams": [
+                    {
+                      "id": "st-d6b2d5059f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J2/J3 League",
+            "team_a": "Blaublitz Akita",
+            "team_b": "Consadole Sapporo",
+            "logo_a": "https://media.api-sports.io/football/teams/4315.png",
+            "logo_b": "https://media.api-sports.io/football/teams/279.png",
+            "time": "12:00 31/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Blaublitz Akita_Consadole Sapporo_12-00 31-05_60a1f5ea_20260530.png?v=60a1f5ea",
             "width": 1600,
             "height": 1200
           }
