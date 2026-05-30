@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:35 31/05/2026",
+  "updated_at": "04:30 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -967,6 +967,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Senegal_02-30 01-06_ee930897_20260531.png?v=ee930897",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7b1c5b1358",
+          "name": "Brazil vs Panama | 04:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b1c5b1358",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7b1c5b1358",
+                  "name": "Brazil vs Panama",
+                  "streams": [
+                    {
+                      "id": "st-7b1c5b1358",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Brazil",
+            "team_b": "Panama",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/250px-Flag_of_Panama.svg.png",
+            "time": "04:30 01/06",
+            "blv": "BLV TÁO GIÀ, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Panama_04-30 01-06_4488fe5a_20260531.png?v=4488fe5a",
             "width": 1600,
             "height": 1200
           }
