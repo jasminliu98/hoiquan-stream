@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:00 30/05/2026",
+  "updated_at": "09:05 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1105,8 +1105,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-0b4d4ef8e0",
-          "name": "Iva Jovic vs Naomi Osaka | 17:00 30/05",
+          "id": "hqlive-412d90bde0",
+          "name": "Iva Jovic vs Naomi Osaka | 16:00 30/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1120,15 +1120,15 @@
           ],
           "sources": [
             {
-              "id": "src-0b4d4ef8e0",
+              "id": "src-412d90bde0",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-0b4d4ef8e0",
+                  "id": "ct-412d90bde0",
                   "name": "Iva Jovic vs Naomi Osaka",
                   "streams": [
                     {
-                      "id": "st-0b4d4ef8e0",
+                      "id": "st-412d90bde0",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1143,7 +1143,7 @@
             "team_b": "Naomi Osaka",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYJqzm8m32ChkgCcVtjAlPl9Ejmoqmejw-Q&s",
             "logo_b": "https://image.plo.vn/w1000/Uploaded/2026/vrwqzdjwp/2025_08_06/vo-dich-my-mo-rong-naomi-osaka-3829-689.jpg.webp",
-            "time": "17:00 30/05",
+            "time": "16:00 30/05",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
             "sport_slug": "tennis"
@@ -1152,7 +1152,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iva Jovic_Naomi Osaka_17-00 30-05_161c3bdc_20260530.png?v=161c3bdc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iva Jovic_Naomi Osaka_16-00 30-05_161c3bdc_20260530.png?v=161c3bdc",
             "width": 1600,
             "height": 1200
           }
