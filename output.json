@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:15 30/05/2026",
+  "updated_at": "20:00 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -879,6 +879,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore_Mongolia_18-30 31-05_22b2fa37_20260530.png?v=22b2fa37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7496a5f241",
+          "name": "Switzerland vs Jordan | 20:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7496a5f241",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7496a5f241",
+                  "name": "Switzerland vs Jordan",
+                  "streams": [
+                    {
+                      "id": "st-7496a5f241",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Switzerland",
+            "team_b": "Jordan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/960px-Flag_of_Jordan.svg.png",
+            "time": "20:00 31/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Jordan_20-00 31-05_daaa4a22_20260530.png?v=daaa4a22",
             "width": 1600,
             "height": 1200
           }
