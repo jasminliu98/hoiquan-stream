@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:15 30/05/2026",
+  "updated_at": "22:00 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -808,6 +808,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/RB Bragantino_Internacional_21-00 31-05_b1c913f8_20260530.png?v=b1c913f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-da80364ba7",
+          "name": "Cape Verde Islands vs Serbia | 22:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da80364ba7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-da80364ba7",
+                  "name": "Cape Verde Islands vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-da80364ba7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Cape Verde Islands",
+            "team_b": "Serbia",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "22:00 31/05",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Serbia_22-00 31-05_0529dc1c_20260530.png?v=0529dc1c",
             "width": 1600,
             "height": 1200
           }
