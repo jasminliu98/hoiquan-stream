@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:35 30/05/2026",
+  "updated_at": "14:40 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -214,7 +214,7 @@
             "league": "K League 2",
             "team_a": "Yongin City",
             "team_b": "Daegu FC",
-            "logo_a": "https://media.api-sports.io/football/teams/9171.png",
+            "logo_a": "https://i.namu.wiki/i/ry5Ej-DQodJXNXUSZfvyfWUiInanxtpui5kfxm7u2cu0oFpmJ7_EHfqszbs0blovcMKLU38HJevI7asijrFwGw.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a4/Daegu_FC.svg",
             "time": "14:30 30/05",
             "blv": "BLV PHAN MÃ",
@@ -225,7 +225,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yongin City_Daegu FC_14-30 30-05_20cce065_20260530.png?v=20cce065",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yongin City_Daegu FC_14-30 30-05_0e0bf022_20260530.png?v=0e0bf022",
             "width": 1600,
             "height": 1200
           }
