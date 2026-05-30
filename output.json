@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 30/05/2026",
+  "updated_at": "22:05 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -861,86 +861,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Serbia_22-00 31-05_0529dc1c_20260530.png?v=0529dc1c",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-41ff2e1650",
-          "name": "Dean Shields vs Jayson Shaw | 18:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41ff2e1650",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-41ff2e1650",
-                  "name": "Dean Shields vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-41ff2e1650",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UK OPEN",
-            "team_a": "Dean Shields",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://matchroompool.com/wp-content/uploads/Dean-Shields_.webp",
-            "logo_b": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTG-cOeTbr79TJ7GXUd3iskfiq5Udiif450uyEkm9Hdbax03lFohEXmalDR4_MR_Dylhbce5kov5BWWYB7G7syAArAShSwAFl8ru6ZnxKE",
-            "time": "18:00 30/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dean Shields_Jayson Shaw_18-00 30-05_dfabbd69_20260530.png?v=dfabbd69",
             "width": 1600,
             "height": 1200
           }
