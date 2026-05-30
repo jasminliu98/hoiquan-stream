@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:20 30/05/2026",
+  "updated_at": "16:30 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-1f8fcf3c2c",
-          "name": "Asan Mugunghwa vs Suwon Bluewings | 14:30 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f8fcf3c2c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1f8fcf3c2c",
-                  "name": "Asan Mugunghwa vs Suwon Bluewings",
-                  "streams": [
-                    {
-                      "id": "st-1f8fcf3c2c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 2",
-            "team_a": "Asan Mugunghwa",
-            "team_b": "Suwon Bluewings",
-            "logo_a": "https://media.api-sports.io/football/teams/2753.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/7b/Suwon_Samsung_Bluewings.svg",
-            "time": "14:30 30/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Asan Mugunghwa_Suwon Bluewings_14-30 30-05_1e098a49_20260530.png?v=1e098a49",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b6eb36ea64",
           "name": "Trường Tươi Đồng Nai vs Long An | 16:00 30/05",
