@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:05 30/05/2026",
+  "updated_at": "19:10 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1021,86 +1021,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-00 31-05_280346f3_20260530.png?v=280346f3",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-412d90bde0",
-          "name": "Iva Jovic vs Naomi Osaka | 16:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-412d90bde0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-412d90bde0",
-                  "name": "Iva Jovic vs Naomi Osaka",
-                  "streams": [
-                    {
-                      "id": "st-412d90bde0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Iva Jovic",
-            "team_b": "Naomi Osaka",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYJqzm8m32ChkgCcVtjAlPl9Ejmoqmejw-Q&s",
-            "logo_b": "https://image.plo.vn/w1000/Uploaded/2026/vrwqzdjwp/2025_08_06/vo-dich-my-mo-rong-naomi-osaka-3829-689.jpg.webp",
-            "time": "16:00 30/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iva Jovic_Naomi Osaka_16-00 30-05_161c3bdc_20260530.png?v=161c3bdc",
             "width": 1600,
             "height": 1200
           }
