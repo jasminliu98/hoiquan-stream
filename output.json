@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:25 31/05/2026",
+  "updated_at": "02:30 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -914,6 +914,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Germany_Finland_01-45 01-06_0007f27b_20260531.png?v=0007f27b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6d37f8d6ac",
+          "name": "USA vs Senegal | 02:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d37f8d6ac",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6d37f8d6ac",
+                  "name": "USA vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-6d37f8d6ac",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "USA",
+            "team_b": "Senegal",
+            "logo_a": "https://media.api-sports.io/football/teams/2384.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
+            "time": "02:30 01/06",
+            "blv": "BLV LƯƠNG BỔNG, BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Senegal_02-30 01-06_ee930897_20260531.png?v=ee930897",
             "width": 1600,
             "height": 1200
           }
