@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:10 31/05/2026",
+  "updated_at": "02:25 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,99 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9ed10e21e0",
-          "name": "Paris Saint Germain vs Arsenal | 23:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ed10e21e0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9ed10e21e0",
-                  "name": "Paris Saint Germain vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-9ed10e21e0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League ( Đầu Cầu Trung Lập )",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Arsenal",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/mcpMspef1hwHwi9qrfp4YQ_96x96.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Arsenal_FC.svg",
-            "time": "23:00 30/05",
-            "blv": "BLV PHAN MÃ, BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Paris Saint Germain_Arsenal_23-00 30-05_e9ffbe64_20260531.png?v=e9ffbe64",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-6afacd6dc0",
           "name": "Ecuador vs Saudi Arabia | 06:30 31/05",
