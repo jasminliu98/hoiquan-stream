@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:05 30/05/2026",
+  "updated_at": "14:30 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -933,6 +933,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Blaublitz Akita_Consadole Sapporo_12-00 31-05_60a1f5ea_20260530.png?v=60a1f5ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ab243e5c9c",
+          "name": "Jeonnam Dragons vs Seoul E-Land FC | 14:30 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab243e5c9c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ab243e5c9c",
+                  "name": "Jeonnam Dragons vs Seoul E-Land FC",
+                  "streams": [
+                    {
+                      "id": "st-ab243e5c9c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 2",
+            "team_a": "Jeonnam Dragons",
+            "team_b": "Seoul E-Land FC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/08/Jeonnam_Dragons.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Seoul_E-Land_FC.svg/250px-Seoul_E-Land_FC.svg.png",
+            "time": "14:30 31/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeonnam Dragons_Seoul E-Land FC_14-30 31-05_19c6b322_20260530.png?v=19c6b322",
             "width": 1600,
             "height": 1200
           }
