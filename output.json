@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:00 31/05/2026",
+  "updated_at": "01:45 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1071,6 +1071,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deportivo La Coruna_Las Palmas_23-30 31-05_f353cd01_20260531.png?v=f353cd01",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d61e756e9c",
+          "name": "Germany vs Finland | 01:45 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d61e756e9c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d61e756e9c",
+                  "name": "Germany vs Finland",
+                  "streams": [
+                    {
+                      "id": "st-d61e756e9c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Germany",
+            "team_b": "Finland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1099.png",
+            "time": "01:45 01/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Germany_Finland_01-45 01-06_0007f27b_20260531.png?v=0007f27b",
             "width": 1600,
             "height": 1200
           }
