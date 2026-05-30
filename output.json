@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:10 30/05/2026",
+  "updated_at": "22:30 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -930,6 +930,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Serbia_22-00 31-05_0529dc1c_20260530.png?v=0529dc1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f8499c158c",
+          "name": "Poland vs Ukraine | 22:30 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8499c158c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f8499c158c",
+                  "name": "Poland vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-f8499c158c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Poland",
+            "team_b": "Ukraine",
+            "logo_a": "https://media.api-sports.io/football/teams/24.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "time": "22:30 31/05",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Poland_Ukraine_22-30 31-05_1e311804_20260530.png?v=1e311804",
             "width": 1600,
             "height": 1200
           }
