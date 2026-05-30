@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:00 30/05/2026",
+  "updated_at": "18:30 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -879,6 +879,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nam Dinh_Song Lam Nghe An_18-00 31-05_d849ec0b_20260530.png?v=d849ec0b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f10b58da6f",
+          "name": "Singapore vs Mongolia | 18:30 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f10b58da6f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f10b58da6f",
+                  "name": "Singapore vs Mongolia",
+                  "streams": [
+                    {
+                      "id": "st-f10b58da6f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Singapore",
+            "team_b": "Mongolia",
+            "logo_a": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5534.png",
+            "time": "18:30 31/05",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore_Mongolia_18-30 31-05_22b2fa37_20260530.png?v=22b2fa37",
             "width": 1600,
             "height": 1200
           }
