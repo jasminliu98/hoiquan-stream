@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:10 30/05/2026",
+  "updated_at": "19:15 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -128,7 +128,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/AD_Ceuta_FC_logo.svg/960px-AD_Ceuta_FC_logo.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/3/37/Albacete_balompie.svg",
             "time": "21:15 30/05",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
