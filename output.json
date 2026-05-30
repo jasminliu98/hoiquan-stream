@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:05 30/05/2026",
+  "updated_at": "17:25 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -685,6 +685,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jeonnam Dragons_Seoul E-Land FC_14-30 31-05_19c6b322_20260530.png?v=19c6b322",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ee68b84c94",
+          "name": "Japan vs Iceland | 17:25 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee68b84c94",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ee68b84c94",
+                  "name": "Japan vs Iceland",
+                  "streams": [
+                    {
+                      "id": "st-ee68b84c94",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Japan",
+            "team_b": "Iceland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/250px-Flag_of_Iceland.svg.png",
+            "time": "17:25 31/05",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan_Iceland_17-25 31-05_9be284e4_20260530.png?v=9be284e4",
             "width": 1600,
             "height": 1200
           }
