@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:40 30/05/2026",
+  "updated_at": "14:45 30/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-6b2a973ffe",
-          "name": "Albirex Niigata vs Kagoshima United | 12:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b2a973ffe",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6b2a973ffe",
-                  "name": "Albirex Niigata vs Kagoshima United",
-                  "streams": [
-                    {
-                      "id": "st-6b2a973ffe",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 League",
-            "team_a": "Albirex Niigata",
-            "team_b": "Kagoshima United",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/b/b3/AlbirexNiigata.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2236.png",
-            "time": "12:00 30/05",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Albirex Niigata_Kagoshima United_12-00 30-05_365494f7_20260530.png?v=365494f7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-685a2aafc4",
-          "name": "Kochi United vs Renofa Yamaguchi | 12:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-685a2aafc4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-685a2aafc4",
-                  "name": "Kochi United vs Renofa Yamaguchi",
-                  "streams": [
-                    {
-                      "id": "st-685a2aafc4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 League",
-            "team_a": "Kochi United",
-            "team_b": "Renofa Yamaguchi",
-            "logo_a": "https://cdn.soccerwiki.org/images/logos/clubs/6669.png",
-            "logo_b": "https://media.api-sports.io/football/teams/309.png",
-            "time": "12:00 30/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kochi United_Renofa Yamaguchi_12-00 30-05_5c958104_20260530.png?v=5c958104",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-77d4293544",
           "name": "Yongin City vs Daegu FC | 14:30 30/05",
@@ -1062,8 +920,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-dadcb26c4c",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 11:00 30/05",
+          "id": "hqlive-ab33ea993e",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:10 30/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1077,23 +935,23 @@
           ],
           "sources": [
             {
-              "id": "src-dadcb26c4c",
+              "id": "src-ab33ea993e",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-dadcb26c4c",
+                  "id": "ct-ab33ea993e",
                   "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
                   "streams": [
                     {
-                      "id": "st-dadcb26c4c",
+                      "id": "st-ab33ea993e",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1118,62 +976,9 @@
             "team_b": "Tay Vợt Số 2",
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "11:00 30/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_11-00 30-05_cacf1340_20260530.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ab33ea993e",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:10 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab33ea993e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ab33ea993e",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-ab33ea993e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KFF Singapore Badminton Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "15:10 30/05",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
