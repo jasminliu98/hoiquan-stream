@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:05 31/05/2026",
+  "updated_at": "10:00 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b5534174c7",
-          "name": "South Korea vs Trinidad and Tobago | 08:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5534174c7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b5534174c7",
-                  "name": "South Korea vs Trinidad and Tobago",
-                  "streams": [
-                    {
-                      "id": "st-b5534174c7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "South Korea",
-            "team_b": "Trinidad and Tobago",
-            "logo_a": "https://media.api-sports.io/football/teams/1728.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/1280px-Flag_of_Trinidad_and_Tobago.svg.png",
-            "time": "08:00 31/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Korea_Trinidad and Tobago_08-00 31-05_30c6c3d1_20260531.png?v=30c6c3d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a53333a199",
           "name": "Mexico vs Australia | 09:00 31/05",
@@ -1171,86 +1100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_13-00 31-05_cacf1340_20260531.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-280ffd352d",
-          "name": "Oklahoma City Thunder vs San Antonio Spurs | 07:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-280ffd352d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-280ffd352d",
-                  "name": "Oklahoma City Thunder vs San Antonio Spurs",
-                  "streams": [
-                    {
-                      "id": "st-280ffd352d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Oklahoma City Thunder",
-            "team_b": "San Antonio Spurs",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x_r4HXgpRt8N2PALEejkBLGLqf4VYCZmhg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "time": "07:00 31/05",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oklahoma City Thunder_San Antonio Spurs_07-00 31-05_280346f3_20260531.png?v=280346f3",
             "width": 1600,
             "height": 1200
           }
