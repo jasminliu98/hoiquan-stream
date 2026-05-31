@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 31/05/2026",
+  "updated_at": "23:00 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -759,6 +759,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-281d4877df",
+          "name": "Bulgaria vs Montenegro | 23:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-281d4877df",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-281d4877df",
+                  "name": "Bulgaria vs Montenegro",
+                  "streams": [
+                    {
+                      "id": "st-281d4877df",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Bulgaria",
+            "team_b": "Montenegro",
+            "logo_a": "https://g7w1r.4shares.live/teams/C%E1%BB%9D%20qu%E1%BB%91c%20gia/bulgaria.png",
+            "logo_b": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
+            "time": "23:00 01/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Montenegro_23-00 01-06_e137f0ef_20260531.png?v=e137f0ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c34a86b624",
+          "name": "Slovakia vs Malta | 23:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c34a86b624",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c34a86b624",
+                  "name": "Slovakia vs Malta",
+                  "streams": [
+                    {
+                      "id": "st-c34a86b624",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Slovakia",
+            "team_b": "Malta",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/250px-Flag_of_Slovakia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/960px-Flag_of_Malta.svg.png",
+            "time": "23:00 01/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovakia_Malta_23-00 01-06_99f188e6_20260531.png?v=99f188e6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -836,59 +942,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jesper De Jong_Alexandet Zverev_20-30 31-05_53cfc355_20260531.png?v=53cfc355",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e6877d4da2",
-          "name": "Jakub Mensik vs Andrey Rublev | 23:30 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6877d4da2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e6877d4da2",
-                  "name": "Jakub Mensik vs Andrey Rublev",
-                  "streams": [
-                    {
-                      "id": "st-e6877d4da2",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Jakub Mensik",
-            "team_b": "Andrey Rublev",
-            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_04_01/mensik-1931-8728.jpg.webp",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
-            "time": "23:30 31/05",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jakub Mensik_Andrey Rublev_23-30 31-05_af21244b_20260531.png?v=af21244b",
             "width": 1600,
             "height": 1200
           }
