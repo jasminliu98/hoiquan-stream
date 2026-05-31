@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:30 31/05/2026",
+  "updated_at": "20:00 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,148 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CAHN_Binh Duong_18-00 31-05_84eab75c_20260531.png?v=84eab75c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-63cfc8164a",
-          "name": "Thanh Hóa vs Ninh Bình | 18:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63cfc8164a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-63cfc8164a",
-                  "name": "Thanh Hóa vs Ninh Bình",
-                  "streams": [
-                    {
-                      "id": "st-63cfc8164a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Thanh Hóa",
-            "team_b": "Ninh Bình",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/3/3d/Logo_CLB_Ninh_B%C3%ACnh.png",
-            "time": "18:00 31/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thanh Hóa_Ninh Bình_18-00 31-05_28e148f4_20260531.png?v=28e148f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4c57a1ee06",
-          "name": "Nam Dinh vs Song Lam Nghe An | 18:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c57a1ee06",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4c57a1ee06",
-                  "name": "Nam Dinh vs Song Lam Nghe An",
-                  "streams": [
-                    {
-                      "id": "st-4c57a1ee06",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Nam Dinh",
-            "team_b": "Song Lam Nghe An",
-            "logo_a": "https://media.api-sports.io/football/teams/3674.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3678.png",
-            "time": "18:00 31/05",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nam Dinh_Song Lam Nghe An_18-00 31-05_d849ec0b_20260531.png?v=d849ec0b",
             "width": 1600,
             "height": 1200
           }
@@ -1004,6 +862,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France U17_Montenegro U17_18-30 01-06_4139486a_20260531.png?v=4139486a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-77cc601e0d",
+          "name": "Indonesia U19 vs Myanmar U19 | 20:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77cc601e0d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-77cc601e0d",
+                  "name": "Indonesia U19 vs Myanmar U19",
+                  "streams": [
+                    {
+                      "id": "st-77cc601e0d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Indonesia U19",
+            "team_b": "Myanmar U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19149.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19152.png",
+            "time": "20:00 01/06",
+            "blv": "BLV TÁO GIÀ, BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia U19_Myanmar U19_20-00 01-06_199c4c7f_20260531.png?v=199c4c7f",
             "width": 1600,
             "height": 1200
           }
