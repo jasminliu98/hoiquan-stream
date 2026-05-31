@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:20 31/05/2026",
+  "updated_at": "17:30 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -605,7 +605,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/1099.png",
             "time": "01:45 01/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG",
+            "blv": "BLV PHAN MÃ, BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -870,7 +870,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/19157.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png",
             "time": "16:00 01/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "blv": "BLV PHAN MÃ, BLV TÁO KINH TẾ, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
