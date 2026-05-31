@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 31/05/2026",
+  "updated_at": "22:00 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1053,8 +1053,8 @@
           }
         },
         {
-          "id": "hqlive-af5e89dabf",
-          "name": "Diana Shnaider vs Adrian Mannarino | 16:00 01/06",
+          "id": "hqlive-061db99cd8",
+          "name": "Anastasia Potapova vs Anna Kalinskaya | 16:00 01/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1068,15 +1068,15 @@
           ],
           "sources": [
             {
-              "id": "src-af5e89dabf",
+              "id": "src-061db99cd8",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-af5e89dabf",
-                  "name": "Diana Shnaider vs Adrian Mannarino",
+                  "id": "ct-061db99cd8",
+                  "name": "Anastasia Potapova vs Anna Kalinskaya",
                   "streams": [
                     {
-                      "id": "st-af5e89dabf",
+                      "id": "st-061db99cd8",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1087,10 +1087,10 @@
           ],
           "org_metadata": {
             "league": "Roland Garros",
-            "team_a": "Diana Shnaider",
-            "team_b": "Adrian Mannarino",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg/960px-Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1X_vdkr2qEtGkmAlG2kozybzoSFfkV7zz1g&s",
+            "team_a": "Anastasia Potapova",
+            "team_b": "Anna Kalinskaya",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLVNOI6NxwTwLAy8bBwn3Rf0BtrYlb7phVRQ&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0dI-lMVvSjBfoPdjAwZtTWnSAV4xjeVAPQ&s",
             "time": "16:00 01/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": false,
@@ -1100,14 +1100,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Diana Shnaider_Adrian Mannarino_16-00 01-06_33cea510_20260531.png?v=33cea510",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anastasia Potapova_Anna Kalinskaya_16-00 01-06_b3dc3f0b_20260531.png?v=b3dc3f0b",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-7b9d184520",
-          "name": "Marta Kostuyk vs Diana Shnaider | 18:00 01/06",
+          "id": "hqlive-0574ae5c86",
+          "name": "Maja Chwalińska vs Diane Parry | 18:00 01/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1121,15 +1121,15 @@
           ],
           "sources": [
             {
-              "id": "src-7b9d184520",
+              "id": "src-0574ae5c86",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-7b9d184520",
-                  "name": "Marta Kostuyk vs Diana Shnaider",
+                  "id": "ct-0574ae5c86",
+                  "name": "Maja Chwalińska vs Diane Parry",
                   "streams": [
                     {
-                      "id": "st-7b9d184520",
+                      "id": "st-0574ae5c86",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1140,10 +1140,10 @@
           ],
           "org_metadata": {
             "league": "Roland Garros",
-            "team_a": "Marta Kostuyk",
-            "team_b": "Diana Shnaider",
-            "logo_a": "https://www.tennisnerd.net/wp-content/uploads/2025/05/Marta-Kostyuk-1024x546.webp",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg/960px-Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg",
+            "team_a": "Maja Chwalińska",
+            "team_b": "Diane Parry",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadq-YnziBqLH3nWBydcetJ99wQBsN6DQ7_Q&s",
             "time": "18:00 01/06",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -1153,7 +1153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marta Kostuyk_Diana Shnaider_18-00 01-06_a2f9fc3e_20260531.png?v=a2f9fc3e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Maja Chwalińska_Diane Parry_18-00 01-06_3e24663a_20260531.png?v=3e24663a",
             "width": 1600,
             "height": 1200
           }
