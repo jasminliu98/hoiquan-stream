@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:20 31/05/2026",
+  "updated_at": "18:30 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1004,6 +1004,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vanraure Hachinohe_Fukushima United_17-00 01-06_ec0dc904_20260531.png?v=ec0dc904",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-78b2cf5751",
+          "name": "France U17 vs Montenegro U17 | 18:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78b2cf5751",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-78b2cf5751",
+                  "name": "France U17 vs Montenegro U17",
+                  "streams": [
+                    {
+                      "id": "st-78b2cf5751",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "France U17",
+            "team_b": "Montenegro U17",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
+            "logo_b": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
+            "time": "18:30 01/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France U17_Montenegro U17_18-30 01-06_4139486a_20260531.png?v=4139486a",
             "width": 1600,
             "height": 1200
           }
