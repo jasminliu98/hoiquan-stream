@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:35 31/05/2026",
+  "updated_at": "16:00 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -879,6 +879,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Palestino_A. Italiano_07-00 01-06_9eccbb6e_20260531.png?v=9eccbb6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-21bf999077",
+          "name": "Vietnam U19 vs Timor Leste U19 | 16:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21bf999077",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-21bf999077",
+                  "name": "Vietnam U19 vs Timor Leste U19",
+                  "streams": [
+                    {
+                      "id": "st-21bf999077",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Vietnam U19",
+            "team_b": "Timor Leste U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19157.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png",
+            "time": "16:00 01/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vietnam U19_Timor Leste U19_16-00 01-06_088fa9df_20260531.png?v=088fa9df",
             "width": 1600,
             "height": 1200
           }
