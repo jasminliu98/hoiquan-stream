@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:30 31/05/2026",
+  "updated_at": "21:50 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -995,6 +995,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Casper Ruud_Joao Fonseca_01-30 01-06_5882ec17_20260531.png?v=5882ec17",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-69d88dd551",
+          "name": "Flavio Coboli vs Zachary Svajda | 16:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69d88dd551",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-69d88dd551",
+                  "name": "Flavio Coboli vs Zachary Svajda",
+                  "streams": [
+                    {
+                      "id": "st-69d88dd551",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Flavio Coboli",
+            "team_b": "Zachary Svajda",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "logo_b": "https://www.atptour.com/-/media/images/news/2025/08/26/23/08/svajda-cincinnati-2024-serve.jpg",
+            "time": "16:00 01/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flavio Coboli_Zachary Svajda_16-00 01-06_aee47e9a_20260531.png?v=aee47e9a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-af5e89dabf",
+          "name": "Diana Shnaider vs Adrian Mannarino | 16:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af5e89dabf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-af5e89dabf",
+                  "name": "Diana Shnaider vs Adrian Mannarino",
+                  "streams": [
+                    {
+                      "id": "st-af5e89dabf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Diana Shnaider",
+            "team_b": "Adrian Mannarino",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg/960px-Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1X_vdkr2qEtGkmAlG2kozybzoSFfkV7zz1g&s",
+            "time": "16:00 01/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Diana Shnaider_Adrian Mannarino_16-00 01-06_33cea510_20260531.png?v=33cea510",
             "width": 1600,
             "height": 1200
           }
