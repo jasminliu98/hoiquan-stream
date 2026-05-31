@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 01/06/2026",
+  "updated_at": "00:05 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-da80364ba7",
-          "name": "Cape Verde Islands vs Serbia | 22:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da80364ba7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-da80364ba7",
-                  "name": "Cape Verde Islands vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-da80364ba7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Cape Verde Islands",
-            "team_b": "Serbia",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "time": "22:00 31/05",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Serbia_22-00 31-05_0529dc1c_20260601.png?v=0529dc1c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f8499c158c",
           "name": "Poland vs Ukraine | 22:30 31/05",
@@ -744,7 +673,7 @@
             "league": "Friendlies",
             "team_a": "Bulgaria",
             "team_b": "Montenegro",
-            "logo_a": "https://g7w1r.4shares.live/teams/C%E1%BB%9D%20qu%E1%BB%91c%20gia/bulgaria.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg",
             "logo_b": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
             "time": "23:00 01/06",
             "blv": "BLV TÁO KINH TẾ",
@@ -755,7 +684,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Montenegro_23-00 01-06_e137f0ef_20260601.png?v=e137f0ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Montenegro_23-00 01-06_e534129e_20260601.png?v=e534129e",
             "width": 1600,
             "height": 1200
           }
