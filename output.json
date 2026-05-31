@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:50 31/05/2026",
+  "updated_at": "21:55 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1101,6 +1101,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Diana Shnaider_Adrian Mannarino_16-00 01-06_33cea510_20260531.png?v=33cea510",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7b9d184520",
+          "name": "Marta Kostuyk vs Diana Shnaider | 18:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b9d184520",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7b9d184520",
+                  "name": "Marta Kostuyk vs Diana Shnaider",
+                  "streams": [
+                    {
+                      "id": "st-7b9d184520",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Marta Kostuyk",
+            "team_b": "Diana Shnaider",
+            "logo_a": "https://www.tennisnerd.net/wp-content/uploads/2025/05/Marta-Kostyuk-1024x546.webp",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg/960px-Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg",
+            "time": "18:00 01/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marta Kostuyk_Diana Shnaider_18-00 01-06_a2f9fc3e_20260531.png?v=a2f9fc3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-59a513450b",
+          "name": "Madison Keys vs Diana Shnaider | 18:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59a513450b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-59a513450b",
+                  "name": "Madison Keys vs Diana Shnaider",
+                  "streams": [
+                    {
+                      "id": "st-59a513450b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Madison Keys",
+            "team_b": "Diana Shnaider",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQssM2zp_G-Uzk9nJ16qLdY9XZx7GdF6ql7Kg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg/960px-Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg",
+            "time": "18:00 01/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Madison Keys_Diana Shnaider_18-00 01-06_9855406a_20260531.png?v=9855406a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3324a94743",
+          "name": "Juan Manuel Cerundolo vs Matteo Berrettini | 20:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3324a94743",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3324a94743",
+                  "name": "Juan Manuel Cerundolo vs Matteo Berrettini",
+                  "streams": [
+                    {
+                      "id": "st-3324a94743",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Juan Manuel Cerundolo",
+            "team_b": "Matteo Berrettini",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cerundolo_JM._RGQ22_%283%29_%2852128606242%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzstp2VuHC_iVQ9pKmRuNMd8EHxGO-KtJgkQ&s",
+            "time": "20:00 01/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Juan Manuel Cerundolo_Matteo Berrettini_20-00 01-06_8854c577_20260531.png?v=8854c577",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-60e7ddb174",
+          "name": "Felix Auger-Aliassime vs Alejandro Tabilo | 20:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60e7ddb174",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-60e7ddb174",
+                  "name": "Felix Auger-Aliassime vs Alejandro Tabilo",
+                  "streams": [
+                    {
+                      "id": "st-60e7ddb174",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Felix Auger-Aliassime",
+            "team_b": "Alejandro Tabilo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/48/Tabilo_RGQ23_%2852942983162%29.jpg",
+            "time": "20:30 01/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Alejandro Tabilo_20-30 01-06_f2a8a677_20260531.png?v=f2a8a677",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-490a3a10bc",
+          "name": "Frances Tiafoe vs Matteo Arnaldi | 22:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-490a3a10bc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-490a3a10bc",
+                  "name": "Frances Tiafoe vs Matteo Arnaldi",
+                  "streams": [
+                    {
+                      "id": "st-490a3a10bc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Frances Tiafoe",
+            "team_b": "Matteo Arnaldi",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVTMBm_ZQ3cK3w-vD5WzcH22bN_22bTc7iw&s",
+            "time": "22:00 01/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Frances Tiafoe_Matteo Arnaldi_22-00 01-06_620253f5_20260531.png?v=620253f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d8989e3640",
+          "name": "Aryna Sabalenka vs Naomi Osaka | 01:30 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8989e3640",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d8989e3640",
+                  "name": "Aryna Sabalenka vs Naomi Osaka",
+                  "streams": [
+                    {
+                      "id": "st-d8989e3640",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Aryna Sabalenka",
+            "team_b": "Naomi Osaka",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
+            "logo_b": "https://image.plo.vn/w1000/Uploaded/2026/vrwqzdjwp/2025_08_06/vo-dich-my-mo-rong-naomi-osaka-3829-689.jpg.webp",
+            "time": "01:30 02/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Naomi Osaka_01-30 02-06_34c2adac_20260531.png?v=34c2adac",
             "width": 1600,
             "height": 1200
           }
