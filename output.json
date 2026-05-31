@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:20 31/05/2026",
+  "updated_at": "23:30 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -809,6 +809,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovakia_Malta_23-00 01-06_99f188e6_20260531.png?v=99f188e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2a155d777c",
+          "name": "Türkiye vs FYR Macedonia | 23:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a155d777c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2a155d777c",
+                  "name": "Türkiye vs FYR Macedonia",
+                  "streams": [
+                    {
+                      "id": "st-2a155d777c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Türkiye",
+            "team_b": "FYR Macedonia",
+            "logo_a": "https://media.api-sports.io/football/teams/777.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/330px-Flag_of_North_Macedonia.svg.png",
+            "time": "23:30 01/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Türkiye_FYR Macedonia_23-30 01-06_4ad67ba3_20260531.png?v=4ad67ba3",
             "width": 1600,
             "height": 1200
           }
