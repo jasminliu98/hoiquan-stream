@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:35 31/05/2026",
+  "updated_at": "15:25 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -181,7 +181,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/3/38/Logo_CAHN_FC.svg/500px-Logo_CAHN_FC.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/LOGO_BFC.png/960px-LOGO_BFC.png",
             "time": "18:00 31/05",
-            "blv": "BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -195,8 +195,8 @@
           }
         },
         {
-          "id": "hqlive-5f6ad6348f",
-          "name": "Thanh Hóa vs Phu Dong | 18:00 31/05",
+          "id": "hqlive-63cfc8164a",
+          "name": "Thanh Hóa vs Ninh Bình | 18:00 31/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -210,15 +210,15 @@
           ],
           "sources": [
             {
-              "id": "src-5f6ad6348f",
+              "id": "src-63cfc8164a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5f6ad6348f",
-                  "name": "Thanh Hóa vs Phu Dong",
+                  "id": "ct-63cfc8164a",
+                  "name": "Thanh Hóa vs Ninh Bình",
                   "streams": [
                     {
-                      "id": "st-5f6ad6348f",
+                      "id": "st-63cfc8164a",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -230,9 +230,9 @@
           "org_metadata": {
             "league": "V.League 1",
             "team_a": "Thanh Hóa",
-            "team_b": "Phu Dong",
+            "team_b": "Ninh Bình",
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9167.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/3/3d/Logo_CLB_Ninh_B%C3%ACnh.png",
             "time": "18:00 31/05",
             "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
@@ -242,60 +242,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thanh Hóa_Phu Dong_18-00 31-05_1e212826_20260531.png?v=1e212826",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-90d084cd9c",
-          "name": "Hồng Lĩnh Hà Tĩnh vs Da Nang | 18:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90d084cd9c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-90d084cd9c",
-                  "name": "Hồng Lĩnh Hà Tĩnh vs Da Nang",
-                  "streams": [
-                    {
-                      "id": "st-90d084cd9c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hồng Lĩnh Hà Tĩnh",
-            "team_b": "Da Nang",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/3669.png",
-            "time": "18:00 31/05",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Lĩnh Hà Tĩnh_Da Nang_18-00 31-05_2108ae9f_20260531.png?v=2108ae9f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thanh Hóa_Ninh Bình_18-00 31-05_28e148f4_20260531.png?v=28e148f4",
             "width": 1600,
             "height": 1200
           }
