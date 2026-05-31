@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:40 01/06/2026",
+  "updated_at": "06:00 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -737,6 +737,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ponte Preta_Botafogo SP_05-00 02-06_936b3282_20260601.png?v=936b3282",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-eabd61419d",
+          "name": "Colombia vs Costa Rica | 06:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eabd61419d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-eabd61419d",
+                  "name": "Colombia vs Costa Rica",
+                  "streams": [
+                    {
+                      "id": "st-eabd61419d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Colombia",
+            "team_b": "Costa Rica",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/250px-Flag_of_Costa_Rica_%28state%29.svg.png",
+            "time": "06:00 02/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Colombia_Costa Rica_06-00 02-06_4a35e543_20260601.png?v=4a35e543",
             "width": 1600,
             "height": 1200
           }
