@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:05 31/05/2026",
+  "updated_at": "14:35 31/05/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d6b2d5059f",
-          "name": "Blaublitz Akita vs Consadole Sapporo | 12:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d6b2d5059f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d6b2d5059f",
-                  "name": "Blaublitz Akita vs Consadole Sapporo",
-                  "streams": [
-                    {
-                      "id": "st-d6b2d5059f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 League",
-            "team_a": "Blaublitz Akita",
-            "team_b": "Consadole Sapporo",
-            "logo_a": "https://media.api-sports.io/football/teams/4315.png",
-            "logo_b": "https://media.api-sports.io/football/teams/279.png",
-            "time": "12:00 31/05",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Blaublitz Akita_Consadole Sapporo_12-00 31-05_60a1f5ea_20260531.png?v=60a1f5ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ab243e5c9c",
           "name": "Jeonnam Dragons vs Seoul E-Land FC | 14:30 31/05",
