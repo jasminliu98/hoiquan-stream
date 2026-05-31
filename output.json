@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:30 01/06/2026",
+  "updated_at": "01:00 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -566,59 +566,6 @@
           }
         },
         {
-          "id": "hqlive-281d4877df",
-          "name": "Bulgaria vs Montenegro | 23:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-281d4877df",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-281d4877df",
-                  "name": "Bulgaria vs Montenegro",
-                  "streams": [
-                    {
-                      "id": "st-281d4877df",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Bulgaria",
-            "team_b": "Montenegro",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg",
-            "logo_b": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
-            "time": "23:00 01/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Montenegro_23-00 01-06_e534129e_20260601.png?v=e534129e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-c34a86b624",
           "name": "Slovakia vs Malta | 23:00 01/06",
           "type": "single",
@@ -711,7 +658,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/777.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/330px-Flag_of_North_Macedonia.svg.png",
             "time": "23:30 01/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG",
+            "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -834,7 +781,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -847,10 +794,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -865,7 +812,25 @@
                     {
                       "id": "st-f96852656a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -880,7 +845,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jo%C3%A3o_Fonseca_%282024_Cary%29_09_%28cropped%29.jpg",
             "time": "01:30 01/06",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
