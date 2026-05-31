@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:35 01/06/2026",
+  "updated_at": "01:45 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -737,6 +737,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Voluntari_AFC Hermannstadt_00-30 02-06_32afeee3_20260601.png?v=32afeee3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-52989e223d",
+          "name": "Austria vs Tunisia | 01:45 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52989e223d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-52989e223d",
+                  "name": "Austria vs Tunisia",
+                  "streams": [
+                    {
+                      "id": "st-52989e223d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Austria",
+            "team_b": "Tunisia",
+            "logo_a": "https://media.api-sports.io/football/teams/775.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png",
+            "time": "01:45 02/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Austria_Tunisia_01-45 02-06_3ac62d23_20260601.png?v=3ac62d23",
             "width": 1600,
             "height": 1200
           }
