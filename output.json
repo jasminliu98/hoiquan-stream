@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 01/06/2026",
+  "updated_at": "17:05 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -459,59 +459,6 @@
           }
         },
         {
-          "id": "hqlive-ad3bc209c3",
-          "name": "FC Voluntari vs AFC Hermannstadt | 00:30 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad3bc209c3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ad3bc209c3",
-                  "name": "FC Voluntari vs AFC Hermannstadt",
-                  "streams": [
-                    {
-                      "id": "st-ad3bc209c3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga I",
-            "team_a": "FC Voluntari",
-            "team_b": "AFC Hermannstadt",
-            "logo_a": "https://media.api-sports.io/football/teams/2578.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2579.png",
-            "time": "00:30 02/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Voluntari_AFC Hermannstadt_00-30 02-06_32afeee3_20260601.png?v=32afeee3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-52989e223d",
           "name": "Austria vs Tunisia | 01:45 02/06",
           "type": "single",
@@ -923,59 +870,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anastasia Potapova_Anna Kalinskaya_16-00 01-06_b3dc3f0b_20260601.png?v=b3dc3f0b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0574ae5c86",
-          "name": "Maja Chwalińska vs Diane Parry | 18:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0574ae5c86",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0574ae5c86",
-                  "name": "Maja Chwalińska vs Diane Parry",
-                  "streams": [
-                    {
-                      "id": "st-0574ae5c86",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Maja Chwalińska",
-            "team_b": "Diane Parry",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadq-YnziBqLH3nWBydcetJ99wQBsN6DQ7_Q&s",
-            "time": "18:00 01/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Maja Chwalińska_Diane Parry_18-00 01-06_3e24663a_20260601.png?v=3e24663a",
             "width": 1600,
             "height": 1200
           }
