@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:45 02/06/2026",
+  "updated_at": "00:50 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -947,7 +947,7 @@
             "team_a": "Iran",
             "team_b": "Indonesia",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1200px-Flag_of_Indonesia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
             "time": "14:00 06/06",
             "blv": "BLV TÁO GIÀ",
             "is_live": false,
@@ -957,7 +957,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Indonesia_14-00 06-06_5485873b_20260602.png?v=5485873b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Indonesia_14-00 06-06_ba44ea23_20260602.png?v=ba44ea23",
             "width": 1600,
             "height": 1200
           }
@@ -1159,7 +1159,7 @@
             "team_a": "Lebanon",
             "team_b": "Indonesia",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1200px-Flag_of_Indonesia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
             "time": "11:00 07/06",
             "blv": "BLV PHAN CA",
             "is_live": false,
@@ -1169,7 +1169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Indonesia_11-00 07-06_eeae0e0a_20260602.png?v=eeae0e0a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Indonesia_11-00 07-06_b831baa3_20260602.png?v=b831baa3",
             "width": 1600,
             "height": 1200
           }
