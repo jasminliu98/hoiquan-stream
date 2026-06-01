@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 01/06/2026",
+  "updated_at": "19:15 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -569,7 +569,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -641,77 +641,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flavio Coboli_Zachary Svajda_16-00 01-06_aee47e9a_20260601.png?v=aee47e9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-061db99cd8",
-          "name": "Anastasia Potapova vs Anna Kalinskaya | 16:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-061db99cd8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-061db99cd8",
-                  "name": "Anastasia Potapova vs Anna Kalinskaya",
-                  "streams": [
-                    {
-                      "id": "st-061db99cd8",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Anastasia Potapova",
-            "team_b": "Anna Kalinskaya",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLVNOI6NxwTwLAy8bBwn3Rf0BtrYlb7phVRQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0dI-lMVvSjBfoPdjAwZtTWnSAV4xjeVAPQ&s",
-            "time": "16:00 01/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anastasia Potapova_Anna Kalinskaya_16-00 01-06_b3dc3f0b_20260601.png?v=b3dc3f0b",
             "width": 1600,
             "height": 1200
           }
