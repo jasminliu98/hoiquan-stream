@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:15 01/06/2026",
+  "updated_at": "23:30 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "hqlive-2a155d777c",
-          "name": "Türkiye vs FYR Macedonia | 23:30 01/06",
+          "id": "hqlive-5548c2cd9a",
+          "name": "Norway vs Sweden | 00:00 02/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,128 @@
           ],
           "sources": [
             {
-              "id": "src-2a155d777c",
+              "id": "src-5548c2cd9a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-2a155d777c",
-                  "name": "Türkiye vs FYR Macedonia",
+                  "id": "ct-5548c2cd9a",
+                  "name": "Norway vs Sweden",
                   "streams": [
                     {
-                      "id": "st-2a155d777c",
+                      "id": "st-5548c2cd9a",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Norway",
+            "team_b": "Sweden",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "time": "00:00 02/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_Sweden_00-00 02-06_29f0ce74_20260601.png?v=29f0ce74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2b14f4fdd6",
+          "name": "Türkiye vs FYR Macedonia | 00:30 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b14f4fdd6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2b14f4fdd6",
+                  "name": "Türkiye vs FYR Macedonia",
+                  "streams": [
+                    {
+                      "id": "st-2b14f4fdd6",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -145,8 +250,8 @@
             "team_b": "FYR Macedonia",
             "logo_a": "https://media.api-sports.io/football/teams/777.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/330px-Flag_of_North_Macedonia.svg.png",
-            "time": "23:30 01/06",
-            "blv": "BLV PHAN CA",
+            "time": "00:30 02/06",
+            "blv": "BLV TÁO KINH TẾ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -154,60 +259,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Türkiye_FYR Macedonia_23-30 01-06_4ad67ba3_20260601.png?v=4ad67ba3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5548c2cd9a",
-          "name": "Norway vs Sweden | 00:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5548c2cd9a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5548c2cd9a",
-                  "name": "Norway vs Sweden",
-                  "streams": [
-                    {
-                      "id": "st-5548c2cd9a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Norway",
-            "team_b": "Sweden",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "time": "00:00 02/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_Sweden_00-00 02-06_29f0ce74_20260601.png?v=29f0ce74",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Türkiye_FYR Macedonia_00-30 02-06_4ad67ba3_20260601.png?v=4ad67ba3",
             "width": 1600,
             "height": 1200
           }
