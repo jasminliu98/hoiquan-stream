@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 02/06/2026",
+  "updated_at": "00:20 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1019,82 +1019,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3324a94743",
-          "name": "Juan Manuel Cerundolo vs Matteo Berrettini | 20:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3324a94743",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3324a94743",
-                  "name": "Juan Manuel Cerundolo vs Matteo Berrettini",
-                  "streams": [
-                    {
-                      "id": "st-3324a94743",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Juan Manuel Cerundolo",
-            "team_b": "Matteo Berrettini",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cerundolo_JM._RGQ22_%283%29_%2852128606242%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzstp2VuHC_iVQ9pKmRuNMd8EHxGO-KtJgkQ&s",
-            "time": "20:00 01/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Juan Manuel Cerundolo_Matteo Berrettini_20-00 01-06_8854c577_20260602.png?v=8854c577",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-60e7ddb174",
           "name": "Felix Auger-Aliassime vs Alejandro Tabilo | 20:30 01/06",
@@ -1162,77 +1091,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Alejandro Tabilo_20-30 01-06_f2a8a677_20260602.png?v=f2a8a677",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-490a3a10bc",
-          "name": "Frances Tiafoe vs Matteo Arnaldi | 22:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-490a3a10bc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-490a3a10bc",
-                  "name": "Frances Tiafoe vs Matteo Arnaldi",
-                  "streams": [
-                    {
-                      "id": "st-490a3a10bc",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Frances Tiafoe",
-            "team_b": "Matteo Arnaldi",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVTMBm_ZQ3cK3w-vD5WzcH22bN_22bTc7iw&s",
-            "time": "22:00 01/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Frances Tiafoe_Matteo Arnaldi_22-00 01-06_620253f5_20260602.png?v=620253f5",
             "width": 1600,
             "height": 1200
           }
