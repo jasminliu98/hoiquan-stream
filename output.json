@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:00 02/06/2026",
+  "updated_at": "02:05 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -409,7 +409,7 @@
             "team_a": "Malaysia U19",
             "team_b": "Singapore U19",
             "logo_a": "https://media.api-sports.io/football/teams/19151.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19154.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
             "time": "20:00 02/06",
             "blv": "BLV TÁO KINH TẾ, BLV LƯƠNG BỔNG",
             "is_live": false,
@@ -419,7 +419,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Malaysia U19_Singapore U19_20-00 02-06_8017d6ae_20260602.png?v=8017d6ae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Malaysia U19_Singapore U19_20-00 02-06_9c0a1994_20260602.png?v=9c0a1994",
             "width": 1600,
             "height": 1200
           }
@@ -676,7 +676,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
             "time": "01:45 03/06",
-            "blv": "BLV LƯƠNG BỔNG",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
