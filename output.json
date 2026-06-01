@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:05 01/06/2026",
+  "updated_at": "20:30 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-78b2cf5751",
-          "name": "France U17 vs Montenegro U17 | 18:30 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78b2cf5751",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-78b2cf5751",
-                  "name": "France U17 vs Montenegro U17",
-                  "streams": [
-                    {
-                      "id": "st-78b2cf5751",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "France U17",
-            "team_b": "Montenegro U17",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
-            "logo_b": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
-            "time": "18:30 01/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France U17_Montenegro U17_18-30 01-06_4139486a_20260601.png?v=4139486a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-77cc601e0d",
           "name": "Indonesia U19 vs Myanmar U19 | 20:00 01/06",
