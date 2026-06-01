@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 01/06/2026",
+  "updated_at": "19:50 01/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -596,6 +596,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Brunei U19_16-00 02-06_62bb2b75_20260601.png?v=62bb2b75",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_cau-long",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-03ac05d4fd",
+          "name": "Shi Y. Q vs CHI Yu Jen | 09:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03ac05d4fd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-03ac05d4fd",
+                  "name": "Shi Y. Q vs CHI Yu Jen",
+                  "streams": [
+                    {
+                      "id": "st-03ac05d4fd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "POLYTRON Indonesia Open 2026",
+            "team_a": "Shi Y. Q",
+            "team_b": "CHI Yu Jen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4aNOfdw-9GEueGUUO9Q1skSGaG6Tl_QpadQ&s",
+            "time": "09:00 02/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shi Y. Q_CHI Yu Jen_09-00 02-06_215e9614_20260601.png?v=215e9614",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f9c69b66ac",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 10:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9c69b66ac",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f9c69b66ac",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-f9c69b66ac",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "POLYTRON Indonesia Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "10:00 02/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_10-00 02-06_cacf1340_20260601.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
