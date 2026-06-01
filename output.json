@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:05 02/06/2026",
+  "updated_at": "01:55 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,116 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5548c2cd9a",
-          "name": "Norway vs Sweden | 00:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5548c2cd9a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5548c2cd9a",
-                  "name": "Norway vs Sweden",
-                  "streams": [
-                    {
-                      "id": "st-5548c2cd9a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Norway",
-            "team_b": "Sweden",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "time": "00:00 02/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_Sweden_00-00 02-06_29f0ce74_20260602.png?v=29f0ce74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-2b14f4fdd6",
           "name": "Türkiye vs FYR Macedonia | 00:30 02/06",
@@ -740,6 +635,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-41c61ded03",
+          "name": "Wales vs Ghana | 01:45 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41c61ded03",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-41c61ded03",
+                  "name": "Wales vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-41c61ded03",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Wales",
+            "team_b": "Ghana",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
+            "time": "01:45 03/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wales_Ghana_01-45 03-06_25332bec_20260602.png?v=25332bec",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -750,6 +698,271 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-d177ccc667",
+          "name": "Trung Quốc vs CH Séc | 18:30 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d177ccc667",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d177ccc667",
+                  "name": "Trung Quốc vs CH Séc",
+                  "streams": [
+                    {
+                      "id": "st-d177ccc667",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Trung Quốc",
+            "team_b": "CH Séc",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+            "time": "18:30 03/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_CH Séc_18-30 03-06_bd514147_20260602.png?v=bd514147",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d982761e52",
+          "name": "Cộng Hòa Dominicana vs Thổ Nhĩ Kỳ | 23:00 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d982761e52",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d982761e52",
+                  "name": "Cộng Hòa Dominicana vs Thổ Nhĩ Kỳ",
+                  "streams": [
+                    {
+                      "id": "st-d982761e52",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Cộng Hòa Dominicana",
+            "team_b": "Thổ Nhĩ Kỳ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "time": "23:00 03/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Thổ Nhĩ Kỳ_23-00 03-06_d6c01e35_20260602.png?v=d6c01e35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3a38d3574c",
+          "name": "Trung Quốc vs Thái Lan | 18:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a38d3574c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a38d3574c",
+                  "name": "Trung Quốc vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-3a38d3574c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Trung Quốc",
+            "team_b": "Thái Lan",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+            "time": "18:00 04/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Thái Lan_18-00 04-06_a40865b8_20260602.png?v=a40865b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e49770a03f",
+          "name": "Brazil vs Cộng Hòa Dominicana | 06:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e49770a03f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e49770a03f",
+                  "name": "Brazil vs Cộng Hòa Dominicana",
+                  "streams": [
+                    {
+                      "id": "st-e49770a03f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Brazil",
+            "team_b": "Cộng Hòa Dominicana",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+            "time": "06:00 05/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Cộng Hòa Dominicana_06-00 05-06_7d404432_20260602.png?v=7d404432",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e4c123a29c",
+          "name": "Hà Lan vs Italy | 06:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e4c123a29c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e4c123a29c",
+                  "name": "Hà Lan vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-e4c123a29c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Hà Lan",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "06:00 06/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Lan_Italy_06-00 06-06_ab92d204_20260602.png?v=ab92d204",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-ec08116a01",
           "name": "Việt Nam vs Lebanon | 08:00 06/06",
@@ -799,59 +1012,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Việt Nam_Lebanon_08-00 06-06_40fe8699_20260602.png?v=40fe8699",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-50b8769fb9",
-          "name": "Kazakhstan vs Hồng Kông | 11:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50b8769fb9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-50b8769fb9",
-                  "name": "Kazakhstan vs Hồng Kông",
-                  "streams": [
-                    {
-                      "id": "st-50b8769fb9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Kazakhstan",
-            "team_b": "Hồng Kông",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
-            "time": "11:00 06/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Hồng Kông_11-00 06-06_818ab955_20260602.png?v=818ab955",
             "width": 1600,
             "height": 1200
           }
@@ -910,59 +1070,6 @@
           }
         },
         {
-          "id": "hqlive-6ebb887d92",
-          "name": "Hàn Quốc vs Kyrgyzstan | 17:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ebb887d92",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6ebb887d92",
-                  "name": "Hàn Quốc vs Kyrgyzstan",
-                  "streams": [
-                    {
-                      "id": "st-6ebb887d92",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Kyrgyzstan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
-            "time": "17:00 06/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Kyrgyzstan_17-00 06-06_1232d1d4_20260602.png?v=1232d1d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-1b70880033",
           "name": "Philippin vs Uzbekistan | 20:00 06/06",
           "type": "single",
@@ -1011,6 +1118,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippin_Uzbekistan_20-00 06-06_f5ecd032_20260602.png?v=f5ecd032",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cc780e6298",
+          "name": "Italy vs Thổ Nhĩ Kỳ | 01:30 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc780e6298",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cc780e6298",
+                  "name": "Italy vs Thổ Nhĩ Kỳ",
+                  "streams": [
+                    {
+                      "id": "st-cc780e6298",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Italy",
+            "team_b": "Thổ Nhĩ Kỳ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "time": "01:30 07/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Italy_Thổ Nhĩ Kỳ_01-30 07-06_f376a5ca_20260602.png?v=f376a5ca",
             "width": 1600,
             "height": 1200
           }
@@ -1175,8 +1335,8 @@
           }
         },
         {
-          "id": "hqlive-caef2075a4",
-          "name": "Uzbekistan vs Kyrgyzstan | 17:00 07/06",
+          "id": "hqlive-0d370e4325",
+          "name": "Trung Quốc vs Ba Lan | 18:00 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1190,15 +1350,15 @@
           ],
           "sources": [
             {
-              "id": "src-caef2075a4",
+              "id": "src-0d370e4325",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-caef2075a4",
-                  "name": "Uzbekistan vs Kyrgyzstan",
+                  "id": "ct-0d370e4325",
+                  "name": "Trung Quốc vs Ba Lan",
                   "streams": [
                     {
-                      "id": "st-caef2075a4",
+                      "id": "st-0d370e4325",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1208,12 +1368,12 @@
             }
           ],
           "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Uzbekistan",
-            "team_b": "Kyrgyzstan",
-            "logo_a": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
-            "time": "17:00 07/06",
+            "league": "Nation League Women",
+            "team_a": "Trung Quốc",
+            "team_b": "Ba Lan",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "18:00 07/06",
             "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
             "sport_slug": "bong-chuyen"
@@ -1222,7 +1382,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uzbekistan_Kyrgyzstan_17-00 07-06_eaf0da7b_20260602.png?v=eaf0da7b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Ba Lan_18-00 07-06_20aba706_20260602.png?v=20aba706",
             "width": 1600,
             "height": 1200
           }
