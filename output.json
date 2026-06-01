@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:20 02/06/2026",
+  "updated_at": "00:25 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1019,82 +1019,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-60e7ddb174",
-          "name": "Felix Auger-Aliassime vs Alejandro Tabilo | 20:30 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60e7ddb174",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-60e7ddb174",
-                  "name": "Felix Auger-Aliassime vs Alejandro Tabilo",
-                  "streams": [
-                    {
-                      "id": "st-60e7ddb174",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Felix Auger-Aliassime",
-            "team_b": "Alejandro Tabilo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/48/Tabilo_RGQ23_%2852942983162%29.jpg",
-            "time": "20:30 01/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Alejandro Tabilo_20-30 01-06_f2a8a677_20260602.png?v=f2a8a677",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d8989e3640",
           "name": "Aryna Sabalenka vs Naomi Osaka | 01:30 02/06",
