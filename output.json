@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:25 02/06/2026",
+  "updated_at": "03:10 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1815,82 +1815,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d8989e3640",
-          "name": "Aryna Sabalenka vs Naomi Osaka | 01:30 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8989e3640",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d8989e3640",
-                  "name": "Aryna Sabalenka vs Naomi Osaka",
-                  "streams": [
-                    {
-                      "id": "st-d8989e3640",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Aryna Sabalenka",
-            "team_b": "Naomi Osaka",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
-            "logo_b": "https://image.plo.vn/w1000/Uploaded/2026/vrwqzdjwp/2025_08_06/vo-dich-my-mo-rong-naomi-osaka-3829-689.jpg.webp",
-            "time": "01:30 02/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Naomi Osaka_01-30 02-06_34c2adac_20260602.png?v=34c2adac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-cd830b2318",
           "name": "Mirra Andreeva vs Sorana Cirstea | 16:00 02/06",
