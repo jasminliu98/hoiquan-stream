@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:10 02/06/2026",
+  "updated_at": "18:30 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal U19_Kazakhstan U19_16-00 03-06_4a0849ad_20260602.png?v=4a0849ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ca1e7e49e2",
+          "name": "Philippines vs Guam | 18:30 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca1e7e49e2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ca1e7e49e2",
+                  "name": "Philippines vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-ca1e7e49e2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Philippines",
+            "team_b": "Guam",
+            "logo_a": "https://img.freepik.com/free-vector/illustration-philippinesflag_53876-27126.jpg?semt=ais_hybrid&w=740&q=80",
+            "logo_b": "https://media.api-sports.io/football/teams/8119.png",
+            "time": "18:30 03/06",
+            "blv": "BLV THẦN THÔNG, BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Guam_18-30 03-06_2f92ea7d_20260602.png?v=2f92ea7d",
             "width": 1600,
             "height": 1200
           }
