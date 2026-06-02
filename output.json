@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:00 02/06/2026",
+  "updated_at": "07:10 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -632,6 +632,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Haiti_New Zealand_07-00 03-06_11c13c47_20260602.png?v=11c13c47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-775d2174d2",
+          "name": "Barracas Central vs Huracan | 07:10 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-775d2174d2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-775d2174d2",
+                  "name": "Barracas Central vs Huracan",
+                  "streams": [
+                    {
+                      "id": "st-775d2174d2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa Argentina",
+            "team_a": "Barracas Central",
+            "team_b": "Huracan",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEUH2RYSu0HFyVZ05p8ps-zOowmIzGxKox_A&s",
+            "logo_b": "https://media.api-sports.io/football/teams/445.png",
+            "time": "07:10 03/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barracas Central_Huracan_07-10 03-06_fcbf3d73_20260602.png?v=fcbf3d73",
             "width": 1600,
             "height": 1200
           }
