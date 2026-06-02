@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:20 03/06/2026",
+  "updated_at": "01:45 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -756,6 +756,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Albania_Israel_01-00 04-06_9f06eb82_20260603.png?v=9f06eb82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-31b21ff19e",
+          "name": "Netherlands vs Algeria | 01:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-31b21ff19e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-31b21ff19e",
+                  "name": "Netherlands vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-31b21ff19e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Netherlands",
+            "team_b": "Algeria",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png",
+            "time": "01:45 04/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Algeria_01-45 04-06_b05023b8_20260603.png?v=b05023b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1535eb9de5",
+          "name": "Poland vs Nigeria | 01:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1535eb9de5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1535eb9de5",
+                  "name": "Poland vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-1535eb9de5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Poland",
+            "team_b": "Nigeria",
+            "logo_a": "https://media.api-sports.io/football/teams/24.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
+            "time": "01:45 04/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Poland_Nigeria_01-45 04-06_37949c0d_20260603.png?v=37949c0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4245a3577f",
+          "name": "Luxembourg vs Italy | 01:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4245a3577f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4245a3577f",
+                  "name": "Luxembourg vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-4245a3577f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Luxembourg",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/250px-Flag_of_Luxembourg.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "01:45 04/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Luxembourg_Italy_01-45 04-06_d4941edb_20260603.png?v=d4941edb",
             "width": 1600,
             "height": 1200
           }
