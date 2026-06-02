@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:30 02/06/2026",
+  "updated_at": "19:30 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1609,8 +1609,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-8334e9bfb5",
-          "name": "Elina Svitolina vs Marta Kostuyk | 17:30 02/06",
+          "id": "hqlive-a0f0c8163a",
+          "name": "Rafael Jodar vs Alexandet Zverev | 19:30 02/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1624,15 +1624,15 @@
           ],
           "sources": [
             {
-              "id": "src-8334e9bfb5",
+              "id": "src-a0f0c8163a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-8334e9bfb5",
-                  "name": "Elina Svitolina vs Marta Kostuyk",
+                  "id": "ct-a0f0c8163a",
+                  "name": "Rafael Jodar vs Alexandet Zverev",
                   "streams": [
                     {
-                      "id": "st-8334e9bfb5",
+                      "id": "st-a0f0c8163a",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1661,11 +1661,11 @@
           ],
           "org_metadata": {
             "league": "Roland Garros",
-            "team_a": "Elina Svitolina",
-            "team_b": "Marta Kostuyk",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
-            "logo_b": "https://www.tennisnerd.net/wp-content/uploads/2025/05/Marta-Kostyuk-1024x546.webp",
-            "time": "17:30 02/06",
+            "team_a": "Rafael Jodar",
+            "team_b": "Alexandet Zverev",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rafa_J%C3%B3dar_Espinar_2025.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "time": "19:30 02/06",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1674,60 +1674,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Marta Kostuyk_17-30 02-06_fe144618_20260602.png?v=fe144618",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-10107563f2",
-          "name": "Rafael Jodar vs Alexandet Zverev | 20:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-10107563f2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-10107563f2",
-                  "name": "Rafael Jodar vs Alexandet Zverev",
-                  "streams": [
-                    {
-                      "id": "st-10107563f2",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Rafael Jodar",
-            "team_b": "Alexandet Zverev",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rafa_J%C3%B3dar_Espinar_2025.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "time": "20:00 02/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafael Jodar_Alexandet Zverev_20-00 02-06_ea4ac2a6_20260602.png?v=ea4ac2a6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rafael Jodar_Alexandet Zverev_19-30 02-06_ea4ac2a6_20260602.png?v=ea4ac2a6",
             "width": 1600,
             "height": 1200
           }
