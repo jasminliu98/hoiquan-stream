@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:25 02/06/2026",
+  "updated_at": "22:45 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-86c960726f",
-          "name": "Al Kahrabaa vs Al-Karma | 22:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-86c960726f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-86c960726f",
-                  "name": "Al Kahrabaa vs Al-Karma",
-                  "streams": [
-                    {
-                      "id": "st-86c960726f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraqi League",
-            "team_a": "Al Kahrabaa",
-            "team_b": "Al-Karma",
-            "logo_a": "https://media.api-sports.io/football/teams/11064.png",
-            "logo_b": "https://media.api-sports.io/football/teams/25063.png",
-            "time": "22:00 02/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Kahrabaa_Al-Karma_22-00 02-06_ad76260d_20260602.png?v=ad76260d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-887244ae27",
           "name": "Croatia vs Belgium | 23:00 02/06",
