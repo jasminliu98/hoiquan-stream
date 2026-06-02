@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 02/06/2026",
+  "updated_at": "22:00 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -561,6 +561,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines U19_Australia U19_20-00 03-06_28aa3a40_20260602.png?v=28aa3a40",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-45fa52adf3",
+          "name": "Greece U19 vs Serbia U19 | 22:00 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45fa52adf3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-45fa52adf3",
+                  "name": "Greece U19 vs Serbia U19",
+                  "streams": [
+                    {
+                      "id": "st-45fa52adf3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Qualification",
+            "team_a": "Greece U19",
+            "team_b": "Serbia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10364.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10346.png",
+            "time": "22:00 03/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Greece U19_Serbia U19_22-00 03-06_062869fd_20260602.png?v=062869fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2ec4f096be",
+          "name": "Latvia U17 vs Albania U17 | 22:00 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ec4f096be",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2ec4f096be",
+                  "name": "Latvia U17 vs Albania U17",
+                  "streams": [
+                    {
+                      "id": "st-2ec4f096be",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Latvia U17",
+            "team_b": "Albania U17",
+            "logo_a": "https://media.api-sports.io/football/teams/17960.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17936.png",
+            "time": "22:00 03/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Latvia U17_Albania U17_22-00 03-06_ce9a2bd4_20260602.png?v=ce9a2bd4",
             "width": 1600,
             "height": 1200
           }
