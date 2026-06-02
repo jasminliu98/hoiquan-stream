@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:55 02/06/2026",
+  "updated_at": "18:10 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1249,82 +1249,11 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-149730550c",
-          "name": "Chen Y. F vs WONG Ling Ching | 12:30 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-149730550c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-149730550c",
-                  "name": "Chen Y. F vs WONG Ling Ching",
-                  "streams": [
-                    {
-                      "id": "st-149730550c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "POLYTRON Indonesia Open 2026",
-            "team_a": "Chen Y. F",
-            "team_b": "WONG Ling Ching",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-            "logo_b": "https://img.bwfbadminton.com/image/upload/t_96_player_profile_portrait/v1753838863/assets/players/thumbnail/77296.png",
-            "time": "12:30 02/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chen Y. F_WONG Ling Ching_12-30 02-06_8c0c3e79_20260602.png?v=8c0c3e79",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-140e2e141c",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:00 02/06",
