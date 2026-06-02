@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:35 02/06/2026",
+  "updated_at": "16:00 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -525,6 +525,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Barracas Central_Huracan_07-10 03-06_fcbf3d73_20260602.png?v=fcbf3d73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5300505bbe",
+          "name": "Portugal U19 vs Kazakhstan U19 | 16:00 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5300505bbe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5300505bbe",
+                  "name": "Portugal U19 vs Kazakhstan U19",
+                  "streams": [
+                    {
+                      "id": "st-5300505bbe",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Qualification",
+            "team_a": "Portugal U19",
+            "team_b": "Kazakhstan U19",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/1280px-Flag_of_Portugal_%28official%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1920px-Flag_of_Kazakhstan.svg.png",
+            "time": "16:00 03/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal U19_Kazakhstan U19_16-00 03-06_4a0849ad_20260602.png?v=4a0849ad",
             "width": 1600,
             "height": 1200
           }
