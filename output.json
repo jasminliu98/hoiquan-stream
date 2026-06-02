@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:05 02/06/2026",
+  "updated_at": "20:10 02/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1449,8 +1449,8 @@
           }
         },
         {
-          "id": "hqlive-9053f09a76",
-          "name": "AN Se Young vs Indonesia | 10:00 03/06",
+          "id": "hqlive-bb6d2e2559",
+          "name": "AN Se Young vs Neslihan ARIN | 10:00 03/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1464,15 +1464,15 @@
           ],
           "sources": [
             {
-              "id": "src-9053f09a76",
+              "id": "src-bb6d2e2559",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-9053f09a76",
-                  "name": "AN Se Young vs Indonesia",
+                  "id": "ct-bb6d2e2559",
+                  "name": "AN Se Young vs Neslihan ARIN",
                   "streams": [
                     {
-                      "id": "st-9053f09a76",
+                      "id": "st-bb6d2e2559",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1484,9 +1484,9 @@
           "org_metadata": {
             "league": "POLYTRON Indonesia Open 2026",
             "team_a": "AN Se Young",
-            "team_b": "Indonesia",
+            "team_b": "Neslihan ARIN",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRscbJdNWbvOfuK2bxWzBul_oEHxicLVlKLeA&s",
             "time": "10:00 03/06",
             "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
@@ -1496,14 +1496,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AN Se Young_Indonesia_10-00 03-06_eafe3c96_20260602.png?v=eafe3c96",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AN Se Young_Neslihan ARIN_10-00 03-06_a8c8bcff_20260602.png?v=a8c8bcff",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-ba8c09ae3c",
-          "name": "Carnando L. R. / Maulana B vs Alfian F. / Fikri M. S | 13:00 03/06",
+          "id": "hqlive-c1b6d64fa6",
+          "name": "Anders ANTONSEN vs Alex LANIER | 13:00 03/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1517,15 +1517,15 @@
           ],
           "sources": [
             {
-              "id": "src-ba8c09ae3c",
+              "id": "src-c1b6d64fa6",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-ba8c09ae3c",
-                  "name": "Carnando L. R. / Maulana B vs Alfian F. / Fikri M. S",
+                  "id": "ct-c1b6d64fa6",
+                  "name": "Anders ANTONSEN vs Alex LANIER",
                   "streams": [
                     {
-                      "id": "st-ba8c09ae3c",
+                      "id": "st-c1b6d64fa6",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1536,10 +1536,10 @@
           ],
           "org_metadata": {
             "league": "POLYTRON Indonesia Open 2026",
-            "team_a": "Carnando L. R. / Maulana B",
-            "team_b": "Alfian F. / Fikri M. S",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1280px-Flag_of_Indonesia.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1280px-Flag_of_Indonesia.svg.png",
+            "team_a": "Anders ANTONSEN",
+            "team_b": "Alex LANIER",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjhiBj6DrBsP5RsdCqvZ67mpGkRhpeKAy1fg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe4OPznYoqlapvcaiED50deTBgCDDe78ePw&s",
             "time": "13:00 03/06",
             "blv": "BLV THẦN THÔNG",
             "is_live": false,
@@ -1549,7 +1549,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Carnando L. R. - Maulana B_Alfian F. - Fikri M. S_13-00 03-06_6d7e9ff2_20260602.png?v=6d7e9ff2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anders ANTONSEN_Alex LANIER_13-00 03-06_7ef0795d_20260602.png?v=7ef0795d",
             "width": 1600,
             "height": 1200
           }
