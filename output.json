@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:20 03/06/2026",
+  "updated_at": "20:25 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,99 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ca1e7e49e2",
-          "name": "Philippines vs Guam | 18:30 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca1e7e49e2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ca1e7e49e2",
-                  "name": "Philippines vs Guam",
-                  "streams": [
-                    {
-                      "id": "st-ca1e7e49e2",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Philippines",
-            "team_b": "Guam",
-            "logo_a": "https://img.freepik.com/free-vector/illustration-philippinesflag_53876-27126.jpg?semt=ais_hybrid&w=740&q=80",
-            "logo_b": "https://media.api-sports.io/football/teams/8119.png",
-            "time": "18:30 03/06",
-            "blv": "BLV THẦN THÔNG, BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Guam_18-30 03-06_2f92ea7d_20260603.png?v=2f92ea7d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-29e8b43560",
           "name": "Philippines U19 vs Australia U19 | 20:00 03/06",
@@ -172,59 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines U19_Australia U19_20-00 03-06_28aa3a40_20260603.png?v=28aa3a40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-45fa52adf3",
-          "name": "Greece U19 vs Serbia U19 | 22:00 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45fa52adf3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-45fa52adf3",
-                  "name": "Greece U19 vs Serbia U19",
-                  "streams": [
-                    {
-                      "id": "st-45fa52adf3",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship - Qualification",
-            "team_a": "Greece U19",
-            "team_b": "Serbia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/10364.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10346.png",
-            "time": "22:00 03/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Greece U19_Serbia U19_22-00 03-06_062869fd_20260603.png?v=062869fd",
             "width": 1600,
             "height": 1200
           }
