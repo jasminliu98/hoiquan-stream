@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:15 03/06/2026",
+  "updated_at": "18:30 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -843,6 +843,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Maldives_Pakistan_18-00 04-06_8084d0f6_20260603.png?v=8084d0f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d2f03fb914",
+          "name": "Belgium U17 vs France U17 | 18:30 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2f03fb914",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d2f03fb914",
+                  "name": "Belgium U17 vs France U17",
+                  "streams": [
+                    {
+                      "id": "st-d2f03fb914",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Belgium U17",
+            "team_b": "France U17",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
+            "time": "18:30 04/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_France U17_18-30 04-06_ebc28338_20260603.png?v=ebc28338",
             "width": 1600,
             "height": 1200
           }
