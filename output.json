@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:55 04/06/2026",
+  "updated_at": "01:05 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -160,6 +160,77 @@
           }
         },
         {
+          "id": "hqlive-1535eb9de5",
+          "name": "Poland vs Nigeria | 01:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1535eb9de5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1535eb9de5",
+                  "name": "Poland vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-1535eb9de5",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Poland",
+            "team_b": "Nigeria",
+            "logo_a": "https://media.api-sports.io/football/teams/24.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
+            "time": "01:45 04/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Poland_Nigeria_01-45 04-06_37949c0d_20260604.png?v=37949c0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-31b21ff19e",
           "name": "Netherlands vs Algeria | 01:45 04/06",
           "type": "single",
@@ -208,59 +279,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Algeria_01-45 04-06_b05023b8_20260604.png?v=b05023b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1535eb9de5",
-          "name": "Poland vs Nigeria | 01:45 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1535eb9de5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1535eb9de5",
-                  "name": "Poland vs Nigeria",
-                  "streams": [
-                    {
-                      "id": "st-1535eb9de5",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Poland",
-            "team_b": "Nigeria",
-            "logo_a": "https://media.api-sports.io/football/teams/24.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
-            "time": "01:45 04/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Poland_Nigeria_01-45 04-06_37949c0d_20260604.png?v=37949c0d",
             "width": 1600,
             "height": 1200
           }
