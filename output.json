@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:50 04/06/2026",
+  "updated_at": "00:55 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -45,11 +45,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -75,7 +75,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/21.png",
             "time": "01:00 04/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN QUẨY",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -84,6 +84,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Congo DR_Denmark_01-00 04-06_1e9ef586_20260604.png?v=1e9ef586",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-446828c239",
+          "name": "Albania vs Israel | 01:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-446828c239",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-446828c239",
+                  "name": "Albania vs Israel",
+                  "streams": [
+                    {
+                      "id": "st-446828c239",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Albania",
+            "team_b": "Israel",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/250px-Flag_of_Albania.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/250px-Flag_of_Israel.svg.png",
+            "time": "01:00 04/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Albania_Israel_01-00 04-06_9f06eb82_20260604.png?v=9f06eb82",
             "width": 1600,
             "height": 1200
           }
