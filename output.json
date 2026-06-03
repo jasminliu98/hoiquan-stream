@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:05 03/06/2026",
+  "updated_at": "23:16 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2250,6 +2250,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Matteo Berrettini_Matteo Arnaldi_01-30 04-06_e48092aa_20260603.png?v=e48092aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6222b4d175",
+          "name": "Marta Kostuyk vs Mirra Andreeva | 20:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6222b4d175",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6222b4d175",
+                  "name": "Marta Kostuyk vs Mirra Andreeva",
+                  "streams": [
+                    {
+                      "id": "st-6222b4d175",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Marta Kostuyk",
+            "team_b": "Mirra Andreeva",
+            "logo_a": "https://www.tennisnerd.net/wp-content/uploads/2025/05/Marta-Kostyuk-1024x546.webp",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIsx7s7F33GJieSnSe9Nsoau1fbFqRr20Jg&s",
+            "time": "20:00 04/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marta Kostuyk_Mirra Andreeva_20-00 04-06_640494c2_20260603.png?v=640494c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3b1a897e40",
+          "name": "Diana Shnaider vs Maja Chwalińska | 22:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b1a897e40",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3b1a897e40",
+                  "name": "Diana Shnaider vs Maja Chwalińska",
+                  "streams": [
+                    {
+                      "id": "st-3b1a897e40",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Diana Shnaider",
+            "team_b": "Maja Chwalińska",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg/960px-Diana_Shnaider_%282023_US_Open%29_05_%28cropped%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
+            "time": "22:00 04/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Diana Shnaider_Maja Chwalińska_22-00 04-06_1463be2a_20260603.png?v=1463be2a",
             "width": 1600,
             "height": 1200
           }
