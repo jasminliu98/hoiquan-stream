@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:45 04/06/2026",
+  "updated_at": "00:50 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2310,38 +2310,56 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-393ebf428f",
-          "name": "Matteo Berrettini vs Matteo Arnaldi | 01:30 04/06",
+          "id": "hqlive-a48ff0eded",
+          "name": "Matteo Berrettini vs Matteo Arnaldi | 01:00 04/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-393ebf428f",
+              "id": "src-a48ff0eded",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-393ebf428f",
+                  "id": "ct-a48ff0eded",
                   "name": "Matteo Berrettini vs Matteo Arnaldi",
                   "streams": [
                     {
-                      "id": "st-393ebf428f",
+                      "id": "st-a48ff0eded",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2354,16 +2372,16 @@
             "team_b": "Matteo Arnaldi",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzstp2VuHC_iVQ9pKmRuNMd8EHxGO-KtJgkQ&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVTMBm_ZQ3cK3w-vD5WzcH22bN_22bTc7iw&s",
-            "time": "01:30 04/06",
+            "time": "01:00 04/06",
             "blv": "BLV PHAN TỪ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Matteo Berrettini_Matteo Arnaldi_01-30 04-06_e48092aa_20260604.png?v=e48092aa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Matteo Berrettini_Matteo Arnaldi_01-00 04-06_e48092aa_20260604.png?v=e48092aa",
             "width": 1600,
             "height": 1200
           }
