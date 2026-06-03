@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 03/06/2026",
+  "updated_at": "19:50 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -133,27 +133,10 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-1cad2e4412",
                           "name": "BLV TÁO GIÀ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
                           "request_headers": [
                             {
@@ -180,7 +163,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/19153.png",
             "logo_b": "https://media.api-sports.io/football/teams/22591.png",
             "time": "20:00 03/06",
-            "blv": "BLV PHAN QUẨY, BLV TÁO GIÀ",
+            "blv": "BLV TÁO GIÀ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
