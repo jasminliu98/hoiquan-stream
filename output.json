@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:35 03/06/2026",
+  "updated_at": "13:30 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1620,7 +1620,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (3 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1692,77 +1692,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nguyễn Thùy Linh_Pitchamon OPATNIPUTH_09-00 03-06_dfadb561_20260603.png?v=dfadb561",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-bb6d2e2559",
-          "name": "AN Se Young vs Neslihan ARIN | 10:00 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb6d2e2559",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bb6d2e2559",
-                  "name": "AN Se Young vs Neslihan ARIN",
-                  "streams": [
-                    {
-                      "id": "st-bb6d2e2559",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "POLYTRON Indonesia Open 2026",
-            "team_a": "AN Se Young",
-            "team_b": "Neslihan ARIN",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRscbJdNWbvOfuK2bxWzBul_oEHxicLVlKLeA&s",
-            "time": "10:00 03/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AN Se Young_Neslihan ARIN_10-00 03-06_a8c8bcff_20260603.png?v=a8c8bcff",
             "width": 1600,
             "height": 1200
           }
