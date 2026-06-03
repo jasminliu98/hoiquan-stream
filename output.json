@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:00 03/06/2026",
+  "updated_at": "20:15 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1028,82 +1028,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d177ccc667",
-          "name": "Trung Quốc vs CH Séc | 18:30 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d177ccc667",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d177ccc667",
-                  "name": "Trung Quốc vs CH Séc",
-                  "streams": [
-                    {
-                      "id": "st-d177ccc667",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Trung Quốc",
-            "team_b": "CH Séc",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
-            "time": "18:30 03/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_CH Séc_18-30 03-06_bd514147_20260603.png?v=bd514147",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d982761e52",
           "name": "Cộng Hòa Dominicana vs Thổ Nhĩ Kỳ | 23:00 03/06",
