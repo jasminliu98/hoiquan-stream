@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:00 04/06/2026",
+  "updated_at": "02:10 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1110,6 +1110,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spain_Iraq_02-00 05-06_70c35281_20260604.png?v=70c35281",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-610ad45228",
+          "name": "France vs Ivory Coast | 02:10 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-610ad45228",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-610ad45228",
+                  "name": "France vs Ivory Coast",
+                  "streams": [
+                    {
+                      "id": "st-610ad45228",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "France",
+            "team_b": "Ivory Coast",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+            "time": "02:10 05/06",
+            "blv": "BLV PHAN QUẨY, BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Ivory Coast_02-10 05-06_bc778f65_20260604.png?v=bc778f65",
             "width": 1600,
             "height": 1200
           }
