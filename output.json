@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 03/06/2026",
+  "updated_at": "18:10 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2098,82 +2098,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f39ed39e65",
-          "name": "Anna Kalinskaya vs Maja Chwalińska | 16:00 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f39ed39e65",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f39ed39e65",
-                  "name": "Anna Kalinskaya vs Maja Chwalińska",
-                  "streams": [
-                    {
-                      "id": "st-f39ed39e65",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Anna Kalinskaya",
-            "team_b": "Maja Chwalińska",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0dI-lMVvSjBfoPdjAwZtTWnSAV4xjeVAPQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
-            "time": "16:00 03/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anna Kalinskaya_Maja Chwalińska_16-00 03-06_c337af09_20260603.png?v=c337af09",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-808eb9daa4",
           "name": "Aryna Sabalenka vs Diana Shnaider | 18:00 03/06",
