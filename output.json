@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:40 04/06/2026",
+  "updated_at": "05:45 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -816,82 +816,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-13a0e4e581",
-          "name": "Brazil vs Hà Lan | 06:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13a0e4e581",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-13a0e4e581",
-                  "name": "Brazil vs Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-13a0e4e581",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Brazil",
-            "team_b": "Hà Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-            "time": "06:00 04/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Hà Lan_06-00 04-06_2898baa0_20260604.png?v=2898baa0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-528026bd82",
           "name": "CH Séc vs Ba Lan | 14:00 04/06",
