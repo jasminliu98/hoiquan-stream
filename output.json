@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:50 03/06/2026",
+  "updated_at": "20:00 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -967,6 +967,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia_Bhutan_19-00 04-06_55f52acf_20260603.png?v=55f52acf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a9380e7d54",
+          "name": "Timor Leste U19 vs Indonesia U19 | 20:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9380e7d54",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a9380e7d54",
+                  "name": "Timor Leste U19 vs Indonesia U19",
+                  "streams": [
+                    {
+                      "id": "st-a9380e7d54",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Timor Leste U19",
+            "team_b": "Indonesia U19",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19149.png",
+            "time": "20:00 04/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Timor Leste U19_Indonesia U19_20-00 04-06_50fa30d7_20260603.png?v=50fa30d7",
             "width": 1600,
             "height": 1200
           }
