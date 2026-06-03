@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:50 03/06/2026",
+  "updated_at": "18:00 03/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -861,6 +861,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Myanmar U19_Vietnam U19_16-00 04-06_7c498293_20260603.png?v=7c498293",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f881199283",
+          "name": "Maldives vs Pakistan | 18:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f881199283",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f881199283",
+                  "name": "Maldives vs Pakistan",
+                  "streams": [
+                    {
+                      "id": "st-f881199283",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Maldives",
+            "team_b": "Pakistan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/250px-Flag_of_Maldives.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5535.png",
+            "time": "18:00 04/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Maldives_Pakistan_18-00 04-06_8084d0f6_20260603.png?v=8084d0f6",
             "width": 1600,
             "height": 1200
           }
