@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 04/06/2026",
+  "updated_at": "19:40 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -915,7 +915,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
             "time": "02:30 05/06",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
