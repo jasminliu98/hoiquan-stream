@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:55 04/06/2026",
+  "updated_at": "21:25 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -834,82 +834,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d22d40f55a",
-          "name": "Trung Quốc vs Thái Lan | 18:30 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d22d40f55a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d22d40f55a",
-                  "name": "Trung Quốc vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-d22d40f55a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Trung Quốc",
-            "team_b": "Thái Lan",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
-            "time": "18:30 04/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Thái Lan_18-30 04-06_a40865b8_20260604.png?v=a40865b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-9f804d9681",
           "name": "Thổ Nhĩ Kỳ vs Hà Lan | 02:30 05/06",
@@ -1054,7 +983,7 @@
             "team_a": "Canada",
             "team_b": "Mỹ",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Fold-us-flag-animated.gif?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
             "time": "07:00 05/06",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -1064,7 +993,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Mỹ_07-00 05-06_50e81218_20260604.png?v=50e81218",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Mỹ_07-00 05-06_8dec0b13_20260604.png?v=8dec0b13",
             "width": 1600,
             "height": 1200
           }
