@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:15 04/06/2026",
+  "updated_at": "18:30 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -773,6 +773,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daegu FC_Paju Citizen_17-30 05-06_a119b400_20260604.png?v=a119b400",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bf8444594e",
+          "name": "Singapore vs China | 18:30 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf8444594e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bf8444594e",
+                  "name": "Singapore vs China",
+                  "streams": [
+                    {
+                      "id": "st-bf8444594e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Singapore",
+            "team_b": "China",
+            "logo_a": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+            "time": "18:30 05/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore_China_18-30 05-06_0ff4bd35_20260604.png?v=0ff4bd35",
             "width": 1600,
             "height": 1200
           }
@@ -1550,82 +1603,11 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f297a080db",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 14:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f297a080db",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f297a080db",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-f297a080db",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "POLYTRON Indonesia Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "14:00 04/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_14-00 04-06_cacf1340_20260604.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-0d1c305866",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 17:30 04/06",
