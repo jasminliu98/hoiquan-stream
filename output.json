@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 04/06/2026",
+  "updated_at": "22:10 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1506,86 +1506,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Úc_20-00 07-06_9be1f39b_20260604.png?v=9be1f39b",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-38644b18b4",
-          "name": "SHI Yu Qi vs Yushi TANAKA | 17:30 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38644b18b4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-38644b18b4",
-                  "name": "SHI Yu Qi vs Yushi TANAKA",
-                  "streams": [
-                    {
-                      "id": "st-38644b18b4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "POLYTRON Indonesia Open 2026",
-            "team_a": "SHI Yu Qi",
-            "team_b": "Yushi TANAKA",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbTb8U14QpUju1pVk3xufX4Gi5d9dM4z74Ew&s",
-            "logo_b": "https://cdnmedia.webthethao.vn/uploads/Chau-La/bad-170326-Yushi%20Tanaka.jpg",
-            "time": "17:30 04/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SHI Yu Qi_Yushi TANAKA_17-30 04-06_b5818c04_20260604.png?v=b5818c04",
             "width": 1600,
             "height": 1200
           }
