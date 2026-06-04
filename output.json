@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:45 04/06/2026",
+  "updated_at": "19:00 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-df685d89e4",
-          "name": "Cambodia vs Bhutan | 19:00 04/06",
+          "id": "hqlive-30440d3640",
+          "name": "Cambodia vs Bhutan | 19:30 04/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-df685d89e4",
+              "id": "src-30440d3640",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-df685d89e4",
+                  "id": "ct-30440d3640",
                   "name": "Cambodia vs Bhutan",
                   "streams": [
                     {
-                      "id": "st-df685d89e4",
+                      "id": "st-30440d3640",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -74,7 +74,7 @@
             "team_b": "Bhutan",
             "logo_a": "https://media.api-sports.io/football/teams/1543.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg",
-            "time": "19:00 04/06",
+            "time": "19:30 04/06",
             "blv": "BLV PHAN QUẨY",
             "is_live": true,
             "sport_slug": "bong-da"
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia_Bhutan_19-00 04-06_55f52acf_20260604.png?v=55f52acf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia_Bhutan_19-30 04-06_55f52acf_20260604.png?v=55f52acf",
             "width": 1600,
             "height": 1200
           }
