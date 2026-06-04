@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:35 04/06/2026",
+  "updated_at": "15:45 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -330,59 +330,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Timor Leste U19_Indonesia U19_20-00 04-06_50fa30d7_20260604.png?v=50fa30d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-17823a452c",
-          "name": "Slovenia vs Cyprus | 23:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17823a452c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-17823a452c",
-                  "name": "Slovenia vs Cyprus",
-                  "streams": [
-                    {
-                      "id": "st-17823a452c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Slovenia",
-            "team_b": "Cyprus",
-            "logo_a": "https://media.api-sports.io/football/teams/17979.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/4/48/Cyprus_Football_Association_logo.svg",
-            "time": "23:00 04/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovenia_Cyprus_23-00 04-06_d615e118_20260604.png?v=d615e118",
             "width": 1600,
             "height": 1200
           }
