@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:10 04/06/2026",
+  "updated_at": "23:15 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1715,6 +1715,112 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "hqlive-969ccca3aa",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 09:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-969ccca3aa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-969ccca3aa",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-969ccca3aa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "POLYTRON Indonesia Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "09:00 05/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_09-00 05-06_cacf1340_20260604.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e940b3c5d5",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:30 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e940b3c5d5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e940b3c5d5",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-e940b3c5d5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "POLYTRON Indonesia Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "13:30 05/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_13-30 05-06_cacf1340_20260604.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-aeef6cf75a",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 16:00 05/06",
           "type": "single",
@@ -1754,7 +1860,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "16:00 05/06",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN BÁCH, BLV THẦN THÔNG",
             "is_live": false,
             "sport_slug": "cau-long"
           },
