@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 04/06/2026",
+  "updated_at": "18:10 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -402,59 +402,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sweden_Greece_00-00 05-06_4285b6c3_20260604.png?v=4285b6c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-bd2337be73",
-          "name": "Italy U17 vs Spain U17 | 00:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd2337be73",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bd2337be73",
-                  "name": "Italy U17 vs Spain U17",
-                  "streams": [
-                    {
-                      "id": "st-bd2337be73",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Italy U17",
-            "team_b": "Spain U17",
-            "logo_a": "https://tmssl.akamaized.net//images/wappen/big/23133.png?lm=1672672799",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1280px-Bandera_de_Espa%C3%B1a.svg.png",
-            "time": "00:00 05/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Italy U17_Spain U17_00-00 05-06_71309078_20260604.png?v=71309078",
             "width": 1600,
             "height": 1200
           }
