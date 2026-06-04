@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 04/06/2026",
+  "updated_at": "07:20 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-23d152eef8",
-          "name": "San Lorenzo vs Deportivo Riestra | 07:10 04/06",
+          "id": "hqlive-74f1c9fe2c",
+          "name": "Panama vs Dominican Republic | 07:45 04/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,23 +33,23 @@
           ],
           "sources": [
             {
-              "id": "src-23d152eef8",
+              "id": "src-74f1c9fe2c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-23d152eef8",
-                  "name": "San Lorenzo vs Deportivo Riestra",
+                  "id": "ct-74f1c9fe2c",
+                  "name": "Panama vs Dominican Republic",
                   "streams": [
                     {
-                      "id": "st-23d152eef8",
+                      "id": "st-74f1c9fe2c",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,59 +69,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Copa Argentina",
-            "team_a": "San Lorenzo",
-            "team_b": "Deportivo Riestra",
-            "logo_a": "https://media.api-sports.io/football/teams/460.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Escudo_del_Club_Deportivo_Riestra.svg/250px-Escudo_del_Club_Deportivo_Riestra.svg.png",
-            "time": "07:10 04/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Lorenzo_Deportivo Riestra_07-10 04-06_5f35d740_20260604.png?v=5f35d740",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-74f1c9fe2c",
-          "name": "Panama vs Dominican Republic | 07:45 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74f1c9fe2c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-74f1c9fe2c",
-                  "name": "Panama vs Dominican Republic",
-                  "streams": [
-                    {
-                      "id": "st-74f1c9fe2c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Friendlies",
             "team_a": "Panama",
             "team_b": "Dominican Republic",
@@ -129,7 +76,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/1280px-Flag_of_the_Dominican_Republic.svg.png",
             "time": "07:45 04/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
