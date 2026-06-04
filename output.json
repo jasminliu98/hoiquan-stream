@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:40 04/06/2026",
+  "updated_at": "18:45 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1503,8 +1503,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-0d1c305866",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 17:30 04/06",
+          "id": "hqlive-38644b18b4",
+          "name": "SHI Yu Qi vs Yushi TANAKA | 17:30 04/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1518,15 +1518,15 @@
           ],
           "sources": [
             {
-              "id": "src-0d1c305866",
+              "id": "src-38644b18b4",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-0d1c305866",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "id": "ct-38644b18b4",
+                  "name": "SHI Yu Qi vs Yushi TANAKA",
                   "streams": [
                     {
-                      "id": "st-0d1c305866",
+                      "id": "st-38644b18b4",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1555,10 +1555,10 @@
           ],
           "org_metadata": {
             "league": "POLYTRON Indonesia Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "team_a": "SHI Yu Qi",
+            "team_b": "Yushi TANAKA",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbTb8U14QpUju1pVk3xufX4Gi5d9dM4z74Ew&s",
+            "logo_b": "https://cdnmedia.webthethao.vn/uploads/Chau-La/bad-170326-Yushi%20Tanaka.jpg",
             "time": "17:30 04/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": true,
@@ -1568,7 +1568,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_17-30 04-06_cacf1340_20260604.png?v=cacf1340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SHI Yu Qi_Yushi TANAKA_17-30 04-06_b5818c04_20260604.png?v=b5818c04",
             "width": 1600,
             "height": 1200
           }
