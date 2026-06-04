@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 04/06/2026",
+  "updated_at": "17:50 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -494,6 +494,59 @@
           }
         },
         {
+          "id": "hqlive-bd2337be73",
+          "name": "Italy U17 vs Spain U17 | 00:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd2337be73",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bd2337be73",
+                  "name": "Italy U17 vs Spain U17",
+                  "streams": [
+                    {
+                      "id": "st-bd2337be73",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Italy U17",
+            "team_b": "Spain U17",
+            "logo_a": "https://tmssl.akamaized.net//images/wappen/big/23133.png?lm=1672672799",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1280px-Bandera_de_Espa%C3%B1a.svg.png",
+            "time": "00:00 05/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Italy U17_Spain U17_00-00 05-06_71309078_20260604.png?v=71309078",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-a2f8a43305",
           "name": "Spain vs Iraq | 02:00 05/06",
           "type": "single",
@@ -754,6 +807,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brunei U19_Malaysia U19_16-00 05-06_c6b2701d_20260604.png?v=c6b2701d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b4bc61c678",
+          "name": "Kamatamare Sanuki vs Parceiro Nagano | 17:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4bc61c678",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b4bc61c678",
+                  "name": "Kamatamare Sanuki vs Parceiro Nagano",
+                  "streams": [
+                    {
+                      "id": "st-b4bc61c678",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J2/J3 League",
+            "team_a": "Kamatamare Sanuki",
+            "team_b": "Parceiro Nagano",
+            "logo_a": "https://media.api-sports.io/football/teams/317.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4323.png",
+            "time": "17:00 05/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kamatamare Sanuki_Parceiro Nagano_17-00 05-06_a5adcdcc_20260604.png?v=a5adcdcc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-456ad74f73",
+          "name": "Daegu FC vs Paju Citizen | 17:30 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-456ad74f73",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-456ad74f73",
+                  "name": "Daegu FC vs Paju Citizen",
+                  "streams": [
+                    {
+                      "id": "st-456ad74f73",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 2",
+            "team_a": "Daegu FC",
+            "team_b": "Paju Citizen",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a4/Daegu_FC.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/7098.png",
+            "time": "17:30 05/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daegu FC_Paju Citizen_17-30 05-06_a119b400_20260604.png?v=a119b400",
             "width": 1600,
             "height": 1200
           }
