@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:45 05/06/2026",
+  "updated_at": "01:55 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -909,59 +909,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9f804d9681",
-          "name": "Thổ Nhĩ Kỳ vs Hà Lan | 02:30 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f804d9681",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9f804d9681",
-                  "name": "Thổ Nhĩ Kỳ vs Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-9f804d9681",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Thổ Nhĩ Kỳ",
-            "team_b": "Hà Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-            "time": "02:30 05/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Hà Lan_02-30 05-06_9afdf0f6_20260605.png?v=9afdf0f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e49770a03f",
           "name": "Brazil vs Cộng Hòa Dominicana | 06:00 05/06",
