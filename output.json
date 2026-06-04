@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:15 04/06/2026",
+  "updated_at": "23:20 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -252,7 +252,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/9.png",
             "logo_b": "https://media.api-sports.io/football/teams/1567.png",
             "time": "02:00 05/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG",
+            "blv": "BLV TÁO KINH TẾ, BLV THẦN THÔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -305,7 +305,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/2.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
             "time": "02:10 05/06",
-            "blv": "BLV PHAN QUẨY, BLV TÁO KINH TẾ",
+            "blv": "BLV PHAN QUẨY, BLV PHAN MÃ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
