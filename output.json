@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 04/06/2026",
+  "updated_at": "22:00 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a9380e7d54",
-          "name": "Timor Leste U19 vs Indonesia U19 | 20:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9380e7d54",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a9380e7d54",
-                  "name": "Timor Leste U19 vs Indonesia U19",
-                  "streams": [
-                    {
-                      "id": "st-a9380e7d54",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Timor Leste U19",
-            "team_b": "Indonesia U19",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19149.png",
-            "time": "20:00 04/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Timor Leste U19_Indonesia U19_20-00 04-06_50fa30d7_20260604.png?v=50fa30d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-6a6a41f9fc",
           "name": "Northern Ireland vs Guinea | 23:00 04/06",
