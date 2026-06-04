@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 04/06/2026",
+  "updated_at": "20:35 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2153,6 +2153,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jakub Mensik_Alexandet Zverev_19-30 05-06_29e12b46_20260604.png?v=29e12b46",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0fa4dd3ac1",
+          "name": "Matteo Arnaldi vs Flavio Coboli | 00:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fa4dd3ac1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0fa4dd3ac1",
+                  "name": "Matteo Arnaldi vs Flavio Coboli",
+                  "streams": [
+                    {
+                      "id": "st-0fa4dd3ac1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Matteo Arnaldi",
+            "team_b": "Flavio Coboli",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVTMBm_ZQ3cK3w-vD5WzcH22bN_22bTc7iw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "time": "00:00 06/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Matteo Arnaldi_Flavio Coboli_00-00 06-06_a4639b8d_20260604.png?v=a4639b8d",
             "width": 1600,
             "height": 1200
           }
