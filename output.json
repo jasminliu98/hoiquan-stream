@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 04/06/2026",
+  "updated_at": "20:00 04/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -794,6 +794,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-1943e1773b",
+          "name": "Singapore U19 vs Thailand U19 | 20:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1943e1773b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1943e1773b",
+                  "name": "Singapore U19 vs Thailand U19",
+                  "streams": [
+                    {
+                      "id": "st-1943e1773b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Singapore U19",
+            "team_b": "Thailand U19",
+            "logo_a": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19155.png",
+            "time": "20:00 05/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore U19_Thailand U19_20-00 05-06_9ac6f1ad_20260604.png?v=9ac6f1ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-034cff525f",
+          "name": "Indonesia vs Oman | 20:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-034cff525f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-034cff525f",
+                  "name": "Indonesia vs Oman",
+                  "streams": [
+                    {
+                      "id": "st-034cff525f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Indonesia",
+            "team_b": "Oman",
+            "logo_a": "https://i.imgur.com/P4sNAMH.png",
+            "logo_b": "https://www.shutterstock.com/image-vector/oman-logo-flag-flat-illustration-260nw-424495153.jpg",
+            "time": "20:00 05/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Oman_20-00 05-06_56119d63_20260604.png?v=56119d63",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -977,6 +1083,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Cộng Hòa Dominicana_06-00 05-06_7d404432_20260604.png?v=7d404432",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b85fc67762",
+          "name": "Canada vs Mỹ | 07:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b85fc67762",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b85fc67762",
+                  "name": "Canada vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-b85fc67762",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Canada",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Fold-us-flag-animated.gif?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+            "time": "07:00 05/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Mỹ_07-00 05-06_50e81218_20260604.png?v=50e81218",
             "width": 1600,
             "height": 1200
           }
