@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:15 06/06/2026",
+  "updated_at": "03:50 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2037,6 +2037,483 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Pháp_22-00 07-06_cd323788_20260606.png?v=cd323788",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ca0770af8d",
+          "name": "Brazil vs Italy | 00:30 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca0770af8d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ca0770af8d",
+                  "name": "Brazil vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-ca0770af8d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Brazil",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "00:30 08/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Italy_00-30 08-06_99c32066_20260606.png?v=99c32066",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-03fdf3b30a",
+          "name": "Mỹ vs Hóa chất Đức Giang Lào Cai | 01:30 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03fdf3b30a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-03fdf3b30a",
+                  "name": "Mỹ vs Hóa chất Đức Giang Lào Cai",
+                  "streams": [
+                    {
+                      "id": "st-03fdf3b30a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Mỹ",
+            "team_b": "Hóa chất Đức Giang Lào Cai",
+            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "logo_b": "https://makan.vn/wp-content/uploads/2023/04/logo-ao-bong-chuyen-01-2.jpg",
+            "time": "01:30 08/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Hóa chất Đức Giang Lào Cai_01-30 08-06_d9ed5590_20260606.png?v=d9ed5590",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a39e54247b",
+          "name": "Bulgaria vs Thổ Nhĩ Kỳ | 04:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a39e54247b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a39e54247b",
+                  "name": "Bulgaria vs Thổ Nhĩ Kỳ",
+                  "streams": [
+                    {
+                      "id": "st-a39e54247b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Thổ Nhĩ Kỳ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "time": "04:00 08/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Thổ Nhĩ Kỳ_04-00 08-06_51e69f59_20260606.png?v=51e69f59",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-aeee6af8e5",
+          "name": "Canada vs Nhật Bản | 05:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aeee6af8e5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-aeee6af8e5",
+                  "name": "Canada vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-aeee6af8e5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Canada",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "time": "05:00 08/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Nhật Bản_05-00 08-06_742185f8_20260606.png?v=742185f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c045eaff44",
+          "name": "Việt Nam vs Indonesia | 08:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c045eaff44",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c045eaff44",
+                  "name": "Việt Nam vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-c045eaff44",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Indonesia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
+            "time": "08:00 08/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Việt Nam_Indonesia_08-00 08-06_bdc8733e_20260606.png?v=bdc8733e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9324bbf15e",
+          "name": "Hồng Kông vs Iran | 11:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9324bbf15e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9324bbf15e",
+                  "name": "Hồng Kông vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-9324bbf15e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Hồng Kông",
+            "team_b": "Iran",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+            "time": "11:00 08/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Kông_Iran_11-00 08-06_116b54f1_20260606.png?v=116b54f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-dcb6f92d0c",
+          "name": "Lebanon vs Kazakhstan | 14:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dcb6f92d0c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dcb6f92d0c",
+                  "name": "Lebanon vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-dcb6f92d0c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Lebanon",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
+            "time": "14:00 08/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Kazakhstan_14-00 08-06_90c65a9e_20260606.png?v=90c65a9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2814d1ab9b",
+          "name": "Đài Loan vs Úc | 17:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2814d1ab9b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2814d1ab9b",
+                  "name": "Đài Loan vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-2814d1ab9b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Đài Loan",
+            "team_b": "Úc",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+            "time": "17:00 08/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Úc_17-00 08-06_96b51dc4_20260606.png?v=96b51dc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-13e3132df2",
+          "name": "Philippines vs Kyrgyzstan | 20:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13e3132df2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-13e3132df2",
+                  "name": "Philippines vs Kyrgyzstan",
+                  "streams": [
+                    {
+                      "id": "st-13e3132df2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Philippines",
+            "team_b": "Kyrgyzstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
+            "time": "20:00 08/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Kyrgyzstan_20-00 08-06_f5356ac2_20260606.png?v=f5356ac2",
             "width": 1600,
             "height": 1200
           }
