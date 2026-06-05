@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:35 05/06/2026",
+  "updated_at": "16:00 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1527,23 +1527,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -1559,7 +1542,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "13:30 05/06",
-            "blv": "BLV PHAN TỪ, BLV PHAN CA",
+            "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "cau-long"
           },
@@ -1600,11 +1583,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1617,11 +1600,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1647,7 +1630,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "16:00 05/06",
-            "blv": "BLV PHAN BÁCH, BLV THẦN THÔNG",
+            "blv": "BLV THẦN THÔNG, BLV PHAN BÁCH",
             "is_live": true,
             "sport_slug": "cau-long"
           },
