@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:25 06/06/2026",
+  "updated_at": "02:30 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1622,7 +1622,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
             "time": "01:30 07/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN HẢI",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -1689,8 +1689,8 @@
           }
         },
         {
-          "id": "hqlive-98e4a18081",
-          "name": "Lebanon vs Indonesia | 11:00 07/06",
+          "id": "hqlive-c0a1e53757",
+          "name": "Thái Lan vs CH Séc | 10:30 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1704,15 +1704,15 @@
           ],
           "sources": [
             {
-              "id": "src-98e4a18081",
+              "id": "src-c0a1e53757",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-98e4a18081",
-                  "name": "Lebanon vs Indonesia",
+                  "id": "ct-c0a1e53757",
+                  "name": "Thái Lan vs CH Séc",
                   "streams": [
                     {
-                      "id": "st-98e4a18081",
+                      "id": "st-c0a1e53757",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1722,12 +1722,12 @@
             }
           ],
           "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Lebanon",
-            "team_b": "Indonesia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
-            "time": "11:00 07/06",
+            "league": "Nation League Women",
+            "team_a": "Thái Lan",
+            "team_b": "CH Séc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+            "time": "10:30 07/06",
             "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-chuyen"
@@ -1736,7 +1736,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Indonesia_11-00 07-06_b831baa3_20260606.png?v=b831baa3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_CH Séc_10-30 07-06_29330021_20260606.png?v=29330021",
             "width": 1600,
             "height": 1200
           }
@@ -1795,6 +1795,59 @@
           }
         },
         {
+          "id": "hqlive-b0cd9bcef9",
+          "name": "Bỉ vs Serbia | 14:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0cd9bcef9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b0cd9bcef9",
+                  "name": "Bỉ vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-b0cd9bcef9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Serbia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "14:00 07/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Serbia_14-00 07-06_43d764db_20260606.png?v=43d764db",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-0d370e4325",
           "name": "Trung Quốc vs Ba Lan | 18:00 07/06",
           "type": "single",
@@ -1848,8 +1901,8 @@
           }
         },
         {
-          "id": "hqlive-7a357b53d0",
-          "name": "Philippines vs Úc | 20:00 07/06",
+          "id": "hqlive-ec959badad",
+          "name": "Cộng Hòa Dominicana vs Hà Lan | 21:00 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1863,15 +1916,15 @@
           ],
           "sources": [
             {
-              "id": "src-7a357b53d0",
+              "id": "src-ec959badad",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-7a357b53d0",
-                  "name": "Philippines vs Úc",
+                  "id": "ct-ec959badad",
+                  "name": "Cộng Hòa Dominicana vs Hà Lan",
                   "streams": [
                     {
-                      "id": "st-7a357b53d0",
+                      "id": "st-ec959badad",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1881,12 +1934,12 @@
             }
           ],
           "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Philippines",
-            "team_b": "Úc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
-            "time": "20:00 07/06",
+            "league": "Nation League Women",
+            "team_a": "Cộng Hòa Dominicana",
+            "team_b": "Hà Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+            "time": "21:00 07/06",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-chuyen"
@@ -1895,7 +1948,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Úc_20-00 07-06_9be1f39b_20260606.png?v=9be1f39b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Hà Lan_21-00 07-06_03a09b43_20260606.png?v=03a09b43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-301887cc25",
+          "name": "Ukraina vs Pháp | 22:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-301887cc25",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-301887cc25",
+                  "name": "Ukraina vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-301887cc25",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "22:00 07/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Pháp_22-00 07-06_cd323788_20260606.png?v=cd323788",
             "width": 1600,
             "height": 1200
           }
