@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:30 05/06/2026",
+  "updated_at": "19:35 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -187,11 +187,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -217,7 +217,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
             "logo_b": "https://media.api-sports.io/football/teams/19155.png",
             "time": "20:00 05/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN BÁCH",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -238,10 +238,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -256,7 +256,25 @@
                     {
                       "id": "st-034cff525f",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -271,7 +289,7 @@
             "logo_b": "https://www.shutterstock.com/image-vector/oman-logo-flag-flat-illustration-260nw-424495153.jpg",
             "time": "20:00 05/06",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1143,7 +1161,7 @@
             "team_a": "Cộng Hòa Dominicana",
             "team_b": "Bulgaria",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
-            "logo_b": "https://g7w1r.4shares.live/teams/C%E1%BB%9D%20qu%E1%BB%91c%20gia/bulgaria.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
             "time": "02:30 06/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": false,
@@ -1153,7 +1171,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Bulgaria_02-30 06-06_d2fe2328_20260605.png?v=d2fe2328",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Bulgaria_02-30 06-06_f045cc51_20260605.png?v=f045cc51",
             "width": 1600,
             "height": 1200
           }
@@ -1260,6 +1278,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Lan_Italy_06-00 06-06_ab92d204_20260605.png?v=ab92d204",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0c845d9d27",
+          "name": "Pháp vs Mỹ | 07:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c845d9d27",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0c845d9d27",
+                  "name": "Pháp vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-0c845d9d27",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Pháp",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "07:30 06/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Mỹ_07-30 06-06_64106053_20260605.png?v=64106053",
             "width": 1600,
             "height": 1200
           }
@@ -2274,11 +2345,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2304,7 +2375,7 @@
             "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_04_01/mensik-1931-8728.jpg.webp",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
             "time": "19:30 05/06",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN BÁCH",
             "is_live": true,
             "sport_slug": "tennis"
           },
