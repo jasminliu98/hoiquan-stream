@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:00 06/06/2026",
+  "updated_at": "05:00 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1073,6 +1073,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bolivia_Scotland_03-00 07-06_5d6b3902_20260606.png?v=5d6b3902",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a0c7a57499",
+          "name": "Venezuela vs Türkiye | 05:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0c7a57499",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a0c7a57499",
+                  "name": "Venezuela vs Türkiye",
+                  "streams": [
+                    {
+                      "id": "st-a0c7a57499",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Venezuela",
+            "team_b": "Türkiye",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/250px-Flag_of_Venezuela.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/777.png",
+            "time": "05:00 07/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Venezuela_Türkiye_05-00 07-06_5630cf9c_20260606.png?v=5630cf9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d07b76f12a",
+          "name": "Brazil vs Egypt | 05:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d07b76f12a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d07b76f12a",
+                  "name": "Brazil vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-d07b76f12a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Brazil",
+            "team_b": "Egypt",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4Ww0xI3D6Y9wsJWTNKpRayzsESKTsT4EpA&s",
+            "time": "05:00 07/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Egypt_05-00 07-06_8918de72_20260606.png?v=8918de72",
             "width": 1600,
             "height": 1200
           }
