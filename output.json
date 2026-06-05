@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 05/06/2026",
+  "updated_at": "16:45 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -829,6 +829,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-5b8c66bf68",
+          "name": "Yokohama FC vs Renofa Yamaguchi | 12:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b8c66bf68",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5b8c66bf68",
+                  "name": "Yokohama FC vs Renofa Yamaguchi",
+                  "streams": [
+                    {
+                      "id": "st-5b8c66bf68",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J2/J3 League",
+            "team_a": "Yokohama FC",
+            "team_b": "Renofa Yamaguchi",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/18/YokohamaFC.png",
+            "logo_b": "https://media.api-sports.io/football/teams/309.png",
+            "time": "12:00 06/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Yokohama FC_Renofa Yamaguchi_12-00 06-06_4aea4bac_20260605.png?v=4aea4bac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3b84fcbd1f",
+          "name": "FC Tokyo vs Cerezo Osaka | 12:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b84fcbd1f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3b84fcbd1f",
+                  "name": "FC Tokyo vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-3b84fcbd1f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "FC Tokyo",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/15/FC_Tokyo_Logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Cerezo_Osaka_logo.svg/250px-Cerezo_Osaka_logo.svg.png",
+            "time": "12:00 06/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Tokyo_Cerezo Osaka_12-00 06-06_49dd2493_20260605.png?v=49dd2493",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1483,7 +1589,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
+            "league": "AOM Challenge Race",
             "team_a": "Dương Quốc Hoàng",
             "team_b": "Nguyễn Anh Tuấn",
             "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
