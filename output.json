@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:40 06/06/2026",
+  "updated_at": "03:00 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-bb3fe313ba",
-          "name": "Azerbaijan vs Malta | 01:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb3fe313ba",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bb3fe313ba",
-                  "name": "Azerbaijan vs Malta",
-                  "streams": [
-                    {
-                      "id": "st-bb3fe313ba",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Azerbaijan",
-            "team_b": "Malta",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/250px-Flag_of_Azerbaijan.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/960px-Flag_of_Malta.svg.png",
-            "time": "01:00 06/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Azerbaijan_Malta_01-00 06-06_bfb7aeb8_20260606.png?v=bfb7aeb8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-afe55d5553",
           "name": "Angola vs Mauritania | 02:00 06/06",
@@ -1109,6 +1038,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Australia_Switzerland_02-00 07-06_85bf9e77_20260606.png?v=85bf9e77",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-44d01e7068",
+          "name": "England vs New Zealand | 03:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44d01e7068",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-44d01e7068",
+                  "name": "England vs New Zealand",
+                  "streams": [
+                    {
+                      "id": "st-44d01e7068",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "England",
+            "team_b": "New Zealand",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+            "time": "03:00 07/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_New Zealand_03-00 07-06_eb656cf9_20260606.png?v=eb656cf9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5daedb19c2",
+          "name": "Bolivia vs Scotland | 03:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5daedb19c2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5daedb19c2",
+                  "name": "Bolivia vs Scotland",
+                  "streams": [
+                    {
+                      "id": "st-5daedb19c2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Bolivia",
+            "team_b": "Scotland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Escudo_de_Bolivia.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
+            "time": "03:00 07/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bolivia_Scotland_03-00 07-06_5d6b3902_20260606.png?v=5d6b3902",
             "width": 1600,
             "height": 1200
           }
