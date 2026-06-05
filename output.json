@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:30 05/06/2026",
+  "updated_at": "18:45 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1728,6 +1728,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Anh Tuấn_17-00 05-06_4b9e8fff_20260605.png?v=4b9e8fff",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_esports",
+      "name": "🎮 Esports",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-e48ba59273",
+          "name": "vitality vs FLY | 21:30 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e48ba59273",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e48ba59273",
+                  "name": "vitality vs FLY",
+                  "streams": [
+                    {
+                      "id": "st-e48ba59273",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ESL Proleague Season 23",
+            "team_a": "vitality",
+            "team_b": "FLY",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/4/49/Team_Vitality_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flyquest_logo_2021.svg/250px-Flyquest_logo_2021.svg.png",
+            "time": "21:30 05/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/vitality_FLY_21-30 05-06_b44183f6_20260605.png?v=b44183f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f01c2b33b4",
+          "name": "Gen vs BLG | 00:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f01c2b33b4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f01c2b33b4",
+                  "name": "Gen vs BLG",
+                  "streams": [
+                    {
+                      "id": "st-f01c2b33b4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ESL Proleague Season 23",
+            "team_a": "Gen",
+            "team_b": "BLG",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/66/Bilibili_Gaming_logo_%282021%29.png",
+            "time": "00:00 06/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_BLG_00-00 06-06_b4540944_20260605.png?v=b4540944",
             "width": 1600,
             "height": 1200
           }
