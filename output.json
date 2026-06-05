@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:10 06/06/2026",
+  "updated_at": "02:15 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1063,7 +1063,7 @@
             "team_a": "Portugal",
             "team_b": "Chile",
             "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1200px-Flag_of_Chile.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
             "time": "00:45 07/06",
             "blv": "BLV PHAN MÃ",
             "is_live": false,
@@ -1073,7 +1073,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Chile_00-45 07-06_3f1256a4_20260606.png?v=3f1256a4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Chile_00-45 07-06_ce012a80_20260606.png?v=ce012a80",
             "width": 1600,
             "height": 1200
           }
@@ -1188,82 +1188,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5e58cc50f6",
-          "name": "Cộng Hòa Dominicana vs Bulgaria | 02:30 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e58cc50f6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5e58cc50f6",
-                  "name": "Cộng Hòa Dominicana vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-5e58cc50f6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Cộng Hòa Dominicana",
-            "team_b": "Bulgaria",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "time": "02:30 06/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Bulgaria_02-30 06-06_f045cc51_20260606.png?v=f045cc51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-efe4b8d1d2",
           "name": "Ukraina vs Nhật Bản | 03:30 06/06",
