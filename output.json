@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:50 05/06/2026",
+  "updated_at": "19:00 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1775,7 +1775,7 @@
             }
           ],
           "org_metadata": {
-            "league": "ESL Proleague Season 23",
+            "league": "IEM Cologne Major 2026",
             "team_a": "Liquid",
             "team_b": "FLY",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsGYdVzScFGWPI8cMGqcXFqjPvNAD2L-Xyw&s",
@@ -1828,7 +1828,7 @@
             }
           ],
           "org_metadata": {
-            "league": "ESL Proleague Season 23",
+            "league": "IEM Cologne Major 2026",
             "team_a": "NRG",
             "team_b": "BIG",
             "logo_a": "https://csgo.com/thumb/team/size-team-logo-big/2018/09/106/MTA2WlZpendwQ2NiOA==.png",
