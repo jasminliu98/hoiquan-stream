@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:05 06/06/2026",
+  "updated_at": "03:15 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2045,82 +2045,11 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (1 LIVE)",
+      "name": "🎮 Esports",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-37d0ae764c",
-          "name": "NRG vs BIG | 00:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37d0ae764c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-37d0ae764c",
-                  "name": "NRG vs BIG",
-                  "streams": [
-                    {
-                      "id": "st-37d0ae764c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "IEM Cologne Major 2026",
-            "team_a": "NRG",
-            "team_b": "BIG",
-            "logo_a": "https://csgo.com/thumb/team/size-team-logo-big/2018/09/106/MTA2WlZpendwQ2NiOA==.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nqUlg_K35dWjVsvKfm7sGQ8wtbNIzUo_mQ&s",
-            "time": "00:00 06/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/NRG_BIG_00-00 06-06_59c17f8b_20260606.png?v=59c17f8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-2b24f7fac1",
           "name": "DK vs BRO | 15:00 06/06",
