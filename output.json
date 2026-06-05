@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:25 05/06/2026",
+  "updated_at": "18:30 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -444,7 +444,7 @@
             "team_a": "Moldova",
             "team_b": "Bulgaria",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/330px-Flag_of_Moldova.svg.png",
-            "logo_b": "https://g7w1r.4shares.live/teams/C%E1%BB%9D%20qu%E1%BB%91c%20gia/bulgaria.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
             "time": "00:00 06/06",
             "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
@@ -454,7 +454,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Moldova_Bulgaria_00-00 06-06_d9365bcc_20260605.png?v=d9365bcc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Moldova_Bulgaria_00-00 06-06_f4b71892_20260605.png?v=f4b71892",
             "width": 1600,
             "height": 1200
           }
@@ -932,6 +932,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sagan Tosu_Shonan Bellmare_17-00 06-06_803d8834_20260605.png?v=803d8834",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1a241bdd79",
+          "name": "Myanmar vs Guam | 18:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a241bdd79",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1a241bdd79",
+                  "name": "Myanmar vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-1a241bdd79",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Myanmar",
+            "team_b": "Guam",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/250px-Flag_of_Myanmar.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8119.png",
+            "time": "18:30 06/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Myanmar_Guam_18-30 06-06_ef9b6091_20260605.png?v=ef9b6091",
             "width": 1600,
             "height": 1200
           }
