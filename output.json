@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:50 05/06/2026",
+  "updated_at": "22:00 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1038,6 +1038,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kyrgyzstan_Palestine_21-30 06-06_bb5cdf03_20260605.png?v=bb5cdf03",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f579fc55a9",
+          "name": "Portugal U19 vs Greece U19 | 22:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f579fc55a9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f579fc55a9",
+                  "name": "Portugal U19 vs Greece U19",
+                  "streams": [
+                    {
+                      "id": "st-f579fc55a9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Qualification",
+            "team_a": "Portugal U19",
+            "team_b": "Greece U19",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/1280px-Flag_of_Portugal_%28official%29.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10364.png",
+            "time": "22:00 06/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal U19_Greece U19_22-00 06-06_9815e565_20260605.png?v=9815e565",
             "width": 1600,
             "height": 1200
           }
