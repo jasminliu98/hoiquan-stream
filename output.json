@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:00 05/06/2026",
+  "updated_at": "23:05 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -155,6 +155,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belarus_Syria_23-00 05-06_7354602e_20260605.png?v=7354602e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6610798aaf",
+          "name": "Slovakia vs Montenegro | 23:30 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6610798aaf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6610798aaf",
+                  "name": "Slovakia vs Montenegro",
+                  "streams": [
+                    {
+                      "id": "st-6610798aaf",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Slovakia",
+            "team_b": "Montenegro",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/250px-Flag_of_Slovakia.svg.png",
+            "logo_b": "https://img.uefa.com/imgml/flags/240x240/MNE.png",
+            "time": "23:30 05/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovakia_Montenegro_23-30 05-06_b1149483_20260605.png?v=b1149483",
             "width": 1600,
             "height": 1200
           }
