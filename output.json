@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:00 05/06/2026",
+  "updated_at": "21:05 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2070,11 +2070,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-975fc55dd1",
+                          "id": "lnk-bc9866f74f",
                           "name": "BLV PHAN PHÉP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
