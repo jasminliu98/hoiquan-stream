@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:45 05/06/2026",
+  "updated_at": "17:00 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -932,6 +932,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Tokyo_Cerezo Osaka_12-00 06-06_49dd2493_20260605.png?v=49dd2493",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e78e61dbe8",
+          "name": "Vanuatu vs Fiji | 17:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e78e61dbe8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e78e61dbe8",
+                  "name": "Vanuatu vs Fiji",
+                  "streams": [
+                    {
+                      "id": "st-e78e61dbe8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Vanuatu",
+            "team_b": "Fiji",
+            "logo_a": "https://media.api-sports.io/football/teams/5170.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5160.png",
+            "time": "17:00 06/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vanuatu_Fiji_17-00 06-06_212bc728_20260605.png?v=212bc728",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-530c82f122",
+          "name": "Sagan Tosu vs Shonan Bellmare | 17:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-530c82f122",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-530c82f122",
+                  "name": "Sagan Tosu vs Shonan Bellmare",
+                  "streams": [
+                    {
+                      "id": "st-530c82f122",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J2/J3 League",
+            "team_a": "Sagan Tosu",
+            "team_b": "Shonan Bellmare",
+            "logo_a": "https://media.api-sports.io/football/teams/295.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/2/2c/ShonanBellmare.png",
+            "time": "17:00 06/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sagan Tosu_Shonan Bellmare_17-00 06-06_803d8834_20260605.png?v=803d8834",
             "width": 1600,
             "height": 1200
           }
