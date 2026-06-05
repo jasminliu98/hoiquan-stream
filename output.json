@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:15 05/06/2026",
+  "updated_at": "19:30 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1101,6 +1101,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Ba Lan_18-30 05-06_3a50e432_20260605.png?v=3a50e432",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5e58cc50f6",
+          "name": "Cộng Hòa Dominicana vs Bulgaria | 02:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e58cc50f6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5e58cc50f6",
+                  "name": "Cộng Hòa Dominicana vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-5e58cc50f6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Cộng Hòa Dominicana",
+            "team_b": "Bulgaria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+            "logo_b": "https://g7w1r.4shares.live/teams/C%E1%BB%9D%20qu%E1%BB%91c%20gia/bulgaria.png",
+            "time": "02:30 06/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Bulgaria_02-30 06-06_d2fe2328_20260605.png?v=d2fe2328",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-efe4b8d1d2",
+          "name": "Ukraina vs Nhật Bản | 03:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-efe4b8d1d2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-efe4b8d1d2",
+                  "name": "Ukraina vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-efe4b8d1d2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "time": "03:30 06/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Nhật Bản_03-30 06-06_1f4a6376_20260605.png?v=1f4a6376",
             "width": 1600,
             "height": 1200
           }
