@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 05/06/2026",
+  "updated_at": "20:00 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1039,6 +1039,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Myanmar_Guam_18-30 06-06_ef9b6091_20260605.png?v=ef9b6091",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b14a7040dc",
+          "name": "Belgium vs Tunisia | 20:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b14a7040dc",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b14a7040dc",
+                  "name": "Belgium vs Tunisia",
+                  "streams": [
+                    {
+                      "id": "st-b14a7040dc",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Belgium",
+            "team_b": "Tunisia",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png",
+            "time": "20:00 06/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium_Tunisia_20-00 06-06_ddd1a1d9_20260605.png?v=ddd1a1d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-df455f9f55",
+          "name": "Lithuania vs Latvia | 20:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df455f9f55",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-df455f9f55",
+                  "name": "Lithuania vs Latvia",
+                  "streams": [
+                    {
+                      "id": "st-df455f9f55",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Baltic Cup",
+            "team_a": "Lithuania",
+            "team_b": "Latvia",
+            "logo_a": "https://media.api-sports.io/football/teams/17962.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/250px-Flag_of_Latvia.svg.png",
+            "time": "20:00 06/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lithuania_Latvia_20-00 06-06_b7b7ed6b_20260605.png?v=b7b7ed6b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-60fdce4e0f",
+          "name": "Cambodia U19 vs Philippines U19 | 20:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60fdce4e0f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-60fdce4e0f",
+                  "name": "Cambodia U19 vs Philippines U19",
+                  "streams": [
+                    {
+                      "id": "st-60fdce4e0f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Cambodia U19",
+            "team_b": "Philippines U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19148.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19153.png",
+            "time": "20:00 06/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia U19_Philippines U19_20-00 06-06_76fd9706_20260605.png?v=76fd9706",
             "width": 1600,
             "height": 1200
           }
