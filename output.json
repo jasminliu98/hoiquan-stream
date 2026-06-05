@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:20 06/06/2026",
+  "updated_at": "02:25 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1583,59 +1583,6 @@
           }
         },
         {
-          "id": "hqlive-1b70880033",
-          "name": "Philippin vs Uzbekistan | 20:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1b70880033",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1b70880033",
-                  "name": "Philippin vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-1b70880033",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Philippin",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png",
-            "logo_b": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
-            "time": "20:00 06/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippin_Uzbekistan_20-00 06-06_f5ecd032_20260606.png?v=f5ecd032",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-cc780e6298",
           "name": "Italy vs Thổ Nhĩ Kỳ | 01:30 07/06",
           "type": "single",
@@ -2032,6 +1979,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-2b24f7fac1",
+          "name": "DK vs BRO | 15:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b24f7fac1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2b24f7fac1",
+                  "name": "DK vs BRO",
+                  "streams": [
+                    {
+                      "id": "st-2b24f7fac1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK Road to MSI 2026",
+            "team_a": "DK",
+            "team_b": "BRO",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5XHQq2Yj8g5myZk0CoWLjBNVsfHEWwaboQ&s",
+            "time": "15:00 06/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/DK_BRO_15-00 06-06_b807574d_20260606.png?v=b807574d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c6b19eeac8",
+          "name": "Deep Cross Gaming vs GAM | 16:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6b19eeac8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c6b19eeac8",
+                  "name": "Deep Cross Gaming vs GAM",
+                  "streams": [
+                    {
+                      "id": "st-c6b19eeac8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCP Playoffs",
+            "team_a": "Deep Cross Gaming",
+            "team_b": "GAM",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/be/Deep_Cross_Gaming_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/b/b1/GAMesportslogo.png",
+            "time": "16:00 06/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deep Cross Gaming_GAM_16-00 06-06_6096e6dc_20260606.png?v=6096e6dc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2188,7 +2241,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "16:00 06/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN HẢI",
             "is_live": false,
             "sport_slug": "cau-long"
           },
@@ -2241,7 +2294,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "18:30 06/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "cau-long"
           },
