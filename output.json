@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:05 05/06/2026",
+  "updated_at": "23:20 05/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1939,82 +1939,11 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (1 LIVE)",
+      "name": "🎮 Esports",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3b148a0e5e",
-          "name": "Liquid vs FLY | 21:30 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b148a0e5e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3b148a0e5e",
-                  "name": "Liquid vs FLY",
-                  "streams": [
-                    {
-                      "id": "st-3b148a0e5e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "IEM Cologne Major 2026",
-            "team_a": "Liquid",
-            "team_b": "FLY",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsGYdVzScFGWPI8cMGqcXFqjPvNAD2L-Xyw&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flyquest_logo_2021.svg/250px-Flyquest_logo_2021.svg.png",
-            "time": "21:30 05/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Liquid_FLY_21-30 05-06_0f38ba54_20260605.png?v=0f38ba54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-37d0ae764c",
           "name": "NRG vs BIG | 00:00 06/06",
