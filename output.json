@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:40 07/06/2026",
+  "updated_at": "02:55 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ec46881f1e",
-          "name": "Portugal vs Chile | 00:45 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ec46881f1e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ec46881f1e",
-                  "name": "Portugal vs Chile",
-                  "streams": [
-                    {
-                      "id": "st-ec46881f1e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Portugal",
-            "team_b": "Chile",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
-            "time": "00:45 07/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Chile_00-45 07-06_ce012a80_20260607.png?v=ce012a80",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1a2f569679",
           "name": "USA vs Germany | 01:30 07/06",
