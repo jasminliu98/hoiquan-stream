@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:55 06/06/2026",
+  "updated_at": "13:25 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2769,7 +2769,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2846,32 +2846,50 @@
           }
         },
         {
-          "id": "hqlive-5f07e7807c",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 14:30 06/06",
+          "id": "hqlive-bfcbdbad33",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:30 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-5f07e7807c",
+              "id": "src-bfcbdbad33",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5f07e7807c",
+                  "id": "ct-bfcbdbad33",
                   "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
                   "streams": [
                     {
-                      "id": "st-5f07e7807c",
+                      "id": "st-bfcbdbad33",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ae00c22d",
+                          "name": "BLV TÁO KINH TẾ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2884,16 +2902,16 @@
             "team_b": "Tay Vợt Số 2",
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "14:30 06/06",
+            "time": "13:30 06/06",
             "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_14-30 06-06_cacf1340_20260606.png?v=cacf1340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_13-30 06-06_cacf1340_20260606.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
