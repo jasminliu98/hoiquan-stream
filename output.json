@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:25 07/06/2026",
+  "updated_at": "06:00 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1109,6 +1109,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Guatemala_03-00 08-06_1d48970d_20260607.png?v=1d48970d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cb53c46505",
+          "name": "Colombia vs Jordan | 06:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb53c46505",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cb53c46505",
+                  "name": "Colombia vs Jordan",
+                  "streams": [
+                    {
+                      "id": "st-cb53c46505",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Colombia",
+            "team_b": "Jordan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/960px-Flag_of_Jordan.svg.png",
+            "time": "06:00 08/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Colombia_Jordan_06-00 08-06_01ed40fd_20260607.png?v=01ed40fd",
             "width": 1600,
             "height": 1200
           }
