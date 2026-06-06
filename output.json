@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:40 06/06/2026",
+  "updated_at": "20:50 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2851,6 +2851,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spirit_BetBoom_20-30 06-06_e2f6938a_20260606.png?v=e2f6938a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9866404cf3",
+          "name": "DK vs KT | 15:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9866404cf3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9866404cf3",
+                  "name": "DK vs KT",
+                  "streams": [
+                    {
+                      "id": "st-9866404cf3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK Road to MSI 2026",
+            "team_a": "DK",
+            "team_b": "KT",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/76/Logo_KT_Rolster.svg",
+            "time": "15:00 07/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/DK_KT_15-00 07-06_fa9c5002_20260606.png?v=fa9c5002",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f2f1194454",
+          "name": "Deep Cross Gaming vs TSW | 16:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2f1194454",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f2f1194454",
+                  "name": "Deep Cross Gaming vs TSW",
+                  "streams": [
+                    {
+                      "id": "st-f2f1194454",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCP Playoffs",
+            "team_a": "Deep Cross Gaming",
+            "team_b": "TSW",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/be/Deep_Cross_Gaming_logo.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPG2-D3oX0KreSHiSWmgH5G1bCskY4E67JCw&s",
+            "time": "16:00 07/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deep Cross Gaming_TSW_16-00 07-06_51264cd7_20260606.png?v=51264cd7",
             "width": 1600,
             "height": 1200
           }
