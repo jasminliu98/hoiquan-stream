@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:50 06/06/2026",
+  "updated_at": "18:00 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -114,7 +114,25 @@
                     {
                       "id": "st-1a241bdd79",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -129,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/8119.png",
             "time": "18:30 06/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1091,6 +1109,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oita Trinita_Montedio Yamagata_14-00 07-06_9d2f312c_20260606.png?v=9d2f312c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-58c0f9ebec",
+          "name": "Binh Duong vs Hoang Anh Gia Lai | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58c0f9ebec",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-58c0f9ebec",
+                  "name": "Binh Duong vs Hoang Anh Gia Lai",
+                  "streams": [
+                    {
+                      "id": "st-58c0f9ebec",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Binh Duong",
+            "team_b": "Hoang Anh Gia Lai",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/LOGO_BFC.png/960px-LOGO_BFC.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3673.png",
+            "time": "18:00 07/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Binh Duong_Hoang Anh Gia Lai_18-00 07-06_c36eb774_20260606.png?v=c36eb774",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-220d8cbdc7",
+          "name": "Da Nang vs Thanh Hóa | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-220d8cbdc7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-220d8cbdc7",
+                  "name": "Da Nang vs Thanh Hóa",
+                  "streams": [
+                    {
+                      "id": "st-220d8cbdc7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Da Nang",
+            "team_b": "Thanh Hóa",
+            "logo_a": "https://media.api-sports.io/football/teams/3669.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
+            "time": "18:00 07/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Da Nang_Thanh Hóa_18-00 07-06_f9a0afa5_20260606.png?v=f9a0afa5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4998ddc0cb",
+          "name": "Ha Noi vs Ho Chi Minh | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4998ddc0cb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4998ddc0cb",
+                  "name": "Ha Noi vs Ho Chi Minh",
+                  "streams": [
+                    {
+                      "id": "st-4998ddc0cb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Ha Noi",
+            "team_b": "Ho Chi Minh",
+            "logo_a": "https://media.api-sports.io/football/teams/3670.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/4/47/Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg/250px-Logo_of_Cong_An_Ho_Chi_Minh_City_football_club%2C_from_Ho_Chi_Minh_City%2C_from_2025.svg.png",
+            "time": "18:00 07/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ha Noi_Ho Chi Minh_18-00 07-06_c4046146_20260606.png?v=c4046146",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-49afb9a393",
+          "name": "Phu Dong vs Hồng Lĩnh Hà Tĩnh | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49afb9a393",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-49afb9a393",
+                  "name": "Phu Dong vs Hồng Lĩnh Hà Tĩnh",
+                  "streams": [
+                    {
+                      "id": "st-49afb9a393",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Phu Dong",
+            "team_b": "Hồng Lĩnh Hà Tĩnh",
+            "logo_a": "https://media.api-sports.io/football/teams/9167.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
+            "time": "18:00 07/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phu Dong_Hồng Lĩnh Hà Tĩnh_18-00 07-06_e9fde61b_20260606.png?v=e9fde61b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-388f6dc90e",
+          "name": "Song Lam Nghe An vs Pho Hien | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-388f6dc90e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-388f6dc90e",
+                  "name": "Song Lam Nghe An vs Pho Hien",
+                  "streams": [
+                    {
+                      "id": "st-388f6dc90e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Song Lam Nghe An",
+            "team_b": "Pho Hien",
+            "logo_a": "https://media.api-sports.io/football/teams/3678.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9166.png",
+            "time": "18:00 07/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Song Lam Nghe An_Pho Hien_18-00 07-06_ab6624b1_20260606.png?v=ab6624b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2772ad3aee",
+          "name": "Viettel vs CAHN | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2772ad3aee",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2772ad3aee",
+                  "name": "Viettel vs CAHN",
+                  "streams": [
+                    {
+                      "id": "st-2772ad3aee",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Viettel",
+            "team_b": "CAHN",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/d1/Viettel_FC_2021.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/3/38/Logo_CAHN_FC.svg/500px-Logo_CAHN_FC.svg.png",
+            "time": "18:00 07/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Viettel_CAHN_18-00 07-06_df9af7d5_20260606.png?v=df9af7d5",
             "width": 1600,
             "height": 1200
           }
