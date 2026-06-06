@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:35 06/06/2026",
+  "updated_at": "20:40 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -266,8 +266,8 @@
           }
         },
         {
-          "id": "hqlive-008b5a5120",
-          "name": "Armenia vs Kazakhstan | 23:00 06/06",
+          "id": "hqlive-c78d5a0fd3",
+          "name": "Rwanda vs Comoros | 23:00 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -281,15 +281,15 @@
           ],
           "sources": [
             {
-              "id": "src-008b5a5120",
+              "id": "src-c78d5a0fd3",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-008b5a5120",
-                  "name": "Armenia vs Kazakhstan",
+                  "id": "ct-c78d5a0fd3",
+                  "name": "Rwanda vs Comoros",
                   "streams": [
                     {
-                      "id": "st-008b5a5120",
+                      "id": "st-c78d5a0fd3",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -300,10 +300,10 @@
           ],
           "org_metadata": {
             "league": "Friendlies",
-            "team_a": "Armenia",
-            "team_b": "Kazakhstan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1920px-Flag_of_Kazakhstan.svg.png",
+            "team_a": "Rwanda",
+            "team_b": "Comoros",
+            "logo_a": "https://media.api-sports.io/football/teams/1514.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg",
             "time": "23:00 06/06",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
@@ -313,7 +313,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Armenia_Kazakhstan_23-00 06-06_bc36bf6e_20260606.png?v=bc36bf6e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rwanda_Comoros_23-00 06-06_fd7fb463_20260606.png?v=fd7fb463",
             "width": 1600,
             "height": 1200
           }
