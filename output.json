@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:25 06/06/2026",
+  "updated_at": "17:30 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2638,6 +2638,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deep Cross Gaming_GAM_16-00 06-06_6096e6dc_20260606.png?v=6096e6dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0e815050f9",
+          "name": "Spirit vs BetBoom | 20:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e815050f9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0e815050f9",
+                  "name": "Spirit vs BetBoom",
+                  "streams": [
+                    {
+                      "id": "st-0e815050f9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "Spirit",
+            "team_b": "BetBoom",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqL-5oOWy4SD88b7dpBrowfXrtRYf-FRIZg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB_rcjRFbi06dlzMDzwkUXQimYNZ-M7ba2fg&s",
+            "time": "20:30 06/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spirit_BetBoom_20-30 06-06_e2f6938a_20260606.png?v=e2f6938a",
             "width": 1600,
             "height": 1200
           }
