@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 06/06/2026",
+  "updated_at": "20:00 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1215,6 +1215,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Viettel_CAHN_18-00 07-06_df9af7d5_20260606.png?v=df9af7d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7f8347a551",
+          "name": "Indonesia U19 vs Vietnam U19 | 20:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f8347a551",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7f8347a551",
+                  "name": "Indonesia U19 vs Vietnam U19",
+                  "streams": [
+                    {
+                      "id": "st-7f8347a551",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Indonesia U19",
+            "team_b": "Vietnam U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19149.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19157.png",
+            "time": "20:00 07/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia U19_Vietnam U19_20-00 07-06_d13f7cad_20260606.png?v=d13f7cad",
             "width": 1600,
             "height": 1200
           }
