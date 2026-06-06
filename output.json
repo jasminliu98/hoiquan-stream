@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:10 06/06/2026",
+  "updated_at": "17:15 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1939,7 +1939,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
             "time": "05:00 08/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN HẢI",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -2310,7 +2310,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
             "time": "11:00 09/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
