@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:50 06/06/2026",
+  "updated_at": "17:00 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-e78e61dbe8",
-          "name": "Vanuatu vs Fiji | 17:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e78e61dbe8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e78e61dbe8",
-                  "name": "Vanuatu vs Fiji",
-                  "streams": [
-                    {
-                      "id": "st-e78e61dbe8",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Vanuatu",
-            "team_b": "Fiji",
-            "logo_a": "https://media.api-sports.io/football/teams/5170.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5160.png",
-            "time": "17:00 06/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vanuatu_Fiji_17-00 06-06_212bc728_20260606.png?v=212bc728",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-530c82f122",
           "name": "Sagan Tosu vs Shonan Bellmare | 17:00 06/06",
@@ -155,6 +84,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sagan Tosu_Shonan Bellmare_17-00 06-06_803d8834_20260606.png?v=803d8834",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1a241bdd79",
+          "name": "Myanmar vs Guam | 18:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a241bdd79",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1a241bdd79",
+                  "name": "Myanmar vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-1a241bdd79",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Myanmar",
+            "team_b": "Guam",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/250px-Flag_of_Myanmar.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8119.png",
+            "time": "18:30 06/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Myanmar_Guam_18-30 06-06_ef9b6091_20260606.png?v=ef9b6091",
             "width": 1600,
             "height": 1200
           }
@@ -1175,6 +1157,112 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-c286c578b7",
+          "name": "Trung Quốc vs Serbia | 18:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c286c578b7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c286c578b7",
+                  "name": "Trung Quốc vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-c286c578b7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Trung Quốc",
+            "team_b": "Serbia",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "18:30 06/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Serbia_18-30 06-06_ecd261de_20260606.png?v=ecd261de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-011500a73b",
+          "name": "Brazil vs Bulgaria | 21:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-011500a73b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-011500a73b",
+                  "name": "Brazil vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-011500a73b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Brazil",
+            "team_b": "Bulgaria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "time": "21:00 06/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Bulgaria_21-00 06-06_3025e3fc_20260606.png?v=3025e3fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-cc780e6298",
           "name": "Italy vs Thổ Nhĩ Kỳ | 01:30 07/06",
