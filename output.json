@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 06/06/2026",
+  "updated_at": "21:45 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2691,56 +2691,38 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (1 LIVE)",
+      "name": "🎮 Esports",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-0e815050f9",
-          "name": "Spirit vs BetBoom | 20:30 06/06",
+          "id": "hqlive-f4d238d264",
+          "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026 | 22:30 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-0e815050f9",
+              "id": "src-f4d238d264",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-0e815050f9",
-                  "name": "Spirit vs BetBoom",
+                  "id": "ct-f4d238d264",
+                  "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026",
                   "streams": [
                     {
-                      "id": "st-0e815050f9",
+                      "id": "st-f4d238d264",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2749,20 +2731,20 @@
           ],
           "org_metadata": {
             "league": "IEM Cologne Major 2026",
-            "team_a": "Spirit",
-            "team_b": "BetBoom",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqL-5oOWy4SD88b7dpBrowfXrtRYf-FRIZg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB_rcjRFbi06dlzMDzwkUXQimYNZ-M7ba2fg&s",
-            "time": "20:30 06/06",
+            "team_a": "IEM Cologne Major 2026",
+            "team_b": "IEM Cologne Major 2026",
+            "logo_a": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
+            "logo_b": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
+            "time": "22:30 06/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "esports"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spirit_BetBoom_20-30 06-06_e2f6938a_20260606.png?v=e2f6938a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IEM Cologne Major 2026_IEM Cologne Major 2026_22-30 06-06_3d2b90e1_20260606.png?v=3d2b90e1",
             "width": 1600,
             "height": 1200
           }
