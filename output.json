@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:05 06/06/2026",
+  "updated_at": "07:00 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1215,6 +1215,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Egypt_05-00 07-06_8918de72_20260606.png?v=8918de72",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f36e35538c",
+          "name": "Argentina vs Honduras | 07:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f36e35538c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f36e35538c",
+                  "name": "Argentina vs Honduras",
+                  "streams": [
+                    {
+                      "id": "st-f36e35538c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Argentina",
+            "team_b": "Honduras",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/nUt8y1weoBfa54Oi6JD4dw_96x96.png",
+            "time": "07:00 07/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Argentina_Honduras_07-00 07-06_daa1a2ed_20260606.png?v=daa1a2ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-27fbe3c592",
+          "name": "Curaçao vs Aruba | 07:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27fbe3c592",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-27fbe3c592",
+                  "name": "Curaçao vs Aruba",
+                  "streams": [
+                    {
+                      "id": "st-27fbe3c592",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Curaçao",
+            "team_b": "Aruba",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/250px-Flag_of_Cura%C3%A7ao.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8167.png",
+            "time": "07:00 07/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Curaçao_Aruba_07-00 07-06_5089f3ff_20260606.png?v=5089f3ff",
             "width": 1600,
             "height": 1200
           }
