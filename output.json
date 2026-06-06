@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:00 06/06/2026",
+  "updated_at": "14:10 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1264,8 +1264,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-3d27cb960e",
-          "name": "Iran vs Indonesia | 14:00 06/06",
+          "id": "hqlive-34f42e86b4",
+          "name": "Philippines vs Uzbekistan | 14:00 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1279,15 +1279,15 @@
           ],
           "sources": [
             {
-              "id": "src-3d27cb960e",
+              "id": "src-34f42e86b4",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-3d27cb960e",
-                  "name": "Iran vs Indonesia",
+                  "id": "ct-34f42e86b4",
+                  "name": "Philippines vs Uzbekistan",
                   "streams": [
                     {
-                      "id": "st-3d27cb960e",
+                      "id": "st-34f42e86b4",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1316,10 +1316,10 @@
           ],
           "org_metadata": {
             "league": "AVC Nations Cup 2026",
-            "team_a": "Iran",
-            "team_b": "Indonesia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
+            "team_a": "Philippines",
+            "team_b": "Uzbekistan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png",
+            "logo_b": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
             "time": "14:00 06/06",
             "blv": "BLV TÁO GIÀ",
             "is_live": true,
@@ -1329,7 +1329,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Indonesia_14-00 06-06_ba44ea23_20260606.png?v=ba44ea23",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Uzbekistan_14-00 06-06_54b80e9d_20260606.png?v=54b80e9d",
             "width": 1600,
             "height": 1200
           }
