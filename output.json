@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:45 06/06/2026",
+  "updated_at": "21:50 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2603,86 +2603,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippin_Hàn Quốc_20-00 09-06_b9d62e4d_20260606.png?v=b9d62e4d",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-d78c5c81f8",
-          "name": "Dương Quốc Hoàng vs Nguyễn Anh Tuấn | 17:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d78c5c81f8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d78c5c81f8",
-                  "name": "Dương Quốc Hoàng vs Nguyễn Anh Tuấn",
-                  "streams": [
-                    {
-                      "id": "st-d78c5c81f8",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Nguyễn Anh Tuấn",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://image.sggp.org.vn/w1000/Uploaded/2025/mrwqlqrnw/2025_07_23/img-6649-3313-8.jpg.webp",
-            "time": "17:00 06/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Nguyễn Anh Tuấn_17-00 06-06_4b9e8fff_20260606.png?v=4b9e8fff",
             "width": 1600,
             "height": 1200
           }
