@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:35 06/06/2026",
+  "updated_at": "11:55 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,50 +89,32 @@
           }
         },
         {
-          "id": "hqlive-3b84fcbd1f",
-          "name": "FC Tokyo vs Cerezo Osaka | 12:00 06/06",
+          "id": "hqlive-82bb4667ec",
+          "name": "Jubilo Iwata vs Osaka | 14:00 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3b84fcbd1f",
+              "id": "src-82bb4667ec",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-3b84fcbd1f",
-                  "name": "FC Tokyo vs Cerezo Osaka",
+                  "id": "ct-82bb4667ec",
+                  "name": "Jubilo Iwata vs Osaka",
                   "streams": [
                     {
-                      "id": "st-3b84fcbd1f",
+                      "id": "st-82bb4667ec",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -140,21 +122,21 @@
             }
           ],
           "org_metadata": {
-            "league": "J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "Cerezo Osaka",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/15/FC_Tokyo_Logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Cerezo_Osaka_logo.svg/250px-Cerezo_Osaka_logo.svg.png",
-            "time": "12:00 06/06",
+            "league": "J2/J3 League",
+            "team_a": "Jubilo Iwata",
+            "team_b": "Osaka",
+            "logo_a": "https://media.api-sports.io/football/teams/280.png",
+            "logo_b": "https://media.api-sports.io/football/teams/7138.png",
+            "time": "14:00 06/06",
             "blv": "BLV PHAN MÃ",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Tokyo_Cerezo Osaka_12-00 06-06_49dd2493_20260606.png?v=49dd2493",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jubilo Iwata_Osaka_14-00 06-06_49967e73_20260606.png?v=49967e73",
             "width": 1600,
             "height": 1200
           }
