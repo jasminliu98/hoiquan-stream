@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:00 06/06/2026",
+  "updated_at": "17:10 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-530c82f122",
-          "name": "Sagan Tosu vs Shonan Bellmare | 17:00 06/06",
+          "id": "hqlive-8f9e395eca",
+          "name": "Kawasaki Frontale vs Sanfrecce Hiroshima | 17:00 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-530c82f122",
+              "id": "src-8f9e395eca",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-530c82f122",
-                  "name": "Sagan Tosu vs Shonan Bellmare",
+                  "id": "ct-8f9e395eca",
+                  "name": "Kawasaki Frontale vs Sanfrecce Hiroshima",
                   "streams": [
                     {
-                      "id": "st-530c82f122",
+                      "id": "st-8f9e395eca",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -69,11 +69,11 @@
             }
           ],
           "org_metadata": {
-            "league": "J2/J3 League",
-            "team_a": "Sagan Tosu",
-            "team_b": "Shonan Bellmare",
-            "logo_a": "https://media.api-sports.io/football/teams/295.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/2/2c/ShonanBellmare.png",
+            "league": "J1 League",
+            "team_a": "Kawasaki Frontale",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/74/KawasakiFrontale.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/a/ad/SanfrecceHiroshima.png",
             "time": "17:00 06/06",
             "blv": "BLV PHAN ANH",
             "is_live": true,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sagan Tosu_Shonan Bellmare_17-00 06-06_803d8834_20260606.png?v=803d8834",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kawasaki Frontale_Sanfrecce Hiroshima_17-00 06-06_3e08c108_20260606.png?v=3e08c108",
             "width": 1600,
             "height": 1200
           }
