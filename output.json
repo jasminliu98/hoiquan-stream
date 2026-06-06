@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:20 06/06/2026",
+  "updated_at": "15:35 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2619,7 +2619,7 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (1 LIVE)",
+      "name": "🎮 Esports (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2703,10 +2703,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2721,7 +2721,25 @@
                     {
                       "id": "st-c6b19eeac8",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2736,7 +2754,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/b/b1/GAMesportslogo.png",
             "time": "16:00 06/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "esports"
           },
           "image": {
@@ -2752,7 +2770,7 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2836,10 +2854,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2854,7 +2872,25 @@
                     {
                       "id": "st-c12840139d",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2869,7 +2905,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "time": "16:00 06/06",
             "blv": "BLV PHAN HẢI",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "cau-long"
           },
           "image": {
