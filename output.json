@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 06/06/2026",
+  "updated_at": "07:35 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1335,8 +1335,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-e4c123a29c",
-          "name": "Hà Lan vs Italy | 06:00 06/06",
+          "id": "hqlive-0c845d9d27",
+          "name": "Pháp vs Mỹ | 07:30 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1350,15 +1350,15 @@
           ],
           "sources": [
             {
-              "id": "src-e4c123a29c",
+              "id": "src-0c845d9d27",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e4c123a29c",
-                  "name": "Hà Lan vs Italy",
+                  "id": "ct-0c845d9d27",
+                  "name": "Pháp vs Mỹ",
                   "streams": [
                     {
-                      "id": "st-e4c123a29c",
+                      "id": "st-0c845d9d27",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1387,83 +1387,12 @@
           ],
           "org_metadata": {
             "league": "Nation League Women",
-            "team_a": "Hà Lan",
-            "team_b": "Italy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "06:00 06/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Lan_Italy_06-00 06-06_ab92d204_20260606.png?v=ab92d204",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0c845d9d27",
-          "name": "Pháp vs Mỹ | 07:30 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c845d9d27",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0c845d9d27",
-                  "name": "Pháp vs Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-0c845d9d27",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
             "team_a": "Pháp",
             "team_b": "Mỹ",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
             "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
             "time": "07:30 06/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV PHAN CA",
             "is_live": true,
             "sport_slug": "bong-chuyen"
           },
@@ -1484,10 +1413,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1502,7 +1431,25 @@
                     {
                       "id": "st-ec08116a01",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1517,7 +1464,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
             "time": "08:00 06/06",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
