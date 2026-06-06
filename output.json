@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:00 06/06/2026",
+  "updated_at": "20:05 06/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1276,14 +1276,14 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-c286c578b7",
-          "name": "Trung Quốc vs Serbia | 18:30 06/06",
+          "id": "hqlive-045d0cf651",
+          "name": "Hàn Quốc vs Kyrgyzstan | 20:00 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1297,86 +1297,15 @@
           ],
           "sources": [
             {
-              "id": "src-c286c578b7",
+              "id": "src-045d0cf651",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c286c578b7",
-                  "name": "Trung Quốc vs Serbia",
+                  "id": "ct-045d0cf651",
+                  "name": "Hàn Quốc vs Kyrgyzstan",
                   "streams": [
                     {
-                      "id": "st-c286c578b7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Trung Quốc",
-            "team_b": "Serbia",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "time": "18:30 06/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Serbia_18-30 06-06_ecd261de_20260606.png?v=ecd261de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1b70880033",
-          "name": "Philippin vs Uzbekistan | 20:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1b70880033",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1b70880033",
-                  "name": "Philippin vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-1b70880033",
+                      "id": "st-045d0cf651",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1405,10 +1334,10 @@
           ],
           "org_metadata": {
             "league": "AVC Nations Cup 2026",
-            "team_a": "Philippin",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png",
-            "logo_b": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
+            "team_a": "Hàn Quốc",
+            "team_b": "Kyrgyzstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
             "time": "20:00 06/06",
             "blv": "BLV TÁO GIÀ",
             "is_live": true,
@@ -1418,7 +1347,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippin_Uzbekistan_20-00 06-06_f5ecd032_20260606.png?v=f5ecd032",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Kyrgyzstan_20-00 06-06_1232d1d4_20260606.png?v=1232d1d4",
             "width": 1600,
             "height": 1200
           }
@@ -2785,8 +2714,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-c6b19eeac8",
-          "name": "Deep Cross Gaming vs GAM | 16:00 06/06",
+          "id": "hqlive-0e815050f9",
+          "name": "Spirit vs BetBoom | 20:30 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2800,15 +2729,15 @@
           ],
           "sources": [
             {
-              "id": "src-c6b19eeac8",
+              "id": "src-0e815050f9",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c6b19eeac8",
-                  "name": "Deep Cross Gaming vs GAM",
+                  "id": "ct-0e815050f9",
+                  "name": "Spirit vs BetBoom",
                   "streams": [
                     {
-                      "id": "st-c6b19eeac8",
+                      "id": "st-0e815050f9",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -2836,59 +2765,6 @@
             }
           ],
           "org_metadata": {
-            "league": "LCP Playoffs",
-            "team_a": "Deep Cross Gaming",
-            "team_b": "GAM",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/be/Deep_Cross_Gaming_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/b/b1/GAMesportslogo.png",
-            "time": "16:00 06/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deep Cross Gaming_GAM_16-00 06-06_6096e6dc_20260606.png?v=6096e6dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0e815050f9",
-          "name": "Spirit vs BetBoom | 20:30 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e815050f9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0e815050f9",
-                  "name": "Spirit vs BetBoom",
-                  "streams": [
-                    {
-                      "id": "st-0e815050f9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "IEM Cologne Major 2026",
             "team_a": "Spirit",
             "team_b": "BetBoom",
@@ -2896,7 +2772,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB_rcjRFbi06dlzMDzwkUXQimYNZ-M7ba2fg&s",
             "time": "20:30 06/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "esports"
           },
           "image": {
