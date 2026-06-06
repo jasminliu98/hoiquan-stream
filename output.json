@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:55 07/06/2026",
+  "updated_at": "05:05 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -791,6 +791,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Denmark_Ukraine_23-30 07-06_fe647675_20260607.png?v=fe647675",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b720147105",
+          "name": "Belgium U17 vs Italy U17 | 00:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b720147105",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b720147105",
+                  "name": "Belgium U17 vs Italy U17",
+                  "streams": [
+                    {
+                      "id": "st-b720147105",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Belgium U17",
+            "team_b": "Italy U17",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://tmssl.akamaized.net//images/wappen/big/23133.png?lm=1672672799",
+            "time": "00:00 08/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Italy U17_00-00 08-06_ba46f070_20260607.png?v=ba46f070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e4b7fb7bf9",
+          "name": "Kosovo vs Andorra | 01:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e4b7fb7bf9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e4b7fb7bf9",
+                  "name": "Kosovo vs Andorra",
+                  "streams": [
+                    {
+                      "id": "st-e4b7fb7bf9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Kosovo",
+            "team_b": "Andorra",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/1280px-Flag_of_Kosovo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/250px-Flag_of_Andorra.svg.png",
+            "time": "01:00 08/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kosovo_Andorra_01-00 08-06_29c2cb8c_20260607.png?v=29c2cb8c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3d3f6330b2",
+          "name": "Croatia vs Slovenia | 01:45 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d3f6330b2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3d3f6330b2",
+                  "name": "Croatia vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-3d3f6330b2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Croatia",
+            "team_b": "Slovenia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/17979.png",
+            "time": "01:45 08/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia_Slovenia_01-45 08-06_677ebdf3_20260607.png?v=677ebdf3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9692d954ea",
+          "name": "Morocco vs Norway | 02:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9692d954ea",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9692d954ea",
+                  "name": "Morocco vs Norway",
+                  "streams": [
+                    {
+                      "id": "st-9692d954ea",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Morocco",
+            "team_b": "Norway",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
+            "time": "02:00 08/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Morocco_Norway_02-00 08-06_4eb6e87c_20260607.png?v=4eb6e87c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c0bcc67d2b",
+          "name": "Greece vs Italy | 02:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0bcc67d2b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c0bcc67d2b",
+                  "name": "Greece vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-c0bcc67d2b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Greece",
+            "team_b": "Italy",
+            "logo_a": "https://media.api-sports.io/football/teams/1117.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "02:00 08/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Greece_Italy_02-00 08-06_b93970cc_20260607.png?v=b93970cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0826d268f3",
+          "name": "Ecuador vs Guatemala | 03:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0826d268f3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0826d268f3",
+                  "name": "Ecuador vs Guatemala",
+                  "streams": [
+                    {
+                      "id": "st-0826d268f3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Ecuador",
+            "team_b": "Guatemala",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5161.png",
+            "time": "03:00 08/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Guatemala_03-00 08-06_1d48970d_20260607.png?v=1d48970d",
             "width": 1600,
             "height": 1200
           }
