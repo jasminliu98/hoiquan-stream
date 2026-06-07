@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:00 08/06/2026",
+  "updated_at": "02:10 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b720147105",
-          "name": "Belgium U17 vs Italy U17 | 00:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b720147105",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b720147105",
-                  "name": "Belgium U17 vs Italy U17",
-                  "streams": [
-                    {
-                      "id": "st-b720147105",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Belgium U17",
-            "team_b": "Italy U17",
-            "logo_a": "https://media.api-sports.io/football/teams/1.png",
-            "logo_b": "https://tmssl.akamaized.net//images/wappen/big/23133.png?lm=1672672799",
-            "time": "00:00 08/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium U17_Italy U17_00-00 08-06_ba46f070_20260608.png?v=ba46f070",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e4b7fb7bf9",
           "name": "Kosovo vs Andorra | 01:00 08/06",
@@ -739,6 +668,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Niger_Mauritania_02-00 09-06_71cc586d_20260608.png?v=71cc586d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c73b32776a",
+          "name": "France vs Northern Ireland | 02:10 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c73b32776a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c73b32776a",
+                  "name": "France vs Northern Ireland",
+                  "streams": [
+                    {
+                      "id": "st-c73b32776a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "France",
+            "team_b": "Northern Ireland",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://media.api-sports.io/football/teams/776.png",
+            "time": "02:10 09/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Northern Ireland_02-10 09-06_3decb5d4_20260608.png?v=3decb5d4",
             "width": 1600,
             "height": 1200
           }
