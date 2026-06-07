@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:10 08/06/2026",
+  "updated_at": "02:15 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1628,8 +1628,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-f104bc7988",
-          "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026 | 19:30 07/06",
+          "id": "hqlive-a672384ca8",
+          "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026 | 23:30 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1643,15 +1643,15 @@
           ],
           "sources": [
             {
-              "id": "src-f104bc7988",
+              "id": "src-a672384ca8",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f104bc7988",
+                  "id": "ct-a672384ca8",
                   "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026",
                   "streams": [
                     {
-                      "id": "st-f104bc7988",
+                      "id": "st-a672384ca8",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1684,7 +1684,7 @@
             "team_b": "IEM Cologne Major 2026",
             "logo_a": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
             "logo_b": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
-            "time": "19:30 07/06",
+            "time": "23:30 07/06",
             "blv": "BLV PHAN PHÉP",
             "is_live": true,
             "sport_slug": "esports"
@@ -1693,7 +1693,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IEM Cologne Major 2026_IEM Cologne Major 2026_19-30 07-06_3d2b90e1_20260608.png?v=3d2b90e1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IEM Cologne Major 2026_IEM Cologne Major 2026_23-30 07-06_3d2b90e1_20260608.png?v=3d2b90e1",
             "width": 1600,
             "height": 1200
           }
