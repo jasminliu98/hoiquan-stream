@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:05 08/06/2026",
+  "updated_at": "01:15 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1871,6 +1871,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Flavio Coboli_20-00 07-06_e443bbe8_20260608.png?v=e443bbe8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7cfbfb9506",
+          "name": "Alejandro Davidovich Fokina vs Mattia Bellucci | 16:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cfbfb9506",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7cfbfb9506",
+                  "name": "Alejandro Davidovich Fokina vs Mattia Bellucci",
+                  "streams": [
+                    {
+                      "id": "st-7cfbfb9506",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Alejandro Davidovich Fokina",
+            "team_b": "Mattia Bellucci",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg/960px-Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg",
+            "time": "16:00 08/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alejandro Davidovich Fokina_Mattia Bellucci_16-00 08-06_9d440ac8_20260608.png?v=9d440ac8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7395ff8093",
+          "name": "Maric Cilic vs Denis Shapovalov | 19:30 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7395ff8093",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7395ff8093",
+                  "name": "Maric Cilic vs Denis Shapovalov",
+                  "streams": [
+                    {
+                      "id": "st-7395ff8093",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Maric Cilic",
+            "team_b": "Denis Shapovalov",
+            "logo_a": "https://static01.nyt.com/athletic/uploads/wp/2024/09/24111030/GettyImages-2174157390-scaled.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3IKAmkvIcIyX5_cPP_OEmEMtdVHUdhxLBQ&s",
+            "time": "19:30 08/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Maric Cilic_Denis Shapovalov_19-30 08-06_4d4c9058_20260608.png?v=4d4c9058",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ccc601b303",
+          "name": "Tommy Paul vs Giovanni Mpetshi Perricard | 20:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccc601b303",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ccc601b303",
+                  "name": "Tommy Paul vs Giovanni Mpetshi Perricard",
+                  "streams": [
+                    {
+                      "id": "st-ccc601b303",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Tommy Paul",
+            "team_b": "Giovanni Mpetshi Perricard",
+            "logo_a": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
+            "logo_b": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
+            "time": "20:00 08/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tommy Paul_Giovanni Mpetshi Perricard_20-00 08-06_a045d30d_20260608.png?v=a045d30d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-edb85e02a5",
+          "name": "Alexander Bublik/Nick Kyrgios vs Jakub Paul/Ryan Seggerman | 22:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edb85e02a5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-edb85e02a5",
+                  "name": "Alexander Bublik/Nick Kyrgios vs Jakub Paul/Ryan Seggerman",
+                  "streams": [
+                    {
+                      "id": "st-edb85e02a5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Alexander Bublik/Nick Kyrgios",
+            "team_b": "Jakub Paul/Ryan Seggerman",
+            "logo_a": "https://previews.123rf.com/images/madabatman/madabatman2007/madabatman200700012/150920417-abstract-tennis-logo-design-in-vector-quality.jpg",
+            "logo_b": "https://previews.123rf.com/images/madabatman/madabatman2007/madabatman200700012/150920417-abstract-tennis-logo-design-in-vector-quality.jpg",
+            "time": "22:00 08/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Bublik-Nick Kyrgios_Jakub Paul-Ryan Seggerman_22-00 08-06_e8d367b6_20260608.png?v=e8d367b6",
             "width": 1600,
             "height": 1200
           }
