@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:55 07/06/2026",
+  "updated_at": "13:05 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-03b6fe25a8",
-          "name": "Tokushima Vortis vs Iwaki | 11:05 07/06",
+          "id": "hqlive-831c7e2183",
+          "name": "Oita Trinita vs Montedio Yamagata | 14:00 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-03b6fe25a8",
+              "id": "src-831c7e2183",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-03b6fe25a8",
-                  "name": "Tokushima Vortis vs Iwaki",
+                  "id": "ct-831c7e2183",
+                  "name": "Oita Trinita vs Montedio Yamagata",
                   "streams": [
                     {
-                      "id": "st-03b6fe25a8",
+                      "id": "st-831c7e2183",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -70,66 +70,13 @@
           ],
           "org_metadata": {
             "league": "J2/J3 League",
-            "team_a": "Tokushima Vortis",
-            "team_b": "Iwaki",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Tokushima_Vortis_logo.svg/250px-Tokushima_Vortis_logo.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/7127.png",
-            "time": "11:05 07/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tokushima Vortis_Iwaki_11-05 07-06_75e4a9e5_20260607.png?v=75e4a9e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-831c7e2183",
-          "name": "Oita Trinita vs Montedio Yamagata | 14:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-831c7e2183",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-831c7e2183",
-                  "name": "Oita Trinita vs Montedio Yamagata",
-                  "streams": [
-                    {
-                      "id": "st-831c7e2183",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 League",
             "team_a": "Oita Trinita",
             "team_b": "Montedio Yamagata",
             "logo_a": "https://media.api-sports.io/football/teams/298.png",
             "logo_b": "https://media.api-sports.io/football/teams/312.png",
             "time": "14:00 07/06",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
