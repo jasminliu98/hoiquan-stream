@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:15 08/06/2026",
+  "updated_at": "01:20 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-4bab16a52e",
-          "name": "Denmark vs Ukraine | 23:30 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4bab16a52e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4bab16a52e",
-                  "name": "Denmark vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-4bab16a52e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Denmark",
-            "team_b": "Ukraine",
-            "logo_a": "https://media.api-sports.io/football/teams/21.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "time": "23:30 07/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Denmark_Ukraine_23-30 07-06_fe647675_20260608.png?v=fe647675",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b720147105",
           "name": "Belgium U17 vs Italy U17 | 00:00 08/06",
@@ -238,10 +167,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -256,7 +185,25 @@
                     {
                       "id": "st-3d3f6330b2",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -271,7 +218,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/17979.png",
             "time": "01:45 08/06",
             "blv": "BLV PHAN QUẨY",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1799,82 +1746,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-316333fd26",
-          "name": "Alexandet Zverev vs Flavio Coboli | 20:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-316333fd26",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-316333fd26",
-                  "name": "Alexandet Zverev vs Flavio Coboli",
-                  "streams": [
-                    {
-                      "id": "st-316333fd26",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Roland Garros",
-            "team_a": "Alexandet Zverev",
-            "team_b": "Flavio Coboli",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
-            "time": "20:00 07/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Flavio Coboli_20-00 07-06_e443bbe8_20260608.png?v=e443bbe8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7cfbfb9506",
           "name": "Alejandro Davidovich Fokina vs Mattia Bellucci | 16:00 08/06",
