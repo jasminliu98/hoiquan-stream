@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:55 07/06/2026",
+  "updated_at": "20:00 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,295 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-58c0f9ebec",
-          "name": "Binh Duong vs Hoang Anh Gia Lai | 18:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58c0f9ebec",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-58c0f9ebec",
-                  "name": "Binh Duong vs Hoang Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-58c0f9ebec",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Binh Duong",
-            "team_b": "Hoang Anh Gia Lai",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/LOGO_BFC.png/960px-LOGO_BFC.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3673.png",
-            "time": "18:00 07/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Binh Duong_Hoang Anh Gia Lai_18-00 07-06_c36eb774_20260607.png?v=c36eb774",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-220d8cbdc7",
-          "name": "Da Nang vs Thanh Hóa | 18:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-220d8cbdc7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-220d8cbdc7",
-                  "name": "Da Nang vs Thanh Hóa",
-                  "streams": [
-                    {
-                      "id": "st-220d8cbdc7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Da Nang",
-            "team_b": "Thanh Hóa",
-            "logo_a": "https://media.api-sports.io/football/teams/3669.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
-            "time": "18:00 07/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Da Nang_Thanh Hóa_18-00 07-06_f9a0afa5_20260607.png?v=f9a0afa5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4219ca8f58",
-          "name": "Ninh Bình vs Hồng Lĩnh Hà Tĩnh | 18:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4219ca8f58",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4219ca8f58",
-                  "name": "Ninh Bình vs Hồng Lĩnh Hà Tĩnh",
-                  "streams": [
-                    {
-                      "id": "st-4219ca8f58",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Ninh Bình",
-            "team_b": "Hồng Lĩnh Hà Tĩnh",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/3/3d/Logo_CLB_Ninh_B%C3%ACnh.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/2/22/HLHT_FC.svg",
-            "time": "18:00 07/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ninh Bình_Hồng Lĩnh Hà Tĩnh_18-00 07-06_1c6b98ea_20260607.png?v=1c6b98ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-388f6dc90e",
-          "name": "Song Lam Nghe An vs Pho Hien | 18:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-388f6dc90e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-388f6dc90e",
-                  "name": "Song Lam Nghe An vs Pho Hien",
-                  "streams": [
-                    {
-                      "id": "st-388f6dc90e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Song Lam Nghe An",
-            "team_b": "Pho Hien",
-            "logo_a": "https://media.api-sports.io/football/teams/3678.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9166.png",
-            "time": "18:00 07/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Song Lam Nghe An_Pho Hien_18-00 07-06_ab6624b1_20260607.png?v=ab6624b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7f8347a551",
           "name": "Indonesia U19 vs Vietnam U19 | 20:00 07/06",
@@ -879,6 +595,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uganda_Madagascar_19-00 08-06_45465833_20260607.png?v=45465833",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a0f62a9e00",
+          "name": "Thailand U19 vs Malaysia U19 | 20:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0f62a9e00",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a0f62a9e00",
+                  "name": "Thailand U19 vs Malaysia U19",
+                  "streams": [
+                    {
+                      "id": "st-a0f62a9e00",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Thailand U19",
+            "team_b": "Malaysia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19151.png",
+            "time": "20:00 08/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Malaysia U19_20-00 08-06_75e186b1_20260607.png?v=75e186b1",
             "width": 1600,
             "height": 1200
           }
