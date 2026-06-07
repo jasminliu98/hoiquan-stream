@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 07/06/2026",
+  "updated_at": "19:25 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1964,8 +1964,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-f2f1194454",
-          "name": "Deep Cross Gaming vs TSW | 16:00 07/06",
+          "id": "hqlive-f104bc7988",
+          "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026 | 19:30 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1979,15 +1979,15 @@
           ],
           "sources": [
             {
-              "id": "src-f2f1194454",
+              "id": "src-f104bc7988",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f2f1194454",
-                  "name": "Deep Cross Gaming vs TSW",
+                  "id": "ct-f104bc7988",
+                  "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026",
                   "streams": [
                     {
-                      "id": "st-f2f1194454",
+                      "id": "st-f104bc7988",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -2015,12 +2015,12 @@
             }
           ],
           "org_metadata": {
-            "league": "LCP Playoffs",
-            "team_a": "Deep Cross Gaming",
-            "team_b": "TSW",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/be/Deep_Cross_Gaming_logo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPG2-D3oX0KreSHiSWmgH5G1bCskY4E67JCw&s",
-            "time": "16:00 07/06",
+            "league": "IEM Cologne Major 2026",
+            "team_a": "IEM Cologne Major 2026",
+            "team_b": "IEM Cologne Major 2026",
+            "logo_a": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
+            "logo_b": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
+            "time": "19:30 07/06",
             "blv": "BLV PHAN PHÉP",
             "is_live": true,
             "sport_slug": "esports"
@@ -2029,60 +2029,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deep Cross Gaming_TSW_16-00 07-06_51264cd7_20260607.png?v=51264cd7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-05a56fbb2f",
-          "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026 | 22:30 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05a56fbb2f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-05a56fbb2f",
-                  "name": "IEM Cologne Major 2026 vs IEM Cologne Major 2026",
-                  "streams": [
-                    {
-                      "id": "st-05a56fbb2f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "IEM Cologne Major 2026",
-            "team_a": "IEM Cologne Major 2026",
-            "team_b": "IEM Cologne Major 2026",
-            "logo_a": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
-            "logo_b": "https://img-cdn.hltv.org/gallerypicture/tQFZwX3QRcqGp779W3jXaJ.png?auto=compress&ixlib=java-2.1.0&q=75&w=800&s=1021764ee7d110c568526e9029449903",
-            "time": "22:30 07/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IEM Cologne Major 2026_IEM Cologne Major 2026_22-30 07-06_3d2b90e1_20260607.png?v=3d2b90e1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IEM Cologne Major 2026_IEM Cologne Major 2026_19-30 07-06_3d2b90e1_20260607.png?v=3d2b90e1",
             "width": 1600,
             "height": 1200
           }
