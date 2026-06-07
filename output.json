@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:30 07/06/2026",
+  "updated_at": "16:55 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1020,7 +1020,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
             "time": "22:00 07/06",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
