@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 07/06/2026",
+  "updated_at": "19:40 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1106,8 +1106,8 @@
           }
         },
         {
-          "id": "hqlive-7a357b53d0",
-          "name": "Philippines vs Úc | 20:00 07/06",
+          "id": "hqlive-6dfa63dedc",
+          "name": "Uzbekistan vs Hàn Quốc | 20:00 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1121,15 +1121,15 @@
           ],
           "sources": [
             {
-              "id": "src-7a357b53d0",
+              "id": "src-6dfa63dedc",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-7a357b53d0",
-                  "name": "Philippines vs Úc",
+                  "id": "ct-6dfa63dedc",
+                  "name": "Uzbekistan vs Hàn Quốc",
                   "streams": [
                     {
-                      "id": "st-7a357b53d0",
+                      "id": "st-6dfa63dedc",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1158,10 +1158,10 @@
           ],
           "org_metadata": {
             "league": "AVC Nations Cup 2026",
-            "team_a": "Philippines",
-            "team_b": "Úc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+            "team_a": "Uzbekistan",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
             "time": "20:00 07/06",
             "blv": "BLV PHAN CA",
             "is_live": true,
@@ -1171,7 +1171,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Úc_20-00 07-06_9be1f39b_20260607.png?v=9be1f39b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uzbekistan_Hàn Quốc_20-00 07-06_edc59d86_20260607.png?v=edc59d86",
             "width": 1600,
             "height": 1200
           }
@@ -1495,59 +1495,6 @@
           }
         },
         {
-          "id": "hqlive-c045eaff44",
-          "name": "Việt Nam vs Indonesia | 08:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c045eaff44",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c045eaff44",
-                  "name": "Việt Nam vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "st-c045eaff44",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Việt Nam",
-            "team_b": "Indonesia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
-            "time": "08:00 08/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Việt Nam_Indonesia_08-00 08-06_bdc8733e_20260607.png?v=bdc8733e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-9324bbf15e",
           "name": "Hồng Kông vs Iran | 11:00 08/06",
           "type": "single",
@@ -1649,6 +1596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Kazakhstan_14-00 08-06_90c65a9e_20260607.png?v=90c65a9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b171a56ed5",
+          "name": "Việt Nam vs Indonesia | 17:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b171a56ed5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b171a56ed5",
+                  "name": "Việt Nam vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-b171a56ed5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Indonesia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
+            "time": "17:00 08/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Việt Nam_Indonesia_17-00 08-06_bdc8733e_20260607.png?v=bdc8733e",
             "width": 1600,
             "height": 1200
           }
