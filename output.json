@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:20 08/06/2026",
+  "updated_at": "01:30 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -238,10 +238,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -256,7 +256,25 @@
                     {
                       "id": "st-9692d954ea",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -271,7 +289,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
             "time": "02:00 08/06",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -535,7 +553,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/19155.png",
             "logo_b": "https://media.api-sports.io/football/teams/19151.png",
             "time": "20:00 08/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "blv": "BLV PHAN MÃ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -544,6 +562,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Malaysia U19_20-00 08-06_75e186b1_20260608.png?v=75e186b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8f09c1542e",
+          "name": "Singapore U19 vs Brunei U19 | 20:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f09c1542e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8f09c1542e",
+                  "name": "Singapore U19 vs Brunei U19",
+                  "streams": [
+                    {
+                      "id": "st-8f09c1542e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Singapore U19",
+            "team_b": "Brunei U19",
+            "logo_a": "https://static.flashscore.com/res/image/data/A5Yr66oG-Qq89lvZJ.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19147.png",
+            "time": "20:00 08/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore U19_Brunei U19_20-00 08-06_5b8f71c7_20260608.png?v=5b8f71c7",
             "width": 1600,
             "height": 1200
           }
