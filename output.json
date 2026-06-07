@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:10 07/06/2026",
+  "updated_at": "09:40 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -922,82 +922,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-cb7ea8f5f3",
-          "name": "Việt Nam vs Hồng Kông | 08:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb7ea8f5f3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cb7ea8f5f3",
-                  "name": "Việt Nam vs Hồng Kông",
-                  "streams": [
-                    {
-                      "id": "st-cb7ea8f5f3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Việt Nam",
-            "team_b": "Hồng Kông",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
-            "time": "08:00 07/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Việt Nam_Hồng Kông_08-00 07-06_217ddafc_20260607.png?v=217ddafc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-c0a1e53757",
           "name": "Thái Lan vs CH Séc | 10:30 07/06",
