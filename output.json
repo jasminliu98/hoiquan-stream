@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:30 08/06/2026",
+  "updated_at": "05:30 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-0826d268f3",
-          "name": "Ecuador vs Guatemala | 03:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0826d268f3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0826d268f3",
-                  "name": "Ecuador vs Guatemala",
-                  "streams": [
-                    {
-                      "id": "st-0826d268f3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Ecuador",
-            "team_b": "Guatemala",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5161.png",
-            "time": "03:00 08/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Guatemala_03-00 08-06_1d48970d_20260608.png?v=1d48970d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-cb53c46505",
           "name": "Colombia vs Jordan | 06:00 08/06",
