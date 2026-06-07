@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:35 07/06/2026",
+  "updated_at": "13:45 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -893,8 +893,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-cd786cdf61",
-          "name": "Đài Loan vs Hàn Quốc | 14:00 07/06",
+          "id": "hqlive-b0cd9bcef9",
+          "name": "Bỉ vs Serbia | 14:00 07/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -908,15 +908,15 @@
           ],
           "sources": [
             {
-              "id": "src-cd786cdf61",
+              "id": "src-b0cd9bcef9",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-cd786cdf61",
-                  "name": "Đài Loan vs Hàn Quốc",
+                  "id": "ct-b0cd9bcef9",
+                  "name": "Bỉ vs Serbia",
                   "streams": [
                     {
-                      "id": "st-cd786cdf61",
+                      "id": "st-b0cd9bcef9",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -944,67 +944,14 @@
             }
           ],
           "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Đài Loan",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "time": "14:00 07/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Hàn Quốc_14-00 07-06_edcd58ca_20260607.png?v=edcd58ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-b0cd9bcef9",
-          "name": "Bỉ vs Serbia | 14:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b0cd9bcef9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b0cd9bcef9",
-                  "name": "Bỉ vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-b0cd9bcef9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Nation League Women",
             "team_a": "Bỉ",
             "team_b": "Serbia",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
             "time": "14:00 07/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
