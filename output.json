@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 07/06/2026",
+  "updated_at": "19:45 07/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1760,8 +1760,8 @@
           }
         },
         {
-          "id": "hqlive-90bb447500",
-          "name": "Kazakhstan vs Iran | 08:00 09/06",
+          "id": "hqlive-13ae8b9256",
+          "name": "Kazakhstan vs Iran | 11:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1775,15 +1775,15 @@
           ],
           "sources": [
             {
-              "id": "src-90bb447500",
+              "id": "src-13ae8b9256",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-90bb447500",
+                  "id": "ct-13ae8b9256",
                   "name": "Kazakhstan vs Iran",
                   "streams": [
                     {
-                      "id": "st-90bb447500",
+                      "id": "st-13ae8b9256",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1798,7 +1798,7 @@
             "team_b": "Iran",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "time": "08:00 09/06",
+            "time": "11:00 09/06",
             "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-chuyen"
@@ -1807,7 +1807,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Iran_08-00 09-06_6edbe422_20260607.png?v=6edbe422",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Iran_11-00 09-06_6edbe422_20260607.png?v=6edbe422",
             "width": 1600,
             "height": 1200
           }
