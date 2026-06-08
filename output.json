@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:35 08/06/2026",
+  "updated_at": "10:50 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -522,6 +522,59 @@
           }
         },
         {
+          "id": "hqlive-1bbcb6cef5",
+          "name": "Philippines vs Kyrgyzstan | 14:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bbcb6cef5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1bbcb6cef5",
+                  "name": "Philippines vs Kyrgyzstan",
+                  "streams": [
+                    {
+                      "id": "st-1bbcb6cef5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Philippines",
+            "team_b": "Kyrgyzstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
+            "time": "14:00 08/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Kyrgyzstan_14-00 08-06_f5356ac2_20260608.png?v=f5356ac2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-b171a56ed5",
           "name": "Việt Nam vs Indonesia | 17:00 08/06",
           "type": "single",
@@ -614,7 +667,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
             "time": "20:00 08/06",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -623,59 +676,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Úc_20-00 08-06_96b51dc4_20260608.png?v=96b51dc4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-13e3132df2",
-          "name": "Philippines vs Kyrgyzstan | 20:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13e3132df2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-13e3132df2",
-                  "name": "Philippines vs Kyrgyzstan",
-                  "streams": [
-                    {
-                      "id": "st-13e3132df2",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Philippines",
-            "team_b": "Kyrgyzstan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
-            "time": "20:00 08/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Kyrgyzstan_20-00 08-06_f5356ac2_20260608.png?v=f5356ac2",
             "width": 1600,
             "height": 1200
           }
