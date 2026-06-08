@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:50 08/06/2026",
+  "updated_at": "11:20 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -464,59 +464,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Kông_Iran_11-00 08-06_116b54f1_20260608.png?v=116b54f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-dcb6f92d0c",
-          "name": "Lebanon vs Kazakhstan | 14:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dcb6f92d0c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-dcb6f92d0c",
-                  "name": "Lebanon vs Kazakhstan",
-                  "streams": [
-                    {
-                      "id": "st-dcb6f92d0c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Lebanon",
-            "team_b": "Kazakhstan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
-            "time": "14:00 08/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Kazakhstan_14-00 08-06_90c65a9e_20260608.png?v=90c65a9e",
             "width": 1600,
             "height": 1200
           }
