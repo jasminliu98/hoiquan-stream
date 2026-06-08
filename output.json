@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 08/06/2026",
+  "updated_at": "21:00 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -862,6 +862,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Mozambique_20-00 09-06_439eafcc_20260608.png?v=439eafcc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d1fe4db3e9",
+          "name": "Bahrain vs Syria | 21:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1fe4db3e9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d1fe4db3e9",
+                  "name": "Bahrain vs Syria",
+                  "streams": [
+                    {
+                      "id": "st-d1fe4db3e9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Bahrain",
+            "team_b": "Syria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Emblem_of_Bahrain.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Syria_%281930%E2%80%931958%2C_1961%E2%80%931963%29.svg/330px-Flag_of_Syria_%281930%E2%80%931958%2C_1961%E2%80%931963%29.svg.png",
+            "time": "21:00 09/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bahrain_Syria_21-00 09-06_de20a6fc_20260608.png?v=de20a6fc",
             "width": 1600,
             "height": 1200
           }
