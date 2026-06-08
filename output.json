@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:00 09/06/2026",
+  "updated_at": "06:00 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -861,6 +861,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nautico Recife_Fortaleza EC_05-00 10-06_e6701627_20260609.png?v=e6701627",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-083012a709",
+          "name": "Saudi Arabia vs Senegal | 06:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-083012a709",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-083012a709",
+                  "name": "Saudi Arabia vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-083012a709",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Saudi Arabia",
+            "team_b": "Senegal",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/330px-Flag_of_Saudi_Arabia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
+            "time": "06:00 10/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Saudi Arabia_Senegal_06-00 10-06_983c3821_20260609.png?v=983c3821",
             "width": 1600,
             "height": 1200
           }
