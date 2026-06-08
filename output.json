@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 08/06/2026",
+  "updated_at": "19:50 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -818,6 +818,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Úc_20-00 08-06_96b51dc4_20260608.png?v=96b51dc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9d137c126d",
+          "name": "Lebanon vs Iran | 08:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d137c126d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9d137c126d",
+                  "name": "Lebanon vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-9d137c126d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Lebanon",
+            "team_b": "Iran",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+            "time": "08:00 09/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Iran_08-00 09-06_0d1eca21_20260608.png?v=0d1eca21",
             "width": 1600,
             "height": 1200
           }
