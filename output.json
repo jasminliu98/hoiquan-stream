@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:45 09/06/2026",
+  "updated_at": "00:50 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1268,6 +1268,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IEM Cologne Major 2026_IEM Cologne Major 2026_19-00 08-06_3d2b90e1_20260609.png?v=3d2b90e1",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_cau-long",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-d468cdd842",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 13:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d468cdd842",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d468cdd842",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-d468cdd842",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SATHIO GROUP Australian Badminton Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "13:00 09/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_13-00 09-06_cacf1340_20260609.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bd6eff0ae3",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 15:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd6eff0ae3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bd6eff0ae3",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-bd6eff0ae3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SATHIO GROUP Australian Badminton Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "15:00 09/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_15-00 09-06_cacf1340_20260609.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
