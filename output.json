@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:50 08/06/2026",
+  "updated_at": "20:00 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -738,6 +738,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Togo_Benin_19-00 09-06_f0c22e7c_20260608.png?v=f0c22e7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cfccb662de",
+          "name": "Australia U19 vs Cambodia U19 | 20:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfccb662de",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cfccb662de",
+                  "name": "Australia U19 vs Cambodia U19",
+                  "streams": [
+                    {
+                      "id": "st-cfccb662de",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Australia U19",
+            "team_b": "Cambodia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/22591.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19148.png",
+            "time": "20:00 09/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Australia U19_Cambodia U19_20-00 09-06_e64fa7fd_20260608.png?v=e64fa7fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-00823f4793",
+          "name": "Indonesia vs Mozambique | 20:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-00823f4793",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-00823f4793",
+                  "name": "Indonesia vs Mozambique",
+                  "streams": [
+                    {
+                      "id": "st-00823f4793",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Indonesia",
+            "team_b": "Mozambique",
+            "logo_a": "https://i.imgur.com/P4sNAMH.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg",
+            "time": "20:00 09/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Mozambique_20-00 09-06_439eafcc_20260608.png?v=439eafcc",
             "width": 1600,
             "height": 1200
           }
