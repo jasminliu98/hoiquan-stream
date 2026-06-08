@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 08/06/2026",
+  "updated_at": "18:20 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1091,82 +1091,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7cfbfb9506",
-          "name": "Alejandro Davidovich Fokina vs Mattia Bellucci | 16:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7cfbfb9506",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7cfbfb9506",
-                  "name": "Alejandro Davidovich Fokina vs Mattia Bellucci",
-                  "streams": [
-                    {
-                      "id": "st-7cfbfb9506",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Alejandro Davidovich Fokina",
-            "team_b": "Mattia Bellucci",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg/960px-Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg",
-            "time": "16:00 08/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alejandro Davidovich Fokina_Mattia Bellucci_16-00 08-06_9d440ac8_20260608.png?v=9d440ac8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7395ff8093",
           "name": "Maric Cilic vs Denis Shapovalov | 19:30 08/06",
