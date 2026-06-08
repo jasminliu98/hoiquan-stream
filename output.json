@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:20 08/06/2026",
+  "updated_at": "11:25 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -398,8 +398,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-9324bbf15e",
-          "name": "Hồng Kông vs Iran | 11:00 08/06",
+          "id": "hqlive-78d89a3698",
+          "name": "Kazakhstan vs Iran | 11:00 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -413,15 +413,15 @@
           ],
           "sources": [
             {
-              "id": "src-9324bbf15e",
+              "id": "src-78d89a3698",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-9324bbf15e",
-                  "name": "Hồng Kông vs Iran",
+                  "id": "ct-78d89a3698",
+                  "name": "Kazakhstan vs Iran",
                   "streams": [
                     {
-                      "id": "st-9324bbf15e",
+                      "id": "st-78d89a3698",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -450,9 +450,9 @@
           ],
           "org_metadata": {
             "league": "AVC Nations Cup 2026",
-            "team_a": "Hồng Kông",
+            "team_a": "Kazakhstan",
             "team_b": "Iran",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
             "time": "11:00 08/06",
             "blv": "BLV PHAN CA",
@@ -463,7 +463,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hồng Kông_Iran_11-00 08-06_116b54f1_20260608.png?v=116b54f1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Iran_11-00 08-06_6edbe422_20260608.png?v=6edbe422",
             "width": 1600,
             "height": 1200
           }
@@ -628,112 +628,6 @@
           }
         },
         {
-          "id": "hqlive-13ae8b9256",
-          "name": "Kazakhstan vs Iran | 11:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13ae8b9256",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-13ae8b9256",
-                  "name": "Kazakhstan vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-13ae8b9256",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Kazakhstan",
-            "team_b": "Iran",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "time": "11:00 09/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kazakhstan_Iran_11-00 09-06_6edbe422_20260608.png?v=6edbe422",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cf432da2b9",
-          "name": "Lebanon vs Hồng Kông | 11:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf432da2b9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cf432da2b9",
-                  "name": "Lebanon vs Hồng Kông",
-                  "streams": [
-                    {
-                      "id": "st-cf432da2b9",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Lebanon",
-            "team_b": "Hồng Kông",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
-            "time": "11:00 09/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lebanon_Hồng Kông_11-00 09-06_d84a67fc_20260608.png?v=d84a67fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-eb1fda3a55",
           "name": "Uzbekistan vs Đài Loan | 11:00 09/06",
           "type": "single",
@@ -835,59 +729,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippin_Hàn Quốc_14-00 09-06_b9d62e4d_20260608.png?v=b9d62e4d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0767f6542b",
-          "name": "Kyrgyzstan vs Đài Loan | 17:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0767f6542b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0767f6542b",
-                  "name": "Kyrgyzstan vs Đài Loan",
-                  "streams": [
-                    {
-                      "id": "st-0767f6542b",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Kyrgyzstan",
-            "team_b": "Đài Loan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
-            "time": "17:00 09/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kyrgyzstan_Đài Loan_17-00 09-06_81a80f4c_20260608.png?v=81a80f4c",
             "width": 1600,
             "height": 1200
           }
