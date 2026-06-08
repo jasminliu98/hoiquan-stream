@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 09/06/2026",
+  "updated_at": "00:30 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1534,6 +1534,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Bublik-Nick Kyrgios_Jakub Paul-Ryan Seggerman_23-00 08-06_e8d367b6_20260609.png?v=e8d367b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0693e28f4b",
+          "name": "Gabriel Diallo vs Adrian Mannarino | 16:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0693e28f4b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0693e28f4b",
+                  "name": "Gabriel Diallo vs Adrian Mannarino",
+                  "streams": [
+                    {
+                      "id": "st-0693e28f4b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Gabriel Diallo",
+            "team_b": "Adrian Mannarino",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Diallo_WMQ23_%2853061896439%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1X_vdkr2qEtGkmAlG2kozybzoSFfkV7zz1g&s",
+            "time": "16:00 09/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gabriel Diallo_Adrian Mannarino_16-00 09-06_e529d845_20260609.png?v=e529d845",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e5e3130227",
+          "name": "Tallon Griekspoor vs Flavio Coboli | 17:30 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5e3130227",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e5e3130227",
+                  "name": "Tallon Griekspoor vs Flavio Coboli",
+                  "streams": [
+                    {
+                      "id": "st-e5e3130227",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Tallon Griekspoor",
+            "team_b": "Flavio Coboli",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/0/03/Griekspoor_RG22_%281%29_%2852144112028%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "time": "17:30 09/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tallon Griekspoor_Flavio Coboli_17-30 09-06_48a3b754_20260609.png?v=48a3b754",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6960269242",
+          "name": "Benjamin Bonzi vs Zizou Bergs | 19:30 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6960269242",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6960269242",
+                  "name": "Benjamin Bonzi vs Zizou Bergs",
+                  "streams": [
+                    {
+                      "id": "st-6960269242",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Benjamin Bonzi",
+            "team_b": "Zizou Bergs",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFEEpUH4GyiUFgY5u-Dgiqc0hqecM0NTHIA&s",
+            "time": "19:30 09/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Zizou Bergs_19-30 09-06_7005d662_20260609.png?v=7005d662",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f6278ef538",
+          "name": "Daniel Altmaier vs Frances Tiafoe | 20:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f6278ef538",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f6278ef538",
+                  "name": "Daniel Altmaier vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-f6278ef538",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Daniel Altmaier",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "time": "20:00 09/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Altmaier_Frances Tiafoe_20-00 09-06_61724719_20260609.png?v=61724719",
             "width": 1600,
             "height": 1200
           }
