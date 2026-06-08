@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:35 09/06/2026",
+  "updated_at": "00:45 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1391,14 +1391,14 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-e62ad7144f",
-          "name": "Tommy Paul vs Giovanni Mpetshi Perricard | 21:00 08/06",
+          "id": "hqlive-7e1f7fc78f",
+          "name": "Roman Safiullin vs Giovanni Mpetshi Perricard | 17:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1412,15 +1412,15 @@
           ],
           "sources": [
             {
-              "id": "src-e62ad7144f",
+              "id": "src-7e1f7fc78f",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e62ad7144f",
-                  "name": "Tommy Paul vs Giovanni Mpetshi Perricard",
+                  "id": "ct-7e1f7fc78f",
+                  "name": "Roman Safiullin vs Giovanni Mpetshi Perricard",
                   "streams": [
                     {
-                      "id": "st-e62ad7144f",
+                      "id": "st-7e1f7fc78f",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1449,11 +1449,11 @@
           ],
           "org_metadata": {
             "league": "ATP250 Stuttgart",
-            "team_a": "Tommy Paul",
+            "team_a": "Roman Safiullin",
             "team_b": "Giovanni Mpetshi Perricard",
-            "logo_a": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
+            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2022_01_02/safiullin_VVRF.jpg.webp",
             "logo_b": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
-            "time": "21:00 08/06",
+            "time": "17:00 09/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1462,78 +1462,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tommy Paul_Giovanni Mpetshi Perricard_21-00 08-06_a045d30d_20260609.png?v=a045d30d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4b0621e37b",
-          "name": "Alexander Bublik/Nick Kyrgios vs Jakub Paul/Ryan Seggerman | 23:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b0621e37b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4b0621e37b",
-                  "name": "Alexander Bublik/Nick Kyrgios vs Jakub Paul/Ryan Seggerman",
-                  "streams": [
-                    {
-                      "id": "st-4b0621e37b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Alexander Bublik/Nick Kyrgios",
-            "team_b": "Jakub Paul/Ryan Seggerman",
-            "logo_a": "https://previews.123rf.com/images/madabatman/madabatman2007/madabatman200700012/150920417-abstract-tennis-logo-design-in-vector-quality.jpg",
-            "logo_b": "https://previews.123rf.com/images/madabatman/madabatman2007/madabatman200700012/150920417-abstract-tennis-logo-design-in-vector-quality.jpg",
-            "time": "23:00 08/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Bublik-Nick Kyrgios_Jakub Paul-Ryan Seggerman_23-00 08-06_e8d367b6_20260609.png?v=e8d367b6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Roman Safiullin_Giovanni Mpetshi Perricard_17-00 09-06_4e074d8c_20260609.png?v=4e074d8c",
             "width": 1600,
             "height": 1200
           }
@@ -1592,8 +1521,8 @@
           }
         },
         {
-          "id": "hqlive-e5e3130227",
-          "name": "Tallon Griekspoor vs Flavio Coboli | 17:30 09/06",
+          "id": "hqlive-3f3bde321e",
+          "name": "Tallon Griekspoor vs Botic van de Zandschulp | 17:30 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1607,15 +1536,15 @@
           ],
           "sources": [
             {
-              "id": "src-e5e3130227",
+              "id": "src-3f3bde321e",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e5e3130227",
-                  "name": "Tallon Griekspoor vs Flavio Coboli",
+                  "id": "ct-3f3bde321e",
+                  "name": "Tallon Griekspoor vs Botic van de Zandschulp",
                   "streams": [
                     {
-                      "id": "st-e5e3130227",
+                      "id": "st-3f3bde321e",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1627,9 +1556,9 @@
           "org_metadata": {
             "league": "ATP250 S-Hertogenbosch",
             "team_a": "Tallon Griekspoor",
-            "team_b": "Flavio Coboli",
+            "team_b": "Botic van de Zandschulp",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/0/03/Griekspoor_RG22_%281%29_%2852144112028%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "logo_b": "https://sohanews.sohacdn.com/zoom/480_300/160588918557773824/2021/3/17/photo1615942402810-16159424029261070512435.jpg",
             "time": "17:30 09/06",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -1639,14 +1568,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tallon Griekspoor_Flavio Coboli_17-30 09-06_48a3b754_20260609.png?v=48a3b754",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tallon Griekspoor_Botic van de Zandschulp_17-30 09-06_283d9663_20260609.png?v=283d9663",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-6960269242",
-          "name": "Benjamin Bonzi vs Zizou Bergs | 19:30 09/06",
+          "id": "hqlive-ab01ee80ce",
+          "name": "James McCabe vs Zizou Bergs | 19:30 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1660,15 +1589,15 @@
           ],
           "sources": [
             {
-              "id": "src-6960269242",
+              "id": "src-ab01ee80ce",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-6960269242",
-                  "name": "Benjamin Bonzi vs Zizou Bergs",
+                  "id": "ct-ab01ee80ce",
+                  "name": "James McCabe vs Zizou Bergs",
                   "streams": [
                     {
-                      "id": "st-6960269242",
+                      "id": "st-ab01ee80ce",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1679,9 +1608,9 @@
           ],
           "org_metadata": {
             "league": "ATP250 S-Hertogenbosch",
-            "team_a": "Benjamin Bonzi",
+            "team_a": "James McCabe",
             "team_b": "Zizou Bergs",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/James_McCabe_%282025_DC_Open%29_01_%28cropped%29.jpg/960px-James_McCabe_%282025_DC_Open%29_01_%28cropped%29.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFEEpUH4GyiUFgY5u-Dgiqc0hqecM0NTHIA&s",
             "time": "19:30 09/06",
             "blv": "BLV PHAN TỪ",
@@ -1692,7 +1621,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Zizou Bergs_19-30 09-06_7005d662_20260609.png?v=7005d662",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/James McCabe_Zizou Bergs_19-30 09-06_6a73c158_20260609.png?v=6a73c158",
             "width": 1600,
             "height": 1200
           }
@@ -1751,8 +1680,8 @@
           }
         },
         {
-          "id": "hqlive-84b34a2552",
-          "name": "Anastasia Potapova vs Jannik Sinner | 21:00 09/06",
+          "id": "hqlive-3b24194e62",
+          "name": "Anastasia Potapova vs Suzan Lamens | 21:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1766,15 +1695,15 @@
           ],
           "sources": [
             {
-              "id": "src-84b34a2552",
+              "id": "src-3b24194e62",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-84b34a2552",
-                  "name": "Anastasia Potapova vs Jannik Sinner",
+                  "id": "ct-3b24194e62",
+                  "name": "Anastasia Potapova vs Suzan Lamens",
                   "streams": [
                     {
-                      "id": "st-84b34a2552",
+                      "id": "st-3b24194e62",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1786,9 +1715,9 @@
           "org_metadata": {
             "league": "ATP250 S-Hertogenbosch",
             "team_a": "Anastasia Potapova",
-            "team_b": "Jannik Sinner",
+            "team_b": "Suzan Lamens",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLVNOI6NxwTwLAy8bBwn3Rf0BtrYlb7phVRQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkuD4iDpTTtrKYv1EJ3LPjU01T_fPpfF-hg&s",
+            "logo_b": "https://photoresources.wtatennis.com/photo-resources/2025/03/10/bb2dfd5a-5f4d-4cbc-91a6-dd1ad1611ff5/Lamens-Torso_324898.png?width=790&height=740",
             "time": "21:00 09/06",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -1798,14 +1727,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anastasia Potapova_Jannik Sinner_21-00 09-06_6bd8669e_20260609.png?v=6bd8669e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anastasia Potapova_Suzan Lamens_21-00 09-06_50705ba3_20260609.png?v=50705ba3",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-2e11e1a59e",
-          "name": "Alexander Bublik/Nick Kyrgios vs Corentin Moutet | 22:00 09/06",
+          "id": "hqlive-413bf2a776",
+          "name": "Nick Kyrgios vs Corentin Moutet | 22:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1819,15 +1748,15 @@
           ],
           "sources": [
             {
-              "id": "src-2e11e1a59e",
+              "id": "src-413bf2a776",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-2e11e1a59e",
-                  "name": "Alexander Bublik/Nick Kyrgios vs Corentin Moutet",
+                  "id": "ct-413bf2a776",
+                  "name": "Nick Kyrgios vs Corentin Moutet",
                   "streams": [
                     {
-                      "id": "st-2e11e1a59e",
+                      "id": "st-413bf2a776",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1838,9 +1767,9 @@
           ],
           "org_metadata": {
             "league": "ATP250 Stuttgart",
-            "team_a": "Alexander Bublik/Nick Kyrgios",
+            "team_a": "Nick Kyrgios",
             "team_b": "Corentin Moutet",
-            "logo_a": "https://previews.123rf.com/images/madabatman/madabatman2007/madabatman200700012/150920417-abstract-tennis-logo-design-in-vector-quality.jpg",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg/330px-Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
             "time": "22:00 09/06",
             "blv": "BLV PHAN BÁCH",
@@ -1851,7 +1780,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Bublik-Nick Kyrgios_Corentin Moutet_22-00 09-06_b6d076f8_20260609.png?v=b6d076f8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nick Kyrgios_Corentin Moutet_22-00 09-06_2d0b9601_20260609.png?v=2d0b9601",
             "width": 1600,
             "height": 1200
           }
