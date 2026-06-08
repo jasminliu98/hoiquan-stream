@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:45 09/06/2026",
+  "updated_at": "03:55 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f6e7ceba79",
-          "name": "Netherlands vs Uzbekistan | 01:45 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6e7ceba79",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f6e7ceba79",
-                  "name": "Netherlands vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-f6e7ceba79",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Netherlands",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1568.png",
-            "time": "01:45 09/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Uzbekistan_01-45 09-06_5be963f9_20260609.png?v=5be963f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-c03c2ba2a3",
-          "name": "Niger vs Mauritania | 02:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c03c2ba2a3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c03c2ba2a3",
-                  "name": "Niger vs Mauritania",
-                  "streams": [
-                    {
-                      "id": "st-c03c2ba2a3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Niger",
-            "team_b": "Mauritania",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Niger_FF_%28logo%29.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1491.png",
-            "time": "02:00 09/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Niger_Mauritania_02-00 09-06_71cc586d_20260609.png?v=71cc586d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-c73b32776a",
           "name": "France vs Northern Ireland | 02:10 09/06",
