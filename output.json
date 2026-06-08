@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:05 08/06/2026",
+  "updated_at": "16:10 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1003,7 +1003,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
             "time": "07:30 09/06",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN TỪ, BLV PHAN PHÉP",
             "is_live": false,
             "sport_slug": "bong-ro"
           },
@@ -1056,7 +1056,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
             "time": "07:30 11/06",
-            "blv": "BLV PHAN TỪ",
+            "blv": "BLV PHAN TỪ, BLV PHAN PHÉP",
             "is_live": false,
             "sport_slug": "bong-ro"
           },
