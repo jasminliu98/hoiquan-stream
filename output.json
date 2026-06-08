@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:30 08/06/2026",
+  "updated_at": "22:40 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "hqlive-3a75c09ae0",
-          "name": "Baghdad vs Karbala | 22:30 08/06",
+          "id": "hqlive-09b9ee3284",
+          "name": "Kooteepee vs Haka | 22:30 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,15 +104,15 @@
           ],
           "sources": [
             {
-              "id": "src-3a75c09ae0",
+              "id": "src-09b9ee3284",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-3a75c09ae0",
-                  "name": "Baghdad vs Karbala",
+                  "id": "ct-09b9ee3284",
+                  "name": "Kooteepee vs Haka",
                   "streams": [
                     {
-                      "id": "st-3a75c09ae0",
+                      "id": "st-09b9ee3284",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -140,11 +140,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Iraqi League",
-            "team_a": "Baghdad",
-            "team_b": "Karbala",
-            "logo_a": "https://media.api-sports.io/football/teams/11069.png",
-            "logo_b": "https://media.api-sports.io/football/teams/20464.png",
+            "league": "Ykkösliiga",
+            "team_a": "Kooteepee",
+            "team_b": "Haka",
+            "logo_a": "https://media.api-sports.io/football/teams/2076.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2080.png",
             "time": "22:30 08/06",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
@@ -154,7 +154,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Baghdad_Karbala_22-30 08-06_342767d4_20260608.png?v=342767d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kooteepee_Haka_22-30 08-06_eccac371_20260608.png?v=eccac371",
             "width": 1600,
             "height": 1200
           }
