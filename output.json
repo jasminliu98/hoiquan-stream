@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:00 08/06/2026",
+  "updated_at": "22:00 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -915,6 +915,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bahrain_Syria_21-00 09-06_de20a6fc_20260608.png?v=de20a6fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7ed7cd7ba4",
+          "name": "Congo DR vs Chile | 22:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ed7cd7ba4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7ed7cd7ba4",
+                  "name": "Congo DR vs Chile",
+                  "streams": [
+                    {
+                      "id": "st-7ed7cd7ba4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Congo DR",
+            "team_b": "Chile",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+            "time": "22:00 09/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Congo DR_Chile_22-00 09-06_2b037abd_20260608.png?v=2b037abd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e5904530f9",
+          "name": "Serbia U19 vs Portugal U19 | 22:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5904530f9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e5904530f9",
+                  "name": "Serbia U19 vs Portugal U19",
+                  "streams": [
+                    {
+                      "id": "st-e5904530f9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship - Qualification",
+            "team_a": "Serbia U19",
+            "team_b": "Portugal U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10346.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/1280px-Flag_of_Portugal_%28official%29.svg.png",
+            "time": "22:00 09/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia U19_Portugal U19_22-00 09-06_cd596461_20260608.png?v=cd596461",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b9a47f57f6",
+          "name": "Armenia vs Moldova | 22:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9a47f57f6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b9a47f57f6",
+                  "name": "Armenia vs Moldova",
+                  "streams": [
+                    {
+                      "id": "st-b9a47f57f6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Armenia",
+            "team_b": "Moldova",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/330px-Flag_of_Moldova.svg.png",
+            "time": "22:00 09/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Armenia_Moldova_22-00 09-06_7c10c188_20260608.png?v=7c10c188",
             "width": 1600,
             "height": 1200
           }
