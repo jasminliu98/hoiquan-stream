@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:00 08/06/2026",
+  "updated_at": "16:05 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,59 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-1ed346e929",
-          "name": "Uganda vs Madagascar | 19:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ed346e929",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1ed346e929",
-                  "name": "Uganda vs Madagascar",
-                  "streams": [
-                    {
-                      "id": "st-1ed346e929",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Uganda",
-            "team_b": "Madagascar",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/250px-Flag_of_Uganda.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg",
-            "time": "19:00 08/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uganda_Madagascar_19-00 08-06_45465833_20260608.png?v=45465833",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a0f62a9e00",
           "name": "Thailand U19 vs Malaysia U19 | 20:00 08/06",
@@ -172,6 +119,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Singapore U19_Brunei U19_20-00 08-06_5b8f71c7_20260608.png?v=5b8f71c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-830649a210",
+          "name": "Masr vs Wadi Degla | 21:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-830649a210",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-830649a210",
+                  "name": "Masr vs Wadi Degla",
+                  "streams": [
+                    {
+                      "id": "st-830649a210",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Masr",
+            "team_b": "Wadi Degla",
+            "logo_a": "https://media.api-sports.io/football/teams/7520.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1046.png",
+            "time": "21:00 08/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Masr_Wadi Degla_21-00 08-06_e69627da_20260608.png?v=e69627da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3a75c09ae0",
+          "name": "Baghdad vs Karbala | 22:30 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a75c09ae0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a75c09ae0",
+                  "name": "Baghdad vs Karbala",
+                  "streams": [
+                    {
+                      "id": "st-3a75c09ae0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iraqi League",
+            "team_a": "Baghdad",
+            "team_b": "Karbala",
+            "logo_a": "https://media.api-sports.io/football/teams/11069.png",
+            "logo_b": "https://media.api-sports.io/football/teams/20464.png",
+            "time": "22:30 08/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Baghdad_Karbala_22-30 08-06_342767d4_20260608.png?v=342767d4",
             "width": 1600,
             "height": 1200
           }
