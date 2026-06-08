@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:40 08/06/2026",
+  "updated_at": "22:45 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "hqlive-09b9ee3284",
-          "name": "Kooteepee vs Haka | 22:30 08/06",
+          "id": "hqlive-a89a03bb95",
+          "name": "Venezuela U20 vs Portugal U20 | 23:30 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,15 +104,15 @@
           ],
           "sources": [
             {
-              "id": "src-09b9ee3284",
+              "id": "src-a89a03bb95",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-09b9ee3284",
-                  "name": "Kooteepee vs Haka",
+                  "id": "ct-a89a03bb95",
+                  "name": "Venezuela U20 vs Portugal U20",
                   "streams": [
                     {
-                      "id": "st-09b9ee3284",
+                      "id": "st-a89a03bb95",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -140,12 +140,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Ykkösliiga",
-            "team_a": "Kooteepee",
-            "team_b": "Haka",
-            "logo_a": "https://media.api-sports.io/football/teams/2076.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2080.png",
-            "time": "22:30 08/06",
+            "league": "Tournoi Maurice Revello",
+            "team_a": "Venezuela U20",
+            "team_b": "Portugal U20",
+            "logo_a": "https://media.api-sports.io/football/teams/10314.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10299.png",
+            "time": "23:30 08/06",
             "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "bong-da"
@@ -154,7 +154,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kooteepee_Haka_22-30 08-06_eccac371_20260608.png?v=eccac371",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Venezuela U20_Portugal U20_23-30 08-06_205a93c9_20260608.png?v=205a93c9",
             "width": 1600,
             "height": 1200
           }
@@ -1427,7 +1427,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1582,10 +1582,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1600,7 +1600,25 @@
                     {
                       "id": "st-4b0621e37b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1615,7 +1633,7 @@
             "logo_b": "https://previews.123rf.com/images/madabatman/madabatman2007/madabatman200700012/150920417-abstract-tennis-logo-design-in-vector-quality.jpg",
             "time": "23:00 08/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
