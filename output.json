@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 08/06/2026",
+  "updated_at": "19:00 08/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China_Thailand_18-35 09-06_729504ba_20260608.png?v=729504ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a8a44ad779",
+          "name": "Angola vs Central African Republic | 19:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8a44ad779",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a8a44ad779",
+                  "name": "Angola vs Central African Republic",
+                  "streams": [
+                    {
+                      "id": "st-a8a44ad779",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Angola",
+            "team_b": "Central African Republic",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/1280px-Flag_of_Angola.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/1280px-Flag_of_the_Central_African_Republic.svg.png",
+            "time": "19:00 09/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Angola_Central African Republic_19-00 09-06_63b90dc9_20260608.png?v=63b90dc9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b517f0b158",
+          "name": "Botswana vs Niger | 19:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b517f0b158",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b517f0b158",
+                  "name": "Botswana vs Niger",
+                  "streams": [
+                    {
+                      "id": "st-b517f0b158",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Botswana",
+            "team_b": "Niger",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWCfMst42ogd805skChF2kE3d-CuspBC8W-g&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/63/Niger_FF_%28logo%29.png",
+            "time": "19:00 09/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botswana_Niger_19-00 09-06_42863e3d_20260608.png?v=42863e3d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b049db651e",
+          "name": "Togo vs Benin | 19:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b049db651e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b049db651e",
+                  "name": "Togo vs Benin",
+                  "streams": [
+                    {
+                      "id": "st-b049db651e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Togo",
+            "team_b": "Benin",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1920px-Flag_of_Togo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/250px-Flag_of_Benin.svg.png",
+            "time": "19:00 09/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Togo_Benin_19-00 09-06_f0c22e7c_20260608.png?v=f0c22e7c",
             "width": 1600,
             "height": 1200
           }
