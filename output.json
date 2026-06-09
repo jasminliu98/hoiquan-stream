@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 09/06/2026",
+  "updated_at": "20:00 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -226,77 +226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia_Hong Kong_19-00 09-06_f90b65b7_20260609.png?v=f90b65b7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a8ef45998e",
-          "name": "Livyi Bereh vs Oleksandria | 19:30 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8ef45998e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a8ef45998e",
-                  "name": "Livyi Bereh vs Oleksandria",
-                  "streams": [
-                    {
-                      "id": "st-a8ef45998e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Livyi Bereh",
-            "team_b": "Oleksandria",
-            "logo_a": "https://media.api-sports.io/football/teams/17162.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3619.png",
-            "time": "19:30 09/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Livyi Bereh_Oleksandria_19-30 09-06_33ab47a5_20260609.png?v=33ab47a5",
             "width": 1600,
             "height": 1200
           }
@@ -1078,6 +1007,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-6124e76808",
+          "name": "Cape Town City vs Magesi | 20:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6124e76808",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6124e76808",
+                  "name": "Cape Town City vs Magesi",
+                  "streams": [
+                    {
+                      "id": "st-6124e76808",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier Soccer League",
+            "team_a": "Cape Town City",
+            "team_b": "Magesi",
+            "logo_a": "https://media.api-sports.io/football/teams/2697.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19999.png",
+            "time": "20:00 10/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Town City_Magesi_20-00 10-06_37565e24_20260609.png?v=37565e24",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1116,11 +1098,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1146,7 +1128,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/1280px-Flag_of_Kyrgyzstan.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
             "time": "20:00 09/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV PHAN CA",
             "is_live": true,
             "sport_slug": "bong-chuyen"
           },
