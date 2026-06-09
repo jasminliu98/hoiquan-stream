@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:50 09/06/2026",
+  "updated_at": "15:20 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1259,6 +1259,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kyrgyzstan_Úc_20-00 09-06_13febb8c_20260609.png?v=13febb8c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ad7ba88954",
+          "name": "Cuneo Granda Volley vs Ba Lan | 12:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad7ba88954",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ad7ba88954",
+                  "name": "Cuneo Granda Volley vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-ad7ba88954",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Cuneo Granda Volley",
+            "team_b": "Ba Lan",
+            "logo_a": "https://ninesquared.team/wp-content/uploads/ninesquared-logo-team-cuneo-uai-258x258.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "12:00 10/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuneo Granda Volley_Ba Lan_12-00 10-06_c72e7283_20260609.png?v=c72e7283",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-61bd48cab1",
+          "name": "Trung Quốc vs Queensesis Kariya | 15:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61bd48cab1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-61bd48cab1",
+                  "name": "Trung Quốc vs Queensesis Kariya",
+                  "streams": [
+                    {
+                      "id": "st-61bd48cab1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Trung Quốc",
+            "team_b": "Queensesis Kariya",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Toyota_Auto_Body_Queenseis.png/250px-Toyota_Auto_Body_Queenseis.png",
+            "time": "15:00 10/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Queensesis Kariya_15-00 10-06_677ff840_20260609.png?v=677ff840",
             "width": 1600,
             "height": 1200
           }
