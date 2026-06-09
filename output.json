@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:35 10/06/2026",
+  "updated_at": "02:00 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -703,6 +703,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Falu BS_Gefle IF_23-00 10-06_2749a9a3_20260610.png?v=2749a9a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4ba7661ac6",
+          "name": "Malaga vs Las Palmas | 02:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ba7661ac6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4ba7661ac6",
+                  "name": "Malaga vs Las Palmas",
+                  "streams": [
+                    {
+                      "id": "st-4ba7661ac6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Malaga",
+            "team_b": "Las Palmas",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/c/c3/M%C3%A1laga_CF.png",
+            "logo_b": "https://media.api-sports.io/football/teams/534.png",
+            "time": "02:00 11/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Malaga_Las Palmas_02-00 11-06_2ec1c50c_20260610.png?v=2ec1c50c",
             "width": 1600,
             "height": 1200
           }
