@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:40 09/06/2026",
+  "updated_at": "18:45 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2029,6 +2029,227 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IEM Cologne Major 2026_IEM Cologne Major 2026_19-00 09-06_3d2b90e1_20260609.png?v=3d2b90e1",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_cau-long",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-5084110730",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 06:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5084110730",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5084110730",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-5084110730",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SATHIO GROUP Australian Badminton Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "06:00 10/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_06-00 10-06_cacf1340_20260609.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bdba77ab76",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 08:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bdba77ab76",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bdba77ab76",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-bdba77ab76",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SATHIO GROUP Australian Badminton Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "08:00 10/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_08-00 10-06_cacf1340_20260609.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7b21415423",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 11:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b21415423",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7b21415423",
+                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
+                  "streams": [
+                    {
+                      "id": "st-7b21415423",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SATHIO GROUP Australian Badminton Open 2026",
+            "team_a": "Tay Vợt Số 1",
+            "team_b": "Tay Vợt Số 2",
+            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
+            "time": "11:00 10/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_11-00 10-06_cacf1340_20260609.png?v=cacf1340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b18c857fb6",
+          "name": "NGUYEN Hai Dang vs Jason GUNAWAN | 11:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b18c857fb6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b18c857fb6",
+                  "name": "NGUYEN Hai Dang vs Jason GUNAWAN",
+                  "streams": [
+                    {
+                      "id": "st-b18c857fb6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SATHIO GROUP Australian Badminton Open 2026",
+            "team_a": "NGUYEN Hai Dang",
+            "team_b": "Jason GUNAWAN",
+            "logo_a": "https://media-cdn-v2.laodong.vn/storage/newsportal/2024/3/13/1314506/Hai-Dang-1.jpg?w=800&h=496&crop=auto&scale=both",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNbRmwB5ZrsH-H5hT2-oLtVvsqqxIZfYl6pg&s",
+            "time": "11:00 10/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "cau-long"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/NGUYEN Hai Dang_Jason GUNAWAN_11-00 10-06_e48b50da_20260609.png?v=e48b50da",
             "width": 1600,
             "height": 1200
           }
