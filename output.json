@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 09/06/2026",
+  "updated_at": "21:30 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -491,59 +491,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Azerbaijan_San Marino_01-00 10-06_f3e01c60_20260609.png?v=f3e01c60",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8a271f0318",
-          "name": "Togo vs Benin | 01:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a271f0318",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8a271f0318",
-                  "name": "Togo vs Benin",
-                  "streams": [
-                    {
-                      "id": "st-8a271f0318",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Togo",
-            "team_b": "Benin",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1920px-Flag_of_Togo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/250px-Flag_of_Benin.svg.png",
-            "time": "01:00 10/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Togo_Benin_01-00 10-06_f0c22e7c_20260609.png?v=f0c22e7c",
             "width": 1600,
             "height": 1200
           }
