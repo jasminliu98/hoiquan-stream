@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:40 09/06/2026",
+  "updated_at": "21:00 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3de9e20fe9",
-          "name": "China vs Thailand | 18:35 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3de9e20fe9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3de9e20fe9",
-                  "name": "China vs Thailand",
-                  "streams": [
-                    {
-                      "id": "st-3de9e20fe9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "China",
-            "team_b": "Thailand",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/1564.png",
-            "time": "18:35 09/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/China_Thailand_18-35 09-06_729504ba_20260609.png?v=729504ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2ca4b5cc0c",
-          "name": "Cambodia vs Hong Kong | 19:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ca4b5cc0c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2ca4b5cc0c",
-                  "name": "Cambodia vs Hong Kong",
-                  "streams": [
-                    {
-                      "id": "st-2ca4b5cc0c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Cambodia",
-            "team_b": "Hong Kong",
-            "logo_a": "https://media.api-sports.io/football/teams/1543.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4460.png",
-            "time": "19:00 09/06",
-            "blv": "BLV TÁO KINH TẾ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia_Hong Kong_19-00 09-06_f90b65b7_20260609.png?v=f90b65b7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-cfccb662de",
           "name": "Australia U19 vs Cambodia U19 | 20:00 09/06",
@@ -986,6 +844,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Town City_Magesi_20-00 10-06_37565e24_20260609.png?v=37565e24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2b458f3546",
+          "name": "KuPS vs VPS | 21:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b458f3546",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2b458f3546",
+                  "name": "KuPS vs VPS",
+                  "streams": [
+                    {
+                      "id": "st-2b458f3546",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Suomen Cup",
+            "team_a": "KuPS",
+            "team_b": "VPS",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/650.png",
+            "time": "21:00 10/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_VPS_21-00 10-06_24b62454_20260609.png?v=24b62454",
             "width": 1600,
             "height": 1200
           }
