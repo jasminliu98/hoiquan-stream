@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:01 10/06/2026",
+  "updated_at": "00:05 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1893,11 +1893,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
+                          "id": "lnk-ee33939914",
+                          "name": "BLV PHAN TỪ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1923,7 +1923,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg/330px-Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
             "time": "23:00 09/06",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
           },
