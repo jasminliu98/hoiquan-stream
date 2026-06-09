@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:40 10/06/2026",
+  "updated_at": "02:45 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -614,6 +614,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Malaga_Las Palmas_02-00 11-06_2ec1c50c_20260610.png?v=2ec1c50c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8bfd7ce809",
+          "name": "Portugal vs Nigeria | 02:45 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bfd7ce809",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8bfd7ce809",
+                  "name": "Portugal vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-8bfd7ce809",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Portugal",
+            "team_b": "Nigeria",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
+            "time": "02:45 11/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Nigeria_02-45 11-06_f4d78801_20260610.png?v=f4d78801",
             "width": 1600,
             "height": 1200
           }
