@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:00 09/06/2026",
+  "updated_at": "12:25 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -442,59 +442,6 @@
           }
         },
         {
-          "id": "hqlive-7ed7cd7ba4",
-          "name": "Congo DR vs Chile | 22:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7ed7cd7ba4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7ed7cd7ba4",
-                  "name": "Congo DR vs Chile",
-                  "streams": [
-                    {
-                      "id": "st-7ed7cd7ba4",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Congo DR",
-            "team_b": "Chile",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
-            "time": "22:00 09/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Congo DR_Chile_22-00 09-06_2b037abd_20260609.png?v=2b037abd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-e5904530f9",
           "name": "Serbia U19 vs Portugal U19 | 22:00 09/06",
           "type": "single",
@@ -601,6 +548,59 @@
           }
         },
         {
+          "id": "hqlive-3a27ca00af",
+          "name": "Congo DR vs Chile | 23:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a27ca00af",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a27ca00af",
+                  "name": "Congo DR vs Chile",
+                  "streams": [
+                    {
+                      "id": "st-3a27ca00af",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Congo DR",
+            "team_b": "Chile",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+            "time": "23:00 09/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Congo DR_Chile_23-00 09-06_2b037abd_20260609.png?v=2b037abd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-a1fec79782",
           "name": "Belarus vs Burkina Faso | 23:30 09/06",
           "type": "single",
@@ -654,8 +654,8 @@
           }
         },
         {
-          "id": "hqlive-052707cabb",
-          "name": "Hungary W vs Andorra W | 00:00 10/06",
+          "id": "hqlive-4425463199",
+          "name": "Hungary vs Kazakhstan | 00:00 10/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -669,15 +669,15 @@
           ],
           "sources": [
             {
-              "id": "src-052707cabb",
+              "id": "src-4425463199",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-052707cabb",
-                  "name": "Hungary W vs Andorra W",
+                  "id": "ct-4425463199",
+                  "name": "Hungary vs Kazakhstan",
                   "streams": [
                     {
-                      "id": "st-052707cabb",
+                      "id": "st-4425463199",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -688,10 +688,10 @@
           ],
           "org_metadata": {
             "league": "World Cup - Women - Qualification Europe",
-            "team_a": "Hungary W",
-            "team_b": "Andorra W",
-            "logo_a": "https://media.api-sports.io/football/teams/1742.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1756.png",
+            "team_a": "Hungary",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/330px-Flag_of_Hungary.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1920px-Flag_of_Kazakhstan.svg.png",
             "time": "00:00 10/06",
             "blv": "BLV THẦN THÔNG",
             "is_live": false,
@@ -701,7 +701,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hungary W_Andorra W_00-00 10-06_7e5c26c1_20260609.png?v=7e5c26c1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hungary_Kazakhstan_00-00 10-06_8b569cbf_20260609.png?v=8b569cbf",
             "width": 1600,
             "height": 1200
           }
