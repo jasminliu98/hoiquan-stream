@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:00 09/06/2026",
+  "updated_at": "07:00 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -914,6 +914,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Saudi Arabia_Senegal_06-00 10-06_983c3821_20260609.png?v=983c3821",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-26c53e065b",
+          "name": "Birmingham Legion vs Corpus Christi | 07:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26c53e065b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-26c53e065b",
+                  "name": "Birmingham Legion vs Corpus Christi",
+                  "streams": [
+                    {
+                      "id": "st-26c53e065b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL League One Cup",
+            "team_a": "Birmingham Legion",
+            "team_b": "Corpus Christi",
+            "logo_a": "https://media.api-sports.io/football/teams/3989.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4043.png",
+            "time": "07:00 10/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Birmingham Legion_Corpus Christi_07-00 10-06_1c38d8dc_20260609.png?v=1c38d8dc",
             "width": 1600,
             "height": 1200
           }
