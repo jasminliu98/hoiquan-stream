@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:25 09/06/2026",
+  "updated_at": "12:30 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -760,6 +760,59 @@
           }
         },
         {
+          "id": "hqlive-8a271f0318",
+          "name": "Togo vs Benin | 01:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a271f0318",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8a271f0318",
+                  "name": "Togo vs Benin",
+                  "streams": [
+                    {
+                      "id": "st-8a271f0318",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Togo",
+            "team_b": "Benin",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1920px-Flag_of_Togo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/250px-Flag_of_Benin.svg.png",
+            "time": "01:00 10/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Togo_Benin_01-00 10-06_f0c22e7c_20260609.png?v=f0c22e7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-baecdab14e",
           "name": "Nautico Recife vs Fortaleza EC | 05:00 10/06",
           "type": "single",
@@ -1028,82 +1081,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-eb1fda3a55",
-          "name": "Uzbekistan vs Đài Loan | 11:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb1fda3a55",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-eb1fda3a55",
-                  "name": "Uzbekistan vs Đài Loan",
-                  "streams": [
-                    {
-                      "id": "st-eb1fda3a55",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Uzbekistan",
-            "team_b": "Đài Loan",
-            "logo_a": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
-            "time": "11:00 09/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uzbekistan_Đài Loan_11-00 09-06_083fa80b_20260609.png?v=083fa80b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-abb969108f",
           "name": "Philippin vs Hàn Quốc | 14:00 09/06",
