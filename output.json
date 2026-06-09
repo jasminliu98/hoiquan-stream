@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:55 09/06/2026",
+  "updated_at": "18:00 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-60db9b0fbe",
-          "name": "Timor-Leste vs Brunei | 16:00 09/06",
+          "id": "hqlive-86a94309b2",
+          "name": "Philippines vs Myanmar | 18:30 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,23 +33,23 @@
           ],
           "sources": [
             {
-              "id": "src-60db9b0fbe",
+              "id": "src-86a94309b2",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-60db9b0fbe",
-                  "name": "Timor-Leste vs Brunei",
+                  "id": "ct-86a94309b2",
+                  "name": "Philippines vs Myanmar",
                   "streams": [
                     {
-                      "id": "st-60db9b0fbe",
+                      "id": "st-86a94309b2",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +69,13 @@
             }
           ],
           "org_metadata": {
-            "league": "ASEAN Championship",
-            "team_a": "Timor-Leste",
-            "team_b": "Brunei",
-            "logo_a": "https://media.api-sports.io/football/teams/5537.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwIDcwq4oT1Zh1_46HFg_wPJJRdS3NyWybA&s",
-            "time": "16:00 09/06",
-            "blv": "BLV THẦN THÔNG",
+            "league": "Friendlies",
+            "team_a": "Philippines",
+            "team_b": "Myanmar",
+            "logo_a": "https://img.freepik.com/free-vector/illustration-philippinesflag_53876-27126.jpg?semt=ais_hybrid&w=740&q=80",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/250px-Flag_of_Myanmar.svg.png",
+            "time": "18:30 09/06",
+            "blv": "BLV PHAN ANH",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Timor-Leste_Brunei_16-00 09-06_646050af_20260609.png?v=646050af",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Philippines_Myanmar_18-30 09-06_ac6ef820_20260609.png?v=ac6ef820",
             "width": 1600,
             "height": 1200
           }
