@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:35 09/06/2026",
+  "updated_at": "08:00 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -967,6 +967,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Birmingham Legion_Corpus Christi_07-00 10-06_1c38d8dc_20260609.png?v=1c38d8dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a99fe833ee",
+          "name": "Argentina vs Iceland | 08:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a99fe833ee",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a99fe833ee",
+                  "name": "Argentina vs Iceland",
+                  "streams": [
+                    {
+                      "id": "st-a99fe833ee",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Argentina",
+            "team_b": "Iceland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/250px-Flag_of_Iceland.svg.png",
+            "time": "08:00 10/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Argentina_Iceland_08-00 10-06_352df835_20260609.png?v=352df835",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d857dc3f6f",
+          "name": "Iraq vs Venezuela | 08:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d857dc3f6f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d857dc3f6f",
+                  "name": "Iraq vs Venezuela",
+                  "streams": [
+                    {
+                      "id": "st-d857dc3f6f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Iraq",
+            "team_b": "Venezuela",
+            "logo_a": "https://media.api-sports.io/football/teams/1567.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/250px-Flag_of_Venezuela.svg.png",
+            "time": "08:00 10/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iraq_Venezuela_08-00 10-06_e1836171_20260609.png?v=e1836171",
             "width": 1600,
             "height": 1200
           }
