@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:50 09/06/2026",
+  "updated_at": "18:55 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -231,8 +231,8 @@
           }
         },
         {
-          "id": "hqlive-b517f0b158",
-          "name": "Botswana vs Niger | 19:00 09/06",
+          "id": "hqlive-2ca4b5cc0c",
+          "name": "Cambodia vs Hong Kong | 19:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -246,15 +246,15 @@
           ],
           "sources": [
             {
-              "id": "src-b517f0b158",
+              "id": "src-2ca4b5cc0c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b517f0b158",
-                  "name": "Botswana vs Niger",
+                  "id": "ct-2ca4b5cc0c",
+                  "name": "Cambodia vs Hong Kong",
                   "streams": [
                     {
-                      "id": "st-b517f0b158",
+                      "id": "st-2ca4b5cc0c",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -283,10 +283,10 @@
           ],
           "org_metadata": {
             "league": "Friendlies",
-            "team_a": "Botswana",
-            "team_b": "Niger",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWCfMst42ogd805skChF2kE3d-CuspBC8W-g&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/63/Niger_FF_%28logo%29.png",
+            "team_a": "Cambodia",
+            "team_b": "Hong Kong",
+            "logo_a": "https://media.api-sports.io/football/teams/1543.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4460.png",
             "time": "19:00 09/06",
             "blv": "BLV TÁO KINH TẾ",
             "is_live": true,
@@ -296,7 +296,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botswana_Niger_19-00 09-06_42863e3d_20260609.png?v=42863e3d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia_Hong Kong_19-00 09-06_f90b65b7_20260609.png?v=f90b65b7",
             "width": 1600,
             "height": 1200
           }
@@ -2096,59 +2096,6 @@
           }
         },
         {
-          "id": "hqlive-bdba77ab76",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 08:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdba77ab76",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-bdba77ab76",
-                  "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
-                  "streams": [
-                    {
-                      "id": "st-bdba77ab76",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SATHIO GROUP Australian Badminton Open 2026",
-            "team_a": "Tay Vợt Số 1",
-            "team_b": "Tay Vợt Số 2",
-            "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "08:00 10/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": false,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_08-00 10-06_cacf1340_20260609.png?v=cacf1340",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-7b21415423",
           "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 11:00 10/06",
           "type": "single",
@@ -2320,7 +2267,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2392,77 +2339,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gabriel Diallo_Adrian Mannarino_16-00 09-06_e529d845_20260609.png?v=e529d845",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-673cc0735d",
-          "name": "Roman Safiullin vs Giovanni Mpetshi Perricard | 18:00 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-673cc0735d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-673cc0735d",
-                  "name": "Roman Safiullin vs Giovanni Mpetshi Perricard",
-                  "streams": [
-                    {
-                      "id": "st-673cc0735d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Roman Safiullin",
-            "team_b": "Giovanni Mpetshi Perricard",
-            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2022_01_02/safiullin_VVRF.jpg.webp",
-            "logo_b": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
-            "time": "18:00 09/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Roman Safiullin_Giovanni Mpetshi Perricard_18-00 09-06_4e074d8c_20260609.png?v=4e074d8c",
             "width": 1600,
             "height": 1200
           }
@@ -2592,8 +2468,8 @@
           }
         },
         {
-          "id": "hqlive-f6278ef538",
-          "name": "Daniel Altmaier vs Frances Tiafoe | 20:00 09/06",
+          "id": "hqlive-dff33768e1",
+          "name": "Daniel Altmaier vs Frances Tiafoe | 21:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2607,15 +2483,15 @@
           ],
           "sources": [
             {
-              "id": "src-f6278ef538",
+              "id": "src-dff33768e1",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f6278ef538",
+                  "id": "ct-dff33768e1",
                   "name": "Daniel Altmaier vs Frances Tiafoe",
                   "streams": [
                     {
-                      "id": "st-f6278ef538",
+                      "id": "st-dff33768e1",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -2630,7 +2506,7 @@
             "team_b": "Frances Tiafoe",
             "logo_a": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
-            "time": "20:00 09/06",
+            "time": "21:00 09/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "tennis"
@@ -2639,7 +2515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Altmaier_Frances Tiafoe_20-00 09-06_61724719_20260609.png?v=61724719",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Altmaier_Frances Tiafoe_21-00 09-06_61724719_20260609.png?v=61724719",
             "width": 1600,
             "height": 1200
           }
@@ -2698,8 +2574,8 @@
           }
         },
         {
-          "id": "hqlive-413bf2a776",
-          "name": "Nick Kyrgios vs Corentin Moutet | 22:00 09/06",
+          "id": "hqlive-c193b29409",
+          "name": "Nick Kyrgios vs Corentin Moutet | 23:00 09/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2713,15 +2589,15 @@
           ],
           "sources": [
             {
-              "id": "src-413bf2a776",
+              "id": "src-c193b29409",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-413bf2a776",
+                  "id": "ct-c193b29409",
                   "name": "Nick Kyrgios vs Corentin Moutet",
                   "streams": [
                     {
-                      "id": "st-413bf2a776",
+                      "id": "st-c193b29409",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -2736,7 +2612,7 @@
             "team_b": "Corentin Moutet",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg/330px-Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
-            "time": "22:00 09/06",
+            "time": "23:00 09/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "tennis"
@@ -2745,7 +2621,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nick Kyrgios_Corentin Moutet_22-00 09-06_2d0b9601_20260609.png?v=2d0b9601",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nick Kyrgios_Corentin Moutet_23-00 09-06_2d0b9601_20260609.png?v=2d0b9601",
             "width": 1600,
             "height": 1200
           }
