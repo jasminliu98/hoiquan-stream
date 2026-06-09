@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:20 09/06/2026",
+  "updated_at": "15:25 09/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1264,8 +1264,8 @@
           }
         },
         {
-          "id": "hqlive-ad7ba88954",
-          "name": "Cuneo Granda Volley vs Ba Lan | 12:00 10/06",
+          "id": "hqlive-8904b5c0d2",
+          "name": "Cuba vs Ba Lan | 12:00 10/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1279,15 +1279,15 @@
           ],
           "sources": [
             {
-              "id": "src-ad7ba88954",
+              "id": "src-8904b5c0d2",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-ad7ba88954",
-                  "name": "Cuneo Granda Volley vs Ba Lan",
+                  "id": "ct-8904b5c0d2",
+                  "name": "Cuba vs Ba Lan",
                   "streams": [
                     {
-                      "id": "st-ad7ba88954",
+                      "id": "st-8904b5c0d2",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1298,9 +1298,9 @@
           ],
           "org_metadata": {
             "league": "Nation League Women",
-            "team_a": "Cuneo Granda Volley",
+            "team_a": "Cuba",
             "team_b": "Ba Lan",
-            "logo_a": "https://ninesquared.team/wp-content/uploads/ninesquared-logo-team-cuneo-uai-258x258.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
             "time": "12:00 10/06",
             "blv": "BLV PHAN HẢI",
@@ -1311,14 +1311,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuneo Granda Volley_Ba Lan_12-00 10-06_c72e7283_20260609.png?v=c72e7283",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Ba Lan_12-00 10-06_47ec31b7_20260609.png?v=47ec31b7",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-61bd48cab1",
-          "name": "Trung Quốc vs Queensesis Kariya | 15:00 10/06",
+          "id": "hqlive-332cd209fd",
+          "name": "Trung Quốc vs Slovenia | 15:00 10/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1332,15 +1332,15 @@
           ],
           "sources": [
             {
-              "id": "src-61bd48cab1",
+              "id": "src-332cd209fd",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-61bd48cab1",
-                  "name": "Trung Quốc vs Queensesis Kariya",
+                  "id": "ct-332cd209fd",
+                  "name": "Trung Quốc vs Slovenia",
                   "streams": [
                     {
-                      "id": "st-61bd48cab1",
+                      "id": "st-332cd209fd",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1352,9 +1352,9 @@
           "org_metadata": {
             "league": "Nation League Women",
             "team_a": "Trung Quốc",
-            "team_b": "Queensesis Kariya",
+            "team_b": "Slovenia",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Toyota_Auto_Body_Queenseis.png/250px-Toyota_Auto_Body_Queenseis.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
             "time": "15:00 10/06",
             "blv": "BLV TÁO KINH TẾ",
             "is_live": false,
@@ -1364,7 +1364,166 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Queensesis Kariya_15-00 10-06_677ff840_20260609.png?v=677ff840",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Slovenia_15-00 10-06_585f30e6_20260609.png?v=585f30e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-254659aa0d",
+          "name": "Ukraina vs Nhật Bản | 19:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-254659aa0d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-254659aa0d",
+                  "name": "Ukraina vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-254659aa0d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "time": "19:00 10/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Nhật Bản_19-00 10-06_1f4a6376_20260609.png?v=1f4a6376",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-fa7c706a18",
+          "name": "Thổ Nhĩ Kỳ vs Mỹ | 22:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa7c706a18",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fa7c706a18",
+                  "name": "Thổ Nhĩ Kỳ vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-fa7c706a18",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "22:00 10/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Mỹ_22-00 10-06_f5de85d0_20260609.png?v=f5de85d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-08abe38459",
+          "name": "Bỉ vs Bulgaria | 23:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08abe38459",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-08abe38459",
+                  "name": "Bỉ vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-08abe38459",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Bulgaria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "time": "23:00 10/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Bulgaria_23-00 10-06_4173d4eb_20260609.png?v=4173d4eb",
             "width": 1600,
             "height": 1200
           }
