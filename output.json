@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:35 10/06/2026",
+  "updated_at": "06:00 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -738,6 +738,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bolivia_Algeria_03-00 11-06_75e9379b_20260610.png?v=75e9379b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3d1c6fa1f9",
+          "name": "Goias vs Novorizontino | 06:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d1c6fa1f9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3d1c6fa1f9",
+                  "name": "Goias vs Novorizontino",
+                  "streams": [
+                    {
+                      "id": "st-3d1c6fa1f9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Goias",
+            "team_b": "Novorizontino",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdA4dVwq19DxdhyjbUAo3wM3GSIMHaPl3tLg&s",
+            "logo_b": "https://media.api-sports.io/football/teams/7834.png",
+            "time": "06:00 11/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Goias_Novorizontino_06-00 11-06_9246e7cb_20260610.png?v=9246e7cb",
             "width": 1600,
             "height": 1200
           }
