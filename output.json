@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 10/06/2026",
+  "updated_at": "19:40 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,6 +17,77 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-22cb950c28",
+          "name": "BuxDu vs Qiziriq | 19:30 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22cb950c28",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-22cb950c28",
+                  "name": "BuxDu vs Qiziriq",
+                  "streams": [
+                    {
+                      "id": "st-22cb950c28",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League A",
+            "team_a": "BuxDu",
+            "team_b": "Qiziriq",
+            "logo_a": "https://media.api-sports.io/football/teams/27584.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKK-vHJCg-8idZtd2ngnD0PY8l0lfgbV-ejA&s",
+            "time": "19:30 10/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/BuxDu_Qiziriq_19-30 10-06_8c78297c_20260610.png?v=8c78297c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-fccc55d661",
           "name": "Shortan vs Gazalkent | 20:00 10/06",
@@ -84,77 +155,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shortan_Gazalkent_20-00 10-06_5afe0eb6_20260610.png?v=5afe0eb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6124e76808",
-          "name": "Cape Town City vs Magesi | 20:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6124e76808",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6124e76808",
-                  "name": "Cape Town City vs Magesi",
-                  "streams": [
-                    {
-                      "id": "st-6124e76808",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier Soccer League",
-            "team_a": "Cape Town City",
-            "team_b": "Magesi",
-            "logo_a": "https://media.api-sports.io/football/teams/2697.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19999.png",
-            "time": "20:00 10/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Town City_Magesi_20-00 10-06_37565e24_20260610.png?v=37565e24",
             "width": 1600,
             "height": 1200
           }
@@ -1015,7 +1015,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Women",
+            "league": "Nation League Men",
             "team_a": "Serbia",
             "team_b": "Argentina",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
@@ -1068,7 +1068,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Women",
+            "league": "Nation League Men",
             "team_a": "Pháp",
             "team_b": "Italy",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
@@ -1174,7 +1174,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Women",
+            "league": "Nation League Men",
             "team_a": "Canada",
             "team_b": "Đức",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
@@ -1386,7 +1386,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Women",
+            "league": "Nation League Men",
             "team_a": "Trung Quốc",
             "team_b": "Ukraina",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
@@ -1492,7 +1492,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Women",
+            "league": "Nation League Men",
             "team_a": "Slovenia",
             "team_b": "Ba Lan",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
