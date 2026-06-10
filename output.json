@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 11/06/2026",
+  "updated_at": "00:05 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1548,8 +1548,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-911228591f",
-          "name": "Martin Landaluce vs Taylor Fritz | 23:00 10/06",
+          "id": "hqlive-2d8a043d47",
+          "name": "Ugo Humbert vs Benjamin Bonzi | 00:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1563,15 +1563,15 @@
           ],
           "sources": [
             {
-              "id": "src-911228591f",
+              "id": "src-2d8a043d47",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-911228591f",
-                  "name": "Martin Landaluce vs Taylor Fritz",
+                  "id": "ct-2d8a043d47",
+                  "name": "Ugo Humbert vs Benjamin Bonzi",
                   "streams": [
                     {
-                      "id": "st-911228591f",
+                      "id": "st-2d8a043d47",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1600,11 +1600,11 @@
           ],
           "org_metadata": {
             "league": "ATP250 Stuttgart",
-            "team_a": "Martin Landaluce",
-            "team_b": "Taylor Fritz",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWoU78UyOZ3nheNtsR3T3_ysPhFCrIIgmNqg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
-            "time": "23:00 10/06",
+            "team_a": "Ugo Humbert",
+            "team_b": "Benjamin Bonzi",
+            "logo_a": "https://tse2.mm.bing.net/th/id/OIP.D1Wm_duMfdDXKRp0UpKCmAHaFZ?pid=Api&P=0&h=220",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
+            "time": "00:00 11/06",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1613,7 +1613,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Martin Landaluce_Taylor Fritz_23-00 10-06_a9e0c658_20260611.png?v=a9e0c658",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ugo Humbert_Benjamin Bonzi_00-00 11-06_0c15fc89_20260611.png?v=0c15fc89",
             "width": 1600,
             "height": 1200
           }
