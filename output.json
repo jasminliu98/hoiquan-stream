@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:15 11/06/2026",
+  "updated_at": "02:20 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,77 @@
           }
         },
         {
+          "id": "hqlive-8bfd7ce809",
+          "name": "Portugal vs Nigeria | 02:45 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bfd7ce809",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8bfd7ce809",
+                  "name": "Portugal vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-8bfd7ce809",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Portugal",
+            "team_b": "Nigeria",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
+            "time": "02:45 11/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Nigeria_02-45 11-06_f4d78801_20260611.png?v=f4d78801",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-1aba660a76",
           "name": "England vs Costa Rica | 03:00 11/06",
           "type": "single",
@@ -155,59 +226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Costa Rica_03-00 11-06_ae351e2d_20260611.png?v=ae351e2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8bfd7ce809",
-          "name": "Portugal vs Nigeria | 02:45 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bfd7ce809",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8bfd7ce809",
-                  "name": "Portugal vs Nigeria",
-                  "streams": [
-                    {
-                      "id": "st-8bfd7ce809",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Portugal",
-            "team_b": "Nigeria",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
-            "time": "02:45 11/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Nigeria_02-45 11-06_f4d78801_20260611.png?v=f4d78801",
             "width": 1600,
             "height": 1200
           }
@@ -1825,6 +1843,536 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uzbekistan_Úc_14-00 12-06_70a05fac_20260611.png?v=70a05fac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-633d5f9cdb",
+          "name": "Ukraina vs Cuba | 15:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-633d5f9cdb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-633d5f9cdb",
+                  "name": "Ukraina vs Cuba",
+                  "streams": [
+                    {
+                      "id": "st-633d5f9cdb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Ukraina",
+            "team_b": "Cuba",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+            "time": "15:00 12/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Cuba_15-00 12-06_c4689cfc_20260611.png?v=c4689cfc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-40287d7603",
+          "name": "Indonesia vs Lebanon | 17:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40287d7603",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-40287d7603",
+                  "name": "Indonesia vs Lebanon",
+                  "streams": [
+                    {
+                      "id": "st-40287d7603",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Indonesia",
+            "team_b": "Lebanon",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
+            "time": "17:00 12/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Lebanon_17-00 12-06_eb2db7bb_20260611.png?v=eb2db7bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c3413afb9f",
+          "name": "Nhật Bản vs Ba Lan | 19:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3413afb9f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c3413afb9f",
+                  "name": "Nhật Bản vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-c3413afb9f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Nhật Bản",
+            "team_b": "Ba Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "19:00 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nhật Bản_Ba Lan_19-00 12-06_3f341fb5_20260611.png?v=3f341fb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d440041ea7",
+          "name": "Hàn Quốc vs Đài Loan | 20:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d440041ea7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d440041ea7",
+                  "name": "Hàn Quốc vs Đài Loan",
+                  "streams": [
+                    {
+                      "id": "st-d440041ea7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Hàn Quốc",
+            "team_b": "Đài Loan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
+            "time": "20:00 12/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Đài Loan_20-00 12-06_f9d1889b_20260611.png?v=f9d1889b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-77d3193ec0",
+          "name": "Bỉ vs Serbia | 02:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77d3193ec0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-77d3193ec0",
+                  "name": "Bỉ vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-77d3193ec0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bỉ",
+            "team_b": "Serbia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "02:30 13/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Serbia_02-30 13-06_43d764db_20260611.png?v=43d764db",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2b371b139b",
+          "name": "Đức vs Mỹ | 03:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b371b139b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2b371b139b",
+                  "name": "Đức vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-2b371b139b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Đức",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "03:30 13/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Mỹ_03-30 13-06_b0dc2b06_20260611.png?v=b0dc2b06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-47ac929283",
+          "name": "Iran vs Argentina | 06:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47ac929283",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-47ac929283",
+                  "name": "Iran vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-47ac929283",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Iran",
+            "team_b": "Argentina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+            "time": "06:00 13/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Argentina_06-00 13-06_7d40668d_20260611.png?v=7d40668d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2cb2886f2e",
+          "name": "Thổ Nhĩ Kỳ vs Pháp | 06:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cb2886f2e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2cb2886f2e",
+                  "name": "Thổ Nhĩ Kỳ vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-2cb2886f2e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "06:30 13/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Pháp_06-30 13-06_2dff64f3_20260611.png?v=2dff64f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e953a7bdde",
+          "name": "Trung Quốc vs Nhật Bản | 15:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e953a7bdde",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e953a7bdde",
+                  "name": "Trung Quốc vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-e953a7bdde",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Trung Quốc",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "time": "15:30 13/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Nhật Bản_15-30 13-06_cd0d35e6_20260611.png?v=cd0d35e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9e5981dbaa",
+          "name": "Cuba vs Slovenia | 19:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e5981dbaa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9e5981dbaa",
+                  "name": "Cuba vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-9e5981dbaa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Cuba",
+            "team_b": "Slovenia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
+            "time": "19:00 13/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Slovenia_19-00 13-06_fe7d43b6_20260611.png?v=fe7d43b6",
             "width": 1600,
             "height": 1200
           }
