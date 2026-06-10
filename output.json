@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:45 10/06/2026",
+  "updated_at": "17:50 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-6124e76808",
-          "name": "Cape Town City vs Magesi | 20:00 10/06",
+          "id": "hqlive-22cb950c28",
+          "name": "BuxDu vs Qiziriq | 19:30 10/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-6124e76808",
+              "id": "src-22cb950c28",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-6124e76808",
-                  "name": "Cape Town City vs Magesi",
+                  "id": "ct-22cb950c28",
+                  "name": "BuxDu vs Qiziriq",
                   "streams": [
                     {
-                      "id": "st-6124e76808",
+                      "id": "st-22cb950c28",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -51,12 +51,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier Soccer League",
-            "team_a": "Cape Town City",
-            "team_b": "Magesi",
-            "logo_a": "https://media.api-sports.io/football/teams/2697.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19999.png",
-            "time": "20:00 10/06",
+            "league": "Pro League A",
+            "team_a": "BuxDu",
+            "team_b": "Qiziriq",
+            "logo_a": "https://media.api-sports.io/football/teams/27584.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKK-vHJCg-8idZtd2ngnD0PY8l0lfgbV-ejA&s",
+            "time": "19:30 10/06",
             "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
@@ -65,7 +65,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Town City_Magesi_20-00 10-06_37565e24_20260610.png?v=37565e24",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/BuxDu_Qiziriq_19-30 10-06_8c78297c_20260610.png?v=8c78297c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-fccc55d661",
+          "name": "Shortan vs Gazalkent | 20:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fccc55d661",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fccc55d661",
+                  "name": "Shortan vs Gazalkent",
+                  "streams": [
+                    {
+                      "id": "st-fccc55d661",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League A",
+            "team_a": "Shortan",
+            "team_b": "Gazalkent",
+            "logo_a": "https://media.api-sports.io/football/teams/4222.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27585.png",
+            "time": "20:00 10/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shortan_Gazalkent_20-00 10-06_5afe0eb6_20260610.png?v=5afe0eb6",
             "width": 1600,
             "height": 1200
           }
