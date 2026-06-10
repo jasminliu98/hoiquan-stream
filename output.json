@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 10/06/2026",
+  "updated_at": "18:40 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -796,11 +796,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -826,7 +826,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
             "time": "19:00 10/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV PHAN BỐNG",
             "is_live": true,
             "sport_slug": "bong-chuyen"
           },
@@ -1531,86 +1531,6 @@
       ]
     },
     {
-      "id": "sport_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-0ed5c06b5b",
-          "name": "Dương Quốc Hoàng vs Dương Quốc Hoàng | 19:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ed5c06b5b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0ed5c06b5b",
-                  "name": "Dương Quốc Hoàng vs Dương Quốc Hoàng",
-                  "streams": [
-                    {
-                      "id": "st-0ed5c06b5b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Peri 9 Ball Open 2025",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Dương Quốc Hoàng",
-            "logo_a": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "logo_b": "https://sv2.anhsieuviet.com/2026/03/04/signal-2026-03-04-151814.jpg",
-            "time": "19:00 10/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dương Quốc Hoàng_Dương Quốc Hoàng_19-00 10-06_051c6437_20260610.png?v=051c6437",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "sport_bong-ro",
       "name": "🏀 Bóng Rổ",
       "display": "vertical",
@@ -1674,82 +1594,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5764b4ce3b",
-          "name": "Mattia Bellucci vs Yannick Hanfmann | 16:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5764b4ce3b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5764b4ce3b",
-                  "name": "Mattia Bellucci vs Yannick Hanfmann",
-                  "streams": [
-                    {
-                      "id": "st-5764b4ce3b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Mattia Bellucci",
-            "team_b": "Yannick Hanfmann",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg/960px-Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg",
-            "logo_b": "https://cdn.tennistemple.com/images/upload/player/Yannick_Hanfmann_63.jpg",
-            "time": "16:00 10/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mattia Bellucci_Yannick Hanfmann_16-00 10-06_584659fb_20260610.png?v=584659fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4bb7aa3a7b",
           "name": "Jan-Lennard Struff vs Alexander Bublik | 17:30 10/06",
