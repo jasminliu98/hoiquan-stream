@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:40 10/06/2026",
+  "updated_at": "22:45 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -187,11 +187,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-c3ae00c22d",
-                          "name": "BLV TÁO KINH TẾ",
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -217,7 +217,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/22932.png",
             "logo_b": "https://media.api-sports.io/football/teams/813.png",
             "time": "23:00 10/06",
-            "blv": "BLV TÁO KINH TẾ",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "bong-da"
           },
