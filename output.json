@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 10/06/2026",
+  "updated_at": "17:40 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1488,7 +1488,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (4 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1560,77 +1560,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mattia Bellucci_Yannick Hanfmann_16-00 10-06_584659fb_20260610.png?v=584659fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ec8c75d9b1",
-          "name": "Anastasia Potapova vs Suzan Lamens | 16:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ec8c75d9b1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ec8c75d9b1",
-                  "name": "Anastasia Potapova vs Suzan Lamens",
-                  "streams": [
-                    {
-                      "id": "st-ec8c75d9b1",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA250 S-Hertogenbosch",
-            "team_a": "Anastasia Potapova",
-            "team_b": "Suzan Lamens",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLVNOI6NxwTwLAy8bBwn3Rf0BtrYlb7phVRQ&s",
-            "logo_b": "https://photoresources.wtatennis.com/photo-resources/2025/03/10/bb2dfd5a-5f4d-4cbc-91a6-dd1ad1611ff5/Lamens-Torso_324898.png?width=790&height=740",
-            "time": "16:00 10/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Anastasia Potapova_Suzan Lamens_16-00 10-06_50705ba3_20260610.png?v=50705ba3",
             "width": 1600,
             "height": 1200
           }
@@ -1831,8 +1760,8 @@
           }
         },
         {
-          "id": "hqlive-157d0922f3",
-          "name": "Marie Bouzková vs Brandon Nakashima | 23:30 10/06",
+          "id": "hqlive-2476ff88a0",
+          "name": "Marie Bouzková vs Donna Vekić | 23:30 10/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1846,15 +1775,15 @@
           ],
           "sources": [
             {
-              "id": "src-157d0922f3",
+              "id": "src-2476ff88a0",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-157d0922f3",
-                  "name": "Marie Bouzková vs Brandon Nakashima",
+                  "id": "ct-2476ff88a0",
+                  "name": "Marie Bouzková vs Donna Vekić",
                   "streams": [
                     {
-                      "id": "st-157d0922f3",
+                      "id": "st-2476ff88a0",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1864,11 +1793,11 @@
             }
           ],
           "org_metadata": {
-            "league": "ATP250 S-Hertogenbosch",
+            "league": "WTA500 London Now",
             "team_a": "Marie Bouzková",
-            "team_b": "Brandon Nakashima",
+            "team_b": "Donna Vekić",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYrOhRmTh79Kpi8ku6f0bQfZAvlYMw3UZWLQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTr4-YHRQ624RtkZtKttfJY-s7lAZ24Pk4jw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/11/Donna_Veki%C4%87_%2852171230817%29_%28cropped%29.jpg",
             "time": "23:30 10/06",
             "blv": "BLV PHAN TỪ",
             "is_live": false,
@@ -1878,7 +1807,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marie Bouzková_Brandon Nakashima_23-30 10-06_517a4286_20260610.png?v=517a4286",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marie Bouzková_Donna Vekić_23-30 10-06_923580b8_20260610.png?v=923580b8",
             "width": 1600,
             "height": 1200
           }
