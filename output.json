@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:20 11/06/2026",
+  "updated_at": "01:25 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -407,6 +407,59 @@
           }
         },
         {
+          "id": "hqlive-48e132fefd",
+          "name": "Thailand U19 vs Cambodia U19 | 16:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48e132fefd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-48e132fefd",
+                  "name": "Thailand U19 vs Cambodia U19",
+                  "streams": [
+                    {
+                      "id": "st-48e132fefd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Thailand U19",
+            "team_b": "Cambodia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19148.png",
+            "time": "16:00 11/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Cambodia U19_16-00 11-06_c2794edb_20260611.png?v=c2794edb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-963a3c6259",
           "name": "Nam Dinh vs Ho Chi Minh | 18:00 11/06",
           "type": "single",
@@ -566,6 +619,59 @@
           }
         },
         {
+          "id": "hqlive-09c9e70ce9",
+          "name": "Indonesia U19 vs Australia U19 | 20:15 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09c9e70ce9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-09c9e70ce9",
+                  "name": "Indonesia U19 vs Australia U19",
+                  "streams": [
+                    {
+                      "id": "st-09c9e70ce9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Indonesia U19",
+            "team_b": "Australia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19149.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22591.png",
+            "time": "20:15 11/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia U19_Australia U19_20-15 11-06_a5674d63_20260611.png?v=a5674d63",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-b11b5ea44f",
           "name": "Tampere United vs OLS | 22:30 11/06",
           "type": "single",
@@ -658,7 +764,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/3516.png",
             "logo_b": "https://media.api-sports.io/football/teams/3527.png",
             "time": "23:00 11/06",
-            "blv": "BLV THẦN THÔNG",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
