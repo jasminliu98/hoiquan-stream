@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:10 10/06/2026",
+  "updated_at": "23:25 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -199,7 +199,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/vi/c/c3/M%C3%A1laga_CF.png",
             "logo_b": "https://media.api-sports.io/football/teams/534.png",
             "time": "02:00 11/06",
-            "blv": "BLV TÁO KINH TẾ",
+            "blv": "BLV PHAN PHÉP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
