@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:15 11/06/2026",
+  "updated_at": "01:20 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1477,8 +1477,8 @@
           }
         },
         {
-          "id": "hqlive-7bd6f532a1",
-          "name": "Stan Wawrinka vs Frances Tiafoe | 16:00 11/06",
+          "id": "hqlive-2f9ebed29e",
+          "name": "Rinky Hijikata vs Frances Tiafoe | 16:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1492,15 +1492,15 @@
           ],
           "sources": [
             {
-              "id": "src-7bd6f532a1",
+              "id": "src-2f9ebed29e",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-7bd6f532a1",
-                  "name": "Stan Wawrinka vs Frances Tiafoe",
+                  "id": "ct-2f9ebed29e",
+                  "name": "Rinky Hijikata vs Frances Tiafoe",
                   "streams": [
                     {
-                      "id": "st-7bd6f532a1",
+                      "id": "st-2f9ebed29e",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1511,9 +1511,9 @@
           ],
           "org_metadata": {
             "league": "ATP250 Stuttgart",
-            "team_a": "Stan Wawrinka",
+            "team_a": "Rinky Hijikata",
             "team_b": "Frances Tiafoe",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Wawrinka_RG19_%2816%29_%2848199015787%29.jpg/960px-Wawrinka_RG19_%2816%29_%2848199015787%29.jpg",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FEDFYlz0iqDsW-Whjs9-ZTVJk4o-dXyzNg&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
             "time": "16:00 11/06",
             "blv": "BLV PHAN BỐNG",
@@ -1524,7 +1524,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stan Wawrinka_Frances Tiafoe_16-00 11-06_9997c8a4_20260611.png?v=9997c8a4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rinky Hijikata_Frances Tiafoe_16-00 11-06_aa6946b6_20260611.png?v=aa6946b6",
             "width": 1600,
             "height": 1200
           }
