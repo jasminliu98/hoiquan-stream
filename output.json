@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:50 10/06/2026",
+  "updated_at": "21:15 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1577,14 +1577,14 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-4bb7aa3a7b",
-          "name": "Jan-Lennard Struff vs Alexander Bublik | 17:30 10/06",
+          "id": "hqlive-a805fde3da",
+          "name": "Martin Landaluce vs Alex de Minaur | 21:00 10/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1598,15 +1598,15 @@
           ],
           "sources": [
             {
-              "id": "src-4bb7aa3a7b",
+              "id": "src-a805fde3da",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4bb7aa3a7b",
-                  "name": "Jan-Lennard Struff vs Alexander Bublik",
+                  "id": "ct-a805fde3da",
+                  "name": "Martin Landaluce vs Alex de Minaur",
                   "streams": [
                     {
-                      "id": "st-4bb7aa3a7b",
+                      "id": "st-a805fde3da",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1634,12 +1634,12 @@
             }
           ],
           "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Jan-Lennard Struff",
-            "team_b": "Alexander Bublik",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Struff_MCM23_%2837%29_%2852883307264%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg/250px-Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg",
-            "time": "17:30 10/06",
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Martin Landaluce",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWoU78UyOZ3nheNtsR3T3_ysPhFCrIIgmNqg&s",
+            "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
+            "time": "21:00 10/06",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1648,78 +1648,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jan-Lennard Struff_Alexander Bublik_17-30 10-06_c3865170_20260610.png?v=c3865170",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-adc26567f5",
-          "name": "Jan-Lennard Struff vs Alexander Bublik | 20:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-adc26567f5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-adc26567f5",
-                  "name": "Jan-Lennard Struff vs Alexander Bublik",
-                  "streams": [
-                    {
-                      "id": "st-adc26567f5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Jan-Lennard Struff",
-            "team_b": "Alexander Bublik",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Struff_MCM23_%2837%29_%2852883307264%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg/250px-Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg",
-            "time": "20:00 10/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jan-Lennard Struff_Alexander Bublik_20-00 10-06_c3865170_20260610.png?v=c3865170",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Martin Landaluce_Alex de Minaur_21-00 10-06_5d220f02_20260610.png?v=5d220f02",
             "width": 1600,
             "height": 1200
           }
