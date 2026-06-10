@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:00 11/06/2026",
+  "updated_at": "04:45 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-8bfd7ce809",
-          "name": "Portugal vs Nigeria | 02:45 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bfd7ce809",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8bfd7ce809",
-                  "name": "Portugal vs Nigeria",
-                  "streams": [
-                    {
-                      "id": "st-8bfd7ce809",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Portugal",
-            "team_b": "Nigeria",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png",
-            "time": "02:45 11/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Nigeria_02-45 11-06_f4d78801_20260611.png?v=f4d78801",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a7980d52d1",
           "name": "England vs Costa Rica | 04:00 11/06",
@@ -746,82 +675,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c6dccf7e44",
-          "name": "Serbia vs Argentina | 02:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6dccf7e44",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c6dccf7e44",
-                  "name": "Serbia vs Argentina",
-                  "streams": [
-                    {
-                      "id": "st-c6dccf7e44",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Serbia",
-            "team_b": "Argentina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
-            "time": "02:30 11/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Argentina_02-30 11-06_656ebce7_20260611.png?v=656ebce7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1635f06405",
           "name": "Pháp vs Italy | 03:00 11/06",
