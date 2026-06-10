@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:45 11/06/2026",
+  "updated_at": "01:55 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1577,82 +1577,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3599457e42",
-          "name": "Marie Bouzková vs Donna Vekić | 01:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3599457e42",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3599457e42",
-                  "name": "Marie Bouzková vs Donna Vekić",
-                  "streams": [
-                    {
-                      "id": "st-3599457e42",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 London Now",
-            "team_a": "Marie Bouzková",
-            "team_b": "Donna Vekić",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYrOhRmTh79Kpi8ku6f0bQfZAvlYMw3UZWLQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/11/Donna_Veki%C4%87_%2852171230817%29_%28cropped%29.jpg",
-            "time": "01:00 11/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marie Bouzková_Donna Vekić_01-00 11-06_923580b8_20260611.png?v=923580b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-2f9ebed29e",
           "name": "Rinky Hijikata vs Frances Tiafoe | 16:00 11/06",
