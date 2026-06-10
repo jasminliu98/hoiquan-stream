@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:35 10/06/2026",
+  "updated_at": "20:50 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -597,59 +597,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Goias_Novorizontino_06-00 11-06_9246e7cb_20260610.png?v=9246e7cb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ba03d5309a",
-          "name": "Sport Recife vs Athletic ClubB | 07:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba03d5309a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ba03d5309a",
-                  "name": "Sport Recife vs Athletic ClubB",
-                  "streams": [
-                    {
-                      "id": "st-ba03d5309a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Sport Recife",
-            "team_b": "Athletic ClubB",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VAnv52Bj5vR_eOaVQiyM-aJo5PyseuSEbQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7U0LgiycBdd3xhFwLDj9zBBuErRVDrZUm8Q&s",
-            "time": "07:00 11/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Recife_Athletic ClubB_07-00 11-06_d9cd72b5_20260610.png?v=d9cd72b5",
             "width": 1600,
             "height": 1200
           }
