@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:00 11/06/2026",
+  "updated_at": "01:15 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1472,6 +1472,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Marie Bouzková_Donna Vekić_01-00 11-06_923580b8_20260611.png?v=923580b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7bd6f532a1",
+          "name": "Stan Wawrinka vs Frances Tiafoe | 16:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bd6f532a1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7bd6f532a1",
+                  "name": "Stan Wawrinka vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-7bd6f532a1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Stan Wawrinka",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Wawrinka_RG19_%2816%29_%2848199015787%29.jpg/960px-Wawrinka_RG19_%2816%29_%2848199015787%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "time": "16:00 11/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Stan Wawrinka_Frances Tiafoe_16-00 11-06_9997c8a4_20260611.png?v=9997c8a4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-227b382547",
+          "name": "Denis Shapovalov vs Nick Kyrgios | 18:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-227b382547",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-227b382547",
+                  "name": "Denis Shapovalov vs Nick Kyrgios",
+                  "streams": [
+                    {
+                      "id": "st-227b382547",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Denis Shapovalov",
+            "team_b": "Nick Kyrgios",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3IKAmkvIcIyX5_cPP_OEmEMtdVHUdhxLBQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg/330px-Nick_Kyrgios_RG13_%286%29_%28cropped%29.jpg",
+            "time": "18:00 11/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Denis Shapovalov_Nick Kyrgios_18-00 11-06_74cde775_20260611.png?v=74cde775",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-94bab193b3",
+          "name": "Martin Landaluce vs Taylor Fritz | 20:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-94bab193b3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-94bab193b3",
+                  "name": "Martin Landaluce vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-94bab193b3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Martin Landaluce",
+            "team_b": "Taylor Fritz",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWoU78UyOZ3nheNtsR3T3_ysPhFCrIIgmNqg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
+            "time": "20:00 11/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Martin Landaluce_Taylor Fritz_20-00 11-06_a9e0c658_20260611.png?v=a9e0c658",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f98d4d90d3",
+          "name": "Ben Shelton vs Marcos Giron | 22:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f98d4d90d3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f98d4d90d3",
+                  "name": "Ben Shelton vs Marcos Giron",
+                  "streams": [
+                    {
+                      "id": "st-f98d4d90d3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Ben Shelton",
+            "team_b": "Marcos Giron",
+            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
+            "time": "22:00 11/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marcos Giron_22-00 11-06_82a02c83_20260611.png?v=82a02c83",
             "width": 1600,
             "height": 1200
           }
