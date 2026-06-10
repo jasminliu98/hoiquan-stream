@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 10/06/2026",
+  "updated_at": "20:00 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -791,6 +791,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ninh Bình_Viettel_18-00 11-06_404d138c_20260610.png?v=404d138c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5d723f0467",
+          "name": "Dinamo Stavropol vs Zenit 2 | 20:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d723f0467",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5d723f0467",
+                  "name": "Dinamo Stavropol vs Zenit 2",
+                  "streams": [
+                    {
+                      "id": "st-5d723f0467",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Second League A - Division A Silver",
+            "team_a": "Dinamo Stavropol",
+            "team_b": "Zenit 2",
+            "logo_a": "https://media.api-sports.io/football/teams/6796.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2005.png",
+            "time": "20:00 11/06",
+            "blv": "BLV TÁO KINH TẾ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dinamo Stavropol_Zenit 2_20-00 11-06_8e9290fb_20260610.png?v=8e9290fb",
             "width": 1600,
             "height": 1200
           }
