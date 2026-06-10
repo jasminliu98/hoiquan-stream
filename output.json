@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:20 10/06/2026",
+  "updated_at": "09:30 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -756,6 +756,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Recife_Athletic Club_07-00 11-06_8057b321_20260610.png?v=8057b321",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ec235fdfc7",
+          "name": "Phoenix Rising vs Louisville City | 09:30 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec235fdfc7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ec235fdfc7",
+                  "name": "Phoenix Rising vs Louisville City",
+                  "streams": [
+                    {
+                      "id": "st-ec235fdfc7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship",
+            "team_a": "Phoenix Rising",
+            "team_b": "Louisville City",
+            "logo_a": "https://media.api-sports.io/football/teams/4009.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4000.png",
+            "time": "09:30 11/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phoenix Rising_Louisville City_09-30 11-06_e8316eaa_20260610.png?v=e8316eaa",
             "width": 1600,
             "height": 1200
           }
