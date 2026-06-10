@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:50 11/06/2026",
+  "updated_at": "00:55 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -968,7 +968,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
             "time": "06:00 11/06",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN HẢI",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
