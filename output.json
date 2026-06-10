@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:05 11/06/2026",
+  "updated_at": "02:10 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3388ca05a7",
-          "name": "Colombia U19 vs Tunisia U23 | 00:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3388ca05a7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3388ca05a7",
-                  "name": "Colombia U19 vs Tunisia U23",
-                  "streams": [
-                    {
-                      "id": "st-3388ca05a7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tournoi Maurice Revello",
-            "team_a": "Colombia U19",
-            "team_b": "Tunisia U23",
-            "logo_a": "https://media.api-sports.io/football/teams/18981.png",
-            "logo_b": "https://media.api-sports.io/football/teams/20562.png",
-            "time": "00:00 11/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Colombia U19_Tunisia U23_00-00 11-06_b4010f72_20260611.png?v=b4010f72",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4ba7661ac6",
           "name": "Malaga vs Las Palmas | 02:00 11/06",
@@ -160,6 +89,77 @@
           }
         },
         {
+          "id": "hqlive-1aba660a76",
+          "name": "England vs Costa Rica | 03:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1aba660a76",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1aba660a76",
+                  "name": "England vs Costa Rica",
+                  "streams": [
+                    {
+                      "id": "st-1aba660a76",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "England",
+            "team_b": "Costa Rica",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/250px-Flag_of_Costa_Rica_%28state%29.svg.png",
+            "time": "03:00 11/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Costa Rica_03-00 11-06_ae351e2d_20260611.png?v=ae351e2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-8bfd7ce809",
           "name": "Portugal vs Nigeria | 02:45 11/06",
           "type": "single",
@@ -208,59 +208,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Nigeria_02-45 11-06_f4d78801_20260611.png?v=f4d78801",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1aba660a76",
-          "name": "England vs Costa Rica | 03:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1aba660a76",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1aba660a76",
-                  "name": "England vs Costa Rica",
-                  "streams": [
-                    {
-                      "id": "st-1aba660a76",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "England",
-            "team_b": "Costa Rica",
-            "logo_a": "https://media.api-sports.io/football/teams/10.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/250px-Flag_of_Costa_Rica_%28state%29.svg.png",
-            "time": "03:00 11/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Costa Rica_03-00 11-06_ae351e2d_20260611.png?v=ae351e2d",
             "width": 1600,
             "height": 1200
           }
@@ -938,11 +885,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -968,7 +915,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
             "time": "02:30 11/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN BÁCH",
             "is_live": true,
             "sport_slug": "bong-chuyen"
           },
@@ -1507,6 +1454,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kyrgyzstan_Uzbekistan_20-00 11-06_c226e62d_20260611.png?v=c226e62d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b9799cecb9",
+          "name": "Bulgaria vs Iran | 02:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9799cecb9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b9799cecb9",
+                  "name": "Bulgaria vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-b9799cecb9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bulgaria",
+            "team_b": "Iran",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+            "time": "02:00 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Iran_02-00 12-06_f1a14273_20260611.png?v=f1a14273",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-412d92623a",
+          "name": "Đức vs Italy | 03:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-412d92623a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-412d92623a",
+                  "name": "Đức vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-412d92623a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Đức",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "03:00 12/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Italy_03-00 12-06_3aa35df5_20260611.png?v=3aa35df5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ace28e821c",
+          "name": "Brazil vs Bỉ | 06:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ace28e821c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ace28e821c",
+                  "name": "Brazil vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-ace28e821c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Brazil",
+            "team_b": "Bỉ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "time": "06:00 12/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Bỉ_06-00 12-06_4ea808b2_20260611.png?v=4ea808b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f58620f4d8",
+          "name": "Canada vs Pháp | 06:30 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f58620f4d8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f58620f4d8",
+                  "name": "Canada vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-f58620f4d8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Canada",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "06:30 12/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Pháp_06-30 12-06_47956349_20260611.png?v=47956349",
             "width": 1600,
             "height": 1200
           }
