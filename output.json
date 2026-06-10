@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:25 11/06/2026",
+  "updated_at": "01:30 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -773,6 +773,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elva_Maardu_23-00 11-06_392d7b9b_20260611.png?v=392d7b9b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0a04bfa55a",
+          "name": "Västra Frölunda vs Onsala | 00:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a04bfa55a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0a04bfa55a",
+                  "name": "Västra Frölunda vs Onsala",
+                  "streams": [
+                    {
+                      "id": "st-0a04bfa55a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Svenska Cupen",
+            "team_a": "Västra Frölunda",
+            "team_b": "Onsala",
+            "logo_a": "https://media.api-sports.io/football/teams/12609.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12606.png",
+            "time": "00:00 12/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Västra Frölunda_Onsala_00-00 12-06_4c3c0524_20260611.png?v=4c3c0524",
             "width": 1600,
             "height": 1200
           }
