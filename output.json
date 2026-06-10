@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:05 10/06/2026",
+  "updated_at": "20:35 10/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -167,10 +167,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -185,7 +185,25 @@
                     {
                       "id": "st-2b458f3546",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -200,7 +218,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/650.png",
             "time": "21:00 10/06",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -584,8 +602,8 @@
           }
         },
         {
-          "id": "hqlive-39a1588686",
-          "name": "Sport Recife vs Athletic Club | 07:00 11/06",
+          "id": "hqlive-ba03d5309a",
+          "name": "Sport Recife vs Athletic ClubB | 07:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -599,15 +617,15 @@
           ],
           "sources": [
             {
-              "id": "src-39a1588686",
+              "id": "src-ba03d5309a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-39a1588686",
-                  "name": "Sport Recife vs Athletic Club",
+                  "id": "ct-ba03d5309a",
+                  "name": "Sport Recife vs Athletic ClubB",
                   "streams": [
                     {
-                      "id": "st-39a1588686",
+                      "id": "st-ba03d5309a",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -619,11 +637,11 @@
           "org_metadata": {
             "league": "Serie B",
             "team_a": "Sport Recife",
-            "team_b": "Athletic Club",
+            "team_b": "Athletic ClubB",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VAnv52Bj5vR_eOaVQiyM-aJo5PyseuSEbQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7U0LgiycBdd3xhFwLDj9zBBuErRVDrZUm8Q&s",
             "time": "07:00 11/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -631,7 +649,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Recife_Athletic Club_07-00 11-06_8057b321_20260610.png?v=8057b321",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Recife_Athletic ClubB_07-00 11-06_d9cd72b5_20260610.png?v=d9cd72b5",
             "width": 1600,
             "height": 1200
           }
@@ -852,82 +870,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-254659aa0d",
-          "name": "Ukraina vs Nhật Bản | 19:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-254659aa0d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-254659aa0d",
-                  "name": "Ukraina vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-254659aa0d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Ukraina",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "time": "19:00 10/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Nhật Bản_19-00 10-06_1f4a6376_20260610.png?v=1f4a6376",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-fa7c706a18",
           "name": "Thổ Nhĩ Kỳ vs Mỹ | 22:00 10/06",
