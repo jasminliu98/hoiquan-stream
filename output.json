@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:05 11/06/2026",
+  "updated_at": "06:10 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a7980d52d1",
-          "name": "England vs Costa Rica | 04:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7980d52d1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a7980d52d1",
-                  "name": "England vs Costa Rica",
-                  "streams": [
-                    {
-                      "id": "st-a7980d52d1",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "England",
-            "team_b": "Costa Rica",
-            "logo_a": "https://media.api-sports.io/football/teams/10.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/250px-Flag_of_Costa_Rica_%28state%29.svg.png",
-            "time": "04:00 11/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Costa Rica_04-00 11-06_ae351e2d_20260611.png?v=ae351e2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-3d1c6fa1f9",
           "name": "Goias vs Novorizontino | 06:00 11/06",
