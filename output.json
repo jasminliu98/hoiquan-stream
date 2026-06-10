@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:00 11/06/2026",
+  "updated_at": "04:00 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-4ba7661ac6",
-          "name": "Malaga vs Las Palmas | 02:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ba7661ac6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4ba7661ac6",
-                  "name": "Malaga vs Las Palmas",
-                  "streams": [
-                    {
-                      "id": "st-4ba7661ac6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Segunda División",
-            "team_a": "Malaga",
-            "team_b": "Las Palmas",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/c/c3/M%C3%A1laga_CF.png",
-            "logo_b": "https://media.api-sports.io/football/teams/534.png",
-            "time": "02:00 11/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Malaga_Las Palmas_02-00 11-06_2ec1c50c_20260611.png?v=2ec1c50c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8bfd7ce809",
           "name": "Portugal vs Nigeria | 02:45 11/06",
