@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:35 11/06/2026",
+  "updated_at": "15:40 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -45,11 +45,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -75,7 +75,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/19155.png",
             "logo_b": "https://media.api-sports.io/football/teams/19148.png",
             "time": "16:00 11/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN BỐNG",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -1922,82 +1922,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-2f9ebed29e",
-          "name": "Rinky Hijikata vs Frances Tiafoe | 16:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2f9ebed29e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2f9ebed29e",
-                  "name": "Rinky Hijikata vs Frances Tiafoe",
-                  "streams": [
-                    {
-                      "id": "st-2f9ebed29e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Rinky Hijikata",
-            "team_b": "Frances Tiafoe",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FEDFYlz0iqDsW-Whjs9-ZTVJk4o-dXyzNg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
-            "time": "16:00 11/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rinky Hijikata_Frances Tiafoe_16-00 11-06_aa6946b6_20260611.png?v=aa6946b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-24f4d7552f",
           "name": "Ugo Humbert vs Benjamin Bonzi | 16:00 11/06",
