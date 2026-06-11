@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:50 11/06/2026",
+  "updated_at": "17:00 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -614,6 +614,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Korea_Czech Republic_09-00 12-06_e239b9b5_20260611.png?v=e239b9b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7c2ddf16e5",
+          "name": "Suwon FMC vs Gumi Sportstoto W | 17:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c2ddf16e5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7c2ddf16e5",
+                  "name": "Suwon FMC vs Gumi Sportstoto W",
+                  "streams": [
+                    {
+                      "id": "st-7c2ddf16e5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Suwon FMC",
+            "team_b": "Gumi Sportstoto W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Suwon_FC_2016.svg/1280px-Suwon_FC_2016.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9wP95xQE7Y3gaGPvkt2WAacKfJgoGKVuT4w&s",
+            "time": "17:00 12/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon FMC_Gumi Sportstoto W_17-00 12-06_65dfd08f_20260611.png?v=65dfd08f",
             "width": 1600,
             "height": 1200
           }
