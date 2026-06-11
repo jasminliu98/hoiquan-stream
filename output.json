@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:35 11/06/2026",
+  "updated_at": "13:50 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1859,82 +1859,11 @@
     },
     {
       "id": "sport_cau-long",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-139622a7d2",
-          "name": "CHOU Tien Chen vs DONG Tian Yao | 12:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-139622a7d2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-139622a7d2",
-                  "name": "CHOU Tien Chen vs DONG Tian Yao",
-                  "streams": [
-                    {
-                      "id": "st-139622a7d2",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SATHIO GROUP Australian Badminton Open 2026",
-            "team_a": "CHOU Tien Chen",
-            "team_b": "DONG Tian Yao",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8QZCk-ACQHjIASW0wQfEHeQAcyP1OJtPSg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9b6PO7m_-3-QAIEyJyXxHRydVJ44Pw2Kx0A&s",
-            "time": "12:30 11/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "cau-long"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CHOU Tien Chen_DONG Tian Yao_12-30 11-06_357a8224_20260611.png?v=357a8224",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7260eb46fc",
           "name": "Akane YAMAGUCHI vs PAI Yu Po | 13:10 11/06",
