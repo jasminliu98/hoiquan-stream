@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:20 11/06/2026",
+  "updated_at": "18:25 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -699,8 +699,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-67474ddbc8",
-          "name": "Hàn Quốc vs Úc | 17:00 11/06",
+          "id": "hqlive-e74543f28c",
+          "name": "Slovenia vs Ba Lan | 19:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -714,15 +714,15 @@
           ],
           "sources": [
             {
-              "id": "src-67474ddbc8",
+              "id": "src-e74543f28c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-67474ddbc8",
-                  "name": "Hàn Quốc vs Úc",
+                  "id": "ct-e74543f28c",
+                  "name": "Slovenia vs Ba Lan",
                   "streams": [
                     {
-                      "id": "st-67474ddbc8",
+                      "id": "st-e74543f28c",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -750,59 +750,6 @@
             }
           ],
           "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Úc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
-            "time": "17:00 11/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Úc_17-00 11-06_0ad42f04_20260611.png?v=0ad42f04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e74543f28c",
-          "name": "Slovenia vs Ba Lan | 19:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e74543f28c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e74543f28c",
-                  "name": "Slovenia vs Ba Lan",
-                  "streams": [
-                    {
-                      "id": "st-e74543f28c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Nation League Men",
             "team_a": "Slovenia",
             "team_b": "Ba Lan",
@@ -810,7 +757,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
             "time": "19:00 11/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
