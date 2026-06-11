@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:50 11/06/2026",
+  "updated_at": "13:55 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1993,6 +1993,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rinky Hijikata_Frances Tiafoe_16-00 11-06_aa6946b6_20260611.png?v=aa6946b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-24f4d7552f",
+          "name": "Ugo Humbert vs Benjamin Bonzi | 16:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-24f4d7552f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-24f4d7552f",
+                  "name": "Ugo Humbert vs Benjamin Bonzi",
+                  "streams": [
+                    {
+                      "id": "st-24f4d7552f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Ugo Humbert",
+            "team_b": "Benjamin Bonzi",
+            "logo_a": "https://tse2.mm.bing.net/th/id/OIP.D1Wm_duMfdDXKRp0UpKCmAHaFZ?pid=Api&P=0&h=220",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
+            "time": "16:00 11/06",
+            "blv": "BLV PHAN TỪ",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ugo Humbert_Benjamin Bonzi_16-00 11-06_0c15fc89_20260611.png?v=0c15fc89",
             "width": 1600,
             "height": 1200
           }
