@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 11/06/2026",
+  "updated_at": "19:35 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -746,7 +746,7 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -830,10 +830,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -848,7 +848,25 @@
                     {
                       "id": "st-5e117adf28",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -863,7 +881,7 @@
             "logo_b": "https://vcdn1-dulich.vnecdn.net/2018/01/25/Uzbekistan-9909-1516848403.png?w=680&h=0&q=100&dpr=2&fit=crop&s=tdzF4zH_kBQ4H9NlhvHzUA",
             "time": "20:00 11/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
