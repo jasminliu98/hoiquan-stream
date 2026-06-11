@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 12/06/2026",
+  "updated_at": "00:25 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b11b5ea44f",
-          "name": "Tampere United vs OLS | 22:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b11b5ea44f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b11b5ea44f",
-                  "name": "Tampere United vs OLS",
-                  "streams": [
-                    {
-                      "id": "st-b11b5ea44f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ykkönen",
-            "team_a": "Tampere United",
-            "team_b": "OLS",
-            "logo_a": "https://media.api-sports.io/football/teams/9190.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9195.png",
-            "time": "22:30 11/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tampere United_OLS_22-30 11-06_1b4fbcd5_20260612.png?v=1b4fbcd5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5e676cb867",
           "name": "Elva vs Maardu | 23:00 11/06",
