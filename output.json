@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 11/06/2026",
+  "updated_at": "22:10 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -791,7 +791,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
             "time": "03:00 12/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -1728,86 +1728,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/The MongolZ_BetBoom_16-00 11-06_22e858fe_20260611.png?v=22e858fe",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-8144b81714",
-          "name": "Ben Shelton vs Marcos Giron | 22:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8144b81714",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8144b81714",
-                  "name": "Ben Shelton vs Marcos Giron",
-                  "streams": [
-                    {
-                      "id": "st-8144b81714",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Ben Shelton",
-            "team_b": "Marcos Giron",
-            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
-            "time": "22:30 11/06",
-            "blv": "BLV PHAN TỪ",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marcos Giron_22-30 11-06_82a02c83_20260611.png?v=82a02c83",
             "width": 1600,
             "height": 1200
           }
