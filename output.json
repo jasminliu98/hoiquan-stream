@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:35 11/06/2026",
+  "updated_at": "10:45 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2028,103 +2028,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Akane YAMAGUCHI_PAI Yu Po_13-10 11-06_6e907a55_20260611.png?v=6e907a55",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_bong-ro",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-56a3a4ca71",
-          "name": "San Antonio Spurs vs New York Knicks | 07:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56a3a4ca71",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-56a3a4ca71",
-                  "name": "San Antonio Spurs vs New York Knicks",
-                  "streams": [
-                    {
-                      "id": "st-56a3a4ca71",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee33939914",
-                          "name": "BLV PHAN TỪ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "San Antonio Spurs",
-            "team_b": "New York Knicks",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg",
-            "time": "07:30 11/06",
-            "blv": "BLV PHAN TỪ, BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-ro"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_New York Knicks_07-30 11-06_3e9ff35c_20260611.png?v=3e9ff35c",
             "width": 1600,
             "height": 1200
           }
