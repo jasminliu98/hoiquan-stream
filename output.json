@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:10 11/06/2026",
+  "updated_at": "11:20 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1913,6 +1913,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Serbia_21-00 13-06_cae4034f_20260611.png?v=cae4034f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_esports",
+      "name": "🎮 Esports",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-d5897a9ee8",
+          "name": "The MongolZ vs BetBoom | 16:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5897a9ee8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d5897a9ee8",
+                  "name": "The MongolZ vs BetBoom",
+                  "streams": [
+                    {
+                      "id": "st-d5897a9ee8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "The MongolZ",
+            "team_b": "BetBoom",
+            "logo_a": "https://i.pinimg.com/736x/85/ba/b2/85bab22e99b269b9c032d7b8d5cc77ea.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB_rcjRFbi06dlzMDzwkUXQimYNZ-M7ba2fg&s",
+            "time": "16:00 11/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/The MongolZ_BetBoom_16-00 11-06_22e858fe_20260611.png?v=22e858fe",
             "width": 1600,
             "height": 1200
           }
