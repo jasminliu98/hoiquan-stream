@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:45 11/06/2026",
+  "updated_at": "22:05 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -114,7 +114,25 @@
                     {
                       "id": "st-b11b5ea44f",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -129,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/9195.png",
             "time": "22:30 11/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1724,8 +1742,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-f98d4d90d3",
-          "name": "Ben Shelton vs Marcos Giron | 22:00 11/06",
+          "id": "hqlive-8144b81714",
+          "name": "Ben Shelton vs Marcos Giron | 22:30 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1739,15 +1757,15 @@
           ],
           "sources": [
             {
-              "id": "src-f98d4d90d3",
+              "id": "src-8144b81714",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f98d4d90d3",
+                  "id": "ct-8144b81714",
                   "name": "Ben Shelton vs Marcos Giron",
                   "streams": [
                     {
-                      "id": "st-f98d4d90d3",
+                      "id": "st-8144b81714",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1780,7 +1798,7 @@
             "team_b": "Marcos Giron",
             "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB34VlL8eZjCBZd_sDLStI-keeGNMPUx5b-w&s",
-            "time": "22:00 11/06",
+            "time": "22:30 11/06",
             "blv": "BLV PHAN TỪ",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1789,7 +1807,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marcos Giron_22-00 11-06_82a02c83_20260611.png?v=82a02c83",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Marcos Giron_22-30 11-06_82a02c83_20260611.png?v=82a02c83",
             "width": 1600,
             "height": 1200
           }
@@ -1798,38 +1816,56 @@
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-32fe0333b2",
-          "name": "Tay Vợt 1 vs Tay Vợt 2 | 22:30 11/06",
+          "id": "hqlive-8f5f7af4e8",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 22:00 11/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-32fe0333b2",
+              "id": "src-8f5f7af4e8",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-32fe0333b2",
+                  "id": "ct-8f5f7af4e8",
                   "name": "Tay Vợt 1 vs Tay Vợt 2",
                   "streams": [
                     {
-                      "id": "st-32fe0333b2",
+                      "id": "st-8f5f7af4e8",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1842,16 +1878,16 @@
             "team_b": "Tay Vợt 2",
             "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "time": "22:30 11/06",
+            "time": "22:00 11/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ban"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_22-30 11-06_3e80d90a_20260611.png?v=3e80d90a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_22-00 11-06_3e80d90a_20260611.png?v=3e80d90a",
             "width": 1600,
             "height": 1200
           }
