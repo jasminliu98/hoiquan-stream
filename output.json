@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:25 11/06/2026",
+  "updated_at": "19:00 11/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -685,6 +685,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/PVF-CAND_Bắc Ninh_18-00 12-06_cae398b9_20260611.png?v=cae398b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3d8b085ba4",
+          "name": "Ekibastuz vs Arys | 19:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d8b085ba4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3d8b085ba4",
+                  "name": "Ekibastuz vs Arys",
+                  "streams": [
+                    {
+                      "id": "st-3d8b085ba4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Ekibastuz",
+            "team_b": "Arys",
+            "logo_a": "https://media.api-sports.io/football/teams/4551.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10414.png",
+            "time": "19:00 12/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ekibastuz_Arys_19-00 12-06_5b04da22_20260611.png?v=5b04da22",
             "width": 1600,
             "height": 1200
           }
