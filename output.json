@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:10 12/06/2026",
+  "updated_at": "05:00 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -437,6 +437,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Bosnia & Herzegovina_02-00 13-06_16fbf1d5_20260612.png?v=16fbf1d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a3b9b442b1",
+          "name": "Atletico Goianiense vs CRB | 05:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a3b9b442b1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a3b9b442b1",
+                  "name": "Atletico Goianiense vs CRB",
+                  "streams": [
+                    {
+                      "id": "st-a3b9b442b1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Atletico Goianiense",
+            "team_b": "CRB",
+            "logo_a": "https://media.api-sports.io/football/teams/144.png",
+            "logo_b": "https://media.api-sports.io/football/teams/146.png",
+            "time": "05:00 13/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atletico Goianiense_CRB_05-00 13-06_d9a7d0f4_20260612.png?v=d9a7d0f4",
             "width": 1600,
             "height": 1200
           }
