@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:00 12/06/2026",
+  "updated_at": "08:20 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -604,82 +604,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ace28e821c",
-          "name": "Brazil vs Bỉ | 06:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ace28e821c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ace28e821c",
-                  "name": "Brazil vs Bỉ",
-                  "streams": [
-                    {
-                      "id": "st-ace28e821c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Brazil",
-            "team_b": "Bỉ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
-            "time": "06:00 12/06",
-            "blv": "BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Bỉ_06-00 12-06_4ea808b2_20260612.png?v=4ea808b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f58620f4d8",
           "name": "Canada vs Pháp | 06:30 12/06",
@@ -1521,8 +1450,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-af172371fc",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 10:00 12/06",
+          "id": "hqlive-565f7ab48c",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 10:45 12/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1536,15 +1465,15 @@
           ],
           "sources": [
             {
-              "id": "src-af172371fc",
+              "id": "src-565f7ab48c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-af172371fc",
+                  "id": "ct-565f7ab48c",
                   "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
                   "streams": [
                     {
-                      "id": "st-af172371fc",
+                      "id": "st-565f7ab48c",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1559,7 +1488,7 @@
             "team_b": "Tay Vợt Số 2",
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "10:00 12/06",
+            "time": "10:45 12/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "cau-long"
@@ -1568,7 +1497,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_10-00 12-06_cacf1340_20260612.png?v=cacf1340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_10-45 12-06_cacf1340_20260612.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
