@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:45 12/06/2026",
+  "updated_at": "17:55 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -765,59 +765,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nhật Bản_Ba Lan_19-00 12-06_3f341fb5_20260612.png?v=3f341fb5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d440041ea7",
-          "name": "Hàn Quốc vs Đài Loan | 20:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d440041ea7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d440041ea7",
-                  "name": "Hàn Quốc vs Đài Loan",
-                  "streams": [
-                    {
-                      "id": "st-d440041ea7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Đài Loan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
-            "time": "20:00 12/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Đài Loan_20-00 12-06_f9d1889b_20260612.png?v=f9d1889b",
             "width": 1600,
             "height": 1200
           }
@@ -1690,8 +1637,8 @@
           }
         },
         {
-          "id": "hqlive-bec7f99546",
-          "name": "Benjamin Bonzi vs Alex de Minaur | 19:30 12/06",
+          "id": "hqlive-37ef2907fc",
+          "name": "Benjamin Bonzi vs Alex de Minaur | 20:30 12/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1705,15 +1652,15 @@
           ],
           "sources": [
             {
-              "id": "src-bec7f99546",
+              "id": "src-37ef2907fc",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-bec7f99546",
+                  "id": "ct-37ef2907fc",
                   "name": "Benjamin Bonzi vs Alex de Minaur",
                   "streams": [
                     {
-                      "id": "st-bec7f99546",
+                      "id": "st-37ef2907fc",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1728,7 +1675,7 @@
             "team_b": "Alex de Minaur",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
             "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
-            "time": "19:30 12/06",
+            "time": "20:30 12/06",
             "blv": "BLV PHAN BỐNG",
             "is_live": false,
             "sport_slug": "tennis"
@@ -1737,60 +1684,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Alex de Minaur_19-30 12-06_412621da_20260612.png?v=412621da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-4e9ba56425",
-          "name": "Felix Auger-Aliassime vs Maja Chwalińska | 21:30 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e9ba56425",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4e9ba56425",
-                  "name": "Felix Auger-Aliassime vs Maja Chwalińska",
-                  "streams": [
-                    {
-                      "id": "st-4e9ba56425",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 S-Hertogenbosch",
-            "team_a": "Felix Auger-Aliassime",
-            "team_b": "Maja Chwalińska",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
-            "time": "21:30 12/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Maja Chwalińska_21-30 12-06_66ee8781_20260612.png?v=66ee8781",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Alex de Minaur_20-30 12-06_412621da_20260612.png?v=412621da",
             "width": 1600,
             "height": 1200
           }
@@ -1847,12 +1741,65 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-887bdc2f3f",
+          "name": "Felix Auger-Aliassime vs Maja Chwalińska | 23:30 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-887bdc2f3f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-887bdc2f3f",
+                  "name": "Felix Auger-Aliassime vs Maja Chwalińska",
+                  "streams": [
+                    {
+                      "id": "st-887bdc2f3f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Felix Auger-Aliassime",
+            "team_b": "Maja Chwalińska",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
+            "time": "23:30 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Maja Chwalińska_23-30 12-06_66ee8781_20260612.png?v=66ee8781",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1936,10 +1883,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1954,7 +1901,25 @@
                     {
                       "id": "st-a9a449dd49",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-07fa7a18bb",
+                          "name": "BLV PHAN HẢI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1969,7 +1934,7 @@
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "time": "18:20 12/06",
             "blv": "BLV PHAN HẢI",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-ban"
           },
           "image": {
