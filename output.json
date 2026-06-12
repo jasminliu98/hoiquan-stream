@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 12/06/2026",
+  "updated_at": "16:25 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -676,59 +676,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Cuba_15-00 12-06_c4689cfc_20260612.png?v=c4689cfc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-40287d7603",
-          "name": "Indonesia vs Lebanon | 17:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40287d7603",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-40287d7603",
-                  "name": "Indonesia vs Lebanon",
-                  "streams": [
-                    {
-                      "id": "st-40287d7603",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Indonesia",
-            "team_b": "Lebanon",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png",
-            "time": "17:00 12/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Lebanon_17-00 12-06_eb2db7bb_20260612.png?v=eb2db7bb",
             "width": 1600,
             "height": 1200
           }
@@ -1973,11 +1920,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2003,7 +1950,7 @@
             "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "time": "16:35 12/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV PHAN BỐNG",
             "is_live": true,
             "sport_slug": "bong-ban"
           },
