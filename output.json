@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 12/06/2026",
+  "updated_at": "20:30 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c87aa9c115",
-          "name": "PVF-CAND vs Bắc Ninh | 18:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c87aa9c115",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c87aa9c115",
-                  "name": "PVF-CAND vs Bắc Ninh",
-                  "streams": [
-                    {
-                      "id": "st-c87aa9c115",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "PVF-CAND",
-            "team_b": "Bắc Ninh",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/db/Logo_CLB_PVF-CAND.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/26601.png",
-            "time": "18:00 12/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/PVF-CAND_Bắc Ninh_18-00 12-06_cae398b9_20260612.png?v=cae398b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-3d8b085ba4",
           "name": "Ekibastuz vs Arys | 19:00 12/06",
