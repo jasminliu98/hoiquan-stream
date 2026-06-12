@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:05 12/06/2026",
+  "updated_at": "07:00 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atletico Goianiense_CRB_05-00 13-06_d9a7d0f4_20260612.png?v=d9a7d0f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-48421c1acb",
+          "name": "A. Italiano vs D. La Serena | 07:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48421c1acb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-48421c1acb",
+                  "name": "A. Italiano vs D. La Serena",
+                  "streams": [
+                    {
+                      "id": "st-48421c1acb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera División",
+            "team_a": "A. Italiano",
+            "team_b": "D. La Serena",
+            "logo_a": "https://media.api-sports.io/football/teams/2329.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2341.png",
+            "time": "07:00 13/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/A. Italiano_D. La Serena_07-00 13-06_82c10501_20260612.png?v=82c10501",
             "width": 1600,
             "height": 1200
           }
