@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:20 12/06/2026",
+  "updated_at": "19:25 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2197,59 +2197,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Alex de Minaur_19-30 12-06_412621da_20260612.png?v=412621da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-18785aca99",
-          "name": "Jiri Lehecka vs Frances Tiafoe | 22:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18785aca99",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-18785aca99",
-                  "name": "Jiri Lehecka vs Frances Tiafoe",
-                  "streams": [
-                    {
-                      "id": "st-18785aca99",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Jiri Lehecka",
-            "team_b": "Frances Tiafoe",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
-            "time": "22:00 12/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jiri Lehecka_Frances Tiafoe_22-00 12-06_76c1d1bb_20260612.png?v=76c1d1bb",
             "width": 1600,
             "height": 1200
           }
