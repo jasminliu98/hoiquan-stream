@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:45 12/06/2026",
+  "updated_at": "23:00 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -844,6 +844,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_KuPS_21-00 13-06_f01a87d2_20260612.png?v=f01a87d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-40d46ccc5e",
+          "name": "Lahti vs SJK | 23:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40d46ccc5e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-40d46ccc5e",
+                  "name": "Lahti vs SJK",
+                  "streams": [
+                    {
+                      "id": "st-40d46ccc5e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Lahti",
+            "team_b": "SJK",
+            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
+            "logo_b": "https://media.api-sports.io/football/teams/689.png",
+            "time": "23:00 13/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lahti_SJK_23-00 13-06_dea5fee0_20260612.png?v=dea5fee0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-961048d6d9",
+          "name": "Dinamo Minsk vs FC Gomel | 23:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-961048d6d9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-961048d6d9",
+                  "name": "Dinamo Minsk vs FC Gomel",
+                  "streams": [
+                    {
+                      "id": "st-961048d6d9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Belarus",
+            "team_a": "Dinamo Minsk",
+            "team_b": "FC Gomel",
+            "logo_a": "https://media.api-sports.io/football/teams/394.png",
+            "logo_b": "https://media.api-sports.io/football/teams/389.png",
+            "time": "23:00 13/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dinamo Minsk_FC Gomel_23-00 13-06_1d082c4c_20260612.png?v=1d082c4c",
             "width": 1600,
             "height": 1200
           }
