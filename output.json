@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 12/06/2026",
+  "updated_at": "21:25 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2096,8 +2096,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-bec7f99546",
-          "name": "Benjamin Bonzi vs Alex de Minaur | 19:30 12/06",
+          "id": "hqlive-2ef7aaa126",
+          "name": "Mattia Bellucci vs Taylor Fritz | 22:00 12/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2111,15 +2111,15 @@
           ],
           "sources": [
             {
-              "id": "src-bec7f99546",
+              "id": "src-2ef7aaa126",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-bec7f99546",
-                  "name": "Benjamin Bonzi vs Alex de Minaur",
+                  "id": "ct-2ef7aaa126",
+                  "name": "Mattia Bellucci vs Taylor Fritz",
                   "streams": [
                     {
-                      "id": "st-bec7f99546",
+                      "id": "st-2ef7aaa126",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -2147,59 +2147,6 @@
             }
           ],
           "org_metadata": {
-            "league": "ATP250 S-Hertogenbosch",
-            "team_a": "Benjamin Bonzi",
-            "team_b": "Alex de Minaur",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
-            "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
-            "time": "19:30 12/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Alex de Minaur_19-30 12-06_412621da_20260612.png?v=412621da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2ef7aaa126",
-          "name": "Mattia Bellucci vs Taylor Fritz | 22:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ef7aaa126",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2ef7aaa126",
-                  "name": "Mattia Bellucci vs Taylor Fritz",
-                  "streams": [
-                    {
-                      "id": "st-2ef7aaa126",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "ATP250 Stuttgart",
             "team_a": "Mattia Bellucci",
             "team_b": "Taylor Fritz",
@@ -2207,7 +2154,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
             "time": "22:00 12/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
