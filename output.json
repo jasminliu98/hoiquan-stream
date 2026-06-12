@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:10 12/06/2026",
+  "updated_at": "15:15 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1214,11 +1214,82 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (1 LIVE)",
+      "name": "🎮 Esports (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-15c8b06a2b",
+          "name": "Gen vs KT | 13:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15c8b06a2b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-15c8b06a2b",
+                  "name": "Gen vs KT",
+                  "streams": [
+                    {
+                      "id": "st-15c8b06a2b",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK Road to MSI 2026",
+            "team_a": "Gen",
+            "team_b": "KT",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/76/Logo_KT_Rolster.svg",
+            "time": "13:00 12/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_KT_13-00 12-06_ad94203d_20260612.png?v=ad94203d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-b2b4b244e4",
           "name": "HLE vs T1 | 15:00 12/06",
@@ -1339,6 +1410,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FURIA_MOUZ_16-00 12-06_2cd90171_20260612.png?v=2cd90171",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-04c0b8691d",
+          "name": "FUT vs G2 | 18:30 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04c0b8691d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-04c0b8691d",
+                  "name": "FUT vs G2",
+                  "streams": [
+                    {
+                      "id": "st-04c0b8691d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "FUT",
+            "team_b": "G2",
+            "logo_a": "https://images.seeklogo.com/logo-png/50/2/fut-esports-logo-png_seeklogo-509813.png",
+            "logo_b": "https://g2esports.com/cdn/shop/files/G2-Esports-2020-Logo_87bf0678-e67f-4834-8b09-e56137ffaa80.png?v=1641913940",
+            "time": "18:30 12/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FUT_G2_18-30 12-06_1dbadeba_20260612.png?v=1dbadeba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-37f604c10a",
+          "name": "NaVi vs Legacy | 21:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37f604c10a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-37f604c10a",
+                  "name": "NaVi vs Legacy",
+                  "streams": [
+                    {
+                      "id": "st-37f604c10a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "NaVi",
+            "team_b": "Legacy",
+            "logo_a": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vJYZUiDa-rHAHYj7n.png",
+            "time": "21:00 12/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/NaVi_Legacy_21-00 12-06_18279cf4_20260612.png?v=18279cf4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4961c96910",
+          "name": "Aurora vs Team Spirit | 23:30 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4961c96910",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4961c96910",
+                  "name": "Aurora vs Team Spirit",
+                  "streams": [
+                    {
+                      "id": "st-4961c96910",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "Aurora",
+            "team_b": "Team Spirit",
+            "logo_a": "https://static.flashscore.com/res/image/data/UXbkjyyB-6yTdMEii.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zPWPSOYg-fwRTMaSf.png",
+            "time": "23:30 12/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aurora_Team Spirit_23-30 12-06_4741cfc9_20260612.png?v=4741cfc9",
             "width": 1600,
             "height": 1200
           }
