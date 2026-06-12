@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 12/06/2026",
+  "updated_at": "18:20 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1242,6 +1242,430 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Serbia_21-00 13-06_cae4034f_20260612.png?v=cae4034f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-809d7cb988",
+          "name": "Bulgaria vs Argentina | 01:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-809d7cb988",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-809d7cb988",
+                  "name": "Bulgaria vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-809d7cb988",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bulgaria",
+            "team_b": "Argentina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+            "time": "01:30 15/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Argentina_01-30 15-06_10ff4aec_20260612.png?v=10ff4aec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4de66e7470",
+          "name": "Canada vs Mỹ | 03:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4de66e7470",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4de66e7470",
+                  "name": "Canada vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-4de66e7470",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Canada",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "03:00 15/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Mỹ_03-00 15-06_8dec0b13_20260612.png?v=8dec0b13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-05a9b0696d",
+          "name": "Thổ Nhĩ Kỳ vs Italy | 05:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05a9b0696d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-05a9b0696d",
+                  "name": "Thổ Nhĩ Kỳ vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-05a9b0696d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "05:30 15/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Italy_05-30 15-06_05454102_20260612.png?v=05454102",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-194d14a90b",
+          "name": "Ukraina vs Ba Lan | 12:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-194d14a90b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-194d14a90b",
+                  "name": "Ukraina vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-194d14a90b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Ukraina",
+            "team_b": "Ba Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "12:00 15/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Ba Lan_12-00 15-06_6595f1d1_20260612.png?v=6595f1d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8e77cef372",
+          "name": "Trung Quốc vs Cuba | 15:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e77cef372",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8e77cef372",
+                  "name": "Trung Quốc vs Cuba",
+                  "streams": [
+                    {
+                      "id": "st-8e77cef372",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Trung Quốc",
+            "team_b": "Cuba",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+            "time": "15:30 15/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Cuba_15-30 15-06_e82f6840_20260612.png?v=e82f6840",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b7e64bdaa5",
+          "name": "Slovenia vs Nhật Bản | 19:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7e64bdaa5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b7e64bdaa5",
+                  "name": "Slovenia vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-b7e64bdaa5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Slovenia",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "time": "19:00 15/06",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovenia_Nhật Bản_19-00 15-06_eda6e780_20260612.png?v=eda6e780",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-68109fdfb5",
+          "name": "Bỉ vs Iran | 21:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-68109fdfb5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-68109fdfb5",
+                  "name": "Bỉ vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-68109fdfb5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bỉ",
+            "team_b": "Iran",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+            "time": "21:00 15/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Iran_21-00 15-06_1f99c2a9_20260612.png?v=1f99c2a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4c20e0e0ca",
+          "name": "Đức vs Pháp | 22:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c20e0e0ca",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4c20e0e0ca",
+                  "name": "Đức vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-4c20e0e0ca",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Đức",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "22:00 15/06",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Pháp_22-00 15-06_945b69f8_20260612.png?v=945b69f8",
             "width": 1600,
             "height": 1200
           }
