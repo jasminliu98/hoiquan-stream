@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 12/06/2026",
+  "updated_at": "18:50 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1816,7 +1816,7 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (4 LIVE)",
+      "name": "🎮 Esports (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1888,77 +1888,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/HLE_T1_15-00 12-06_d8f23ac2_20260612.png?v=d8f23ac2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-54e202f40e",
-          "name": "FURIA vs MOUZ | 16:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54e202f40e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-54e202f40e",
-                  "name": "FURIA vs MOUZ",
-                  "streams": [
-                    {
-                      "id": "st-54e202f40e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "IEM Cologne Major 2026",
-            "team_a": "FURIA",
-            "team_b": "MOUZ",
-            "logo_a": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
-            "time": "16:00 12/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FURIA_MOUZ_16-00 12-06_2cd90171_20260612.png?v=2cd90171",
             "width": 1600,
             "height": 1200
           }
