@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:50 12/06/2026",
+  "updated_at": "18:55 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7c2ddf16e5",
-          "name": "Suwon FMC vs Gumi Sportstoto W | 17:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c2ddf16e5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7c2ddf16e5",
-                  "name": "Suwon FMC vs Gumi Sportstoto W",
-                  "streams": [
-                    {
-                      "id": "st-7c2ddf16e5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WK-League",
-            "team_a": "Suwon FMC",
-            "team_b": "Gumi Sportstoto W",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Suwon_FC_2016.svg/1280px-Suwon_FC_2016.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9wP95xQE7Y3gaGPvkt2WAacKfJgoGKVuT4w&s",
-            "time": "17:00 12/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suwon FMC_Gumi Sportstoto W_17-00 12-06_65dfd08f_20260612.png?v=65dfd08f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5eeef48bb1",
           "name": "Eastern United vs Adelaide Olympic | 17:15 12/06",
@@ -1816,7 +1745,7 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (3 LIVE)",
+      "name": "🎮 Esports (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1964,77 +1893,6 @@
           }
         },
         {
-          "id": "hqlive-9c8f3d5417",
-          "name": "Gen vs KT | 13:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c8f3d5417",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9c8f3d5417",
-                  "name": "Gen vs KT",
-                  "streams": [
-                    {
-                      "id": "st-9c8f3d5417",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK Road to MSI 2026",
-            "team_a": "Gen",
-            "team_b": "KT",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/76/Logo_KT_Rolster.svg",
-            "time": "13:00 13/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_KT_13-00 13-06_ad94203d_20260612.png?v=ad94203d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-37f604c10a",
           "name": "NaVi vs Legacy | 21:00 12/06",
           "type": "single",
@@ -2136,6 +1994,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aurora_Team Spirit_23-30 12-06_4741cfc9_20260612.png?v=4741cfc9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9c8f3d5417",
+          "name": "Gen vs KT | 13:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c8f3d5417",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9c8f3d5417",
+                  "name": "Gen vs KT",
+                  "streams": [
+                    {
+                      "id": "st-9c8f3d5417",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK Road to MSI 2026",
+            "team_a": "Gen",
+            "team_b": "KT",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/76/Logo_KT_Rolster.svg",
+            "time": "13:00 13/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_KT_13-00 13-06_ad94203d_20260612.png?v=ad94203d",
             "width": 1600,
             "height": 1200
           }
