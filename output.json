@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 12/06/2026",
+  "updated_at": "19:10 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -270,7 +270,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/391.png",
             "logo_b": "https://media.api-sports.io/football/teams/750.png",
             "time": "21:00 12/06",
-            "blv": "BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1904,82 +1904,11 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (2 LIVE)",
+      "name": "🎮 Esports (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b2b4b244e4",
-          "name": "HLE vs T1 | 15:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2b4b244e4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b2b4b244e4",
-                  "name": "HLE vs T1",
-                  "streams": [
-                    {
-                      "id": "st-b2b4b244e4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK Road to MSI 2026",
-            "team_a": "HLE",
-            "team_b": "T1",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/1280px-T1_esports_logo.svg.png",
-            "time": "15:00 12/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/HLE_T1_15-00 12-06_d8f23ac2_20260612.png?v=d8f23ac2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-04c0b8691d",
           "name": "FUT vs G2 | 18:30 12/06",
