@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:15 12/06/2026",
+  "updated_at": "15:20 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1220,77 +1220,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-15c8b06a2b",
-          "name": "Gen vs KT | 13:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15c8b06a2b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-15c8b06a2b",
-                  "name": "Gen vs KT",
-                  "streams": [
-                    {
-                      "id": "st-15c8b06a2b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK Road to MSI 2026",
-            "team_a": "Gen",
-            "team_b": "KT",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/76/Logo_KT_Rolster.svg",
-            "time": "13:00 12/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_KT_13-00 12-06_ad94203d_20260612.png?v=ad94203d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-b2b4b244e4",
           "name": "HLE vs T1 | 15:00 12/06",
           "type": "single",
@@ -1357,6 +1286,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/HLE_T1_15-00 12-06_d8f23ac2_20260612.png?v=d8f23ac2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9c8f3d5417",
+          "name": "Gen vs KT | 13:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c8f3d5417",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9c8f3d5417",
+                  "name": "Gen vs KT",
+                  "streams": [
+                    {
+                      "id": "st-9c8f3d5417",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK Road to MSI 2026",
+            "team_a": "Gen",
+            "team_b": "KT",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/76/Logo_KT_Rolster.svg",
+            "time": "13:00 13/06",
+            "blv": "BLV PHAN CA",
+            "is_live": true,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_KT_13-00 13-06_ad94203d_20260612.png?v=ad94203d",
             "width": 1600,
             "height": 1200
           }
@@ -1569,6 +1569,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aurora_Team Spirit_23-30 12-06_4741cfc9_20260612.png?v=4741cfc9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a8cfcfc353",
+          "name": "WE vs BIG | 16:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8cfcfc353",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a8cfcfc353",
+                  "name": "WE vs BIG",
+                  "streams": [
+                    {
+                      "id": "st-a8cfcfc353",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK Road to MSI 2026",
+            "team_a": "WE",
+            "team_b": "BIG",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/78/Team_WE_logo.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nqUlg_K35dWjVsvKfm7sGQ8wtbNIzUo_mQ&s",
+            "time": "16:00 13/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/WE_BIG_16-00 13-06_f6c4067f_20260612.png?v=f6c4067f",
             "width": 1600,
             "height": 1200
           }
@@ -1923,6 +1976,439 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jiri Lehecka_Frances Tiafoe_22-00 12-06_76c1d1bb_20260612.png?v=76c1d1bb",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-1c3e2078c3",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 16:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c3e2078c3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1c3e2078c3",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-1c3e2078c3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "16:00 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_16-00 12-06_3e80d90a_20260612.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f7a3e217d7",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 16:35 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7a3e217d7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f7a3e217d7",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-f7a3e217d7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "16:35 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_16-35 12-06_3e80d90a_20260612.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a9a449dd49",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 18:20 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9a449dd49",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a9a449dd49",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-a9a449dd49",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "18:20 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_18-20 12-06_3e80d90a_20260612.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9ecf007744",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 18:55 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ecf007744",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9ecf007744",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-9ecf007744",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "18:55 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_18-55 12-06_3e80d90a_20260612.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7013373053",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 22:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7013373053",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7013373053",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-7013373053",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "22:00 12/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_22-00 12-06_3e80d90a_20260612.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-434f382edd",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 22:35 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-434f382edd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-434f382edd",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-434f382edd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "22:35 12/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_22-35 12-06_3e80d90a_20260612.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9891b97c97",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 23:10 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9891b97c97",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9891b97c97",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-9891b97c97",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "23:10 12/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_23-10 12-06_3e80d90a_20260612.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8ceb0701c3",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 23:45 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ceb0701c3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8ceb0701c3",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-8ceb0701c3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "23:45 12/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_23-45 12-06_3e80d90a_20260612.png?v=3e80d90a",
             "width": 1600,
             "height": 1200
           }
