@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:35 12/06/2026",
+  "updated_at": "14:30 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Paraguay_08-00 13-06_2097618a_20260612.png?v=2097618a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-aa05a1986c",
+          "name": "Changchun Yatai vs Dalian Huayi | 14:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa05a1986c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-aa05a1986c",
+                  "name": "Changchun Yatai vs Dalian Huayi",
+                  "streams": [
+                    {
+                      "id": "st-aa05a1986c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League One",
+            "team_a": "Changchun Yatai",
+            "team_b": "Dalian Huayi",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzlfhmJARhzPrVKMwuFLSrBIsvCgKqClnx0w&s",
+            "logo_b": "https://media.api-sports.io/football/teams/5652.png",
+            "time": "14:30 13/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Yatai_Dalian Huayi_14-30 13-06_82d12109_20260612.png?v=82d12109",
             "width": 1600,
             "height": 1200
           }
