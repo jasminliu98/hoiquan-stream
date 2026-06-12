@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:10 12/06/2026",
+  "updated_at": "19:15 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -264,7 +264,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "VĐQG Belarus",
             "team_a": "FC Isloch Minsk R.",
             "team_b": "Naftan",
             "logo_a": "https://media.api-sports.io/football/teams/391.png",
@@ -1304,7 +1304,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
             "time": "06:30 13/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
