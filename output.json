@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:00 13/06/2026",
+  "updated_at": "04:05 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,133 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-e24c3495fa",
-          "name": "Canada vs Bosnia & Herzegovina | 02:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e24c3495fa",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e24c3495fa",
-                  "name": "Canada vs Bosnia & Herzegovina",
-                  "streams": [
-                    {
-                      "id": "st-e24c3495fa",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Canada",
-            "team_b": "Bosnia & Herzegovina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
-            "time": "02:00 13/06",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV PHAN QUẨY, BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Bosnia & Herzegovina_02-00 13-06_16fbf1d5_20260613.png?v=16fbf1d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a3b9b442b1",
           "name": "Atletico Goianiense vs CRB | 05:00 13/06",
@@ -2005,8 +1883,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-5d22c277f9",
-          "name": "Ben Shelton vs Brandon Nakashima | 17:00 13/06",
+          "id": "hqlive-d2dbdcf517",
+          "name": "Ben Shelton vs Sho Shimabukuro | 17:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2020,15 +1898,15 @@
           ],
           "sources": [
             {
-              "id": "src-5d22c277f9",
+              "id": "src-d2dbdcf517",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5d22c277f9",
-                  "name": "Ben Shelton vs Brandon Nakashima",
+                  "id": "ct-d2dbdcf517",
+                  "name": "Ben Shelton vs Sho Shimabukuro",
                   "streams": [
                     {
-                      "id": "st-5d22c277f9",
+                      "id": "st-d2dbdcf517",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -2040,9 +1918,9 @@
           "org_metadata": {
             "league": "ATP250 Stuttgart",
             "team_a": "Ben Shelton",
-            "team_b": "Brandon Nakashima",
+            "team_b": "Sho Shimabukuro",
             "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTr4-YHRQ624RtkZtKttfJY-s7lAZ24Pk4jw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Shimabukuro_WMQ23_%2853062069285%29.jpg",
             "time": "17:00 13/06",
             "blv": "BLV PHAN BỐNG",
             "is_live": false,
@@ -2052,7 +1930,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Brandon Nakashima_17-00 13-06_852e3ae2_20260613.png?v=852e3ae2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Sho Shimabukuro_17-00 13-06_05155c46_20260613.png?v=05155c46",
             "width": 1600,
             "height": 1200
           }
@@ -2106,6 +1984,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Bublik_Taylor Fritz_18-00 13-06_8c51527c_20260613.png?v=8c51527c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e0fd865200",
+          "name": "Ben Shelton vs Jiri Lehecka | 20:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0fd865200",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e0fd865200",
+                  "name": "Ben Shelton vs Jiri Lehecka",
+                  "streams": [
+                    {
+                      "id": "st-e0fd865200",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Ben Shelton",
+            "team_b": "Jiri Lehecka",
+            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
+            "time": "20:00 13/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Jiri Lehecka_20-00 13-06_85c0d884_20260613.png?v=85c0d884",
             "width": 1600,
             "height": 1200
           }
