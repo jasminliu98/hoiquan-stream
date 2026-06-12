@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 12/06/2026",
+  "updated_at": "22:10 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1003,7 +1003,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
             "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
             "time": "03:30 13/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -2020,59 +2020,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mattia Bellucci_Taylor Fritz_22-00 12-06_08f88dea_20260612.png?v=08f88dea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-887bdc2f3f",
-          "name": "Felix Auger-Aliassime vs Maja Chwalińska | 23:30 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-887bdc2f3f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-887bdc2f3f",
-                  "name": "Felix Auger-Aliassime vs Maja Chwalińska",
-                  "streams": [
-                    {
-                      "id": "st-887bdc2f3f",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 S-Hertogenbosch",
-            "team_a": "Felix Auger-Aliassime",
-            "team_b": "Maja Chwalińska",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Qualifying_TransylvaniaOpen_Maja_Chwalinska_vs_Ilinca_Dalina_Amariei_6-1%2C6-1_%2854320887214%29_%28cropped_Maja_Chwalinska%29.jpg",
-            "time": "23:30 12/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Felix Auger-Aliassime_Maja Chwalińska_23-30 12-06_66ee8781_20260612.png?v=66ee8781",
             "width": 1600,
             "height": 1200
           }
