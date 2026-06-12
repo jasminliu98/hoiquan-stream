@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:10 12/06/2026",
+  "updated_at": "23:25 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -946,8 +946,8 @@
           }
         },
         {
-          "id": "hqlive-2b371b139b",
-          "name": "Đức vs Mỹ | 03:30 13/06",
+          "id": "hqlive-96989ef8ce",
+          "name": "Đức vs Mỹ | 03:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -961,15 +961,15 @@
           ],
           "sources": [
             {
-              "id": "src-2b371b139b",
+              "id": "src-96989ef8ce",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-2b371b139b",
+                  "id": "ct-96989ef8ce",
                   "name": "Đức vs Mỹ",
                   "streams": [
                     {
-                      "id": "st-2b371b139b",
+                      "id": "st-96989ef8ce",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -984,7 +984,7 @@
             "team_b": "Mỹ",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
             "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "time": "03:30 13/06",
+            "time": "03:00 13/06",
             "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-chuyen"
@@ -993,7 +993,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Mỹ_03-30 13-06_b0dc2b06_20260612.png?v=b0dc2b06",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Mỹ_03-00 13-06_b0dc2b06_20260612.png?v=b0dc2b06",
             "width": 1600,
             "height": 1200
           }
