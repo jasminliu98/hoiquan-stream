@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:30 13/06/2026",
+  "updated_at": "04:50 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -993,82 +993,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-77d3193ec0",
-          "name": "Bỉ vs Serbia | 02:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-77d3193ec0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-77d3193ec0",
-                  "name": "Bỉ vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-77d3193ec0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Bỉ",
-            "team_b": "Serbia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "time": "02:30 13/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Serbia_02-30 13-06_43d764db_20260613.png?v=43d764db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-47ac929283",
           "name": "Iran vs Argentina | 06:00 13/06",
