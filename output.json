@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:30 12/06/2026",
+  "updated_at": "14:35 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -604,7 +604,7 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -688,10 +688,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -706,7 +706,25 @@
                     {
                       "id": "st-633d5f9cdb",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -721,7 +739,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
             "time": "15:00 12/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
@@ -1267,7 +1285,7 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports",
+      "name": "🎮 Esports (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1280,10 +1298,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1298,7 +1316,25 @@
                     {
                       "id": "st-b2b4b244e4",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1313,7 +1349,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/1280px-T1_esports_logo.svg.png",
             "time": "15:00 12/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "esports"
           },
           "image": {
