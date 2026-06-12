@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:25 12/06/2026",
+  "updated_at": "16:30 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -596,6 +596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Yatai_Dalian Huayi_14-30 13-06_82d12109_20260612.png?v=82d12109",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3791eb395e",
+          "name": "Laagri vs Kuressaare | 16:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3791eb395e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3791eb395e",
+                  "name": "Laagri vs Kuressaare",
+                  "streams": [
+                    {
+                      "id": "st-3791eb395e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Meistriliiga",
+            "team_a": "Laagri",
+            "team_b": "Kuressaare",
+            "logo_a": "https://media.api-sports.io/football/teams/18657.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3526.png",
+            "time": "16:30 13/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Laagri_Kuressaare_16-30 13-06_749c1e37_20260612.png?v=749c1e37",
             "width": 1600,
             "height": 1200
           }
