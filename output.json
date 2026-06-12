@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:55 12/06/2026",
+  "updated_at": "19:00 12/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -865,6 +865,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-d09acd1b9d",
+          "name": "Inter Turku vs AC Oulu | 19:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d09acd1b9d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d09acd1b9d",
+                  "name": "Inter Turku vs AC Oulu",
+                  "streams": [
+                    {
+                      "id": "st-d09acd1b9d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Inter Turku",
+            "team_b": "AC Oulu",
+            "logo_a": "https://media.api-sports.io/football/teams/1164.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2077.png",
+            "time": "19:00 13/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Turku_AC Oulu_19-00 13-06_c3f02ca8_20260612.png?v=c3f02ca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-abd79e6a3b",
+          "name": "Ilves vs Turku PS | 19:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abd79e6a3b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-abd79e6a3b",
+                  "name": "Ilves vs Turku PS",
+                  "streams": [
+                    {
+                      "id": "st-abd79e6a3b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Ilves",
+            "team_b": "Turku PS",
+            "logo_a": "https://media.api-sports.io/football/teams/1163.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1168.png",
+            "time": "19:00 13/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ilves_Turku PS_19-00 13-06_73da97a2_20260612.png?v=73da97a2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -942,6 +1048,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nhật Bản_Ba Lan_19-00 12-06_3f341fb5_20260612.png?v=3f341fb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d440041ea7",
+          "name": "Hàn Quốc vs Đài Loan | 20:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d440041ea7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d440041ea7",
+                  "name": "Hàn Quốc vs Đài Loan",
+                  "streams": [
+                    {
+                      "id": "st-d440041ea7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Hàn Quốc",
+            "team_b": "Đài Loan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
+            "time": "20:00 12/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Đài Loan_20-00 12-06_f9d1889b_20260612.png?v=f9d1889b",
             "width": 1600,
             "height": 1200
           }
@@ -2108,7 +2267,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2185,32 +2344,50 @@
           }
         },
         {
-          "id": "hqlive-37ef2907fc",
-          "name": "Benjamin Bonzi vs Alex de Minaur | 20:30 12/06",
+          "id": "hqlive-bec7f99546",
+          "name": "Benjamin Bonzi vs Alex de Minaur | 19:30 12/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-37ef2907fc",
+              "id": "src-bec7f99546",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-37ef2907fc",
+                  "id": "ct-bec7f99546",
                   "name": "Benjamin Bonzi vs Alex de Minaur",
                   "streams": [
                     {
-                      "id": "st-37ef2907fc",
+                      "id": "st-bec7f99546",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2223,16 +2400,16 @@
             "team_b": "Alex de Minaur",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIanuCn51nriYFO_79zQZpBS9ousE6-KauBQ&s",
             "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
-            "time": "20:30 12/06",
+            "time": "19:30 12/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Alex de Minaur_20-30 12-06_412621da_20260612.png?v=412621da",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Benjamin Bonzi_Alex de Minaur_19-30 12-06_412621da_20260612.png?v=412621da",
             "width": 1600,
             "height": 1200
           }
@@ -2347,153 +2524,11 @@
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn (2 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f7a3e217d7",
-          "name": "Tay Vợt 1 vs Tay Vợt 2 | 16:35 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7a3e217d7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f7a3e217d7",
-                  "name": "Tay Vợt 1 vs Tay Vợt 2",
-                  "streams": [
-                    {
-                      "id": "st-f7a3e217d7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTT Contender Zagreb 2026",
-            "team_a": "Tay Vợt 1",
-            "team_b": "Tay Vợt 2",
-            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "time": "16:35 12/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-ban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_16-35 12-06_3e80d90a_20260612.png?v=3e80d90a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-9ecf007744",
-          "name": "Tay Vợt 1 vs Tay Vợt 2 | 18:55 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ecf007744",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9ecf007744",
-                  "name": "Tay Vợt 1 vs Tay Vợt 2",
-                  "streams": [
-                    {
-                      "id": "st-9ecf007744",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTT Contender Zagreb 2026",
-            "team_a": "Tay Vợt 1",
-            "team_b": "Tay Vợt 2",
-            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "time": "18:55 12/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-ban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_18-55 12-06_3e80d90a_20260612.png?v=3e80d90a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-7013373053",
           "name": "Tay Vợt 1 vs Tay Vợt 2 | 22:00 12/06",
