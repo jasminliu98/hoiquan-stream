@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:50 13/06/2026",
+  "updated_at": "05:00 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -985,6 +985,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Colo Colo_Cobresal_04-30 14-06_4e853a99_20260613.png?v=4e853a99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-35de8bbf20",
+          "name": "Brazil vs Morocco | 05:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35de8bbf20",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-35de8bbf20",
+                  "name": "Brazil vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-35de8bbf20",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Brazil",
+            "team_b": "Morocco",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
+            "time": "05:00 14/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Morocco_05-00 14-06_7564eb53_20260613.png?v=7564eb53",
             "width": 1600,
             "height": 1200
           }
