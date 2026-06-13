@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:30 13/06/2026",
+  "updated_at": "13:35 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1750,8 +1750,8 @@
           }
         },
         {
-          "id": "hqlive-a8cfcfc353",
-          "name": "WE vs BIG | 16:00 13/06",
+          "id": "hqlive-f9713603d4",
+          "name": "WE vs BLG | 16:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1765,15 +1765,15 @@
           ],
           "sources": [
             {
-              "id": "src-a8cfcfc353",
+              "id": "src-f9713603d4",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-a8cfcfc353",
-                  "name": "WE vs BIG",
+                  "id": "ct-f9713603d4",
+                  "name": "WE vs BLG",
                   "streams": [
                     {
-                      "id": "st-a8cfcfc353",
+                      "id": "st-f9713603d4",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1783,11 +1783,11 @@
             }
           ],
           "org_metadata": {
-            "league": "LCK Road to MSI 2026",
+            "league": "LPL",
             "team_a": "WE",
-            "team_b": "BIG",
+            "team_b": "BLG",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/78/Team_WE_logo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nqUlg_K35dWjVsvKfm7sGQ8wtbNIzUo_mQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/66/Bilibili_Gaming_logo_%282021%29.png",
             "time": "16:00 13/06",
             "blv": "BLV PHAN CA",
             "is_live": false,
@@ -1797,7 +1797,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/WE_BIG_16-00 13-06_f6c4067f_20260613.png?v=f6c4067f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/WE_BLG_16-00 13-06_2e60e430_20260613.png?v=2e60e430",
             "width": 1600,
             "height": 1200
           }
