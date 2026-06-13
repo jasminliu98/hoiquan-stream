@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:00 13/06/2026",
+  "updated_at": "18:05 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -238,10 +238,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -256,7 +256,25 @@
                     {
                       "id": "st-d73212445d",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -271,7 +289,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/27556.png",
             "time": "18:30 13/06",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -291,10 +309,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -309,7 +327,25 @@
                     {
                       "id": "st-433960c594",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -324,7 +360,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/5688.png",
             "time": "18:30 13/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1921,7 +1957,7 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (1 LIVE)",
+      "name": "🎮 Esports (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2005,10 +2041,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2023,7 +2059,25 @@
                     {
                       "id": "st-48357e188a",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2038,7 +2092,7 @@
             "logo_b": "https://g2esports.com/cdn/shop/files/G2-Esports-2020-Logo_87bf0678-e67f-4834-8b09-e56137ffaa80.png?v=1641913940",
             "time": "18:30 13/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "esports"
           },
           "image": {
@@ -2320,56 +2374,38 @@
     },
     {
       "id": "sport_bong-ban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-4747e542f5",
-          "name": "Tay Vợt 1 vs Tay Vợt 2 | 18:00 13/06",
+          "id": "hqlive-f0dd31b54e",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 23:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-4747e542f5",
+              "id": "src-f0dd31b54e",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4747e542f5",
+                  "id": "ct-f0dd31b54e",
                   "name": "Tay Vợt 1 vs Tay Vợt 2",
                   "streams": [
                     {
-                      "id": "st-4747e542f5",
+                      "id": "st-f0dd31b54e",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2382,16 +2418,16 @@
             "team_b": "Tay Vợt 2",
             "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
             "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "time": "18:00 13/06",
+            "time": "23:00 13/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "bong-ban"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_18-00 13-06_3e80d90a_20260613.png?v=3e80d90a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_23-00 13-06_3e80d90a_20260613.png?v=3e80d90a",
             "width": 1600,
             "height": 1200
           }
