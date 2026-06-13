@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:55 13/06/2026",
+  "updated_at": "19:00 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1077,6 +1077,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-7cf8b1fad3",
+          "name": "Ulytau vs Zhenys | 19:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cf8b1fad3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7cf8b1fad3",
+                  "name": "Ulytau vs Zhenys",
+                  "streams": [
+                    {
+                      "id": "st-7cf8b1fad3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Ulytau",
+            "team_b": "Zhenys",
+            "logo_a": "https://media.api-sports.io/football/teams/21010.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16611.png",
+            "time": "19:00 14/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ulytau_Zhenys_19-00 14-06_83624105_20260613.png?v=83624105",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1724,8 +1777,8 @@
           }
         },
         {
-          "id": "hqlive-4f945a6a0c",
-          "name": "Bulgaria vs Serbia | 01:30 15/06",
+          "id": "hqlive-cbafc66eee",
+          "name": "Bulgaria vs Serbia | 00:30 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1739,15 +1792,15 @@
           ],
           "sources": [
             {
-              "id": "src-4f945a6a0c",
+              "id": "src-cbafc66eee",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-4f945a6a0c",
+                  "id": "ct-cbafc66eee",
                   "name": "Bulgaria vs Serbia",
                   "streams": [
                     {
-                      "id": "st-4f945a6a0c",
+                      "id": "st-cbafc66eee",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1762,7 +1815,7 @@
             "team_b": "Serbia",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "time": "01:30 15/06",
+            "time": "00:30 15/06",
             "blv": "BLV PHAN HẢI",
             "is_live": false,
             "sport_slug": "bong-chuyen"
@@ -1771,7 +1824,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Serbia_01-30 15-06_5c9a0090_20260613.png?v=5c9a0090",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Serbia_00-30 15-06_5c9a0090_20260613.png?v=5c9a0090",
             "width": 1600,
             "height": 1200
           }
@@ -1825,6 +1878,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Thổ Nhĩ Kỳ_01-30 15-06_f200de00_20260613.png?v=f200de00",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c56c16674c",
+          "name": "Brazil vs Argentina | 04:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c56c16674c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c56c16674c",
+                  "name": "Brazil vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-c56c16674c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Brazil",
+            "team_b": "Argentina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+            "time": "04:00 15/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Argentina_04-00 15-06_4c3c5f29_20260613.png?v=4c3c5f29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-79791d13be",
+          "name": "Mỹ vs Italy | 05:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79791d13be",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-79791d13be",
+                  "name": "Mỹ vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-79791d13be",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Mỹ",
+            "team_b": "Italy",
+            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "05:00 15/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Italy_05-00 15-06_d4eda8a1_20260613.png?v=d4eda8a1",
             "width": 1600,
             "height": 1200
           }
