@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 13/06/2026",
+  "updated_at": "19:05 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1992,82 +1992,11 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (2 LIVE)",
+      "name": "🎮 Esports (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-aa77b35860",
-          "name": "NaVi vs The MongolZ | 16:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa77b35860",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-aa77b35860",
-                  "name": "NaVi vs The MongolZ",
-                  "streams": [
-                    {
-                      "id": "st-aa77b35860",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "IEM Cologne Major 2026",
-            "team_a": "NaVi",
-            "team_b": "The MongolZ",
-            "logo_a": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
-            "logo_b": "https://i.pinimg.com/736x/85/ba/b2/85bab22e99b269b9c032d7b8d5cc77ea.jpg",
-            "time": "16:00 13/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/NaVi_The MongolZ_16-00 13-06_7cd0a34b_20260613.png?v=7cd0a34b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-48357e188a",
           "name": "Aurora vs G2 | 18:30 13/06",
