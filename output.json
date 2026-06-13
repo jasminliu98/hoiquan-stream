@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:05 13/06/2026",
+  "updated_at": "17:35 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1247,8 +1247,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-e953a7bdde",
-          "name": "Trung Quốc vs Nhật Bản | 15:30 13/06",
+          "id": "hqlive-f688c136c6",
+          "name": "Hàn Quốc vs Việt Nam | 18:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1262,22 +1262,39 @@
           ],
           "sources": [
             {
-              "id": "src-e953a7bdde",
+              "id": "src-f688c136c6",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e953a7bdde",
-                  "name": "Trung Quốc vs Nhật Bản",
+                  "id": "ct-f688c136c6",
+                  "name": "Hàn Quốc vs Việt Nam",
                   "streams": [
                     {
-                      "id": "st-e953a7bdde",
+                      "id": "st-f688c136c6",
                       "name": "HQ",
                       "stream_links": [
+                        {
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-07fa7a18bb",
                           "name": "BLV PHAN HẢI",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
                           "request_headers": [
                             {
@@ -1298,59 +1315,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Trung Quốc",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "time": "15:30 13/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Nhật Bản_15-30 13-06_cd0d35e6_20260613.png?v=cd0d35e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f688c136c6",
-          "name": "Hàn Quốc vs Việt Nam | 18:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f688c136c6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f688c136c6",
-                  "name": "Hàn Quốc vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-f688c136c6",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "AVC Nations Cup 2026",
             "team_a": "Hàn Quốc",
             "team_b": "Việt Nam",
@@ -1358,7 +1322,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
             "time": "18:00 13/06",
             "blv": "BLV PHAN CHỚP, BLV PHAN HẢI",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
