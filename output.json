@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:35 14/06/2026",
+  "updated_at": "01:40 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -133,11 +133,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -163,7 +163,7 @@
             "logo_a": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png",
             "time": "02:00 14/06",
-            "blv": "BLV LƯƠNG BỔNG, BLV THẦN THÔNG",
+            "blv": "BLV LƯƠNG BỔNG, BLV TÁO GIÀ",
             "is_live": true,
             "sport_slug": "bong-da"
           },
