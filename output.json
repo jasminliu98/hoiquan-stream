@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:00 13/06/2026",
+  "updated_at": "20:30 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -226,77 +226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ilves_Turku PS_19-00 13-06_73da97a2_20260613.png?v=73da97a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-74960f90a4",
-          "name": "Thailand U19 vs Australia U19 | 20:15 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74960f90a4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-74960f90a4",
-                  "name": "Thailand U19 vs Australia U19",
-                  "streams": [
-                    {
-                      "id": "st-74960f90a4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Thailand U19",
-            "team_b": "Australia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
-            "logo_b": "https://media.api-sports.io/football/teams/22591.png",
-            "time": "20:15 13/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thailand U19_Australia U19_20-15 13-06_7767ab27_20260613.png?v=7767ab27",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +588,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
             "time": "05:00 14/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "blv": "BLV PHAN QUẨY, BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -871,7 +800,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/777.png",
             "time": "11:00 14/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1206,7 +1135,7 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1290,10 +1219,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1308,7 +1237,25 @@
                     {
                       "id": "st-b9df930b91",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1323,7 +1270,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
             "time": "21:00 13/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
