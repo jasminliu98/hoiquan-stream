@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 13/06/2026",
+  "updated_at": "18:25 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d779617e2c",
-          "name": "Cambodia U19 vs Indonesia U19 | 16:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d779617e2c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d779617e2c",
-                  "name": "Cambodia U19 vs Indonesia U19",
-                  "streams": [
-                    {
-                      "id": "st-d779617e2c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Cambodia U19",
-            "team_b": "Indonesia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19148.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19149.png",
-            "time": "16:00 13/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cambodia U19_Indonesia U19_16-00 13-06_1109fac1_20260613.png?v=1109fac1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-3791eb395e",
-          "name": "Laagri vs Kuressaare | 16:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3791eb395e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3791eb395e",
-                  "name": "Laagri vs Kuressaare",
-                  "streams": [
-                    {
-                      "id": "st-3791eb395e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Meistriliiga",
-            "team_a": "Laagri",
-            "team_b": "Kuressaare",
-            "logo_a": "https://media.api-sports.io/football/teams/18657.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3526.png",
-            "time": "16:30 13/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Laagri_Kuressaare_16-30 13-06_749c1e37_20260613.png?v=749c1e37",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ce411ab399",
           "name": "Harju JK Laagri vs FC Kuressaare | 16:30 13/06",
@@ -571,7 +429,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/650.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
             "time": "21:00 13/06",
-            "blv": "BLV PHAN QUẨY",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -995,7 +853,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
             "time": "08:00 14/06",
-            "blv": "BLV PHAN QUẨY, BLV THẦN THÔNG",
+            "blv": "BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1101,7 +959,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/777.png",
             "time": "11:00 14/06",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV PHAN QUẨY",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
