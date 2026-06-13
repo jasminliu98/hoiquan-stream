@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:30 13/06/2026",
+  "updated_at": "18:35 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "hqlive-433960c594",
-          "name": "Hebei Kungfu vs Suzhou Dongwu | 18:30 13/06",
+          "id": "hqlive-d09acd1b9d",
+          "name": "Inter Turku vs AC Oulu | 19:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-433960c594",
+              "id": "src-d09acd1b9d",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-433960c594",
-                  "name": "Hebei Kungfu vs Suzhou Dongwu",
+                  "id": "ct-d09acd1b9d",
+                  "name": "Inter Turku vs AC Oulu",
                   "streams": [
                     {
-                      "id": "st-433960c594",
+                      "id": "st-d09acd1b9d",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,59 +140,6 @@
             }
           ],
           "org_metadata": {
-            "league": "League One",
-            "team_a": "Hebei Kungfu",
-            "team_b": "Suzhou Dongwu",
-            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5688.png",
-            "time": "18:30 13/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Suzhou Dongwu_18-30 13-06_cf8676ee_20260613.png?v=cf8676ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d09acd1b9d",
-          "name": "Inter Turku vs AC Oulu | 19:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d09acd1b9d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d09acd1b9d",
-                  "name": "Inter Turku vs AC Oulu",
-                  "streams": [
-                    {
-                      "id": "st-d09acd1b9d",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Veikkausliiga",
             "team_a": "Inter Turku",
             "team_b": "AC Oulu",
@@ -200,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/2077.png",
             "time": "19:00 13/06",
             "blv": "BLV THẦN THÔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -220,10 +167,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,7 +185,25 @@
                     {
                       "id": "st-abd79e6a3b",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -253,7 +218,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1168.png",
             "time": "19:00 13/06",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1117,7 +1082,7 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1218,10 +1183,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1236,7 +1201,25 @@
                     {
                       "id": "st-9e5981dbaa",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1250,8 +1233,8 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
             "time": "19:00 13/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
