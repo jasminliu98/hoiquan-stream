@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:40 14/06/2026",
+  "updated_at": "02:00 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f063a48c72",
-          "name": "Dinamo Brest vs Neman | 01:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f063a48c72",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f063a48c72",
-                  "name": "Dinamo Brest vs Neman",
-                  "streams": [
-                    {
-                      "id": "st-f063a48c72",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Belarus",
-            "team_a": "Dinamo Brest",
-            "team_b": "Neman",
-            "logo_a": "https://media.api-sports.io/football/teams/386.png",
-            "logo_b": "https://media.api-sports.io/football/teams/387.png",
-            "time": "01:00 14/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dinamo Brest_Neman_01-00 14-06_85d55996_20260614.png?v=85d55996",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-53e1537516",
           "name": "Qatar vs Switzerland | 02:00 14/06",
@@ -1008,11 +937,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1038,7 +967,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
             "time": "01:30 14/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN PHÉP",
             "is_live": true,
             "sport_slug": "bong-chuyen"
           },
