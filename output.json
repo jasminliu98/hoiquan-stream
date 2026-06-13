@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 13/06/2026",
+  "updated_at": "16:45 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -155,6 +155,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Laagri_Kuressaare_16-30 13-06_749c1e37_20260613.png?v=749c1e37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ce411ab399",
+          "name": "Harju JK Laagri vs FC Kuressaare | 16:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce411ab399",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ce411ab399",
+                  "name": "Harju JK Laagri vs FC Kuressaare",
+                  "streams": [
+                    {
+                      "id": "st-ce411ab399",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Estonia",
+            "team_a": "Harju JK Laagri",
+            "team_b": "FC Kuressaare",
+            "logo_a": "https://static.flashscore.com/res/image/data/Ao79cLzB-xdabbQpB.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/de/thumb/c/c4/FC_Kuressaare.svg/1200px-FC_Kuressaare.svg.png",
+            "time": "16:30 13/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Harju JK Laagri_FC Kuressaare_16-30 13-06_052180d8_20260613.png?v=052180d8",
             "width": 1600,
             "height": 1200
           }
@@ -2099,82 +2170,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d2dbdcf517",
-          "name": "Ben Shelton vs Sho Shimabukuro | 17:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2dbdcf517",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d2dbdcf517",
-                  "name": "Ben Shelton vs Sho Shimabukuro",
-                  "streams": [
-                    {
-                      "id": "st-d2dbdcf517",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Ben Shelton",
-            "team_b": "Sho Shimabukuro",
-            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Shimabukuro_WMQ23_%2853062069285%29.jpg",
-            "time": "17:00 13/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Sho Shimabukuro_17-00 13-06_05155c46_20260613.png?v=05155c46",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-61f6c8b0cc",
           "name": "Alexander Bublik vs Taylor Fritz | 18:00 13/06",
