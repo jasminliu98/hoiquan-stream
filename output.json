@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:45 13/06/2026",
+  "updated_at": "18:00 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1233,6 +1233,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Dazhong Nữ_Shaanxi Changan Nữ_16-00 14-06_ba1aae5f_20260613.png?v=ba1aae5f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9b5a9a7911",
+          "name": "Wuxi Wugou vs Meizhou Kejia | 18:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b5a9a7911",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9b5a9a7911",
+                  "name": "Wuxi Wugou vs Meizhou Kejia",
+                  "streams": [
+                    {
+                      "id": "st-9b5a9a7911",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League One",
+            "team_a": "Wuxi Wugou",
+            "team_b": "Meizhou Kejia",
+            "logo_a": "https://media.api-sports.io/football/teams/17269.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1439.png",
+            "time": "18:00 14/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wuxi Wugou_Meizhou Kejia_18-00 14-06_0d9d240d_20260613.png?v=0d9d240d",
             "width": 1600,
             "height": 1200
           }
