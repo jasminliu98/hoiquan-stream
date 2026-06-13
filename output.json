@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:50 13/06/2026",
+  "updated_at": "19:55 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2197,82 +2197,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-61f6c8b0cc",
-          "name": "Alexander Bublik vs Taylor Fritz | 18:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61f6c8b0cc",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-61f6c8b0cc",
-                  "name": "Alexander Bublik vs Taylor Fritz",
-                  "streams": [
-                    {
-                      "id": "st-61f6c8b0cc",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP250 Stuttgart",
-            "team_a": "Alexander Bublik",
-            "team_b": "Taylor Fritz",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg/250px-Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
-            "time": "18:00 13/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexander Bublik_Taylor Fritz_18-00 13-06_8c51527c_20260613.png?v=8c51527c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e0fd865200",
           "name": "Ben Shelton vs Jiri Lehecka | 20:00 13/06",
