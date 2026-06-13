@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 13/06/2026",
+  "updated_at": "16:20 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1904,153 +1904,11 @@
     },
     {
       "id": "sport_esports",
-      "name": "🎮 Esports (3 LIVE)",
+      "name": "🎮 Esports (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9c8f3d5417",
-          "name": "Gen vs KT | 13:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c8f3d5417",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9c8f3d5417",
-                  "name": "Gen vs KT",
-                  "streams": [
-                    {
-                      "id": "st-9c8f3d5417",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK Road to MSI 2026",
-            "team_a": "Gen",
-            "team_b": "KT",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/76/Logo_KT_Rolster.svg",
-            "time": "13:00 13/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gen_KT_13-00 13-06_ad94203d_20260613.png?v=ad94203d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f9713603d4",
-          "name": "WE vs BLG | 16:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9713603d4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f9713603d4",
-                  "name": "WE vs BLG",
-                  "streams": [
-                    {
-                      "id": "st-f9713603d4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "WE",
-            "team_b": "BLG",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/78/Team_WE_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/66/Bilibili_Gaming_logo_%282021%29.png",
-            "time": "16:00 13/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/WE_BLG_16-00 13-06_2e60e430_20260613.png?v=2e60e430",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-aa77b35860",
           "name": "NaVi vs The MongolZ | 16:00 13/06",
@@ -2238,8 +2096,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-52bb81956d",
-          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 09:00 13/06",
+          "id": "hqlive-67515a4ac0",
+          "name": "Tay Vợt Số 1 vs Tay Vợt Số 2 | 16:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2253,23 +2111,23 @@
           ],
           "sources": [
             {
-              "id": "src-52bb81956d",
+              "id": "src-67515a4ac0",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-52bb81956d",
+                  "id": "ct-67515a4ac0",
                   "name": "Tay Vợt Số 1 vs Tay Vợt Số 2",
                   "streams": [
                     {
-                      "id": "st-52bb81956d",
+                      "id": "st-67515a4ac0",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2294,8 +2152,8 @@
             "team_b": "Tay Vợt Số 2",
             "logo_a": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
             "logo_b": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "time": "09:00 13/06",
-            "blv": "BLV PHAN BÁCH",
+            "time": "16:00 13/06",
+            "blv": "BLV PHAN CA",
             "is_live": true,
             "sport_slug": "cau-long"
           },
@@ -2303,7 +2161,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_09-00 13-06_cacf1340_20260613.png?v=cacf1340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt Số 1_Tay Vợt Số 2_16-00 13-06_cacf1340_20260613.png?v=cacf1340",
             "width": 1600,
             "height": 1200
           }
