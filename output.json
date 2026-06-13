@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:35 13/06/2026",
+  "updated_at": "07:00 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a3b9b442b1",
-          "name": "Atletico Goianiense vs CRB | 05:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a3b9b442b1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a3b9b442b1",
-                  "name": "Atletico Goianiense vs CRB",
-                  "streams": [
-                    {
-                      "id": "st-a3b9b442b1",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Atletico Goianiense",
-            "team_b": "CRB",
-            "logo_a": "https://media.api-sports.io/football/teams/144.png",
-            "logo_b": "https://media.api-sports.io/football/teams/146.png",
-            "time": "05:00 13/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Atletico Goianiense_CRB_05-00 13-06_d9a7d0f4_20260613.png?v=d9a7d0f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e8b903d9b8",
           "name": "Khai Mạc WC vs Khai Mạc WC | 06:30 13/06",
@@ -1074,6 +1003,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Morocco_05-00 14-06_7564eb53_20260613.png?v=7564eb53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4d151382da",
+          "name": "Nublense vs Huachipato | 07:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d151382da",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4d151382da",
+                  "name": "Nublense vs Huachipato",
+                  "streams": [
+                    {
+                      "id": "st-4d151382da",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera División",
+            "team_a": "Nublense",
+            "team_b": "Huachipato",
+            "logo_a": "https://media.api-sports.io/football/teams/2337.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2328.png",
+            "time": "07:00 14/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nublense_Huachipato_07-00 14-06_b8b7ef7a_20260613.png?v=b8b7ef7a",
             "width": 1600,
             "height": 1200
           }
