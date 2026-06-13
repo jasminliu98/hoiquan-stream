@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 14/06/2026",
+  "updated_at": "00:10 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -122,7 +122,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "VĐQG Belarus",
             "team_a": "Dinamo Brest",
             "team_b": "Neman",
             "logo_a": "https://media.api-sports.io/football/teams/386.png",
@@ -1515,7 +1515,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
             "time": "22:00 14/06",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN HẢI",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -1568,7 +1568,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
             "time": "00:30 15/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
