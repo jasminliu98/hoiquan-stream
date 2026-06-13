@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:50 13/06/2026",
+  "updated_at": "18:55 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1719,6 +1719,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Pháp_22-00 14-06_945b69f8_20260613.png?v=945b69f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4f945a6a0c",
+          "name": "Bulgaria vs Serbia | 01:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f945a6a0c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4f945a6a0c",
+                  "name": "Bulgaria vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-4f945a6a0c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bulgaria",
+            "team_b": "Serbia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "01:30 15/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Serbia_01-30 15-06_5c9a0090_20260613.png?v=5c9a0090",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-34d5679473",
+          "name": "Canada vs Thổ Nhĩ Kỳ | 01:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34d5679473",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-34d5679473",
+                  "name": "Canada vs Thổ Nhĩ Kỳ",
+                  "streams": [
+                    {
+                      "id": "st-34d5679473",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Canada",
+            "team_b": "Thổ Nhĩ Kỳ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "time": "01:30 15/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Thổ Nhĩ Kỳ_01-30 15-06_f200de00_20260613.png?v=f200de00",
             "width": 1600,
             "height": 1200
           }
