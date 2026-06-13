@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 13/06/2026",
+  "updated_at": "17:45 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -215,7 +215,7 @@
             "team_a": "Harju JK Laagri",
             "team_b": "FC Kuressaare",
             "logo_a": "https://static.flashscore.com/res/image/data/Ao79cLzB-xdabbQpB.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/de/thumb/c/c4/FC_Kuressaare.svg/1200px-FC_Kuressaare.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXq_lk-Y3Ea41GxFwwmY8XjaaB97QMApFVtw&s",
             "time": "16:30 13/06",
             "blv": "BLV PHAN ANH",
             "is_live": true,
@@ -225,7 +225,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Harju JK Laagri_FC Kuressaare_16-30 13-06_052180d8_20260613.png?v=052180d8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Harju JK Laagri_FC Kuressaare_16-30 13-06_c758199f_20260613.png?v=c758199f",
             "width": 1600,
             "height": 1200
           }
