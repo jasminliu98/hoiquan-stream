@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:35 13/06/2026",
+  "updated_at": "13:30 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -57,7 +57,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzlfhmJARhzPrVKMwuFLSrBIsvCgKqClnx0w&s",
             "logo_b": "https://media.api-sports.io/football/teams/5652.png",
             "time": "14:30 13/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -216,7 +216,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Nanjing_City_F.C.svg",
             "logo_b": "https://media.api-sports.io/football/teams/27556.png",
             "time": "18:30 13/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1020,6 +1020,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Australia_Türkiye_11-00 14-06_f2beb79d_20260613.png?v=f2beb79d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-af709f641e",
+          "name": "Rockdale City Suns vs SD Raiders | 13:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af709f641e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-af709f641e",
+                  "name": "Rockdale City Suns vs SD Raiders",
+                  "streams": [
+                    {
+                      "id": "st-af709f641e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "New South Wales NPL",
+            "team_a": "Rockdale City Suns",
+            "team_b": "SD Raiders",
+            "logo_a": "https://media.api-sports.io/football/teams/3770.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16777.png",
+            "time": "13:30 14/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rockdale City Suns_SD Raiders_13-30 14-06_d014b340_20260613.png?v=d014b340",
             "width": 1600,
             "height": 1200
           }
