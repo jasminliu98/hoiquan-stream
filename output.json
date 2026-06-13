@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:30 13/06/2026",
+  "updated_at": "14:40 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1869,6 +1869,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/WE_BLG_16-00 13-06_2e60e430_20260613.png?v=2e60e430",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-aa77b35860",
+          "name": "NaVi vs The MongolZ | 16:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa77b35860",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-aa77b35860",
+                  "name": "NaVi vs The MongolZ",
+                  "streams": [
+                    {
+                      "id": "st-aa77b35860",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "NaVi",
+            "team_b": "The MongolZ",
+            "logo_a": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
+            "logo_b": "https://i.pinimg.com/736x/85/ba/b2/85bab22e99b269b9c032d7b8d5cc77ea.jpg",
+            "time": "16:00 13/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/NaVi_The MongolZ_16-00 13-06_7cd0a34b_20260613.png?v=7cd0a34b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-48357e188a",
+          "name": "Aurora vs G2 | 18:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48357e188a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-48357e188a",
+                  "name": "Aurora vs G2",
+                  "streams": [
+                    {
+                      "id": "st-48357e188a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "Aurora",
+            "team_b": "G2",
+            "logo_a": "https://static.flashscore.com/res/image/data/UXbkjyyB-6yTdMEii.png",
+            "logo_b": "https://g2esports.com/cdn/shop/files/G2-Esports-2020-Logo_87bf0678-e67f-4834-8b09-e56137ffaa80.png?v=1641913940",
+            "time": "18:30 13/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aurora_G2_18-30 13-06_2580c016_20260613.png?v=2580c016",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cb4a2fa6ca",
+          "name": "vitality vs MOUZ | 21:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb4a2fa6ca",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cb4a2fa6ca",
+                  "name": "vitality vs MOUZ",
+                  "streams": [
+                    {
+                      "id": "st-cb4a2fa6ca",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "IEM Cologne Major 2026",
+            "team_a": "vitality",
+            "team_b": "MOUZ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/4/49/Team_Vitality_logo.svg",
+            "logo_b": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
+            "time": "21:00 13/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "esports"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/vitality_MOUZ_21-00 13-06_52c54a6c_20260613.png?v=52c54a6c",
             "width": 1600,
             "height": 1200
           }
