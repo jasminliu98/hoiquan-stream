@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:10 13/06/2026",
+  "updated_at": "22:15 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1353,6 +1353,59 @@
           }
         },
         {
+          "id": "hqlive-ebfd24a524",
+          "name": "Việt Nam vs Kazakhstan | 14:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebfd24a524",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ebfd24a524",
+                  "name": "Việt Nam vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-ebfd24a524",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/250px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
+            "time": "14:30 14/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Việt Nam_Kazakhstan_14-30 14-06_042b384a_20260613.png?v=042b384a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-c106d598e2",
           "name": "Trung Quốc vs Cuba | 15:30 14/06",
           "type": "single",
@@ -1401,6 +1454,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Cuba_15-30 14-06_e82f6840_20260613.png?v=e82f6840",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-049e12b216",
+          "name": "Hàn Quốc vs Đài Loan | 18:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-049e12b216",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-049e12b216",
+                  "name": "Hàn Quốc vs Đài Loan",
+                  "streams": [
+                    {
+                      "id": "st-049e12b216",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Hàn Quốc",
+            "team_b": "Đài Loan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
+            "time": "18:00 14/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Đài Loan_18-00 14-06_f9d1889b_20260613.png?v=f9d1889b",
             "width": 1600,
             "height": 1200
           }
