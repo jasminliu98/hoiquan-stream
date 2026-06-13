@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:25 13/06/2026",
+  "updated_at": "18:30 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ce411ab399",
-          "name": "Harju JK Laagri vs FC Kuressaare | 16:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce411ab399",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ce411ab399",
-                  "name": "Harju JK Laagri vs FC Kuressaare",
-                  "streams": [
-                    {
-                      "id": "st-ce411ab399",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Estonia",
-            "team_a": "Harju JK Laagri",
-            "team_b": "FC Kuressaare",
-            "logo_a": "https://static.flashscore.com/res/image/data/Ao79cLzB-xdabbQpB.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXq_lk-Y3Ea41GxFwwmY8XjaaB97QMApFVtw&s",
-            "time": "16:30 13/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Harju JK Laagri_FC Kuressaare_16-30 13-06_c758199f_20260613.png?v=c758199f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d73212445d",
           "name": "Nanjing City vs Ningbo Professional | 18:30 13/06",
