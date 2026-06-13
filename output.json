@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:00 13/06/2026",
+  "updated_at": "08:25 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1115,153 +1115,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-47ac929283",
-          "name": "Iran vs Argentina | 06:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47ac929283",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-47ac929283",
-                  "name": "Iran vs Argentina",
-                  "streams": [
-                    {
-                      "id": "st-47ac929283",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Iran",
-            "team_b": "Argentina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
-            "time": "06:00 13/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Argentina_06-00 13-06_7d40668d_20260613.png?v=7d40668d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2cb2886f2e",
-          "name": "Thổ Nhĩ Kỳ vs Pháp | 06:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cb2886f2e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2cb2886f2e",
-                  "name": "Thổ Nhĩ Kỳ vs Pháp",
-                  "streams": [
-                    {
-                      "id": "st-2cb2886f2e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Thổ Nhĩ Kỳ",
-            "team_b": "Pháp",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
-            "time": "06:30 13/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Pháp_06-30 13-06_2dff64f3_20260613.png?v=2dff64f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e953a7bdde",
           "name": "Trung Quốc vs Nhật Bản | 15:30 13/06",
