@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:00 13/06/2026",
+  "updated_at": "21:10 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1064,82 +1064,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9e5981dbaa",
-          "name": "Cuba vs Slovenia | 19:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e5981dbaa",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9e5981dbaa",
-                  "name": "Cuba vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-9e5981dbaa",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Cuba",
-            "team_b": "Slovenia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
-            "time": "19:00 13/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Slovenia_19-00 13-06_fe7d43b6_20260613.png?v=fe7d43b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b9df930b91",
           "name": "Brazil vs Serbia | 21:00 13/06",
