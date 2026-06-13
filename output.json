@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:30 13/06/2026",
+  "updated_at": "16:35 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -2099,7 +2099,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2112,10 +2112,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2130,7 +2130,25 @@
                     {
                       "id": "st-d2dbdcf517",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2145,7 +2163,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Shimabukuro_WMQ23_%2853062069285%29.jpg",
             "time": "17:00 13/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
