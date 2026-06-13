@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:50 13/06/2026",
+  "updated_at": "16:00 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1162,6 +1162,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Red Lions_Shanghai Port II_15-00 14-06_97ac7634_20260613.png?v=97ac7634",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9ef2db86fd",
+          "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ | 16:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ef2db86fd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9ef2db86fd",
+                  "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ",
+                  "streams": [
+                    {
+                      "id": "st-9ef2db86fd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League Nữ",
+            "team_a": "Changchun Dazhong Nữ",
+            "team_b": "Shaanxi Changan Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/WKc6mHyS-tEXwrGhb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C8nTZQ9r-YaMzy9gF.png",
+            "time": "16:00 14/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Dazhong Nữ_Shaanxi Changan Nữ_16-00 14-06_ba1aae5f_20260613.png?v=ba1aae5f",
             "width": 1600,
             "height": 1200
           }
