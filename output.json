@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:40 13/06/2026",
+  "updated_at": "15:00 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1091,6 +1091,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rockdale City Suns_SD Raiders_13-30 14-06_d014b340_20260613.png?v=d014b340",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9672c76249",
+          "name": "Qingdao Red Lions vs Shanghai Port II | 15:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9672c76249",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9672c76249",
+                  "name": "Qingdao Red Lions vs Shanghai Port II",
+                  "streams": [
+                    {
+                      "id": "st-9672c76249",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Qingdao Red Lions",
+            "team_b": "Shanghai Port II",
+            "logo_a": "https://media.api-sports.io/football/teams/5679.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23289.png",
+            "time": "15:00 14/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Red Lions_Shanghai Port II_15-00 14-06_97ac7634_20260613.png?v=97ac7634",
             "width": 1600,
             "height": 1200
           }
