@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 13/06/2026",
+  "updated_at": "22:10 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -941,7 +941,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/5401.png",
             "logo_b": "https://media.api-sports.io/football/teams/5560.png",
             "time": "20:00 14/06",
-            "blv": "BLV THẦN THÔNG, BLV TÁO GIÀ",
+            "blv": "BLV THẦN THÔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
