@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:30 13/06/2026",
+  "updated_at": "08:00 13/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1054,6 +1054,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nublense_Huachipato_07-00 14-06_b8b7ef7a_20260613.png?v=b8b7ef7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8c3acea16c",
+          "name": "Haiti vs Scotland | 08:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c3acea16c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8c3acea16c",
+                  "name": "Haiti vs Scotland",
+                  "streams": [
+                    {
+                      "id": "st-8c3acea16c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Haiti",
+            "team_b": "Scotland",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
+            "time": "08:00 14/06",
+            "blv": "BLV PHAN QUẨY, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Haiti_Scotland_08-00 14-06_7aa9e2b8_20260613.png?v=7aa9e2b8",
             "width": 1600,
             "height": 1200
           }
