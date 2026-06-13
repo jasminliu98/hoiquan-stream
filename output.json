@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:50 14/06/2026",
+  "updated_at": "03:00 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -896,6 +896,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Germany_Curaçao_00-00 15-06_fe793e61_20260614.png?v=fe793e61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f02014ee77",
+          "name": "Netherlands vs Japan | 03:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f02014ee77",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f02014ee77",
+                  "name": "Netherlands vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-f02014ee77",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Netherlands",
+            "team_b": "Japan",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png",
+            "time": "03:00 15/06",
+            "blv": "BLV PHAN CHỚP, BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Japan_03-00 15-06_df23eb6b_20260614.png?v=df23eb6b",
             "width": 1600,
             "height": 1200
           }
