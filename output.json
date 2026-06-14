@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 14/06/2026",
+  "updated_at": "19:55 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9b5a9a7911",
-          "name": "Wuxi Wugou vs Meizhou Kejia | 18:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b5a9a7911",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9b5a9a7911",
-                  "name": "Wuxi Wugou vs Meizhou Kejia",
-                  "streams": [
-                    {
-                      "id": "st-9b5a9a7911",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League One",
-            "team_a": "Wuxi Wugou",
-            "team_b": "Meizhou Kejia",
-            "logo_a": "https://media.api-sports.io/football/teams/17269.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1439.png",
-            "time": "18:00 14/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wuxi Wugou_Meizhou Kejia_18-00 14-06_0d9d240d_20260614.png?v=0d9d240d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-fd139f1484",
           "name": "Ninh Bình vs Ho Chi Minh | 18:00 14/06",
