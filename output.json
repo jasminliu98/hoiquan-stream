@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:10 15/06/2026",
+  "updated_at": "03:35 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -574,8 +574,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-34d5679473",
-          "name": "Canada vs Thổ Nhĩ Kỳ | 01:30 15/06",
+          "id": "hqlive-c56c16674c",
+          "name": "Brazil vs Argentina | 04:00 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -589,15 +589,15 @@
           ],
           "sources": [
             {
-              "id": "src-34d5679473",
+              "id": "src-c56c16674c",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-34d5679473",
-                  "name": "Canada vs Thổ Nhĩ Kỳ",
+                  "id": "ct-c56c16674c",
+                  "name": "Brazil vs Argentina",
                   "streams": [
                     {
-                      "id": "st-34d5679473",
+                      "id": "st-c56c16674c",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -626,66 +626,13 @@
           ],
           "org_metadata": {
             "league": "Nation League Men",
-            "team_a": "Canada",
-            "team_b": "Thổ Nhĩ Kỳ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-            "time": "01:30 15/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Thổ Nhĩ Kỳ_01-30 15-06_f200de00_20260615.png?v=f200de00",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-c56c16674c",
-          "name": "Brazil vs Argentina | 04:00 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c56c16674c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c56c16674c",
-                  "name": "Brazil vs Argentina",
-                  "streams": [
-                    {
-                      "id": "st-c56c16674c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
             "team_a": "Brazil",
             "team_b": "Argentina",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
             "time": "04:00 15/06",
             "blv": "BLV PHAN HẢI",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
