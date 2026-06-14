@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:20 15/06/2026",
+  "updated_at": "03:00 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1099,6 +1099,439 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Bỉ_23-30 19-06_9f81e585_20260615.png?v=9f81e585",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-b0a387dd42",
+          "name": "Francisco Cerundolo vs Learner Tien | 16:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0a387dd42",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b0a387dd42",
+                  "name": "Francisco Cerundolo vs Learner Tien",
+                  "streams": [
+                    {
+                      "id": "st-b0a387dd42",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Francisco Cerundolo",
+            "team_b": "Learner Tien",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
+            "time": "16:30 15/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Francisco Cerundolo_Learner Tien_16-30 15-06_203b0aeb_20260615.png?v=203b0aeb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5b068939d9",
+          "name": "Botic van de Zandschulp vs Zachary Svajda | 17:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b068939d9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5b068939d9",
+                  "name": "Botic van de Zandschulp vs Zachary Svajda",
+                  "streams": [
+                    {
+                      "id": "st-5b068939d9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Botic van de Zandschulp",
+            "team_b": "Zachary Svajda",
+            "logo_a": "https://sohanews.sohacdn.com/zoom/480_300/160588918557773824/2021/3/17/photo1615942402810-16159424029261070512435.jpg",
+            "logo_b": "https://www.atptour.com/-/media/images/news/2025/08/26/23/08/svajda-cincinnati-2024-serve.jpg",
+            "time": "17:30 15/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botic van de Zandschulp_Zachary Svajda_17-30 15-06_29bcf28d_20260615.png?v=29bcf28d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5c1af86d0b",
+          "name": "Nikoloz Basilashvili vs Daniel Altmaier | 18:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c1af86d0b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5c1af86d0b",
+                  "name": "Nikoloz Basilashvili vs Daniel Altmaier",
+                  "streams": [
+                    {
+                      "id": "st-5c1af86d0b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Nikoloz Basilashvili",
+            "team_b": "Daniel Altmaier",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkcuNH3S6WP2t9EXY7LwWC5eaHIpSsIw4jBA&s",
+            "logo_b": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
+            "time": "18:30 15/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nikoloz Basilashvili_Daniel Altmaier_18-30 15-06_f606f498_20260615.png?v=f606f498",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3693d68d2b",
+          "name": "Tommy Paul vs Zachary Svajda | 19:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3693d68d2b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3693d68d2b",
+                  "name": "Tommy Paul vs Zachary Svajda",
+                  "streams": [
+                    {
+                      "id": "st-3693d68d2b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Tommy Paul",
+            "team_b": "Zachary Svajda",
+            "logo_a": "https://www.datocms-assets.com/110926/1770148201-20-paul_full_2024.png?auto=format%2Ccompress&fit=crop&h=470&w=0&ixlib=react-9.8.1",
+            "logo_b": "https://www.atptour.com/-/media/images/news/2025/08/26/23/08/svajda-cincinnati-2024-serve.jpg",
+            "time": "19:30 15/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tommy Paul_Zachary Svajda_19-30 15-06_62983752_20260615.png?v=62983752",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-891bc8c31d",
+          "name": "Nuno Borges vs Felix Auger-Aliassime | 20:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-891bc8c31d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-891bc8c31d",
+                  "name": "Nuno Borges vs Felix Auger-Aliassime",
+                  "streams": [
+                    {
+                      "id": "st-891bc8c31d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Nuno Borges",
+            "team_b": "Felix Auger-Aliassime",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Borges_BOR22_%2852082935912%29.jpg/250px-Borges_BOR22_%2852082935912%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
+            "time": "20:30 15/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nuno Borges_Felix Auger-Aliassime_20-30 15-06_0fbf97e8_20260615.png?v=0fbf97e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-37e52a5a47",
+          "name": "Jack Draper vs Denis Shapovalov | 21:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37e52a5a47",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-37e52a5a47",
+                  "name": "Jack Draper vs Denis Shapovalov",
+                  "streams": [
+                    {
+                      "id": "st-37e52a5a47",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Jack Draper",
+            "team_b": "Denis Shapovalov",
+            "logo_a": "https://i.guim.co.uk/img/media/84a31c0f79437c99903f3019c95f9d12702fe6f8/400_0_3754_3002/master/3754.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=fb012e9aa6a6d7b93132efc680ce3ca1",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3IKAmkvIcIyX5_cPP_OEmEMtdVHUdhxLBQ&s",
+            "time": "21:30 15/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jack Draper_Denis Shapovalov_21-30 15-06_01351b7f_20260615.png?v=01351b7f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6b4fefbb05",
+          "name": "Flavio Coboli vs Frances Tiafoe | 22:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b4fefbb05",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6b4fefbb05",
+                  "name": "Flavio Coboli vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-6b4fefbb05",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Flavio Coboli",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cobolli_RGQ23_%2852944096963%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "time": "22:30 15/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Flavio Coboli_Frances Tiafoe_22-30 15-06_ea2c9058_20260615.png?v=ea2c9058",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-445a99c3eb",
+          "name": "Giovanni Mpetshi Perricard vs Corentin Moutet | 23:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-445a99c3eb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-445a99c3eb",
+                  "name": "Giovanni Mpetshi Perricard vs Corentin Moutet",
+                  "streams": [
+                    {
+                      "id": "st-445a99c3eb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Giovanni Mpetshi Perricard",
+            "team_b": "Corentin Moutet",
+            "logo_a": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
+            "time": "23:30 15/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Giovanni Mpetshi Perricard_Corentin Moutet_23-30 15-06_bdc0af25_20260615.png?v=bdc0af25",
             "width": 1600,
             "height": 1200
           }
