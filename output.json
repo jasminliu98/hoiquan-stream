@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:40 14/06/2026",
+  "updated_at": "08:45 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1733,8 +1733,8 @@
           }
         },
         {
-          "id": "hqlive-180930ef92",
-          "name": "Daniil Medvedev vs Alex de Minaur | 19:30 14/06",
+          "id": "hqlive-8302ed2b0f",
+          "name": "Kamil Majchrzak vs Alex de Minaur | 19:30 14/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1748,15 +1748,15 @@
           ],
           "sources": [
             {
-              "id": "src-180930ef92",
+              "id": "src-8302ed2b0f",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-180930ef92",
-                  "name": "Daniil Medvedev vs Alex de Minaur",
+                  "id": "ct-8302ed2b0f",
+                  "name": "Kamil Majchrzak vs Alex de Minaur",
                   "streams": [
                     {
-                      "id": "st-180930ef92",
+                      "id": "st-8302ed2b0f",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1767,12 +1767,12 @@
           ],
           "org_metadata": {
             "league": "ATP250 S-Hertogenbosch",
-            "team_a": "Daniil Medvedev",
+            "team_a": "Kamil Majchrzak",
             "team_b": "Alex de Minaur",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9R6kSUaK1IniSCig02CElBV4VocnB6wxA-E8XyDHBA&s",
             "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
             "time": "19:30 14/06",
-            "blv": "BLV PHAN BÁCH",
+            "blv": "BLV PHAN BỐNG",
             "is_live": false,
             "sport_slug": "tennis"
           },
@@ -1780,7 +1780,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniil Medvedev_Alex de Minaur_19-30 14-06_0195f4cc_20260614.png?v=0195f4cc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kamil Majchrzak_Alex de Minaur_19-30 14-06_bb24fd7d_20260614.png?v=bb24fd7d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cf66021cea",
+          "name": "Emma Navarro vs Donna Vekić | 19:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf66021cea",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cf66021cea",
+                  "name": "Emma Navarro vs Donna Vekić",
+                  "streams": [
+                    {
+                      "id": "st-cf66021cea",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 London Now",
+            "team_a": "Emma Navarro",
+            "team_b": "Donna Vekić",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVyCYHGf_LF2Bhk7wzGKI7iWLPnlVpqHQ1w&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/11/Donna_Veki%C4%87_%2852171230817%29_%28cropped%29.jpg",
+            "time": "19:30 14/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Emma Navarro_Donna Vekić_19-30 14-06_cc1090ef_20260614.png?v=cc1090ef",
             "width": 1600,
             "height": 1200
           }
