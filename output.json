@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 14/06/2026",
+  "updated_at": "19:40 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -676,82 +676,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-049e12b216",
-          "name": "Hàn Quốc vs Đài Loan | 18:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-049e12b216",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-049e12b216",
-                  "name": "Hàn Quốc vs Đài Loan",
-                  "streams": [
-                    {
-                      "id": "st-049e12b216",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Đài Loan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
-            "time": "18:00 14/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hàn Quốc_Đài Loan_18-00 14-06_f9d1889b_20260614.png?v=f9d1889b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d1a07f67db",
           "name": "Slovenia vs Nhật Bản | 19:00 14/06",
