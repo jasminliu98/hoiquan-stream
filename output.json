@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:05 14/06/2026",
+  "updated_at": "14:15 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -862,7 +862,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
             "time": "15:30 14/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
