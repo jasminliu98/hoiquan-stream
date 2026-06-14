@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:35 14/06/2026",
+  "updated_at": "08:40 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1666,6 +1666,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/San Antonio Spurs_New York Knicks_07-30 14-06_3e9ff35c_20260614.png?v=3e9ff35c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-bc5b8f5588",
+          "name": "Ben Shelton vs Taylor Fritz | 19:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc5b8f5588",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bc5b8f5588",
+                  "name": "Ben Shelton vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-bc5b8f5588",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 Stuttgart",
+            "team_a": "Ben Shelton",
+            "team_b": "Taylor Fritz",
+            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
+            "time": "19:00 14/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Taylor Fritz_19-00 14-06_987c534d_20260614.png?v=987c534d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-180930ef92",
+          "name": "Daniil Medvedev vs Alex de Minaur | 19:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-180930ef92",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-180930ef92",
+                  "name": "Daniil Medvedev vs Alex de Minaur",
+                  "streams": [
+                    {
+                      "id": "st-180930ef92",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP250 S-Hertogenbosch",
+            "team_a": "Daniil Medvedev",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
+            "time": "19:30 14/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniil Medvedev_Alex de Minaur_19-30 14-06_0195f4cc_20260614.png?v=0195f4cc",
             "width": 1600,
             "height": 1200
           }
