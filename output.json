@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:00 15/06/2026",
+  "updated_at": "03:05 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1113,8 +1113,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-b0a387dd42",
-          "name": "Francisco Cerundolo vs Learner Tien | 16:30 15/06",
+          "id": "hqlive-82236b2e29",
+          "name": "Max Schoenhaus vs Learner Tien | 16:30 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1128,15 +1128,15 @@
           ],
           "sources": [
             {
-              "id": "src-b0a387dd42",
+              "id": "src-82236b2e29",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b0a387dd42",
-                  "name": "Francisco Cerundolo vs Learner Tien",
+                  "id": "ct-82236b2e29",
+                  "name": "Max Schoenhaus vs Learner Tien",
                   "streams": [
                     {
-                      "id": "st-b0a387dd42",
+                      "id": "st-82236b2e29",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1147,9 +1147,9 @@
           ],
           "org_metadata": {
             "league": "ATP500 Halle",
-            "team_a": "Francisco Cerundolo",
+            "team_a": "Max Schoenhaus",
             "team_b": "Learner Tien",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3eFXBpdXAIJS3Q4BLQrlPJKtMNlUGtuNy3g&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
             "time": "16:30 15/06",
             "blv": "BLV PHAN PHÉP",
@@ -1160,14 +1160,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Francisco Cerundolo_Learner Tien_16-30 15-06_203b0aeb_20260615.png?v=203b0aeb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Max Schoenhaus_Learner Tien_16-30 15-06_3d23750f_20260615.png?v=3d23750f",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "hqlive-5b068939d9",
-          "name": "Botic van de Zandschulp vs Zachary Svajda | 17:30 15/06",
+          "id": "hqlive-33c4744cb0",
+          "name": "Botic van de Zandschulp vs Harry Wendelken | 17:30 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1181,15 +1181,15 @@
           ],
           "sources": [
             {
-              "id": "src-5b068939d9",
+              "id": "src-33c4744cb0",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5b068939d9",
-                  "name": "Botic van de Zandschulp vs Zachary Svajda",
+                  "id": "ct-33c4744cb0",
+                  "name": "Botic van de Zandschulp vs Harry Wendelken",
                   "streams": [
                     {
-                      "id": "st-5b068939d9",
+                      "id": "st-33c4744cb0",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1201,9 +1201,9 @@
           "org_metadata": {
             "league": "ATP500 London",
             "team_a": "Botic van de Zandschulp",
-            "team_b": "Zachary Svajda",
+            "team_b": "Harry Wendelken",
             "logo_a": "https://sohanews.sohacdn.com/zoom/480_300/160588918557773824/2021/3/17/photo1615942402810-16159424029261070512435.jpg",
-            "logo_b": "https://www.atptour.com/-/media/images/news/2025/08/26/23/08/svajda-cincinnati-2024-serve.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoUkvMBwKPxponWjoyQP1jKgUeZvr0NkdXw&s",
             "time": "17:30 15/06",
             "blv": "BLV PHAN CA",
             "is_live": false,
@@ -1213,7 +1213,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botic van de Zandschulp_Zachary Svajda_17-30 15-06_29bcf28d_20260615.png?v=29bcf28d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botic van de Zandschulp_Harry Wendelken_17-30 15-06_7421a612_20260615.png?v=7421a612",
             "width": 1600,
             "height": 1200
           }
@@ -1378,8 +1378,8 @@
           }
         },
         {
-          "id": "hqlive-37e52a5a47",
-          "name": "Jack Draper vs Denis Shapovalov | 21:30 15/06",
+          "id": "hqlive-c5396d3a63",
+          "name": "Jack Pinnington Jones vs Denis Shapovalov | 21:30 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1393,15 +1393,15 @@
           ],
           "sources": [
             {
-              "id": "src-37e52a5a47",
+              "id": "src-c5396d3a63",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-37e52a5a47",
-                  "name": "Jack Draper vs Denis Shapovalov",
+                  "id": "ct-c5396d3a63",
+                  "name": "Jack Pinnington Jones vs Denis Shapovalov",
                   "streams": [
                     {
-                      "id": "st-37e52a5a47",
+                      "id": "st-c5396d3a63",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -1412,9 +1412,9 @@
           ],
           "org_metadata": {
             "league": "ATP500 London",
-            "team_a": "Jack Draper",
+            "team_a": "Jack Pinnington Jones",
             "team_b": "Denis Shapovalov",
-            "logo_a": "https://i.guim.co.uk/img/media/84a31c0f79437c99903f3019c95f9d12702fe6f8/400_0_3754_3002/master/3754.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=fb012e9aa6a6d7b93132efc680ce3ca1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPeoolz4G-kSz5OA4NQltpnKTrjQbl3kgWXQ&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3IKAmkvIcIyX5_cPP_OEmEMtdVHUdhxLBQ&s",
             "time": "21:30 15/06",
             "blv": "BLV PHAN BỐNG",
@@ -1425,7 +1425,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jack Draper_Denis Shapovalov_21-30 15-06_01351b7f_20260615.png?v=01351b7f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jack Pinnington Jones_Denis Shapovalov_21-30 15-06_cc777e50_20260615.png?v=cc777e50",
             "width": 1600,
             "height": 1200
           }
