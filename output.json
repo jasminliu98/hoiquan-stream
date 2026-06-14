@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:55 14/06/2026",
+  "updated_at": "16:00 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -635,6 +635,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-e51b892897",
+          "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ | 16:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e51b892897",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e51b892897",
+                  "name": "Changchun Dazhong Nữ vs Shaanxi Changan Nữ",
+                  "streams": [
+                    {
+                      "id": "st-e51b892897",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League Nữ",
+            "team_a": "Changchun Dazhong Nữ",
+            "team_b": "Shaanxi Changan Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/WKc6mHyS-tEXwrGhb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C8nTZQ9r-YaMzy9gF.png",
+            "time": "16:00 15/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changchun Dazhong Nữ_Shaanxi Changan Nữ_16-00 15-06_ba1aae5f_20260614.png?v=ba1aae5f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1242,7 +1295,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9R6kSUaK1IniSCig02CElBV4VocnB6wxA-E8XyDHBA&s",
             "logo_b": "https://pbs.twimg.com/media/Gr5VwgSXoAA3ipY?format=jpg&name=large",
             "time": "19:30 14/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "tennis"
           },
