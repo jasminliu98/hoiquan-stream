@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:05 14/06/2026",
+  "updated_at": "09:30 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1816,6 +1816,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Emma Navarro_Donna Vekić_19-30 14-06_cc1090ef_20260614.png?v=cc1090ef",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-21db3e53b0",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 21:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21db3e53b0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-21db3e53b0",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-21db3e53b0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Contender Zagreb 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "21:00 14/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_21-00 14-06_3e80d90a_20260614.png?v=3e80d90a",
             "width": 1600,
             "height": 1200
           }
