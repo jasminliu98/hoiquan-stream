@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:55 14/06/2026",
+  "updated_at": "17:00 14/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -551,82 +551,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c106d598e2",
-          "name": "Trung Quốc vs Cuba | 15:30 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c106d598e2",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c106d598e2",
-                  "name": "Trung Quốc vs Cuba",
-                  "streams": [
-                    {
-                      "id": "st-c106d598e2",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Trung Quốc",
-            "team_b": "Cuba",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
-            "time": "15:30 14/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Cuba_15-30 14-06_e82f6840_20260614.png?v=e82f6840",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-049e12b216",
           "name": "Hàn Quốc vs Đài Loan | 18:00 14/06",
