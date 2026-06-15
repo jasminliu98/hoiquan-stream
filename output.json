@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 15/06/2026",
+  "updated_at": "19:55 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1002,7 +1002,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1079,32 +1079,50 @@
           }
         },
         {
-          "id": "hqlive-891bc8c31d",
-          "name": "Nuno Borges vs Felix Auger-Aliassime | 20:30 15/06",
+          "id": "hqlive-897c56c68d",
+          "name": "Nuno Borges vs Felix Auger-Aliassime | 20:00 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-891bc8c31d",
+              "id": "src-897c56c68d",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-891bc8c31d",
+                  "id": "ct-897c56c68d",
                   "name": "Nuno Borges vs Felix Auger-Aliassime",
                   "streams": [
                     {
-                      "id": "st-891bc8c31d",
+                      "id": "st-897c56c68d",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1117,16 +1135,16 @@
             "team_b": "Felix Auger-Aliassime",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Borges_BOR22_%2852082935912%29.jpg/250px-Borges_BOR22_%2852082935912%29.jpg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyDXXFrntQ8oD-0ScBeI4o43O2rcgU2dsjQ&s",
-            "time": "20:30 15/06",
+            "time": "20:00 15/06",
             "blv": "BLV PHAN BÁCH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nuno Borges_Felix Auger-Aliassime_20-30 15-06_0fbf97e8_20260615.png?v=0fbf97e8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nuno Borges_Felix Auger-Aliassime_20-00 15-06_0fbf97e8_20260615.png?v=0fbf97e8",
             "width": 1600,
             "height": 1200
           }
