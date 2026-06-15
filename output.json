@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:55 15/06/2026",
+  "updated_at": "20:00 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -561,6 +561,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rochedale Rovers_Moreton City Excelsior_17-30 16-06_0430e3cd_20260615.png?v=0430e3cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3c1c947d7a",
+          "name": "Namungo vs Tabora United | 20:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c1c947d7a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3c1c947d7a",
+                  "name": "Namungo vs Tabora United",
+                  "streams": [
+                    {
+                      "id": "st-3c1c947d7a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligi kuu Bara",
+            "team_a": "Namungo",
+            "team_b": "Tabora United",
+            "logo_a": "https://media.api-sports.io/football/teams/12197.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22175.png",
+            "time": "20:00 16/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Namungo_Tabora United_20-00 16-06_a6d75b76_20260615.png?v=a6d75b76",
             "width": 1600,
             "height": 1200
           }
