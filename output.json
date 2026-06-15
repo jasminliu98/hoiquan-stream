@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:00 16/06/2026",
+  "updated_at": "06:00 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -595,6 +595,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iraq_Norway_05-00 17-06_9cf10f85_20260616.png?v=9cf10f85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-908c53f277",
+          "name": "Fortaleza EC vs America Mineiro | 06:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-908c53f277",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-908c53f277",
+                  "name": "Fortaleza EC vs America Mineiro",
+                  "streams": [
+                    {
+                      "id": "st-908c53f277",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Fortaleza EC",
+            "team_b": "America Mineiro",
+            "logo_a": "https://media.api-sports.io/football/teams/154.png",
+            "logo_b": "https://media.api-sports.io/football/teams/125.png",
+            "time": "06:00 17/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fortaleza EC_America Mineiro_06-00 17-06_246b80a8_20260616.png?v=246b80a8",
             "width": 1600,
             "height": 1200
           }
