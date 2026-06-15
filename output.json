@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:25 15/06/2026",
+  "updated_at": "23:00 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -630,6 +630,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Namungo_Tabora United_20-00 16-06_a6d75b76_20260615.png?v=a6d75b76",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1f5b93689f",
+          "name": "Vaprus vs Flora Tallinn | 23:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f5b93689f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1f5b93689f",
+                  "name": "Vaprus vs Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "st-1f5b93689f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Meistriliiga",
+            "team_a": "Vaprus",
+            "team_b": "Flora Tallinn",
+            "logo_a": "https://media.api-sports.io/football/teams/3525.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/250px-FC_Flora_logo.svg.png",
+            "time": "23:00 16/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vaprus_Flora Tallinn_23-00 16-06_5bd5f476_20260615.png?v=5bd5f476",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cd1f00afd1",
+          "name": "Kuressaare vs Trans Narva | 23:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd1f00afd1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cd1f00afd1",
+                  "name": "Kuressaare vs Trans Narva",
+                  "streams": [
+                    {
+                      "id": "st-cd1f00afd1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Meistriliiga",
+            "team_a": "Kuressaare",
+            "team_b": "Trans Narva",
+            "logo_a": "https://media.api-sports.io/football/teams/3526.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2274.png",
+            "time": "23:00 16/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kuressaare_Trans Narva_23-00 16-06_6c2c0991_20260615.png?v=6c2c0991",
             "width": 1600,
             "height": 1200
           }
