@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:05 15/06/2026",
+  "updated_at": "14:50 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -923,7 +923,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3eFXBpdXAIJS3Q4BLQrlPJKtMNlUGtuNy3g&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Learner_Tien_%282024_US_Open%29_04.jpg",
             "time": "16:30 15/06",
-            "blv": "BLV PHAN PHÉP",
+            "blv": "BLV PHAN BỐNG",
             "is_live": false,
             "sport_slug": "tennis"
           },
@@ -1029,7 +1029,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkcuNH3S6WP2t9EXY7LwWC5eaHIpSsIw4jBA&s",
             "logo_b": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
             "time": "18:30 15/06",
-            "blv": "BLV PHAN PHÉP",
+            "blv": "BLV PHAN BỐNG",
             "is_live": false,
             "sport_slug": "tennis"
           },
@@ -1188,7 +1188,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPeoolz4G-kSz5OA4NQltpnKTrjQbl3kgWXQ&s",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3IKAmkvIcIyX5_cPP_OEmEMtdVHUdhxLBQ&s",
             "time": "21:30 15/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV PHAN PHÉP",
             "is_live": false,
             "sport_slug": "tennis"
           },
@@ -1294,7 +1294,7 @@
             "logo_a": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
             "time": "23:30 15/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV PHAN PHÉP",
             "is_live": false,
             "sport_slug": "tennis"
           },
