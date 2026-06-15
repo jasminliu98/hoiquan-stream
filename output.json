@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 16/06/2026",
+  "updated_at": "00:30 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-e92813c257",
-          "name": "SJK Akatemia vs Haka | 22:30 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e92813c257",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e92813c257",
-                  "name": "SJK Akatemia vs Haka",
-                  "streams": [
-                    {
-                      "id": "st-e92813c257",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ykkösliiga",
-            "team_a": "SJK Akatemia",
-            "team_b": "Haka",
-            "logo_a": "https://media.api-sports.io/football/teams/9198.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2080.png",
-            "time": "22:30 15/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SJK Akatemia_Haka_22-30 15-06_e5643294_20260616.png?v=e5643294",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-69f8b298cc",
           "name": "Spain vs Cape Verde Islands | 23:00 15/06",
