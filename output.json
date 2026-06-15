@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:30 15/06/2026",
+  "updated_at": "08:00 15/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -542,6 +542,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Criciuma_Ceara_07-00 16-06_a8b60392_20260615.png?v=a8b60392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-218a73555e",
+          "name": "Iran vs New Zealand | 08:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-218a73555e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-218a73555e",
+                  "name": "Iran vs New Zealand",
+                  "streams": [
+                    {
+                      "id": "st-218a73555e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Iran",
+            "team_b": "New Zealand",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHjuJwQinnq7yrEdYTZNb6xYpuKE2zdRCXg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+            "time": "08:00 16/06",
+            "blv": "BLV LƯƠNG BỔNG, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_New Zealand_08-00 16-06_65238eeb_20260615.png?v=65238eeb",
             "width": 1600,
             "height": 1200
           }
