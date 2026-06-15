@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:35 16/06/2026",
+  "updated_at": "05:00 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -542,6 +542,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Senegal_02-00 17-06_d93b63f1_20260616.png?v=d93b63f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4999365426",
+          "name": "Iraq vs Norway | 05:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4999365426",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4999365426",
+                  "name": "Iraq vs Norway",
+                  "streams": [
+                    {
+                      "id": "st-4999365426",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Iraq",
+            "team_b": "Norway",
+            "logo_a": "https://media.api-sports.io/football/teams/1567.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
+            "time": "05:00 17/06",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iraq_Norway_05-00 17-06_9cf10f85_20260616.png?v=9cf10f85",
             "width": 1600,
             "height": 1200
           }
