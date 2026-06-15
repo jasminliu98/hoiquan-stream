@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:00 16/06/2026",
+  "updated_at": "02:00 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -613,6 +613,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kuressaare_Trans Narva_23-00 16-06_6c2c0991_20260616.png?v=6c2c0991",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-38f97a3f42",
+          "name": "France vs Senegal | 02:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-38f97a3f42",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-38f97a3f42",
+                  "name": "France vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-38f97a3f42",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "France",
+            "team_b": "Senegal",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
+            "time": "02:00 17/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Senegal_02-00 17-06_d93b63f1_20260616.png?v=d93b63f1",
             "width": 1600,
             "height": 1200
           }
