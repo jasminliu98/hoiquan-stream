@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:25 16/06/2026",
+  "updated_at": "21:00 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changnyeong W_Suwon FMC_17-00 17-06_f18e1d50_20260616.png?v=f18e1d50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d6d4ade83b",
+          "name": "Kairat Almaty vs Kyzyl-Zhar | 21:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d6d4ade83b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d6d4ade83b",
+                  "name": "Kairat Almaty vs Kyzyl-Zhar",
+                  "streams": [
+                    {
+                      "id": "st-d6d4ade83b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Kazakhstan",
+            "team_a": "Kairat Almaty",
+            "team_b": "Kyzyl-Zhar",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FCKairat_logo.png/250px-FCKairat_logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4554.png",
+            "time": "21:00 17/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kairat Almaty_Kyzyl-Zhar_21-00 17-06_785ec34e_20260616.png?v=785ec34e",
             "width": 1600,
             "height": 1200
           }
