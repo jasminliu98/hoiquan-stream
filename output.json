@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:40 16/06/2026",
+  "updated_at": "15:45 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1250,6 +1250,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Joao Fonseca_Yannick Hanfmann_18-30 16-06_68c06db8_20260616.png?v=68c06db8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d45aa8fcde",
+          "name": "Andrey Rublev vs Hubert Hurkacz | 18:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d45aa8fcde",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d45aa8fcde",
+                  "name": "Andrey Rublev vs Hubert Hurkacz",
+                  "streams": [
+                    {
+                      "id": "st-d45aa8fcde",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Andrey Rublev",
+            "team_b": "Hubert Hurkacz",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/40/Andrey_Rublev_%282023_US_Open%29_02_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zgtDoOvuZRhYn4TN8kpE8LsGN3Q3w7Tavw&s",
+            "time": "18:30 16/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Andrey Rublev_Hubert Hurkacz_18-30 16-06_6f8c1070_20260616.png?v=6f8c1070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9953e579c6",
+          "name": "Alexandet Zverev vs Vit Kopriva | 20:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9953e579c6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9953e579c6",
+                  "name": "Alexandet Zverev vs Vit Kopriva",
+                  "streams": [
+                    {
+                      "id": "st-9953e579c6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Alexandet Zverev",
+            "team_b": "Vit Kopriva",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-2IZ7SBXWpljhH4rIu-Tye97B1v9D03HKw&s",
+            "time": "20:00 16/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Vit Kopriva_20-00 16-06_35392bb6_20260616.png?v=35392bb6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8746247a82",
+          "name": "Cameron Norrie vs Alejandro Davidovich Fokina | 21:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8746247a82",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8746247a82",
+                  "name": "Cameron Norrie vs Alejandro Davidovich Fokina",
+                  "streams": [
+                    {
+                      "id": "st-8746247a82",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Cameron Norrie",
+            "team_b": "Alejandro Davidovich Fokina",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl9rhHNe-PLnj41MxVHRry8ZiVWjV7o2D4A&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
+            "time": "21:30 16/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cameron Norrie_Alejandro Davidovich Fokina_21-30 16-06_6b6b469c_20260616.png?v=6b6b469c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-255765bd8f",
+          "name": "Tomas Martin Etcheverry vs Daniil Medvedev | 22:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-255765bd8f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-255765bd8f",
+                  "name": "Tomas Martin Etcheverry vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-255765bd8f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Tomas Martin Etcheverry",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tom%C3%A1s_Martin_Etcheverry_-_2024_Olympics_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
+            "time": "22:00 16/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Martin Etcheverry_Daniil Medvedev_22-00 16-06_128dfd06_20260616.png?v=128dfd06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9d6380bb52",
+          "name": "Kamil Majchrzak vs Jiri Lehecka | 23:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d6380bb52",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9d6380bb52",
+                  "name": "Kamil Majchrzak vs Jiri Lehecka",
+                  "streams": [
+                    {
+                      "id": "st-9d6380bb52",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Kamil Majchrzak",
+            "team_b": "Jiri Lehecka",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9R6kSUaK1IniSCig02CElBV4VocnB6wxA-E8XyDHBA&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
+            "time": "23:30 16/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kamil Majchrzak_Jiri Lehecka_23-30 16-06_98208ed5_20260616.png?v=98208ed5",
             "width": 1600,
             "height": 1200
           }
