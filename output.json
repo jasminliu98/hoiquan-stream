@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:35 16/06/2026",
+  "updated_at": "08:00 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -596,6 +596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fortaleza EC_America Mineiro_06-00 17-06_246b80a8_20260616.png?v=246b80a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-df34c1238d",
+          "name": "Argentina vs Algeria | 08:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df34c1238d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-df34c1238d",
+                  "name": "Argentina vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-df34c1238d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Argentina",
+            "team_b": "Algeria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png",
+            "time": "08:00 17/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Argentina_Algeria_08-00 17-06_95570a5f_20260616.png?v=95570a5f",
             "width": 1600,
             "height": 1200
           }
