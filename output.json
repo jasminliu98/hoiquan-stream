@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:55 16/06/2026",
+  "updated_at": "17:00 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -508,6 +508,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Austria_Jordan_11-00 17-06_b167b486_20260616.png?v=b167b486",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-76f5c57f2f",
+          "name": "Changnyeong W vs Suwon FMC | 17:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76f5c57f2f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-76f5c57f2f",
+                  "name": "Changnyeong W vs Suwon FMC",
+                  "streams": [
+                    {
+                      "id": "st-76f5c57f2f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WK-League",
+            "team_a": "Changnyeong W",
+            "team_b": "Suwon FMC",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfukJLwd8XgLwZE2GQ7K66yFXmCwwjY5kLg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Suwon_FC_2016.svg/1280px-Suwon_FC_2016.svg.png",
+            "time": "17:00 17/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Changnyeong W_Suwon FMC_17-00 17-06_f18e1d50_20260616.png?v=f18e1d50",
             "width": 1600,
             "height": 1200
           }
