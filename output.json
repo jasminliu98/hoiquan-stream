@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 16/06/2026",
+  "updated_at": "21:15 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -976,6 +976,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Bỉ_23-30 17-06_9f81e585_20260616.png?v=9f81e585",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6f6b872fc6",
+          "name": "CH Séc vs Mỹ | 15:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f6b872fc6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6f6b872fc6",
+                  "name": "CH Séc vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-6f6b872fc6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "CH Séc",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "15:00 18/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CH Séc_Mỹ_15-00 18-06_e435fa29_20260616.png?v=e435fa29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d91800ed2e",
+          "name": "Ukraina vs Ba Lan | 17:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d91800ed2e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d91800ed2e",
+                  "name": "Ukraina vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-d91800ed2e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Ba Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "17:00 18/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Ba Lan_17-00 18-06_6595f1d1_20260616.png?v=6595f1d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f936e7ff1e",
+          "name": "Serbia vs Italy | 19:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f936e7ff1e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f936e7ff1e",
+                  "name": "Serbia vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-f936e7ff1e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Serbia",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "19:00 18/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Italy_19-00 18-06_bfa6411f_20260616.png?v=bfa6411f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4199e86878",
+          "name": "Bỉ vs Brazil | 20:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4199e86878",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4199e86878",
+                  "name": "Bỉ vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-4199e86878",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Brazil",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "time": "20:00 18/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Brazil_20-00 18-06_3c520c75_20260616.png?v=3c520c75",
             "width": 1600,
             "height": 1200
           }
