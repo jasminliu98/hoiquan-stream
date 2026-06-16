@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:05 17/06/2026",
+  "updated_at": "01:10 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1091,7 +1091,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
             "time": "23:30 17/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN BỐNG",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -1940,59 +1940,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Terence Atmane_Daniil Medvedev_22-30 17-06_89f9ec11_20260617.png?v=89f9ec11",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-90f16f66e0",
-          "name": "Jenson Brooksby vs Francisco Cerundolo | 23:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90f16f66e0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-90f16f66e0",
-                  "name": "Jenson Brooksby vs Francisco Cerundolo",
-                  "streams": [
-                    {
-                      "id": "st-90f16f66e0",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Jenson Brooksby",
-            "team_b": "Francisco Cerundolo",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Brooksby_RG21_%2842%29_%2851376192761%29.jpg/250px-Brooksby_RG21_%2842%29_%2851376192761%29.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
-            "time": "23:30 17/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jenson Brooksby_Francisco Cerundolo_23-30 17-06_3eef8b21_20260617.png?v=3eef8b21",
             "width": 1600,
             "height": 1200
           }
