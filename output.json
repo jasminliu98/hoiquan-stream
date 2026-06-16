@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 16/06/2026",
+  "updated_at": "21:40 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -142,8 +142,8 @@
           }
         },
         {
-          "id": "hqlive-cd1f00afd1",
-          "name": "Kuressaare vs Trans Narva | 23:00 16/06",
+          "id": "hqlive-d26bd8f980",
+          "name": "IFK Varnamo vs Helsingborg | 00:00 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -157,15 +157,15 @@
           ],
           "sources": [
             {
-              "id": "src-cd1f00afd1",
+              "id": "src-d26bd8f980",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-cd1f00afd1",
-                  "name": "Kuressaare vs Trans Narva",
+                  "id": "ct-d26bd8f980",
+                  "name": "IFK Varnamo vs Helsingborg",
                   "streams": [
                     {
-                      "id": "st-cd1f00afd1",
+                      "id": "st-d26bd8f980",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -175,12 +175,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Meistriliiga",
-            "team_a": "Kuressaare",
-            "team_b": "Trans Narva",
-            "logo_a": "https://media.api-sports.io/football/teams/3526.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2274.png",
-            "time": "23:00 16/06",
+            "league": "Superettan",
+            "team_a": "IFK Varnamo",
+            "team_b": "Helsingborg",
+            "logo_a": "https://media.api-sports.io/football/teams/2163.png",
+            "logo_b": "https://media.api-sports.io/football/teams/811.png",
+            "time": "00:00 17/06",
             "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
@@ -189,7 +189,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kuressaare_Trans Narva_23-00 16-06_6c2c0991_20260616.png?v=6c2c0991",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IFK Varnamo_Helsingborg_00-00 17-06_d0d30038_20260616.png?v=d0d30038",
             "width": 1600,
             "height": 1200
           }
