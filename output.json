@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 17/06/2026",
+  "updated_at": "00:15 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1444,153 +1444,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-255765bd8f",
-          "name": "Tomas Martin Etcheverry vs Daniil Medvedev | 22:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-255765bd8f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-255765bd8f",
-                  "name": "Tomas Martin Etcheverry vs Daniil Medvedev",
-                  "streams": [
-                    {
-                      "id": "st-255765bd8f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Halle",
-            "team_a": "Tomas Martin Etcheverry",
-            "team_b": "Daniil Medvedev",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tom%C3%A1s_Martin_Etcheverry_-_2024_Olympics_%28cropped%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
-            "time": "22:00 16/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tomas Martin Etcheverry_Daniil Medvedev_22-00 16-06_128dfd06_20260617.png?v=128dfd06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-9d6380bb52",
-          "name": "Kamil Majchrzak vs Jiri Lehecka | 23:30 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d6380bb52",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9d6380bb52",
-                  "name": "Kamil Majchrzak vs Jiri Lehecka",
-                  "streams": [
-                    {
-                      "id": "st-9d6380bb52",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eae8482cb7",
-                          "name": "BLV PHAN BÁCH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Kamil Majchrzak",
-            "team_b": "Jiri Lehecka",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9R6kSUaK1IniSCig02CElBV4VocnB6wxA-E8XyDHBA&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
-            "time": "23:30 16/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kamil Majchrzak_Jiri Lehecka_23-30 16-06_98208ed5_20260617.png?v=98208ed5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-859277dd5c",
           "name": "Cameron Norrie vs Alejandro Davidovich Fokina | 23:30 16/06",
