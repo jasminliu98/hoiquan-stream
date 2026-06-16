@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:55 17/06/2026",
+  "updated_at": "02:05 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1407,153 +1407,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-859277dd5c",
-          "name": "Cameron Norrie vs Alejandro Davidovich Fokina | 23:30 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-859277dd5c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-859277dd5c",
-                  "name": "Cameron Norrie vs Alejandro Davidovich Fokina",
-                  "streams": [
-                    {
-                      "id": "st-859277dd5c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Cameron Norrie",
-            "team_b": "Alejandro Davidovich Fokina",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl9rhHNe-PLnj41MxVHRry8ZiVWjV7o2D4A&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
-            "time": "23:30 16/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cameron Norrie_Alejandro Davidovich Fokina_23-30 16-06_6b6b469c_20260617.png?v=6b6b469c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-13ae73df71",
-          "name": "Kamil Majchrzak vs Jiri Lehecka | 01:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13ae73df71",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-13ae73df71",
-                  "name": "Kamil Majchrzak vs Jiri Lehecka",
-                  "streams": [
-                    {
-                      "id": "st-13ae73df71",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Kamil Majchrzak",
-            "team_b": "Jiri Lehecka",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9R6kSUaK1IniSCig02CElBV4VocnB6wxA-E8XyDHBA&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
-            "time": "01:30 17/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kamil Majchrzak_Jiri Lehecka_01-30 17-06_98208ed5_20260617.png?v=98208ed5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-350bdde991",
           "name": "Zizou Bergs vs Taylor Fritz | 16:30 17/06",
