@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:05 16/06/2026",
+  "updated_at": "16:40 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-15802b796f",
-          "name": "Gold Coast Knights vs Lions | 16:30 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15802b796f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-15802b796f",
-                  "name": "Gold Coast Knights vs Lions",
-                  "streams": [
-                    {
-                      "id": "st-15802b796f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Queensland NPL",
-            "team_a": "Gold Coast Knights",
-            "team_b": "Lions",
-            "logo_a": "https://media.api-sports.io/football/teams/10215.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10217.png",
-            "time": "16:30 16/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gold Coast Knights_Lions_16-30 16-06_2503722e_20260616.png?v=2503722e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e4c08afaef",
           "name": "Rochedale Rovers vs Moreton City Excelsior | 17:30 16/06",
