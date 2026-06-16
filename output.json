@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:00 16/06/2026",
+  "updated_at": "21:05 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -990,8 +990,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-e0a6cd2280",
-          "name": "Jakub Mensik vs Adrian Mannarino | 17:30 16/06",
+          "id": "hqlive-772f80e049",
+          "name": "Giovanni Mpetshi Perricard vs Corentin Moutet | 19:30 16/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1005,15 +1005,15 @@
           ],
           "sources": [
             {
-              "id": "src-e0a6cd2280",
+              "id": "src-772f80e049",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-e0a6cd2280",
-                  "name": "Jakub Mensik vs Adrian Mannarino",
+                  "id": "ct-772f80e049",
+                  "name": "Giovanni Mpetshi Perricard vs Corentin Moutet",
                   "streams": [
                     {
-                      "id": "st-e0a6cd2280",
+                      "id": "st-772f80e049",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1042,11 +1042,11 @@
           ],
           "org_metadata": {
             "league": "ATP500 London",
-            "team_a": "Jakub Mensik",
-            "team_b": "Adrian Mannarino",
-            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_04_01/mensik-1931-8728.jpg.webp",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1X_vdkr2qEtGkmAlG2kozybzoSFfkV7zz1g&s",
-            "time": "17:30 16/06",
+            "team_a": "Giovanni Mpetshi Perricard",
+            "team_b": "Corentin Moutet",
+            "logo_a": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
+            "time": "19:30 16/06",
             "blv": "BLV PHAN HẢI",
             "is_live": true,
             "sport_slug": "tennis"
@@ -1055,7 +1055,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jakub Mensik_Adrian Mannarino_17-30 16-06_954c451c_20260616.png?v=954c451c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Giovanni Mpetshi Perricard_Corentin Moutet_19-30 16-06_bdc0af25_20260616.png?v=bdc0af25",
             "width": 1600,
             "height": 1200
           }
