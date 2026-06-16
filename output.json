@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:20 17/06/2026",
+  "updated_at": "01:55 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d26bd8f980",
-          "name": "IFK Varnamo vs Helsingborg | 00:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d26bd8f980",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d26bd8f980",
-                  "name": "IFK Varnamo vs Helsingborg",
-                  "streams": [
-                    {
-                      "id": "st-d26bd8f980",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superettan",
-            "team_a": "IFK Varnamo",
-            "team_b": "Helsingborg",
-            "logo_a": "https://media.api-sports.io/football/teams/2163.png",
-            "logo_b": "https://media.api-sports.io/football/teams/811.png",
-            "time": "00:00 17/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/IFK Varnamo_Helsingborg_00-00 17-06_d0d30038_20260617.png?v=d0d30038",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-38f97a3f42",
           "name": "France vs Senegal | 02:00 17/06",
