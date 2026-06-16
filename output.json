@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:00 16/06/2026",
+  "updated_at": "15:40 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -976,6 +976,280 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Bỉ_23-30 17-06_9f81e585_20260616.png?v=9f81e585",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-4954cdd8f0",
+          "name": "Mattia Bellucci vs Alexander Bublik | 16:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4954cdd8f0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4954cdd8f0",
+                  "name": "Mattia Bellucci vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-4954cdd8f0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Mattia Bellucci",
+            "team_b": "Alexander Bublik",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg/960px-Mattia_Bellucci_%282024_DC_Open%29_02_%28cropped%29.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg/250px-Sascha_Bublik_%282023_DC_Open%29_05_%28cropped%29.jpg",
+            "time": "16:30 16/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mattia Bellucci_Alexander Bublik_16-30 16-06_7d996cd4_20260616.png?v=7d996cd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c373d85377",
+          "name": "Karen Khachanov vs Ethan Quinn | 16:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c373d85377",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c373d85377",
+                  "name": "Karen Khachanov vs Ethan Quinn",
+                  "streams": [
+                    {
+                      "id": "st-c373d85377",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Karen Khachanov",
+            "team_b": "Ethan Quinn",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkr-YKyKe98QG2NB0uOeSzwtaaYCqqj-TfNw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhszvRifhlsC3d-jN9rhkFvLpgGR2lSBbTA&s",
+            "time": "16:30 16/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Karen Khachanov_Ethan Quinn_16-30 16-06_dd8d9955_20260616.png?v=dd8d9955",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e0a6cd2280",
+          "name": "Jakub Mensik vs Adrian Mannarino | 17:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0a6cd2280",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e0a6cd2280",
+                  "name": "Jakub Mensik vs Adrian Mannarino",
+                  "streams": [
+                    {
+                      "id": "st-e0a6cd2280",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Jakub Mensik",
+            "team_b": "Adrian Mannarino",
+            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_04_01/mensik-1931-8728.jpg.webp",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1X_vdkr2qEtGkmAlG2kozybzoSFfkV7zz1g&s",
+            "time": "17:30 16/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jakub Mensik_Adrian Mannarino_17-30 16-06_954c451c_20260616.png?v=954c451c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-44652fd55a",
+          "name": "Giovanni Mpetshi Perricard vs Corentin Moutet | 18:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44652fd55a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-44652fd55a",
+                  "name": "Giovanni Mpetshi Perricard vs Corentin Moutet",
+                  "streams": [
+                    {
+                      "id": "st-44652fd55a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Giovanni Mpetshi Perricard",
+            "team_b": "Corentin Moutet",
+            "logo_a": "https://tse3.mm.bing.net/th/id/OIP.XMh8tEXh8HFLtQesMG5vHQHaFv?pid=Api&P=0&h=220",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg/1280px-Corentin_Moutet_%282025_DC_Open%29_01_%28cropped%29.jpg",
+            "time": "18:30 16/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Giovanni Mpetshi Perricard_Corentin Moutet_18-30 16-06_bdc0af25_20260616.png?v=bdc0af25",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7c5cd3bb98",
+          "name": "Joao Fonseca vs Yannick Hanfmann | 18:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c5cd3bb98",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7c5cd3bb98",
+                  "name": "Joao Fonseca vs Yannick Hanfmann",
+                  "streams": [
+                    {
+                      "id": "st-7c5cd3bb98",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Joao Fonseca",
+            "team_b": "Yannick Hanfmann",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jo%C3%A3o_Fonseca_%282024_Cary%29_09_%28cropped%29.jpg",
+            "logo_b": "https://cdn.tennistemple.com/images/upload/player/Yannick_Hanfmann_63.jpg",
+            "time": "18:30 16/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Joao Fonseca_Yannick Hanfmann_18-30 16-06_68c06db8_20260616.png?v=68c06db8",
             "width": 1600,
             "height": 1200
           }
