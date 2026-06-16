@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 16/06/2026",
+  "updated_at": "23:01 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -632,6 +632,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turku PS_KuPS_22-00 17-06_218c1025_20260616.png?v=218c1025",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8f0fd3dfa5",
+          "name": "Riga vs Rīgas FS | 23:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f0fd3dfa5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8f0fd3dfa5",
+                  "name": "Riga vs Rīgas FS",
+                  "streams": [
+                    {
+                      "id": "st-8f0fd3dfa5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Riga",
+            "team_b": "Rīgas FS",
+            "logo_a": "https://media.api-sports.io/football/teams/10124.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4160.png",
+            "time": "23:00 17/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Riga_Rīgas FS_23-00 17-06_1c53a67b_20260616.png?v=1c53a67b",
             "width": 1600,
             "height": 1200
           }
@@ -1391,7 +1444,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1539,6 +1592,77 @@
           }
         },
         {
+          "id": "hqlive-859277dd5c",
+          "name": "Cameron Norrie vs Alejandro Davidovich Fokina | 23:30 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-859277dd5c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-859277dd5c",
+                  "name": "Cameron Norrie vs Alejandro Davidovich Fokina",
+                  "streams": [
+                    {
+                      "id": "st-859277dd5c",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Cameron Norrie",
+            "team_b": "Alejandro Davidovich Fokina",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl9rhHNe-PLnj41MxVHRry8ZiVWjV7o2D4A&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
+            "time": "23:30 16/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cameron Norrie_Alejandro Davidovich Fokina_23-30 16-06_6b6b469c_20260616.png?v=6b6b469c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-9d6380bb52",
           "name": "Kamil Majchrzak vs Jiri Lehecka | 23:30 16/06",
           "type": "single",
@@ -1587,59 +1711,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kamil Majchrzak_Jiri Lehecka_23-30 16-06_98208ed5_20260616.png?v=98208ed5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-859277dd5c",
-          "name": "Cameron Norrie vs Alejandro Davidovich Fokina | 23:30 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-859277dd5c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-859277dd5c",
-                  "name": "Cameron Norrie vs Alejandro Davidovich Fokina",
-                  "streams": [
-                    {
-                      "id": "st-859277dd5c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Cameron Norrie",
-            "team_b": "Alejandro Davidovich Fokina",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl9rhHNe-PLnj41MxVHRry8ZiVWjV7o2D4A&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZijO-GYztHiRRgiq3ga20ca0BlAgufds08Q&s",
-            "time": "23:30 16/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cameron Norrie_Alejandro Davidovich Fokina_23-30 16-06_6b6b469c_20260616.png?v=6b6b469c",
             "width": 1600,
             "height": 1200
           }
