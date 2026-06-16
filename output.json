@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:40 16/06/2026",
+  "updated_at": "22:01 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -561,6 +561,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kairat Almaty_Kyzyl-Zhar_21-00 17-06_785ec34e_20260616.png?v=785ec34e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-66a480c65e",
+          "name": "Turku PS vs KuPS | 22:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66a480c65e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-66a480c65e",
+                  "name": "Turku PS vs KuPS",
+                  "streams": [
+                    {
+                      "id": "st-66a480c65e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Turku PS",
+            "team_b": "KuPS",
+            "logo_a": "https://media.api-sports.io/football/teams/1168.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
+            "time": "22:00 17/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turku PS_KuPS_22-00 17-06_218c1025_20260616.png?v=218c1025",
             "width": 1600,
             "height": 1200
           }
