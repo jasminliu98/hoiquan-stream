@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:15 16/06/2026",
+  "updated_at": "11:00 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -490,6 +490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Argentina_Algeria_08-00 17-06_95570a5f_20260616.png?v=95570a5f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5eaf376967",
+          "name": "Austria vs Jordan | 11:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5eaf376967",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5eaf376967",
+                  "name": "Austria vs Jordan",
+                  "streams": [
+                    {
+                      "id": "st-5eaf376967",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Austria",
+            "team_b": "Jordan",
+            "logo_a": "https://media.api-sports.io/football/teams/775.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/960px-Flag_of_Jordan.svg.png",
+            "time": "11:00 17/06",
+            "blv": "BLV PHAN CHỚP, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Austria_Jordan_11-00 17-06_b167b486_20260616.png?v=b167b486",
             "width": 1600,
             "height": 1200
           }
