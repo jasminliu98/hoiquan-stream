@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:15 16/06/2026",
+  "updated_at": "18:45 16/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -931,82 +931,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (4 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c373d85377",
-          "name": "Karen Khachanov vs Ethan Quinn | 16:30 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c373d85377",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c373d85377",
-                  "name": "Karen Khachanov vs Ethan Quinn",
-                  "streams": [
-                    {
-                      "id": "st-c373d85377",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Halle",
-            "team_a": "Karen Khachanov",
-            "team_b": "Ethan Quinn",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkr-YKyKe98QG2NB0uOeSzwtaaYCqqj-TfNw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhszvRifhlsC3d-jN9rhkFvLpgGR2lSBbTA&s",
-            "time": "16:30 16/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Karen Khachanov_Ethan Quinn_16-30 16-06_dd8d9955_20260616.png?v=dd8d9955",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e0a6cd2280",
           "name": "Jakub Mensik vs Adrian Mannarino | 17:30 16/06",
