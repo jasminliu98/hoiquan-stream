@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:16 18/06/2026",
+  "updated_at": "00:30 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -666,6 +666,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_South Africa_23-00 18-06_5de77a66_20260618.png?v=5de77a66",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8e90c211f4",
+          "name": "Sollentuna vs FBK Karlstad | 00:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e90c211f4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8e90c211f4",
+                  "name": "Sollentuna vs FBK Karlstad",
+                  "streams": [
+                    {
+                      "id": "st-8e90c211f4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ettan - Norra",
+            "team_a": "Sollentuna",
+            "team_b": "FBK Karlstad",
+            "logo_a": "https://media.api-sports.io/football/teams/6699.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12622.png",
+            "time": "00:30 19/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sollentuna_FBK Karlstad_00-30 19-06_5ec2e3eb_20260618.png?v=5ec2e3eb",
             "width": 1600,
             "height": 1200
           }
