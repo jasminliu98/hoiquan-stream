@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:51 18/06/2026",
+  "updated_at": "05:01 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-f1fa8f8012",
-          "name": "England vs Croatia | 03:00 18/06",
+          "id": "hqlive-f3e48c6090",
+          "name": "Ghana vs Panama | 06:00 18/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,57 +33,40 @@
           ],
           "sources": [
             {
-              "id": "src-f1fa8f8012",
+              "id": "src-f3e48c6090",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-f1fa8f8012",
-                  "name": "England vs Croatia",
+                  "id": "ct-f3e48c6090",
+                  "name": "Ghana vs Panama",
                   "streams": [
                     {
-                      "id": "st-f1fa8f8012",
+                      "id": "st-f3e48c6090",
                       "name": "HQ",
                       "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-b10e5b640b",
                           "name": "BLV THẦN THÔNG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -104,66 +87,13 @@
           ],
           "org_metadata": {
             "league": "World Cup",
-            "team_a": "England",
-            "team_b": "Croatia",
-            "logo_a": "https://media.api-sports.io/football/teams/10.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
-            "time": "03:00 18/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Croatia_03-00 18-06_76127799_20260618.png?v=76127799",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f3e48c6090",
-          "name": "Ghana vs Panama | 06:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3e48c6090",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f3e48c6090",
-                  "name": "Ghana vs Panama",
-                  "streams": [
-                    {
-                      "id": "st-f3e48c6090",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
             "team_a": "Ghana",
             "team_b": "Panama",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/250px-Flag_of_Panama.svg.png",
             "time": "06:00 18/06",
             "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -648,6 +578,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Bosnia & Herzegovina_02-00 19-06_3acb0844_20260618.png?v=3acb0844",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5680bcd901",
+          "name": "Canada vs Qatar | 05:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5680bcd901",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5680bcd901",
+                  "name": "Canada vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-5680bcd901",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Canada",
+            "team_b": "Qatar",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
+            "time": "05:00 19/06",
+            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Qatar_05-00 19-06_2e158c37_20260618.png?v=2e158c37",
             "width": 1600,
             "height": 1200
           }
