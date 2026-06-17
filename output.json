@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:30 17/06/2026",
+  "updated_at": "23:55 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-66a480c65e",
-          "name": "Turku PS vs KuPS | 22:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66a480c65e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-66a480c65e",
-                  "name": "Turku PS vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-66a480c65e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Turku PS",
-            "team_b": "KuPS",
-            "logo_a": "https://media.api-sports.io/football/teams/1168.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
-            "time": "22:00 17/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turku PS_KuPS_22-00 17-06_218c1025_20260617.png?v=218c1025",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8f0fd3dfa5",
           "name": "Riga vs Rīgas FS | 23:00 17/06",
