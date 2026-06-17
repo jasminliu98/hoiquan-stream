@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:45 17/06/2026",
+  "updated_at": "16:50 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -569,82 +569,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3e9f45c3d4",
-          "name": "CH Séc vs Italy | 15:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e9f45c3d4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3e9f45c3d4",
-                  "name": "CH Séc vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-3e9f45c3d4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "CH Séc",
-            "team_b": "Italy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "15:00 17/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CH Séc_Italy_15-00 17-06_50ee3e3a_20260617.png?v=50ee3e3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5fbbba4853",
           "name": "Đức vs Trung Quốc | 16:30 17/06",
@@ -1092,7 +1021,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
             "time": "19:00 18/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
