@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:51 17/06/2026",
+  "updated_at": "23:00 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -688,6 +688,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-ae0fc882ed",
+          "name": "Czech Republic vs South Africa | 23:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae0fc882ed",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ae0fc882ed",
+                  "name": "Czech Republic vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-ae0fc882ed",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Czech Republic",
+            "team_b": "South Africa",
+            "logo_a": "https://media.api-sports.io/football/teams/770.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
+            "time": "23:00 18/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_South Africa_23-00 18-06_5de77a66_20260617.png?v=5de77a66",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -699,8 +752,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-20df1890b5",
-          "name": "Thái Lan vs Ukraina | 20:30 17/06",
+          "id": "hqlive-7c9424220a",
+          "name": "Thổ Nhĩ Kỳ vs Bỉ | 23:30 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -714,23 +767,23 @@
           ],
           "sources": [
             {
-              "id": "src-20df1890b5",
+              "id": "src-7c9424220a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-20df1890b5",
-                  "name": "Thái Lan vs Ukraina",
+                  "id": "ct-7c9424220a",
+                  "name": "Thổ Nhĩ Kỳ vs Bỉ",
                   "streams": [
                     {
-                      "id": "st-20df1890b5",
+                      "id": "st-7c9424220a",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -751,66 +804,13 @@
           ],
           "org_metadata": {
             "league": "Nation League Women",
-            "team_a": "Thái Lan",
-            "team_b": "Ukraina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "time": "20:30 17/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Ukraina_20-30 17-06_25b1b53f_20260617.png?v=25b1b53f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-7c9424220a",
-          "name": "Thổ Nhĩ Kỳ vs Bỉ | 23:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c9424220a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7c9424220a",
-                  "name": "Thổ Nhĩ Kỳ vs Bỉ",
-                  "streams": [
-                    {
-                      "id": "st-7c9424220a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
             "team_a": "Thổ Nhĩ Kỳ",
             "team_b": "Bỉ",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
             "time": "23:30 17/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
