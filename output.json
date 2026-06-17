@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:55 17/06/2026",
+  "updated_at": "17:00 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -561,6 +561,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uzbekistan_Colombia_09-00 18-06_1d6f4741_20260617.png?v=1d6f4741",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b15d654b27",
+          "name": "AC Oulu vs Mariehamn | 16:59 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b15d654b27",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b15d654b27",
+                  "name": "AC Oulu vs Mariehamn",
+                  "streams": [
+                    {
+                      "id": "st-b15d654b27",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "AC Oulu",
+            "team_b": "Mariehamn",
+            "logo_a": "https://media.api-sports.io/football/teams/2077.png",
+            "logo_b": "https://media.api-sports.io/football/teams/587.png",
+            "time": "16:59 18/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AC Oulu_Mariehamn_16-59 18-06_d5e03ee2_20260617.png?v=d5e03ee2",
             "width": 1600,
             "height": 1200
           }
@@ -1404,6 +1457,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-49aff69c91",
+          "name": "Bulgaria vs Canada | 20:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49aff69c91",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-49aff69c91",
+                  "name": "Bulgaria vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-49aff69c91",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Canada",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "time": "20:30 19/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Canada_20-30 19-06_a238368e_20260617.png?v=a238368e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b46062c541",
+          "name": "Bỉ vs Đức | 20:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b46062c541",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b46062c541",
+                  "name": "Bỉ vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-b46062c541",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Đức",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "time": "20:30 19/06",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Đức_20-30 19-06_c8ac3771_20260617.png?v=c8ac3771",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1790,7 +1949,7 @@
             "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_08_15/atmane-5203-3906.jpeg.webp",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-ThUSVRA1sgqwj_Qe4f22lmchMKp66MuBg&s",
             "time": "22:30 17/06",
-            "blv": "BLV PHAN PHÉP",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "tennis"
           },
