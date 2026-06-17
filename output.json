@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:35 17/06/2026",
+  "updated_at": "14:50 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -551,82 +551,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d398c18075",
-          "name": "Canada vs Hà Lan | 13:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d398c18075",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d398c18075",
-                  "name": "Canada vs Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-d398c18075",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Canada",
-            "team_b": "Hà Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-            "time": "13:00 17/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Hà Lan_13-00 17-06_8f73798c_20260617.png?v=8f73798c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-3e9f45c3d4",
           "name": "CH Séc vs Italy | 15:00 17/06",
