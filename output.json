@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:30 17/06/2026",
+  "updated_at": "21:35 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -699,8 +699,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-2d213463c2",
-          "name": "Pháp vs Brazil | 20:00 17/06",
+          "id": "hqlive-20df1890b5",
+          "name": "Thái Lan vs Ukraina | 20:30 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -714,15 +714,15 @@
           ],
           "sources": [
             {
-              "id": "src-2d213463c2",
+              "id": "src-20df1890b5",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-2d213463c2",
-                  "name": "Pháp vs Brazil",
+                  "id": "ct-20df1890b5",
+                  "name": "Thái Lan vs Ukraina",
                   "streams": [
                     {
-                      "id": "st-2d213463c2",
+                      "id": "st-20df1890b5",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -751,11 +751,11 @@
           ],
           "org_metadata": {
             "league": "Nation League Women",
-            "team_a": "Pháp",
-            "team_b": "Brazil",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
-            "time": "20:00 17/06",
+            "team_a": "Thái Lan",
+            "team_b": "Ukraina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "time": "20:30 17/06",
             "blv": "BLV PHAN PHÉP",
             "is_live": true,
             "sport_slug": "bong-chuyen"
@@ -764,7 +764,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Brazil_20-00 17-06_b8251fe6_20260617.png?v=b8251fe6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Ukraina_20-30 17-06_25b1b53f_20260617.png?v=25b1b53f",
             "width": 1600,
             "height": 1200
           }
