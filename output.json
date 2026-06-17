@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 17/06/2026",
+  "updated_at": "22:20 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1515,7 +1515,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (4 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1587,77 +1587,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Learner Tien_Felix Auger-Aliassime_20-30 17-06_9f478e0f_20260617.png?v=9f478e0f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ea724cf3df",
-          "name": "Coco Gauff vs Paula Badosa | 20:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea724cf3df",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ea724cf3df",
-                  "name": "Coco Gauff vs Paula Badosa",
-                  "streams": [
-                    {
-                      "id": "st-ea724cf3df",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Halle",
-            "team_a": "Coco Gauff",
-            "team_b": "Paula Badosa",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSUpEF6Cuye3u7pi15d4mYx1hORj319ljAw&s",
-            "logo_b": "https://danviet.ex-cdn.com/files/f1/296231569849192448/2021/10/31/9-163568074719716993709.jpg",
-            "time": "20:30 17/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Coco Gauff_Paula Badosa_20-30 17-06_7eb3ebfe_20260617.png?v=7eb3ebfe",
             "width": 1600,
             "height": 1200
           }
