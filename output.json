@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:55 17/06/2026",
+  "updated_at": "19:00 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -546,61 +546,34 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "hqlive-5fbbba4853",
-          "name": "Đức vs Trung Quốc | 16:30 17/06",
+          "id": "hqlive-3ba2bb8a5f",
+          "name": "Akademiya Ontustik vs Yelimay Semey 2 | 19:00 18/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-5fbbba4853",
+              "id": "src-3ba2bb8a5f",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5fbbba4853",
-                  "name": "Đức vs Trung Quốc",
+                  "id": "ct-3ba2bb8a5f",
+                  "name": "Akademiya Ontustik vs Yelimay Semey 2",
                   "streams": [
                     {
-                      "id": "st-5fbbba4853",
+                      "id": "st-3ba2bb8a5f",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -608,25 +581,34 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Đức",
-            "team_b": "Trung Quốc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "time": "16:30 17/06",
+            "league": "1. Division",
+            "team_a": "Akademiya Ontustik",
+            "team_b": "Yelimay Semey 2",
+            "logo_a": "https://media.api-sports.io/football/teams/4545.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27635.png",
+            "time": "19:00 18/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
+            "is_live": false,
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Trung Quốc_16-30 17-06_88f18138_20260617.png?v=88f18138",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Akademiya Ontustik_Yelimay Semey 2_19-00 18-06_2214b6e8_20260617.png?v=2214b6e8",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "hqlive-b07c35c252",
           "name": "Nhật Bản vs Serbia | 19:00 17/06",
@@ -1444,153 +1426,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-350bdde991",
-          "name": "Zizou Bergs vs Taylor Fritz | 16:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-350bdde991",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-350bdde991",
-                  "name": "Zizou Bergs vs Taylor Fritz",
-                  "streams": [
-                    {
-                      "id": "st-350bdde991",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Halle",
-            "team_a": "Zizou Bergs",
-            "team_b": "Taylor Fritz",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFEEpUH4GyiUFgY5u-Dgiqc0hqecM0NTHIA&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
-            "time": "16:30 17/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zizou Bergs_Taylor Fritz_16-30 17-06_c42604c6_20260617.png?v=c42604c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0f18686f63",
-          "name": "Frances Tiafoe vs Sho Shimabukuro | 18:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f18686f63",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0f18686f63",
-                  "name": "Frances Tiafoe vs Sho Shimabukuro",
-                  "streams": [
-                    {
-                      "id": "st-0f18686f63",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 Halle",
-            "team_a": "Frances Tiafoe",
-            "team_b": "Sho Shimabukuro",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Shimabukuro_WMQ23_%2853062069285%29.jpg",
-            "time": "18:00 17/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Frances Tiafoe_Sho Shimabukuro_18-00 17-06_517fca7c_20260617.png?v=517fca7c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d52ea55c99",
           "name": "Ben Shelton vs Lorenzo Sonego | 18:30 17/06",
