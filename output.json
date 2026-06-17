@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 17/06/2026",
+  "updated_at": "20:01 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -596,6 +596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Akademiya Ontustik_Yelimay Semey 2_19-00 18-06_2214b6e8_20260617.png?v=2214b6e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2e52cce8fe",
+          "name": "Arys vs Kaspij Aktau 2 | 20:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e52cce8fe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2e52cce8fe",
+                  "name": "Arys vs Kaspij Aktau 2",
+                  "streams": [
+                    {
+                      "id": "st-2e52cce8fe",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Arys",
+            "team_b": "Kaspij Aktau 2",
+            "logo_a": "https://media.api-sports.io/football/teams/10414.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27633.png",
+            "time": "20:00 18/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arys_Kaspij Aktau 2_20-00 18-06_342f0ba5_20260617.png?v=342f0ba5",
             "width": 1600,
             "height": 1200
           }
