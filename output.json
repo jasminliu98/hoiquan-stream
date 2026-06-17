@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:50 17/06/2026",
+  "updated_at": "16:55 17/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1180,7 +1180,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
             "time": "23:30 18/06",
-            "blv": "BLV PHAN HẢI",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -1189,6 +1189,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Pháp_23-30 18-06_2dff64f3_20260617.png?v=2dff64f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-09da3d9315",
+          "name": "Cộng Hòa Dominicana vs Serbia | 15:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09da3d9315",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-09da3d9315",
+                  "name": "Cộng Hòa Dominicana vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-09da3d9315",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Cộng Hòa Dominicana",
+            "team_b": "Serbia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "15:00 19/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Serbia_15-00 19-06_b71a832e_20260617.png?v=b71a832e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-52d96b420d",
+          "name": "Ukraina vs Hà Lan | 17:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52d96b420d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-52d96b420d",
+                  "name": "Ukraina vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-52d96b420d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Hà Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+            "time": "17:00 19/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Hà Lan_17-00 19-06_8be663c0_20260617.png?v=8be663c0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-92b031c422",
+          "name": "Nhật Bản vs CH Séc | 19:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92b031c422",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-92b031c422",
+                  "name": "Nhật Bản vs CH Séc",
+                  "streams": [
+                    {
+                      "id": "st-92b031c422",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Nhật Bản",
+            "team_b": "CH Séc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+            "time": "19:00 19/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nhật Bản_CH Séc_19-00 19-06_e97304a8_20260617.png?v=e97304a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-275e338825",
+          "name": "Pháp vs Trung Quốc | 20:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-275e338825",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-275e338825",
+                  "name": "Pháp vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-275e338825",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Pháp",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "time": "20:00 19/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Trung Quốc_20-00 19-06_79fbe832_20260617.png?v=79fbe832",
             "width": 1600,
             "height": 1200
           }
