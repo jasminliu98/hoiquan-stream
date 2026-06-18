@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 18/06/2026",
+  "updated_at": "22:00 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-2e52cce8fe",
-          "name": "Arys vs Kaspij Aktau 2 | 20:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2e52cce8fe",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2e52cce8fe",
-                  "name": "Arys vs Kaspij Aktau 2",
-                  "streams": [
-                    {
-                      "id": "st-2e52cce8fe",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Arys",
-            "team_b": "Kaspij Aktau 2",
-            "logo_a": "https://media.api-sports.io/football/teams/10414.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27633.png",
-            "time": "20:00 18/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arys_Kaspij Aktau 2_20-00 18-06_342f0ba5_20260618.png?v=342f0ba5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a665e666d9",
           "name": "Turan Turkistan vs Aktobe Jas | 22:00 18/06",
@@ -900,12 +829,65 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-5a3c7e9503",
+          "name": "Naftan vs Baranovichi | 22:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a3c7e9503",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5a3c7e9503",
+                  "name": "Naftan vs Baranovichi",
+                  "streams": [
+                    {
+                      "id": "st-5a3c7e9503",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Belarus",
+            "team_a": "Naftan",
+            "team_b": "Baranovichi",
+            "logo_a": "https://media.api-sports.io/football/teams/750.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3383.png",
+            "time": "22:00 19/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Naftan_Baranovichi_22-00 19-06_cb37f33c_20260618.png?v=cb37f33c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -977,77 +959,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Brazil_20-00 18-06_3c520c75_20260618.png?v=3c520c75",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-2acbe375e5",
-          "name": "Thái Lan vs Bulgaria | 20:30 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2acbe375e5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2acbe375e5",
-                  "name": "Thái Lan vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-2acbe375e5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Thái Lan",
-            "team_b": "Bulgaria",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "time": "20:30 18/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Bulgaria_20-30 18-06_d550e52e_20260618.png?v=d550e52e",
             "width": 1600,
             "height": 1200
           }
