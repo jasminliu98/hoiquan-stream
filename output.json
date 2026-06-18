@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:05 18/06/2026",
+  "updated_at": "16:30 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -596,6 +596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Second_SHANGHAI SIPG_14-30 19-06_c5860f6a_20260618.png?v=c5860f6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6d4cc0a59f",
+          "name": "Bentleigh Greens vs South Melbourne | 16:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d4cc0a59f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6d4cc0a59f",
+                  "name": "Bentleigh Greens vs South Melbourne",
+                  "streams": [
+                    {
+                      "id": "st-6d4cc0a59f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Victoria NPL",
+            "team_a": "Bentleigh Greens",
+            "team_b": "South Melbourne",
+            "logo_a": "https://media.api-sports.io/football/teams/3799.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a6/South_Melbourne_FC_logo.svg",
+            "time": "16:30 19/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bentleigh Greens_South Melbourne_16-30 19-06_ce9d549f_20260618.png?v=ce9d549f",
             "width": 1600,
             "height": 1200
           }
