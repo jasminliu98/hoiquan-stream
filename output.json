@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:45 18/06/2026",
+  "updated_at": "19:55 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -411,7 +411,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
             "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
             "time": "05:00 19/06",
-            "blv": "BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "blv": "BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -1516,7 +1516,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
             "time": "17:00 20/06",
-            "blv": "BLV LƯƠNG BỔNG",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -1622,7 +1622,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
             "time": "20:00 20/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
