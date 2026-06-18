@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:05 18/06/2026",
+  "updated_at": "23:55 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a665e666d9",
-          "name": "Turan Turkistan vs Aktobe Jas | 22:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a665e666d9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a665e666d9",
-                  "name": "Turan Turkistan vs Aktobe Jas",
-                  "streams": [
-                    {
-                      "id": "st-a665e666d9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Turan Turkistan",
-            "team_b": "Aktobe Jas",
-            "logo_a": "https://media.api-sports.io/football/teams/21502.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4546.png",
-            "time": "22:00 18/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turan Turkistan_Aktobe Jas_22-00 18-06_c18d8bb8_20260618.png?v=c18d8bb8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ae0fc882ed",
           "name": "Czech Republic vs South Africa | 23:00 18/06",
@@ -184,10 +113,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -202,7 +131,25 @@
                     {
                       "id": "st-8e90c211f4",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -217,7 +164,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/12622.png",
             "time": "00:30 19/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
