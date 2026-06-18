@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 18/06/2026",
+  "updated_at": "21:25 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1727,7 +1727,7 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1799,77 +1799,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Yannick Hanfmann_20-30 18-06_f00b86c0_20260618.png?v=f00b86c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a8697ce2c1",
-          "name": "Rinky Hijikata vs Jiri Lehecka | 21:30 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8697ce2c1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a8697ce2c1",
-                  "name": "Rinky Hijikata vs Jiri Lehecka",
-                  "streams": [
-                    {
-                      "id": "st-a8697ce2c1",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP500 London",
-            "team_a": "Rinky Hijikata",
-            "team_b": "Jiri Lehecka",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FEDFYlz0iqDsW-Whjs9-ZTVJk4o-dXyzNg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
-            "time": "21:30 18/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rinky Hijikata_Jiri Lehecka_21-30 18-06_cf8dedb1_20260618.png?v=cf8dedb1",
             "width": 1600,
             "height": 1200
           }
