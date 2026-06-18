@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 18/06/2026",
+  "updated_at": "20:55 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3ba2bb8a5f",
-          "name": "Akademiya Ontustik vs Yelimay Semey 2 | 19:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ba2bb8a5f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3ba2bb8a5f",
-                  "name": "Akademiya Ontustik vs Yelimay Semey 2",
-                  "streams": [
-                    {
-                      "id": "st-3ba2bb8a5f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Akademiya Ontustik",
-            "team_b": "Yelimay Semey 2",
-            "logo_a": "https://media.api-sports.io/football/teams/4545.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27635.png",
-            "time": "19:00 18/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Akademiya Ontustik_Yelimay Semey 2_19-00 18-06_2214b6e8_20260618.png?v=2214b6e8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-2e52cce8fe",
           "name": "Arys vs Kaspij Aktau 2 | 20:00 18/06",
