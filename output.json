@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:30 18/06/2026",
+  "updated_at": "17:35 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -446,7 +446,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
             "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
             "time": "05:00 19/06",
-            "blv": "BLV THẦN THÔNG, BLV PHAN CHỚP",
+            "blv": "BLV PHAN QUẨY, BLV PHAN CHỚP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -552,7 +552,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/1728.png",
             "time": "08:00 19/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
