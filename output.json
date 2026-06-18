@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:20 18/06/2026",
+  "updated_at": "11:05 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,170 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-6fa68ad867",
-          "name": "FC Tulsa vs Monterey Bay | 07:30 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6fa68ad867",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6fa68ad867",
-                  "name": "FC Tulsa vs Monterey Bay",
-                  "streams": [
-                    {
-                      "id": "st-6fa68ad867",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Championship",
-            "team_a": "FC Tulsa",
-            "team_b": "Monterey Bay",
-            "logo_a": "https://media.api-sports.io/football/teams/4022.png",
-            "logo_b": "https://media.api-sports.io/football/teams/18375.png",
-            "time": "07:30 18/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC Tulsa_Monterey Bay_07-30 18-06_5f75a5b4_20260618.png?v=5f75a5b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-cdc6ccaaac",
-          "name": "Uzbekistan vs Colombia | 09:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cdc6ccaaac",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cdc6ccaaac",
-                  "name": "Uzbekistan vs Colombia",
-                  "streams": [
-                    {
-                      "id": "st-cdc6ccaaac",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Uzbekistan",
-            "team_b": "Colombia",
-            "logo_a": "https://media.api-sports.io/football/teams/1568.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
-            "time": "09:00 18/06",
-            "blv": "BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uzbekistan_Colombia_09-00 18-06_1d6f4741_20260618.png?v=1d6f4741",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b15d654b27",
           "name": "AC Oulu vs Mariehamn | 16:59 18/06",
