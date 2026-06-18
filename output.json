@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 19/06/2026",
+  "updated_at": "00:25 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -101,77 +101,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_South Africa_23-00 18-06_5de77a66_20260619.png?v=5de77a66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8e90c211f4",
-          "name": "Sollentuna vs FBK Karlstad | 00:30 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e90c211f4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8e90c211f4",
-                  "name": "Sollentuna vs FBK Karlstad",
-                  "streams": [
-                    {
-                      "id": "st-8e90c211f4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ettan - Norra",
-            "team_a": "Sollentuna",
-            "team_b": "FBK Karlstad",
-            "logo_a": "https://media.api-sports.io/football/teams/6699.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12622.png",
-            "time": "00:30 19/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sollentuna_FBK Karlstad_00-30 19-06_5ec2e3eb_20260619.png?v=5ec2e3eb",
             "width": 1600,
             "height": 1200
           }
