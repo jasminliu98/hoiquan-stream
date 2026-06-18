@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:55 18/06/2026",
+  "updated_at": "20:00 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -252,7 +252,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/770.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
             "time": "23:00 18/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -844,6 +844,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rizhao Yuqi_Tianjin Teda_18-30 19-06_94fd63a3_20260618.png?v=94fd63a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-720e56fbf8",
+          "name": "Shakhter Karagandy vs Jaiyq | 20:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-720e56fbf8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-720e56fbf8",
+                  "name": "Shakhter Karagandy vs Jaiyq",
+                  "streams": [
+                    {
+                      "id": "st-720e56fbf8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Shakhter Karagandy",
+            "team_b": "Jaiyq",
+            "logo_a": "https://media.api-sports.io/football/teams/4566.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27561.png",
+            "time": "20:00 19/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shakhter Karagandy_Jaiyq_20-00 19-06_d74ad6ea_20260618.png?v=d74ad6ea",
             "width": 1600,
             "height": 1200
           }
