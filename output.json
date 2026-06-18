@@ -3,11 +3,1728 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:30 18/06/2026",
+  "updated_at": "19:35 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
     "url": "https://sv2.hoiquan3.live/logo.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "sport_bong-da",
+      "name": "⚽ Bóng Đá (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-3ba2bb8a5f",
+          "name": "Akademiya Ontustik vs Yelimay Semey 2 | 19:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ba2bb8a5f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3ba2bb8a5f",
+                  "name": "Akademiya Ontustik vs Yelimay Semey 2",
+                  "streams": [
+                    {
+                      "id": "st-3ba2bb8a5f",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Akademiya Ontustik",
+            "team_b": "Yelimay Semey 2",
+            "logo_a": "https://media.api-sports.io/football/teams/4545.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27635.png",
+            "time": "19:00 18/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Akademiya Ontustik_Yelimay Semey 2_19-00 18-06_2214b6e8_20260618.png?v=2214b6e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2e52cce8fe",
+          "name": "Arys vs Kaspij Aktau 2 | 20:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e52cce8fe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2e52cce8fe",
+                  "name": "Arys vs Kaspij Aktau 2",
+                  "streams": [
+                    {
+                      "id": "st-2e52cce8fe",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Arys",
+            "team_b": "Kaspij Aktau 2",
+            "logo_a": "https://media.api-sports.io/football/teams/10414.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27633.png",
+            "time": "20:00 18/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arys_Kaspij Aktau 2_20-00 18-06_342f0ba5_20260618.png?v=342f0ba5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a665e666d9",
+          "name": "Turan Turkistan vs Aktobe Jas | 22:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a665e666d9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a665e666d9",
+                  "name": "Turan Turkistan vs Aktobe Jas",
+                  "streams": [
+                    {
+                      "id": "st-a665e666d9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Turan Turkistan",
+            "team_b": "Aktobe Jas",
+            "logo_a": "https://media.api-sports.io/football/teams/21502.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4546.png",
+            "time": "22:00 18/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Turan Turkistan_Aktobe Jas_22-00 18-06_c18d8bb8_20260618.png?v=c18d8bb8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ae0fc882ed",
+          "name": "Czech Republic vs South Africa | 23:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae0fc882ed",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ae0fc882ed",
+                  "name": "Czech Republic vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-ae0fc882ed",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Czech Republic",
+            "team_b": "South Africa",
+            "logo_a": "https://media.api-sports.io/football/teams/770.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
+            "time": "23:00 18/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_South Africa_23-00 18-06_5de77a66_20260618.png?v=5de77a66",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8e90c211f4",
+          "name": "Sollentuna vs FBK Karlstad | 00:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e90c211f4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8e90c211f4",
+                  "name": "Sollentuna vs FBK Karlstad",
+                  "streams": [
+                    {
+                      "id": "st-8e90c211f4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ettan - Norra",
+            "team_a": "Sollentuna",
+            "team_b": "FBK Karlstad",
+            "logo_a": "https://media.api-sports.io/football/teams/6699.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12622.png",
+            "time": "00:30 19/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sollentuna_FBK Karlstad_00-30 19-06_5ec2e3eb_20260618.png?v=5ec2e3eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6ba8030125",
+          "name": "Switzerland vs Bosnia & Herzegovina | 02:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ba8030125",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6ba8030125",
+                  "name": "Switzerland vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-6ba8030125",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Switzerland",
+            "team_b": "Bosnia & Herzegovina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
+            "time": "02:00 19/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Bosnia & Herzegovina_02-00 19-06_3acb0844_20260618.png?v=3acb0844",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5680bcd901",
+          "name": "Canada vs Qatar | 05:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5680bcd901",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5680bcd901",
+                  "name": "Canada vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-5680bcd901",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Canada",
+            "team_b": "Qatar",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
+            "time": "05:00 19/06",
+            "blv": "BLV PHAN QUẨY, BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Qatar_05-00 19-06_2e158c37_20260618.png?v=2e158c37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2fd27b9b23",
+          "name": "Sport Recife vs Atletico Goianiense | 07:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2fd27b9b23",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2fd27b9b23",
+                  "name": "Sport Recife vs Atletico Goianiense",
+                  "streams": [
+                    {
+                      "id": "st-2fd27b9b23",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Sport Recife",
+            "team_b": "Atletico Goianiense",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VAnv52Bj5vR_eOaVQiyM-aJo5PyseuSEbQ&s",
+            "logo_b": "https://media.api-sports.io/football/teams/144.png",
+            "time": "07:00 19/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Recife_Atletico Goianiense_07-00 19-06_be3a76e5_20260618.png?v=be3a76e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-95f987bc6e",
+          "name": "Mexico vs South Korea | 08:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95f987bc6e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-95f987bc6e",
+                  "name": "Mexico vs South Korea",
+                  "streams": [
+                    {
+                      "id": "st-95f987bc6e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Mexico",
+            "team_b": "South Korea",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1728.png",
+            "time": "08:00 19/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_South Korea_08-00 19-06_31f5f378_20260618.png?v=31f5f378",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3f908db554",
+          "name": "Shanghai Second vs SHANGHAI SIPG | 14:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f908db554",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3f908db554",
+                  "name": "Shanghai Second vs SHANGHAI SIPG",
+                  "streams": [
+                    {
+                      "id": "st-3f908db554",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shanghai Second",
+            "team_b": "SHANGHAI SIPG",
+            "logo_a": "https://media.api-sports.io/football/teams/27619.png",
+            "logo_b": "https://media.api-sports.io/football/teams/836.png",
+            "time": "14:30 19/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Second_SHANGHAI SIPG_14-30 19-06_c5860f6a_20260618.png?v=c5860f6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6d4cc0a59f",
+          "name": "Bentleigh Greens vs South Melbourne | 16:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d4cc0a59f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6d4cc0a59f",
+                  "name": "Bentleigh Greens vs South Melbourne",
+                  "streams": [
+                    {
+                      "id": "st-6d4cc0a59f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Victoria NPL",
+            "team_a": "Bentleigh Greens",
+            "team_b": "South Melbourne",
+            "logo_a": "https://media.api-sports.io/football/teams/3799.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a6/South_Melbourne_FC_logo.svg",
+            "time": "16:30 19/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bentleigh Greens_South Melbourne_16-30 19-06_ce9d549f_20260618.png?v=ce9d549f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c64650b2b1",
+          "name": "Shaanxi Union vs Hangzhou Greentown | 18:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c64650b2b1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c64650b2b1",
+                  "name": "Shaanxi Union vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-c64650b2b1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shaanxi Union",
+            "team_b": "Hangzhou Greentown",
+            "logo_a": "https://media.api-sports.io/football/teams/23286.png",
+            "logo_b": "https://media.api-sports.io/football/teams/848.png",
+            "time": "18:00 19/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shaanxi Union_Hangzhou Greentown_18-00 19-06_a509af73_20260618.png?v=a509af73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a46c848de7",
+          "name": "Shenzhen Juniors vs Sichuan Jiuniu | 18:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a46c848de7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a46c848de7",
+                  "name": "Shenzhen Juniors vs Sichuan Jiuniu",
+                  "streams": [
+                    {
+                      "id": "st-a46c848de7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shenzhen Juniors",
+            "team_b": "Sichuan Jiuniu",
+            "logo_a": "https://media.api-sports.io/football/teams/23265.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5686.png",
+            "time": "18:00 19/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen Juniors_Sichuan Jiuniu_18-00 19-06_e3fb7c0f_20260618.png?v=e3fb7c0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8f590691b8",
+          "name": "Guangzhou E-Power vs Beijing Guoan | 18:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f590691b8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8f590691b8",
+                  "name": "Guangzhou E-Power vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-8f590691b8",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Guangzhou E-Power",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://media.api-sports.io/football/teams/23269.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "time": "18:30 19/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangzhou E-Power_Beijing Guoan_18-30 19-06_64b77aa5_20260618.png?v=64b77aa5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f473b40bc0",
+          "name": "Rizhao Yuqi vs Tianjin Teda | 18:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f473b40bc0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f473b40bc0",
+                  "name": "Rizhao Yuqi vs Tianjin Teda",
+                  "streams": [
+                    {
+                      "id": "st-f473b40bc0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Rizhao Yuqi",
+            "team_b": "Tianjin Teda",
+            "logo_a": "https://media.api-sports.io/football/teams/21328.png",
+            "logo_b": "https://media.api-sports.io/football/teams/837.png",
+            "time": "18:30 19/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rizhao Yuqi_Tianjin Teda_18-30 19-06_94fd63a3_20260618.png?v=94fd63a3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-f936e7ff1e",
+          "name": "Serbia vs Italy | 19:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f936e7ff1e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f936e7ff1e",
+                  "name": "Serbia vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-f936e7ff1e",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Serbia",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "19:00 18/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Italy_19-00 18-06_bfa6411f_20260618.png?v=bfa6411f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4199e86878",
+          "name": "Bỉ vs Brazil | 20:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4199e86878",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4199e86878",
+                  "name": "Bỉ vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-4199e86878",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Brazil",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "time": "20:00 18/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Brazil_20-00 18-06_3c520c75_20260618.png?v=3c520c75",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2acbe375e5",
+          "name": "Thái Lan vs Bulgaria | 20:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2acbe375e5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2acbe375e5",
+                  "name": "Thái Lan vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-2acbe375e5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Thái Lan",
+            "team_b": "Bulgaria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "time": "20:30 18/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Bulgaria_20-30 18-06_d550e52e_20260618.png?v=d550e52e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-dbffecf38e",
+          "name": "Thổ Nhĩ Kỳ vs Pháp | 23:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dbffecf38e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dbffecf38e",
+                  "name": "Thổ Nhĩ Kỳ vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-dbffecf38e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "23:30 18/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Pháp_23-30 18-06_2dff64f3_20260618.png?v=2dff64f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-09da3d9315",
+          "name": "Cộng Hòa Dominicana vs Serbia | 15:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09da3d9315",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-09da3d9315",
+                  "name": "Cộng Hòa Dominicana vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-09da3d9315",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Cộng Hòa Dominicana",
+            "team_b": "Serbia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "time": "15:00 19/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cộng Hòa Dominicana_Serbia_15-00 19-06_b71a832e_20260618.png?v=b71a832e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-52d96b420d",
+          "name": "Ukraina vs Hà Lan | 17:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52d96b420d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-52d96b420d",
+                  "name": "Ukraina vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-52d96b420d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Ukraina",
+            "team_b": "Hà Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+            "time": "17:00 19/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Hà Lan_17-00 19-06_8be663c0_20260618.png?v=8be663c0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-92b031c422",
+          "name": "Nhật Bản vs CH Séc | 19:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92b031c422",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-92b031c422",
+                  "name": "Nhật Bản vs CH Séc",
+                  "streams": [
+                    {
+                      "id": "st-92b031c422",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Nhật Bản",
+            "team_b": "CH Séc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+            "time": "19:00 19/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nhật Bản_CH Séc_19-00 19-06_e97304a8_20260618.png?v=e97304a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-275e338825",
+          "name": "Pháp vs Trung Quốc | 20:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-275e338825",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-275e338825",
+                  "name": "Pháp vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-275e338825",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Pháp",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "time": "20:00 19/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Trung Quốc_20-00 19-06_79fbe832_20260618.png?v=79fbe832",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-49aff69c91",
+          "name": "Bulgaria vs Canada | 20:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49aff69c91",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-49aff69c91",
+                  "name": "Bulgaria vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-49aff69c91",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Canada",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "time": "20:30 19/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Canada_20-30 19-06_a238368e_20260618.png?v=a238368e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b46062c541",
+          "name": "Bỉ vs Đức | 20:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b46062c541",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b46062c541",
+                  "name": "Bỉ vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-b46062c541",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Đức",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "time": "20:30 19/06",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Đức_20-30 19-06_c8ac3771_20260618.png?v=c8ac3771",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-ca5a176769",
+          "name": "Ben Shelton vs Ethan Quinn | 18:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca5a176769",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ca5a176769",
+                  "name": "Ben Shelton vs Ethan Quinn",
+                  "streams": [
+                    {
+                      "id": "st-ca5a176769",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Ben Shelton",
+            "team_b": "Ethan Quinn",
+            "logo_a": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhszvRifhlsC3d-jN9rhkFvLpgGR2lSBbTA&s",
+            "time": "18:30 18/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ben Shelton_Ethan Quinn_18-30 18-06_c826a2f7_20260618.png?v=c826a2f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-103e7f97ad",
+          "name": "Alexandet Zverev vs Yannick Hanfmann | 20:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-103e7f97ad",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-103e7f97ad",
+                  "name": "Alexandet Zverev vs Yannick Hanfmann",
+                  "streams": [
+                    {
+                      "id": "st-103e7f97ad",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 Halle",
+            "team_a": "Alexandet Zverev",
+            "team_b": "Yannick Hanfmann",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "logo_b": "https://cdn.tennistemple.com/images/upload/player/Yannick_Hanfmann_63.jpg",
+            "time": "20:30 18/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Yannick Hanfmann_20-30 18-06_f00b86c0_20260618.png?v=f00b86c0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a8697ce2c1",
+          "name": "Rinky Hijikata vs Jiri Lehecka | 21:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8697ce2c1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a8697ce2c1",
+                  "name": "Rinky Hijikata vs Jiri Lehecka",
+                  "streams": [
+                    {
+                      "id": "st-a8697ce2c1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Rinky Hijikata",
+            "team_b": "Jiri Lehecka",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FEDFYlz0iqDsW-Whjs9-ZTVJk4o-dXyzNg&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lehecka_MCM23_%285%29_%2852883527310%29.jpg",
+            "time": "21:30 18/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rinky Hijikata_Jiri Lehecka_21-30 18-06_cf8dedb1_20260618.png?v=cf8dedb1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-46814d2592",
+          "name": "Alexandra Eala vs Elena Rybakina | 22:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46814d2592",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-46814d2592",
+                  "name": "Alexandra Eala vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-46814d2592",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP500 London",
+            "team_a": "Alexandra Eala",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_03_25/eala-01-5165-5335.jpg.webp",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgbcQTwQftJppnCiKC9Wed1i6puDevH9m5Q&s",
+            "time": "22:30 18/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandra Eala_Elena Rybakina_22-30 18-06_940fed25_20260618.png?v=940fed25",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-ban",
+      "name": "🏓 Bóng Bàn",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-172bd43831",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 22:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-172bd43831",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-172bd43831",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-172bd43831",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Star Contender Ljubljana 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "22:00 18/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_22-00 18-06_3e80d90a_20260618.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
