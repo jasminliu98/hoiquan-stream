@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:40 18/06/2026",
+  "updated_at": "18:55 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b15d654b27",
-          "name": "AC Oulu vs Mariehamn | 16:59 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b15d654b27",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b15d654b27",
-                  "name": "AC Oulu vs Mariehamn",
-                  "streams": [
-                    {
-                      "id": "st-b15d654b27",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "AC Oulu",
-            "team_b": "Mariehamn",
-            "logo_a": "https://media.api-sports.io/football/teams/2077.png",
-            "logo_b": "https://media.api-sports.io/football/teams/587.png",
-            "time": "16:59 18/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/AC Oulu_Mariehamn_16-59 18-06_d5e03ee2_20260618.png?v=d5e03ee2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-3ba2bb8a5f",
           "name": "Akademiya Ontustik vs Yelimay Semey 2 | 19:00 18/06",
