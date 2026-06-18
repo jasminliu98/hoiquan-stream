@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:55 18/06/2026",
+  "updated_at": "18:00 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bentleigh Greens_South Melbourne_16-30 19-06_ce9d549f_20260618.png?v=ce9d549f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c64650b2b1",
+          "name": "Shaanxi Union vs Hangzhou Greentown | 18:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c64650b2b1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c64650b2b1",
+                  "name": "Shaanxi Union vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-c64650b2b1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shaanxi Union",
+            "team_b": "Hangzhou Greentown",
+            "logo_a": "https://media.api-sports.io/football/teams/23286.png",
+            "logo_b": "https://media.api-sports.io/football/teams/848.png",
+            "time": "18:00 19/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shaanxi Union_Hangzhou Greentown_18-00 19-06_a509af73_20260618.png?v=a509af73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a46c848de7",
+          "name": "Shenzhen Juniors vs Sichuan Jiuniu | 18:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a46c848de7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a46c848de7",
+                  "name": "Shenzhen Juniors vs Sichuan Jiuniu",
+                  "streams": [
+                    {
+                      "id": "st-a46c848de7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shenzhen Juniors",
+            "team_b": "Sichuan Jiuniu",
+            "logo_a": "https://media.api-sports.io/football/teams/23265.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5686.png",
+            "time": "18:00 19/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen Juniors_Sichuan Jiuniu_18-00 19-06_e3fb7c0f_20260618.png?v=e3fb7c0f",
             "width": 1600,
             "height": 1200
           }
