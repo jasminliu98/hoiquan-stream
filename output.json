@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "11:05 18/06/2026",
+  "updated_at": "14:30 18/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_South Korea_08-00 19-06_31f5f378_20260618.png?v=31f5f378",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3f908db554",
+          "name": "Shanghai Second vs SHANGHAI SIPG | 14:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f908db554",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3f908db554",
+                  "name": "Shanghai Second vs SHANGHAI SIPG",
+                  "streams": [
+                    {
+                      "id": "st-3f908db554",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shanghai Second",
+            "team_b": "SHANGHAI SIPG",
+            "logo_a": "https://media.api-sports.io/football/teams/27619.png",
+            "logo_b": "https://media.api-sports.io/football/teams/836.png",
+            "time": "14:30 19/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Second_SHANGHAI SIPG_14-30 19-06_c5860f6a_20260618.png?v=c5860f6a",
             "width": 1600,
             "height": 1200
           }
