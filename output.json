@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:35 19/06/2026",
+  "updated_at": "05:00 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -790,6 +790,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Australia_02-00 20-06_444b8c54_20260619.png?v=444b8c54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-353730a436",
+          "name": "Scotland vs Morocco | 05:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-353730a436",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-353730a436",
+                  "name": "Scotland vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-353730a436",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Scotland",
+            "team_b": "Morocco",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
+            "time": "05:00 20/06",
+            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Scotland_Morocco_05-00 20-06_4b7e2d15_20260619.png?v=4b7e2d15",
             "width": 1600,
             "height": 1200
           }
