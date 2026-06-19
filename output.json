@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:55 19/06/2026",
+  "updated_at": "20:05 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -799,7 +799,7 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -954,10 +954,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -972,7 +972,25 @@
                     {
                       "id": "st-49aff69c91",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -987,7 +1005,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
             "time": "20:30 19/06",
             "blv": "BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
@@ -1007,10 +1025,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1025,7 +1043,25 @@
                     {
                       "id": "st-b46062c541",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1040,7 +1076,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
             "time": "20:30 19/06",
             "blv": "BLV PHAN CHỚP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
