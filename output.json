@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:35 19/06/2026",
+  "updated_at": "10:00 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,116 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-95f987bc6e",
-          "name": "Mexico vs South Korea | 08:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-95f987bc6e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-95f987bc6e",
-                  "name": "Mexico vs South Korea",
-                  "streams": [
-                    {
-                      "id": "st-95f987bc6e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Mexico",
-            "team_b": "South Korea",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1728.png",
-            "time": "08:00 19/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_South Korea_08-00 19-06_31f5f378_20260619.png?v=31f5f378",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-3f908db554",
           "name": "Shanghai Second vs SHANGHAI SIPG | 14:30 19/06",
@@ -863,6 +758,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-7e2b9034f6",
+          "name": "Türkiye vs Paraguay | 10:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e2b9034f6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7e2b9034f6",
+                  "name": "Türkiye vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "st-7e2b9034f6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Türkiye",
+            "team_b": "Paraguay",
+            "logo_a": "https://media.api-sports.io/football/teams/777.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/250px-Flag_of_Paraguay.svg.png",
+            "time": "10:00 20/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Türkiye_Paraguay_10-00 20-06_06490654_20260619.png?v=06490654",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1019,7 +967,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
             "time": "19:00 19/06",
-            "blv": "BLV LƯƠNG BỔNG",
+            "blv": "BLV PHAN BỐNG",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
@@ -1125,7 +1073,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
             "time": "20:30 19/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
