@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:35 19/06/2026",
+  "updated_at": "20:40 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -728,82 +728,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (4 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-92b031c422",
-          "name": "Nhật Bản vs CH Séc | 19:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92b031c422",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-92b031c422",
-                  "name": "Nhật Bản vs CH Séc",
-                  "streams": [
-                    {
-                      "id": "st-92b031c422",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Nhật Bản",
-            "team_b": "CH Séc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
-            "time": "19:00 19/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nhật Bản_CH Séc_19-00 19-06_e97304a8_20260619.png?v=e97304a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-275e338825",
           "name": "Pháp vs Trung Quốc | 20:00 19/06",
@@ -947,50 +876,32 @@
           }
         },
         {
-          "id": "hqlive-b46062c541",
-          "name": "Bỉ vs Đức | 20:30 19/06",
+          "id": "hqlive-d33d9f2c03",
+          "name": "Bỉ vs Đức | 23:30 19/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-b46062c541",
+              "id": "src-d33d9f2c03",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-b46062c541",
+                  "id": "ct-d33d9f2c03",
                   "name": "Bỉ vs Đức",
                   "streams": [
                     {
-                      "id": "st-b46062c541",
+                      "id": "st-d33d9f2c03",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1003,16 +914,16 @@
             "team_b": "Đức",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
-            "time": "20:30 19/06",
+            "time": "23:30 19/06",
             "blv": "BLV PHAN CHỚP",
-            "is_live": true,
+            "is_live": false,
             "sport_slug": "bong-chuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Đức_20-30 19-06_c8ac3771_20260619.png?v=c8ac3771",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Đức_23-30 19-06_c8ac3771_20260619.png?v=c8ac3771",
             "width": 1600,
             "height": 1200
           }
@@ -1808,6 +1719,86 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Trung Quốc_23-30 21-06_8fb69f2a_20260619.png?v=8fb69f2a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-af9a26035a",
+          "name": "Arthur Fery vs Francisco Cerundolo | 20:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af9a26035a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-af9a26035a",
+                  "name": "Arthur Fery vs Francisco Cerundolo",
+                  "streams": [
+                    {
+                      "id": "st-af9a26035a",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 Berlin",
+            "team_a": "Arthur Fery",
+            "team_b": "Francisco Cerundolo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwOQtqGcU0q65NN2cshsMBuUWv52zAjoLkQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
+            "time": "20:30 19/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": true,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Arthur Fery_Francisco Cerundolo_20-30 19-06_e361215d_20260619.png?v=e361215d",
             "width": 1600,
             "height": 1200
           }
