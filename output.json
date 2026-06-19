@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:50 19/06/2026",
+  "updated_at": "19:00 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -880,6 +880,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Shanghai Shenhua_18-30 20-06_6b52a8d3_20260619.png?v=6b52a8d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0fd978651b",
+          "name": "Chengdu Rongcheng II vs Yichun Grand Tiger | 19:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fd978651b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0fd978651b",
+                  "name": "Chengdu Rongcheng II vs Yichun Grand Tiger",
+                  "streams": [
+                    {
+                      "id": "st-0fd978651b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Chengdu Rongcheng II",
+            "team_b": "Yichun Grand Tiger",
+            "logo_a": "https://media.api-sports.io/football/teams/25839.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17272.png",
+            "time": "19:00 20/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chengdu Rongcheng II_Yichun Grand Tiger_19-00 20-06_bad37247_20260619.png?v=bad37247",
             "width": 1600,
             "height": 1200
           }
