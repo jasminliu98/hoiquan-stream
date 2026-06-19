@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 19/06/2026",
+  "updated_at": "20:35 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f473b40bc0",
-          "name": "Rizhao Yuqi vs Tianjin Teda | 18:30 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f473b40bc0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f473b40bc0",
-                  "name": "Rizhao Yuqi vs Tianjin Teda",
-                  "streams": [
-                    {
-                      "id": "st-f473b40bc0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Rizhao Yuqi",
-            "team_b": "Tianjin Teda",
-            "logo_a": "https://media.api-sports.io/football/teams/21328.png",
-            "logo_b": "https://media.api-sports.io/football/teams/837.png",
-            "time": "18:30 19/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rizhao Yuqi_Tianjin Teda_18-30 19-06_94fd63a3_20260619.png?v=94fd63a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d9e4d7fcc0",
           "name": "Khan Tengri vs Taraz | 21:00 19/06",
