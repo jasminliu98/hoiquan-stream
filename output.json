@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:40 19/06/2026",
+  "updated_at": "19:50 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1985,68 +1985,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Trung Quốc_23-30 21-06_8fb69f2a_20260619.png?v=8fb69f2a",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_tennis",
-      "name": "🎾 Tennis",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-cd768359b0",
-          "name": "Elina Svitolina vs Alexandra Eala | 22:30 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd768359b0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cd768359b0",
-                  "name": "Elina Svitolina vs Alexandra Eala",
-                  "streams": [
-                    {
-                      "id": "st-cd768359b0",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 Berlin",
-            "team_a": "Elina Svitolina",
-            "team_b": "Alexandra Eala",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5M9hwvSbtia3mudgiHt09H8e9t-mhfHQ9g&s",
-            "logo_b": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_03_25/eala-01-5165-5335.jpg.webp",
-            "time": "22:30 19/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Elina Svitolina_Alexandra Eala_22-30 19-06_002c7e2d_20260619.png?v=002c7e2d",
             "width": 1600,
             "height": 1200
           }
