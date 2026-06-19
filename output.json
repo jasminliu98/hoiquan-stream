@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:55 19/06/2026",
+  "updated_at": "18:05 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,77 @@
           }
         },
         {
+          "id": "hqlive-8f590691b8",
+          "name": "Guangzhou E-Power vs Beijing Guoan | 18:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f590691b8",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8f590691b8",
+                  "name": "Guangzhou E-Power vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-8f590691b8",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Guangzhou E-Power",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://media.api-sports.io/football/teams/23269.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "time": "18:30 19/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangzhou E-Power_Beijing Guoan_18-30 19-06_64b77aa5_20260619.png?v=64b77aa5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-f473b40bc0",
           "name": "Rizhao Yuqi vs Tianjin Teda | 18:30 19/06",
           "type": "single",
@@ -297,59 +368,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rizhao Yuqi_Tianjin Teda_18-30 19-06_94fd63a3_20260619.png?v=94fd63a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-8f590691b8",
-          "name": "Guangzhou E-Power vs Beijing Guoan | 18:30 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f590691b8",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-8f590691b8",
-                  "name": "Guangzhou E-Power vs Beijing Guoan",
-                  "streams": [
-                    {
-                      "id": "st-8f590691b8",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Guangzhou E-Power",
-            "team_b": "Beijing Guoan",
-            "logo_a": "https://media.api-sports.io/football/teams/23269.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
-            "time": "18:30 19/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangzhou E-Power_Beijing Guoan_18-30 19-06_64b77aa5_20260619.png?v=64b77aa5",
             "width": 1600,
             "height": 1200
           }
