@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:35 20/06/2026",
+  "updated_at": "02:00 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -702,6 +702,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Sweden_00-00 21-06_80a37081_20260620.png?v=80a37081",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e54581c316",
+          "name": "Almeria vs Malaga | 02:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e54581c316",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e54581c316",
+                  "name": "Almeria vs Malaga",
+                  "streams": [
+                    {
+                      "id": "st-e54581c316",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Almeria",
+            "team_b": "Malaga",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/13/UD_Almer%C3%ADa_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/c/c3/M%C3%A1laga_CF.png",
+            "time": "02:00 21/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Almeria_Malaga_02-00 21-06_99502370_20260620.png?v=99502370",
             "width": 1600,
             "height": 1200
           }
