@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:05 19/06/2026",
+  "updated_at": "14:30 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -826,6 +826,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Türkiye_Paraguay_10-00 20-06_06490654_20260619.png?v=06490654",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-217776ea83",
+          "name": "Qingdao Red Lions vs Wuhan Three Towns | 14:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-217776ea83",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-217776ea83",
+                  "name": "Qingdao Red Lions vs Wuhan Three Towns",
+                  "streams": [
+                    {
+                      "id": "st-217776ea83",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Qingdao Red Lions",
+            "team_b": "Wuhan Three Towns",
+            "logo_a": "https://media.api-sports.io/football/teams/5679.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
+            "time": "14:30 20/06",
+            "blv": "BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Red Lions_Wuhan Three Towns_14-30 20-06_728ddf3b_20260619.png?v=728ddf3b",
             "width": 1600,
             "height": 1200
           }
