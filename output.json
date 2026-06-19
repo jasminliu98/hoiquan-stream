@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:50 19/06/2026",
+  "updated_at": "19:55 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-c64650b2b1",
-          "name": "Shaanxi Union vs Hangzhou Greentown | 18:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c64650b2b1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c64650b2b1",
-                  "name": "Shaanxi Union vs Hangzhou Greentown",
-                  "streams": [
-                    {
-                      "id": "st-c64650b2b1",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Shaanxi Union",
-            "team_b": "Hangzhou Greentown",
-            "logo_a": "https://media.api-sports.io/football/teams/23286.png",
-            "logo_b": "https://media.api-sports.io/football/teams/848.png",
-            "time": "18:00 19/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shaanxi Union_Hangzhou Greentown_18-00 19-06_a509af73_20260619.png?v=a509af73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a46c848de7",
-          "name": "Shenzhen Juniors vs Sichuan Jiuniu | 18:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a46c848de7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a46c848de7",
-                  "name": "Shenzhen Juniors vs Sichuan Jiuniu",
-                  "streams": [
-                    {
-                      "id": "st-a46c848de7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Shenzhen Juniors",
-            "team_b": "Sichuan Jiuniu",
-            "logo_a": "https://media.api-sports.io/football/teams/23265.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5686.png",
-            "time": "18:00 19/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen Juniors_Sichuan Jiuniu_18-00 19-06_e3fb7c0f_20260619.png?v=e3fb7c0f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8f590691b8",
           "name": "Guangzhou E-Power vs Beijing Guoan | 18:30 19/06",
