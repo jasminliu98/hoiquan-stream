@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:20 19/06/2026",
+  "updated_at": "18:30 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -830,61 +830,34 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "hqlive-52d96b420d",
-          "name": "Ukraina vs Hà Lan | 17:00 19/06",
+          "id": "hqlive-8d79ad5579",
+          "name": "Hebei Kungfu vs Shanghai Shenhua | 18:30 20/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-52d96b420d",
+              "id": "src-8d79ad5579",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-52d96b420d",
-                  "name": "Ukraina vs Hà Lan",
+                  "id": "ct-8d79ad5579",
+                  "name": "Hebei Kungfu vs Shanghai Shenhua",
                   "streams": [
                     {
-                      "id": "st-52d96b420d",
+                      "id": "st-8d79ad5579",
                       "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -892,25 +865,34 @@
             }
           ],
           "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Ukraina",
-            "team_b": "Hà Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-            "time": "17:00 19/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
+            "league": "FA Cup",
+            "team_a": "Hebei Kungfu",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "time": "18:30 20/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Hà Lan_17-00 19-06_8be663c0_20260619.png?v=8be663c0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Shanghai Shenhua_18-30 20-06_6b52a8d3_20260619.png?v=6b52a8d3",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "hqlive-92b031c422",
           "name": "Nhật Bản vs CH Séc | 19:00 19/06",
@@ -951,7 +933,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
             "time": "19:00 19/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
