@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 19/06/2026",
+  "updated_at": "18:20 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-6d4cc0a59f",
-          "name": "Bentleigh Greens vs South Melbourne | 16:30 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d4cc0a59f",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6d4cc0a59f",
-                  "name": "Bentleigh Greens vs South Melbourne",
-                  "streams": [
-                    {
-                      "id": "st-6d4cc0a59f",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Victoria NPL",
-            "team_a": "Bentleigh Greens",
-            "team_b": "South Melbourne",
-            "logo_a": "https://media.api-sports.io/football/teams/3799.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a6/South_Melbourne_FC_logo.svg",
-            "time": "16:30 19/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bentleigh Greens_South Melbourne_16-30 19-06_ce9d549f_20260619.png?v=ce9d549f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-c64650b2b1",
           "name": "Shaanxi Union vs Hangzhou Greentown | 18:00 19/06",
