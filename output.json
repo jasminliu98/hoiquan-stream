@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:30 19/06/2026",
+  "updated_at": "17:55 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,77 @@
           }
         },
         {
+          "id": "hqlive-f473b40bc0",
+          "name": "Rizhao Yuqi vs Tianjin Teda | 18:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f473b40bc0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f473b40bc0",
+                  "name": "Rizhao Yuqi vs Tianjin Teda",
+                  "streams": [
+                    {
+                      "id": "st-f473b40bc0",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Rizhao Yuqi",
+            "team_b": "Tianjin Teda",
+            "logo_a": "https://media.api-sports.io/football/teams/21328.png",
+            "logo_b": "https://media.api-sports.io/football/teams/837.png",
+            "time": "18:30 19/06",
+            "blv": "BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rizhao Yuqi_Tianjin Teda_18-30 19-06_94fd63a3_20260619.png?v=94fd63a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-8f590691b8",
           "name": "Guangzhou E-Power vs Beijing Guoan | 18:30 19/06",
           "type": "single",
@@ -279,59 +350,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangzhou E-Power_Beijing Guoan_18-30 19-06_64b77aa5_20260619.png?v=64b77aa5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-f473b40bc0",
-          "name": "Rizhao Yuqi vs Tianjin Teda | 18:30 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f473b40bc0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f473b40bc0",
-                  "name": "Rizhao Yuqi vs Tianjin Teda",
-                  "streams": [
-                    {
-                      "id": "st-f473b40bc0",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Rizhao Yuqi",
-            "team_b": "Tianjin Teda",
-            "logo_a": "https://media.api-sports.io/football/teams/21328.png",
-            "logo_b": "https://media.api-sports.io/football/teams/837.png",
-            "time": "18:30 19/06",
-            "blv": "BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rizhao Yuqi_Tianjin Teda_18-30 19-06_94fd63a3_20260619.png?v=94fd63a3",
             "width": 1600,
             "height": 1200
           }
@@ -1472,6 +1490,483 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Đức_23-30 20-06_b3322f71_20260619.png?v=b3322f71",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d3ceff6cda",
+          "name": "Serbia vs Mỹ | 11:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3ceff6cda",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d3ceff6cda",
+                  "name": "Serbia vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-d3ceff6cda",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Serbia",
+            "team_b": "Mỹ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "time": "11:00 21/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Mỹ_11-00 21-06_b59cee38_20260619.png?v=b59cee38",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1e09f92e63",
+          "name": "Bulgaria vs Ukraina | 13:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e09f92e63",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1e09f92e63",
+                  "name": "Bulgaria vs Ukraina",
+                  "streams": [
+                    {
+                      "id": "st-1e09f92e63",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Ukraina",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+            "time": "13:00 21/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ukraina_13-00 21-06_af494715_20260619.png?v=af494715",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-313177a89e",
+          "name": "CH Séc vs Cộng Hòa Dominicana | 15:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-313177a89e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-313177a89e",
+                  "name": "CH Séc vs Cộng Hòa Dominicana",
+                  "streams": [
+                    {
+                      "id": "st-313177a89e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "CH Séc",
+            "team_b": "Cộng Hòa Dominicana",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+            "time": "15:00 21/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/CH Séc_Cộng Hòa Dominicana_15-00 21-06_532e72e3_20260619.png?v=532e72e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-587af6d6ce",
+          "name": "Bỉ vs Pháp | 16:30 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-587af6d6ce",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-587af6d6ce",
+                  "name": "Bỉ vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-587af6d6ce",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Bỉ",
+            "team_b": "Pháp",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
+            "time": "16:30 21/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Pháp_16-30 21-06_5a9add90_20260619.png?v=5a9add90",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bb254114c6",
+          "name": "Canada vs Ba Lan | 17:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb254114c6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bb254114c6",
+                  "name": "Canada vs Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-bb254114c6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Canada",
+            "team_b": "Ba Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "time": "17:00 21/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Ba Lan_17-00 21-06_4cfd92b6_20260619.png?v=4cfd92b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bcc98ef2bf",
+          "name": "Nhật Bản vs Italy | 19:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcc98ef2bf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bcc98ef2bf",
+                  "name": "Nhật Bản vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-bcc98ef2bf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Nhật Bản",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "19:00 21/06",
+            "blv": "BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nhật Bản_Italy_19-00 21-06_e4f249ca_20260619.png?v=e4f249ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f15ccb9f10",
+          "name": "Đức vs Brazil | 20:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f15ccb9f10",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f15ccb9f10",
+                  "name": "Đức vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-f15ccb9f10",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Đức",
+            "team_b": "Brazil",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "time": "20:00 21/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Brazil_20-00 21-06_07f967c5_20260619.png?v=07f967c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0d010a6cc9",
+          "name": "Thái Lan vs Hà Lan | 20:30 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d010a6cc9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0d010a6cc9",
+                  "name": "Thái Lan vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-0d010a6cc9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Thái Lan",
+            "team_b": "Hà Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+            "time": "20:30 21/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Hà Lan_20-30 21-06_1eb0de78_20260619.png?v=1eb0de78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-602bd3d5b3",
+          "name": "Thổ Nhĩ Kỳ vs Trung Quốc | 23:30 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-602bd3d5b3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-602bd3d5b3",
+                  "name": "Thổ Nhĩ Kỳ vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-602bd3d5b3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Women",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
+            "time": "23:30 21/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Trung Quốc_23-30 21-06_8fb69f2a_20260619.png?v=8fb69f2a",
             "width": 1600,
             "height": 1200
           }
