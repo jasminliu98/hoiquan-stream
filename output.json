@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 19/06/2026",
+  "updated_at": "07:30 19/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -755,6 +755,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Universitario de Vinto_Guabirá_07-00 20-06_3ffda3f7_20260619.png?v=3ffda3f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5d3846add1",
+          "name": "Brazil vs Haiti | 07:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d3846add1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5d3846add1",
+                  "name": "Brazil vs Haiti",
+                  "streams": [
+                    {
+                      "id": "st-5d3846add1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Brazil",
+            "team_b": "Haiti",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png",
+            "time": "07:30 20/06",
+            "blv": "BLV PHAN CHỚP, BLV PHAN QUẨY, BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Haiti_07-30 20-06_723eece9_20260619.png?v=723eece9",
             "width": 1600,
             "height": 1200
           }
