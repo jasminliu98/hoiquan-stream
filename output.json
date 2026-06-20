@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:45 20/06/2026",
+  "updated_at": "21:00 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FS Jelgava_Tukums_20-00 21-06_f3582883_20260620.png?v=f3582883",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-fd0f4f0f0d",
+          "name": "Avai vs Cuiaba | 21:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd0f4f0f0d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fd0f4f0f0d",
+                  "name": "Avai vs Cuiaba",
+                  "streams": [
+                    {
+                      "id": "st-fd0f4f0f0d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Avai",
+            "team_b": "Cuiaba",
+            "logo_a": "https://media.api-sports.io/football/teams/145.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1193.png",
+            "time": "21:00 21/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Avai_Cuiaba_21-00 21-06_cccee957_20260620.png?v=cccee957",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c39cbbfea1",
+          "name": "Kongsvinger vs Stromsgodset | 21:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c39cbbfea1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c39cbbfea1",
+                  "name": "Kongsvinger vs Stromsgodset",
+                  "streams": [
+                    {
+                      "id": "st-c39cbbfea1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Kongsvinger",
+            "team_b": "Stromsgodset",
+            "logo_a": "https://media.api-sports.io/football/teams/2144.png",
+            "logo_b": "https://media.api-sports.io/football/teams/324.png",
+            "time": "21:00 21/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kongsvinger_Stromsgodset_21-00 21-06_bfc31b2d_20260620.png?v=bfc31b2d",
             "width": 1600,
             "height": 1200
           }
