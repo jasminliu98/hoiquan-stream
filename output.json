@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 20/06/2026",
+  "updated_at": "09:35 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-5d3846add1",
-          "name": "Brazil vs Haiti | 07:30 20/06",
+          "id": "hqlive-7e2b9034f6",
+          "name": "Türkiye vs Paraguay | 10:00 20/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,23 +33,23 @@
           ],
           "sources": [
             {
-              "id": "src-5d3846add1",
+              "id": "src-7e2b9034f6",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-5d3846add1",
-                  "name": "Brazil vs Haiti",
+                  "id": "ct-7e2b9034f6",
+                  "name": "Türkiye vs Paraguay",
                   "streams": [
                     {
-                      "id": "st-5d3846add1",
+                      "id": "st-7e2b9034f6",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -77,78 +77,8 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Brazil",
-            "team_b": "Haiti",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png",
-            "time": "07:30 20/06",
-            "blv": "BLV PHAN CHỚP, BLV PHAN QUẨY, BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Haiti_07-30 20-06_723eece9_20260620.png?v=723eece9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-7e2b9034f6",
-          "name": "Türkiye vs Paraguay | 10:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e2b9034f6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7e2b9034f6",
-                  "name": "Türkiye vs Paraguay",
-                  "streams": [
-                    {
-                      "id": "st-7e2b9034f6",
-                      "name": "HQ",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -163,7 +93,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/250px-Flag_of_Paraguay.svg.png",
             "time": "10:00 20/06",
             "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
