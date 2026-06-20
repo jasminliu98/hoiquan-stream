@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:45 20/06/2026",
+  "updated_at": "15:50 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1507,6 +1507,227 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Trung Quốc_23-30 21-06_8fb69f2a_20260620.png?v=8fb69f2a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-041fe93e96",
+          "name": "Aryna Sabalenka vs Jessica Pegula | 16:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-041fe93e96",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-041fe93e96",
+                  "name": "Aryna Sabalenka vs Jessica Pegula",
+                  "streams": [
+                    {
+                      "id": "st-041fe93e96",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 Berlin",
+            "team_a": "Aryna Sabalenka",
+            "team_b": "Jessica Pegula",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sabalenka_WM18_%283%29_%2830063199288%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3ZMcLTxrcrE5sPJnk8sQRl4N_EJ5KLlBfg&s",
+            "time": "16:30 20/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Aryna Sabalenka_Jessica Pegula_16-30 20-06_cc687abc_20260620.png?v=cc687abc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5856f5c0f5",
+          "name": "Brandon Nakashima vs Francisco Cerundolo | 19:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5856f5c0f5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5856f5c0f5",
+                  "name": "Brandon Nakashima vs Francisco Cerundolo",
+                  "streams": [
+                    {
+                      "id": "st-5856f5c0f5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 Berlin",
+            "team_a": "Brandon Nakashima",
+            "team_b": "Francisco Cerundolo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTr4-YHRQ624RtkZtKttfJY-s7lAZ24Pk4jw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
+            "time": "19:00 20/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brandon Nakashima_Francisco Cerundolo_19-00 20-06_792d8602_20260620.png?v=792d8602",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d00a8afd59",
+          "name": "Alexandet Zverev vs Taylor Fritz | 20:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d00a8afd59",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d00a8afd59",
+                  "name": "Alexandet Zverev vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-d00a8afd59",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 Berlin",
+            "team_a": "Alexandet Zverev",
+            "team_b": "Taylor Fritz",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zverev_MCM23_%2820%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZSDJOk9zmiEAUd932qtYHbrfQcbE7f50zQ&s",
+            "time": "20:00 20/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Alexandet Zverev_Taylor Fritz_20-00 20-06_6dca86d5_20260620.png?v=6dca86d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3fc64e5be2",
+          "name": "Daniel Altmaier vs Frances Tiafoe | 22:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3fc64e5be2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3fc64e5be2",
+                  "name": "Daniel Altmaier vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-3fc64e5be2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 Berlin",
+            "team_a": "Daniel Altmaier",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://photo.znews.vn/w360/Uploaded/wobjcak/2025_02_27/2025_02_27T025224Z_1890053180_UP1EL2R07ZBDK_RTRMADP_3_TENNIS_ACAPULCO.JPG",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "time": "22:00 20/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Daniel Altmaier_Frances Tiafoe_22-00 20-06_61724719_20260620.png?v=61724719",
             "width": 1600,
             "height": 1200
           }
