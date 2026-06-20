@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:25 20/06/2026",
+  "updated_at": "20:35 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -69,7 +69,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "Hạng 2 Brazil",
             "team_a": "Slavia Mozyr",
             "team_b": "FC Isloch Minsk R.",
             "logo_a": "https://media.api-sports.io/football/teams/751.png",
