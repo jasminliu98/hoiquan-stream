@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:05 20/06/2026",
+  "updated_at": "16:30 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -699,8 +699,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-60993e4e5d",
-          "name": "Mỹ vs Italy | 15:00 20/06",
+          "id": "hqlive-6a640ea28e",
+          "name": "Hà Lan vs Ba Lan | 17:00 20/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -714,23 +714,23 @@
           ],
           "sources": [
             {
-              "id": "src-60993e4e5d",
+              "id": "src-6a640ea28e",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-60993e4e5d",
-                  "name": "Mỹ vs Italy",
+                  "id": "ct-6a640ea28e",
+                  "name": "Hà Lan vs Ba Lan",
                   "streams": [
                     {
-                      "id": "st-60993e4e5d",
+                      "id": "st-6a640ea28e",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
+                          "id": "lnk-1cad2e4412",
+                          "name": "BLV TÁO GIÀ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -751,66 +751,13 @@
           ],
           "org_metadata": {
             "league": "Nation League Women",
-            "team_a": "Mỹ",
-            "team_b": "Italy",
-            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "15:00 20/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Italy_15-00 20-06_d4eda8a1_20260620.png?v=d4eda8a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-6a640ea28e",
-          "name": "Hà Lan vs Ba Lan | 17:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6a640ea28e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6a640ea28e",
-                  "name": "Hà Lan vs Ba Lan",
-                  "streams": [
-                    {
-                      "id": "st-6a640ea28e",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
             "team_a": "Hà Lan",
             "team_b": "Ba Lan",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
             "time": "17:00 20/06",
             "blv": "BLV TÁO GIÀ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
