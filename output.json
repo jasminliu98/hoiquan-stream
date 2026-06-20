@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:40 20/06/2026",
+  "updated_at": "15:45 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1587,6 +1587,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_16-00 20-06_3e80d90a_20260620.png?v=3e80d90a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-12cf6428bd",
+          "name": "Tay Vợt 1 vs Tay Vợt 2 | 18:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12cf6428bd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-12cf6428bd",
+                  "name": "Tay Vợt 1 vs Tay Vợt 2",
+                  "streams": [
+                    {
+                      "id": "st-12cf6428bd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Star Contender Ljubljana 2026",
+            "team_a": "Tay Vợt 1",
+            "team_b": "Tay Vợt 2",
+            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
+            "time": "18:30 20/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-ban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_18-30 20-06_3e80d90a_20260620.png?v=3e80d90a",
             "width": 1600,
             "height": 1200
           }
