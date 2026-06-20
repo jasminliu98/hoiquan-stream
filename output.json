@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 20/06/2026",
+  "updated_at": "21:55 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -781,82 +781,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a0461c7670",
-          "name": "Trung Quốc vs Brazil | 20:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0461c7670",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a0461c7670",
-                  "name": "Trung Quốc vs Brazil",
-                  "streams": [
-                    {
-                      "id": "st-a0461c7670",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Trung Quốc",
-            "team_b": "Brazil",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
-            "time": "20:00 20/06",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Brazil_20-00 20-06_b814e63d_20260620.png?v=b814e63d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1d5d4ea13d",
           "name": "Thái Lan vs Canada | 20:30 20/06",
