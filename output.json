@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:35 20/06/2026",
+  "updated_at": "11:00 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -684,6 +684,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Curaçao_07-00 21-06_e36e596f_20260620.png?v=e36e596f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4ec67fa043",
+          "name": "Tunisia vs Japan | 11:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ec67fa043",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4ec67fa043",
+                  "name": "Tunisia vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-4ec67fa043",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tunisia",
+            "team_b": "Japan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png",
+            "time": "11:00 21/06",
+            "blv": "BLV THẦN THÔNG, BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tunisia_Japan_11-00 21-06_fe51a265_20260620.png?v=fe51a265",
             "width": 1600,
             "height": 1200
           }
