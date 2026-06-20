@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:00 20/06/2026",
+  "updated_at": "07:00 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -737,6 +737,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Vila Nova_Nautico Recife_05-00 21-06_9c8bcdf0_20260620.png?v=9c8bcdf0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2381d210ee",
+          "name": "Ecuador vs Curaçao | 07:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2381d210ee",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2381d210ee",
+                  "name": "Ecuador vs Curaçao",
+                  "streams": [
+                    {
+                      "id": "st-2381d210ee",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ecuador",
+            "team_b": "Curaçao",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/250px-Flag_of_Cura%C3%A7ao.svg.png",
+            "time": "07:00 21/06",
+            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Curaçao_07-00 21-06_e36e596f_20260620.png?v=e36e596f",
             "width": 1600,
             "height": 1200
           }
