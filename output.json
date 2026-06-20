@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 20/06/2026",
+  "updated_at": "22:30 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9c3de74670",
-          "name": "Slavia Mozyr vs FC Isloch Minsk R. | 20:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c3de74670",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9c3de74670",
-                  "name": "Slavia Mozyr vs FC Isloch Minsk R.",
-                  "streams": [
-                    {
-                      "id": "st-9c3de74670",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Belarus",
-            "team_a": "Slavia Mozyr",
-            "team_b": "FC Isloch Minsk R.",
-            "logo_a": "https://media.api-sports.io/football/teams/751.png",
-            "logo_b": "https://media.api-sports.io/football/teams/391.png",
-            "time": "20:30 20/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slavia Mozyr_FC Isloch Minsk R._20-30 20-06_d07f749f_20260620.png?v=d07f749f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1c75536090",
           "name": "FC Vitebsk vs Dinamo Brest | 22:30 20/06",
