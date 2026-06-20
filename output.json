@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 20/06/2026",
+  "updated_at": "22:00 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -776,6 +776,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-dae3d701d6",
+          "name": "Riga vs FK Liepaja | 22:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dae3d701d6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dae3d701d6",
+                  "name": "Riga vs FK Liepaja",
+                  "streams": [
+                    {
+                      "id": "st-dae3d701d6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Riga",
+            "team_b": "FK Liepaja",
+            "logo_a": "https://media.api-sports.io/football/teams/10124.png",
+            "logo_b": "https://media.api-sports.io/football/teams/661.png",
+            "time": "22:00 21/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Riga_FK Liepaja_22-00 21-06_0fc697ac_20260620.png?v=0fc697ac",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1497,82 +1550,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-5856f5c0f5",
-          "name": "Brandon Nakashima vs Francisco Cerundolo | 19:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5856f5c0f5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5856f5c0f5",
-                  "name": "Brandon Nakashima vs Francisco Cerundolo",
-                  "streams": [
-                    {
-                      "id": "st-5856f5c0f5",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 Berlin",
-            "team_a": "Brandon Nakashima",
-            "team_b": "Francisco Cerundolo",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTr4-YHRQ624RtkZtKttfJY-s7lAZ24Pk4jw&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cerundolo_MCM23_%2821%29_%2852883527185%29.jpg",
-            "time": "19:00 20/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brandon Nakashima_Francisco Cerundolo_19-00 20-06_792d8602_20260620.png?v=792d8602",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-d00a8afd59",
           "name": "Alexandet Zverev vs Taylor Fritz | 20:00 20/06",
