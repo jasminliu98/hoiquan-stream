@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:35 21/06/2026",
+  "updated_at": "05:00 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -825,6 +825,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium_Iran_02-00 22-06_2f66b0b2_20260621.png?v=2f66b0b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d3c146cb2d",
+          "name": "Uruguay vs Cape Verde Islands | 05:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3c146cb2d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d3c146cb2d",
+                  "name": "Uruguay vs Cape Verde Islands",
+                  "streams": [
+                    {
+                      "id": "st-d3c146cb2d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Uruguay",
+            "team_b": "Cape Verde Islands",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
+            "time": "05:00 22/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uruguay_Cape Verde Islands_05-00 22-06_2133fccc_20260621.png?v=2133fccc",
             "width": 1600,
             "height": 1200
           }
