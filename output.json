@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:55 20/06/2026",
+  "updated_at": "18:00 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -685,6 +685,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lions_Rochedale Rovers_14-00 21-06_58516d45_20260620.png?v=58516d45",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-bb13a549ac",
+          "name": "Suzhou Dongwu vs Yunnan Yukun | 18:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb13a549ac",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-bb13a549ac",
+                  "name": "Suzhou Dongwu vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "st-bb13a549ac",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Suzhou Dongwu",
+            "team_b": "Yunnan Yukun",
+            "logo_a": "https://media.api-sports.io/football/teams/5688.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh90L_Xr1yfJQmgPZctKVUWm-ISXa5A-cIdw&s",
+            "time": "18:00 21/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Suzhou Dongwu_Yunnan Yukun_18-00 21-06_b2e7fef7_20260620.png?v=b2e7fef7",
             "width": 1600,
             "height": 1200
           }
