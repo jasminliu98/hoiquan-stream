@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:00 20/06/2026",
+  "updated_at": "07:05 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -18,8 +18,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-353730a436",
-          "name": "Scotland vs Morocco | 05:00 20/06",
+          "id": "hqlive-5d3846add1",
+          "name": "Brazil vs Haiti | 07:30 20/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,23 +33,23 @@
           ],
           "sources": [
             {
-              "id": "src-353730a436",
+              "id": "src-5d3846add1",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-353730a436",
-                  "name": "Scotland vs Morocco",
+                  "id": "ct-5d3846add1",
+                  "name": "Brazil vs Haiti",
                   "streams": [
                     {
-                      "id": "st-353730a436",
+                      "id": "st-5d3846add1",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
+                          "id": "lnk-b3ac35be40",
+                          "name": "BLV PHAN CHỚP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -62,11 +62,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -87,66 +104,13 @@
           ],
           "org_metadata": {
             "league": "World Cup",
-            "team_a": "Scotland",
-            "team_b": "Morocco",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
-            "time": "05:00 20/06",
-            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Scotland_Morocco_05-00 20-06_4b7e2d15_20260620.png?v=4b7e2d15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-5d3846add1",
-          "name": "Brazil vs Haiti | 07:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d3846add1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-5d3846add1",
-                  "name": "Brazil vs Haiti",
-                  "streams": [
-                    {
-                      "id": "st-5d3846add1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
             "team_a": "Brazil",
             "team_b": "Haiti",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png",
             "time": "07:30 20/06",
             "blv": "BLV PHAN CHỚP, BLV PHAN QUẨY, BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
