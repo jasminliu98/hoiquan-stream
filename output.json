@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:55 20/06/2026",
+  "updated_at": "17:15 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -69,7 +69,7 @@
             }
           ],
           "org_metadata": {
-            "league": "FA Cup",
+            "league": "Cúp FA Trung Quốc",
             "team_a": "Ningbo Professional",
             "team_b": "Chongqing Tongliang Long",
             "logo_a": "https://media.api-sports.io/football/teams/27556.png",
@@ -122,7 +122,7 @@
             }
           ],
           "org_metadata": {
-            "league": "FA Cup",
+            "league": "Cúp FA Trung Quốc",
             "team_a": "Hebei Kungfu",
             "team_b": "Shanghai Shenhua",
             "logo_a": "https://media.api-sports.io/football/teams/17264.png",
@@ -281,7 +281,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "VĐQG Belarus",
             "team_a": "FC Vitebsk",
             "team_b": "Dinamo Brest",
             "logo_a": "https://media.api-sports.io/football/teams/382.png",
