@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:05 20/06/2026",
+  "updated_at": "18:20 20/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,77 +17,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ffb133c761",
-          "name": "Ningbo Professional vs Chongqing Tongliang Long | 16:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffb133c761",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ffb133c761",
-                  "name": "Ningbo Professional vs Chongqing Tongliang Long",
-                  "streams": [
-                    {
-                      "id": "st-ffb133c761",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp FA Trung Quốc",
-            "team_a": "Ningbo Professional",
-            "team_b": "Chongqing Tongliang Long",
-            "logo_a": "https://media.api-sports.io/football/teams/27556.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21262.png",
-            "time": "16:00 20/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ningbo Professional_Chongqing Tongliang Long_16-00 20-06_cadf3b9a_20260620.png?v=cadf3b9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b100ada184",
           "name": "Chengdu Rongcheng II vs Yichun Grand Tiger | 18:30 20/06",
@@ -155,6 +84,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Chengdu Rongcheng II_Yichun Grand Tiger_18-30 20-06_bad37247_20260620.png?v=bad37247",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8d79ad5579",
+          "name": "Hebei Kungfu vs Shanghai Shenhua | 18:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d79ad5579",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8d79ad5579",
+                  "name": "Hebei Kungfu vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-8d79ad5579",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eae8482cb7",
+                          "name": "BLV PHAN BÁCH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchuot/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Hebei Kungfu",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "time": "18:30 20/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hebei Kungfu_Shanghai Shenhua_18-30 20-06_6b52a8d3_20260620.png?v=6b52a8d3",
             "width": 1600,
             "height": 1200
           }
