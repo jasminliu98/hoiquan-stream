@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:05 21/06/2026",
+  "updated_at": "07:30 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -737,6 +737,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uruguay_Cape Verde Islands_05-00 22-06_2133fccc_20260621.png?v=2133fccc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1ccfd786e1",
+          "name": "Oriente Petrolero vs Nacional Potosí | 07:30 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ccfd786e1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1ccfd786e1",
+                  "name": "Oriente Petrolero vs Nacional Potosí",
+                  "streams": [
+                    {
+                      "id": "st-1ccfd786e1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera División",
+            "team_a": "Oriente Petrolero",
+            "team_b": "Nacional Potosí",
+            "logo_a": "https://media.api-sports.io/football/teams/3707.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3706.png",
+            "time": "07:30 22/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oriente Petrolero_Nacional Potosí_07-30 22-06_320ba263_20260621.png?v=320ba263",
             "width": 1600,
             "height": 1200
           }
