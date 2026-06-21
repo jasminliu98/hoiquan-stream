@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 21/06/2026",
+  "updated_at": "18:50 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -728,82 +728,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-587af6d6ce",
-          "name": "Bỉ vs Pháp | 16:30 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-587af6d6ce",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-587af6d6ce",
-                  "name": "Bỉ vs Pháp",
-                  "streams": [
-                    {
-                      "id": "st-587af6d6ce",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Bỉ",
-            "team_b": "Pháp",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ensign_of_France.svg/250px-Ensign_of_France.svg.png",
-            "time": "16:30 21/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Pháp_16-30 21-06_5a9add90_20260621.png?v=5a9add90",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-bb254114c6",
           "name": "Canada vs Ba Lan | 17:00 21/06",
@@ -1268,82 +1197,11 @@
     },
     {
       "id": "sport_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-51ca63987c",
-          "name": "Linda Noskova vs Jessica Pegula | 17:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-51ca63987c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-51ca63987c",
-                  "name": "Linda Noskova vs Jessica Pegula",
-                  "streams": [
-                    {
-                      "id": "st-51ca63987c",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA500 Berlin",
-            "team_a": "Linda Noskova",
-            "team_b": "Jessica Pegula",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Noskova_RGQ22_%289%29_%2852129787314%29.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3ZMcLTxrcrE5sPJnk8sQRl4N_EJ5KLlBfg&s",
-            "time": "17:00 21/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Linda Noskova_Jessica Pegula_17-00 21-06_475ea2c8_20260621.png?v=475ea2c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ddde024285",
           "name": "Francisco Cerundolo vs Tommy Paul | 19:30 21/06",
@@ -1446,6 +1304,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Taylor Fritz_Frances Tiafoe_20-30 21-06_a1fd80d3_20260621.png?v=a1fd80d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-35475a9887",
+          "name": "Linda Noskova vs Jessica Pegula | 21:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35475a9887",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-35475a9887",
+                  "name": "Linda Noskova vs Jessica Pegula",
+                  "streams": [
+                    {
+                      "id": "st-35475a9887",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA500 Berlin",
+            "team_a": "Linda Noskova",
+            "team_b": "Jessica Pegula",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Noskova_RGQ22_%289%29_%2852129787314%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3ZMcLTxrcrE5sPJnk8sQRl4N_EJ5KLlBfg&s",
+            "time": "21:00 21/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Linda Noskova_Jessica Pegula_21-00 21-06_475ea2c8_20260621.png?v=475ea2c8",
             "width": 1600,
             "height": 1200
           }
