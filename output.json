@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:30 21/06/2026",
+  "updated_at": "08:00 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -790,6 +790,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oriente Petrolero_Nacional Potosí_07-30 22-06_320ba263_20260621.png?v=320ba263",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-73a1fce08c",
+          "name": "New Zealand vs Egypt | 08:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73a1fce08c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-73a1fce08c",
+                  "name": "New Zealand vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-73a1fce08c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "New Zealand",
+            "team_b": "Egypt",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4Ww0xI3D6Y9wsJWTNKpRayzsESKTsT4EpA&s",
+            "time": "08:00 22/06",
+            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Egypt_08-00 22-06_de52495f_20260621.png?v=de52495f",
             "width": 1600,
             "height": 1200
           }
