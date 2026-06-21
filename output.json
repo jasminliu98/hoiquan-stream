@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:55 21/06/2026",
+  "updated_at": "22:00 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -582,12 +582,65 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-a20ea430cd",
+          "name": "Rīgas FS vs Ogre United | 22:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a20ea430cd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a20ea430cd",
+                  "name": "Rīgas FS vs Ogre United",
+                  "streams": [
+                    {
+                      "id": "st-a20ea430cd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Rīgas FS",
+            "team_b": "Ogre United",
+            "logo_a": "https://media.api-sports.io/football/teams/4160.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18936.png",
+            "time": "22:00 22/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rīgas FS_Ogre United_22-00 22-06_b871c5b1_20260621.png?v=b871c5b1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -659,77 +712,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đức_Brazil_20-00 21-06_07f967c5_20260621.png?v=07f967c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-0d010a6cc9",
-          "name": "Thái Lan vs Hà Lan | 20:30 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d010a6cc9",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0d010a6cc9",
-                  "name": "Thái Lan vs Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-0d010a6cc9",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Women",
-            "team_a": "Thái Lan",
-            "team_b": "Hà Lan",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-            "time": "20:30 21/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thái Lan_Hà Lan_20-30 21-06_1eb0de78_20260621.png?v=1eb0de78",
             "width": 1600,
             "height": 1200
           }
