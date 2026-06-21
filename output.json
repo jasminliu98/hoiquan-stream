@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "02:15 22/06/2026",
+  "updated_at": "04:00 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -542,6 +542,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shamrock Rovers_Derry City_02-00 23-06_b5012b49_20260622.png?v=b5012b49",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-01fefa1ba6",
+          "name": "France vs Iraq | 04:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01fefa1ba6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-01fefa1ba6",
+                  "name": "France vs Iraq",
+                  "streams": [
+                    {
+                      "id": "st-01fefa1ba6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "France",
+            "team_b": "Iraq",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1567.png",
+            "time": "04:00 23/06",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Iraq_04-00 23-06_2e7bb4e0_20260622.png?v=2e7bb4e0",
             "width": 1600,
             "height": 1200
           }
