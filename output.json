@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:35 21/06/2026",
+  "updated_at": "20:40 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -187,11 +187,11 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -217,7 +217,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/145.png",
             "logo_b": "https://media.api-sports.io/football/teams/1193.png",
             "time": "21:00 21/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN ANH",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -226,59 +226,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Avai_Cuiaba_21-00 21-06_cccee957_20260621.png?v=cccee957",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-dae3d701d6",
-          "name": "Riga vs FK Liepaja | 22:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dae3d701d6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-dae3d701d6",
-                  "name": "Riga vs FK Liepaja",
-                  "streams": [
-                    {
-                      "id": "st-dae3d701d6",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "Riga",
-            "team_b": "FK Liepaja",
-            "logo_a": "https://media.api-sports.io/football/teams/10124.png",
-            "logo_b": "https://media.api-sports.io/football/teams/661.png",
-            "time": "22:00 21/06",
-            "blv": "BLV PHAN CA",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Riga_FK Liepaja_22-00 21-06_0fc697ac_20260621.png?v=0fc697ac",
             "width": 1600,
             "height": 1200
           }
