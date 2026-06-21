@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:05 21/06/2026",
+  "updated_at": "13:30 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1458,59 +1458,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-cb01a7dba1",
-          "name": "Tay Vợt 1 vs Tay Vợt 2 | 16:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb01a7dba1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-cb01a7dba1",
-                  "name": "Tay Vợt 1 vs Tay Vợt 2",
-                  "streams": [
-                    {
-                      "id": "st-cb01a7dba1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTT Contender Zagreb 2026",
-            "team_a": "Tay Vợt 1",
-            "team_b": "Tay Vợt 2",
-            "logo_a": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "logo_b": "https://png.pngtree.com/png-clipart/20190904/original/pngtree-red-table-tennis-racket-illustration-png-image_4502882.jpg",
-            "time": "16:00 21/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "bong-ban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tay Vợt 1_Tay Vợt 2_16-00 21-06_3e80d90a_20260621.png?v=3e80d90a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-1e8b95c60c",
           "name": "Tay Vợt 1 vs Tay Vợt 2 | 22:00 21/06",
