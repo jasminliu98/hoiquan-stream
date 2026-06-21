@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:45 21/06/2026",
+  "updated_at": "18:00 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hunters FC_Khoromkhon_15-00 22-06_91cd67dd_20260621.png?v=91cd67dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3172dffba2",
+          "name": "Khovd Western vs Khovd | 18:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3172dffba2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3172dffba2",
+                  "name": "Khovd Western vs Khovd",
+                  "streams": [
+                    {
+                      "id": "st-3172dffba2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại Hạng Mông Cổ",
+            "team_a": "Khovd Western",
+            "team_b": "Khovd",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a4/Khovd_Western_FC_Logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Khovd_Broncos_FC_Logo.png/250px-Khovd_Broncos_FC_Logo.png",
+            "time": "18:00 22/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Khovd Western_Khovd_18-00 22-06_661fc67f_20260621.png?v=661fc67f",
             "width": 1600,
             "height": 1200
           }
