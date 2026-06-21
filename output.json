@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:05 22/06/2026",
+  "updated_at": "05:15 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -45,27 +45,10 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-b10e5b640b",
                           "name": "BLV THẦN THÔNG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
                           "request_headers": [
                             {
@@ -109,7 +92,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png",
             "logo_b": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghdpdr6od/image/small",
             "time": "05:00 22/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "bong-da"
           },
