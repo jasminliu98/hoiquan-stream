@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:55 21/06/2026",
+  "updated_at": "15:00 21/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Egypt_08-00 22-06_de52495f_20260621.png?v=de52495f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d944705fd2",
+          "name": "Hunters FC vs Khoromkhon | 15:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d944705fd2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d944705fd2",
+                  "name": "Hunters FC vs Khoromkhon",
+                  "streams": [
+                    {
+                      "id": "st-d944705fd2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại Hạng Mông Cổ",
+            "team_a": "Hunters FC",
+            "team_b": "Khoromkhon",
+            "logo_a": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/8567540/713968_248564.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/4/48/Bishrelt_Khoromkhon_FC_logo.png",
+            "time": "15:00 22/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hunters FC_Khoromkhon_15-00 22-06_91cd67dd_20260621.png?v=91cd67dd",
             "width": 1600,
             "height": 1200
           }
