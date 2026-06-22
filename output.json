@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:35 23/06/2026",
+  "updated_at": "06:00 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -719,6 +719,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Ghana_03-00 24-06_c280a12c_20260623.png?v=c280a12c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9a30770137",
+          "name": "Panama vs Croatia | 06:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a30770137",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9a30770137",
+                  "name": "Panama vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-9a30770137",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Panama",
+            "team_b": "Croatia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/250px-Flag_of_Panama.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+            "time": "06:00 24/06",
+            "blv": "BLV THẦN THÔNG, BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Panama_Croatia_06-00 24-06_986c0386_20260623.png?v=986c0386",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c1ec5b1320",
+          "name": "America Mineiro vs Criciuma | 06:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1ec5b1320",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c1ec5b1320",
+                  "name": "America Mineiro vs Criciuma",
+                  "streams": [
+                    {
+                      "id": "st-c1ec5b1320",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "America Mineiro",
+            "team_b": "Criciuma",
+            "logo_a": "https://media.api-sports.io/football/teams/125.png",
+            "logo_b": "https://media.api-sports.io/football/teams/140.png",
+            "time": "06:00 24/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/America Mineiro_Criciuma_06-00 24-06_14aac456_20260623.png?v=14aac456",
             "width": 1600,
             "height": 1200
           }
