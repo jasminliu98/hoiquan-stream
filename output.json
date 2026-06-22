@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:10 22/06/2026",
+  "updated_at": "07:15 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,14 +12,14 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-1ccfd786e1",
-          "name": "Oriente Petrolero vs Nacional Potosí | 07:30 22/06",
+          "id": "hqlive-a3f9ed4928",
+          "name": "Austin II vs Sporting KC II | 07:30 22/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,15 +33,15 @@
           ],
           "sources": [
             {
-              "id": "src-1ccfd786e1",
+              "id": "src-a3f9ed4928",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-1ccfd786e1",
-                  "name": "Oriente Petrolero vs Nacional Potosí",
+                  "id": "ct-a3f9ed4928",
+                  "name": "Austin II vs Sporting KC II",
                   "streams": [
                     {
-                      "id": "st-1ccfd786e1",
+                      "id": "st-a3f9ed4928",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -69,11 +69,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Primera División",
-            "team_a": "Oriente Petrolero",
-            "team_b": "Nacional Potosí",
-            "logo_a": "https://media.api-sports.io/football/teams/3707.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3706.png",
+            "league": "MLS Next Pro",
+            "team_a": "Austin II",
+            "team_b": "Sporting KC II",
+            "logo_a": "https://media.api-sports.io/football/teams/21138.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4019.png",
             "time": "07:30 22/06",
             "blv": "BLV PHAN ANH",
             "is_live": true,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Oriente Petrolero_Nacional Potosí_07-30 22-06_320ba263_20260622.png?v=320ba263",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Austin II_Sporting KC II_07-30 22-06_24a76485_20260622.png?v=24a76485",
             "width": 1600,
             "height": 1200
           }
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -114,7 +114,42 @@
                     {
                       "id": "st-73a1fce08c",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-975fc55dd1",
+                          "name": "BLV LƯƠNG BỔNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -129,7 +164,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4Ww0xI3D6Y9wsJWTNKpRayzsESKTsT4EpA&s",
             "time": "08:00 22/06",
             "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
