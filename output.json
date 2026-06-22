@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:10 22/06/2026",
+  "updated_at": "23:00 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_Ilves_22-00 23-06_60994f0b_20260622.png?v=60994f0b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9652c87929",
+          "name": "Inter Turku vs SJK | 23:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9652c87929",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9652c87929",
+                  "name": "Inter Turku vs SJK",
+                  "streams": [
+                    {
+                      "id": "st-9652c87929",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Inter Turku",
+            "team_b": "SJK",
+            "logo_a": "https://media.api-sports.io/football/teams/1164.png",
+            "logo_b": "https://media.api-sports.io/football/teams/689.png",
+            "time": "23:00 23/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Turku_SJK_23-00 23-06_2c021386_20260622.png?v=2c021386",
             "width": 1600,
             "height": 1200
           }
