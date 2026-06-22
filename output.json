@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:55 22/06/2026",
+  "updated_at": "17:30 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Robina City_Capalaba_16-30 23-06_d84045b1_20260622.png?v=d84045b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2e3f8c38c4",
+          "name": "Logan Lightning vs Holland Park Hawks | 17:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e3f8c38c4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2e3f8c38c4",
+                  "name": "Logan Lightning vs Holland Park Hawks",
+                  "streams": [
+                    {
+                      "id": "st-2e3f8c38c4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Queensland Premier League",
+            "team_a": "Logan Lightning",
+            "team_b": "Holland Park Hawks",
+            "logo_a": "https://media.api-sports.io/football/teams/11180.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11178.png",
+            "time": "17:30 23/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Logan Lightning_Holland Park Hawks_17-30 23-06_0932b591_20260622.png?v=0932b591",
             "width": 1600,
             "height": 1200
           }
