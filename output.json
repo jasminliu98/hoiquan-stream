@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:55 22/06/2026",
+  "updated_at": "21:05 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -681,6 +681,112 @@
           }
         },
         {
+          "id": "hqlive-84563c4f53",
+          "name": "New Zealand vs Úc | 13:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84563c4f53",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-84563c4f53",
+                  "name": "New Zealand vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-84563c4f53",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "New Zealand",
+            "team_b": "Úc",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+            "time": "13:30 23/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Úc_13-30 23-06_038a6ce8_20260622.png?v=038a6ce8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5ff407607b",
+          "name": "Đài Loan vs Kazakhstan | 16:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5ff407607b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5ff407607b",
+                  "name": "Đài Loan vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-5ff407607b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Đài Loan",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
+            "time": "16:30 23/06",
+            "blv": "BLV PHAN BÁCH",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Kazakhstan_16-30 23-06_39032649_20260622.png?v=39032649",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-548e06cd81",
           "name": "Indonesia vs Thái Lan | 19:30 23/06",
           "type": "single",
@@ -729,6 +835,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Thái Lan_19-30 23-06_36c91cda_20260622.png?v=36c91cda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-eff15ab2b1",
+          "name": "Ấn Độ vs Bahrain | 22:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eff15ab2b1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-eff15ab2b1",
+                  "name": "Ấn Độ vs Bahrain",
+                  "streams": [
+                    {
+                      "id": "st-eff15ab2b1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026",
+            "team_a": "Ấn Độ",
+            "team_b": "Bahrain",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAGBhp1HE5UVIXpgvIuh1BFlvaWpErs2iiw&s",
+            "time": "22:30 23/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ấn Độ_Bahrain_22-30 23-06_a4eafcb0_20260622.png?v=a4eafcb0",
             "width": 1600,
             "height": 1200
           }
