@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 22/06/2026",
+  "updated_at": "22:10 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -675,82 +675,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f04f14fd25",
-          "name": "Qatar vs Indonesia | 19:30 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f04f14fd25",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f04f14fd25",
-                  "name": "Qatar vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "st-f04f14fd25",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Qatar",
-            "team_b": "Indonesia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
-            "time": "19:30 22/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qatar_Indonesia_19-30 22-06_5a089f5a_20260622.png?v=5a089f5a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-84563c4f53",
           "name": "New Zealand vs Úc | 13:30 23/06",
