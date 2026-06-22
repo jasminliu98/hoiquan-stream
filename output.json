@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:15 22/06/2026",
+  "updated_at": "09:30 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a3f9ed4928",
-          "name": "Austin II vs Sporting KC II | 07:30 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a3f9ed4928",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a3f9ed4928",
-                  "name": "Austin II vs Sporting KC II",
-                  "streams": [
-                    {
-                      "id": "st-a3f9ed4928",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Austin II",
-            "team_b": "Sporting KC II",
-            "logo_a": "https://media.api-sports.io/football/teams/21138.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4019.png",
-            "time": "07:30 22/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Austin II_Sporting KC II_07-30 22-06_24a76485_20260622.png?v=24a76485",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-73a1fce08c",
           "name": "New Zealand vs Egypt | 08:00 22/06",
