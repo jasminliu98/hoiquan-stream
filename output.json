@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:05 22/06/2026",
+  "updated_at": "16:30 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -561,6 +561,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Red Lions_Dalian Kewei_15-00 23-06_f002c54e_20260622.png?v=f002c54e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6dae9f7825",
+          "name": "Robina City vs Capalaba | 16:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6dae9f7825",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6dae9f7825",
+                  "name": "Robina City vs Capalaba",
+                  "streams": [
+                    {
+                      "id": "st-6dae9f7825",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Queensland Premier League",
+            "team_a": "Robina City",
+            "team_b": "Capalaba",
+            "logo_a": "https://media.api-sports.io/football/teams/27512.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10214.png",
+            "time": "16:30 23/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Robina City_Capalaba_16-30 23-06_d84045b1_20260622.png?v=d84045b1",
             "width": 1600,
             "height": 1200
           }
