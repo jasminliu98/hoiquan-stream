@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 22/06/2026",
+  "updated_at": "22:00 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -614,6 +614,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Mingtu_Guizhou Zhucheng_18-30 23-06_978e00dd_20260622.png?v=978e00dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4f3cc03380",
+          "name": "KuPS vs Ilves | 22:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f3cc03380",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4f3cc03380",
+                  "name": "KuPS vs Ilves",
+                  "streams": [
+                    {
+                      "id": "st-4f3cc03380",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "KuPS",
+            "team_b": "Ilves",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
+            "logo_b": "https://media.api-sports.io/football/teams/1163.png",
+            "time": "22:00 23/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_Ilves_22-00 23-06_60994f0b_20260622.png?v=60994f0b",
             "width": 1600,
             "height": 1200
           }
