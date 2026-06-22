@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:15 22/06/2026",
+  "updated_at": "00:00 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a20ea430cd",
-          "name": "Rīgas FS vs Ogre United | 22:00 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a20ea430cd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a20ea430cd",
-                  "name": "Rīgas FS vs Ogre United",
-                  "streams": [
-                    {
-                      "id": "st-a20ea430cd",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "Rīgas FS",
-            "team_b": "Ogre United",
-            "logo_a": "https://media.api-sports.io/football/teams/4160.png",
-            "logo_b": "https://media.api-sports.io/football/teams/18936.png",
-            "time": "22:00 22/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rīgas FS_Ogre United_22-00 22-06_b871c5b1_20260622.png?v=b871c5b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4fa718cd4f",
           "name": "Argentina vs Austria | 00:00 23/06",
@@ -188,7 +117,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Argentina_Austria_00-00 23-06_8fc93385_20260622.png?v=8fc93385",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Argentina_Austria_00-00 23-06_8fc93385_20260623.png?v=8fc93385",
             "width": 1600,
             "height": 1200
           }
@@ -241,7 +170,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shamrock Rovers_Derry City_02-00 23-06_b5012b49_20260622.png?v=b5012b49",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shamrock Rovers_Derry City_02-00 23-06_b5012b49_20260623.png?v=b5012b49",
             "width": 1600,
             "height": 1200
           }
@@ -294,7 +223,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Iraq_04-00 23-06_2e7bb4e0_20260622.png?v=2e7bb4e0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Iraq_04-00 23-06_2e7bb4e0_20260623.png?v=2e7bb4e0",
             "width": 1600,
             "height": 1200
           }
@@ -347,7 +276,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ponte Preta_Novorizontino_06-00 23-06_f263791b_20260622.png?v=f263791b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ponte Preta_Novorizontino_06-00 23-06_f263791b_20260623.png?v=f263791b",
             "width": 1600,
             "height": 1200
           }
@@ -400,7 +329,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_Senegal_07-00 23-06_4bd280a2_20260622.png?v=4bd280a2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_Senegal_07-00 23-06_4bd280a2_20260623.png?v=4bd280a2",
             "width": 1600,
             "height": 1200
           }
@@ -453,7 +382,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jordan_Algeria_10-00 23-06_c51801f2_20260622.png?v=c51801f2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jordan_Algeria_10-00 23-06_c51801f2_20260623.png?v=c51801f2",
             "width": 1600,
             "height": 1200
           }
@@ -506,7 +435,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Red Lions_Dalian Kewei_15-00 23-06_f002c54e_20260622.png?v=f002c54e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Red Lions_Dalian Kewei_15-00 23-06_f002c54e_20260623.png?v=f002c54e",
             "width": 1600,
             "height": 1200
           }
@@ -559,7 +488,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Robina City_Capalaba_16-30 23-06_d84045b1_20260622.png?v=d84045b1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Robina City_Capalaba_16-30 23-06_d84045b1_20260623.png?v=d84045b1",
             "width": 1600,
             "height": 1200
           }
@@ -612,7 +541,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Logan Lightning_Holland Park Hawks_17-30 23-06_0932b591_20260622.png?v=0932b591",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Logan Lightning_Holland Park Hawks_17-30 23-06_0932b591_20260623.png?v=0932b591",
             "width": 1600,
             "height": 1200
           }
@@ -665,7 +594,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Mingtu_Guizhou Zhucheng_18-30 23-06_978e00dd_20260622.png?v=978e00dd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Mingtu_Guizhou Zhucheng_18-30 23-06_978e00dd_20260623.png?v=978e00dd",
             "width": 1600,
             "height": 1200
           }
@@ -718,7 +647,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_Ilves_22-00 23-06_60994f0b_20260622.png?v=60994f0b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/KuPS_Ilves_22-00 23-06_60994f0b_20260623.png?v=60994f0b",
             "width": 1600,
             "height": 1200
           }
@@ -771,7 +700,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Turku_SJK_23-00 23-06_2c021386_20260622.png?v=2c021386",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Inter Turku_SJK_23-00 23-06_2c021386_20260623.png?v=2c021386",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a8b44f9768",
+          "name": "Portugal vs Uzbekistan | 00:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8b44f9768",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a8b44f9768",
+                  "name": "Portugal vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-a8b44f9768",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Portugal",
+            "team_b": "Uzbekistan",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1568.png",
+            "time": "00:00 24/06",
+            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV PHAN CHỚP, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Uzbekistan_00-00 24-06_67762604_20260623.png?v=67762604",
             "width": 1600,
             "height": 1200
           }
@@ -833,7 +815,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Úc_13-30 23-06_038a6ce8_20260622.png?v=038a6ce8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Úc_13-30 23-06_038a6ce8_20260623.png?v=038a6ce8",
             "width": 1600,
             "height": 1200
           }
@@ -886,7 +868,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Kazakhstan_16-30 23-06_39032649_20260622.png?v=39032649",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Đài Loan_Kazakhstan_16-30 23-06_39032649_20260623.png?v=39032649",
             "width": 1600,
             "height": 1200
           }
@@ -939,7 +921,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Thái Lan_19-30 23-06_36c91cda_20260622.png?v=36c91cda",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Thái Lan_19-30 23-06_36c91cda_20260623.png?v=36c91cda",
             "width": 1600,
             "height": 1200
           }
@@ -992,7 +974,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ấn Độ_Bahrain_22-30 23-06_a4eafcb0_20260622.png?v=a4eafcb0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ấn Độ_Bahrain_22-30 23-06_a4eafcb0_20260623.png?v=a4eafcb0",
             "width": 1600,
             "height": 1200
           }
