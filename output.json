@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:45 22/06/2026",
+  "updated_at": "18:30 22/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -614,6 +614,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Logan Lightning_Holland Park Hawks_17-30 23-06_0932b591_20260622.png?v=0932b591",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2ed0224f6a",
+          "name": "Guangdong Mingtu vs Guizhou Zhucheng | 18:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ed0224f6a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2ed0224f6a",
+                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
+                  "streams": [
+                    {
+                      "id": "st-2ed0224f6a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Guangdong Mingtu",
+            "team_b": "Guizhou Zhucheng",
+            "logo_a": "https://media.api-sports.io/football/teams/25773.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25775.png",
+            "time": "18:30 23/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Mingtu_Guizhou Zhucheng_18-30 23-06_978e00dd_20260622.png?v=978e00dd",
             "width": 1600,
             "height": 1200
           }
