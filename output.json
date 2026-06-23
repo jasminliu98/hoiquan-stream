@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:00 23/06/2026",
+  "updated_at": "09:06 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,170 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-ab3290f0d4",
-          "name": "Ponte Preta vs Novorizontino | 06:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab3290f0d4",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ab3290f0d4",
-                  "name": "Ponte Preta vs Novorizontino",
-                  "streams": [
-                    {
-                      "id": "st-ab3290f0d4",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Ponte Preta",
-            "team_b": "Novorizontino",
-            "logo_a": "https://media.api-sports.io/football/teams/139.png",
-            "logo_b": "https://media.api-sports.io/football/teams/7834.png",
-            "time": "06:00 23/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ponte Preta_Novorizontino_06-00 23-06_f263791b_20260623.png?v=f263791b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-a6e6fb09e3",
-          "name": "Norway vs Senegal | 07:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6e6fb09e3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a6e6fb09e3",
-                  "name": "Norway vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-a6e6fb09e3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Norway",
-            "team_b": "Senegal",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
-            "time": "07:00 23/06",
-            "blv": "BLV THẦN THÔNG, BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_Senegal_07-00 23-06_4bd280a2_20260623.png?v=4bd280a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4d488c5d22",
           "name": "Jordan vs Algeria | 10:00 23/06",
