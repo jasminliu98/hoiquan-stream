@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:00 23/06/2026",
+  "updated_at": "20:30 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-2ed0224f6a",
-          "name": "Guangdong Mingtu vs Guizhou Zhucheng | 18:30 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ed0224f6a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-2ed0224f6a",
-                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
-                  "streams": [
-                    {
-                      "id": "st-2ed0224f6a",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Guangdong Mingtu",
-            "team_b": "Guizhou Zhucheng",
-            "logo_a": "https://media.api-sports.io/football/teams/25773.png",
-            "logo_b": "https://media.api-sports.io/football/teams/25775.png",
-            "time": "18:30 23/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Mingtu_Guizhou Zhucheng_18-30 23-06_978e00dd_20260623.png?v=978e00dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-4f3cc03380",
           "name": "KuPS vs Ilves | 22:00 23/06",
@@ -128,7 +57,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
             "logo_b": "https://media.api-sports.io/football/teams/1163.png",
             "time": "22:00 23/06",
-            "blv": "BLV PHAN ANH",
+            "blv": "BLV PHAN BÁCH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
