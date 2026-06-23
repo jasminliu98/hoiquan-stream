@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:55 23/06/2026",
+  "updated_at": "23:00 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -648,6 +648,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Young Africans_Azam_20-00 24-06_bbf507b8_20260623.png?v=bbf507b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9ed42731aa",
+          "name": "Gagra vs Samgurali | 23:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ed42731aa",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9ed42731aa",
+                  "name": "Gagra vs Samgurali",
+                  "streams": [
+                    {
+                      "id": "st-9ed42731aa",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Erovnuli Liga",
+            "team_a": "Gagra",
+            "team_b": "Samgurali",
+            "logo_a": "https://media.api-sports.io/football/teams/3505.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10017.png",
+            "time": "23:00 24/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gagra_Samgurali_23-00 24-06_479c3e68_20260623.png?v=479c3e68",
             "width": 1600,
             "height": 1200
           }
