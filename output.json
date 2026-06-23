@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 23/06/2026",
+  "updated_at": "22:30 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -175,7 +175,7 @@
             }
           ],
           "org_metadata": {
-            "league": "World Cup",
+            "league": "World CupW ( ĐẦU CẦU TRUNG LẬP )",
             "team_a": "Portugal",
             "team_b": "Uzbekistan",
             "logo_a": "https://media.api-sports.io/football/teams/27.png",
