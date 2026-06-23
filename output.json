@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 23/06/2026",
+  "updated_at": "17:00 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-078ef773c6",
-          "name": "Qingdao Red Lions vs Dalian Kewei | 15:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-078ef773c6",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-078ef773c6",
-                  "name": "Qingdao Red Lions vs Dalian Kewei",
-                  "streams": [
-                    {
-                      "id": "st-078ef773c6",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Two",
-            "team_a": "Qingdao Red Lions",
-            "team_b": "Dalian Kewei",
-            "logo_a": "https://media.api-sports.io/football/teams/5679.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27620.png",
-            "time": "15:00 23/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Red Lions_Dalian Kewei_15-00 23-06_f002c54e_20260623.png?v=f002c54e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-6dae9f7825",
           "name": "Robina City vs Capalaba | 16:30 23/06",
@@ -685,6 +614,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deren_Central Stallions_15-00 24-06_1f47b7db_20260623.png?v=1f47b7db",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6627d4c5b7",
+          "name": "Kahibah vs Adamstown Rosebuds | 17:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6627d4c5b7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6627d4c5b7",
+                  "name": "Kahibah vs Adamstown Rosebuds",
+                  "streams": [
+                    {
+                      "id": "st-6627d4c5b7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Northern NSW NPL",
+            "team_a": "Kahibah",
+            "team_b": "Adamstown Rosebuds",
+            "logo_a": "https://media.api-sports.io/football/teams/23502.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10201.png",
+            "time": "17:00 24/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kahibah_Adamstown Rosebuds_17-00 24-06_05da9a35_20260623.png?v=05da9a35",
             "width": 1600,
             "height": 1200
           }
