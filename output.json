@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:05 24/06/2026",
+  "updated_at": "02:01 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -559,6 +559,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gagra_Samgurali_23-00 24-06_479c3e68_20260624.png?v=479c3e68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c6b0cb0473",
+          "name": "Bosnia & Herzegovina vs Qatar | 02:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6b0cb0473",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c6b0cb0473",
+                  "name": "Bosnia & Herzegovina vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-c6b0cb0473",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Bosnia & Herzegovina",
+            "team_b": "Qatar",
+            "logo_a": "https://media.api-sports.io/football/teams/1113.png",
+            "logo_b": "https://cdn.haitrieu.com/wp-content/uploads/2022/05/Logo-Doi-Tuyen-Qatar.png",
+            "time": "02:00 25/06",
+            "blv": "BLV THẦN THÔNG, BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bosnia & Herzegovina_Qatar_02-00 25-06_adc7d9ad_20260624.png?v=adc7d9ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-009cf55f90",
+          "name": "Switzerland vs Canada | 02:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-009cf55f90",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-009cf55f90",
+                  "name": "Switzerland vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-009cf55f90",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Switzerland",
+            "team_b": "Canada",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "time": "02:00 25/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Canada_02-00 25-06_120fa725_20260624.png?v=120fa725",
             "width": 1600,
             "height": 1200
           }
