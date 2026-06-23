@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:55 23/06/2026",
+  "updated_at": "09:00 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -755,6 +755,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/America Mineiro_Criciuma_06-00 24-06_14aac456_20260623.png?v=14aac456",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-64c738ee36",
+          "name": "Colombia vs Congo DR | 09:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64c738ee36",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-64c738ee36",
+                  "name": "Colombia vs Congo DR",
+                  "streams": [
+                    {
+                      "id": "st-64c738ee36",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Colombia",
+            "team_b": "Congo DR",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+            "time": "09:00 24/06",
+            "blv": "BLV PHAN QUẨY, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Colombia_Congo DR_09-00 24-06_c3076326_20260623.png?v=c3076326",
             "width": 1600,
             "height": 1200
           }
