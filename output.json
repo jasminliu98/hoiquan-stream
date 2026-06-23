@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:25 23/06/2026",
+  "updated_at": "18:30 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -632,6 +632,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Kahibah_Adamstown Rosebuds_17-00 24-06_05da9a35_20260623.png?v=05da9a35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-43f88416a6",
+          "name": "Shenzhen 2028 vs Langfang Glory City | 18:30 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43f88416a6",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-43f88416a6",
+                  "name": "Shenzhen 2028 vs Langfang Glory City",
+                  "streams": [
+                    {
+                      "id": "st-43f88416a6",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Shenzhen 2028",
+            "team_b": "Langfang Glory City",
+            "logo_a": "https://media.api-sports.io/football/teams/25779.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23270.png",
+            "time": "18:30 24/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen 2028_Langfang Glory City_18-30 24-06_b8d6d832_20260623.png?v=b8d6d832",
             "width": 1600,
             "height": 1200
           }
