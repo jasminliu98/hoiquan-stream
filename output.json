@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:00 23/06/2026",
+  "updated_at": "19:15 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -425,59 +425,6 @@
           }
         },
         {
-          "id": "hqlive-c1ec5b1320",
-          "name": "America Mineiro vs Criciuma | 06:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1ec5b1320",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c1ec5b1320",
-                  "name": "America Mineiro vs Criciuma",
-                  "streams": [
-                    {
-                      "id": "st-c1ec5b1320",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "America Mineiro",
-            "team_b": "Criciuma",
-            "logo_a": "https://media.api-sports.io/football/teams/125.png",
-            "logo_b": "https://media.api-sports.io/football/teams/140.png",
-            "time": "06:00 24/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/America Mineiro_Criciuma_06-00 24-06_14aac456_20260623.png?v=14aac456",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-64c738ee36",
           "name": "Colombia vs Congo DR | 09:00 24/06",
           "type": "single",
@@ -570,7 +517,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/16185.png",
             "logo_b": "https://media.api-sports.io/football/teams/22067.png",
             "time": "15:00 24/06",
-            "blv": "BLV PHAN ANH",
+            "blv": "BLV PHAN PHÉP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -676,7 +623,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/25779.png",
             "logo_b": "https://media.api-sports.io/football/teams/23270.png",
             "time": "18:30 24/06",
-            "blv": "BLV PHAN PHÉP",
+            "blv": "BLV PHAN ANH",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -765,59 +712,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Thái Lan_19-30 23-06_36c91cda_20260623.png?v=36c91cda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-eff15ab2b1",
-          "name": "Ấn Độ vs Bahrain | 22:30 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eff15ab2b1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-eff15ab2b1",
-                  "name": "Ấn Độ vs Bahrain",
-                  "streams": [
-                    {
-                      "id": "st-eff15ab2b1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Ấn Độ",
-            "team_b": "Bahrain",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAGBhp1HE5UVIXpgvIuh1BFlvaWpErs2iiw&s",
-            "time": "22:30 23/06",
-            "blv": "BLV PHAN BÁCH",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ấn Độ_Bahrain_22-30 23-06_a4eafcb0_20260623.png?v=a4eafcb0",
             "width": 1600,
             "height": 1200
           }
