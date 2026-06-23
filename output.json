@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:30 23/06/2026",
+  "updated_at": "20:00 23/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -561,6 +561,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen 2028_Langfang Glory City_18-30 24-06_b8d6d832_20260623.png?v=b8d6d832",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d19012789a",
+          "name": "Young Africans vs Azam | 20:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d19012789a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d19012789a",
+                  "name": "Young Africans vs Azam",
+                  "streams": [
+                    {
+                      "id": "st-d19012789a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligi kuu Bara",
+            "team_a": "Young Africans",
+            "team_b": "Azam",
+            "logo_a": "https://media.api-sports.io/football/teams/5370.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8057.png",
+            "time": "20:00 24/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Young Africans_Azam_20-00 24-06_bbf507b8_20260623.png?v=bbf507b8",
             "width": 1600,
             "height": 1200
           }
