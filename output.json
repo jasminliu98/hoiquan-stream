@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:20 24/06/2026",
+  "updated_at": "22:25 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -340,7 +340,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/9030.png",
             "logo_b": "https://media.api-sports.io/football/teams/4007.png",
             "time": "06:00 25/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -499,7 +499,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Khovd_Broncos_FC_Logo.png/250px-Khovd_Broncos_FC_Logo.png",
             "logo_b": "https://media.api-sports.io/football/teams/24722.png",
             "time": "15:00 25/06",
-            "blv": "BLV TÁO GIÀ",
+            "blv": "BLV PHAN CA",
             "is_live": false,
             "sport_slug": "bong-da"
           },
