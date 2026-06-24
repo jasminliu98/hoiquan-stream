@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:25 24/06/2026",
+  "updated_at": "18:35 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1225,6 +1225,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Iran_01-30 25-06_2910f75b_20260624.png?v=2910f75b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-fbbf3b3130",
+          "name": "U18 Việt Nam vs U18 Malaysia | 10:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbbf3b3130",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-fbbf3b3130",
+                  "name": "U18 Việt Nam vs U18 Malaysia",
+                  "streams": [
+                    {
+                      "id": "st-fbbf3b3130",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U18 Đông Nam Á 2026",
+            "team_a": "U18 Việt Nam",
+            "team_b": "U18 Malaysia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg?utm_source=th.wikisource.org&utm_campaign=index&utm_content=original",
+            "time": "10:00 25/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Malaysia_10-00 25-06_41262504_20260624.png?v=41262504",
             "width": 1600,
             "height": 1200
           }
