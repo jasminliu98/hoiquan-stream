@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:35 25/06/2026",
+  "updated_at": "03:00 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -772,6 +772,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Super Nova_FS Jelgava_00-00 26-06_8497e7f9_20260625.png?v=8497e7f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-7566ce3a19",
+          "name": "Curaçao vs Ivory Coast | 03:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7566ce3a19",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-7566ce3a19",
+                  "name": "Curaçao vs Ivory Coast",
+                  "streams": [
+                    {
+                      "id": "st-7566ce3a19",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Curaçao",
+            "team_b": "Ivory Coast",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/250px-Flag_of_Cura%C3%A7ao.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+            "time": "03:00 26/06",
+            "blv": "BLV THẦN THÔNG, BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Curaçao_Ivory Coast_03-00 26-06_e5a311aa_20260625.png?v=e5a311aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-84c0de50f0",
+          "name": "Ecuador vs Germany | 03:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84c0de50f0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-84c0de50f0",
+                  "name": "Ecuador vs Germany",
+                  "streams": [
+                    {
+                      "id": "st-84c0de50f0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ecuador",
+            "team_b": "Germany",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png",
+            "time": "03:00 26/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Germany_03-00 26-06_ab849d6c_20260625.png?v=ab849d6c",
             "width": 1600,
             "height": 1200
           }
