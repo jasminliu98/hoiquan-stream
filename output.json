@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:00 24/06/2026",
+  "updated_at": "23:05 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-9ed42731aa",
-          "name": "Gagra vs Samgurali | 23:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ed42731aa",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9ed42731aa",
-                  "name": "Gagra vs Samgurali",
-                  "streams": [
-                    {
-                      "id": "st-9ed42731aa",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Erovnuli Liga",
-            "team_a": "Gagra",
-            "team_b": "Samgurali",
-            "logo_a": "https://media.api-sports.io/football/teams/3505.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10017.png",
-            "time": "23:00 24/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gagra_Samgurali_23-00 24-06_479c3e68_20260624.png?v=479c3e68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-c6b0cb0473",
           "name": "Bosnia & Herzegovina vs Qatar | 02:00 25/06",
