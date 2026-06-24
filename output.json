@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:30 24/06/2026",
+  "updated_at": "21:05 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -657,14 +657,14 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-a5c9e584fa",
-          "name": "Serbia vs Nhật Bản | 18:30 24/06",
+          "id": "hqlive-ca4a16c95a",
+          "name": "Argentina vs Đức | 21:30 24/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -678,23 +678,23 @@
           ],
           "sources": [
             {
-              "id": "src-a5c9e584fa",
+              "id": "src-ca4a16c95a",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-a5c9e584fa",
-                  "name": "Serbia vs Nhật Bản",
+                  "id": "ct-ca4a16c95a",
+                  "name": "Argentina vs Đức",
                   "streams": [
                     {
-                      "id": "st-a5c9e584fa",
+                      "id": "st-ca4a16c95a",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -715,66 +715,13 @@
           ],
           "org_metadata": {
             "league": "Nation League Men",
-            "team_a": "Serbia",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "time": "18:30 24/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Nhật Bản_18-30 24-06_92f8eb9a_20260624.png?v=92f8eb9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-ca4a16c95a",
-          "name": "Argentina vs Đức | 21:30 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca4a16c95a",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-ca4a16c95a",
-                  "name": "Argentina vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-ca4a16c95a",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
             "team_a": "Argentina",
             "team_b": "Đức",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
             "time": "21:30 24/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
@@ -794,10 +741,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -812,7 +759,25 @@
                     {
                       "id": "st-37e4fb2c4c",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6231c6549",
+                          "name": "BLV PHAN CA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -827,7 +792,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
             "time": "21:30 24/06",
             "blv": "BLV PHAN CA",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
