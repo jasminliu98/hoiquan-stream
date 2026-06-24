@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 24/06/2026",
+  "updated_at": "20:00 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,77 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenzhen 2028_Langfang Glory City_18-30 24-06_b8d6d832_20260624.png?v=b8d6d832",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d0f6d79dcf",
-          "name": "Zhenis Astana vs Kaisar Kyzylorda | 20:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d0f6d79dcf",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d0f6d79dcf",
-                  "name": "Zhenis Astana vs Kaisar Kyzylorda",
-                  "streams": [
-                    {
-                      "id": "st-d0f6d79dcf",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Zhenis Astana",
-            "team_b": "Kaisar Kyzylorda",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk5rt8vVH1GBoc6UFus5b0NMO-AfLS7DCt0lVgClAZEQ&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTtg54WiTJkS7einJZGMUhkb6HUvmIl3WkLZ3fMV01g&s=10",
-            "time": "20:00 24/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhenis Astana_Kaisar Kyzylorda_20-00 24-06_784e02e6_20260624.png?v=784e02e6",
             "width": 1600,
             "height": 1200
           }
@@ -738,6 +667,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Academy Kairat_Khan Tengri_19-00 25-06_c2ef5799_20260624.png?v=c2ef5799",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4661579e03",
+          "name": "Jaiyq vs Akademiya Ontustik | 20:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4661579e03",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4661579e03",
+                  "name": "Jaiyq vs Akademiya Ontustik",
+                  "streams": [
+                    {
+                      "id": "st-4661579e03",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Jaiyq",
+            "team_b": "Akademiya Ontustik",
+            "logo_a": "https://media.api-sports.io/football/teams/27561.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4545.png",
+            "time": "20:00 25/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jaiyq_Akademiya Ontustik_20-00 25-06_2f88bc14_20260624.png?v=2f88bc14",
             "width": 1600,
             "height": 1200
           }
