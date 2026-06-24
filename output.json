@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:25 24/06/2026",
+  "updated_at": "20:30 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -657,82 +657,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7a40f39e73",
-          "name": "Bulgaria vs Italy | 18:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a40f39e73",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7a40f39e73",
-                  "name": "Bulgaria vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-7a40f39e73",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Bulgaria",
-            "team_b": "Italy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "18:00 24/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Italy_18-00 24-06_89bec4b9_20260624.png?v=89bec4b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-a5c9e584fa",
           "name": "Serbia vs Nhật Bản | 18:30 24/06",
