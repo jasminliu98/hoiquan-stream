@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:20 24/06/2026",
+  "updated_at": "17:25 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -142,8 +142,8 @@
           }
         },
         {
-          "id": "hqlive-cfc15b3fa8",
-          "name": "Zhenys vs Kaiserslautern | 20:00 24/06",
+          "id": "hqlive-d0f6d79dcf",
+          "name": "Zhenis Astana vs Kaisar Kyzylorda | 20:00 24/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -157,15 +157,15 @@
           ],
           "sources": [
             {
-              "id": "src-cfc15b3fa8",
+              "id": "src-d0f6d79dcf",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-cfc15b3fa8",
-                  "name": "Zhenys vs Kaiserslautern",
+                  "id": "ct-d0f6d79dcf",
+                  "name": "Zhenis Astana vs Kaisar Kyzylorda",
                   "streams": [
                     {
-                      "id": "st-cfc15b3fa8",
+                      "id": "st-d0f6d79dcf",
                       "name": "HQ",
                       "stream_links": []
                     }
@@ -176,10 +176,10 @@
           ],
           "org_metadata": {
             "league": "Ngoại hạng Kazakhstan",
-            "team_a": "Zhenys",
-            "team_b": "Kaiserslautern",
-            "logo_a": "https://media.api-sports.io/football/teams/16611.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzD62kWX1JaLvAMswiHCrHxHQPYwTCof7teQ&s",
+            "team_a": "Zhenis Astana",
+            "team_b": "Kaisar Kyzylorda",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk5rt8vVH1GBoc6UFus5b0NMO-AfLS7DCt0lVgClAZEQ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTtg54WiTJkS7einJZGMUhkb6HUvmIl3WkLZ3fMV01g&s=10",
             "time": "20:00 24/06",
             "blv": "BLV TÁO GIÀ",
             "is_live": false,
@@ -189,7 +189,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhenys_Kaiserslautern_20-00 24-06_f78ffa63_20260624.png?v=f78ffa63",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Zhenis Astana_Kaisar Kyzylorda_20-00 24-06_784e02e6_20260624.png?v=784e02e6",
             "width": 1600,
             "height": 1200
           }
@@ -234,7 +234,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/3505.png",
             "logo_b": "https://media.api-sports.io/football/teams/10017.png",
             "time": "23:00 24/06",
-            "blv": "BLV PHAN ANH",
+            "blv": "BLV PHAN PHÉP",
             "is_live": false,
             "sport_slug": "bong-da"
           },
