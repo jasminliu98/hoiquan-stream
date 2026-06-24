@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:40 24/06/2026",
+  "updated_at": "23:00 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -667,6 +667,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jaiyq_Akademiya Ontustik_20-00 25-06_2f88bc14_20260624.png?v=2f88bc14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-5de60bb5f0",
+          "name": "FC jazz vs Tampere United | 23:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5de60bb5f0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5de60bb5f0",
+                  "name": "FC jazz vs Tampere United",
+                  "streams": [
+                    {
+                      "id": "st-5de60bb5f0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ykkönen",
+            "team_a": "FC jazz",
+            "team_b": "Tampere United",
+            "logo_a": "https://media.api-sports.io/football/teams/2074.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9190.png",
+            "time": "23:00 25/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FC jazz_Tampere United_23-00 25-06_33a62a5d_20260624.png?v=33a62a5d",
             "width": 1600,
             "height": 1200
           }
