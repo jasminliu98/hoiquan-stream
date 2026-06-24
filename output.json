@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:05 24/06/2026",
+  "updated_at": "23:40 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -657,7 +657,7 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -800,77 +800,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ukraina_Brazil_21-30 24-06_f030f3cc_20260624.png?v=f030f3cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-e86f72e70b",
-          "name": "Cuba vs Mỹ | 22:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e86f72e70b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-e86f72e70b",
-                  "name": "Cuba vs Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-e86f72e70b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3ac35be40",
-                          "name": "BLV PHAN CHỚP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Cuba",
-            "team_b": "Mỹ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
-            "logo_b": "https://www.englisch-hilfen.de/images/flags/248.gif",
-            "time": "22:00 24/06",
-            "blv": "BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuba_Mỹ_22-00 24-06_e0f1025e_20260624.png?v=e0f1025e",
             "width": 1600,
             "height": 1200
           }
