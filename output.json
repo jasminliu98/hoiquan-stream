@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 24/06/2026",
+  "updated_at": "17:40 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -460,6 +460,59 @@
           }
         },
         {
+          "id": "hqlive-2a64892b4c",
+          "name": "Miami FC vs Orange County SC | 06:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a64892b4c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2a64892b4c",
+                  "name": "Miami FC vs Orange County SC",
+                  "streams": [
+                    {
+                      "id": "st-2a64892b4c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship",
+            "team_a": "Miami FC",
+            "team_b": "Orange County SC",
+            "logo_a": "https://media.api-sports.io/football/teams/9030.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4007.png",
+            "time": "06:00 25/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Miami FC_Orange County SC_06-00 25-06_d4b6f2a6_20260624.png?v=d4b6f2a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-7d2fde9013",
           "name": "Czech Republic vs Mexico | 08:00 25/06",
           "type": "single",
@@ -561,6 +614,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Africa_South Korea_08-00 25-06_305fe070_20260624.png?v=305fe070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-36bd628e7a",
+          "name": "Khovd vs Hunters | 15:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36bd628e7a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-36bd628e7a",
+                  "name": "Khovd vs Hunters",
+                  "streams": [
+                    {
+                      "id": "st-36bd628e7a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Khovd",
+            "team_b": "Hunters",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Khovd_Broncos_FC_Logo.png/250px-Khovd_Broncos_FC_Logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/24722.png",
+            "time": "15:00 25/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Khovd_Hunters_15-00 25-06_405f63ee_20260624.png?v=405f63ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-4f23d8ceb5",
+          "name": "Hà Nội Nữ vs Nữ Hồ Chí Minh | 16:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f23d8ceb5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-4f23d8ceb5",
+                  "name": "Hà Nội Nữ vs Nữ Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-4f23d8ceb5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.league",
+            "team_a": "Hà Nội Nữ",
+            "team_b": "Nữ Hồ Chí Minh",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrwbRVnSljHy8WGaU8UVE_bNbA_ouun6OHpw&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/9/9a/Logo_HWFC.png/250px-Logo_HWFC.png",
+            "time": "16:00 25/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hà Nội Nữ_Nữ Hồ Chí Minh_16-00 25-06_9d3d4587_20260624.png?v=9d3d4587",
             "width": 1600,
             "height": 1200
           }
