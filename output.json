@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:15 24/06/2026",
+  "updated_at": "18:20 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1543,86 +1543,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Mỹ_22-00 25-06_7fb8879f_20260624.png?v=7fb8879f",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "sport_esports",
-      "name": "🎮 Esports (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "hqlive-72181b7ede",
-          "name": "T1 vs Gen | 18:30 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72181b7ede",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-72181b7ede",
-                  "name": "T1 vs Gen",
-                  "streams": [
-                    {
-                      "id": "st-72181b7ede",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4d653008a",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK ",
-            "team_a": "T1",
-            "team_b": "Gen",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/1280px-T1_esports_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gen.G_logo.png",
-            "time": "18:30 24/06",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "esports"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/T1_Gen_18-30 24-06_504de43f_20260624.png?v=504de43f",
             "width": 1600,
             "height": 1200
           }
