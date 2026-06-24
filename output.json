@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 24/06/2026",
+  "updated_at": "17:00 24/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-31ab7f6be7",
-          "name": "Deren vs Central Stallions | 15:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31ab7f6be7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-31ab7f6be7",
-                  "name": "Deren vs Central Stallions",
-                  "streams": [
-                    {
-                      "id": "st-31ab7f6be7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Deren",
-            "team_b": "Central Stallions",
-            "logo_a": "https://media.api-sports.io/football/teams/16185.png",
-            "logo_b": "https://media.api-sports.io/football/teams/22067.png",
-            "time": "15:00 24/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Deren_Central Stallions_15-00 24-06_1f47b7db_20260624.png?v=1f47b7db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-6627d4c5b7",
           "name": "Kahibah vs Adamstown Rosebuds | 17:00 24/06",
