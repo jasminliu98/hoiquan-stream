@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:30 25/06/2026",
+  "updated_at": "06:50 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -116,27 +116,10 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-b3ac35be40",
                           "name": "BLV PHAN CHỚP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanchop/playlist.m3u8",
                           "request_headers": [
                             {
@@ -163,7 +146,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "time": "05:00 25/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
+            "blv": "BLV PHAN CHỚP",
             "is_live": true,
             "sport_slug": "bong-da"
           },
