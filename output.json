@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:55 25/06/2026",
+  "updated_at": "09:00 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -738,6 +738,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuiaba_Londrina_06-30 26-06_385a9576_20260625.png?v=385a9576",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-94b1da54fe",
+          "name": "Paraguay vs Australia | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-94b1da54fe",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-94b1da54fe",
+                  "name": "Paraguay vs Australia",
+                  "streams": [
+                    {
+                      "id": "st-94b1da54fe",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Paraguay",
+            "team_b": "Australia",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/250px-Flag_of_Paraguay.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png",
+            "time": "09:00 26/06",
+            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Paraguay_Australia_09-00 26-06_e52e3a4e_20260625.png?v=e52e3a4e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-14f2f0fbaf",
+          "name": "Türkiye vs USA | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14f2f0fbaf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-14f2f0fbaf",
+                  "name": "Türkiye vs USA",
+                  "streams": [
+                    {
+                      "id": "st-14f2f0fbaf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Türkiye",
+            "team_b": "USA",
+            "logo_a": "https://media.api-sports.io/football/teams/777.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2384.png",
+            "time": "09:00 26/06",
+            "blv": "BLV PHAN MÃ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Türkiye_USA_09-00 26-06_b509260c_20260625.png?v=b509260c",
             "width": 1600,
             "height": 1200
           }
