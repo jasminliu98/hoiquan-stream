@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 25/06/2026",
+  "updated_at": "16:31 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -738,6 +738,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Türkiye_USA_09-00 26-06_b509260c_20260625.png?v=b509260c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a1c2b22cf0",
+          "name": "Rochedale Rovers vs Gold Coast Knights | 16:30 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1c2b22cf0",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a1c2b22cf0",
+                  "name": "Rochedale Rovers vs Gold Coast Knights",
+                  "streams": [
+                    {
+                      "id": "st-a1c2b22cf0",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Queensland NPL",
+            "team_a": "Rochedale Rovers",
+            "team_b": "Gold Coast Knights",
+            "logo_a": "https://media.api-sports.io/football/teams/11182.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10215.png",
+            "time": "16:30 26/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rochedale Rovers_Gold Coast Knights_16-30 26-06_9650d4cf_20260625.png?v=9650d4cf",
             "width": 1600,
             "height": 1200
           }
