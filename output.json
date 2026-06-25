@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:35 25/06/2026",
+  "updated_at": "10:00 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,153 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-7d2fde9013",
-          "name": "Czech Republic vs Mexico | 08:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d2fde9013",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-7d2fde9013",
-                  "name": "Czech Republic vs Mexico",
-                  "streams": [
-                    {
-                      "id": "st-7d2fde9013",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Czech Republic",
-            "team_b": "Mexico",
-            "logo_a": "https://media.api-sports.io/football/teams/770.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png",
-            "time": "08:00 25/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Czech Republic_Mexico_08-00 25-06_62721768_20260625.png?v=62721768",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-9e53ca73ba",
-          "name": "South Africa vs South Korea | 08:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e53ca73ba",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-9e53ca73ba",
-                  "name": "South Africa vs South Korea",
-                  "streams": [
-                    {
-                      "id": "st-9e53ca73ba",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42241b387",
-                          "name": "BLV PHAN MÃ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "South Africa",
-            "team_b": "South Korea",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1728.png",
-            "time": "08:00 25/06",
-            "blv": "BLV PHAN MÃ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Africa_South Korea_08-00 25-06_305fe070_20260625.png?v=305fe070",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-36bd628e7a",
           "name": "Khovd vs Hunters | 15:00 25/06",
