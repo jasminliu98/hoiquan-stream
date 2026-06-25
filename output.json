@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:00 25/06/2026",
+  "updated_at": "14:30 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -879,7 +879,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAGBhp1HE5UVIXpgvIuh1BFlvaWpErs2iiw&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
             "time": "19:30 25/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
