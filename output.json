@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:15 25/06/2026",
+  "updated_at": "17:20 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,32 +89,50 @@
           }
         },
         {
-          "id": "hqlive-c7415fac4f",
-          "name": "Sport Academy Kairat vs Khan Tengri | 19:00 25/06",
+          "id": "hqlive-48357a4380",
+          "name": "Khoromkhon vs Ulaangom City | 18:00 25/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-c7415fac4f",
+              "id": "src-48357a4380",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-c7415fac4f",
-                  "name": "Sport Academy Kairat vs Khan Tengri",
+                  "id": "ct-48357a4380",
+                  "name": "Khoromkhon vs Ulaangom City",
                   "streams": [
                     {
-                      "id": "st-c7415fac4f",
+                      "id": "st-48357a4380",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -122,21 +140,21 @@
             }
           ],
           "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Sport Academy Kairat",
-            "team_b": "Khan Tengri",
-            "logo_a": "https://media.api-sports.io/football/teams/4556.png",
-            "logo_b": "https://media.api-sports.io/football/teams/18805.png",
-            "time": "19:00 25/06",
+            "league": "Ngoại Hạng Mông Cổ",
+            "team_a": "Khoromkhon",
+            "team_b": "Ulaangom City",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/4/48/Bishrelt_Khoromkhon_FC_logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/26667.png",
+            "time": "18:00 25/06",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Sport Academy Kairat_Khan Tengri_19-00 25-06_c2ef5799_20260625.png?v=c2ef5799",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Khoromkhon_Ulaangom City_18-00 25-06_de36ab81_20260625.png?v=de36ab81",
             "width": 1600,
             "height": 1200
           }
