@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:25 25/06/2026",
+  "updated_at": "18:35 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -720,6 +720,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Torrens Birkalla_Sturt Lions_17-30 26-06_646d8082_20260625.png?v=646d8082",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9a54ddabd2",
+          "name": "Qingdao Jonoon vs Yunnan Yukun | 18:35 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a54ddabd2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9a54ddabd2",
+                  "name": "Qingdao Jonoon vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "st-9a54ddabd2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Qingdao Jonoon",
+            "team_b": "Yunnan Yukun",
+            "logo_a": "https://media.api-sports.io/football/teams/1431.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh90L_Xr1yfJQmgPZctKVUWm-ISXa5A-cIdw&s",
+            "time": "18:35 26/06",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Jonoon_Yunnan Yukun_18-35 26-06_56e945ab_20260625.png?v=56e945ab",
             "width": 1600,
             "height": 1200
           }
