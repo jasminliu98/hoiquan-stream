@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 25/06/2026",
+  "updated_at": "22:00 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-4661579e03",
-          "name": "Jaiyq vs Akademiya Ontustik | 20:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4661579e03",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-4661579e03",
-                  "name": "Jaiyq vs Akademiya Ontustik",
-                  "streams": [
-                    {
-                      "id": "st-4661579e03",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Jaiyq",
-            "team_b": "Akademiya Ontustik",
-            "logo_a": "https://media.api-sports.io/football/teams/27561.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4545.png",
-            "time": "20:00 25/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Jaiyq_Akademiya Ontustik_20-00 25-06_2f88bc14_20260625.png?v=2f88bc14",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-5de60bb5f0",
           "name": "FC jazz vs Tampere United | 23:00 25/06",
@@ -773,6 +702,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Taraz_Shakhter Karagandy_20-00 26-06_fb058fa2_20260625.png?v=fb058fa2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-d70f7f1b15",
+          "name": "Ogre United vs Tukums | 22:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d70f7f1b15",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-d70f7f1b15",
+                  "name": "Ogre United vs Tukums",
+                  "streams": [
+                    {
+                      "id": "st-d70f7f1b15",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "Ogre United",
+            "team_b": "Tukums",
+            "logo_a": "https://media.api-sports.io/football/teams/18936.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4144.png",
+            "time": "22:00 26/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ogre United_Tukums_22-00 26-06_6f158a1a_20260625.png?v=6f158a1a",
             "width": 1600,
             "height": 1200
           }
