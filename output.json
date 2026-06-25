@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:15 26/06/2026",
+  "updated_at": "05:00 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -106,8 +106,8 @@
           }
         },
         {
-          "id": "hqlive-84c0de50f0",
-          "name": "Ecuador vs Germany | 03:00 26/06",
+          "id": "hqlive-d4ad7693c1",
+          "name": "Japan vs Sweden | 06:00 26/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -121,15 +121,15 @@
           ],
           "sources": [
             {
-              "id": "src-84c0de50f0",
+              "id": "src-d4ad7693c1",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-84c0de50f0",
-                  "name": "Ecuador vs Germany",
+                  "id": "ct-d4ad7693c1",
+                  "name": "Japan vs Sweden",
                   "streams": [
                     {
-                      "id": "st-84c0de50f0",
+                      "id": "st-d4ad7693c1",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -138,6 +138,94 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Japan",
+            "team_b": "Sweden",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "time": "06:00 26/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan_Sweden_06-00 26-06_ed5114ba_20260626.png?v=ed5114ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-41b7600dd5",
+          "name": "Tunisia vs Netherlands | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41b7600dd5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-41b7600dd5",
+                  "name": "Tunisia vs Netherlands",
+                  "streams": [
+                    {
+                      "id": "st-41b7600dd5",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -175,119 +263,13 @@
           ],
           "org_metadata": {
             "league": "World Cup",
-            "team_a": "Ecuador",
-            "team_b": "Germany",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png",
-            "time": "03:00 26/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN CHỚP",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ecuador_Germany_03-00 26-06_ab849d6c_20260626.png?v=ab849d6c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-d4ad7693c1",
-          "name": "Japan vs Sweden | 06:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4ad7693c1",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d4ad7693c1",
-                  "name": "Japan vs Sweden",
-                  "streams": [
-                    {
-                      "id": "st-d4ad7693c1",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Japan",
-            "team_b": "Sweden",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "time": "06:00 26/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Japan_Sweden_06-00 26-06_ed5114ba_20260626.png?v=ed5114ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-41b7600dd5",
-          "name": "Tunisia vs Netherlands | 06:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41b7600dd5",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-41b7600dd5",
-                  "name": "Tunisia vs Netherlands",
-                  "streams": [
-                    {
-                      "id": "st-41b7600dd5",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
             "team_a": "Tunisia",
             "team_b": "Netherlands",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1280px-Flag_of_Tunisia.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/1118.png",
             "time": "06:00 26/06",
             "blv": "BLV THẦN THÔNG, BLV PHAN CHỚP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -878,6 +860,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Senegal_Iraq_02-00 27-06_d4e3b1af_20260626.png?v=d4e3b1af",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-653feb1408",
+          "name": "Novorizontino vs Vila Nova | 05:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-653feb1408",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-653feb1408",
+                  "name": "Novorizontino vs Vila Nova",
+                  "streams": [
+                    {
+                      "id": "st-653feb1408",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Novorizontino",
+            "team_b": "Vila Nova",
+            "logo_a": "https://media.api-sports.io/football/teams/7834.png",
+            "logo_b": "https://media.api-sports.io/football/teams/142.png",
+            "time": "05:00 27/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Novorizontino_Vila Nova_05-00 27-06_20bf0fe3_20260626.png?v=20bf0fe3",
             "width": 1600,
             "height": 1200
           }
