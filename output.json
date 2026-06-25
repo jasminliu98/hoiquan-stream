@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:55 25/06/2026",
+  "updated_at": "17:15 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1489,6 +1489,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Nhật Bản_21-30 26-06_8dc9a80b_20260625.png?v=8dc9a80b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-830337b182",
+          "name": "Bỉ vs Đức | 01:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-830337b182",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-830337b182",
+                  "name": "Bỉ vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-830337b182",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bỉ",
+            "team_b": "Đức",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "time": "01:00 27/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Đức_01-00 27-06_c8ac3771_20260625.png?v=c8ac3771",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-8faa772d27",
+          "name": "Brazil vs Italy | 01:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8faa772d27",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-8faa772d27",
+                  "name": "Brazil vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-8faa772d27",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Brazil",
+            "team_b": "Italy",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "01:00 27/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Italy_01-00 27-06_99c32066_20260625.png?v=99c32066",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f41b51cf95",
+          "name": "Serbia vs Cuba | 01:30 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f41b51cf95",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f41b51cf95",
+                  "name": "Serbia vs Cuba",
+                  "streams": [
+                    {
+                      "id": "st-f41b51cf95",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Serbia",
+            "team_b": "Cuba",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+            "time": "01:30 27/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Cuba_01-30 27-06_0ea08583_20260625.png?v=0ea08583",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-58ea8f09ac",
+          "name": "Bulgaria vs Canada | 21:30 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58ea8f09ac",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-58ea8f09ac",
+                  "name": "Bulgaria vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-58ea8f09ac",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Bulgaria",
+            "team_b": "Canada",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "time": "21:30 27/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Canada_21-30 27-06_a238368e_20260625.png?v=a238368e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-f683bd5636",
+          "name": "Mỹ vs Nhật Bản | 22:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f683bd5636",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-f683bd5636",
+                  "name": "Mỹ vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-f683bd5636",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Mỹ",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://www.englisch-hilfen.de/images/flags/248.gif",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
+            "time": "22:00 27/06",
+            "blv": "BLV PHAN HẢI",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Nhật Bản_22-00 27-06_4199e055_20260625.png?v=4199e055",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c668ff29c7",
+          "name": "Ba Lan vs Đức | 22:30 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c668ff29c7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c668ff29c7",
+                  "name": "Ba Lan vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-c668ff29c7",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Ba Lan",
+            "team_b": "Đức",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
+            "time": "22:30 27/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ba Lan_Đức_22-30 27-06_25f5302d_20260625.png?v=25f5302d",
             "width": 1600,
             "height": 1200
           }
