@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:55 25/06/2026",
+  "updated_at": "20:00 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -720,6 +720,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Jonoon_Yunnan Yukun_18-35 26-06_56e945ab_20260625.png?v=56e945ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c453abf6a2",
+          "name": "Taraz vs Shakhter Karagandy | 20:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c453abf6a2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c453abf6a2",
+                  "name": "Taraz vs Shakhter Karagandy",
+                  "streams": [
+                    {
+                      "id": "st-c453abf6a2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Taraz",
+            "team_b": "Shakhter Karagandy",
+            "logo_a": "https://media.api-sports.io/football/teams/4559.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4566.png",
+            "time": "20:00 26/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Taraz_Shakhter Karagandy_20-00 26-06_fb058fa2_20260625.png?v=fb058fa2",
             "width": 1600,
             "height": 1200
           }
