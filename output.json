@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 25/06/2026",
+  "updated_at": "23:00 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -773,6 +773,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ogre United_Tukums_22-00 26-06_6f158a1a_20260625.png?v=6f158a1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b6301f938d",
+          "name": "FK Liepaja vs Rīgas FS | 23:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6301f938d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b6301f938d",
+                  "name": "FK Liepaja vs Rīgas FS",
+                  "streams": [
+                    {
+                      "id": "st-b6301f938d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Virsliga",
+            "team_a": "FK Liepaja",
+            "team_b": "Rīgas FS",
+            "logo_a": "https://media.api-sports.io/football/teams/661.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4160.png",
+            "time": "23:00 26/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Liepaja_Rīgas FS_23-00 26-06_2e50e6f0_20260625.png?v=2e50e6f0",
             "width": 1600,
             "height": 1200
           }
