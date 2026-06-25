@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:55 26/06/2026",
+  "updated_at": "02:00 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -737,6 +737,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Liepaja_Rīgas FS_23-00 26-06_2e50e6f0_20260626.png?v=2e50e6f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cfc7e550b3",
+          "name": "Norway vs France | 02:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfc7e550b3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cfc7e550b3",
+                  "name": "Norway vs France",
+                  "streams": [
+                    {
+                      "id": "st-cfc7e550b3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Norway",
+            "team_b": "France",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2.png",
+            "time": "02:00 27/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN CHỚP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_France_02-00 27-06_2dd350d3_20260626.png?v=2dd350d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9029a1532d",
+          "name": "Senegal vs Iraq | 02:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9029a1532d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9029a1532d",
+                  "name": "Senegal vs Iraq",
+                  "streams": [
+                    {
+                      "id": "st-9029a1532d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Senegal",
+            "team_b": "Iraq",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1567.png",
+            "time": "02:00 27/06",
+            "blv": "BLV PHAN QUẨY, BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Senegal_Iraq_02-00 27-06_d4e3b1af_20260626.png?v=d4e3b1af",
             "width": 1600,
             "height": 1200
           }
