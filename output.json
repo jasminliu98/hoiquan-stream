@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:20 25/06/2026",
+  "updated_at": "17:30 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -738,6 +738,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rochedale Rovers_Gold Coast Knights_16-30 26-06_9650d4cf_20260625.png?v=9650d4cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-3a4037b276",
+          "name": "West Torrens Birkalla vs Sturt Lions | 17:30 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a4037b276",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-3a4037b276",
+                  "name": "West Torrens Birkalla vs Sturt Lions",
+                  "streams": [
+                    {
+                      "id": "st-3a4037b276",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Australia NPL",
+            "team_a": "West Torrens Birkalla",
+            "team_b": "Sturt Lions",
+            "logo_a": "https://media.api-sports.io/football/teams/16769.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12866.png",
+            "time": "17:30 26/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/West Torrens Birkalla_Sturt Lions_17-30 26-06_646d8082_20260625.png?v=646d8082",
             "width": 1600,
             "height": 1200
           }
