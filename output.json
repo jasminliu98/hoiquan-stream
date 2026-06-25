@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:31 25/06/2026",
+  "updated_at": "16:45 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -968,7 +968,7 @@
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png",
             "time": "21:30 25/06",
-            "blv": "BLV PHAN BỐNG",
+            "blv": "BLV TÁO GIÀ",
             "is_live": false,
             "sport_slug": "bong-chuyen"
           },
