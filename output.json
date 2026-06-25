@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:00 25/06/2026",
+  "updated_at": "11:15 25/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -710,82 +710,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-fbbf3b3130",
-          "name": "U18 Việt Nam vs U18 Malaysia | 10:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fbbf3b3130",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-fbbf3b3130",
-                  "name": "U18 Việt Nam vs U18 Malaysia",
-                  "streams": [
-                    {
-                      "id": "st-fbbf3b3130",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 Đông Nam Á 2026",
-            "team_a": "U18 Việt Nam",
-            "team_b": "U18 Malaysia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg?utm_source=th.wikisource.org&utm_campaign=index&utm_content=original",
-            "time": "10:00 25/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Malaysia_10-00 25-06_41262504_20260625.png?v=41262504",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-97683c83c7",
           "name": "Oman vs Hàn Quốc | 13:30 25/06",
