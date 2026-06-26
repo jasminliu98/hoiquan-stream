@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:05 26/06/2026",
+  "updated_at": "21:35 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -114,7 +114,25 @@
                     {
                       "id": "st-d70f7f1b15",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd31283a76",
+                          "name": "BLV PHAN ANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -129,7 +147,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/4144.png",
             "time": "22:00 26/06",
             "blv": "BLV PHAN ANH",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -1159,8 +1177,8 @@
           }
         },
         {
-          "id": "hqlive-fbcc0d6c2e",
-          "name": "Iran vs Nhật Bản | 21:30 26/06",
+          "id": "hqlive-6ad4ab1655",
+          "name": "Iran vs Nhật Bản | 22:00 26/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1174,15 +1192,15 @@
           ],
           "sources": [
             {
-              "id": "src-fbcc0d6c2e",
+              "id": "src-6ad4ab1655",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-fbcc0d6c2e",
+                  "id": "ct-6ad4ab1655",
                   "name": "Iran vs Nhật Bản",
                   "streams": [
                     {
-                      "id": "st-fbcc0d6c2e",
+                      "id": "st-6ad4ab1655",
                       "name": "HQ",
                       "stream_links": [
                         {
@@ -1215,7 +1233,7 @@
             "team_b": "Nhật Bản",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/960px-Flag_of_Japan.svg.png",
-            "time": "21:30 26/06",
+            "time": "22:00 26/06",
             "blv": "BLV PHAN HẢI",
             "is_live": true,
             "sport_slug": "bong-chuyen"
@@ -1224,7 +1242,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Nhật Bản_21-30 26-06_8dc9a80b_20260626.png?v=8dc9a80b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Nhật Bản_22-00 26-06_8dc9a80b_20260626.png?v=8dc9a80b",
             "width": 1600,
             "height": 1200
           }
