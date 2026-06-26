@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:00 26/06/2026",
+  "updated_at": "22:25 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1265,59 +1265,6 @@
           }
         },
         {
-          "id": "hqlive-badad59405",
-          "name": "U18 Thái Lan vs U18 Philippin | 13:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-badad59405",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-badad59405",
-                  "name": "U18 Thái Lan vs U18 Philippin",
-                  "streams": [
-                    {
-                      "id": "st-badad59405",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 Đông Nam Á 2026",
-            "team_a": "U18 Thái Lan",
-            "team_b": "U18 Philippin",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
-            "time": "13:00 27/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": false,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Thái Lan_U18 Philippin_13-00 27-06_c1334511_20260626.png?v=c1334511",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-df7e6cbe22",
           "name": "U18 Việt Nam vs U18 Indonesia | 16:00 27/06",
           "type": "single",
@@ -1366,6 +1313,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Indonesia_16-00 27-06_e4e50fae_20260626.png?v=e4e50fae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-9bab89af8b",
+          "name": "U18 Thái Lan vs U18 Philippin | 19:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bab89af8b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9bab89af8b",
+                  "name": "U18 Thái Lan vs U18 Philippin",
+                  "streams": [
+                    {
+                      "id": "st-9bab89af8b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U18 Đông Nam Á 2026",
+            "team_a": "U18 Thái Lan",
+            "team_b": "U18 Philippin",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
+            "time": "19:00 27/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Thái Lan_U18 Philippin_19-00 27-06_c1334511_20260626.png?v=c1334511",
             "width": 1600,
             "height": 1200
           }
