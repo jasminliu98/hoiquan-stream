@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:05 26/06/2026",
+  "updated_at": "08:35 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,14 +12,14 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-915c3a7e51",
-          "name": "Cuiaba vs Londrina | 06:30 26/06",
+          "id": "hqlive-94b1da54fe",
+          "name": "Paraguay vs Australia | 09:00 26/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,23 +33,40 @@
           ],
           "sources": [
             {
-              "id": "src-915c3a7e51",
+              "id": "src-94b1da54fe",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-915c3a7e51",
-                  "name": "Cuiaba vs Londrina",
+                  "id": "ct-94b1da54fe",
+                  "name": "Paraguay vs Australia",
                   "streams": [
                     {
-                      "id": "st-915c3a7e51",
+                      "id": "st-94b1da54fe",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
+                          "id": "lnk-b10e5b640b",
+                          "name": "BLV THẦN THÔNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
+                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,59 +86,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Cuiaba",
-            "team_b": "Londrina",
-            "logo_a": "https://media.api-sports.io/football/teams/1193.png",
-            "logo_b": "https://media.api-sports.io/football/teams/148.png",
-            "time": "06:30 26/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cuiaba_Londrina_06-30 26-06_385a9576_20260626.png?v=385a9576",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-94b1da54fe",
-          "name": "Paraguay vs Australia | 09:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94b1da54fe",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-94b1da54fe",
-                  "name": "Paraguay vs Australia",
-                  "streams": [
-                    {
-                      "id": "st-94b1da54fe",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "World Cup",
             "team_a": "Paraguay",
             "team_b": "Australia",
@@ -129,7 +93,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png",
             "time": "09:00 26/06",
             "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
@@ -149,10 +113,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -167,7 +131,25 @@
                     {
                       "id": "st-14f2f0fbaf",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -182,7 +164,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/2384.png",
             "time": "09:00 26/06",
             "blv": "BLV PHAN MÃ",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-da"
           },
           "image": {
