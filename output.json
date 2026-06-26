@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "13:30 26/06/2026",
+  "updated_at": "15:00 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -808,6 +808,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valentine_Lambton Jaffas_13-30 27-06_11482cbc_20260626.png?v=11482cbc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ecc33341e2",
+          "name": "Shanghai Second vs Qingdao Red Lions | 15:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecc33341e2",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ecc33341e2",
+                  "name": "Shanghai Second vs Qingdao Red Lions",
+                  "streams": [
+                    {
+                      "id": "st-ecc33341e2",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Shanghai Second",
+            "team_b": "Qingdao Red Lions",
+            "logo_a": "https://media.api-sports.io/football/teams/27619.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5679.png",
+            "time": "15:00 27/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Second_Qingdao Red Lions_15-00 27-06_11367ba6_20260626.png?v=11367ba6",
             "width": 1600,
             "height": 1200
           }
