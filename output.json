@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:45 27/06/2026",
+  "updated_at": "01:50 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -148,6 +148,23 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -163,7 +180,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
             "logo_b": "https://media.api-sports.io/football/teams/1567.png",
             "time": "02:00 27/06",
-            "blv": "BLV PHAN HÀ LINH",
+            "blv": "BLV PHAN HÀ LINH, BLV PHAN QUẨY",
             "is_live": true,
             "sport_slug": "bong-da"
           },
