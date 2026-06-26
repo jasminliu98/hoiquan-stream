@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:00 27/06/2026",
+  "updated_at": "01:05 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-b6301f938d",
-          "name": "FK Liepaja vs Rīgas FS | 23:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b6301f938d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-b6301f938d",
-                  "name": "FK Liepaja vs Rīgas FS",
-                  "streams": [
-                    {
-                      "id": "st-b6301f938d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "FK Liepaja",
-            "team_b": "Rīgas FS",
-            "logo_a": "https://media.api-sports.io/football/teams/661.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4160.png",
-            "time": "23:00 26/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Liepaja_Rīgas FS_23-00 26-06_2e50e6f0_20260627.png?v=2e50e6f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-cfc7e550b3",
           "name": "Norway vs France | 02:00 27/06",
