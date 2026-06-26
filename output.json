@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:30 26/06/2026",
+  "updated_at": "18:35 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -897,6 +897,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenyang Urban_Shandong Luneng_18-00 27-06_6e8d0f11_20260626.png?v=6e8d0f11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0aac808f67",
+          "name": "Henan Jianye vs SHANGHAI SIPG | 18:35 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0aac808f67",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0aac808f67",
+                  "name": "Henan Jianye vs SHANGHAI SIPG",
+                  "streams": [
+                    {
+                      "id": "st-0aac808f67",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Henan Jianye",
+            "team_b": "SHANGHAI SIPG",
+            "logo_a": "https://media.api-sports.io/football/teams/840.png",
+            "logo_b": "https://media.api-sports.io/football/teams/836.png",
+            "time": "18:35 27/06",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Henan Jianye_SHANGHAI SIPG_18-35 27-06_8a194275_20260626.png?v=8a194275",
             "width": 1600,
             "height": 1200
           }
