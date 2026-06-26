@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "10:00 26/06/2026",
+  "updated_at": "11:00 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -861,6 +861,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Belgium_10-00 27-06_e86cf35c_20260626.png?v=e86cf35c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-19ba57ec91",
+          "name": "Charlestown City Blues vs Belmont Swansea | 11:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19ba57ec91",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-19ba57ec91",
+                  "name": "Charlestown City Blues vs Belmont Swansea",
+                  "streams": [
+                    {
+                      "id": "st-19ba57ec91",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Northern NSW NPL",
+            "team_a": "Charlestown City Blues",
+            "team_b": "Belmont Swansea",
+            "logo_a": "https://media.api-sports.io/football/teams/10203.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23500.png",
+            "time": "11:00 27/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Charlestown City Blues_Belmont Swansea_11-00 27-06_a955cf31_20260626.png?v=a955cf31",
             "width": 1600,
             "height": 1200
           }
