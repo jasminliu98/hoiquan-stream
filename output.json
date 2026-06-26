@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:35 26/06/2026",
+  "updated_at": "21:40 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -958,82 +958,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (4 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-f25b3f1332",
-          "name": "Indonesia vs Oman | 19:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f25b3f1332",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-f25b3f1332",
-                  "name": "Indonesia vs Oman",
-                  "streams": [
-                    {
-                      "id": "st-f25b3f1332",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Indonesia",
-            "team_b": "Oman",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/960px-Flag_of_Indonesia.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZFBiNRWukKX42GRP9tsSmDqxzbVLnuon0BQ&s",
-            "time": "19:30 26/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Indonesia_Oman_19-30 26-06_44b24232_20260626.png?v=44b24232",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-c4e07b1546",
           "name": "Trung Quốc vs Argentina | 21:30 26/06",
