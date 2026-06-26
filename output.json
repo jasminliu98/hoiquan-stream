@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:20 26/06/2026",
+  "updated_at": "18:30 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-a1c2b22cf0",
-          "name": "Rochedale Rovers vs Gold Coast Knights | 16:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1c2b22cf0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-a1c2b22cf0",
-                  "name": "Rochedale Rovers vs Gold Coast Knights",
-                  "streams": [
-                    {
-                      "id": "st-a1c2b22cf0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Queensland NPL",
-            "team_a": "Rochedale Rovers",
-            "team_b": "Gold Coast Knights",
-            "logo_a": "https://media.api-sports.io/football/teams/11182.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10215.png",
-            "time": "16:30 26/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Rochedale Rovers_Gold Coast Knights_16-30 26-06_9650d4cf_20260626.png?v=9650d4cf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-3a4037b276",
           "name": "West Torrens Birkalla vs Sturt Lions | 17:30 26/06",
@@ -976,82 +905,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-6519d248c3",
-          "name": "Qatar vs Hàn Quốc | 16:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6519d248c3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-6519d248c3",
-                  "name": "Qatar vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-6519d248c3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Nations Cup 2026",
-            "team_a": "Qatar",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "time": "16:30 26/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qatar_Hàn Quốc_16-30 26-06_8df96f03_20260626.png?v=8df96f03",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f25b3f1332",
           "name": "Indonesia vs Oman | 19:30 26/06",
