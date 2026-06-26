@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:35 26/06/2026",
+  "updated_at": "00:01 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-d70f7f1b15",
-          "name": "Ogre United vs Tukums | 22:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d70f7f1b15",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-d70f7f1b15",
-                  "name": "Ogre United vs Tukums",
-                  "streams": [
-                    {
-                      "id": "st-d70f7f1b15",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd31283a76",
-                          "name": "BLV PHAN ANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "Ogre United",
-            "team_b": "Tukums",
-            "logo_a": "https://media.api-sports.io/football/teams/18936.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4144.png",
-            "time": "22:00 26/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ogre United_Tukums_22-00 26-06_6f158a1a_20260626.png?v=6f158a1a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-b6301f938d",
           "name": "FK Liepaja vs Rīgas FS | 23:00 26/06",
@@ -154,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Liepaja_Rīgas FS_23-00 26-06_2e50e6f0_20260626.png?v=2e50e6f0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Liepaja_Rīgas FS_23-00 26-06_2e50e6f0_20260627.png?v=2e50e6f0",
             "width": 1600,
             "height": 1200
           }
@@ -207,7 +136,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_France_02-00 27-06_2dd350d3_20260626.png?v=2dd350d3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Norway_France_02-00 27-06_2dd350d3_20260627.png?v=2dd350d3",
             "width": 1600,
             "height": 1200
           }
@@ -260,7 +189,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Senegal_Iraq_02-00 27-06_d4e3b1af_20260626.png?v=d4e3b1af",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Senegal_Iraq_02-00 27-06_d4e3b1af_20260627.png?v=d4e3b1af",
             "width": 1600,
             "height": 1200
           }
@@ -313,7 +242,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Novorizontino_Vila Nova_05-00 27-06_20bf0fe3_20260626.png?v=20bf0fe3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Novorizontino_Vila Nova_05-00 27-06_20bf0fe3_20260627.png?v=20bf0fe3",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Saudi Arabia_07-00 27-06_a2fa844b_20260626.png?v=a2fa844b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Cape Verde Islands_Saudi Arabia_07-00 27-06_a2fa844b_20260627.png?v=a2fa844b",
             "width": 1600,
             "height": 1200
           }
@@ -419,7 +348,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uruguay_Spain_07-00 27-06_6e4a7110_20260626.png?v=6e4a7110",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Uruguay_Spain_07-00 27-06_6e4a7110_20260627.png?v=6e4a7110",
             "width": 1600,
             "height": 1200
           }
@@ -472,7 +401,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Egypt_Iran_10-00 27-06_91c8e2f7_20260626.png?v=91c8e2f7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Egypt_Iran_10-00 27-06_91c8e2f7_20260627.png?v=91c8e2f7",
             "width": 1600,
             "height": 1200
           }
@@ -525,7 +454,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Belgium_10-00 27-06_e86cf35c_20260626.png?v=e86cf35c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/New Zealand_Belgium_10-00 27-06_e86cf35c_20260627.png?v=e86cf35c",
             "width": 1600,
             "height": 1200
           }
@@ -578,7 +507,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Charlestown City Blues_Belmont Swansea_11-00 27-06_a955cf31_20260626.png?v=a955cf31",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Charlestown City Blues_Belmont Swansea_11-00 27-06_a955cf31_20260627.png?v=a955cf31",
             "width": 1600,
             "height": 1200
           }
@@ -631,7 +560,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valentine_Lambton Jaffas_13-30 27-06_11482cbc_20260626.png?v=11482cbc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Valentine_Lambton Jaffas_13-30 27-06_11482cbc_20260627.png?v=11482cbc",
             "width": 1600,
             "height": 1200
           }
@@ -684,7 +613,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Second_Qingdao Red Lions_15-00 27-06_11367ba6_20260626.png?v=11367ba6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shanghai Second_Qingdao Red Lions_15-00 27-06_11367ba6_20260627.png?v=11367ba6",
             "width": 1600,
             "height": 1200
           }
@@ -737,7 +666,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenyang Urban_Shandong Luneng_18-00 27-06_6e8d0f11_20260626.png?v=6e8d0f11",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Shenyang Urban_Shandong Luneng_18-00 27-06_6e8d0f11_20260627.png?v=6e8d0f11",
             "width": 1600,
             "height": 1200
           }
@@ -790,7 +719,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Henan Jianye_SHANGHAI SIPG_18-35 27-06_8a194275_20260626.png?v=8a194275",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Henan Jianye_SHANGHAI SIPG_18-35 27-06_8a194275_20260627.png?v=8a194275",
             "width": 1600,
             "height": 1200
           }
@@ -843,7 +772,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Beijing Guoan_Wuhan Three Towns_19-00 27-06_e4bd6945_20260626.png?v=e4bd6945",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Beijing Guoan_Wuhan Three Towns_19-00 27-06_e4bd6945_20260627.png?v=e4bd6945",
             "width": 1600,
             "height": 1200
           }
@@ -896,7 +825,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mariehamn_Inter Turku_21-00 27-06_90b9d7bd_20260626.png?v=90b9d7bd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mariehamn_Inter Turku_21-00 27-06_90b9d7bd_20260627.png?v=90b9d7bd",
             "width": 1600,
             "height": 1200
           }
@@ -949,7 +878,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gnistan_VPS_23-00 27-06_c174b244_20260626.png?v=c174b244",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Gnistan_VPS_23-00 27-06_c174b244_20260627.png?v=c174b244",
             "width": 1600,
             "height": 1200
           }
@@ -1029,7 +958,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Nhật Bản_22-00 26-06_8dc9a80b_20260626.png?v=8dc9a80b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Nhật Bản_22-00 26-06_8dc9a80b_20260627.png?v=8dc9a80b",
             "width": 1600,
             "height": 1200
           }
@@ -1082,7 +1011,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Đức_01-00 27-06_c8ac3771_20260626.png?v=c8ac3771",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Đức_01-00 27-06_c8ac3771_20260627.png?v=c8ac3771",
             "width": 1600,
             "height": 1200
           }
@@ -1135,7 +1064,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Italy_01-00 27-06_99c32066_20260626.png?v=99c32066",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Brazil_Italy_01-00 27-06_99c32066_20260627.png?v=99c32066",
             "width": 1600,
             "height": 1200
           }
@@ -1188,7 +1117,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Cuba_01-30 27-06_0ea08583_20260626.png?v=0ea08583",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Serbia_Cuba_01-30 27-06_0ea08583_20260627.png?v=0ea08583",
             "width": 1600,
             "height": 1200
           }
@@ -1241,7 +1170,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Indonesia_16-00 27-06_e4e50fae_20260626.png?v=e4e50fae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Indonesia_16-00 27-06_e4e50fae_20260627.png?v=e4e50fae",
             "width": 1600,
             "height": 1200
           }
@@ -1294,7 +1223,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Thái Lan_U18 Philippin_19-00 27-06_c1334511_20260626.png?v=c1334511",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Thái Lan_U18 Philippin_19-00 27-06_c1334511_20260627.png?v=c1334511",
             "width": 1600,
             "height": 1200
           }
@@ -1347,7 +1276,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Canada_21-30 27-06_a238368e_20260626.png?v=a238368e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Canada_21-30 27-06_a238368e_20260627.png?v=a238368e",
             "width": 1600,
             "height": 1200
           }
@@ -1400,7 +1329,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Nhật Bản_22-00 27-06_4199e055_20260626.png?v=4199e055",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Nhật Bản_22-00 27-06_4199e055_20260627.png?v=4199e055",
             "width": 1600,
             "height": 1200
           }
@@ -1453,7 +1382,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ba Lan_Đức_22-30 27-06_25f5302d_20260626.png?v=25f5302d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ba Lan_Đức_22-30 27-06_25f5302d_20260627.png?v=25f5302d",
             "width": 1600,
             "height": 1200
           }
@@ -1506,7 +1435,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Serbia_01-30 28-06_0e813589_20260626.png?v=0e813589",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Serbia_01-30 28-06_0e813589_20260627.png?v=0e813589",
             "width": 1600,
             "height": 1200
           }
@@ -1559,7 +1488,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Argentina_01-30 28-06_589796c7_20260626.png?v=589796c7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Thổ Nhĩ Kỳ_Argentina_01-30 28-06_589796c7_20260627.png?v=589796c7",
             "width": 1600,
             "height": 1200
           }
@@ -1612,7 +1541,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovenia_Brazil_01-30 28-06_f4522ba1_20260626.png?v=f4522ba1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Slovenia_Brazil_01-30 28-06_f4522ba1_20260627.png?v=f4522ba1",
             "width": 1600,
             "height": 1200
           }
@@ -1665,7 +1594,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Đức_18-30 28-06_2929afa8_20260626.png?v=2929afa8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Đức_18-30 28-06_2929afa8_20260627.png?v=2929afa8",
             "width": 1600,
             "height": 1200
           }
@@ -1718,7 +1647,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ukraina_18-30 28-06_af494715_20260626.png?v=af494715",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ukraina_18-30 28-06_af494715_20260627.png?v=af494715",
             "width": 1600,
             "height": 1200
           }
@@ -1771,7 +1700,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Ukraina_18-30 28-06_b2e0ab07_20260626.png?v=b2e0ab07",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Iran_Ukraina_18-30 28-06_b2e0ab07_20260627.png?v=b2e0ab07",
             "width": 1600,
             "height": 1200
           }
@@ -1824,7 +1753,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Thổ Nhĩ Kỳ_21-30 28-06_845eb256_20260626.png?v=845eb256",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bỉ_Thổ Nhĩ Kỳ_21-30 28-06_845eb256_20260627.png?v=845eb256",
             "width": 1600,
             "height": 1200
           }
@@ -1877,7 +1806,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Brazil_21-30 28-06_75ec7603_20260626.png?v=75ec7603",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Canada_Brazil_21-30 28-06_75ec7603_20260627.png?v=75ec7603",
             "width": 1600,
             "height": 1200
           }
@@ -1930,7 +1859,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Nhật Bản_22-00 28-06_284db761_20260626.png?v=284db761",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Nhật Bản_22-00 28-06_284db761_20260627.png?v=284db761",
             "width": 1600,
             "height": 1200
           }
