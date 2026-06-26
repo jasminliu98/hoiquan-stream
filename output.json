@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:50 26/06/2026",
+  "updated_at": "19:00 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -950,6 +950,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Henan Jianye_SHANGHAI SIPG_18-35 27-06_8a194275_20260626.png?v=8a194275",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-876b0ad3a3",
+          "name": "Beijing Guoan vs Wuhan Three Towns | 19:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-876b0ad3a3",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-876b0ad3a3",
+                  "name": "Beijing Guoan vs Wuhan Three Towns",
+                  "streams": [
+                    {
+                      "id": "st-876b0ad3a3",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Beijing Guoan",
+            "team_b": "Wuhan Three Towns",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
+            "time": "19:00 27/06",
+            "blv": "BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Beijing Guoan_Wuhan Three Towns_19-00 27-06_e4bd6945_20260626.png?v=e4bd6945",
             "width": 1600,
             "height": 1200
           }
