@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:40 26/06/2026",
+  "updated_at": "21:00 26/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -882,12 +882,65 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-57fbb04643",
+          "name": "Mariehamn vs Inter Turku | 21:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57fbb04643",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-57fbb04643",
+                  "name": "Mariehamn vs Inter Turku",
+                  "streams": [
+                    {
+                      "id": "st-57fbb04643",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Mariehamn",
+            "team_b": "Inter Turku",
+            "logo_a": "https://media.api-sports.io/football/teams/587.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1164.png",
+            "time": "21:00 27/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mariehamn_Inter Turku_21-00 27-06_90b9d7bd_20260626.png?v=90b9d7bd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -971,10 +1024,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -989,7 +1042,25 @@
                     {
                       "id": "st-c4e07b1546",
                       "name": "HQ",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6568b58b01",
+                          "name": "BLV PHAN BỐNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1004,7 +1075,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
             "time": "21:30 26/06",
             "blv": "BLV PHAN BỐNG",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
