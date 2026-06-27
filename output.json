@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:35 27/06/2026",
+  "updated_at": "07:00 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-653feb1408",
-          "name": "Novorizontino vs Vila Nova | 05:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-653feb1408",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-653feb1408",
-                  "name": "Novorizontino vs Vila Nova",
-                  "streams": [
-                    {
-                      "id": "st-653feb1408",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Novorizontino",
-            "team_b": "Vila Nova",
-            "logo_a": "https://media.api-sports.io/football/teams/7834.png",
-            "logo_b": "https://media.api-sports.io/football/teams/142.png",
-            "time": "05:00 27/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Novorizontino_Vila Nova_05-00 27-06_20bf0fe3_20260627.png?v=20bf0fe3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-134fb8d678",
           "name": "Cape Verde Islands vs Saudi Arabia | 07:00 27/06",
