@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:05 27/06/2026",
+  "updated_at": "22:20 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -1578,6 +1578,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Pháp_Nhật Bản_22-00 28-06_284db761_20260627.png?v=284db761",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-efc05eeaa4",
+          "name": "Ba Lan vs Argentina | 01:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-efc05eeaa4",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-efc05eeaa4",
+                  "name": "Ba Lan vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-efc05eeaa4",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nation League Men",
+            "team_a": "Ba Lan",
+            "team_b": "Argentina",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+            "time": "01:00 29/06",
+            "blv": "BLV PHAN BỐNG",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ba Lan_Argentina_01-00 29-06_5968c379_20260627.png?v=5968c379",
             "width": 1600,
             "height": 1200
           }
