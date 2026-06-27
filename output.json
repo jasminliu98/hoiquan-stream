@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:55 27/06/2026",
+  "updated_at": "18:00 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -897,6 +897,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Hangzhou Greentown_17-00 28-06_03fb6304_20260627.png?v=03fb6304",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-26e72e577d",
+          "name": "Dalian Zhixing vs Shanghai Shenhua | 18:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26e72e577d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-26e72e577d",
+                  "name": "Dalian Zhixing vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-26e72e577d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Dalian Zhixing",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://media.api-sports.io/football/teams/21263.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "time": "18:00 28/06",
+            "blv": "BLV PHAN HÀ LINH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dalian Zhixing_Shanghai Shenhua_18-00 28-06_92f461c0_20260627.png?v=92f461c0",
             "width": 1600,
             "height": 1200
           }
