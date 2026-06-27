@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:45 27/06/2026",
+  "updated_at": "21:15 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-876b0ad3a3",
-          "name": "Beijing Guoan vs Wuhan Three Towns | 19:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-876b0ad3a3",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-876b0ad3a3",
-                  "name": "Beijing Guoan vs Wuhan Three Towns",
-                  "streams": [
-                    {
-                      "id": "st-876b0ad3a3",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Beijing Guoan",
-            "team_b": "Wuhan Three Towns",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Wuhan_Three_Towns_F.C.svg/250px-Wuhan_Three_Towns_F.C.svg.png",
-            "time": "19:00 27/06",
-            "blv": "BLV THẦN THÔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Beijing Guoan_Wuhan Three Towns_19-00 27-06_e4bd6945_20260627.png?v=e4bd6945",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-57fbb04643",
           "name": "Mariehamn vs Inter Turku | 21:00 27/06",
@@ -911,8 +840,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "hqlive-9bab89af8b",
-          "name": "U18 Thái Lan vs U18 Philippin | 19:00 27/06",
+          "id": "hqlive-58ea8f09ac",
+          "name": "Bulgaria vs Canada | 21:30 27/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -926,23 +855,23 @@
           ],
           "sources": [
             {
-              "id": "src-9bab89af8b",
+              "id": "src-58ea8f09ac",
               "name": "HoiQuanTV",
               "contents": [
                 {
-                  "id": "ct-9bab89af8b",
-                  "name": "U18 Thái Lan vs U18 Philippin",
+                  "id": "ct-58ea8f09ac",
+                  "name": "Bulgaria vs Canada",
                   "streams": [
                     {
-                      "id": "st-9bab89af8b",
+                      "id": "st-58ea8f09ac",
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
+                          "id": "lnk-bc9866f74f",
+                          "name": "BLV PHAN PHÉP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -962,59 +891,6 @@
             }
           ],
           "org_metadata": {
-            "league": "U18 Đông Nam Á 2026",
-            "team_a": "U18 Thái Lan",
-            "team_b": "U18 Philippin",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Thailand_%28non-standard_colours_3%29.svg/250px-Flag_of_Thailand_%28non-standard_colours_3%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
-            "time": "19:00 27/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Thái Lan_U18 Philippin_19-00 27-06_c1334511_20260627.png?v=c1334511",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-58ea8f09ac",
-          "name": "Bulgaria vs Canada | 21:30 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58ea8f09ac",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-58ea8f09ac",
-                  "name": "Bulgaria vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-58ea8f09ac",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Nation League Men",
             "team_a": "Bulgaria",
             "team_b": "Canada",
@@ -1022,7 +898,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
             "time": "21:30 27/06",
             "blv": "BLV PHAN PHÉP",
-            "is_live": false,
+            "is_live": true,
             "sport_slug": "bong-chuyen"
           },
           "image": {
