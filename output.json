@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:40 28/06/2026",
+  "updated_at": "00:50 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -511,13 +511,13 @@
             }
           ],
           "org_metadata": {
-            "league": "World Cup ( Râu Con và Fan Bà Xã ) ",
+            "league": "World CupW ( ĐẦU CẦU TRUNG LẬP )",
             "team_a": "Jordan",
             "team_b": "Argentina",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/960px-Flag_of_Jordan.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
             "time": "09:00 28/06",
-            "blv": "BLV LƯƠNG BỔNG, BLV PHAN MÃ, BLV THẦN THÔNG",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
