@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:00 28/06/2026",
+  "updated_at": "04:30 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -808,6 +808,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Africa_Canada_02-00 29-06_5d9d3643_20260628.png?v=5d9d3643",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-dc6a008a9d",
+          "name": "Nautico Recife vs Goias | 04:30 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc6a008a9d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-dc6a008a9d",
+                  "name": "Nautico Recife vs Goias",
+                  "streams": [
+                    {
+                      "id": "st-dc6a008a9d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Nautico Recife",
+            "team_b": "Goias",
+            "logo_a": "https://media.api-sports.io/football/teams/755.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdA4dVwq19DxdhyjbUAo3wM3GSIMHaPl3tLg&s",
+            "time": "04:30 29/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nautico Recife_Goias_04-30 29-06_5cf3218e_20260628.png?v=5cf3218e",
             "width": 1600,
             "height": 1200
           }
