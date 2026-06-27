@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:00 28/06/2026",
+  "updated_at": "00:10 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -887,82 +887,11 @@
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-58ea8f09ac",
-          "name": "Bulgaria vs Canada | 21:30 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58ea8f09ac",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-58ea8f09ac",
-                  "name": "Bulgaria vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-58ea8f09ac",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9866f74f",
-                          "name": "BLV PHAN PHÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanphep/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Bulgaria",
-            "team_b": "Canada",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-            "time": "21:30 27/06",
-            "blv": "BLV PHAN PHÉP",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Canada_21-30 27-06_a238368e_20260628.png?v=a238368e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-f683bd5636",
           "name": "Mỹ vs Nhật Bản | 22:00 27/06",
@@ -1030,77 +959,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mỹ_Nhật Bản_22-00 27-06_4199e055_20260628.png?v=4199e055",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-c668ff29c7",
-          "name": "Ba Lan vs Đức | 22:30 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c668ff29c7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-c668ff29c7",
-                  "name": "Ba Lan vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-c668ff29c7",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Ba Lan",
-            "team_b": "Đức",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLkHp8_KNZVw1jCYb3bu1mvTTOxYcnl5yQQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
-            "time": "22:30 27/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ba Lan_Đức_22-30 27-06_25f5302d_20260628.png?v=25f5302d",
             "width": 1600,
             "height": 1200
           }
