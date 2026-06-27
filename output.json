@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:05 28/06/2026",
+  "updated_at": "03:20 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,7 +12,7 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,94 @@
           }
         },
         {
+          "id": "hqlive-628c8438a7",
+          "name": "Panama vs England | 04:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-628c8438a7",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-628c8438a7",
+                  "name": "Panama vs England",
+                  "streams": [
+                    {
+                      "id": "st-628c8438a7",
+                      "name": "HQ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42241b387",
+                          "name": "BLV PHAN MÃ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b0c182498f",
+                          "name": "BLV PHAN QUẨY",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv2.hoiquan3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Panama",
+            "team_b": "England",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/250px-Flag_of_Panama.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10.png",
+            "time": "04:00 28/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": true,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Panama_England_04-00 28-06_a6dc3af6_20260628.png?v=a6dc3af6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "hqlive-9f12b01232",
           "name": "Croatia vs Ghana | 04:00 28/06",
           "type": "single",
@@ -137,59 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia_Ghana_04-00 28-06_0faf42fe_20260628.png?v=0faf42fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-628c8438a7",
-          "name": "Panama vs England | 04:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-628c8438a7",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-628c8438a7",
-                  "name": "Panama vs England",
-                  "streams": [
-                    {
-                      "id": "st-628c8438a7",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Panama",
-            "team_b": "England",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/250px-Flag_of_Panama.svg.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10.png",
-            "time": "04:00 28/06",
-            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Panama_England_04-00 28-06_a6dc3af6_20260628.png?v=a6dc3af6",
             "width": 1600,
             "height": 1200
           }
