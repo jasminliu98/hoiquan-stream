@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "00:30 28/06/2026",
+  "updated_at": "00:40 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -358,7 +358,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
             "logo_b": "https://media.api-sports.io/football/teams/27.png",
             "time": "06:30 28/06",
-            "blv": "BLV PHAN MÃ, BLV LƯƠNG BỔNG, BLV PHAN QUẨY",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
