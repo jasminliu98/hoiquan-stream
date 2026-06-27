@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "01:35 28/06/2026",
+  "updated_at": "02:00 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -844,6 +844,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Wales U19_Spain U19_00-00 29-06_d4b8d559_20260628.png?v=d4b8d559",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-47193276ec",
+          "name": "South Africa vs Canada | 02:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47193276ec",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-47193276ec",
+                  "name": "South Africa vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-47193276ec",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "South Africa",
+            "team_b": "Canada",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+            "time": "02:00 29/06",
+            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/South Africa_Canada_02-00 29-06_5d9d3643_20260628.png?v=5d9d3643",
             "width": 1600,
             "height": 1200
           }
