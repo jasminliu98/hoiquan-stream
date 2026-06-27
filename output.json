@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "12:10 27/06/2026",
+  "updated_at": "13:00 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-19ba57ec91",
-          "name": "Charlestown City Blues vs Belmont Swansea | 11:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19ba57ec91",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-19ba57ec91",
-                  "name": "Charlestown City Blues vs Belmont Swansea",
-                  "streams": [
-                    {
-                      "id": "st-19ba57ec91",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Northern NSW NPL",
-            "team_a": "Charlestown City Blues",
-            "team_b": "Belmont Swansea",
-            "logo_a": "https://media.api-sports.io/football/teams/10203.png",
-            "logo_b": "https://media.api-sports.io/football/teams/23500.png",
-            "time": "11:00 27/06",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Charlestown City Blues_Belmont Swansea_11-00 27-06_a955cf31_20260627.png?v=a955cf31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-e67a359c11",
           "name": "Valentine vs Lambton Jaffas | 13:30 27/06",
