@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 27/06/2026",
+  "updated_at": "17:00 27/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -879,6 +879,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lions_WDSC Wolves_14-00 28-06_aa9425ef_20260627.png?v=aa9425ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-100ee9afeb",
+          "name": "Qingdao Youth Island vs Hangzhou Greentown | 17:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-100ee9afeb",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-100ee9afeb",
+                  "name": "Qingdao Youth Island vs Hangzhou Greentown",
+                  "streams": [
+                    {
+                      "id": "st-100ee9afeb",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Qingdao Youth Island",
+            "team_b": "Hangzhou Greentown",
+            "logo_a": "https://media.api-sports.io/football/teams/17265.png",
+            "logo_b": "https://media.api-sports.io/football/teams/848.png",
+            "time": "17:00 28/06",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Hangzhou Greentown_17-00 28-06_03fb6304_20260627.png?v=03fb6304",
             "width": 1600,
             "height": 1200
           }
