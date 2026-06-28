@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:00 28/06/2026",
+  "updated_at": "16:20 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-3d5a4a77a0",
-          "name": "Lions vs WDSC Wolves | 14:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d5a4a77a0",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-3d5a4a77a0",
-                  "name": "Lions vs WDSC Wolves",
-                  "streams": [
-                    {
-                      "id": "st-3d5a4a77a0",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Queensland NPL",
-            "team_a": "Lions",
-            "team_b": "WDSC Wolves",
-            "logo_a": "https://media.api-sports.io/football/teams/10217.png",
-            "logo_b": "https://media.api-sports.io/football/teams/11184.png",
-            "time": "14:00 28/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Lions_WDSC Wolves_14-00 28-06_aa9425ef_20260628.png?v=aa9425ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-100ee9afeb",
           "name": "Qingdao Youth Island vs Hangzhou Greentown | 17:00 28/06",
