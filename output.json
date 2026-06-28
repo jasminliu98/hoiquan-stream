@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:35 28/06/2026",
+  "updated_at": "18:55 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-100ee9afeb",
-          "name": "Qingdao Youth Island vs Hangzhou Greentown | 17:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-100ee9afeb",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-100ee9afeb",
-                  "name": "Qingdao Youth Island vs Hangzhou Greentown",
-                  "streams": [
-                    {
-                      "id": "st-100ee9afeb",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Qingdao Youth Island",
-            "team_b": "Hangzhou Greentown",
-            "logo_a": "https://media.api-sports.io/football/teams/17265.png",
-            "logo_b": "https://media.api-sports.io/football/teams/848.png",
-            "time": "17:00 28/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Qingdao Youth Island_Hangzhou Greentown_17-00 28-06_03fb6304_20260628.png?v=03fb6304",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-26e72e577d",
           "name": "Dalian Zhixing vs Shanghai Shenhua | 18:00 28/06",
