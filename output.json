@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "17:35 28/06/2026",
+  "updated_at": "18:00 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -473,6 +473,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ha Noi_Nữ Hồ Chí Minh_16-00 29-06_417d8a34_20260628.png?v=417d8a34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-cabbf2f31e",
+          "name": "Guangdong Meizhou W vs Wuhan Jiangda W | 18:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cabbf2f31e",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-cabbf2f31e",
+                  "name": "Guangdong Meizhou W vs Wuhan Jiangda W",
+                  "streams": [
+                    {
+                      "id": "st-cabbf2f31e",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Super League",
+            "team_a": "Guangdong Meizhou W",
+            "team_b": "Wuhan Jiangda W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Guangdong_South_China_Tiger_F.C.svg/1280px-Guangdong_South_China_Tiger_F.C.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/24895.png",
+            "time": "18:00 29/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Guangdong Meizhou W_Wuhan Jiangda W_18-00 29-06_d4f8e461_20260628.png?v=d4f8e461",
             "width": 1600,
             "height": 1200
           }
