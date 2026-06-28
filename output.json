@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "19:35 28/06/2026",
+  "updated_at": "20:00 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -476,158 +476,69 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "hqlive-605ce3a207",
+          "name": "Al Nejmeh vs Racing | 20:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-605ce3a207",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-605ce3a207",
+                  "name": "Al Nejmeh vs Racing",
+                  "streams": [
+                    {
+                      "id": "st-605ce3a207",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Al Nejmeh",
+            "team_b": "Racing",
+            "logo_a": "https://media.api-sports.io/football/teams/4570.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4572.png",
+            "time": "20:00 29/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Al Nejmeh_Racing_20-00 29-06_5a80ee62_20260628.png?v=5a80ee62",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "sport_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (4 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-057ae10c88",
-          "name": "Trung Quốc vs Đức | 18:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-057ae10c88",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-057ae10c88",
-                  "name": "Trung Quốc vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-057ae10c88",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6568b58b01",
-                          "name": "BLV PHAN BỐNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanbong/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Trung Quốc",
-            "team_b": "Đức",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQOuJBhheUKikHwopx5J3hD7olyljs3suGQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png",
-            "time": "18:00 28/06",
-            "blv": "BLV PHAN BỐNG",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Trung Quốc_Đức_18-00 28-06_2929afa8_20260628.png?v=2929afa8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-97d3a5dd0e",
-          "name": "Bulgaria vs Ukraina | 18:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-97d3a5dd0e",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-97d3a5dd0e",
-                  "name": "Bulgaria vs Ukraina",
-                  "streams": [
-                    {
-                      "id": "st-97d3a5dd0e",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07fa7a18bb",
-                          "name": "BLV PHAN HẢI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhai/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nation League Men",
-            "team_a": "Bulgaria",
-            "team_b": "Ukraina",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-            "time": "18:00 28/06",
-            "blv": "BLV PHAN HẢI",
-            "is_live": true,
-            "sport_slug": "bong-chuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bulgaria_Ukraina_18-00 28-06_af494715_20260628.png?v=af494715",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-ab86f4cb5d",
           "name": "Iran vs Ukraina | 18:30 28/06",
