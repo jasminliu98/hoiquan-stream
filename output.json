@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:00 28/06/2026",
+  "updated_at": "20:05 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-26e72e577d",
-          "name": "Dalian Zhixing vs Shanghai Shenhua | 18:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26e72e577d",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-26e72e577d",
-                  "name": "Dalian Zhixing vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-26e72e577d",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4d653008a",
-                          "name": "BLV PHAN HÀ LINH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanhalinh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Dalian Zhixing",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://media.api-sports.io/football/teams/21263.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
-            "time": "18:00 28/06",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dalian Zhixing_Shanghai Shenhua_18-00 28-06_92f461c0_20260628.png?v=92f461c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-cac66d7e1b",
           "name": "FK Tobol Kostanay vs Altay | 20:00 28/06",
@@ -140,7 +69,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "Ngoại hạng Kazakhstan",
             "team_a": "FK Tobol Kostanay",
             "team_b": "Altay",
             "logo_a": "https://media.api-sports.io/football/teams/2259.png",
