@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "14:00 28/06/2026",
+  "updated_at": "16:00 28/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -455,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Nautico Recife_Goias_04-30 29-06_5cf3218e_20260628.png?v=5cf3218e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-b75f04a6f5",
+          "name": "Ha Noi vs Nữ Hồ Chí Minh | 16:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b75f04a6f5",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-b75f04a6f5",
+                  "name": "Ha Noi vs Nữ Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-b75f04a6f5",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.league",
+            "team_a": "Ha Noi",
+            "team_b": "Nữ Hồ Chí Minh",
+            "logo_a": "https://media.api-sports.io/football/teams/3670.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/9/9a/Logo_HWFC.png/250px-Logo_HWFC.png",
+            "time": "16:00 29/06",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ha Noi_Nữ Hồ Chí Minh_16-00 29-06_417d8a34_20260628.png?v=417d8a34",
             "width": 1600,
             "height": 1200
           }
