@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "08:05 29/06/2026",
+  "updated_at": "15:30 29/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -57,7 +57,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/3670.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/9/9a/Logo_HWFC.png/250px-Logo_HWFC.png",
             "time": "16:00 29/06",
-            "blv": "BLV PHAN CA",
+            "blv": "BLV THẦN THÔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
