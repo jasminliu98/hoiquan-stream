@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:45 29/06/2026",
+  "updated_at": "17:00 29/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -508,6 +508,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Morocco_08-00 30-06_a20fb9ff_20260629.png?v=a20fb9ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-1151cc57db",
+          "name": "SD Raiders vs Sydney FC U23 | 17:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1151cc57db",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-1151cc57db",
+                  "name": "SD Raiders vs Sydney FC U23",
+                  "streams": [
+                    {
+                      "id": "st-1151cc57db",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "New South Wales NPL",
+            "team_a": "SD Raiders",
+            "team_b": "Sydney FC U23",
+            "logo_a": "https://media.api-sports.io/football/teams/16777.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3773.png",
+            "time": "17:00 30/06",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SD Raiders_Sydney FC U23_17-00 30-06_28066c4e_20260629.png?v=28066c4e",
             "width": 1600,
             "height": 1200
           }
