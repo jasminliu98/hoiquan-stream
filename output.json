@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:20 29/06/2026",
+  "updated_at": "08:00 29/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -455,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Germany_Paraguay_03-30 30-06_5f0f1ba3_20260629.png?v=5f0f1ba3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-a375849fc1",
+          "name": "Netherlands vs Morocco | 08:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a375849fc1",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-a375849fc1",
+                  "name": "Netherlands vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-a375849fc1",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Netherlands",
+            "team_b": "Morocco",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1280px-Flag_of_Morocco.svg.png",
+            "time": "08:00 30/06",
+            "blv": "BLV PHAN MÃ, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Morocco_08-00 30-06_a20fb9ff_20260629.png?v=a20fb9ff",
             "width": 1600,
             "height": 1200
           }
