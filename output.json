@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:05 29/06/2026",
+  "updated_at": "20:10 29/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -142,59 +142,6 @@
           }
         },
         {
-          "id": "hqlive-909ba27f1c",
-          "name": "VJS vs TPV | 22:30 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-909ba27f1c",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-909ba27f1c",
-                  "name": "VJS vs TPV",
-                  "streams": [
-                    {
-                      "id": "st-909ba27f1c",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ykkönen",
-            "team_a": "VJS",
-            "team_b": "TPV",
-            "logo_a": "https://media.api-sports.io/football/teams/6075.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2244.png",
-            "time": "22:30 29/06",
-            "blv": "BLV PHAN HÀ LINH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VJS_TPV_22-30 29-06_64df8fd4_20260629.png?v=64df8fd4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "hqlive-adeb16cacb",
           "name": "Brazil vs Japan | 00:00 30/06",
           "type": "single",
@@ -234,7 +181,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png",
             "time": "00:00 30/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN HÀ LINH",
+            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -340,7 +287,7 @@
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/250px-Flag_of_Paraguay.svg.png",
             "time": "03:30 30/06",
-            "blv": "BLV PHAN MÃ, BLV THẦN THÔNG, BLV PHAN QUẨY",
+            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -402,59 +349,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Netherlands_Morocco_08-00 30-06_a20fb9ff_20260629.png?v=a20fb9ff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "hqlive-1151cc57db",
-          "name": "SD Raiders vs Sydney FC U23 | 17:00 30/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1151cc57db",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-1151cc57db",
-                  "name": "SD Raiders vs Sydney FC U23",
-                  "streams": [
-                    {
-                      "id": "st-1151cc57db",
-                      "name": "HQ",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "New South Wales NPL",
-            "team_a": "SD Raiders",
-            "team_b": "Sydney FC U23",
-            "logo_a": "https://media.api-sports.io/football/teams/16777.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3773.png",
-            "time": "17:00 30/06",
-            "blv": "BLV PHAN ANH",
-            "is_live": false,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/SD Raiders_Sydney FC U23_17-00 30-06_28066c4e_20260629.png?v=28066c4e",
             "width": 1600,
             "height": 1200
           }
