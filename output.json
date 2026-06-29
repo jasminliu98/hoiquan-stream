@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:00 29/06/2026",
+  "updated_at": "16:20 29/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -390,7 +390,7 @@
             "league": "UEFA U19 Championship",
             "team_a": "Croatia U19",
             "team_b": "Ukraine U19",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/3/39/Croatia_national_football_team_crest.svg/884px-Croatia_national_football_team_crest.svg.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
             "logo_b": "https://media.api-sports.io/football/teams/10352.png",
             "time": "02:00 30/06",
             "blv": "BLV TÁO GIÀ",
@@ -401,7 +401,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U19_Ukraine U19_02-00 30-06_d17a11b4_20260629.png?v=d17a11b4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U19_Ukraine U19_02-00 30-06_904f31a9_20260629.png?v=904f31a9",
             "width": 1600,
             "height": 1200
           }
