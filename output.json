@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:20 30/06/2026",
+  "updated_at": "17:00 30/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -384,6 +384,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_Ecuador_08-00 01-07_fbb9738e_20260630.png?v=fbb9738e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-ec0200e4cf",
+          "name": "Hamilton Olympic vs Charlestown City Blues | 17:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec0200e4cf",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-ec0200e4cf",
+                  "name": "Hamilton Olympic vs Charlestown City Blues",
+                  "streams": [
+                    {
+                      "id": "st-ec0200e4cf",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Northern NSW NPL",
+            "team_a": "Hamilton Olympic",
+            "team_b": "Charlestown City Blues",
+            "logo_a": "https://media.api-sports.io/football/teams/10205.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10203.png",
+            "time": "17:00 01/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hamilton Olympic_Charlestown City Blues_17-00 01-07_83aa52cf_20260630.png?v=83aa52cf",
             "width": 1600,
             "height": 1200
           }
