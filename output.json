@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "23:40 30/06/2026",
+  "updated_at": "00:00 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-321006eaad",
-          "name": "VPS vs Inter Turku | 22:00 30/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-321006eaad",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-321006eaad",
-                  "name": "VPS vs Inter Turku",
-                  "streams": [
-                    {
-                      "id": "st-321006eaad",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cad2e4412",
-                          "name": "BLV TÁO GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Suomen Cup",
-            "team_a": "VPS",
-            "team_b": "Inter Turku",
-            "logo_a": "https://media.api-sports.io/football/teams/650.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1164.png",
-            "time": "22:00 30/06",
-            "blv": "BLV TÁO GIÀ",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/VPS_Inter Turku_22-00 30-06_8569433f_20260630.png?v=8569433f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-8f66a5103d",
           "name": "FK Liepaja vs Ogre United | 23:00 30/06",
@@ -154,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Liepaja_Ogre United_23-00 30-06_6e66dd2c_20260630.png?v=6e66dd2c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/FK Liepaja_Ogre United_23-00 30-06_6e66dd2c_20260701.png?v=6e66dd2c",
             "width": 1600,
             "height": 1200
           }
@@ -242,7 +171,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ivory Coast_Norway_00-00 01-07_fe136bed_20260630.png?v=fe136bed",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Ivory Coast_Norway_00-00 01-07_fe136bed_20260701.png?v=fe136bed",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Sweden_04-00 01-07_c55775a1_20260630.png?v=c55775a1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Sweden_04-00 01-07_c55775a1_20260701.png?v=c55775a1",
             "width": 1600,
             "height": 1200
           }
@@ -348,7 +277,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botafogo SP_CRB_06-00 01-07_e11bd3bd_20260630.png?v=e11bd3bd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botafogo SP_CRB_06-00 01-07_e11bd3bd_20260701.png?v=e11bd3bd",
             "width": 1600,
             "height": 1200
           }
@@ -401,7 +330,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_Ecuador_08-00 01-07_fbb9738e_20260630.png?v=fbb9738e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_Ecuador_08-00 01-07_fbb9738e_20260701.png?v=fbb9738e",
             "width": 1600,
             "height": 1200
           }
@@ -454,7 +383,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hamilton Olympic_Charlestown City Blues_17-00 01-07_83aa52cf_20260630.png?v=83aa52cf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Hamilton Olympic_Charlestown City Blues_17-00 01-07_83aa52cf_20260701.png?v=83aa52cf",
             "width": 1600,
             "height": 1200
           }
@@ -507,7 +436,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tukums_Super Nova_22-00 01-07_9a0790a7_20260630.png?v=9a0790a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tukums_Super Nova_22-00 01-07_9a0790a7_20260701.png?v=9a0790a7",
             "width": 1600,
             "height": 1200
           }
@@ -560,7 +489,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Congo DR_23-00 01-07_2aaf30ea_20260630.png?v=2aaf30ea",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Congo DR_23-00 01-07_2aaf30ea_20260701.png?v=2aaf30ea",
             "width": 1600,
             "height": 1200
           }
@@ -613,7 +542,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/HJK Helsinki_Ilves_23-00 01-07_b5053dfd_20260630.png?v=b5053dfd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/HJK Helsinki_Ilves_23-00 01-07_b5053dfd_20260701.png?v=b5053dfd",
             "width": 1600,
             "height": 1200
           }
