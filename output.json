@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "15:30 30/06/2026",
+  "updated_at": "15:35 30/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -17,6 +17,59 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "hqlive-9d616c203c",
+          "name": "Phong Phu Ha Nam W vs TKS Viet Nam W | 16:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d616c203c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-9d616c203c",
+                  "name": "Phong Phu Ha Nam W vs TKS Viet Nam W",
+                  "streams": [
+                    {
+                      "id": "st-9d616c203c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.league",
+            "team_a": "Phong Phu Ha Nam W",
+            "team_b": "TKS Viet Nam W",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/y39mp1h5ew7mojx/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekh9jxzrepz/image/small",
+            "time": "16:00 30/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Phong Phu Ha Nam W_TKS Viet Nam W_16-00 30-06_b72d46e2_20260630.png?v=b72d46e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "hqlive-e35d40aa03",
           "name": "Logan Lightning vs Redlands United | 17:30 30/06",
@@ -278,6 +331,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/France_Sweden_04-00 01-07_c55775a1_20260630.png?v=c55775a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-778b97fe5b",
+          "name": "Botafogo SP vs CRB | 06:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-778b97fe5b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-778b97fe5b",
+                  "name": "Botafogo SP vs CRB",
+                  "streams": [
+                    {
+                      "id": "st-778b97fe5b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Botafogo SP",
+            "team_b": "CRB",
+            "logo_a": "https://media.api-sports.io/football/teams/2618.png",
+            "logo_b": "https://media.api-sports.io/football/teams/146.png",
+            "time": "06:00 01/07",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botafogo SP_CRB_06-00 01-07_e11bd3bd_20260630.png?v=e11bd3bd",
             "width": 1600,
             "height": 1200
           }
