@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "03:35 01/07/2026",
+  "updated_at": "03:40 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -436,6 +436,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/HJK Helsinki_Ilves_23-00 01-07_b5053dfd_20260701.png?v=b5053dfd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0e20dfcbbd",
+          "name": "Belgium vs Senegal | 03:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e20dfcbbd",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0e20dfcbbd",
+                  "name": "Belgium vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-0e20dfcbbd",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Belgium",
+            "team_b": "Senegal",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
+            "time": "03:00 02/07",
+            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium_Senegal_03-00 02-07_958b8b87_20260701.png?v=958b8b87",
             "width": 1600,
             "height": 1200
           }
