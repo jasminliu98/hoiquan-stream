@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:50 01/07/2026",
+  "updated_at": "05:00 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -489,6 +489,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium_Senegal_03-00 02-07_958b8b87_20260701.png?v=958b8b87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-547f7aa055",
+          "name": "LDU de Quito vs Orense SC | 05:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-547f7aa055",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-547f7aa055",
+                  "name": "LDU de Quito vs Orense SC",
+                  "streams": [
+                    {
+                      "id": "st-547f7aa055",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga Pro",
+            "team_a": "LDU de Quito",
+            "team_b": "Orense SC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/e/e8/LDUQuitologo2.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1992.png",
+            "time": "05:00 02/07",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/LDU de Quito_Orense SC_05-00 02-07_ef273fe7_20260701.png?v=ef273fe7",
             "width": 1600,
             "height": 1200
           }
