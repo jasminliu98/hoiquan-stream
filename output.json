@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:10 30/06/2026",
+  "updated_at": "16:15 30/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -455,6 +455,121 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Mexico_Ecuador_08-00 01-07_fbb9738e_20260630.png?v=fbb9738e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-5d187aaa65",
+          "name": "Otto Virtanen vs Ben Shelton | 18:30 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d187aaa65",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5d187aaa65",
+                  "name": "Otto Virtanen vs Ben Shelton",
+                  "streams": [
+                    {
+                      "id": "st-5d187aaa65",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Wimbledon",
+            "team_a": "Otto Virtanen",
+            "team_b": "Ben Shelton",
+            "logo_a": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2023_09_17/virtanen-2718.jpg.webp",
+            "logo_b": "https://www.thesecondserve.com/wp-content/uploads/2025/08/ben-shelton-toronto-cincinnati-open2-1.jpg",
+            "time": "18:30 30/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Otto Virtanen_Ben Shelton_18-30 30-06_5967a0ed_20260630.png?v=5967a0ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-33f2657d4a",
+          "name": "Frances Tiafoe vs Terence Atmane | 21:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33f2657d4a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-33f2657d4a",
+                  "name": "Frances Tiafoe vs Terence Atmane",
+                  "streams": [
+                    {
+                      "id": "st-33f2657d4a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Wimbledon",
+            "team_a": "Frances Tiafoe",
+            "team_b": "Terence Atmane",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/a/a3/FrancesTiafo.jpg",
+            "logo_b": "https://image.sggp.org.vn/w1000/Uploaded/2026/ldfnyrykxq/2025_08_15/atmane-5203-3906.jpeg.webp",
+            "time": "21:00 30/06",
+            "blv": "BLV PHAN PHÉP",
+            "is_live": false,
+            "sport_slug": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Frances Tiafoe_Terence Atmane_21-00 30-06_e4501bf5_20260630.png?v=e4501bf5",
             "width": 1600,
             "height": 1200
           }
