@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 30/06/2026",
+  "updated_at": "23:00 30/06/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -473,6 +473,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Tukums_Super Nova_22-00 01-07_9a0790a7_20260630.png?v=9a0790a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-6eb761d3d9",
+          "name": "England vs Congo DR | 23:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6eb761d3d9",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-6eb761d3d9",
+                  "name": "England vs Congo DR",
+                  "streams": [
+                    {
+                      "id": "st-6eb761d3d9",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "England",
+            "team_b": "Congo DR",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+            "time": "23:00 01/07",
+            "blv": "BLV PHAN QUẨY, BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/England_Congo DR_23-00 01-07_2aaf30ea_20260630.png?v=2aaf30ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-0015e02c0a",
+          "name": "HJK Helsinki vs Ilves | 23:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0015e02c0a",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-0015e02c0a",
+                  "name": "HJK Helsinki vs Ilves",
+                  "streams": [
+                    {
+                      "id": "st-0015e02c0a",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Suomen Cup",
+            "team_a": "HJK Helsinki",
+            "team_b": "Ilves",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1163.png",
+            "time": "23:00 01/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/HJK Helsinki_Ilves_23-00 01-07_b5053dfd_20260630.png?v=b5053dfd",
             "width": 1600,
             "height": 1200
           }
