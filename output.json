@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "21:45 01/07/2026",
+  "updated_at": "22:00 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -508,6 +508,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dordoi Bishkek_Kara-Balta_21-00 02-07_48d47edd_20260701.png?v=48d47edd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2a558ace1d",
+          "name": "Bate Borisov vs FC Gomel | 22:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a558ace1d",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2a558ace1d",
+                  "name": "Bate Borisov vs FC Gomel",
+                  "streams": [
+                    {
+                      "id": "st-2a558ace1d",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Bate Borisov",
+            "team_b": "FC Gomel",
+            "logo_a": "https://media.api-sports.io/football/teams/388.png",
+            "logo_b": "https://media.api-sports.io/football/teams/389.png",
+            "time": "22:00 02/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Bate Borisov_FC Gomel_22-00 02-07_f9281e38_20260701.png?v=f9281e38",
             "width": 1600,
             "height": 1200
           }
