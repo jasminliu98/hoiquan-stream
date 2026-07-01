@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "18:50 01/07/2026",
+  "updated_at": "20:00 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -331,6 +331,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Bosnia & Herzegovina_07-00 02-07_a56e34b8_20260701.png?v=a56e34b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2e027443ca",
+          "name": "Croatia U19 vs Italy U19 | 20:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e027443ca",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2e027443ca",
+                  "name": "Croatia U19 vs Italy U19",
+                  "streams": [
+                    {
+                      "id": "st-2e027443ca",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship",
+            "team_a": "Croatia U19",
+            "team_b": "Italy U19",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+            "time": "20:00 02/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U19_Italy U19_20-00 02-07_1c0079d4_20260701.png?v=1c0079d4",
             "width": 1600,
             "height": 1200
           }
