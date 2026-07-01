@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "22:35 01/07/2026",
+  "updated_at": "22:45 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -116,27 +116,10 @@
                       "name": "HQ",
                       "stream_links": [
                         {
-                          "id": "lnk-b0c182498f",
-                          "name": "BLV PHAN QUẨY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-975fc55dd1",
                           "name": "BLV LƯƠNG BỔNG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "request_headers": [
                             {
@@ -163,7 +146,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/10.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/1280px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
             "time": "23:00 01/07",
-            "blv": "BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
+            "blv": "BLV LƯƠNG BỔNG",
             "is_live": true,
             "sport_slug": "bong-da"
           },
@@ -287,7 +270,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/1.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
             "time": "03:00 02/07",
-            "blv": "BLV THẦN THÔNG, BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
+            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
@@ -393,7 +376,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/2384.png",
             "logo_b": "https://media.api-sports.io/football/teams/1113.png",
             "time": "07:00 02/07",
-            "blv": "BLV LƯƠNG BỔNG, BLV PHAN QUẨY, BLV THẦN THÔNG",
+            "blv": "BLV LƯƠNG BỔNG, BLV THẦN THÔNG",
             "is_live": false,
             "sport_slug": "bong-da"
           },
