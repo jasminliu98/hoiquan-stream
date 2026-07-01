@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "20:25 01/07/2026",
+  "updated_at": "21:00 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -384,6 +384,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Croatia U19_Italy U19_20-00 02-07_1c0079d4_20260701.png?v=1c0079d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-be85e50fde",
+          "name": "Abdish-Ata vs Alga | 21:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be85e50fde",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-be85e50fde",
+                  "name": "Abdish-Ata vs Alga",
+                  "streams": [
+                    {
+                      "id": "st-be85e50fde",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Abdish-Ata",
+            "team_b": "Alga",
+            "logo_a": "https://media.api-sports.io/football/teams/12234.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12235.png",
+            "time": "21:00 02/07",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Abdish-Ata_Alga_21-00 02-07_16e42f83_20260701.png?v=16e42f83",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-484174342c",
+          "name": "Dordoi Bishkek vs Kara-Balta | 21:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-484174342c",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-484174342c",
+                  "name": "Dordoi Bishkek vs Kara-Balta",
+                  "streams": [
+                    {
+                      "id": "st-484174342c",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Dordoi Bishkek",
+            "team_b": "Kara-Balta",
+            "logo_a": "https://media.api-sports.io/football/teams/8026.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12238.png",
+            "time": "21:00 02/07",
+            "blv": "BLV PHAN CA",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Dordoi Bishkek_Kara-Balta_21-00 02-07_48d47edd_20260701.png?v=48d47edd",
             "width": 1600,
             "height": 1200
           }
