@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "16:35 01/07/2026",
+  "updated_at": "17:00 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -402,6 +402,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Bosnia & Herzegovina_07-00 02-07_a56e34b8_20260701.png?v=a56e34b8",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "sport_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "hqlive-5a188d5434",
+          "name": "U18 Việt Nam vs U18 Đài Bắc Trung Hoa | 19:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a188d5434",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-5a188d5434",
+                  "name": "U18 Việt Nam vs U18 Đài Bắc Trung Hoa",
+                  "streams": [
+                    {
+                      "id": "st-5a188d5434",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U18 Châu Á",
+            "team_a": "U18 Việt Nam",
+            "team_b": "U18 Đài Bắc Trung Hoa",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Chinese_Taipei_for_Olympic_Games.svg/250px-Flag_of_Chinese_Taipei_for_Olympic_Games.svg.png",
+            "time": "19:00 01/07",
+            "blv": "BLV TÁO GIÀ",
+            "is_live": false,
+            "sport_slug": "bong-chuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/U18 Việt Nam_U18 Đài Bắc Trung Hoa_19-00 01-07_2c1d4c04_20260701.png?v=2c1d4c04",
             "width": 1600,
             "height": 1200
           }
