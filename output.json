@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "05:55 01/07/2026",
+  "updated_at": "07:00 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -455,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/LDU de Quito_Orense SC_05-00 02-07_ef273fe7_20260701.png?v=ef273fe7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-e7215b2858",
+          "name": "USA vs Bosnia & Herzegovina | 07:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7215b2858",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-e7215b2858",
+                  "name": "USA vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-e7215b2858",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "USA",
+            "team_b": "Bosnia & Herzegovina",
+            "logo_a": "https://media.api-sports.io/football/teams/2384.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
+            "time": "07:00 02/07",
+            "blv": "BLV LƯƠNG BỔNG, BLV PHAN QUẨY, BLV THẦN THÔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/USA_Bosnia & Herzegovina_07-00 02-07_a56e34b8_20260701.png?v=a56e34b8",
             "width": 1600,
             "height": 1200
           }
