@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "04:35 02/07/2026",
+  "updated_at": "06:00 02/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,99 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-0e20dfcbbd",
-          "name": "Belgium vs Senegal | 03:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e20dfcbbd",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-0e20dfcbbd",
-                  "name": "Belgium vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-0e20dfcbbd",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b10e5b640b",
-                          "name": "BLV THẦN THÔNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-975fc55dd1",
-                          "name": "BLV LƯƠNG BỔNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Belgium",
-            "team_b": "Senegal",
-            "logo_a": "https://media.api-sports.io/football/teams/1.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png",
-            "time": "03:00 02/07",
-            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Belgium_Senegal_03-00 02-07_958b8b87_20260702.png?v=958b8b87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-547f7aa055",
           "name": "LDU de Quito vs Orense SC | 05:00 02/07",
@@ -543,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Spain_Austria_02-00 03-07_6b4087a9_20260702.png?v=6b4087a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-35d3bf779b",
+          "name": "Portugal vs Croatia | 06:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d3bf779b",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-35d3bf779b",
+                  "name": "Portugal vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-35d3bf779b",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Portugal",
+            "team_b": "Croatia",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+            "time": "06:00 03/07",
+            "blv": "BLV THẦN THÔNG, BLV LƯƠNG BỔNG, BLV PHAN QUẨY",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Croatia_06-00 03-07_b31fc920_20260702.png?v=b31fc920",
             "width": 1600,
             "height": 1200
           }
