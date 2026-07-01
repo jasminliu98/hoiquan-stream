@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "07:35 01/07/2026",
+  "updated_at": "09:20 01/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -12,82 +12,11 @@
   "groups": [
     {
       "id": "sport_bong-da",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "hqlive-778b97fe5b",
-          "name": "Botafogo SP vs CRB | 06:00 01/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-778b97fe5b",
-              "name": "HoiQuanTV",
-              "contents": [
-                {
-                  "id": "ct-778b97fe5b",
-                  "name": "Botafogo SP vs CRB",
-                  "streams": [
-                    {
-                      "id": "st-778b97fe5b",
-                      "name": "HQ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6231c6549",
-                          "name": "BLV PHAN CA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv2.hoiquan3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie B",
-            "team_a": "Botafogo SP",
-            "team_b": "CRB",
-            "logo_a": "https://media.api-sports.io/football/teams/2618.png",
-            "logo_b": "https://media.api-sports.io/football/teams/146.png",
-            "time": "06:00 01/07",
-            "blv": "BLV PHAN CA",
-            "is_live": true,
-            "sport_slug": "bong-da"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Botafogo SP_CRB_06-00 01-07_e11bd3bd_20260701.png?v=e11bd3bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "hqlive-befdcfc374",
           "name": "Mexico vs Ecuador | 08:00 01/07",
