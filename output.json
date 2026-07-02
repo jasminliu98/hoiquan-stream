@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "06:35 02/07/2026",
+  "updated_at": "07:00 02/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -543,6 +543,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Portugal_Croatia_06-00 03-07_b31fc920_20260702.png?v=b31fc920",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-c51ac4d03f",
+          "name": "Fortaleza EC vs Ponte Preta | 07:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c51ac4d03f",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-c51ac4d03f",
+                  "name": "Fortaleza EC vs Ponte Preta",
+                  "streams": [
+                    {
+                      "id": "st-c51ac4d03f",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Fortaleza EC",
+            "team_b": "Ponte Preta",
+            "logo_a": "https://media.api-sports.io/football/teams/154.png",
+            "logo_b": "https://media.api-sports.io/football/teams/139.png",
+            "time": "07:00 03/07",
+            "blv": "BLV PHAN ANH",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fortaleza EC_Ponte Preta_07-00 03-07_2fbfed3e_20260702.png?v=2fbfed3e",
             "width": 1600,
             "height": 1200
           }
