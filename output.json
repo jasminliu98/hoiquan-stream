@@ -3,7 +3,7 @@
   "url": "https://sv2.hoiquan3.live",
   "name": "HoiQuanTV",
   "color": "#1cb57a",
-  "updated_at": "09:20 02/07/2026",
+  "updated_at": "10:00 02/07/2026",
   "grid_number": 3,
   "image": {
     "type": "cover",
@@ -437,6 +437,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Fortaleza EC_Ponte Preta_07-00 03-07_2fbfed3e_20260702.png?v=2fbfed3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "hqlive-2c5aada027",
+          "name": "Switzerland vs Algeria | 10:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c5aada027",
+              "name": "HoiQuanTV",
+              "contents": [
+                {
+                  "id": "ct-2c5aada027",
+                  "name": "Switzerland vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-2c5aada027",
+                      "name": "HQ",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Switzerland",
+            "team_b": "Algeria",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png",
+            "time": "10:00 03/07",
+            "blv": "BLV PHAN QUẨY, BLV LƯƠNG BỔNG",
+            "is_live": false,
+            "sport_slug": "bong-da"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/thumbs/Switzerland_Algeria_10-00 03-07_d9bf01e5_20260702.png?v=d9bf01e5",
             "width": 1600,
             "height": 1200
           }
